@@ -1,0 +1,33 @@
+{
+  "split_frames": {
+    "train": 480,
+    "val": 96,
+    "test": 128
+  },
+  "site_splits": {
+    "corner_-1_-1": "train",
+    "corner_1_-1": "train",
+    "corner_-1_1": "val",
+    "corner_1_1": "test",
+    "T_north": "train",
+    "straight_north": "train",
+    "T_south": "train",
+    "straight_south": "train",
+    "T_west": "val",
+    "straight_west": "val",
+    "T_east": "test",
+    "straight_east": "test",
+    "central_cross": "test"
+  },
+  "class_pixels": [
+    24955570,
+    28997127,
+    114503
+  ],
+  "image_size": [
+    320,
+    240
+  ],
+  "positive_road": "Includes crosswalk stripes and all painted transverse markings",
+  "real_eval": "4 sparse manually reviewed diagnostic frames, no dense real training labels"
+}

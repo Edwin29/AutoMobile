@@ -1,0 +1,15 @@
+{
+  "source": "KakaoTalk_20261031_165145372.mp4",
+  "definition": "Physical entry-side crosswalk visible in the foreground before the camera enters the central junction. Keep this identity even when the camera points to the right outlet.",
+  "label_space": [320,180],
+  "method": "Human visual review of the original sequence, independent of the detector. Approximate bounding rectangles on keyframes; interpolate in between. Last slivers labelled explicitly.",
+  "first": 659, "last_visible": 701, "last": 748,
+  "keyframes": {
+    "659":[93,68,184,95], "662":[95,68,189,97], "665":[93,67,193,100],
+    "668":[95,71,202,103], "671":[93,69,209,105], "674":[95,69,222,110],
+    "677":[99,75,237,123], "680":[97,76,249,129], "683":[91,77,263,141],
+    "686":[80,84,277,159], "687":[76,88,280,169], "688":[69,93,284,179],
+    "689":[67,97,285,180], "692":[49,113,282,180], "695":[56,137,276,180],
+    "698":[58,156,281,180], "699":[57,160,281,180], "700":[55,164,285,180], "701":[181,172,287,180]
+  }
+}

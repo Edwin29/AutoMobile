@@ -1,0 +1,19 @@
+{
+  "simulation_only": true,
+  "frames_per_second": 15,
+  "inside_road_cm": 18.5,
+  "user_reported_inside_road_cm": 18.0,
+  "vehicle_width_cm": 16.0,
+  "vehicle_length_cm": 24.5,
+  "pivot_reference_behind_front_cm": 14.5,
+  "comparison": "A output learner, B also existing crosswalk gain tracker, C also learns prediction from accepted boundary-corrected pose intervals",
+  "approach_and_exit": "Shared pivot route and controls; adaptation enabled during pivot only",
+  "limits": "0.26 opposite wheel command cap, 0.6 duty/s slew, 0.25cm predicted margin stop, up to 3 missing frames if prior margin >=1cm",
+  "recovery": "Zero output on prolonged lost edges, three consecutive stationary map-layout confirmations before resuming",
+  "delay": "For 2.5s after first opposed wheel command, actual yaw response is 60% of nominal. This does not model individual wheel dynamics.",
+  "slide": "Delay-slide also moves the real body by [1.3cm right,2.4cm forward] per 52 degrees during the delay only. This is a sensitivity assumption from one photo, not a calibrated transient.",
+  "weak": "Actual right response 0.6317018569 times 0.85, versus prior 0.6217314378",
+  "blind": "Whole camera white 9 frames from 4.4s after pivot actuation starts, same timing policy for each arm",
+  "estimator": "C updates use camera-corrected pose, which includes prediction. They are not an independent pose sensor.",
+  "scope": "One deterministic simulated run per condition and controller. No inertia, motor electrical model, per-wheel friction, or observation-noise sweep."
+}

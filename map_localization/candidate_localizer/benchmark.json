@@ -1,0 +1,10 @@
+{
+  "candidates": 63,
+  "batch_seconds": 0.08736550001776777,
+  "scalar_seconds": 0.19387300001108088,
+  "full_search_seconds": 4.601939400017727,
+  "full_search_candidates": 2223,
+  "max_score_difference": 0.0,
+  "opencv_threads": 1,
+  "platform": "Windows laptop, not Raspberry Pi"
+}

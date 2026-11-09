@@ -1,0 +1,27 @@
+{
+  "scope": "Synthetic endpoints (0,0) to (20,20) cm; not measured track geometry",
+  "bezier": [
+    {
+      "handle_cm": 8,
+      "heading_change_deg": 90.0,
+      "endpoint_radius_cm": 8.0,
+      "minimum_radius_cm": 8.0
+    },
+    {
+      "handle_cm": 11.045694996615868,
+      "heading_change_deg": 90.0,
+      "endpoint_radius_cm": 20.438332943565275,
+      "minimum_radius_cm": 19.841172069286905
+    },
+    {
+      "handle_cm": 16,
+      "heading_change_deg": 90.0,
+      "endpoint_radius_cm": 96.0,
+      "minimum_radius_cm": 9.54594154601839
+    }
+  ],
+  "width_assumption_error_cm": 4.0,
+  "straight_clearance_per_side_cm": 1.25,
+  "circle_geometric_center_radius_cm": 20,
+  "outer_corner_radius_cm": 30.644126680328156
+}

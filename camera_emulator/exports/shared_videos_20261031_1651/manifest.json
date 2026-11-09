@@ -1,0 +1,107 @@
+{
+  "filter": {
+    "calibration": "C:\\Users\\user\\Documents\\ChatGPT\\AutoDrive 2\\camera_emulator\\calibration\\ov5647_fisheye_640x480.npz",
+    "calibration_sha256": "266fd99c271dfa1dd3f1e89a83a1ef85a8f7c834f7c1c9d62cec68fe4c9a3b74",
+    "target_K": [
+      [
+        361.29976512879074,
+        0.0,
+        325.873444669646
+      ],
+      [
+        0.0,
+        360.7597769048832,
+        257.9498608646318
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "target_D": [
+      [
+        -0.041172418953675204
+      ],
+      [
+        0.053759737682651076
+      ],
+      [
+        -0.24212587950986664
+      ],
+      [
+        0.2322769102770605
+      ]
+    ],
+    "virtual_input_K": [
+      [
+        207.17665195990966,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        207.17665195990966,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "output_size": [
+      640,
+      480
+    ],
+    "limitations": "Synthetic degradation, not validated camera matching. Input assumed rectilinear; actual source FOV unknown."
+  },
+  "settings": {
+    "blur": 1.0,
+    "noise": 0.0,
+    "quality": 100,
+    "gain": 1.0,
+    "distort": true
+  },
+  "timing": "All decoded frames retained at source average frame rate (CFR); source audio copied.",
+  "files": [
+    {
+      "name": "KakaoTalk_20261031_165146762.mp4",
+      "bytes": 10374520,
+      "sha256": "a9f655c7088b80b0e6556927f19d51186011c7eab0c615a3c3ad4b99e9b8d1a6",
+      "frames": 776,
+      "crop_xywh": null
+    },
+    {
+      "name": "KakaoTalk_20261031_165146762_distorted_blur.mp4",
+      "bytes": 4039393,
+      "sha256": "bcac34dc39991edde1c85ed884f71639558ecda1fc1bb78d092bf8604c82aa07",
+      "frames": 776,
+      "crop_xywh": [
+        160,
+        0,
+        960,
+        720
+      ]
+    },
+    {
+      "name": "KakaoTalk_20261031_165145372.mp4",
+      "bytes": 13886424,
+      "sha256": "65c2f7cbe5376db3ec718d0504341775ccfcfd6a9ac742f231220c71bfc7a732",
+      "frames": 1037,
+      "crop_xywh": null
+    },
+    {
+      "name": "KakaoTalk_20261031_165145372_distorted_blur.mp4",
+      "bytes": 5481894,
+      "sha256": "f7d188df2086d36c4e90d61034ca59f0224c11f514e7d189bfa288c4ca692953",
+      "frames": 1037,
+      "crop_xywh": [
+        160,
+        0,
+        960,
+        720
+      ]
+    }
+  ]
+}

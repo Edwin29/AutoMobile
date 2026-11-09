@@ -1,0 +1,62 @@
+{
+  "status": "provisional",
+  "model": "OpenCV pinhole, 5 distortion coefficients",
+  "inner_corners": [
+    10,
+    7
+  ],
+  "image_size": [
+    640,
+    480
+  ],
+  "rotation_degrees": 180,
+  "square_size": "1 arbitrary unit; no metric distances",
+  "sampled": 100,
+  "detected": 45,
+  "training": 35,
+  "held_out": 9,
+  "excluded": [
+    "image_20261030_113640_161345.jpg"
+  ],
+  "rms_px": 0.40329628319700833,
+  "train_median_px": 0.35145819187164307,
+  "held_out_median_px": 0.3333750069141388,
+  "held_out_max_px": 0.6754468679428101,
+  "camera_matrix": [
+    [
+      365.00774772723327,
+      0.0,
+      320.98449837170773
+    ],
+    [
+      0.0,
+      364.55343586116487,
+      261.6713390178723
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion": [
+    [
+      -0.3694104962548385,
+      0.17287211943746264,
+      -0.002852139893974501,
+      0.0020088680462505455,
+      -0.04871069189140487
+    ]
+  ],
+  "valid_roi": [
+    0,
+    0,
+    639,
+    479
+  ],
+  "limitations": [
+    "Held-out images come from the same capture session.",
+    "Board flatness and historical sensor crop are not independently verified.",
+    "Recalibrate after lens, focus, crop, resolution or orientation changes."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "site": "narrow",
+  "condition": "hidden",
+  "outcome": "pass",
+  "elapsed_s": 37.53333333333333,
+  "min_cm": 0.3577253818511963,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232,
+    "wait": 251,
+    "confirm": 405,
+    "first_confirm": 406,
+    "exit": 408,
+    "done": 563
+  },
+  "fault_start": 245,
+  "fault_end": 335,
+  "geom_cm": 1.25,
+  "offset_cm": 3.0,
+  "heading_error_deg": 0.270703432299048,
+  "truth_exit_progress_cm": 40.08461384183448,
+  "truth_exit_offset_cm": -0.040440828060307514,
+  "slide_cm_per_90deg": 2,
+  "resume_frame": 337,
+  "wait_nonzero_commands": 0
+}

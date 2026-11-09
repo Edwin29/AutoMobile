@@ -1,0 +1,39 @@
+{
+  "frames": 186,
+  "frames_by_type": {
+    "dash": 22,
+    "cross": 29
+  },
+  "events": [
+    {
+      "frame": 165,
+      "mark": "dash",
+      "raw_deg": -20.15274149022484,
+      "visual_deg": -13.979883733370343,
+      "before": 0.7222222222222222,
+      "after": 0.715090760606334,
+      "seconds": 1.3309999999999995
+    }
+  ],
+  "final_left": 0.715090760606334,
+  "final_right": 1.0,
+  "operational_stop": {
+    "frame": 150,
+    "time_s": 9.982,
+    "reason": "footprint limit",
+    "left": 0.7222222222222222
+  },
+  "heldout": {
+    "start": 615,
+    "end": 660,
+    "measured": 27.643481825732096,
+    "gain": 0.715090760606334,
+    "fixed_prediction": 30.975066066826304,
+    "adaptive_prediction": 30.669207997234526
+  },
+  "ms_percentiles": [
+    3.76839998352807,
+    7.727850002993364,
+    8.51630000397563
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "stop_reason": "시간 종료",
+  "frames": 422,
+  "pwm_modes": {
+    "unchanged": 348,
+    "boost": 4,
+    "ratio_limited": 66,
+    "lane_lost": 4
+  },
+  "output_reverse_frames": 0,
+  "fresh_non_voltage_limited_frames": 418,
+  "output_below_floor_in_those_frames": 4
+}

@@ -1,0 +1,35 @@
+{
+  "accepted": false,
+  "reason": "search boundary",
+  "pose": [
+    -79.848023,
+    -0.978336,
+    0.645624
+  ],
+  "score": 0.31074221944798175,
+  "gap": 0.031995633512728494,
+  "forward_coverage": 0.39664804469273746,
+  "reverse_coverage": 0.34332425068119893,
+  "candidates": 2413,
+  "seconds": 7.834330099984072,
+  "scene": "mid_turn",
+  "condition": "outside",
+  "truth": [
+    -83.1480229233005,
+    -0.27833597764193074,
+    0.6927475227086206
+  ],
+  "prior": [
+    -73.8480229233005,
+    -3.978335977641931,
+    0.8376098506241499
+  ],
+  "position_error_cm": 3.3734254882959296,
+  "heading_error_deg": 2.6999789669928558,
+  "local_first_match": false,
+  "local_first_position_cm": 10.008995953640902,
+  "local_first_heading_deg": 8.299999999999999,
+  "local_repeated_position_cm": 10.008995953640902,
+  "local_repeated_heading_deg": 8.299999999999999,
+  "truth_forward_score": 0.264997693705002
+}

@@ -1,0 +1,22 @@
+{
+  "site": "wide",
+  "condition": "normal",
+  "outcome": "pass",
+  "elapsed_s": 31.666666666666668,
+  "min_cm": 2.331249952316284,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232,
+    "confirm": 316,
+    "first_confirm": 317,
+    "exit": 319,
+    "done": 475
+  },
+  "geom_cm": 2.5,
+  "offset_cm": 2.5,
+  "heading_error_deg": 0.04994729586133218,
+  "truth_exit_progress_cm": 40.05210651641837,
+  "truth_exit_offset_cm": 0.05635544051794666
+}

@@ -1,0 +1,32 @@
+{
+  "base": {
+    "returned_pair": 184,
+    "large_shifts": 0,
+    "flags": 8,
+    "flagged_large": 0
+  },
+  "before": {
+    "returned_pair": 184,
+    "large_shifts": 4,
+    "flags": 10,
+    "flagged_large": 2
+  },
+  "glare": {
+    "returned_pair": 162,
+    "large_shifts": 50,
+    "flags": 20,
+    "flagged_large": 18
+  },
+  "left_hidden": {
+    "returned_pair": 184,
+    "large_shifts": 28,
+    "flags": 14,
+    "flagged_large": 1
+  },
+  "right_hidden": {
+    "returned_pair": 160,
+    "large_shifts": 58,
+    "flags": 26,
+    "flagged_large": 24
+  }
+}

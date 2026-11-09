@@ -1,0 +1,12 @@
+{
+  "stop_reason": "Ctrl+C",
+  "frames": 292,
+  "pwm_modes": {
+    "unchanged": 197,
+    "boost": 16,
+    "ratio_limited": 79
+  },
+  "output_reverse_frames": 0,
+  "fresh_non_voltage_limited_frames": 292,
+  "output_below_floor_in_those_frames": 4
+}

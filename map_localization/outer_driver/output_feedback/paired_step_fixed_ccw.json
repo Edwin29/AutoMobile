@@ -1,0 +1,13 @@
+{
+  "case": "paired_step",
+  "mode": "fixed",
+  "direction": "ccw",
+  "reason": "footprint limit",
+  "elapsed": 16.6,
+  "laps": 0.09512646506378065,
+  "min_cm": 0.3337419927120209,
+  "crossing_frames": 0,
+  "final_output_gain": 1.3846153846153846,
+  "final_right_output_gain": 1.6084115088794115,
+  "updates": []
+}

@@ -1,0 +1,13 @@
+{
+  "case": "paired_step",
+  "mode": "fixed",
+  "direction": "cw",
+  "reason": "lap complete",
+  "elapsed": 151.73333333333332,
+  "laps": 0.9999213657450066,
+  "min_cm": 0.38749998807907104,
+  "crossing_frames": 0,
+  "final_output_gain": 1.3846153846153846,
+  "final_right_output_gain": 1.6084115088794115,
+  "updates": []
+}

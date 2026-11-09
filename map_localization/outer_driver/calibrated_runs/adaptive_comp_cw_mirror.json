@@ -1,0 +1,53 @@
+{
+  "mode": "adaptive_comp",
+  "scenario": "baseline",
+  "direction": "cw",
+  "cw_policy": "mirror",
+  "right_prior": 0.7222222222222222,
+  "calibration": {
+    "left_gain": 0.6932409012131716,
+    "train_pwm": 57.699999999999996,
+    "train_visual": 40.0,
+    "train_frames": [
+      115,
+      175
+    ],
+    "test_frames": [
+      615,
+      660
+    ],
+    "test_observed": 27.643481825732096,
+    "test_uncorrected": 42.88855301560565,
+    "test_predicted": 29.73209914426735
+  },
+  "left_plant_gain": 0.6932409012131716,
+  "right_plant_gain": 0.6317018569280645,
+  "reason": "footprint limit",
+  "elapsed_s": 102.06666666666666,
+  "actual_laps": 0.6709238822293208,
+  "minimum_cm": 0.32041996717453003,
+  "crossing_frames": 0,
+  "max_error_cm": 0.5897081285259261,
+  "max_error_deg": 0.6777116662571656,
+  "last_forecast_margin_cm": 0.2434854343708292,
+  "updates": [
+    {
+      "t": 30.4,
+      "mark": "cross",
+      "raw_deg": 16.267750910088175,
+      "visual_deg": 8.76108734118418,
+      "before": 0.7222222222222222,
+      "after": 0.6763055511321144,
+      "seconds": 1.8666666666666665
+    },
+    {
+      "t": 68.8,
+      "mark": "cross",
+      "raw_deg": 16.215203115215076,
+      "visual_deg": 10.168227889305058,
+      "before": 0.6763055511321144,
+      "after": 0.6639991374446306,
+      "seconds": 1.7999999999999998
+    }
+  ]
+}

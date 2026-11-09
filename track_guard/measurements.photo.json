@@ -1,0 +1,15 @@
+{
+  "source": "User annotated 1000019756.jpg and clarification in this chat, 2026-10-30",
+  "orientation": "Directions refer to the uploaded photo, not geographical north",
+  "unit": "cm",
+  "vehicle": {"full_length": 24.5, "full_width_including_wheels": 16.0, "width_approximate": true, "length_confirmed": "2026-11-06"},
+  "road_widths": {"outer_left_at_mark": 26, "outer_bottom_at_mark": 24, "inner_vertical_at_mark": 18, "inner_horizontal_at_mark": 21},
+  "other_annotations": [
+    {"value": 133, "description": "Long vertical red span on left side between marked island-side points", "use": "record_only_endpoints_not_surveyed"},
+    {"value": 129, "description": "Bottom long horizontal red span between marked endpoints", "use": "record_only_not_total_track_width"},
+    {"value": 37, "description": "Bottom-left horizontal red span from outside road edge toward island-side marker", "use": "record_only_not_uniform_road_width_or_radius"},
+    {"value": 32, "description": "Bottom-left vertical red span near outer bend", "use": "record_only_not_uniform_road_width_or_radius"},
+    {"value": 12, "description": "Horizontal red span across bottom-right zebra crossing", "use": "provisional_crosswalk_span_not_road_width"}
+  ],
+  "unresolved": ["Total outer dimensions", "Exact metric coordinates of marked endpoints", "Corner arcs and island boundaries", "Top and right road widths", "Width measured between which parts of painted boundary lines", "Minimum road widths and measurement tolerance"]
+}

@@ -1,0 +1,70 @@
+{
+  "site": "narrow",
+  "condition": "normal",
+  "outcome": "footprint limit",
+  "elapsed_s": 19.2,
+  "min_cm": 0.5868224501609802,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232
+  },
+  "fault_start": null,
+  "fault_end": null,
+  "geom_cm": 1.25,
+  "offset_cm": 3.0,
+  "heading_error_deg": 30.38872338120568,
+  "truth_exit_progress_cm": 3.916183296102645,
+  "truth_exit_offset_cm": 1.2404003415524112,
+  "slide_cm_per_90deg": 0.0,
+  "resume_frame": null,
+  "wait_nonzero_commands": 0,
+  "case": "delay_slide",
+  "mode": "output",
+  "first_spin": 234,
+  "paint_events": 0,
+  "output_events": 3,
+  "eligible_frames_with_cross": 0,
+  "initial_gain": 0.6217314378064263,
+  "final_prediction": 0.6217314378064263,
+  "final_output_multiplier": 1.6512954380547067,
+  "events": [
+    {
+      "tick": 277,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.6411644203926485,
+        "ratio": 0.5433289936038402,
+        "output": 1.7166491506187942
+      }
+    },
+    {
+      "tick": 282,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 7.258135196419262,
+        "ratio": 0.593804797183132,
+        "output": 1.7001959289551223
+      }
+    },
+    {
+      "tick": 287,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 7.6150252809622945,
+        "ratio": 0.6230027989471796,
+        "output": 1.6512954380547067
+      }
+    }
+  ],
+  "peak_pivot_overshoot_deg": 0.0,
+  "at_last_blind_deg": null,
+  "actual_blind_frames": 0
+}

@@ -1,0 +1,27 @@
+{
+  "photo": "board_ruler_20261106_003318_489430.png",
+  "squares_forward_lateral": [
+    11,
+    8
+  ],
+  "square_cm": 2.314285714,
+  "ruler_zero": "board end",
+  "points": 30,
+  "far_grid_row": 5,
+  "bumper_to_far_grid_cm": 16.5,
+  "all": {
+    "camera_to_far_grid_forward_cm": 18.639704044277025,
+    "camera_behind_front_cm": 2.1397040442770248,
+    "height_above_board_cm": 7.694111180723094,
+    "pitch_down_deg": 29.4650017396408,
+    "fit_rms_px": 1.4778243983333872
+  },
+  "alternating": {
+    "camera_to_far_grid_forward_cm": 18.639424188275825,
+    "camera_behind_front_cm": 2.139424188275825,
+    "height_above_board_cm": 7.706207957230058,
+    "pitch_down_deg": 29.52940556453307,
+    "fit_rms_px": 0.9325386601076077,
+    "withheld_rms_px": 2.290491283874827
+  }
+}

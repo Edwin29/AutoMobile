@@ -1,0 +1,18 @@
+{
+  "0.5": {
+    "total": 72,
+    "entirely_left": 17,
+    "partial": 1,
+    "inside": 54,
+    "full_tp_inside": 54,
+    "crop_tp_inside": 54
+  },
+  "0.35": {
+    "total": 72,
+    "entirely_left": 6,
+    "partial": 3,
+    "inside": 63,
+    "full_tp_inside": 62,
+    "crop_tp_inside": 62
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "mode": "offline_only",
+  "road_widths_m": {
+    "outer_left_at_mark": 0.26,
+    "outer_bottom_at_mark": 0.24,
+    "inner_vertical_at_mark": 0.18,
+    "inner_horizontal_at_mark": 0.21,
+    "outer_top": null,
+    "outer_right": null
+  },
+  "vehicle_width_including_wheels_m": 0.16,
+  "vehicle_length_m": 0.245,
+  "wheelbase_m": null,
+  "measurement_reference": "measurements.photo.json",
+  "track_outer_width_m": null,
+  "track_outer_height_m": null,
+  "vehicle_reference_point": "footprint geometric center",
+  "initial_pose_x_y_yaw": null,
+  "measured_road_mask": null,
+  "mask_resolution_m_per_pixel": null,
+  "camera_ground_homography": null,
+  "camera_to_vehicle_transform": null,
+  "measured_min_braking_deceleration_m_s2": null,
+  "measured_total_latency_s": null,
+  "notes": "Widths are local measurements. The 24.5cm vehicle length is the full front-to-back extent confirmed on 2026-11-06. Wheelbase is a separate measurement. Unknown values prevent deployment."
+}

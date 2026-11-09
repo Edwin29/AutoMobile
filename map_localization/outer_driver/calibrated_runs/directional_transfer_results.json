@@ -1,0 +1,382 @@
+[
+  {
+    "mode": "fixed_comp",
+    "scenario": "baseline",
+    "direction": "ccw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6317018569280645,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 151.4,
+    "actual_laps": 1.0004678785799492,
+    "minimum_cm": 0.4312500059604645,
+    "crossing_frames": 0,
+    "max_error_cm": 0.2840177910761427,
+    "max_error_deg": 0.2748869049371331,
+    "last_forecast_margin_cm": 4.951675500482722,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "baseline",
+    "direction": "cw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6317018569280645,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 150.33333333333334,
+    "actual_laps": 1.000078828095408,
+    "minimum_cm": 0.5687500238418579,
+    "crossing_frames": 0,
+    "max_error_cm": 0.18094173001465372,
+    "max_error_deg": 0.24792054409848582,
+    "last_forecast_margin_cm": 4.91645104809902,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "glare",
+    "direction": "ccw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6317018569280645,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 151.4,
+    "actual_laps": 1.00039004772873,
+    "minimum_cm": 0.48750001192092896,
+    "crossing_frames": 0,
+    "max_error_cm": 0.25947052845721313,
+    "max_error_deg": 0.2914962467380881,
+    "last_forecast_margin_cm": 4.978571583405279,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "glare",
+    "direction": "cw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6317018569280645,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 150.33333333333334,
+    "actual_laps": 0.9998045662510299,
+    "minimum_cm": 0.543749988079071,
+    "crossing_frames": 0,
+    "max_error_cm": 0.224660405695097,
+    "max_error_deg": 0.3609951589095635,
+    "last_forecast_margin_cm": 4.913265235640367,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "second_response",
+    "direction": "ccw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6445421885805659,
+    "right_plant_gain": 0.6317018569280645,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "footprint limit",
+    "elapsed_s": 16.6,
+    "actual_laps": 0.09482538139965424,
+    "minimum_cm": 0.3322311341762543,
+    "crossing_frames": 0,
+    "max_error_cm": 0.4886165363411557,
+    "max_error_deg": 0.6612429617809295,
+    "last_forecast_margin_cm": 0.24438181524902802,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "second_response",
+    "direction": "cw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6445421885805659,
+    "right_plant_gain": 0.6317018569280645,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 150.4,
+    "actual_laps": 1.0003567313314765,
+    "minimum_cm": 0.5687500238418579,
+    "crossing_frames": 0,
+    "max_error_cm": 0.17773473552753466,
+    "max_error_deg": 0.24387959169178544,
+    "last_forecast_margin_cm": 4.924181862162953,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "symmetric",
+    "direction": "ccw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6932409012131716,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 151.33333333333334,
+    "actual_laps": 1.000193223574467,
+    "minimum_cm": 0.4312500059604645,
+    "crossing_frames": 0,
+    "max_error_cm": 0.2774979122063577,
+    "max_error_deg": 0.2709291757792501,
+    "last_forecast_margin_cm": 4.948256238143287,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "symmetric",
+    "direction": "cw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6932409012131716,
+    "drift_deg_s_at_30": 0.0,
+    "reason": "lap complete",
+    "elapsed_s": 148.86666666666667,
+    "actual_laps": 1.000265537424697,
+    "minimum_cm": 0.762499988079071,
+    "crossing_frames": 0,
+    "max_error_cm": 0.29153544340986737,
+    "max_error_deg": 0.7459208862012624,
+    "last_forecast_margin_cm": 4.951271150030593,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "symmetric_drift",
+    "direction": "ccw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6932409012131716,
+    "drift_deg_s_at_30": -1.0,
+    "reason": "lap complete",
+    "elapsed_s": 152.0,
+    "actual_laps": 1.000763594273018,
+    "minimum_cm": 0.675000011920929,
+    "crossing_frames": 0,
+    "max_error_cm": 0.9160481372926833,
+    "max_error_deg": 2.4500752819679827,
+    "last_forecast_margin_cm": 4.802832184566526,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  },
+  {
+    "mode": "fixed_comp",
+    "scenario": "symmetric_drift",
+    "direction": "cw",
+    "cw_policy": "measured",
+    "right_prior": 0.6217314378064263,
+    "calibration": {
+      "left_gain": 0.6932409012131716,
+      "train_pwm": 57.699999999999996,
+      "train_visual": 40.0,
+      "train_frames": [
+        115,
+        175
+      ],
+      "test_frames": [
+        615,
+        660
+      ],
+      "test_observed": 27.643481825732096,
+      "test_uncorrected": 42.88855301560565,
+      "test_predicted": 29.73209914426735
+    },
+    "left_plant_gain": 0.6932409012131716,
+    "right_plant_gain": 0.6932409012131716,
+    "drift_deg_s_at_30": -1.0,
+    "reason": "lap complete",
+    "elapsed_s": 153.06666666666666,
+    "actual_laps": 1.0000830406507244,
+    "minimum_cm": 0.5687500238418579,
+    "crossing_frames": 0,
+    "max_error_cm": 0.9447152449144284,
+    "max_error_deg": 2.2378082328998667,
+    "last_forecast_margin_cm": 4.5724196973163345,
+    "updates": [],
+    "output_policy": "directional",
+    "left_output_multiplier": 1.3846153846153846,
+    "right_output_multiplier": 1.6084115088794115
+  }
+]

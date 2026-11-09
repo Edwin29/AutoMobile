@@ -1,0 +1,231 @@
+{
+  "site": "narrow",
+  "condition": "normal",
+  "outcome": "pass",
+  "elapsed_s": 31.599999999999998,
+  "min_cm": 1.0624998807907104,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232,
+    "confirm": 317,
+    "first_confirm": 318,
+    "exit": 320,
+    "done": 474
+  },
+  "fault_start": null,
+  "fault_end": null,
+  "geom_cm": 1.25,
+  "offset_cm": 3.0,
+  "heading_error_deg": 0.1518377245833597,
+  "truth_exit_progress_cm": 40.04673799082617,
+  "truth_exit_offset_cm": 0.029224788824705136,
+  "slide_cm_per_90deg": 0.0,
+  "resume_frame": null,
+  "wait_nonzero_commands": 0,
+  "case": "normal",
+  "mode": "joint_edges",
+  "first_spin": 234,
+  "paint_events": 0,
+  "output_events": 11,
+  "eligible_frames_with_cross": 13,
+  "initial_gain": 0.6217314378064263,
+  "final_prediction": 0.6324975854369252,
+  "final_output_multiplier": 1.5796485363208508,
+  "events": [
+    {
+      "tick": 242,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 11.470908883029404,
+        "observed_deg": 7.259200375204229,
+        "ratio": 0.6328356758150026,
+        "output": 1.5941753759404766
+      }
+    },
+    {
+      "tick": 247,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.114912346358578,
+        "observed_deg": 7.656888534048568,
+        "ratio": 0.6320217856425537,
+        "output": 1.5881771740154578
+      }
+    },
+    {
+      "tick": 252,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.069329098960536,
+        "observed_deg": 7.592672522256041,
+        "ratio": 0.6290882003466088,
+        "output": 1.588889377605012
+      }
+    },
+    {
+      "tick": 257,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.074741479674998,
+        "observed_deg": 7.604622692582611,
+        "ratio": 0.6297959012524793,
+        "output": 1.5883525005147072
+      }
+    },
+    {
+      "tick": 262,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.070661490115523,
+        "observed_deg": 7.650302366493286,
+        "ratio": 0.6337931332726048,
+        "output": 1.583059613484052
+      }
+    },
+    {
+      "tick": 267,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.030438272894056,
+        "observed_deg": 7.573989204874759,
+        "ratio": 0.629568851364278,
+        "output": 1.5857196403395262
+      }
+    },
+    {
+      "tick": 272,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.050653107898654,
+        "observed_deg": 7.622341795876849,
+        "ratio": 0.6325252023793425,
+        "output": 1.5833385869377898
+      }
+    },
+    {
+      "tick": 277,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.032558327556801,
+        "observed_deg": 7.6035502174565615,
+        "ratio": 0.6319146776993396,
+        "output": 1.5829152419123171
+      }
+    },
+    {
+      "tick": 282,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 11.643524182463008,
+        "observed_deg": 7.420311968042469,
+        "ratio": 0.6372908967903923,
+        "output": 1.575998598502673
+      }
+    },
+    {
+      "tick": 288,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 10.099190250080937,
+        "observed_deg": 6.4056480159771105,
+        "ratio": 0.6342734276073049,
+        "output": 1.5763027989523182
+      }
+    },
+    {
+      "tick": 299,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 10.512421935841509,
+        "observed_deg": 6.640786762255283,
+        "ratio": 0.6317085446897728,
+        "output": 1.5796485363208508
+      }
+    }
+  ],
+  "flow_events": [],
+  "edge_events": [
+    {
+      "tick": 242,
+      "ratio": 0.6328356758150026,
+      "before": 0.6217314378064263,
+      "after": 0.6245074973085704
+    },
+    {
+      "tick": 247,
+      "ratio": 0.6320217856425537,
+      "before": 0.6245074973085704,
+      "after": 0.6263860693920662
+    },
+    {
+      "tick": 252,
+      "ratio": 0.6290882003466088,
+      "before": 0.6263860693920662,
+      "after": 0.6270616021307018
+    },
+    {
+      "tick": 257,
+      "ratio": 0.6297959012524793,
+      "before": 0.6270616021307018,
+      "after": 0.6277451769111462
+    },
+    {
+      "tick": 262,
+      "ratio": 0.6337931332726048,
+      "before": 0.6277451769111462,
+      "after": 0.6292571660015108
+    },
+    {
+      "tick": 267,
+      "ratio": 0.629568851364278,
+      "before": 0.6292571660015108,
+      "after": 0.6293350873422026
+    },
+    {
+      "tick": 272,
+      "ratio": 0.6325252023793425,
+      "before": 0.6293350873422026,
+      "after": 0.6301326161014875
+    },
+    {
+      "tick": 277,
+      "ratio": 0.6319146776993396,
+      "before": 0.6301326161014875,
+      "after": 0.6305781315009505
+    },
+    {
+      "tick": 282,
+      "ratio": 0.6372908967903923,
+      "before": 0.6305781315009505,
+      "after": 0.632256322823311
+    },
+    {
+      "tick": 288,
+      "ratio": 0.6342734276073049,
+      "before": 0.632256322823311,
+      "after": 0.6327605990193095
+    },
+    {
+      "tick": 299,
+      "ratio": 0.6317085446897728,
+      "before": 0.6327605990193095,
+      "after": 0.6324975854369252
+    }
+  ],
+  "peak_pivot_overshoot_deg": 0.0,
+  "at_last_blind_deg": null,
+  "actual_blind_frames": 0
+}

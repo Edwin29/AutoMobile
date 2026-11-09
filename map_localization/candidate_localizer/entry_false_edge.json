@@ -1,0 +1,35 @@
+{
+  "accepted": false,
+  "reason": "ambiguous or poor fit",
+  "pose": [
+    -81.348023,
+    -1.478336,
+    0.28574
+  ],
+  "score": 0.2928447329137626,
+  "gap": 0.012972998380721912,
+  "forward_coverage": 0.7015873015873015,
+  "reverse_coverage": 0.6583333333333333,
+  "candidates": 2124,
+  "seconds": 5.237940599996364,
+  "scene": "entry",
+  "condition": "false_edge",
+  "truth": [
+    -83.1480229233005,
+    -0.27833597764193185,
+    0.31541094683692306
+  ],
+  "prior": [
+    -80.8480229233005,
+    -3.9783359776419323,
+    0.4602732747524524
+  ],
+  "position_error_cm": 2.1633307138625812,
+  "heading_error_deg": 1.700020027912731,
+  "local_first_match": false,
+  "local_first_position_cm": 4.356604182158391,
+  "local_first_heading_deg": 8.299999999999999,
+  "local_repeated_position_cm": 4.356604182158391,
+  "local_repeated_heading_deg": 8.299999999999999,
+  "truth_forward_score": 0.4282660001985685
+}

@@ -1,0 +1,24 @@
+{
+  "site": "narrow",
+  "condition": "hidden",
+  "outcome": "stationary verification timed out",
+  "elapsed_s": 28.733333333333334,
+  "min_cm": 1.5307948589324951,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232,
+    "wait": 251
+  },
+  "fault_start": 245,
+  "fault_end": 841,
+  "geom_cm": 1.25,
+  "offset_cm": 3.0,
+  "heading_error_deg": 65.75120014734306,
+  "truth_exit_progress_cm": 3.1019770766995123,
+  "truth_exit_offset_cm": -0.2783359776419314,
+  "slide_cm_per_90deg": 0,
+  "resume_frame": null,
+  "wait_nonzero_commands": 0
+}

@@ -1,0 +1,14 @@
+{
+  "host": "pi@PI_HOST",
+  "case": "sequence",
+  "placement": "floor",
+  "duty": 0.3,
+  "ramp": 1.0,
+  "hold": 3.0,
+  "frequency": 1000,
+  "vision": true,
+  "hardware": true,
+  "simulate": false,
+  "auto": false,
+  "note": ""
+}

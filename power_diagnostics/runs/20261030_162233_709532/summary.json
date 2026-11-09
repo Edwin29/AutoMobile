@@ -1,0 +1,41 @@
+{
+  "phases": {
+    "waiting": {
+      "samples": 3,
+      "min_voltage": 5.05,
+      "mean_voltage": 5.05
+    },
+    "baseline": {
+      "samples": 28,
+      "min_voltage": 5.05,
+      "mean_voltage": 5.049999999999999
+    },
+    "active": {
+      "samples": 23,
+      "min_voltage": 5.05,
+      "mean_voltage": 5.049999999999998
+    },
+    "recovery": {
+      "samples": 19,
+      "min_voltage": 5.05,
+      "mean_voltage": 5.049999999999999
+    }
+  },
+  "end_reason": "completed",
+  "max_observed_sample_gap_s": 0.125,
+  "last_received_sample": {
+    "event": "sample",
+    "pi_monotonic": 1311494.765,
+    "seq": 77,
+    "voltage": 5.05,
+    "temp": 45.0,
+    "throttled": 0,
+    "voltage_at": 1311494.765,
+    "read_duration_s": 0.0,
+    "phase": "recovery",
+    "left": 0.0,
+    "right": 0.0
+  },
+  "note": "Transport loss alone does not prove power loss. ADC polling cannot resolve millisecond transients. PWM duty is not measured motor current or speed.",
+  "ssh_exit_code": 0
+}

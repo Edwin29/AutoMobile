@@ -1,0 +1,13 @@
+scene,observer,accept,n,inlier,median_cm
+seam,HSV,False,113,0.549,0.596
+seam,CNN,True,114,0.868,0.248
+seam,reference,True,86,1.0,0.209
+glare,HSV,False,113,0.549,0.841
+glare,CNN,True,108,0.648,0.698
+glare,reference,True,86,1.0,0.069
+curve,HSV,False,93,0.516,0.367
+curve,CNN,False,129,0.341,4.727
+curve,reference,True,104,0.635,0.152
+curve_repeat,HSV,False,88,0.545,0.268
+curve_repeat,CNN,False,133,0.353,4.426
+curve_repeat,reference,True,97,0.804,0.146

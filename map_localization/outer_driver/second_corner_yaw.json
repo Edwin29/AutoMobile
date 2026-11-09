@@ -1,0 +1,29 @@
+[
+  {
+    "start": 615,
+    "end": 645,
+    "start_s": 44.233,
+    "end_s": 46.232,
+    "measured_left_deg": 18.99929061917544,
+    "original_left_deg": 29.549742955547714,
+    "corrected_left_deg": 21.341481023451124
+  },
+  {
+    "start": 645,
+    "end": 660,
+    "start_s": 46.232,
+    "end_s": 47.231,
+    "measured_left_deg": 8.644191206556656,
+    "original_left_deg": 13.338810060057938,
+    "corrected_left_deg": 9.633585043375177
+  },
+  {
+    "start": 615,
+    "end": 660,
+    "start_s": 44.233,
+    "end_s": 47.231,
+    "measured_left_deg": 27.643481825732096,
+    "original_left_deg": 42.88855301560565,
+    "corrected_left_deg": 30.975066066826304
+  }
+]

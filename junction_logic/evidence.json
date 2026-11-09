@@ -1,0 +1,80 @@
+{
+  "scope": "One historical image, not a crossing sequence or localization proof",
+  "road_hint_assumption": "cross_v",
+  "sha256": {
+    "calib_checkerboard.npz": "266fd99c271dfa1dd3f1e89a83a1ef85a8f7c834f7c1c9d62cec68fe4c9a3b74",
+    "cross_01.jpg": "826d06441b4c921a2c8fd137bebcab2e9e77cee04338dcdb4a3d01249abc223e",
+    "ground.npz": "0820202948979035aeb1c64f583573f235e448e54889d9c4c779fea6cde59655",
+    "lane_drive.py": "5fab9fbdd251750ff3d8ecee3fbdb087dbd939d3abe2b3873abab69564fa4c4c",
+    "lane_pipeline.py": "aab7222e2c7dbdc3e730e31d4e35c931ef2abb7ffa047e02a82094af958b62fa"
+  },
+  "replay": {
+    "straight": {
+      "notes": [
+        "[branch] 열린 분기: 왼쪽 길(전방 38cm부터) -> 주행 방향 straight",
+        "[width] 실측 간격 21.4cm -> cross_h (21cm)"
+      ],
+      "result": {
+        "effective_turn": "straight",
+        "road": "cross_h",
+        "gap_cm": 21.414120546745266,
+        "curvature_per_cm": -6.370365008079925e-05,
+        "retained_edges": [
+          "left",
+          "right"
+        ],
+        "branch_cm": {
+          "left": [
+            -10.51672397419524,
+            38.2203130628418
+          ]
+        }
+      }
+    },
+    "left": {
+      "notes": [
+        "[branch] 열린 분기: 왼쪽 길(전방 38cm부터) -> 주행 방향 left",
+        "[width] 실측 간격 21.4cm -> cross_h (21cm)"
+      ],
+      "result": {
+        "effective_turn": "left",
+        "road": "cross_h",
+        "gap_cm": 21.414120546745266,
+        "curvature_per_cm": -6.370365008079925e-05,
+        "retained_edges": [
+          "left",
+          "right"
+        ],
+        "branch_cm": {
+          "left": [
+            -10.51672397419524,
+            38.2203130628418
+          ]
+        }
+      }
+    },
+    "right": {
+      "notes": [
+        "[branch] right 요청 -> 그쪽 분기가 아직 안 보여 직진 유지",
+        "[branch] 열린 분기: 왼쪽 길(전방 38cm부터) -> 주행 방향 straight",
+        "[width] 실측 간격 21.4cm -> cross_h (21cm)"
+      ],
+      "result": {
+        "effective_turn": "straight",
+        "road": "cross_h",
+        "gap_cm": 21.414120546745266,
+        "curvature_per_cm": -6.370365008079925e-05,
+        "retained_edges": [
+          "left",
+          "right"
+        ],
+        "branch_cm": {
+          "left": [
+            -10.51672397419524,
+            38.2203130628418
+          ]
+        }
+      }
+    }
+  }
+}

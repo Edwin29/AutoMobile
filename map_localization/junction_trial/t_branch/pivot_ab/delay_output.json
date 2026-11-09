@@ -1,0 +1,118 @@
+{
+  "site": "narrow",
+  "condition": "normal",
+  "outcome": "pass",
+  "elapsed_s": 32.46666666666667,
+  "min_cm": 1.0749999284744263,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232,
+    "confirm": 330,
+    "first_confirm": 331,
+    "exit": 333,
+    "done": 487
+  },
+  "fault_start": null,
+  "fault_end": null,
+  "geom_cm": 1.25,
+  "offset_cm": 3.0,
+  "heading_error_deg": 0.1549584581730132,
+  "truth_exit_progress_cm": 40.04678475826607,
+  "truth_exit_offset_cm": 0.02886564744394552,
+  "slide_cm_per_90deg": 0.0,
+  "resume_frame": null,
+  "wait_nonzero_commands": 0,
+  "case": "delay",
+  "mode": "output",
+  "first_spin": 234,
+  "paint_events": 0,
+  "output_events": 7,
+  "eligible_frames_with_cross": 14,
+  "initial_gain": 0.6217314378064263,
+  "final_prediction": 0.6217314378064263,
+  "final_output_multiplier": 1.6039876757674996,
+  "events": [
+    {
+      "tick": 277,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 7.067347014373823,
+        "ratio": 0.5781959755397542,
+        "output": 1.666767487562181
+      }
+    },
+    {
+      "tick": 282,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 7.598590701564272,
+        "ratio": 0.6216582480643238,
+        "output": 1.637167695164661
+      }
+    },
+    {
+      "tick": 287,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 7.4408872136407815,
+        "ratio": 0.6087561616292736,
+        "output": 1.6399261148043376
+      }
+    },
+    {
+      "tick": 292,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 7.478708754026831,
+        "ratio": 0.6118504291663638,
+        "output": 1.6371515545449926
+      }
+    },
+    {
+      "tick": 297,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 11.206631281510864,
+        "observed_deg": 7.028060924027604,
+        "ratio": 0.6271341268827834,
+        "output": 1.615572664903338
+      }
+    },
+    {
+      "tick": 304,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 10.372288238584757,
+        "observed_deg": 6.438671938853706,
+        "ratio": 0.6207571358171424,
+        "output": 1.6132509868735818
+      }
+    },
+    {
+      "tick": 318,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 10.320845374050863,
+        "observed_deg": 6.471438638938149,
+        "ratio": 0.6270260239736691,
+        "output": 1.6039876757674996
+      }
+    }
+  ],
+  "peak_pivot_overshoot_deg": 0.0,
+  "at_last_blind_deg": null,
+  "actual_blind_frames": 0
+}

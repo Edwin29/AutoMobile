@@ -1,0 +1,4 @@
+t,step,label,left,right,phase,ext5v,pi_power_w,throttled,event
+0.049,0,S0,0.000,0.000,idle,4.99552,3.197,0xf0000,
+0.124,0,S0,0.000,0.000,idle,4.99552,3.197,0xf0000,
+0.227,0,S0,0.000,0.000,idle,5.01428,3.197,0xf0000,

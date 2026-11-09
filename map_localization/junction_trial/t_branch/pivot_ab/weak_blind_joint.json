@@ -1,0 +1,174 @@
+{
+  "site": "narrow",
+  "condition": "normal",
+  "outcome": "pass",
+  "elapsed_s": 32.86666666666667,
+  "min_cm": 1.0878640413284302,
+  "crossed_frames": 0,
+  "phase_ticks": {
+    "approach": 1,
+    "brake": 228,
+    "rotate": 232,
+    "wait": 303,
+    "confirm": 336,
+    "first_confirm": 337,
+    "exit": 339,
+    "done": 493
+  },
+  "fault_start": 300,
+  "fault_end": 309,
+  "geom_cm": 1.25,
+  "offset_cm": 3.0,
+  "heading_error_deg": 0.12318635258192359,
+  "truth_exit_progress_cm": 40.04686492168143,
+  "truth_exit_offset_cm": 0.026245164290458037,
+  "slide_cm_per_90deg": 0.0,
+  "resume_frame": 311,
+  "wait_nonzero_commands": 0,
+  "case": "weak_blind",
+  "mode": "joint",
+  "first_spin": 234,
+  "paint_events": 0,
+  "output_events": 12,
+  "eligible_frames_with_cross": 15,
+  "initial_gain": 0.6217314378064263,
+  "final_prediction": 0.6217314378064263,
+  "final_output_multiplier": 1.8181818181818181,
+  "events": [
+    {
+      "tick": 242,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 11.470908883029404,
+        "observed_deg": 6.426574277146025,
+        "ratio": 0.5602497886330348,
+        "output": 1.6920742523336827
+      }
+    },
+    {
+      "tick": 247,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.632134661551438,
+        "ratio": 0.5425902481861518,
+        "output": 1.7643205421795611
+      }
+    },
+    {
+      "tick": 252,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.645054489556776,
+        "ratio": 0.5436472491431105,
+        "output": 1.8010916202674925
+      }
+    },
+    {
+      "tick": 257,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.6209387381968945,
+        "ratio": 0.5416742838486313,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 262,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.573770900999599,
+        "ratio": 0.5378153741917369,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 267,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.586038912762,
+        "ratio": 0.538819048557021,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 272,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.597616797346921,
+        "ratio": 0.5397662620246279,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 277,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.671482947177664,
+        "ratio": 0.5458094222761181,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 282,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.575564287615303,
+        "ratio": 0.5379620952911365,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 287,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 12.223099629457561,
+        "observed_deg": 6.5559884988529795,
+        "ratio": 0.5363605548181172,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 292,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 11.177516527882776,
+        "observed_deg": 6.0386006483013075,
+        "ratio": 0.5402452891246252,
+        "output": 1.8181818181818181
+      }
+    },
+    {
+      "tick": 299,
+      "paint": null,
+      "output": {
+        "side": "right",
+        "raw_deg": 10.62059691929207,
+        "observed_deg": 5.698242021817674,
+        "ratio": 0.5365274725252918,
+        "output": 1.8181818181818181
+      }
+    }
+  ],
+  "peak_pivot_overshoot_deg": 0.0,
+  "at_last_blind_deg": 1.1260933292266602,
+  "actual_blind_frames": 9
+}

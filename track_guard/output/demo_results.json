@@ -1,0 +1,22 @@
+{
+  "ideal_centered": {
+    "allow": true,
+    "reason": "within_supplied_model_bounds"
+  },
+  "wrong_right_turn": {
+    "allow": false,
+    "reason": "forbidden_turn"
+  },
+  "camera_lost": {
+    "allow": false,
+    "reason": "stale_or_missing_camera"
+  },
+  "position_std_4mm": {
+    "allow": false,
+    "reason": "footprint_or_stopping_path_outside_road"
+  },
+  "real_use_without_survey": {
+    "allow": false,
+    "reason": "unmeasured_map"
+  }
+}

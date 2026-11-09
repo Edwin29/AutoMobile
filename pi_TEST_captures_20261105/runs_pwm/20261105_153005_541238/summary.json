@@ -1,0 +1,13 @@
+{
+  "stop_reason": "차선을 10프레임 연속 놓침",
+  "frames": 304,
+  "pwm_modes": {
+    "unchanged": 219,
+    "boost": 5,
+    "ratio_limited": 68,
+    "lane_lost": 12
+  },
+  "output_reverse_frames": 0,
+  "fresh_non_voltage_limited_frames": 292,
+  "output_below_floor_in_those_frames": 4
+}

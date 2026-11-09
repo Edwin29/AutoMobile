@@ -1,0 +1,26 @@
+{
+  "accepted": false,
+  "reason": "insufficient features",
+  "pose": null,
+  "candidates": 0,
+  "seconds": 0.02986900001997128,
+  "scene": "mid_turn",
+  "condition": "blank",
+  "truth": [
+    -83.1480229233005,
+    -0.27833597764193074,
+    0.6927475227086206
+  ],
+  "prior": [
+    -80.8480229233005,
+    -3.978335977641931,
+    0.8376098506241499
+  ],
+  "position_error_cm": null,
+  "heading_error_deg": null,
+  "local_first_match": false,
+  "local_first_position_cm": 4.356604182158391,
+  "local_first_heading_deg": 8.299999999999999,
+  "local_repeated_position_cm": 4.356604182158391,
+  "local_repeated_heading_deg": 8.299999999999999
+}

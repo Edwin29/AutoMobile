@@ -1,0 +1,213 @@
+{
+  "scope": "Read-only local calculations using hash-matched current pipeline; old recorded images, not a new vehicle experiment. Road fixed to recorded class; delay=0, robust=False, no ccw extras to isolate bias.",
+  "replay": [
+    {
+      "frame": 240,
+      "road": "cross_h",
+      "recorded_target_lat": "1.24",
+      "0": {
+        "target": [
+          -0.7496594800243059,
+          18.959174736855164
+        ],
+        "k": -0.004164632643235796,
+        "R": 27.838859181917037,
+        "bend": "왼쪽",
+        "bias": 0.0,
+        "branches": [],
+        "edges": [
+          "right",
+          "left"
+        ]
+      },
+      "2.5": {
+        "target": [
+          1.2573150798429964,
+          19.193062415369432
+        ],
+        "k": 0.006797133848168647,
+        "R": 27.838859181917037,
+        "bend": "왼쪽",
+        "bias": 2.0205569356282265,
+        "branches": [],
+        "edges": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "frame": 720,
+      "road": "cross_h",
+      "recorded_target_lat": "0.88",
+      "0": {
+        "target": [
+          -1.0660915330184508,
+          18.39189934521905
+        ],
+        "k": -0.006282240452945522,
+        "R": 29.180163806574402,
+        "bend": "왼쪽",
+        "bias": 0.0,
+        "branches": [],
+        "edges": [
+          "right",
+          "left"
+        ]
+      },
+      "2.5": {
+        "target": [
+          0.8612455037820368,
+          18.428227416334188
+        ],
+        "k": 0.005061069459841494,
+        "R": 29.180163806574402,
+        "bend": "왼쪽",
+        "bias": 1.9276793774312762,
+        "branches": [],
+        "edges": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "frame": 760,
+      "road": "cross_h",
+      "recorded_target_lat": "0.19",
+      "0": {
+        "target": [
+          -1.8732864335461912,
+          18.99132733955612
+        ],
+        "k": -0.010287703297669978,
+        "R": 27.108981224746852,
+        "bend": "왼쪽",
+        "bias": 0.0,
+        "branches": [],
+        "edges": [
+          "right",
+          "left"
+        ]
+      },
+      "2.5": {
+        "target": [
+          0.18476653977101165,
+          19.2556548806501
+        ],
+        "k": 0.0009965446215904326,
+        "R": 27.108981224746852,
+        "bend": "왼쪽",
+        "bias": 2.074958093543232,
+        "branches": [],
+        "edges": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "frame": 820,
+      "road": "outer_bottom",
+      "recorded_target_lat": "1.74",
+      "0": {
+        "target": [
+          -0.3190413531290943,
+          18.164437091827487
+        ],
+        "k": -0.001933299457244109,
+        "R": 151.9704780671102,
+        "bend": "오른쪽",
+        "bias": 0.0,
+        "branches": [],
+        "edges": [
+          "left",
+          "right"
+        ]
+      },
+      "2.5": {
+        "target": [
+          -0.3190413531290943,
+          18.164437091827487
+        ],
+        "k": -0.001933299457244109,
+        "R": 151.9704780671102,
+        "bend": "오른쪽",
+        "bias": 0.0,
+        "branches": [],
+        "edges": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "frame": 830,
+      "road": "outer_bottom",
+      "recorded_target_lat": "-8.84",
+      "0": {
+        "target": [
+          -9.88461519674225,
+          15.75741409786773
+        ],
+        "k": -0.05713622055260137,
+        "R": 45.882496113562496,
+        "bend": "왼쪽",
+        "bias": 0.0,
+        "branches": [],
+        "edges": [
+          "right"
+        ]
+      },
+      "2.5": {
+        "target": [
+          -9.213608555760988,
+          16.783436710537764
+        ],
+        "k": -0.05026870563913747,
+        "R": 45.882496113562496,
+        "bend": "왼쪽",
+        "bias": 1.2259577129539156,
+        "branches": [],
+        "edges": [
+          "right"
+        ]
+      }
+    }
+  ],
+  "synthetic_mirror_width": {
+    "description": "Synthetic taper, not a measured track: x_left=-10, x_right=10.6+0.3*(y-5), y=5..35 cm; then exact left-right mirror.",
+    "original": {
+      "gap": 25.1,
+      "class": [
+        "outer",
+        26.0
+      ]
+    },
+    "mirror": {
+      "gap": 24.041439759050895,
+      "class": [
+        "outer_bottom",
+        24.0
+      ]
+    }
+  },
+  "straight_clearances": {
+    "18": {
+      "measured_car_15_5": 1.25,
+      "code_car_16": 1.0
+    },
+    "21": {
+      "measured_car_15_5": 2.75,
+      "code_car_16": 2.5
+    },
+    "24": {
+      "measured_car_15_5": 4.25,
+      "code_car_16": 4.0
+    },
+    "26": {
+      "measured_car_15_5": 5.25,
+      "code_car_16": 5.0
+    }
+  }
+}

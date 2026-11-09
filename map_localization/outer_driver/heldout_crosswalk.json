@@ -1,0 +1,80 @@
+{
+  "start_shift_cm": 10.887573099736514,
+  "operational_stop": {
+    "frame": 155,
+    "t": 10.317,
+    "reason": "footprint limit",
+    "residual": 1.2578445208871472,
+    "margin": 0.1690942681963488,
+    "predicted_center_uv": [
+      88.6,
+      139.8
+    ]
+  },
+  "diagnostic_first_visible": {
+    "frame": 130,
+    "t": 8.651
+  },
+  "observations": [
+    {
+      "frame": 280,
+      "t": 19.852,
+      "matched_edges": false,
+      "predicted_uv": [
+        706.2,
+        197.1
+      ],
+      "observed_uv": [
+        364,
+        135
+      ],
+      "forward_error_cm": -1.62,
+      "visible": true
+    },
+    {
+      "frame": 305,
+      "t": 21.516,
+      "matched_edges": false,
+      "predicted_uv": [
+        858.1,
+        223.7
+      ],
+      "observed_uv": [
+        378,
+        150
+      ],
+      "forward_error_cm": -4.09,
+      "visible": false
+    },
+    {
+      "frame": 320,
+      "t": 22.517,
+      "matched_edges": false,
+      "predicted_uv": [
+        1046.4,
+        248.8
+      ],
+      "observed_uv": [
+        386,
+        161
+      ],
+      "forward_error_cm": -5.38,
+      "visible": false
+    },
+    {
+      "frame": 340,
+      "t": 23.85,
+      "matched_edges": false,
+      "predicted_uv": [
+        2304.0,
+        454.4
+      ],
+      "observed_uv": [
+        435,
+        184
+      ],
+      "forward_error_cm": -8.86,
+      "visible": false
+    }
+  ]
+}

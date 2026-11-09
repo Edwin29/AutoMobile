@@ -1,0 +1,16 @@
+{
+  "site": "wide",
+  "command": "right",
+  "condition": "normal",
+  "outcome": "footprint limit",
+  "observed_exit": null,
+  "elapsed_s": 13.133333333333333,
+  "min_cm": 1.019813060760498,
+  "crossed_frames": 0,
+  "max_error_cm": 0.14060547654469124,
+  "max_yaw_deg": 0.11083567835632277,
+  "settled_frames_after_restore": 0,
+  "missing_frames": 0,
+  "geometry_min_cm": 0.7895432439887333,
+  "turn_radius_cm": 8
+}

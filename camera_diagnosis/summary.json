@@ -1,0 +1,316 @@
+{
+  "total": 4599,
+  "statuses": {
+    "decoded": 3619,
+    "empty": 978,
+    "error": 2
+  },
+  "total_bytes": 242208718,
+  "dimensions": {
+    "320x240": 19,
+    "640x480": 3600
+  },
+  "errors": {
+    "Entire payload is zero bytes; no JPEG data": 2
+  },
+  "runs": [
+    {
+      "status": "decoded",
+      "start_index": 0,
+      "end_index": 18,
+      "count": 19,
+      "start": "2026-10-14T19:37:06.550803",
+      "end": "2026-10-14T20:10:00.822769",
+      "bytes": 411124
+    },
+    {
+      "status": "empty",
+      "start_index": 19,
+      "end_index": 22,
+      "count": 4,
+      "start": "2026-10-14T20:21:36.083525",
+      "end": "2026-10-14T20:21:47.534362",
+      "bytes": 0
+    },
+    {
+      "status": "decoded",
+      "start_index": 23,
+      "end_index": 2338,
+      "count": 2316,
+      "start": "2026-10-14T20:26:50.093587",
+      "end": "2026-10-14T20:41:43.606606",
+      "bytes": 156942240
+    },
+    {
+      "status": "error",
+      "start_index": 2339,
+      "end_index": 2339,
+      "count": 1,
+      "start": "2026-10-14T20:41:43.634337",
+      "end": "2026-10-14T20:41:43.634337",
+      "bytes": 64314
+    },
+    {
+      "status": "empty",
+      "start_index": 2340,
+      "end_index": 2602,
+      "count": 263,
+      "start": "2026-10-14T20:41:43.696128",
+      "end": "2026-10-14T20:41:56.088727",
+      "bytes": 0
+    },
+    {
+      "status": "decoded",
+      "start_index": 2603,
+      "end_index": 3158,
+      "count": 556,
+      "start": "2026-10-14T20:45:11.192916",
+      "end": "2026-10-14T20:46:06.013947",
+      "bytes": 37024657
+    },
+    {
+      "status": "empty",
+      "start_index": 3159,
+      "end_index": 3508,
+      "count": 350,
+      "start": "2026-10-14T20:47:59.992144",
+      "end": "2026-10-14T20:48:15.045773",
+      "bytes": 0
+    },
+    {
+      "status": "decoded",
+      "start_index": 3509,
+      "end_index": 3716,
+      "count": 208,
+      "start": "2026-10-14T20:49:54.718013",
+      "end": "2026-10-14T20:50:20.671468",
+      "bytes": 15079950
+    },
+    {
+      "status": "empty",
+      "start_index": 3717,
+      "end_index": 3897,
+      "count": 181,
+      "start": "2026-10-14T20:50:26.423499",
+      "end": "2026-10-14T20:50:57.753962",
+      "bytes": 0
+    },
+    {
+      "status": "decoded",
+      "start_index": 3898,
+      "end_index": 4417,
+      "count": 520,
+      "start": "2026-10-14T20:52:19.761245",
+      "end": "2026-10-14T20:56:53.619871",
+      "bytes": 32628469
+    },
+    {
+      "status": "error",
+      "start_index": 4418,
+      "end_index": 4418,
+      "count": 1,
+      "start": "2026-10-14T20:56:53.653280",
+      "end": "2026-10-14T20:56:53.653280",
+      "bytes": 57964
+    },
+    {
+      "status": "empty",
+      "start_index": 4419,
+      "end_index": 4598,
+      "count": 180,
+      "start": "2026-10-14T20:56:53.693075",
+      "end": "2026-10-14T20:57:04.084446",
+      "bytes": 0
+    }
+  ],
+  "gaps_over_1s": [
+    {
+      "before": "camera_images/image_20261014_193706_550803.jpg",
+      "after": "camera_images/image_20261014_193709_217531.jpg",
+      "seconds": 2.666728
+    },
+    {
+      "before": "camera_images/image_20261014_193709_217531.jpg",
+      "after": "camera_images/image_20261014_194604_826857.jpg",
+      "seconds": 535.609326
+    },
+    {
+      "before": "camera_images/image_20261014_194604_826857.jpg",
+      "after": "camera_images/image_20261014_195157_700731.jpg",
+      "seconds": 352.873874
+    },
+    {
+      "before": "camera_images/image_20261014_195157_700731.jpg",
+      "after": "camera_images/image_20261014_200356_038258.jpg",
+      "seconds": 718.337527
+    },
+    {
+      "before": "camera_images/image_20261014_200356_038258.jpg",
+      "after": "camera_images/image_20261014_200958_391617.jpg",
+      "seconds": 362.353359
+    },
+    {
+      "before": "camera_images/image_20261014_200958_391617.jpg",
+      "after": "camera_images/image_20261014_200959_490629.jpg",
+      "seconds": 1.099012
+    },
+    {
+      "before": "camera_images/image_20261014_201000_822769.jpg",
+      "after": "camera_images/image_20261014_202136_083525.jpg",
+      "seconds": 695.260756
+    },
+    {
+      "before": "camera_images/image_20261014_202136_083525.jpg",
+      "after": "camera_images/image_20261014_202146_735305.jpg",
+      "seconds": 10.65178
+    },
+    {
+      "before": "camera_images/image_20261014_202147_534362.jpg",
+      "after": "camera_images/image_20261014_202650_093587.jpg",
+      "seconds": 302.559225
+    },
+    {
+      "before": "camera_images/image_20261014_202650_282179.jpg",
+      "after": "camera_images/image_20261014_202654_460810.jpg",
+      "seconds": 4.178631
+    },
+    {
+      "before": "camera_images/image_20261014_202706_910845.jpg",
+      "after": "camera_images/image_20261014_202709_026925.jpg",
+      "seconds": 2.11608
+    },
+    {
+      "before": "camera_images/image_20261014_202709_242833.jpg",
+      "after": "camera_images/image_20261014_203329_964620.jpg",
+      "seconds": 380.721787
+    },
+    {
+      "before": "camera_images/image_20261014_203346_086344.jpg",
+      "after": "camera_images/image_20261014_203410_262980.jpg",
+      "seconds": 24.176636
+    },
+    {
+      "before": "camera_images/image_20261014_203410_262980.jpg",
+      "after": "camera_images/image_20261014_203414_625828.jpg",
+      "seconds": 4.362848
+    },
+    {
+      "before": "camera_images/image_20261014_203432_749714.jpg",
+      "after": "camera_images/image_20261014_203658_880213.jpg",
+      "seconds": 146.130499
+    },
+    {
+      "before": "camera_images/image_20261014_203659_616516.jpg",
+      "after": "camera_images/image_20261014_203705_310616.jpg",
+      "seconds": 5.6941
+    },
+    {
+      "before": "camera_images/image_20261014_203708_241233.jpg",
+      "after": "camera_images/image_20261014_203758_928207.jpg",
+      "seconds": 50.686974
+    },
+    {
+      "before": "camera_images/image_20261014_203807_286650.jpg",
+      "after": "camera_images/image_20261014_203817_646458.jpg",
+      "seconds": 10.359808
+    },
+    {
+      "before": "camera_images/image_20261014_203818_114541.jpg",
+      "after": "camera_images/image_20261014_203835_965592.jpg",
+      "seconds": 17.851051
+    },
+    {
+      "before": "camera_images/image_20261014_203851_653766.jpg",
+      "after": "camera_images/image_20261014_203950_396365.jpg",
+      "seconds": 58.742599
+    },
+    {
+      "before": "camera_images/image_20261014_204005_618385.jpg",
+      "after": "camera_images/image_20261014_204059_169149.jpg",
+      "seconds": 53.550764
+    },
+    {
+      "before": "camera_images/image_20261014_204111_036096.jpg",
+      "after": "camera_images/image_20261014_204137_301376.jpg",
+      "seconds": 26.26528
+    },
+    {
+      "before": "camera_images/image_20261014_204156_088727.jpg",
+      "after": "camera_images/image_20261014_204511_192916.jpg",
+      "seconds": 195.104189
+    },
+    {
+      "before": "camera_images/image_20261014_204522_973746.jpg",
+      "after": "camera_images/image_20261014_204553_284218.jpg",
+      "seconds": 30.310472
+    },
+    {
+      "before": "camera_images/image_20261014_204606_013947.jpg",
+      "after": "camera_images/image_20261014_204759_992144.jpg",
+      "seconds": 113.978197
+    },
+    {
+      "before": "camera_images/image_20261014_204815_045773.jpg",
+      "after": "camera_images/image_20261014_204954_718013.jpg",
+      "seconds": 99.67224
+    },
+    {
+      "before": "camera_images/image_20261014_204958_249171.jpg",
+      "after": "camera_images/image_20261014_205001_070773.jpg",
+      "seconds": 2.821602
+    },
+    {
+      "before": "camera_images/image_20261014_205003_142252.jpg",
+      "after": "camera_images/image_20261014_205016_313711.jpg",
+      "seconds": 13.171459
+    },
+    {
+      "before": "camera_images/image_20261014_205020_671468.jpg",
+      "after": "camera_images/image_20261014_205026_423499.jpg",
+      "seconds": 5.752031
+    },
+    {
+      "before": "camera_images/image_20261014_205033_615354.jpg",
+      "after": "camera_images/image_20261014_205056_588300.jpg",
+      "seconds": 22.972946
+    },
+    {
+      "before": "camera_images/image_20261014_205057_753962.jpg",
+      "after": "camera_images/image_20261014_205219_761245.jpg",
+      "seconds": 82.007283
+    },
+    {
+      "before": "camera_images/image_20261014_205221_066662.jpg",
+      "after": "camera_images/image_20261014_205224_991029.jpg",
+      "seconds": 3.924367
+    },
+    {
+      "before": "camera_images/image_20261014_205228_371538.jpg",
+      "after": "camera_images/image_20261014_205230_126536.jpg",
+      "seconds": 1.754998
+    },
+    {
+      "before": "camera_images/image_20261014_205230_758512.jpg",
+      "after": "camera_images/image_20261014_205547_956377.jpg",
+      "seconds": 197.197865
+    },
+    {
+      "before": "camera_images/image_20261014_205556_401219.jpg",
+      "after": "camera_images/image_20261014_205612_352530.jpg",
+      "seconds": 15.951311
+    },
+    {
+      "before": "camera_images/image_20261014_205622_379057.jpg",
+      "after": "camera_images/image_20261014_205647_622496.jpg",
+      "seconds": 25.243439
+    },
+    {
+      "before": "camera_images/image_20261014_205655_864378.jpg",
+      "after": "camera_images/image_20261014_205658_823842.jpg",
+      "seconds": 2.959464
+    }
+  ],
+  "interval_median_seconds": 0.0343655,
+  "duplicate_nonempty_groups": [],
+  "missing_eoi_nonempty": 2
+}

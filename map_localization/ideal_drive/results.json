@@ -1,0 +1,26 @@
+{
+  "CW": {
+    "lap_time_s": 54.550000000000004,
+    "min_cm": 1.4845872329106982,
+    "max_center_error_cm": 0.4804353316961796,
+    "crossed_samples": 0,
+    "corner_min_cm": {
+      "top-right": 2.485038046514177,
+      "bottom-right": 1.4845872329106982,
+      "bottom-left": 2.1216622645997063,
+      "top-left": 2.4848880313758457
+    }
+  },
+  "CCW": {
+    "lap_time_s": 54.550000000000004,
+    "min_cm": 1.4858867755611413,
+    "max_center_error_cm": 0.48016068426008185,
+    "crossed_samples": 0,
+    "corner_min_cm": {
+      "top-right": 2.486280185793021,
+      "bottom-right": 2.1273520417829843,
+      "bottom-left": 1.4858867755611413,
+      "top-left": 2.4871783655551525
+    }
+  }
+}

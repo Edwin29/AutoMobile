@@ -1,0 +1,13 @@
+{
+  "scale": 0.95,
+  "end": "lap complete",
+  "t": 158.2,
+  "true_laps": 0.997482169034709,
+  "estimated_laps": 1.0003053023240722,
+  "peak_abs_along_cm": 1.715424357931661,
+  "peak_signed_cm": -1.715424357931661,
+  "peak_t": 118.86666666666666,
+  "last_signed_cm": -1.6605850405510312,
+  "gate_signed_cm": -0.24391900067194333,
+  "min_predicted_margin_cm": 2.43278305337455
+}

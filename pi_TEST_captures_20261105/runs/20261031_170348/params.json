@@ -1,0 +1,1 @@
+{"speed": 0.3, "lookahead": 18, "track": 18.0, "smooth": 0.3, "pivot_back": 0.0, "corner_slow": 10.0, "corner_bias": 2.5, "corner_delay": 0.0, "start_corner_delay": 2.0, "ccw": false, "left_bias_extra": 0.8, "left_corner_delay": 1.0, "line_keep_gain": 0.008, "robust": true, "cam_preset": "default", "ev": 0.0, "road": "auto", "turn": "straight"}

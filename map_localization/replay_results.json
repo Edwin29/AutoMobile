@@ -1,0 +1,4665 @@
+{
+ "normal": [
+  {
+   "frame": 0,
+   "t": 0.029,
+   "start": "ccw-S",
+   "x": 43.526009815799554,
+   "y": -87.66626019488127,
+   "yaw_deg": 86.84092545599039,
+   "within_branch_rms_cm": 5.29001570491226,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 5,
+   "t": 0.319,
+   "start": "ccw-S",
+   "x": 43.39086461957953,
+   "y": -88.34528300854757,
+   "yaw_deg": 85.0174648162836,
+   "within_branch_rms_cm": 4.0013223770739295,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 10,
+   "t": 0.653,
+   "start": "ccw-S",
+   "x": 44.33267818835738,
+   "y": -88.20122858588346,
+   "yaw_deg": 85.43719619151551,
+   "within_branch_rms_cm": 3.931059079850909,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 15,
+   "t": 0.987,
+   "start": "ccw-N",
+   "x": -44.49227828230101,
+   "y": 86.78582140916498,
+   "yaw_deg": 271.9235731474056,
+   "within_branch_rms_cm": 2.724971616710092,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 20,
+   "t": 1.322,
+   "start": "ccw-N",
+   "x": -45.645087314240506,
+   "y": 87.01978396027047,
+   "yaw_deg": 273.66211448194747,
+   "within_branch_rms_cm": 2.381270924668985,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 25,
+   "t": 1.653,
+   "start": "ccw-N",
+   "x": -47.00911405573249,
+   "y": 87.20018513164948,
+   "yaw_deg": 274.51981821519234,
+   "within_branch_rms_cm": 2.192955857180898,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 30,
+   "t": 1.986,
+   "start": "ccw-N",
+   "x": -48.40253545913223,
+   "y": 87.27759178886053,
+   "yaw_deg": 275.4087956458839,
+   "within_branch_rms_cm": 2.000598438404183,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 35,
+   "t": 2.318,
+   "start": "ccw-N",
+   "x": -49.888804166261714,
+   "y": 87.43463062756332,
+   "yaw_deg": 275.6272775701766,
+   "within_branch_rms_cm": 1.9244268704118548,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 40,
+   "t": 2.657,
+   "start": "ccw-N",
+   "x": -51.371474947199985,
+   "y": 87.58838225369901,
+   "yaw_deg": 276.2124950288638,
+   "within_branch_rms_cm": 1.8718198136932613,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 45,
+   "t": 2.987,
+   "start": "ccw-N",
+   "x": -53.01307376417946,
+   "y": 87.77414983889312,
+   "yaw_deg": 277.46500228275187,
+   "within_branch_rms_cm": 1.714451984549606,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 50,
+   "t": 3.321,
+   "start": "ccw-N",
+   "x": -54.60815511248797,
+   "y": 87.89047075506306,
+   "yaw_deg": 278.33594094474375,
+   "within_branch_rms_cm": 1.7082886469111023,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 55,
+   "t": 3.655,
+   "start": "ccw-S",
+   "x": 56.460169906161006,
+   "y": -88.27360426649071,
+   "yaw_deg": 96.5996946442423,
+   "within_branch_rms_cm": 1.7105529230038972,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 60,
+   "t": 3.986,
+   "start": "ccw-S",
+   "x": 58.126938963330645,
+   "y": -88.30896683065187,
+   "yaw_deg": 97.65481929982367,
+   "within_branch_rms_cm": 1.6080994104204434,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 65,
+   "t": 4.319,
+   "start": "ccw-S",
+   "x": 59.734319065181076,
+   "y": -88.37006544568847,
+   "yaw_deg": 98.0018416894757,
+   "within_branch_rms_cm": 1.5861903024417432,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 70,
+   "t": 4.653,
+   "start": "ccw-S",
+   "x": 61.16499326357011,
+   "y": -88.2580090615023,
+   "yaw_deg": 97.73083259690657,
+   "within_branch_rms_cm": 1.6076649505616973,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 75,
+   "t": 4.985,
+   "start": "ccw-S",
+   "x": 62.51637544618218,
+   "y": -88.21312839350503,
+   "yaw_deg": 96.97082710446091,
+   "within_branch_rms_cm": 1.679822246237192,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 80,
+   "t": 5.319,
+   "start": "ccw-S",
+   "x": 63.800422081955354,
+   "y": -88.04016653654945,
+   "yaw_deg": 95.25635523458853,
+   "within_branch_rms_cm": 1.8467705550226126,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 85,
+   "t": 5.651,
+   "start": "ccw-S",
+   "x": 64.98979778723874,
+   "y": -87.73921363166534,
+   "yaw_deg": 92.70708176972751,
+   "within_branch_rms_cm": 1.910571368898127,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 90,
+   "t": 5.984,
+   "start": "ccw-S",
+   "x": 66.19054281380465,
+   "y": -87.41060096357441,
+   "yaw_deg": 90.532993967522,
+   "within_branch_rms_cm": 1.9650962159386731,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 95,
+   "t": 6.318,
+   "start": "ccw-S",
+   "x": 67.29493166490022,
+   "y": -86.95634951163775,
+   "yaw_deg": 88.4037452103093,
+   "within_branch_rms_cm": 1.979151710850274,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 100,
+   "t": 6.651,
+   "start": "ccw-S",
+   "x": 68.37402962717817,
+   "y": -86.58281871760484,
+   "yaw_deg": 86.52924005474289,
+   "within_branch_rms_cm": 2.086308269330826,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 105,
+   "t": 6.984,
+   "start": "ccw-S",
+   "x": 69.59207687651302,
+   "y": -86.11596774834507,
+   "yaw_deg": 84.37400691981185,
+   "within_branch_rms_cm": 2.0925589251040053,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 110,
+   "t": 7.318,
+   "start": "ccw-S",
+   "x": 70.70957678285801,
+   "y": -85.59648465056982,
+   "yaw_deg": 81.99717480672214,
+   "within_branch_rms_cm": 2.0758281629627,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 115,
+   "t": 7.65,
+   "start": "ccw-S",
+   "x": 71.71189968451183,
+   "y": -84.9722477651273,
+   "yaw_deg": 79.24012008559207,
+   "within_branch_rms_cm": 2.188784375319646,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 120,
+   "t": 7.983,
+   "start": "ccw-S",
+   "x": 72.68515807380479,
+   "y": -84.44100916023989,
+   "yaw_deg": 77.43547229793585,
+   "within_branch_rms_cm": 2.2302406667328274,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 125,
+   "t": 8.318,
+   "start": "ccw-S",
+   "x": 73.69611185621427,
+   "y": -83.76733041616058,
+   "yaw_deg": 74.58479358954962,
+   "within_branch_rms_cm": 2.242694265196358,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 130,
+   "t": 8.651,
+   "start": "ccw-S",
+   "x": 75.28890534038982,
+   "y": -82.26438768900508,
+   "yaw_deg": 68.67785129751991,
+   "within_branch_rms_cm": 1.9547556733269074,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 135,
+   "t": 8.983,
+   "start": "ccw-S",
+   "x": 76.4882614008614,
+   "y": -80.96642389774098,
+   "yaw_deg": 63.88936225649076,
+   "within_branch_rms_cm": 1.8198650352788108,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 140,
+   "t": 9.317,
+   "start": "ccw-S",
+   "x": 77.59629569583541,
+   "y": -79.60359997484109,
+   "yaw_deg": 59.02703173926907,
+   "within_branch_rms_cm": 1.8395866385902846,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 145,
+   "t": 9.65,
+   "start": "ccw-S",
+   "x": 78.49512303678502,
+   "y": -78.34588330831146,
+   "yaw_deg": 55.061786766189954,
+   "within_branch_rms_cm": 1.703737072142447,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 150,
+   "t": 9.982,
+   "start": "ccw-S",
+   "x": 79.27137443016686,
+   "y": -77.13502492321408,
+   "yaw_deg": 51.04925711134663,
+   "within_branch_rms_cm": 1.6800996456430468,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 155,
+   "t": 10.317,
+   "start": "ccw-S",
+   "x": 79.88932149787017,
+   "y": -75.9013659936041,
+   "yaw_deg": 47.05747391639521,
+   "within_branch_rms_cm": 1.6007474329232327,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 160,
+   "t": 10.65,
+   "start": "ccw-S",
+   "x": 80.4385862787487,
+   "y": -74.65065313796244,
+   "yaw_deg": 43.21000022306701,
+   "within_branch_rms_cm": 1.5228946947441948,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 165,
+   "t": 10.981,
+   "start": "ccw-S",
+   "x": 80.82024192414565,
+   "y": -73.36361374724444,
+   "yaw_deg": 39.07298234720039,
+   "within_branch_rms_cm": 1.4701586510210185,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 170,
+   "t": 11.316,
+   "start": "ccw-S",
+   "x": 81.17435314543344,
+   "y": -72.14447363191671,
+   "yaw_deg": 36.02802772523174,
+   "within_branch_rms_cm": 1.4382750070281536,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 175,
+   "t": 11.648,
+   "start": "ccw-S",
+   "x": 81.48142745949663,
+   "y": -71.08599308615294,
+   "yaw_deg": 33.60513765390883,
+   "within_branch_rms_cm": 1.4000288924169797,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 180,
+   "t": 13.006,
+   "start": "ccw-S",
+   "x": 82.96813622007117,
+   "y": -67.09337940849656,
+   "yaw_deg": 28.473031521047417,
+   "within_branch_rms_cm": 2.058043544594343,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 185,
+   "t": 13.315,
+   "start": "ccw-S",
+   "x": 83.44550561095392,
+   "y": -66.14668777357222,
+   "yaw_deg": 28.571857428853324,
+   "within_branch_rms_cm": 2.0768729786132996,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 190,
+   "t": 13.647,
+   "start": "ccw-S",
+   "x": 83.67114787239244,
+   "y": -65.27363893807009,
+   "yaw_deg": 26.727530384788412,
+   "within_branch_rms_cm": 2.165263701234432,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 195,
+   "t": 13.981,
+   "start": "ccw-S",
+   "x": 83.56886550244768,
+   "y": -64.44873630695096,
+   "yaw_deg": 23.237318023291074,
+   "within_branch_rms_cm": 2.1978585448607273,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 200,
+   "t": 14.315,
+   "start": "ccw-S",
+   "x": 83.40443019329983,
+   "y": -63.56489345156611,
+   "yaw_deg": 19.339943108736744,
+   "within_branch_rms_cm": 2.3272047499496464,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 205,
+   "t": 14.848,
+   "start": "ccw-S",
+   "x": 83.2341057504871,
+   "y": -61.81484272314313,
+   "yaw_deg": 13.82487183787773,
+   "within_branch_rms_cm": 2.4781415350135543,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 210,
+   "t": 15.181,
+   "start": "ccw-S",
+   "x": 82.83580460331463,
+   "y": -60.94745467350286,
+   "yaw_deg": 9.67564753986563,
+   "within_branch_rms_cm": 2.5815841614148054,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 215,
+   "t": 15.514,
+   "start": "ccw-S",
+   "x": 82.36388906984396,
+   "y": -60.11310553011075,
+   "yaw_deg": 5.1065846911058985,
+   "within_branch_rms_cm": 2.6453506731446854,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 220,
+   "t": 15.847,
+   "start": "ccw-S",
+   "x": 81.95621550253058,
+   "y": -59.08692255511234,
+   "yaw_deg": 1.3280097321867088,
+   "within_branch_rms_cm": 2.6824209188616894,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 225,
+   "t": 16.18,
+   "start": "ccw-S",
+   "x": 81.56062104108584,
+   "y": -57.756757686362484,
+   "yaw_deg": 358.4808625018166,
+   "within_branch_rms_cm": 2.8194151686963864,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 230,
+   "t": 16.514,
+   "start": "ccw-S",
+   "x": 81.31524722622164,
+   "y": -56.497022337366026,
+   "yaw_deg": 357.3025240509716,
+   "within_branch_rms_cm": 2.8904249079803352,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 235,
+   "t": 16.847,
+   "start": "ccw-S",
+   "x": 81.1437224203406,
+   "y": -55.00578374629368,
+   "yaw_deg": 357.2634637360713,
+   "within_branch_rms_cm": 2.9341094826673224,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 240,
+   "t": 17.182,
+   "start": "ccw-S",
+   "x": 81.0558859124707,
+   "y": -53.590389517099034,
+   "yaw_deg": 357.57441629960886,
+   "within_branch_rms_cm": 2.936976093240912,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 245,
+   "t": 17.513,
+   "start": "ccw-S",
+   "x": 80.99373025975706,
+   "y": -52.08525937656094,
+   "yaw_deg": 358.0017110199553,
+   "within_branch_rms_cm": 3.0573440094649413,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 250,
+   "t": 17.846,
+   "start": "ccw-S",
+   "x": 80.9920207727485,
+   "y": -49.887715391846136,
+   "yaw_deg": 359.4091128058384,
+   "within_branch_rms_cm": 3.2496368932530935,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 255,
+   "t": 18.187,
+   "start": "ccw-S",
+   "x": 80.98926831105884,
+   "y": -47.52106075102025,
+   "yaw_deg": 0.7951795742379719,
+   "within_branch_rms_cm": 3.2889430406730953,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 260,
+   "t": 18.519,
+   "start": "ccw-S",
+   "x": 81.13942204483077,
+   "y": -45.305524220472776,
+   "yaw_deg": 2.9149290584129246,
+   "within_branch_rms_cm": 3.1799011874952066,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 265,
+   "t": 18.851,
+   "start": "ccw-S",
+   "x": 81.23067146883336,
+   "y": -43.29100564546655,
+   "yaw_deg": 3.967426438415884,
+   "within_branch_rms_cm": 3.0762963268316725,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 270,
+   "t": 19.185,
+   "start": "ccw-S",
+   "x": 81.44733440346542,
+   "y": -41.20380281115145,
+   "yaw_deg": 5.30548327942493,
+   "within_branch_rms_cm": 2.9927863718824126,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 275,
+   "t": 19.518,
+   "start": "ccw-S",
+   "x": 81.52159296292373,
+   "y": -39.45867153170102,
+   "yaw_deg": 5.613329358621611,
+   "within_branch_rms_cm": 3.071849029970569,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 280,
+   "t": 19.852,
+   "start": "ccw-S",
+   "x": 81.63224803423472,
+   "y": -37.60868117032683,
+   "yaw_deg": 5.7399566823297015,
+   "within_branch_rms_cm": 3.042038185497618,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 285,
+   "t": 20.185,
+   "start": "ccw-S",
+   "x": 81.86667326561934,
+   "y": -35.99168046469846,
+   "yaw_deg": 6.733386478965945,
+   "within_branch_rms_cm": 3.257635514192187,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 290,
+   "t": 20.518,
+   "start": "ccw-S",
+   "x": 81.9386220807333,
+   "y": -34.043143908642534,
+   "yaw_deg": 6.847579994799659,
+   "within_branch_rms_cm": 3.108105339988322,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 295,
+   "t": 20.851,
+   "start": "ccw-S",
+   "x": 82.11437247946138,
+   "y": -31.865651201104868,
+   "yaw_deg": 7.825359572479981,
+   "within_branch_rms_cm": 3.19159239342065,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 300,
+   "t": 21.185,
+   "start": "ccw-S",
+   "x": 82.12898764703337,
+   "y": -29.74614288277761,
+   "yaw_deg": 7.626763173008259,
+   "within_branch_rms_cm": 3.2718742894859867,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 305,
+   "t": 21.516,
+   "start": "ccw-S",
+   "x": 82.09893443528117,
+   "y": -27.552682645603756,
+   "yaw_deg": 7.099506567251136,
+   "within_branch_rms_cm": 3.3034858585442683,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 310,
+   "t": 21.849,
+   "start": "ccw-S",
+   "x": 82.1542410659768,
+   "y": -25.422677890497432,
+   "yaw_deg": 6.886576212612432,
+   "within_branch_rms_cm": 3.5196466617889923,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 315,
+   "t": 22.184,
+   "start": "ccw-S",
+   "x": 82.12816614795747,
+   "y": -23.422486731712315,
+   "yaw_deg": 6.41379314102491,
+   "within_branch_rms_cm": 3.82399241984675,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 320,
+   "t": 22.517,
+   "start": "ccw-S",
+   "x": 80.60136442568134,
+   "y": -18.883500442157295,
+   "yaw_deg": 359.9980527032875,
+   "within_branch_rms_cm": 2.633565543204237,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 325,
+   "t": 22.851,
+   "start": "ccw-S",
+   "x": 79.97127758556742,
+   "y": -16.152113557503377,
+   "yaw_deg": 356.2180381071906,
+   "within_branch_rms_cm": 1.8359993378423096,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 330,
+   "t": 23.184,
+   "start": "ccw-S",
+   "x": 79.57975176205028,
+   "y": -14.356978967183588,
+   "yaw_deg": 354.575162726491,
+   "within_branch_rms_cm": 1.5196227459453497,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 335,
+   "t": 23.518,
+   "start": "ccw-S",
+   "x": 79.12889019491868,
+   "y": -12.678489551500634,
+   "yaw_deg": 353.1051745399387,
+   "within_branch_rms_cm": 1.5561360631653178,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 340,
+   "t": 23.85,
+   "start": "ccw-S",
+   "x": 78.8609395387155,
+   "y": -11.236206893367298,
+   "yaw_deg": 352.7449337034906,
+   "within_branch_rms_cm": 1.51383765754667,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 345,
+   "t": 24.185,
+   "start": "ccw-S",
+   "x": 78.57782830228753,
+   "y": -9.629378141166033,
+   "yaw_deg": 352.8526453217336,
+   "within_branch_rms_cm": 1.4569495453236052,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 350,
+   "t": 24.514,
+   "start": "ccw-S",
+   "x": 78.60243498594672,
+   "y": -8.298744058037704,
+   "yaw_deg": 355.13400492746996,
+   "within_branch_rms_cm": 1.4961448723609745,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 355,
+   "t": 24.85,
+   "start": "ccw-S",
+   "x": 78.6809215518667,
+   "y": -6.9569414879924105,
+   "yaw_deg": 357.00478331480707,
+   "within_branch_rms_cm": 1.4450747653811746,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 360,
+   "t": 25.182,
+   "start": "ccw-S",
+   "x": 78.46356137680999,
+   "y": -5.56507970895283,
+   "yaw_deg": 356.30798312724875,
+   "within_branch_rms_cm": 1.3800836351724841,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 365,
+   "t": 25.514,
+   "start": "ccw-S",
+   "x": 78.22810271686328,
+   "y": -4.173375066808499,
+   "yaw_deg": 355.48130434900247,
+   "within_branch_rms_cm": 1.4057552235733688,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 370,
+   "t": 26.331,
+   "start": "ccw-S",
+   "x": 78.49287196438614,
+   "y": -1.0748193214582293,
+   "yaw_deg": 0.8277845487544795,
+   "within_branch_rms_cm": 1.5394348225278993,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 375,
+   "t": 26.648,
+   "start": "ccw-S",
+   "x": 78.89563543028943,
+   "y": -0.02198824454708812,
+   "yaw_deg": 4.656240833252079,
+   "within_branch_rms_cm": 1.5068561735774442,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 380,
+   "t": 26.982,
+   "start": "ccw-S",
+   "x": 79.47773470213689,
+   "y": 1.237028028216387,
+   "yaw_deg": 8.614410805464077,
+   "within_branch_rms_cm": 1.4972889107207366,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 385,
+   "t": 27.314,
+   "start": "ccw-S",
+   "x": 80.03918782594769,
+   "y": 2.5125497245015658,
+   "yaw_deg": 11.261913658114254,
+   "within_branch_rms_cm": 1.464033768762214,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 390,
+   "t": 27.648,
+   "start": "ccw-S",
+   "x": 80.52725832154395,
+   "y": 4.027307351721394,
+   "yaw_deg": 12.64669829270316,
+   "within_branch_rms_cm": 1.503154604842875,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 395,
+   "t": 27.981,
+   "start": "ccw-S",
+   "x": 80.9268185985801,
+   "y": 5.702860254533347,
+   "yaw_deg": 12.934149705310865,
+   "within_branch_rms_cm": 1.4742251008364349,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 400,
+   "t": 28.317,
+   "start": "ccw-S",
+   "x": 81.31237836609954,
+   "y": 7.39290803891438,
+   "yaw_deg": 12.443813755621228,
+   "within_branch_rms_cm": 1.4759334753762094,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 405,
+   "t": 28.65,
+   "start": "ccw-S",
+   "x": 81.68031759558646,
+   "y": 9.06104258290616,
+   "yaw_deg": 12.419132280427405,
+   "within_branch_rms_cm": 1.4737507710087565,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 410,
+   "t": 28.978,
+   "start": "ccw-S",
+   "x": 82.17117042311534,
+   "y": 10.772238305780537,
+   "yaw_deg": 12.448423792419536,
+   "within_branch_rms_cm": 1.4152711110113825,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 415,
+   "t": 30.91,
+   "start": "ccw-S",
+   "x": 83.87754171295585,
+   "y": 18.15896985278156,
+   "yaw_deg": 12.887995713850373,
+   "within_branch_rms_cm": 2.41723903271768,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 420,
+   "t": 31.243,
+   "start": "ccw-S",
+   "x": 83.97585844171701,
+   "y": 19.593974083843783,
+   "yaw_deg": 11.461331889732005,
+   "within_branch_rms_cm": 2.4232078513050395,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 425,
+   "t": 31.576,
+   "start": "ccw-S",
+   "x": 83.9689819753052,
+   "y": 20.967442568187288,
+   "yaw_deg": 9.099504775650542,
+   "within_branch_rms_cm": 2.5326505673615882,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 430,
+   "t": 31.91,
+   "start": "ccw-S",
+   "x": 83.85028950839774,
+   "y": 22.091979113318008,
+   "yaw_deg": 6.804304538672001,
+   "within_branch_rms_cm": 2.6315773322729075,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 435,
+   "t": 32.242,
+   "start": "ccw-S",
+   "x": 83.82262899400173,
+   "y": 23.349177173612528,
+   "yaw_deg": 5.0711237880133835,
+   "within_branch_rms_cm": 2.6192942836657687,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 440,
+   "t": 32.575,
+   "start": "ccw-S",
+   "x": 83.75924545719617,
+   "y": 24.686779428549347,
+   "yaw_deg": 4.053299350693881,
+   "within_branch_rms_cm": 2.6549395986700866,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 445,
+   "t": 32.909,
+   "start": "ccw-S",
+   "x": 83.78359501392715,
+   "y": 26.09455263102139,
+   "yaw_deg": 3.301209622799194,
+   "within_branch_rms_cm": 2.7731173134155074,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 450,
+   "t": 33.244,
+   "start": "ccw-S",
+   "x": 83.70020087529946,
+   "y": 27.604860195714746,
+   "yaw_deg": 2.4146267748770276,
+   "within_branch_rms_cm": 2.7359728610696177,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 455,
+   "t": 33.576,
+   "start": "ccw-S",
+   "x": 83.7458276406289,
+   "y": 29.224631212647434,
+   "yaw_deg": 2.305774015419718,
+   "within_branch_rms_cm": 2.8089717770284,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 460,
+   "t": 33.915,
+   "start": "ccw-S",
+   "x": 83.78918510081584,
+   "y": 30.79141949243614,
+   "yaw_deg": 2.110891337218117,
+   "within_branch_rms_cm": 2.879560522743968,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 465,
+   "t": 34.249,
+   "start": "ccw-S",
+   "x": 83.92706381682815,
+   "y": 34.75468951640178,
+   "yaw_deg": 1.792188484685581,
+   "within_branch_rms_cm": 2.6391504274637803,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 470,
+   "t": 34.583,
+   "start": "ccw-S",
+   "x": 84.02776833242001,
+   "y": 37.93093963692228,
+   "yaw_deg": 2.1223560441499494,
+   "within_branch_rms_cm": 1.9752918957179306,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 475,
+   "t": 34.915,
+   "start": "ccw-S",
+   "x": 84.07390532451763,
+   "y": 39.56007581038684,
+   "yaw_deg": 2.575667658466618,
+   "within_branch_rms_cm": 1.8754002167106318,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 480,
+   "t": 35.243,
+   "start": "ccw-S",
+   "x": 84.1323018129922,
+   "y": 41.82905736381109,
+   "yaw_deg": 2.4654233803820347,
+   "within_branch_rms_cm": 1.627588613753208,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 485,
+   "t": 35.577,
+   "start": "ccw-S",
+   "x": 84.12484242428343,
+   "y": 43.86194739087336,
+   "yaw_deg": 2.156563931791124,
+   "within_branch_rms_cm": 1.4746071607551359,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 490,
+   "t": 35.911,
+   "start": "ccw-S",
+   "x": 84.09566468053947,
+   "y": 45.863385317898754,
+   "yaw_deg": 2.1682182200035847,
+   "within_branch_rms_cm": 1.4310318461959821,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 495,
+   "t": 36.244,
+   "start": "ccw-S",
+   "x": 84.27047448024908,
+   "y": 47.54466428081319,
+   "yaw_deg": 3.044258261670799,
+   "within_branch_rms_cm": 1.4065563550404434,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 500,
+   "t": 36.578,
+   "start": "ccw-S",
+   "x": 84.35452250195479,
+   "y": 49.24085558525498,
+   "yaw_deg": 3.1752183402192973,
+   "within_branch_rms_cm": 1.4547973016270397,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 505,
+   "t": 36.909,
+   "start": "ccw-S",
+   "x": 84.48081540083402,
+   "y": 50.867615988011295,
+   "yaw_deg": 3.3808727229054694,
+   "within_branch_rms_cm": 1.4384252410172498,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 510,
+   "t": 37.244,
+   "start": "ccw-S",
+   "x": 84.59890596339993,
+   "y": 52.375033149322775,
+   "yaw_deg": 4.2974517779638335,
+   "within_branch_rms_cm": 1.4305689044957726,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 515,
+   "t": 37.576,
+   "start": "ccw-S",
+   "x": 84.70614339130091,
+   "y": 54.068725556187125,
+   "yaw_deg": 4.459666307876668,
+   "within_branch_rms_cm": 1.4371117147183878,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 520,
+   "t": 37.909,
+   "start": "ccw-S",
+   "x": 84.82323253645627,
+   "y": 55.73947491901097,
+   "yaw_deg": 4.450324808486905,
+   "within_branch_rms_cm": 1.4613209053829639,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 525,
+   "t": 38.241,
+   "start": "ccw-S",
+   "x": 84.87280081398772,
+   "y": 57.15824794670122,
+   "yaw_deg": 3.4926359334740273,
+   "within_branch_rms_cm": 1.4313531448033465,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 530,
+   "t": 38.575,
+   "start": "ccw-S",
+   "x": 84.80237437385945,
+   "y": 58.56598956743078,
+   "yaw_deg": 2.2023300463744144,
+   "within_branch_rms_cm": 1.3602013726954074,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 535,
+   "t": 38.906,
+   "start": "ccw-S",
+   "x": 84.77315276372875,
+   "y": 60.03389319108351,
+   "yaw_deg": 1.7025994447996926,
+   "within_branch_rms_cm": 1.5159431536657753,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 540,
+   "t": 39.236,
+   "start": "ccw-S",
+   "x": 85.11377436814628,
+   "y": 61.56668154307585,
+   "yaw_deg": 4.630259393564232,
+   "within_branch_rms_cm": 1.7150573486920038,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 545,
+   "t": 39.569,
+   "start": "ccw-S",
+   "x": 85.27717549273163,
+   "y": 63.02341347380105,
+   "yaw_deg": 6.541639852737464,
+   "within_branch_rms_cm": 1.8878091666680943,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 550,
+   "t": 39.901,
+   "start": "ccw-S",
+   "x": 85.37128850959756,
+   "y": 64.33795955177867,
+   "yaw_deg": 8.310512484966777,
+   "within_branch_rms_cm": 2.043151498359327,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 555,
+   "t": 40.238,
+   "start": "ccw-S",
+   "x": 85.44280832448862,
+   "y": 65.58351566137104,
+   "yaw_deg": 9.838215016186613,
+   "within_branch_rms_cm": 2.090082652683728,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 560,
+   "t": 40.568,
+   "start": "ccw-S",
+   "x": 85.21412000155294,
+   "y": 66.99785945829449,
+   "yaw_deg": 7.793463795123529,
+   "within_branch_rms_cm": 2.1146911710094405,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 565,
+   "t": 40.901,
+   "start": "ccw-S",
+   "x": 84.96355006132391,
+   "y": 68.23511061323251,
+   "yaw_deg": 6.229296131077918,
+   "within_branch_rms_cm": 2.1068778251651126,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 570,
+   "t": 41.234,
+   "start": "ccw-S",
+   "x": 84.54325685946964,
+   "y": 69.48550827836584,
+   "yaw_deg": 3.9026091773578937,
+   "within_branch_rms_cm": 2.114639536180819,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 575,
+   "t": 41.568,
+   "start": "ccw-S",
+   "x": 84.20506686588247,
+   "y": 70.70951534047052,
+   "yaw_deg": 1.5817973553134395,
+   "within_branch_rms_cm": 2.1548205119421,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 580,
+   "t": 41.9,
+   "start": "ccw-S",
+   "x": 83.75717005808325,
+   "y": 71.87478327121552,
+   "yaw_deg": 359.45183287586934,
+   "within_branch_rms_cm": 2.1648502606949944,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 585,
+   "t": 42.234,
+   "start": "ccw-S",
+   "x": 82.58259627138533,
+   "y": 73.79843882548133,
+   "yaw_deg": 354.65418512541453,
+   "within_branch_rms_cm": 2.0461069577779463,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 590,
+   "t": 42.566,
+   "start": "ccw-S",
+   "x": 81.32308069333865,
+   "y": 75.52985086475374,
+   "yaw_deg": 349.70526573122453,
+   "within_branch_rms_cm": 1.911689591662075,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 595,
+   "t": 42.9,
+   "start": "ccw-S",
+   "x": 80.24834824080358,
+   "y": 76.93272504719121,
+   "yaw_deg": 346.2003684888131,
+   "within_branch_rms_cm": 1.7611797200451238,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 600,
+   "t": 43.234,
+   "start": "ccw-S",
+   "x": 79.30369997484699,
+   "y": 78.04065812865068,
+   "yaw_deg": 343.03848123557384,
+   "within_branch_rms_cm": 1.5967328332661939,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 605,
+   "t": 43.566,
+   "start": "ccw-S",
+   "x": 78.71505291408539,
+   "y": 78.88303126380501,
+   "yaw_deg": 341.166796851016,
+   "within_branch_rms_cm": 1.6515980447613925,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 610,
+   "t": 43.91,
+   "start": "ccw-S",
+   "x": 77.52923306376842,
+   "y": 79.93121199397929,
+   "yaw_deg": 336.967764151771,
+   "within_branch_rms_cm": 1.5723402998504006,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 615,
+   "t": 44.233,
+   "start": "ccw-S",
+   "x": 76.41031443024296,
+   "y": 80.83160006544517,
+   "yaw_deg": 333.4405050731954,
+   "within_branch_rms_cm": 1.489697426481141,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 620,
+   "t": 44.568,
+   "start": "ccw-S",
+   "x": 75.40056230929538,
+   "y": 81.64878151535339,
+   "yaw_deg": 330.04985539236003,
+   "within_branch_rms_cm": 1.4373073441337851,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 625,
+   "t": 44.899,
+   "start": "ccw-S",
+   "x": 74.4532489825935,
+   "y": 82.27653268766237,
+   "yaw_deg": 326.848601662394,
+   "within_branch_rms_cm": 1.3650799343102347,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 630,
+   "t": 45.232,
+   "start": "ccw-S",
+   "x": 73.37429219465608,
+   "y": 82.886292669933,
+   "yaw_deg": 323.03938717214703,
+   "within_branch_rms_cm": 1.3060120396827368,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 635,
+   "t": 45.571,
+   "start": "ccw-S",
+   "x": 72.52956303582248,
+   "y": 83.32427382450265,
+   "yaw_deg": 320.48561235255306,
+   "within_branch_rms_cm": 1.2958862795566852,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 640,
+   "t": 45.899,
+   "start": "ccw-S",
+   "x": 71.59338658842613,
+   "y": 83.74820415954261,
+   "yaw_deg": 317.7032464853117,
+   "within_branch_rms_cm": 1.2670480522726326,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 645,
+   "t": 46.232,
+   "start": "ccw-S",
+   "x": 70.83773600489836,
+   "y": 84.09345746007969,
+   "yaw_deg": 315.35915143231784,
+   "within_branch_rms_cm": 1.4413306021114738,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 650,
+   "t": 46.565,
+   "start": "ccw-S",
+   "x": 69.674197271532,
+   "y": 84.48538250159423,
+   "yaw_deg": 312.09006341555147,
+   "within_branch_rms_cm": 1.4119729202621718,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 655,
+   "t": 46.898,
+   "start": "ccw-S",
+   "x": 68.55211940104682,
+   "y": 84.76509842098147,
+   "yaw_deg": 309.06498798585494,
+   "within_branch_rms_cm": 1.3460081762883283,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 660,
+   "t": 47.231,
+   "start": "ccw-S",
+   "x": 67.48580350176809,
+   "y": 85.11632200064544,
+   "yaw_deg": 306.449838946729,
+   "within_branch_rms_cm": 1.4052955721997697,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 665,
+   "t": 47.564,
+   "start": "ccw-S",
+   "x": 66.60259426520066,
+   "y": 85.41144287842822,
+   "yaw_deg": 303.9097904325672,
+   "within_branch_rms_cm": 1.5001434442463364,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 670,
+   "t": 47.898,
+   "start": "ccw-S",
+   "x": 65.01577457024976,
+   "y": 85.81699225249747,
+   "yaw_deg": 301.280525604937,
+   "within_branch_rms_cm": 1.583157403388515,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 675,
+   "t": 48.232,
+   "start": "ccw-S",
+   "x": 64.05906495282217,
+   "y": 85.98422595423281,
+   "yaw_deg": 298.8941111088286,
+   "within_branch_rms_cm": 1.6884972773231064,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 680,
+   "t": 48.567,
+   "start": "ccw-S",
+   "x": 63.129959550399406,
+   "y": 86.13288834602245,
+   "yaw_deg": 296.34620374011627,
+   "within_branch_rms_cm": 1.8104914540854584,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 685,
+   "t": 48.899,
+   "start": "ccw-S",
+   "x": 62.05331942285798,
+   "y": 86.27580460397242,
+   "yaw_deg": 294.2043421335954,
+   "within_branch_rms_cm": 1.9192714939384317,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 690,
+   "t": 49.233,
+   "start": "ccw-S",
+   "x": 60.82246988066926,
+   "y": 86.448551719654,
+   "yaw_deg": 292.0282285780769,
+   "within_branch_rms_cm": 2.0431991348177267,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 695,
+   "t": 49.566,
+   "start": "ccw-S",
+   "x": 58.39680078601564,
+   "y": 86.68032234682454,
+   "yaw_deg": 289.1576184078813,
+   "within_branch_rms_cm": 2.0288166470743767,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 700,
+   "t": 49.9,
+   "start": "ccw-S",
+   "x": 56.11206928543905,
+   "y": 86.92670760916329,
+   "yaw_deg": 287.42608499052056,
+   "within_branch_rms_cm": 1.9220553791835067,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 705,
+   "t": 50.233,
+   "start": "ccw-S",
+   "x": 53.99081318820771,
+   "y": 87.17932690621667,
+   "yaw_deg": 286.1310731682757,
+   "within_branch_rms_cm": 1.7550401995479208,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 710,
+   "t": 50.566,
+   "start": "ccw-S",
+   "x": 52.112706574684985,
+   "y": 87.31820695225973,
+   "yaw_deg": 284.4298323148596,
+   "within_branch_rms_cm": 1.6134128272665453,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 715,
+   "t": 50.9,
+   "start": "ccw-S",
+   "x": 50.406744541808656,
+   "y": 87.46400182726784,
+   "yaw_deg": 283.0801631840991,
+   "within_branch_rms_cm": 1.4747748362006157,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 720,
+   "t": 51.233,
+   "start": "ccw-S",
+   "x": 48.74039262551043,
+   "y": 87.6791335702534,
+   "yaw_deg": 282.1104588612045,
+   "within_branch_rms_cm": 1.4126563947020545,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 725,
+   "t": 51.566,
+   "start": "ccw-S",
+   "x": 47.2249915966346,
+   "y": 87.88014239941909,
+   "yaw_deg": 281.43970760803757,
+   "within_branch_rms_cm": 1.4320136537750328,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 730,
+   "t": 51.9,
+   "start": "ccw-S",
+   "x": 45.73098755063487,
+   "y": 87.9435520022677,
+   "yaw_deg": 280.9751864750188,
+   "within_branch_rms_cm": 1.3898518889634375,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 735,
+   "t": 52.233,
+   "start": "ccw-S",
+   "x": 44.36774980991731,
+   "y": 87.92028521719872,
+   "yaw_deg": 280.03165893723303,
+   "within_branch_rms_cm": 1.3891165490679964,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 740,
+   "t": 52.567,
+   "start": "ccw-S",
+   "x": 42.900992786751125,
+   "y": 87.95817655781141,
+   "yaw_deg": 279.16528833795303,
+   "within_branch_rms_cm": 1.3731402238795356,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 745,
+   "t": 52.899,
+   "start": "ccw-S",
+   "x": 41.456978455942405,
+   "y": 87.99524846952434,
+   "yaw_deg": 278.8841886431782,
+   "within_branch_rms_cm": 1.3506735469366684,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 750,
+   "t": 53.232,
+   "start": "ccw-S",
+   "x": 39.991420504072096,
+   "y": 88.08729364783893,
+   "yaw_deg": 278.605213512282,
+   "within_branch_rms_cm": 1.373304163502409,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 755,
+   "t": 53.566,
+   "start": "ccw-S",
+   "x": 38.48785108377595,
+   "y": 88.1528062761775,
+   "yaw_deg": 277.5253359111923,
+   "within_branch_rms_cm": 1.450560907165036,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 760,
+   "t": 53.898,
+   "start": "ccw-S",
+   "x": 36.90094006199598,
+   "y": 88.25654254083416,
+   "yaw_deg": 277.09310949542544,
+   "within_branch_rms_cm": 1.5831599988731513,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 765,
+   "t": 54.232,
+   "start": "ccw-S",
+   "x": 35.32369134523581,
+   "y": 88.34872215725768,
+   "yaw_deg": 276.8251539506549,
+   "within_branch_rms_cm": 1.6897256819626765,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 770,
+   "t": 54.565,
+   "start": "ccw-S",
+   "x": 33.64163895231319,
+   "y": 88.40774660755011,
+   "yaw_deg": 276.30167790335065,
+   "within_branch_rms_cm": 1.697112133950399,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 775,
+   "t": 54.897,
+   "start": "ccw-S",
+   "x": 31.892549517377176,
+   "y": 88.50115532027411,
+   "yaw_deg": 275.8720747217109,
+   "within_branch_rms_cm": 1.7189288622880559,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 780,
+   "t": 55.231,
+   "start": "ccw-S",
+   "x": 29.976001155463734,
+   "y": 88.5914269698603,
+   "yaw_deg": 275.8051622439687,
+   "within_branch_rms_cm": 1.9068404870584783,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 785,
+   "t": 55.565,
+   "start": "ccw-S",
+   "x": 28.03635748473337,
+   "y": 88.68577785502293,
+   "yaw_deg": 275.76401002255517,
+   "within_branch_rms_cm": 2.001787526537641,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 790,
+   "t": 55.901,
+   "start": "ccw-S",
+   "x": 25.71846633933696,
+   "y": 88.6765851488633,
+   "yaw_deg": 275.3055321757822,
+   "within_branch_rms_cm": 2.205246510887687,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 795,
+   "t": 56.232,
+   "start": "ccw-S",
+   "x": 22.122165194605895,
+   "y": 88.69307820003351,
+   "yaw_deg": 274.71560131092866,
+   "within_branch_rms_cm": 1.7860210661358082,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 800,
+   "t": 56.574,
+   "start": "ccw-S",
+   "x": 19.377928725250438,
+   "y": 88.7795765864536,
+   "yaw_deg": 274.0822066943651,
+   "within_branch_rms_cm": 1.3570760527290384,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 805,
+   "t": 56.9,
+   "start": "ccw-S",
+   "x": 17.322779838137286,
+   "y": 88.79945671394202,
+   "yaw_deg": 273.17816423832926,
+   "within_branch_rms_cm": 1.2137154295632449,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 810,
+   "t": 57.233,
+   "start": "ccw-S",
+   "x": 15.411859742168087,
+   "y": 88.84523478611266,
+   "yaw_deg": 273.0040774034723,
+   "within_branch_rms_cm": 1.2246916470076163,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 815,
+   "t": 57.568,
+   "start": "ccw-S",
+   "x": 13.642745099985797,
+   "y": 88.93174486811299,
+   "yaw_deg": 272.59563665058903,
+   "within_branch_rms_cm": 1.170970897803976,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 820,
+   "t": 57.901,
+   "start": "ccw-S",
+   "x": 11.890476437119608,
+   "y": 88.93307458606611,
+   "yaw_deg": 272.25368734387166,
+   "within_branch_rms_cm": 1.1615828745686787,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 825,
+   "t": 58.232,
+   "start": "ccw-S",
+   "x": 10.086837308155186,
+   "y": 88.95728093756063,
+   "yaw_deg": 271.9278023877352,
+   "within_branch_rms_cm": 1.2625317761852715,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 830,
+   "t": 58.567,
+   "start": "ccw-S",
+   "x": 8.41958829798733,
+   "y": 88.96841591273956,
+   "yaw_deg": 271.62507999115746,
+   "within_branch_rms_cm": 1.277637677368121,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 835,
+   "t": 58.901,
+   "start": "ccw-S",
+   "x": 6.811137055238061,
+   "y": 88.90612979052125,
+   "yaw_deg": 271.27797481151805,
+   "within_branch_rms_cm": 1.2590102188393786,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 840,
+   "t": 59.232,
+   "start": "ccw-S",
+   "x": 5.0367851808129025,
+   "y": 88.8966795480745,
+   "yaw_deg": 270.8609063742835,
+   "within_branch_rms_cm": 1.2507838788454229,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 845,
+   "t": 59.569,
+   "start": "ccw-S",
+   "x": 3.411156612395913,
+   "y": 88.89903110685327,
+   "yaw_deg": 270.8375461259511,
+   "within_branch_rms_cm": 1.2945485049997976,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 850,
+   "t": 59.9,
+   "start": "ccw-S",
+   "x": 1.9435487895960915,
+   "y": 88.89288657607109,
+   "yaw_deg": 270.6712833956801,
+   "within_branch_rms_cm": 1.2947896382116808,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 855,
+   "t": 60.233,
+   "start": "ccw-S",
+   "x": 0.35064627325839054,
+   "y": 88.8661832211746,
+   "yaw_deg": 270.58998217933026,
+   "within_branch_rms_cm": 1.2966487627336316,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 860,
+   "t": 60.561,
+   "start": "ccw-S",
+   "x": -1.2405127072986213,
+   "y": 88.8830342528432,
+   "yaw_deg": 270.22465086490166,
+   "within_branch_rms_cm": 1.2980879769199007,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 865,
+   "t": 60.894,
+   "start": "ccw-S",
+   "x": -2.8364795004586822,
+   "y": 88.94410699643895,
+   "yaw_deg": 270.26865868532354,
+   "within_branch_rms_cm": 1.3253470234358848,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 870,
+   "t": 61.228,
+   "start": "ccw-S",
+   "x": -4.473882248185709,
+   "y": 88.85220691028391,
+   "yaw_deg": 269.69309862072384,
+   "within_branch_rms_cm": 1.3441814019373213,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 875,
+   "t": 61.562,
+   "start": "ccw-S",
+   "x": -6.203387821211127,
+   "y": 88.7949116178561,
+   "yaw_deg": 269.7917383631729,
+   "within_branch_rms_cm": 1.4049355973886,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 880,
+   "t": 61.894,
+   "start": "ccw-S",
+   "x": -7.905644664760408,
+   "y": 88.70545821131716,
+   "yaw_deg": 269.32906683080233,
+   "within_branch_rms_cm": 1.441808933672289,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 885,
+   "t": 62.227,
+   "start": "ccw-S",
+   "x": -9.755417891065717,
+   "y": 88.65773950243602,
+   "yaw_deg": 269.40978835712986,
+   "within_branch_rms_cm": 1.4506489362059847,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 890,
+   "t": 62.561,
+   "start": "ccw-S",
+   "x": -11.549635138123026,
+   "y": 88.55190075895007,
+   "yaw_deg": 269.5160497723964,
+   "within_branch_rms_cm": 1.3970420518895,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 895,
+   "t": 62.899,
+   "start": "ccw-S",
+   "x": -13.219695132784349,
+   "y": 88.45772013889115,
+   "yaw_deg": 269.6564128526318,
+   "within_branch_rms_cm": 1.3325369018070545,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 900,
+   "t": 63.231,
+   "start": "ccw-S",
+   "x": -14.661719238587391,
+   "y": 88.41771154053347,
+   "yaw_deg": 269.5063327317153,
+   "within_branch_rms_cm": 1.3710065790018016,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 905,
+   "t": 63.565,
+   "start": "ccw-S",
+   "x": -15.974478666394123,
+   "y": 88.44943874615656,
+   "yaw_deg": 269.83394113524,
+   "within_branch_rms_cm": 1.4144886394375022,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 910,
+   "t": 63.899,
+   "start": "ccw-S",
+   "x": -16.908566276327182,
+   "y": 88.34879141336279,
+   "yaw_deg": 269.7769870630144,
+   "within_branch_rms_cm": 1.6390899965077237,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 915,
+   "t": 64.235,
+   "start": "ccw-S",
+   "x": -17.630733270876895,
+   "y": 88.23158267531535,
+   "yaw_deg": 269.33502707647915,
+   "within_branch_rms_cm": 1.7318011568816731,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 920,
+   "t": 64.565,
+   "start": "ccw-S",
+   "x": -19.16332771312731,
+   "y": 88.25008853913155,
+   "yaw_deg": 269.88689847286787,
+   "within_branch_rms_cm": 1.9233355995763077,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 925,
+   "t": 64.897,
+   "start": "ccw-S",
+   "x": -20.698146645826476,
+   "y": 88.16087694693768,
+   "yaw_deg": 269.7226775767343,
+   "within_branch_rms_cm": 2.121140540039358,
+   "observations": [
+    "edge"
+   ]
+  }
+ ],
+ "blind_510_550": [
+  {
+   "frame": 0,
+   "t": 0.029,
+   "start": "ccw-S",
+   "x": 43.526009815799554,
+   "y": -87.66626019488127,
+   "yaw_deg": 86.84092545599039,
+   "within_branch_rms_cm": 5.29001570491226,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 5,
+   "t": 0.319,
+   "start": "ccw-S",
+   "x": 43.39086461957953,
+   "y": -88.34528300854757,
+   "yaw_deg": 85.0174648162836,
+   "within_branch_rms_cm": 4.0013223770739295,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 10,
+   "t": 0.653,
+   "start": "ccw-S",
+   "x": 44.33267818835738,
+   "y": -88.20122858588346,
+   "yaw_deg": 85.43719619151551,
+   "within_branch_rms_cm": 3.931059079850909,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 15,
+   "t": 0.987,
+   "start": "ccw-N",
+   "x": -44.49227828230101,
+   "y": 86.78582140916498,
+   "yaw_deg": 271.9235731474056,
+   "within_branch_rms_cm": 2.724971616710092,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 20,
+   "t": 1.322,
+   "start": "ccw-N",
+   "x": -45.645087314240506,
+   "y": 87.01978396027047,
+   "yaw_deg": 273.66211448194747,
+   "within_branch_rms_cm": 2.381270924668985,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 25,
+   "t": 1.653,
+   "start": "ccw-N",
+   "x": -47.00911405573249,
+   "y": 87.20018513164948,
+   "yaw_deg": 274.51981821519234,
+   "within_branch_rms_cm": 2.192955857180898,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 30,
+   "t": 1.986,
+   "start": "ccw-N",
+   "x": -48.40253545913223,
+   "y": 87.27759178886053,
+   "yaw_deg": 275.4087956458839,
+   "within_branch_rms_cm": 2.000598438404183,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 35,
+   "t": 2.318,
+   "start": "ccw-N",
+   "x": -49.888804166261714,
+   "y": 87.43463062756332,
+   "yaw_deg": 275.6272775701766,
+   "within_branch_rms_cm": 1.9244268704118548,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 40,
+   "t": 2.657,
+   "start": "ccw-N",
+   "x": -51.371474947199985,
+   "y": 87.58838225369901,
+   "yaw_deg": 276.2124950288638,
+   "within_branch_rms_cm": 1.8718198136932613,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 45,
+   "t": 2.987,
+   "start": "ccw-N",
+   "x": -53.01307376417946,
+   "y": 87.77414983889312,
+   "yaw_deg": 277.46500228275187,
+   "within_branch_rms_cm": 1.714451984549606,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 50,
+   "t": 3.321,
+   "start": "ccw-N",
+   "x": -54.60815511248797,
+   "y": 87.89047075506306,
+   "yaw_deg": 278.33594094474375,
+   "within_branch_rms_cm": 1.7082886469111023,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 55,
+   "t": 3.655,
+   "start": "ccw-S",
+   "x": 56.460169906161006,
+   "y": -88.27360426649071,
+   "yaw_deg": 96.5996946442423,
+   "within_branch_rms_cm": 1.7105529230038972,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 60,
+   "t": 3.986,
+   "start": "ccw-S",
+   "x": 58.126938963330645,
+   "y": -88.30896683065187,
+   "yaw_deg": 97.65481929982367,
+   "within_branch_rms_cm": 1.6080994104204434,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 65,
+   "t": 4.319,
+   "start": "ccw-S",
+   "x": 59.734319065181076,
+   "y": -88.37006544568847,
+   "yaw_deg": 98.0018416894757,
+   "within_branch_rms_cm": 1.5861903024417432,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 70,
+   "t": 4.653,
+   "start": "ccw-S",
+   "x": 61.16499326357011,
+   "y": -88.2580090615023,
+   "yaw_deg": 97.73083259690657,
+   "within_branch_rms_cm": 1.6076649505616973,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 75,
+   "t": 4.985,
+   "start": "ccw-S",
+   "x": 62.51637544618218,
+   "y": -88.21312839350503,
+   "yaw_deg": 96.97082710446091,
+   "within_branch_rms_cm": 1.679822246237192,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 80,
+   "t": 5.319,
+   "start": "ccw-S",
+   "x": 63.800422081955354,
+   "y": -88.04016653654945,
+   "yaw_deg": 95.25635523458853,
+   "within_branch_rms_cm": 1.8467705550226126,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 85,
+   "t": 5.651,
+   "start": "ccw-S",
+   "x": 64.98979778723874,
+   "y": -87.73921363166534,
+   "yaw_deg": 92.70708176972751,
+   "within_branch_rms_cm": 1.910571368898127,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 90,
+   "t": 5.984,
+   "start": "ccw-S",
+   "x": 66.19054281380465,
+   "y": -87.41060096357441,
+   "yaw_deg": 90.532993967522,
+   "within_branch_rms_cm": 1.9650962159386731,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 95,
+   "t": 6.318,
+   "start": "ccw-S",
+   "x": 67.29493166490022,
+   "y": -86.95634951163775,
+   "yaw_deg": 88.4037452103093,
+   "within_branch_rms_cm": 1.979151710850274,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 100,
+   "t": 6.651,
+   "start": "ccw-S",
+   "x": 68.37402962717817,
+   "y": -86.58281871760484,
+   "yaw_deg": 86.52924005474289,
+   "within_branch_rms_cm": 2.086308269330826,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 105,
+   "t": 6.984,
+   "start": "ccw-S",
+   "x": 69.59207687651302,
+   "y": -86.11596774834507,
+   "yaw_deg": 84.37400691981185,
+   "within_branch_rms_cm": 2.0925589251040053,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 110,
+   "t": 7.318,
+   "start": "ccw-S",
+   "x": 70.70957678285801,
+   "y": -85.59648465056982,
+   "yaw_deg": 81.99717480672214,
+   "within_branch_rms_cm": 2.0758281629627,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 115,
+   "t": 7.65,
+   "start": "ccw-S",
+   "x": 71.71189968451183,
+   "y": -84.9722477651273,
+   "yaw_deg": 79.24012008559207,
+   "within_branch_rms_cm": 2.188784375319646,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 120,
+   "t": 7.983,
+   "start": "ccw-S",
+   "x": 72.68515807380479,
+   "y": -84.44100916023989,
+   "yaw_deg": 77.43547229793585,
+   "within_branch_rms_cm": 2.2302406667328274,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 125,
+   "t": 8.318,
+   "start": "ccw-S",
+   "x": 73.69611185621427,
+   "y": -83.76733041616058,
+   "yaw_deg": 74.58479358954962,
+   "within_branch_rms_cm": 2.242694265196358,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 130,
+   "t": 8.651,
+   "start": "ccw-S",
+   "x": 75.28890534038982,
+   "y": -82.26438768900508,
+   "yaw_deg": 68.67785129751991,
+   "within_branch_rms_cm": 1.9547556733269074,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 135,
+   "t": 8.983,
+   "start": "ccw-S",
+   "x": 76.4882614008614,
+   "y": -80.96642389774098,
+   "yaw_deg": 63.88936225649076,
+   "within_branch_rms_cm": 1.8198650352788108,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 140,
+   "t": 9.317,
+   "start": "ccw-S",
+   "x": 77.59629569583541,
+   "y": -79.60359997484109,
+   "yaw_deg": 59.02703173926907,
+   "within_branch_rms_cm": 1.8395866385902846,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 145,
+   "t": 9.65,
+   "start": "ccw-S",
+   "x": 78.49512303678502,
+   "y": -78.34588330831146,
+   "yaw_deg": 55.061786766189954,
+   "within_branch_rms_cm": 1.703737072142447,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 150,
+   "t": 9.982,
+   "start": "ccw-S",
+   "x": 79.27137443016686,
+   "y": -77.13502492321408,
+   "yaw_deg": 51.04925711134663,
+   "within_branch_rms_cm": 1.6800996456430468,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 155,
+   "t": 10.317,
+   "start": "ccw-S",
+   "x": 79.88932149787017,
+   "y": -75.9013659936041,
+   "yaw_deg": 47.05747391639521,
+   "within_branch_rms_cm": 1.6007474329232327,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 160,
+   "t": 10.65,
+   "start": "ccw-S",
+   "x": 80.4385862787487,
+   "y": -74.65065313796244,
+   "yaw_deg": 43.21000022306701,
+   "within_branch_rms_cm": 1.5228946947441948,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 165,
+   "t": 10.981,
+   "start": "ccw-S",
+   "x": 80.82024192414565,
+   "y": -73.36361374724444,
+   "yaw_deg": 39.07298234720039,
+   "within_branch_rms_cm": 1.4701586510210185,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 170,
+   "t": 11.316,
+   "start": "ccw-S",
+   "x": 81.17435314543344,
+   "y": -72.14447363191671,
+   "yaw_deg": 36.02802772523174,
+   "within_branch_rms_cm": 1.4382750070281536,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 175,
+   "t": 11.648,
+   "start": "ccw-S",
+   "x": 81.48142745949663,
+   "y": -71.08599308615294,
+   "yaw_deg": 33.60513765390883,
+   "within_branch_rms_cm": 1.4000288924169797,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 180,
+   "t": 13.006,
+   "start": "ccw-S",
+   "x": 82.96813622007117,
+   "y": -67.09337940849656,
+   "yaw_deg": 28.473031521047417,
+   "within_branch_rms_cm": 2.058043544594343,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 185,
+   "t": 13.315,
+   "start": "ccw-S",
+   "x": 83.44550561095392,
+   "y": -66.14668777357222,
+   "yaw_deg": 28.571857428853324,
+   "within_branch_rms_cm": 2.0768729786132996,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 190,
+   "t": 13.647,
+   "start": "ccw-S",
+   "x": 83.67114787239244,
+   "y": -65.27363893807009,
+   "yaw_deg": 26.727530384788412,
+   "within_branch_rms_cm": 2.165263701234432,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 195,
+   "t": 13.981,
+   "start": "ccw-S",
+   "x": 83.56886550244768,
+   "y": -64.44873630695096,
+   "yaw_deg": 23.237318023291074,
+   "within_branch_rms_cm": 2.1978585448607273,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 200,
+   "t": 14.315,
+   "start": "ccw-S",
+   "x": 83.40443019329983,
+   "y": -63.56489345156611,
+   "yaw_deg": 19.339943108736744,
+   "within_branch_rms_cm": 2.3272047499496464,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 205,
+   "t": 14.848,
+   "start": "ccw-S",
+   "x": 83.2341057504871,
+   "y": -61.81484272314313,
+   "yaw_deg": 13.82487183787773,
+   "within_branch_rms_cm": 2.4781415350135543,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 210,
+   "t": 15.181,
+   "start": "ccw-S",
+   "x": 82.83580460331463,
+   "y": -60.94745467350286,
+   "yaw_deg": 9.67564753986563,
+   "within_branch_rms_cm": 2.5815841614148054,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 215,
+   "t": 15.514,
+   "start": "ccw-S",
+   "x": 82.36388906984396,
+   "y": -60.11310553011075,
+   "yaw_deg": 5.1065846911058985,
+   "within_branch_rms_cm": 2.6453506731446854,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 220,
+   "t": 15.847,
+   "start": "ccw-S",
+   "x": 81.95621550253058,
+   "y": -59.08692255511234,
+   "yaw_deg": 1.3280097321867088,
+   "within_branch_rms_cm": 2.6824209188616894,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 225,
+   "t": 16.18,
+   "start": "ccw-S",
+   "x": 81.56062104108584,
+   "y": -57.756757686362484,
+   "yaw_deg": 358.4808625018166,
+   "within_branch_rms_cm": 2.8194151686963864,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 230,
+   "t": 16.514,
+   "start": "ccw-S",
+   "x": 81.31524722622164,
+   "y": -56.497022337366026,
+   "yaw_deg": 357.3025240509716,
+   "within_branch_rms_cm": 2.8904249079803352,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 235,
+   "t": 16.847,
+   "start": "ccw-S",
+   "x": 81.1437224203406,
+   "y": -55.00578374629368,
+   "yaw_deg": 357.2634637360713,
+   "within_branch_rms_cm": 2.9341094826673224,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 240,
+   "t": 17.182,
+   "start": "ccw-S",
+   "x": 81.0558859124707,
+   "y": -53.590389517099034,
+   "yaw_deg": 357.57441629960886,
+   "within_branch_rms_cm": 2.936976093240912,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 245,
+   "t": 17.513,
+   "start": "ccw-S",
+   "x": 80.99373025975706,
+   "y": -52.08525937656094,
+   "yaw_deg": 358.0017110199553,
+   "within_branch_rms_cm": 3.0573440094649413,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 250,
+   "t": 17.846,
+   "start": "ccw-S",
+   "x": 80.9920207727485,
+   "y": -49.887715391846136,
+   "yaw_deg": 359.4091128058384,
+   "within_branch_rms_cm": 3.2496368932530935,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 255,
+   "t": 18.187,
+   "start": "ccw-S",
+   "x": 80.98926831105884,
+   "y": -47.52106075102025,
+   "yaw_deg": 0.7951795742379719,
+   "within_branch_rms_cm": 3.2889430406730953,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 260,
+   "t": 18.519,
+   "start": "ccw-S",
+   "x": 81.13942204483077,
+   "y": -45.305524220472776,
+   "yaw_deg": 2.9149290584129246,
+   "within_branch_rms_cm": 3.1799011874952066,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 265,
+   "t": 18.851,
+   "start": "ccw-S",
+   "x": 81.23067146883336,
+   "y": -43.29100564546655,
+   "yaw_deg": 3.967426438415884,
+   "within_branch_rms_cm": 3.0762963268316725,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 270,
+   "t": 19.185,
+   "start": "ccw-S",
+   "x": 81.44733440346542,
+   "y": -41.20380281115145,
+   "yaw_deg": 5.30548327942493,
+   "within_branch_rms_cm": 2.9927863718824126,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 275,
+   "t": 19.518,
+   "start": "ccw-S",
+   "x": 81.52159296292373,
+   "y": -39.45867153170102,
+   "yaw_deg": 5.613329358621611,
+   "within_branch_rms_cm": 3.071849029970569,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 280,
+   "t": 19.852,
+   "start": "ccw-S",
+   "x": 81.63224803423472,
+   "y": -37.60868117032683,
+   "yaw_deg": 5.7399566823297015,
+   "within_branch_rms_cm": 3.042038185497618,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 285,
+   "t": 20.185,
+   "start": "ccw-S",
+   "x": 81.86667326561934,
+   "y": -35.99168046469846,
+   "yaw_deg": 6.733386478965945,
+   "within_branch_rms_cm": 3.257635514192187,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 290,
+   "t": 20.518,
+   "start": "ccw-S",
+   "x": 81.9386220807333,
+   "y": -34.043143908642534,
+   "yaw_deg": 6.847579994799659,
+   "within_branch_rms_cm": 3.108105339988322,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 295,
+   "t": 20.851,
+   "start": "ccw-S",
+   "x": 82.11437247946138,
+   "y": -31.865651201104868,
+   "yaw_deg": 7.825359572479981,
+   "within_branch_rms_cm": 3.19159239342065,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 300,
+   "t": 21.185,
+   "start": "ccw-S",
+   "x": 82.12898764703337,
+   "y": -29.74614288277761,
+   "yaw_deg": 7.626763173008259,
+   "within_branch_rms_cm": 3.2718742894859867,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 305,
+   "t": 21.516,
+   "start": "ccw-S",
+   "x": 82.09893443528117,
+   "y": -27.552682645603756,
+   "yaw_deg": 7.099506567251136,
+   "within_branch_rms_cm": 3.3034858585442683,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 310,
+   "t": 21.849,
+   "start": "ccw-S",
+   "x": 82.1542410659768,
+   "y": -25.422677890497432,
+   "yaw_deg": 6.886576212612432,
+   "within_branch_rms_cm": 3.5196466617889923,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 315,
+   "t": 22.184,
+   "start": "ccw-S",
+   "x": 82.12816614795747,
+   "y": -23.422486731712315,
+   "yaw_deg": 6.41379314102491,
+   "within_branch_rms_cm": 3.82399241984675,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 320,
+   "t": 22.517,
+   "start": "ccw-S",
+   "x": 80.60136442568134,
+   "y": -18.883500442157295,
+   "yaw_deg": 359.9980527032875,
+   "within_branch_rms_cm": 2.633565543204237,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 325,
+   "t": 22.851,
+   "start": "ccw-S",
+   "x": 79.97127758556742,
+   "y": -16.152113557503377,
+   "yaw_deg": 356.2180381071906,
+   "within_branch_rms_cm": 1.8359993378423096,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 330,
+   "t": 23.184,
+   "start": "ccw-S",
+   "x": 79.57975176205028,
+   "y": -14.356978967183588,
+   "yaw_deg": 354.575162726491,
+   "within_branch_rms_cm": 1.5196227459453497,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 335,
+   "t": 23.518,
+   "start": "ccw-S",
+   "x": 79.12889019491868,
+   "y": -12.678489551500634,
+   "yaw_deg": 353.1051745399387,
+   "within_branch_rms_cm": 1.5561360631653178,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 340,
+   "t": 23.85,
+   "start": "ccw-S",
+   "x": 78.8609395387155,
+   "y": -11.236206893367298,
+   "yaw_deg": 352.7449337034906,
+   "within_branch_rms_cm": 1.51383765754667,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 345,
+   "t": 24.185,
+   "start": "ccw-S",
+   "x": 78.57782830228753,
+   "y": -9.629378141166033,
+   "yaw_deg": 352.8526453217336,
+   "within_branch_rms_cm": 1.4569495453236052,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 350,
+   "t": 24.514,
+   "start": "ccw-S",
+   "x": 78.60243498594672,
+   "y": -8.298744058037704,
+   "yaw_deg": 355.13400492746996,
+   "within_branch_rms_cm": 1.4961448723609745,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 355,
+   "t": 24.85,
+   "start": "ccw-S",
+   "x": 78.6809215518667,
+   "y": -6.9569414879924105,
+   "yaw_deg": 357.00478331480707,
+   "within_branch_rms_cm": 1.4450747653811746,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 360,
+   "t": 25.182,
+   "start": "ccw-S",
+   "x": 78.46356137680999,
+   "y": -5.56507970895283,
+   "yaw_deg": 356.30798312724875,
+   "within_branch_rms_cm": 1.3800836351724841,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 365,
+   "t": 25.514,
+   "start": "ccw-S",
+   "x": 78.22810271686328,
+   "y": -4.173375066808499,
+   "yaw_deg": 355.48130434900247,
+   "within_branch_rms_cm": 1.4057552235733688,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 370,
+   "t": 26.331,
+   "start": "ccw-S",
+   "x": 78.49287196438614,
+   "y": -1.0748193214582293,
+   "yaw_deg": 0.8277845487544795,
+   "within_branch_rms_cm": 1.5394348225278993,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 375,
+   "t": 26.648,
+   "start": "ccw-S",
+   "x": 78.89563543028943,
+   "y": -0.02198824454708812,
+   "yaw_deg": 4.656240833252079,
+   "within_branch_rms_cm": 1.5068561735774442,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 380,
+   "t": 26.982,
+   "start": "ccw-S",
+   "x": 79.47773470213689,
+   "y": 1.237028028216387,
+   "yaw_deg": 8.614410805464077,
+   "within_branch_rms_cm": 1.4972889107207366,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 385,
+   "t": 27.314,
+   "start": "ccw-S",
+   "x": 80.03918782594769,
+   "y": 2.5125497245015658,
+   "yaw_deg": 11.261913658114254,
+   "within_branch_rms_cm": 1.464033768762214,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 390,
+   "t": 27.648,
+   "start": "ccw-S",
+   "x": 80.52725832154395,
+   "y": 4.027307351721394,
+   "yaw_deg": 12.64669829270316,
+   "within_branch_rms_cm": 1.503154604842875,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 395,
+   "t": 27.981,
+   "start": "ccw-S",
+   "x": 80.9268185985801,
+   "y": 5.702860254533347,
+   "yaw_deg": 12.934149705310865,
+   "within_branch_rms_cm": 1.4742251008364349,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 400,
+   "t": 28.317,
+   "start": "ccw-S",
+   "x": 81.31237836609954,
+   "y": 7.39290803891438,
+   "yaw_deg": 12.443813755621228,
+   "within_branch_rms_cm": 1.4759334753762094,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 405,
+   "t": 28.65,
+   "start": "ccw-S",
+   "x": 81.68031759558646,
+   "y": 9.06104258290616,
+   "yaw_deg": 12.419132280427405,
+   "within_branch_rms_cm": 1.4737507710087565,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 410,
+   "t": 28.978,
+   "start": "ccw-S",
+   "x": 82.17117042311534,
+   "y": 10.772238305780537,
+   "yaw_deg": 12.448423792419536,
+   "within_branch_rms_cm": 1.4152711110113825,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 415,
+   "t": 30.91,
+   "start": "ccw-S",
+   "x": 83.87754171295585,
+   "y": 18.15896985278156,
+   "yaw_deg": 12.887995713850373,
+   "within_branch_rms_cm": 2.41723903271768,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 420,
+   "t": 31.243,
+   "start": "ccw-S",
+   "x": 83.97585844171701,
+   "y": 19.593974083843783,
+   "yaw_deg": 11.461331889732005,
+   "within_branch_rms_cm": 2.4232078513050395,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 425,
+   "t": 31.576,
+   "start": "ccw-S",
+   "x": 83.9689819753052,
+   "y": 20.967442568187288,
+   "yaw_deg": 9.099504775650542,
+   "within_branch_rms_cm": 2.5326505673615882,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 430,
+   "t": 31.91,
+   "start": "ccw-S",
+   "x": 83.85028950839774,
+   "y": 22.091979113318008,
+   "yaw_deg": 6.804304538672001,
+   "within_branch_rms_cm": 2.6315773322729075,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 435,
+   "t": 32.242,
+   "start": "ccw-S",
+   "x": 83.82262899400173,
+   "y": 23.349177173612528,
+   "yaw_deg": 5.0711237880133835,
+   "within_branch_rms_cm": 2.6192942836657687,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 440,
+   "t": 32.575,
+   "start": "ccw-S",
+   "x": 83.75924545719617,
+   "y": 24.686779428549347,
+   "yaw_deg": 4.053299350693881,
+   "within_branch_rms_cm": 2.6549395986700866,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 445,
+   "t": 32.909,
+   "start": "ccw-S",
+   "x": 83.78359501392715,
+   "y": 26.09455263102139,
+   "yaw_deg": 3.301209622799194,
+   "within_branch_rms_cm": 2.7731173134155074,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 450,
+   "t": 33.244,
+   "start": "ccw-S",
+   "x": 83.70020087529946,
+   "y": 27.604860195714746,
+   "yaw_deg": 2.4146267748770276,
+   "within_branch_rms_cm": 2.7359728610696177,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 455,
+   "t": 33.576,
+   "start": "ccw-S",
+   "x": 83.7458276406289,
+   "y": 29.224631212647434,
+   "yaw_deg": 2.305774015419718,
+   "within_branch_rms_cm": 2.8089717770284,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 460,
+   "t": 33.915,
+   "start": "ccw-S",
+   "x": 83.78918510081584,
+   "y": 30.79141949243614,
+   "yaw_deg": 2.110891337218117,
+   "within_branch_rms_cm": 2.879560522743968,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 465,
+   "t": 34.249,
+   "start": "ccw-S",
+   "x": 83.92706381682815,
+   "y": 34.75468951640178,
+   "yaw_deg": 1.792188484685581,
+   "within_branch_rms_cm": 2.6391504274637803,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 470,
+   "t": 34.583,
+   "start": "ccw-S",
+   "x": 84.02776833242001,
+   "y": 37.93093963692228,
+   "yaw_deg": 2.1223560441499494,
+   "within_branch_rms_cm": 1.9752918957179306,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 475,
+   "t": 34.915,
+   "start": "ccw-S",
+   "x": 84.07390532451763,
+   "y": 39.56007581038684,
+   "yaw_deg": 2.575667658466618,
+   "within_branch_rms_cm": 1.8754002167106318,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 480,
+   "t": 35.243,
+   "start": "ccw-S",
+   "x": 84.1323018129922,
+   "y": 41.82905736381109,
+   "yaw_deg": 2.4654233803820347,
+   "within_branch_rms_cm": 1.627588613753208,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 485,
+   "t": 35.577,
+   "start": "ccw-S",
+   "x": 84.12484242428343,
+   "y": 43.86194739087336,
+   "yaw_deg": 2.156563931791124,
+   "within_branch_rms_cm": 1.4746071607551359,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 490,
+   "t": 35.911,
+   "start": "ccw-S",
+   "x": 84.09566468053947,
+   "y": 45.863385317898754,
+   "yaw_deg": 2.1682182200035847,
+   "within_branch_rms_cm": 1.4310318461959821,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 495,
+   "t": 36.244,
+   "start": "ccw-S",
+   "x": 84.27047448024908,
+   "y": 47.54466428081319,
+   "yaw_deg": 3.044258261670799,
+   "within_branch_rms_cm": 1.4065563550404434,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 500,
+   "t": 36.578,
+   "start": "ccw-S",
+   "x": 84.35452250195479,
+   "y": 49.24085558525498,
+   "yaw_deg": 3.1752183402192973,
+   "within_branch_rms_cm": 1.4547973016270397,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 505,
+   "t": 36.909,
+   "start": "ccw-S",
+   "x": 84.48081540083402,
+   "y": 50.867615988011295,
+   "yaw_deg": 3.3808727229054694,
+   "within_branch_rms_cm": 1.4384252410172498,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 510,
+   "t": 37.244,
+   "start": "ccw-S",
+   "x": 84.58841272519822,
+   "y": 52.249374835869105,
+   "yaw_deg": 4.109003260343449,
+   "within_branch_rms_cm": 1.6754027659527877,
+   "observations": []
+  },
+  {
+   "frame": 515,
+   "t": 37.576,
+   "start": "ccw-S",
+   "x": 84.67995656433615,
+   "y": 53.820045383347555,
+   "yaw_deg": 4.120203375409379,
+   "within_branch_rms_cm": 1.8706572465157039,
+   "observations": []
+  },
+  {
+   "frame": 520,
+   "t": 37.909,
+   "start": "ccw-S",
+   "x": 84.77727836193291,
+   "y": 55.362249558468875,
+   "yaw_deg": 4.135606163739254,
+   "within_branch_rms_cm": 2.096194526417656,
+   "observations": []
+  },
+  {
+   "frame": 525,
+   "t": 38.241,
+   "start": "ccw-S",
+   "x": 84.75283250949639,
+   "y": 56.67950037782909,
+   "yaw_deg": 3.3782992404257968,
+   "within_branch_rms_cm": 2.3521987121585304,
+   "observations": []
+  },
+  {
+   "frame": 530,
+   "t": 38.575,
+   "start": "ccw-S",
+   "x": 84.74262038737378,
+   "y": 57.92999620087631,
+   "yaw_deg": 2.6982773742195185,
+   "within_branch_rms_cm": 2.5308307223012236,
+   "observations": []
+  },
+  {
+   "frame": 535,
+   "t": 38.906,
+   "start": "ccw-S",
+   "x": 84.72832135058368,
+   "y": 59.327810888061904,
+   "yaw_deg": 1.8056306633386048,
+   "within_branch_rms_cm": 2.716303761323465,
+   "observations": []
+  },
+  {
+   "frame": 540,
+   "t": 39.236,
+   "start": "ccw-S",
+   "x": 84.89417845781252,
+   "y": 60.652624030461446,
+   "yaw_deg": 2.9242485868214643,
+   "within_branch_rms_cm": 2.957895673785362,
+   "observations": []
+  },
+  {
+   "frame": 545,
+   "t": 39.569,
+   "start": "ccw-S",
+   "x": 85.12848390585984,
+   "y": 61.908478583873915,
+   "yaw_deg": 4.169624541392449,
+   "within_branch_rms_cm": 3.141447721895977,
+   "observations": []
+  },
+  {
+   "frame": 550,
+   "t": 39.901,
+   "start": "ccw-S",
+   "x": 85.3724584290009,
+   "y": 63.01450847042313,
+   "yaw_deg": 5.920911362064071,
+   "within_branch_rms_cm": 3.454830316289709,
+   "observations": []
+  },
+  {
+   "frame": 555,
+   "t": 40.238,
+   "start": "ccw-S",
+   "x": 85.787055059634,
+   "y": 64.56963226424838,
+   "yaw_deg": 9.114356648356107,
+   "within_branch_rms_cm": 2.8474881095639413,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 560,
+   "t": 40.568,
+   "start": "ccw-S",
+   "x": 85.51760042273659,
+   "y": 66.16368849984897,
+   "yaw_deg": 7.806000455270535,
+   "within_branch_rms_cm": 2.6174075915836634,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 565,
+   "t": 40.901,
+   "start": "ccw-S",
+   "x": 85.19063803259897,
+   "y": 67.59032785787744,
+   "yaw_deg": 6.646618024817642,
+   "within_branch_rms_cm": 2.632923014684695,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 570,
+   "t": 41.234,
+   "start": "ccw-S",
+   "x": 84.79641845433416,
+   "y": 68.91698999501874,
+   "yaw_deg": 4.5288303448662734,
+   "within_branch_rms_cm": 2.7345562283170337,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 575,
+   "t": 41.568,
+   "start": "ccw-S",
+   "x": 84.3981174158775,
+   "y": 70.18934048971022,
+   "yaw_deg": 2.1789877535177373,
+   "within_branch_rms_cm": 2.724112793556721,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 580,
+   "t": 41.9,
+   "start": "ccw-S",
+   "x": 83.81169908060885,
+   "y": 71.75985151718191,
+   "yaw_deg": 359.7508784981319,
+   "within_branch_rms_cm": 2.754774629998952,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 585,
+   "t": 42.234,
+   "start": "ccw-S",
+   "x": 82.08176395116588,
+   "y": 74.19517893961486,
+   "yaw_deg": 354.0347470401058,
+   "within_branch_rms_cm": 2.430101969861004,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 590,
+   "t": 42.566,
+   "start": "ccw-S",
+   "x": 80.67615279500379,
+   "y": 75.94037997434712,
+   "yaw_deg": 349.212971291897,
+   "within_branch_rms_cm": 1.885315566080578,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 595,
+   "t": 42.9,
+   "start": "ccw-S",
+   "x": 79.57183730560713,
+   "y": 77.27199142063463,
+   "yaw_deg": 345.80198898721306,
+   "within_branch_rms_cm": 1.5894075475372027,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 600,
+   "t": 43.234,
+   "start": "ccw-S",
+   "x": 78.78309073527507,
+   "y": 78.3144025981977,
+   "yaw_deg": 342.91353369092553,
+   "within_branch_rms_cm": 1.360808944523119,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 605,
+   "t": 43.566,
+   "start": "ccw-S",
+   "x": 78.18756806533948,
+   "y": 79.11230990443892,
+   "yaw_deg": 340.5870762660528,
+   "within_branch_rms_cm": 1.4869433029061305,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 610,
+   "t": 43.91,
+   "start": "ccw-S",
+   "x": 77.18181510135356,
+   "y": 80.00973185287596,
+   "yaw_deg": 336.8284271166656,
+   "within_branch_rms_cm": 1.443779811652763,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 615,
+   "t": 44.233,
+   "start": "ccw-S",
+   "x": 76.17265106650888,
+   "y": 80.91814691614333,
+   "yaw_deg": 333.55944595442537,
+   "within_branch_rms_cm": 1.5132351614006017,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 620,
+   "t": 44.568,
+   "start": "ccw-S",
+   "x": 75.19031241849946,
+   "y": 81.75613847677641,
+   "yaw_deg": 330.09899291559805,
+   "within_branch_rms_cm": 1.5617953638566362,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 625,
+   "t": 44.899,
+   "start": "ccw-S",
+   "x": 74.2970679520623,
+   "y": 82.31973612227316,
+   "yaw_deg": 326.80422860752833,
+   "within_branch_rms_cm": 1.4721994935970488,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 630,
+   "t": 45.232,
+   "start": "ccw-S",
+   "x": 73.22132303711163,
+   "y": 82.98725036447713,
+   "yaw_deg": 323.1213897315246,
+   "within_branch_rms_cm": 1.4521675549498483,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 635,
+   "t": 45.571,
+   "start": "ccw-S",
+   "x": 72.41367801143376,
+   "y": 83.47290378782694,
+   "yaw_deg": 320.2386812889178,
+   "within_branch_rms_cm": 1.4709114976802147,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 640,
+   "t": 45.899,
+   "start": "ccw-S",
+   "x": 71.55096555900911,
+   "y": 83.90492884046108,
+   "yaw_deg": 317.64446484952487,
+   "within_branch_rms_cm": 1.4096059254882087,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 645,
+   "t": 46.232,
+   "start": "ccw-S",
+   "x": 70.7562103761668,
+   "y": 84.24810119150096,
+   "yaw_deg": 315.23427951466095,
+   "within_branch_rms_cm": 1.528972404309628,
+   "observations": [
+    "edge",
+    "dashline"
+   ]
+  },
+  {
+   "frame": 650,
+   "t": 46.565,
+   "start": "ccw-S",
+   "x": 69.58790772826512,
+   "y": 84.63201340483936,
+   "yaw_deg": 311.6090691024715,
+   "within_branch_rms_cm": 1.4381172663696722,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 655,
+   "t": 46.898,
+   "start": "ccw-S",
+   "x": 68.43423737710044,
+   "y": 84.99212927054171,
+   "yaw_deg": 308.43566871193485,
+   "within_branch_rms_cm": 1.4310663066616416,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 660,
+   "t": 47.231,
+   "start": "ccw-S",
+   "x": 67.3221797119748,
+   "y": 85.358947028879,
+   "yaw_deg": 305.4428187100285,
+   "within_branch_rms_cm": 1.3740979725520541,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 665,
+   "t": 47.564,
+   "start": "ccw-S",
+   "x": 66.43247208321966,
+   "y": 85.59464969411604,
+   "yaw_deg": 303.2673564448962,
+   "within_branch_rms_cm": 1.5125332866270733,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 670,
+   "t": 47.898,
+   "start": "ccw-S",
+   "x": 64.90324329835428,
+   "y": 86.01928795296949,
+   "yaw_deg": 300.3853524617933,
+   "within_branch_rms_cm": 1.5590370583370787,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 675,
+   "t": 48.232,
+   "start": "ccw-S",
+   "x": 63.9176991537839,
+   "y": 86.2426640797268,
+   "yaw_deg": 298.2105467926778,
+   "within_branch_rms_cm": 1.6407029218459777,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 680,
+   "t": 48.567,
+   "start": "ccw-S",
+   "x": 62.88378108473973,
+   "y": 86.44531964749942,
+   "yaw_deg": 295.4809076538885,
+   "within_branch_rms_cm": 1.6736594621509546,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 685,
+   "t": 48.899,
+   "start": "ccw-S",
+   "x": 61.73292221680383,
+   "y": 86.66844986467964,
+   "yaw_deg": 293.1995464565279,
+   "within_branch_rms_cm": 1.9122458956281079,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 690,
+   "t": 49.233,
+   "start": "ccw-S",
+   "x": 60.54118094431548,
+   "y": 86.84042396760607,
+   "yaw_deg": 290.9543975461673,
+   "within_branch_rms_cm": 2.028784922886485,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 695,
+   "t": 49.566,
+   "start": "ccw-S",
+   "x": 58.2556298691315,
+   "y": 87.25855647894844,
+   "yaw_deg": 288.33192772751386,
+   "within_branch_rms_cm": 1.9248473653799916,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 700,
+   "t": 49.9,
+   "start": "ccw-S",
+   "x": 56.13640499955996,
+   "y": 87.53446731170175,
+   "yaw_deg": 286.07187754316334,
+   "within_branch_rms_cm": 1.8718394802443243,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 705,
+   "t": 50.233,
+   "start": "ccw-S",
+   "x": 54.09827462380935,
+   "y": 87.89767388657587,
+   "yaw_deg": 284.5048040108413,
+   "within_branch_rms_cm": 1.7955000846565876,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 710,
+   "t": 50.566,
+   "start": "ccw-S",
+   "x": 52.16929748831701,
+   "y": 88.14278379558458,
+   "yaw_deg": 282.8325062696848,
+   "within_branch_rms_cm": 1.6976740796608627,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 715,
+   "t": 50.9,
+   "start": "ccw-S",
+   "x": 50.38584430383674,
+   "y": 88.24893212992676,
+   "yaw_deg": 281.28941980464566,
+   "within_branch_rms_cm": 1.595134694892355,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 720,
+   "t": 51.233,
+   "start": "ccw-S",
+   "x": 48.69876988926463,
+   "y": 88.36590075412896,
+   "yaw_deg": 280.6896669017814,
+   "within_branch_rms_cm": 1.478045625634226,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 725,
+   "t": 51.566,
+   "start": "ccw-S",
+   "x": 47.171864606542925,
+   "y": 88.44529122073317,
+   "yaw_deg": 280.1224005421188,
+   "within_branch_rms_cm": 1.391820468619336,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 730,
+   "t": 51.9,
+   "start": "ccw-S",
+   "x": 45.7026659218775,
+   "y": 88.4886260009777,
+   "yaw_deg": 279.67877702392366,
+   "within_branch_rms_cm": 1.3678035786945586,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 735,
+   "t": 52.233,
+   "start": "ccw-S",
+   "x": 44.28523642530558,
+   "y": 88.57826229376738,
+   "yaw_deg": 278.933573489172,
+   "within_branch_rms_cm": 1.3568459424154071,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 740,
+   "t": 52.567,
+   "start": "ccw-S",
+   "x": 42.93949705635478,
+   "y": 88.63959919336529,
+   "yaw_deg": 277.9990364743469,
+   "within_branch_rms_cm": 1.3735482482437031,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 745,
+   "t": 52.899,
+   "start": "ccw-S",
+   "x": 41.51089994510359,
+   "y": 88.70013011907363,
+   "yaw_deg": 277.45100139715356,
+   "within_branch_rms_cm": 1.446115790421839,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 750,
+   "t": 53.232,
+   "start": "ccw-S",
+   "x": 40.09660041417998,
+   "y": 88.80419215529422,
+   "yaw_deg": 276.8558056789251,
+   "within_branch_rms_cm": 1.3851157800938922,
+   "observations": [
+    "edge",
+    "line"
+   ]
+  },
+  {
+   "frame": 755,
+   "t": 53.566,
+   "start": "ccw-S",
+   "x": 38.583328365656634,
+   "y": 88.85163194797333,
+   "yaw_deg": 276.08736281035345,
+   "within_branch_rms_cm": 1.4669713864732556,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 760,
+   "t": 53.898,
+   "start": "ccw-S",
+   "x": 37.01137646364825,
+   "y": 88.85379183862715,
+   "yaw_deg": 275.62258054778766,
+   "within_branch_rms_cm": 1.621333846888741,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 765,
+   "t": 54.232,
+   "start": "ccw-S",
+   "x": 35.43348790959378,
+   "y": 88.91099471756593,
+   "yaw_deg": 275.3604807490253,
+   "within_branch_rms_cm": 1.7000856512569107,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 770,
+   "t": 54.565,
+   "start": "ccw-S",
+   "x": 33.898675505360806,
+   "y": 88.99040475231801,
+   "yaw_deg": 274.96623734633295,
+   "within_branch_rms_cm": 1.805664643010154,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 775,
+   "t": 54.897,
+   "start": "ccw-S",
+   "x": 32.295564278451415,
+   "y": 89.05958924374823,
+   "yaw_deg": 274.53011077165115,
+   "within_branch_rms_cm": 2.0864176984763096,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 780,
+   "t": 55.231,
+   "start": "ccw-S",
+   "x": 30.31883760515316,
+   "y": 89.15990753564273,
+   "yaw_deg": 274.568856320891,
+   "within_branch_rms_cm": 2.436623273155321,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 785,
+   "t": 55.565,
+   "start": "ccw-S",
+   "x": 28.151647605988618,
+   "y": 89.24205501525952,
+   "yaw_deg": 274.4994402786897,
+   "within_branch_rms_cm": 2.6949834023282593,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 790,
+   "t": 55.901,
+   "start": "ccw-S",
+   "x": 25.451393986003506,
+   "y": 89.25757073808687,
+   "yaw_deg": 273.8287809282576,
+   "within_branch_rms_cm": 2.7994697250007565,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 795,
+   "t": 56.232,
+   "start": "ccw-S",
+   "x": 21.464646096989753,
+   "y": 89.41431412232738,
+   "yaw_deg": 272.99056554188843,
+   "within_branch_rms_cm": 2.0076627036232786,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 800,
+   "t": 56.574,
+   "start": "ccw-S",
+   "x": 18.92904175307659,
+   "y": 89.51327128153339,
+   "yaw_deg": 272.43981294661165,
+   "within_branch_rms_cm": 1.6036891791905752,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 805,
+   "t": 56.9,
+   "start": "ccw-S",
+   "x": 17.10226587368269,
+   "y": 89.5156968627697,
+   "yaw_deg": 272.0657826165767,
+   "within_branch_rms_cm": 1.493531267562317,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 810,
+   "t": 57.233,
+   "start": "ccw-S",
+   "x": 15.321470429505121,
+   "y": 89.46899772284782,
+   "yaw_deg": 272.02374777613744,
+   "within_branch_rms_cm": 1.4417263039098878,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 815,
+   "t": 57.568,
+   "start": "ccw-S",
+   "x": 13.490151293238926,
+   "y": 89.44264954818783,
+   "yaw_deg": 271.5304130099665,
+   "within_branch_rms_cm": 1.423792619140532,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 820,
+   "t": 57.901,
+   "start": "ccw-S",
+   "x": 11.68113954872869,
+   "y": 89.45849928622334,
+   "yaw_deg": 271.04993905964636,
+   "within_branch_rms_cm": 1.4452345946121135,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 825,
+   "t": 58.232,
+   "start": "ccw-S",
+   "x": 9.842346219687247,
+   "y": 89.43303422928292,
+   "yaw_deg": 270.53137096662437,
+   "within_branch_rms_cm": 1.419147852872886,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 830,
+   "t": 58.567,
+   "start": "ccw-S",
+   "x": 8.210962364327626,
+   "y": 89.34106979174877,
+   "yaw_deg": 270.3798214473352,
+   "within_branch_rms_cm": 1.3735124124530829,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 835,
+   "t": 58.901,
+   "start": "ccw-S",
+   "x": 6.6608534630498095,
+   "y": 89.29686835051763,
+   "yaw_deg": 270.37982405414505,
+   "within_branch_rms_cm": 1.3382168955138278,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 840,
+   "t": 59.232,
+   "start": "ccw-S",
+   "x": 5.033552171736901,
+   "y": 89.27656725478266,
+   "yaw_deg": 270.1900487958343,
+   "within_branch_rms_cm": 1.257950748654721,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 845,
+   "t": 59.569,
+   "start": "ccw-S",
+   "x": 3.4514959380286143,
+   "y": 89.24698205568562,
+   "yaw_deg": 270.0199900582453,
+   "within_branch_rms_cm": 1.2770442411066263,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 850,
+   "t": 59.9,
+   "start": "ccw-S",
+   "x": 2.009562327031019,
+   "y": 89.1821822680844,
+   "yaw_deg": 269.92834008247706,
+   "within_branch_rms_cm": 1.2576190442350608,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 855,
+   "t": 60.233,
+   "start": "ccw-S",
+   "x": 0.40892668046579495,
+   "y": 89.17697288919655,
+   "yaw_deg": 269.52892637035967,
+   "within_branch_rms_cm": 1.2644414616702038,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 860,
+   "t": 60.561,
+   "start": "ccw-S",
+   "x": -1.168598044367545,
+   "y": 89.12119910724479,
+   "yaw_deg": 269.5248506133339,
+   "within_branch_rms_cm": 1.2413045152189341,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 865,
+   "t": 60.894,
+   "start": "ccw-S",
+   "x": -2.780224543078746,
+   "y": 89.09278874065988,
+   "yaw_deg": 269.88072544734285,
+   "within_branch_rms_cm": 1.2157896970091215,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 870,
+   "t": 61.228,
+   "start": "ccw-S",
+   "x": -4.428527417450087,
+   "y": 88.9868380842331,
+   "yaw_deg": 269.38933392196486,
+   "within_branch_rms_cm": 1.2245854817665085,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 875,
+   "t": 61.562,
+   "start": "ccw-S",
+   "x": -6.183739134485648,
+   "y": 88.87593022010356,
+   "yaw_deg": 269.26793592969284,
+   "within_branch_rms_cm": 1.2733652949260872,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 880,
+   "t": 61.894,
+   "start": "ccw-S",
+   "x": -7.929260523557239,
+   "y": 88.85254447103473,
+   "yaw_deg": 269.0907496215838,
+   "within_branch_rms_cm": 1.2424819520851795,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 885,
+   "t": 62.227,
+   "start": "ccw-S",
+   "x": -9.764211158077401,
+   "y": 88.7732583147624,
+   "yaw_deg": 269.2804152965916,
+   "within_branch_rms_cm": 1.247866677161914,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 890,
+   "t": 62.561,
+   "start": "ccw-S",
+   "x": -11.481548465998141,
+   "y": 88.71161910910953,
+   "yaw_deg": 269.3605503369962,
+   "within_branch_rms_cm": 1.3073107593858198,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 895,
+   "t": 62.899,
+   "start": "ccw-S",
+   "x": -13.151897593555933,
+   "y": 88.59568210601208,
+   "yaw_deg": 269.2468162040402,
+   "within_branch_rms_cm": 1.3142730489265493,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 900,
+   "t": 63.231,
+   "start": "ccw-S",
+   "x": -14.476746471925416,
+   "y": 88.56323920057042,
+   "yaw_deg": 269.53388695151125,
+   "within_branch_rms_cm": 1.3175950937824468,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 905,
+   "t": 63.565,
+   "start": "ccw-S",
+   "x": -15.612962709902664,
+   "y": 88.52862495543633,
+   "yaw_deg": 269.53062099764935,
+   "within_branch_rms_cm": 1.3596057974566909,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 910,
+   "t": 63.899,
+   "start": "ccw-S",
+   "x": -16.63193075886618,
+   "y": 88.47256840246035,
+   "yaw_deg": 269.11416899586646,
+   "within_branch_rms_cm": 1.4734542837086906,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 915,
+   "t": 64.235,
+   "start": "ccw-S",
+   "x": -17.658387504277677,
+   "y": 88.37398507654487,
+   "yaw_deg": 268.86734524931165,
+   "within_branch_rms_cm": 1.488551456202401,
+   "observations": [
+    "edge",
+    "cross"
+   ]
+  },
+  {
+   "frame": 920,
+   "t": 64.565,
+   "start": "ccw-S",
+   "x": -19.135358934318134,
+   "y": 88.3480246847797,
+   "yaw_deg": 269.08847810475567,
+   "within_branch_rms_cm": 1.587649869468845,
+   "observations": [
+    "edge"
+   ]
+  },
+  {
+   "frame": 925,
+   "t": 64.897,
+   "start": "ccw-S",
+   "x": -20.784666422806406,
+   "y": 88.3124184727352,
+   "yaw_deg": 269.0442663652023,
+   "within_branch_rms_cm": 1.7996964550776082,
+   "observations": [
+    "edge"
+   ]
+  }
+ ]
+}

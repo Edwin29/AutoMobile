@@ -1,0 +1,9 @@
+frame,observer,positive_coverage,negative_hit
+29,HSV image,0.471,0.0
+29,CNN,0.01,0.145
+85,HSV image,0.395,0.0
+85,CNN,0.557,0.0
+197,HSV image,0.698,0.0
+197,CNN,0.286,0.0
+239,HSV image,0.637,0.0
+239,CNN,0.016,0.0

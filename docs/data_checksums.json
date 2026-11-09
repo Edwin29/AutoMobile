@@ -1,0 +1,22 @@
+[
+  {
+    "name": "road_ai_starter.zip",
+    "bytes": 6154244,
+    "sha256": "64520e0837d9f9ca9ca266c3dfc339ae902aae50374cccd3b954a36949aa9673"
+  },
+  {
+    "name": "track_images_20261106_193448_316130.zip",
+    "bytes": 87555927,
+    "sha256": "d9c02bd2ad6c6a91776b290edc7db2855848864256c4c3cd05f7138ba06e7d49"
+  },
+  {
+    "name": "road_results_clean.zip",
+    "bytes": 411556,
+    "sha256": "6575ea538e7e3cd6b7146ca7994828d377bb213b13481d2fc5a404ac02e1d773"
+  },
+  {
+    "name": "clean_inference_257.zip",
+    "bytes": 4958618,
+    "sha256": "c1a5c5c6387a9919c5de46179f3cd90dc349c71325e4f8ae8f23e6afacadbd63"
+  }
+]

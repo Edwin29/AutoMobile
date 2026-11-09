@@ -1,0 +1,129 @@
+{
+  "n": 186,
+  "log_n": 929,
+  "log_lost": 3,
+  "model_min_forward_cm": 3.0,
+  "height_cm": 7.780823920162378,
+  "pitch_deg": 29.258435616133173,
+  "same_line": 41,
+  "conditions": {
+    "base": {
+      "missing": 2,
+      "delta": {
+        "n": 184,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0
+      },
+      "over4": 0
+    },
+    "before": {
+      "missing": 2,
+      "delta": {
+        "n": 184,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 18.59
+      },
+      "over4": 4
+    },
+    "robust": {
+      "missing": 4,
+      "delta": {
+        "n": 180,
+        "median": 0.0,
+        "p95": 12.79,
+        "maximum": 30.8
+      },
+      "over4": 26
+    },
+    "glare": {
+      "missing": 22,
+      "delta": {
+        "n": 162,
+        "median": 2.11,
+        "p95": 19.75,
+        "maximum": 37.46
+      },
+      "over4": 50
+    },
+    "glare_robust": {
+      "missing": 44,
+      "delta": {
+        "n": 141,
+        "median": 0.9,
+        "p95": 21.06,
+        "maximum": 35.92
+      },
+      "over4": 31
+    },
+    "left_hidden": {
+      "missing": 0,
+      "delta": {
+        "n": 184,
+        "median": 0.59,
+        "p95": 8.11,
+        "maximum": 13.11
+      },
+      "over4": 28
+    },
+    "right_hidden": {
+      "missing": 24,
+      "delta": {
+        "n": 160,
+        "median": 2.54,
+        "p95": 23.12,
+        "maximum": 41.29
+      },
+      "over4": 58
+    }
+  },
+  "guard": {
+    "glare": {
+      "counts": {
+        "abstain": 178,
+        "prior": 2,
+        "observed": 1,
+        "agrees": 5
+      },
+      "same_frames_raw": {
+        "n": 8,
+        "median": 0.51,
+        "p95": 2.79,
+        "maximum": 2.81
+      },
+      "same_frames_guard": {
+        "n": 8,
+        "median": 0.39,
+        "p95": 1.84,
+        "maximum": 2.56
+      }
+    },
+    "left_hidden": {
+      "counts": {
+        "abstain": 186
+      },
+      "same_frames_raw": null,
+      "same_frames_guard": null
+    },
+    "right_hidden": {
+      "counts": {
+        "abstain": 180,
+        "prior": 2,
+        "observed": 4
+      },
+      "same_frames_raw": {
+        "n": 6,
+        "median": 3.61,
+        "p95": 11.47,
+        "maximum": 13.93
+      },
+      "same_frames_guard": {
+        "n": 6,
+        "median": 3.61,
+        "p95": 11.47,
+        "maximum": 13.93
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "run": "ccw_edges_20261106_173559_edges",
+    "growth": 0.05,
+    "updates": [],
+    "last_matches": 62
+  },
+  {
+    "run": "ccw_edges_20261106_173933_edges",
+    "growth": 0.05,
+    "updates": [],
+    "last_matches": 62
+  },
+  {
+    "run": "ccw_forward127_20261106_184214_edges",
+    "growth": 0.05,
+    "updates": [
+      [
+        18,
+        4.0
+      ]
+    ],
+    "last_matches": 88
+  },
+  {
+    "run": "ccw_v135_20261106_174607_edges",
+    "growth": 0.05,
+    "updates": [
+      [
+        7,
+        4.5
+      ]
+    ],
+    "last_matches": 93
+  },
+  {
+    "run": "ccw_edges_20261106_173559_edges",
+    "growth": 0.27,
+    "updates": [],
+    "last_matches": 62
+  },
+  {
+    "run": "ccw_edges_20261106_173933_edges",
+    "growth": 0.27,
+    "updates": [],
+    "last_matches": 62
+  },
+  {
+    "run": "ccw_forward127_20261106_184214_edges",
+    "growth": 0.27,
+    "updates": [
+      [
+        18,
+        4.0
+      ]
+    ],
+    "last_matches": 88
+  },
+  {
+    "run": "ccw_v135_20261106_174607_edges",
+    "growth": 0.27,
+    "updates": [
+      [
+        7,
+        4.5
+      ]
+    ],
+    "last_matches": 93
+  }
+]

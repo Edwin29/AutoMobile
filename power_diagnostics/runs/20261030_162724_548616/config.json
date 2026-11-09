@@ -1,0 +1,13 @@
+{
+  "host": "pi@PI_HOST",
+  "case": "right",
+  "placement": "lifted",
+  "duty": 0.2,
+  "ramp": 1.0,
+  "hold": 0.5,
+  "frequency": 1000,
+  "hardware": true,
+  "simulate": false,
+  "auto": false,
+  "note": ""
+}

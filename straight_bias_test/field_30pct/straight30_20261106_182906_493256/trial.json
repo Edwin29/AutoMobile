@@ -1,0 +1,12 @@
+{
+  "label": "straight30",
+  "mode": "drive",
+  "duty": 0.3,
+  "frequency_hz": 1000,
+  "ramp_s": 0.5,
+  "hold_s": 10.0,
+  "right_sign": 1,
+  "status": "completed",
+  "min_voltage": 4.99418,
+  "actual_hold_s": 10.008810078001261
+}

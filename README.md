@@ -1,63 +1,43 @@
-# AutoMobile
+# AutoMobile 연구 기록
 
-라즈베리파이 기반 소형 자율주행 차량으로 **제한된 모형 트랙에서 차선(도로) 추종과 표지판·객체 인식을 통합**하고, **시뮬레이션과 실차 주행 결과를 비교해 실환경 성능을 개선**하는 수업 팀 프로젝트입니다.
+라즈베리파이 5·OV5647 단안 카메라와 엔코더/IMU 없는 4륜 차량으로 田자 트랙을 주행하는 프로젝트의 소스, 실험 결과와 개발 맥락이다. 2026-11-09 노트북 스냅샷을 정리했다.
 
-> **현재 상태:** 초기 설계 단계. 이 저장소에는 아직 구현 코드가 없습니다. 아래 구조는 확정된 구현 현황이 아니라 **권장 설계안**입니다.
+다른 에이전트는 [프로젝트 맥락](docs/PROJECT_CONTEXT.md), [연구 과정](docs/RESEARCH_HISTORY.md), [증거와 한계](docs/EVIDENCE_AND_LIMITS.md)를 먼저 읽는다. 초기 문서는 codex/backup-before-research-20261109 브랜치에 보관했다.
 
-## 실험 환경과 목표
+## 현재 상태
 
-- 실제 트랙: 검은 도로, 노란 경계선, 곡선·교차로·횡단보도(흰 줄무늬).
-- 인식 대상 예시: STOP, 우회전, 직진, 속도 제한 5, 경적, 주차(PB), 횡단보도 표지판 및 나무 모형.
-- 목표: 안정적인 주행, 표지판에 따른 행동 전환, 트랙 완주.
-- 연구 초점: 동일한 SW 로직을 시뮬레이션과 실차에서 실행하고 완주율·이탈·주행 시간·추론 지연 등 성능 차이(Sim-to-Real Gap)를 분석·개선.
-- **미확정:** 표지판별 정확한 평가 동작, 출발·도착 조건, 교차로 경로 규칙, 시뮬레이터와 실차 HW 상세.
+- 팀원의 색 대비 C안, 독립 가상맵 외곽 제어기, 첫 합성학습 RoadNet은 서로 다른 코드다.
+- 가상맵 제어기는 실차 코너를 부드럽게 통과한 사용자 관찰이 있고 이후 주행에서 정합 거부로 멈췄다. 양방향 완주 수치는 지정 조건의 시뮬레이션 결과다.
+- RoadNet은 합성 480장으로 학습했다. 추가 실차 257장은 학습에 포함되지 않았다. 일부 경계 검출 개선과 횡단보도 오검출이 함께 관찰됐다.
+- 국소 조향과 표식 기반 종방향 갱신은 다음 비교 후보다. 실차 검증된 통합 구조가 아니다.
+- 현재 Pi 배포본, 전체 미션 통합, 실제 순간 회전 중심과 실차 연속 자세 정답은 이번 정리에서 확인하지 않았다.
 
-## 권장 SW 구조
+## 문서
 
-```text
-Camera / Frame Source (simulation or Raspberry Pi)
-  ├─ Road/Lane Perception: OpenCV baseline or lightweight CNN
-  └─ Sign/Object Perception: lightweight detector/classifier
-          ↓ (timestamped perception results)
-  Decision / FSM (lane following, stop, turn preparation,
-                  turn, speed limit, emergency stop)
-          ↓ (target speed / steering)
-  Motion Control (initial: rules/PID)
-          ↓
-  Motor Adapter (simulation or Raspberry Pi PWM)
-          ↓
-  Telemetry / Logs
-```
-
-**핵심 원칙**
-1. 인식, 주행 판단(FSM), 차량 제어를 분리합니다. 검출 모델이 모터를 직접 조작하지 않습니다.
-2. 표지판을 본 순간 무조건 회전하지 않고, 교차로 등 실행 지점까지 명령을 유지할 수 있어야 합니다.
-3. 교차로·횡단보도에서 단순 도로 중심 검출이 불안정해질 수 있으므로 별도 상태/처리를 고려합니다.
-4. 카메라는 한 곳에서 읽고 최신 프레임·검출 시각을 관리합니다. 모터 출력 책임은 단일 제어 루프에 둡니다.
-5. 영상·검출·FSM 상태·조향/속도 명령·타임스탬프를 기록합니다. 입력 끊김/오류 시 안전 정지가 우선입니다.
-6. 실차와 시뮬레이터는 가능한 한 **같은 인식·의사결정·제어 코드**를 사용하고 입출력 어댑터만 교체합니다.
-
-## 수업 제공 베이스라인 (별도 ZIP, 이 저장소에 미포함)
-
-사용자가 제공한 `임베디드 시스템 자료.zip`에는 수업 PDF와 `코드/라즈베리파이코드/AI_CAR/` 예제가 있습니다.
-
-| 자료 | 참고 용도 |
+| 문서 | 내용 |
 |---|---|
-| `5_3_7.py` | OpenCV 기반 도로/라인 추종 시작점 |
-| `6_4_3.py` | 주행 데이터 확보 예제 |
-| `8_4.py`, `lane_navigation_final.h5` | CNN 기반 조향 예측·주행 베이스라인 |
-| `10_5.py` | 전처리 변화 실험 참고 |
-| `11_5.py` | CNN 주행 + SSD MobileNet V2 객체검출 스레드 통합 예제 |
-| `자율주행자동차모델생성.ipynb` | CNN 모델 학습 예제 |
+| [프로젝트 맥락](docs/PROJECT_CONTEXT.md) | 하드웨어·규칙·실측·다른 에이전트에 전달할 정정 설명 |
+| [연구 과정](docs/RESEARCH_HISTORY.md) | 전원 진단부터 C안·가상맵·동적 보정·교차로·실차·CNN·재정의까지 |
+| [증거와 한계](docs/EVIDENCE_AND_LIMITS.md) | 실차/재생/합성 구분, 정합 판정과 독립 정확도의 차이 |
+| [자료 목록](docs/DATA_CATALOG.md) | Drive, 입력 해시와 원본 영상의 접근 범위 |
+| [재현 방법](docs/REPRODUCE.md) | 실행 환경, 스모크 검사, 시뮬레이션과 필요한 외부 자료 |
+| [소스 목록](docs/source_manifest.json) | 원본·게시본 SHA-256과 경로 일반화 여부 |
 
-**주의:** 이 예제는 완성형 통합 시스템이 아닙니다. 특히 `11_5.py`의 COCO 검출 모델은 프로젝트의 모든 맞춤 표지판을 바로 인식하지 못하며, 모델 파일 일부는 별도 확보가 필요합니다. CNN 학습·추론 전처리 일치도 확인해야 합니다. ZIP 코드를 저장소에 옮길 때에는 경로·의존성·라이선스를 먼저 확인하세요.
+## 코드 지도
 
-## 권장 진행 순서
+| 경로 | 내용 |
+|---|---|
+| junction_logic/review_video, review_20261104, visibility_review/source | 팀원 코드와 당시 분석용 소스 스냅샷, 도면·렌더러 |
+| map_localization/outer_driver | 지도 위치 보정·경로 추종·예측계수·출력 보상·Pi 실험판 |
+| map_localization/c_drive_test, ideal_drive, corner_diagnosis | 기존 C안과 기준점 대조 |
+| map_localization/junction_trial | 사거리·삼거리·진입로 횡단보도·가림·복구 실험 |
+| map_localization/candidate_localizer | 자세 후보 탐색 |
+| road_ai_v1 | 합성 데이터·Colab·RoadNet·실차 재생·원인 분리 |
+| road_marks, collaborator, track_guard | 표식·미션·위상/차체 여유 설계 및 시험 |
+| power_diagnostics, straight_bias_test | 모터·전원·직진 쏠림 시험 |
+| camera_emulator, camera_diagnosis, line_tracer | 카메라 열화·보정·초기 분석 |
+| pi_TEST_captures_20261105 | 수집한 과거 실행의 로그·설정 메타데이터 |
 
-1. OpenCV/CNN 라인 추종을 각각 실차에서 확인하고 기준 성능 기록.
-2. 트랙 표지판·교차로 데이터 수집 및 인식 모델 구축.
-3. FSM으로 검출 이벤트와 모터 제어를 연결해 주행 통합.
-4. 시뮬레이터 입출력 어댑터 연결 및 동일 시나리오 비교.
-5. 조명·카메라·모터 응답·지연 등 차이를 측정하고 재학습/전처리/제어기를 개선.
+큰 실제 영상·사진은 [자료 목록](docs/DATA_CATALOG.md)에 접근 범위를 기록했다. Git에는 코드, 보정 배열, 합성 학습쌍, 수치 결과와 clean 체크포인트를 포함한다. 하위의 오래된 README는 당시 상태의 기록이다.
 
-추후 구현이 시작되면 **실제 파일 구조, 실행 방법, 하드웨어 핀 설정, 평가 규칙**을 이 문서에 업데이트하세요.
+Git 날짜는 자료를 정리해 올린 날짜다. 채팅은 연구 주제별로 정리했으며 원문 덤프는 포함하지 않았다. 팀원 스냅샷과 이 채팅에서 만든 실험 코드가 혼재한다. 정밀한 저작·라이선스 이력이 확보되지 않아 새 오픈소스 라이선스를 일괄 부여하지 않았다.

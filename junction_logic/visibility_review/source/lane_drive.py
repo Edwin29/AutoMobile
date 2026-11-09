@@ -1,0 +1,512 @@
+#!/usr/bin/env python3
+"""카메라 차선 검출(lane_pipeline.analyze) + pure pursuit 로 라인트레이서 주행.
+
+사용법:
+    python3 lane_drive.py --dry-run                   # 모터는 끄고 인식/모터 명령만 출력
+    python3 lane_drive.py --speed 0.3 --duration 15   # 실제 주행
+    python3 lane_drive.py --corners 4 --duration 300  # 코너 4개를 돌면(트랙 한 바퀴) 정지
+    python3 lane_drive.py --road cross_h --turn right # 21cm 도로, 교차로에서 우회전
+
+안전: 보드 버튼(SW1~4) 중 아무거나 누르거나 Ctrl+C -> 즉시 정지.
+      차선을 LOST_STOP_FRAMES 프레임 연속 놓치거나 --duration 초가 지나면 정지.
+
+전원(모터 시작 시 Pi 리셋) 대책:
+  - 소프트 스타트: 모터 출력 변화량을 ACCEL_PER_S 로 제한 (0 -> 0.3 에 0.5초)
+  - PWM 주파수 PWM_FREQ_HZ (gpiozero 기본 100Hz 는 펄스마다 큰 전류가 흐름)
+  - 카메라 FPS 를 낮춰 Pi 부하/전류를 줄임
+  - Pi 입력 전압(EXT5V)/소비전력을 power.csv 에 기록 (CUR/power_rec.py), VOLT_CUT 미만이면 모터 정지
+  - 로그는 줄마다 fsync -> 갑자기 전원이 나가도 직전까지 남음
+기록: runs/<시각>/log.csv(프레임별), power.csv(전원, 구간별), power.png(부하 그래프),
+      steer.csv/steer.png(조향 각도), --video 시 video_raw.mp4/video_overlay.mp4(주행 정보 표시),
+      --save-every 프레임마다 원본 프레임(frame_XXXXX.jpg).
+"""
+import argparse
+import csv
+import json
+import os
+import signal
+import subprocess
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+
+import cv2
+import numpy as np
+
+import lane_pipeline as L
+
+os.environ.setdefault('LG_WD', '/tmp')  # lgpio 알림 파이프(.lgd-nfy*)를 작업 폴더 대신 /tmp 에 생성
+# 주의: lgpio 는 GPIO 를 처음 열 때 작업 폴더를 LG_WD 로 바꾼다 -> 파일 경로는 모두 HERE 기준 절대 경로로
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE / 'CUR'))
+from power_rec import Recorder, read_ext5v, vcgencmd  # noqa: E402
+from steer_rec import SteerRecorder  # noqa: E402
+from video_rec import ChunkedVideo, draw_overlay  # noqa: E402
+
+# 모터 드라이버 배선 (AI_CAR/practice 코드 기준): A = 왼쪽 바퀴, B = 오른쪽 바퀴, IN1=0/IN2=1 이 전진
+PIN_PWM = {'L': 18, 'R': 23}
+PIN_IN1 = {'L': 22, 'R': 25}
+PIN_IN2 = {'L': 27, 'R': 24}
+PIN_BUTTONS = (5, 6, 13, 19)
+
+# 조향 값은 2026-10-31 카메라 선 침범 측정(lane_eval.py)으로 조정: 처음 13/0.5/보정 없음 ->
+# 코너 후 바깥 선 침범 29%, 코너 중 안쪽 선 침범 30% -> 아래 값으로 각각 0%, 2%
+WHEEL_TRACK_CM = 18.0    # 조향 세기용 바퀴 간격. 실제(약 13cm)보다 크게 -> 4륜 미끄러짐을 보상해 코너에서 충분히 돎
+CORNER_SLOW_CM = 10.0    # 곡률이 클수록 감속: v / (1 + |곡률| * 이 값)
+PIVOT_BACK_CM = 0.0      # 회전 중심: 카메라 바로 아래(앞바퀴 축). 2026-11-05 되돌림 (11-04 시험값 L.WHEELBASE_CM / 2 = 7.5cm 는
+                         # 반시계·시계 실차에서 코너 실패, 보정값들이 모두 0 기준이라 원래 값으로)
+LOOKAHEAD_CM = 18.0      # 목표점 거리. 2026-11-05 되돌림 (11-04 시험값 9cm 는 회전 중심 7.5cm 와 짝이었음)
+STEER_SMOOTH = 0.3       # 곡률 저역통과 (0 이면 필터 없음). 크면 코너를 나올 때 반응이 늦어 바깥으로 밀림
+CORNER_BIAS_CM = 2.5     # 코너에서 목표 경로를 바깥쪽으로 옮기는 최대 거리 (차체 뒤 내륜차 보정)
+CORNER_DELAY_CM = 0.0    # 앞에 코너가 보이면 목표점을 이만큼 가깝게 (D안: 2cm, 측정상 안쪽 침범은 줄었지만
+                         # 실제 주행은 C안(0)이 더 낫다는 사용자 판단으로 기본값은 C안)
+# 좌회전 보정 + 좌우 선 직접 보정 (2026-11-05 방향 통합: 예전에는 --ccw 일 때만 적용).
+# 좌회전 값은 왼쪽으로 휘는 코너에서만 작동하므로 시계 방향 바깥 순환(우회전만)에는 영향이 없고, 선 직접 보정은
+# 양방향 모두 켬 (모의 주행: 시계 침범 9%/-0.3cm -> 0%, 반시계는 --ccw 때와 같음).
+# 처음 근거: 같은 C안으로 반시계 주행 시 첫 좌회전에서 안쪽(왼쪽) 선을 최대 3.2cm 침범
+LEFT_BIAS_EXTRA_CM = 0.8     # 좌회전 추가 바깥쪽 보정 (반경 50cm 이하에서 전부, 완만할수록 줄임)
+LEFT_CORNER_DELAY_CM = 1.0   # 좌회전 회전 지연
+LINE_KEEP_GAIN = 0.008       # 좌우 선 직접 보정 세기: 여유가 1cm 모자랄 때마다 곡률 0.008(1/cm) 반대쪽으로
+START_CORNER_DELAY_CM = 2.0  # 출발 직후 첫 코너에만 적용하는 회전 지연. 코너 입구에서 정지 상태로 출발하면
+START_WINDOW_S = 10.0        # 목표점이 이미 곡선 깊숙이 있어 크게 꺾으며 안쪽 선을 약 1cm 밟음 (사용자 관찰).
+                             # 출발 후 이 시간 안에 첫 코너가 나오면 그 코너를 빠져나올 때까지 적용
+LOST_HOLD_FRAMES = 3     # 차선을 놓쳐도 이 프레임까지는 직전 명령 유지
+LOST_STOP_FRAMES = 10    # 연속으로 이만큼 놓치면 정지 후 종료 (--robust 의 품질 검사 실패도 놓침으로 침)
+QUALITY_STOP_FRAMES = 30  # (--robust) 품질 경고(조명이 꺼졌다 켜짐 등)로 놓친 경우: 카메라 노출이 회복될 때까지
+QUALITY_COAST = 0.5       #   이 프레임(2초)까지 직전 조향 방향으로 이 비율 속도로 진행, 그 뒤 정지
+JUMP_CM = 6.0            # (--robust) 목표점이 한 프레임에 이보다 크게 바뀌면 일시적 오인식으로 보고
+JUMP_HOLD_FRAMES = 3     #   이 프레임까지 직전 조향 유지
+# 카메라 노출 설정. robust: AeConstraintMode=1(하이라이트 보호, 밝은 반사가 하얗게 날아가지 않게),
+#                         AeExposureMode=2(긴 노출 모드, 어두울 때 게인을 더 올림)
+CAM_PRESETS = {'default': {}, 'robust': {'AeConstraintMode': 1, 'AeExposureMode': 2}}
+
+PWM_FREQ_HZ = 1000       # 모터 PWM 주파수
+ACCEL_PER_S = 0.6        # 바퀴 출력 최대 변화 속도 (1초당 PWM 0.6)
+VOLT_WARN = 4.85         # 이 미만이면 가속 금지 + 감속
+VOLT_CUT = 4.75          # 이 미만이면 모터 정지 후 종료
+
+# 코너 세기 (이력 적용): 중앙선 반경이 ENTER_R 미만인 프레임이 ENTER_FRAMES 만큼 이어지면 코너 진입,
+# 반경이 EXIT_R 이상(또는 직선/판단 불가)인 프레임이 EXIT_FRAMES 만큼 이어지면 코너 통과.
+# 한 바퀴(--corners) 셀 때는 첫 코너와 같은 방향만 인정 (외곽 한 바퀴는 코너 방향이 모두 같음)
+CORNER_ENTER_R_CM = 50
+CORNER_EXIT_R_CM = 100
+CORNER_ENTER_FRAMES = 20
+CORNER_EXIT_FRAMES = 15
+# 코너 고정 조향 (--corner-mode fixed): 코너 진입 후 차선 대신 고정 출력. 비율 = 안쪽/바깥 바퀴 출력.
+# 0.63 = track-digital-twin 모델 C 실차 주행(C-lap-1)의 코너(|회전|>=0.2) 중앙값: 바깥 0.31, 안쪽 0.19
+CORNER_MODE_DEFAULT = 'line'
+CORNER_FIXED_RATIO = 0.63
+CORNER_FIXED_MIN_S = 2.0      # 진입 후 이 시간 동안은 직선이 보여도 계속 돎
+CORNER_FIXED_MAX_S = 20.0     # 이 시간을 넘으면 차선 추종으로 복귀
+CORNER_FIXED_EXIT_FRAMES = 5  # 고정 조향 중 직선(반경 CORNER_EXIT_R_CM 이상)이 이만큼 연속 보이면 복귀
+
+THROTTLE_BITS = {0: '저전압(현재)', 1: '주파수제한(현재)', 2: '스로틀(현재)', 3: '온도제한(현재)',
+                 16: '저전압 발생', 17: '주파수제한 발생', 18: '스로틀 발생', 19: '온도제한 발생'}
+
+
+def read_throttled():
+    try:
+        return int(vcgencmd('get_throttled').split('=')[1], 16)
+    except (IndexError, ValueError):
+        return None
+
+
+def describe_throttled(v):
+    if v is None:
+        return '읽기 실패'
+    return ', '.join(name for bit, name in THROTTLE_BITS.items() if v >> bit & 1) or '정상'
+
+
+def force_pins_low():
+    """모터 핀(PWM/IN1/IN2)을 출력 lo 로 직접 내림. gpiozero 정리 전에 프로세스가 끝나 PWM 이 켜진 채 남는 것 방지
+    (2026-11-05: 강제 종료 뒤 오른쪽 PWM(GPIO23)이 hi 로 남은 일이 있었음)."""
+    pins = ','.join(str(v) for d in (PIN_PWM, PIN_IN1, PIN_IN2) for v in d.values())
+    try:
+        subprocess.run(['pinctrl', 'set', pins, 'op', 'dl'], timeout=2, check=False)
+    except Exception as e:  # pinctrl 이 없거나 실패해도 종료는 계속
+        print(f'[motors] 핀 직접 끄기 실패: {e}')
+
+
+def _sigterm_to_interrupt(signum, frame):
+    """SIGTERM(kill, pkill)도 Ctrl+C 와 같은 정리 경로(finally: 모터 정지)를 타게 함."""
+    raise KeyboardInterrupt
+
+
+class Motors:
+    def __init__(self, freq=PWM_FREQ_HZ):
+        from gpiozero import DigitalOutputDevice, PWMOutputDevice
+        self.pwm = {k: PWMOutputDevice(p, frequency=freq) for k, p in PIN_PWM.items()}
+        self.in1 = {k: DigitalOutputDevice(p) for k, p in PIN_IN1.items()}
+        self.in2 = {k: DigitalOutputDevice(p) for k, p in PIN_IN2.items()}
+
+    def set(self, left, right):
+        """-1.0 ~ 1.0, 양수가 전진."""
+        for k, v in (('L', left), ('R', right)):
+            v = float(np.clip(v, -1.0, 1.0))
+            self.in1[k].value = 0 if v >= 0 else 1
+            self.in2[k].value = 1 if v >= 0 else 0
+            self.pwm[k].value = abs(v)
+
+    def stop(self):
+        self.set(0.0, 0.0)
+
+    def close(self):
+        self.stop()
+        for dev in (*self.pwm.values(), *self.in1.values(), *self.in2.values()):
+            dev.close()
+
+
+def wheel_speeds(curv, speed, track=WHEEL_TRACK_CM, corner_slow=CORNER_SLOW_CM):
+    """곡률(1/cm, +오른쪽) -> 좌/우 바퀴 명령. track 을 실제보다 크게 주면 4륜 미끄러짐을 보상해 더 세게 돈다."""
+    v = speed / (1 + abs(curv) * corner_slow)
+    left = v * (1 + curv * track / 2)
+    right = v * (1 - curv * track / 2)
+    m = max(abs(left), abs(right), 1.0)  # 1 을 넘으면 비율 유지하며 줄임
+    return left / m, right / m
+
+
+def fixed_corner_target(bend, outer, ratio):
+    """코너 고정 조향 출력 (왼쪽 코너면 왼쪽 바퀴가 안쪽)."""
+    inner = outer * ratio
+    return (inner, outer) if bend == '왼쪽' else (outer, inner)
+
+
+def slew(cur, target, max_step):
+    """현재 출력에서 목표까지 한 번에 max_step 이내로만 이동 (소프트 스타트/급조향 방지)."""
+    return tuple(c + float(np.clip(t - c, -max_step, max_step)) for c, t in zip(cur, target))
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--road', choices=('auto', *L.ROAD_WIDTH_CM), default='auto',
+                    help='auto: 좌우 선 실측 간격을 맵 도로폭에 맞춤 (한쪽만 보이면 직전 도로 유지)')
+    ap.add_argument('--start-road', choices=L.ROAD_WIDTH_CM, default=L.DEFAULT_ROAD,
+                    help='auto 일 때 출발 도로 (첫 프레임에 한쪽 선만 보일 경우 사용)')
+    ap.add_argument('--turn', choices=('straight', 'left', 'right'), default='straight')
+    ap.add_argument('--speed', type=float, default=0.3, help='기본 PWM (0~1)')
+    ap.add_argument('--duration', type=float, default=15.0, help='최대 주행 시간(초)')
+    ap.add_argument('--corners', type=int, default=0, help='코너를 이 개수만큼 통과하면 정지 (0=사용 안 함)')
+    # 코너 고정 조향 (2026-11-05): 코너 진입 판정 후에는 차선 대신 정해진 좌/우 출력으로 돎
+    ap.add_argument('--corner-mode', choices=('line', 'fixed'), default=CORNER_MODE_DEFAULT,
+                    help='코너에서 line=차선 추종, fixed=고정 조향 (C 모델 코너 비율)')
+    ap.add_argument('--corner-ratio', type=float, default=CORNER_FIXED_RATIO,
+                    help='고정 조향의 안쪽/바깥 바퀴 출력 비율 (C 모델 코너 중앙값 0.63, 작을수록 세게 돎)')
+    ap.add_argument('--corner-outer', type=float, default=None, help='고정 조향의 바깥 바퀴 출력 (기본 --speed)')
+    ap.add_argument('--corner-min-s', type=float, default=CORNER_FIXED_MIN_S,
+                    help='고정 조향을 최소 이 시간(초) 유지한 뒤에야 직선 판정으로 빠져나옴')
+    ap.add_argument('--corner-max-s', type=float, default=CORNER_FIXED_MAX_S,
+                    help='고정 조향 최대 시간(초), 넘으면 차선 추종으로 복귀')
+    # 조향 조정값
+    ap.add_argument('--lookahead', type=float, default=LOOKAHEAD_CM, help='목표점 거리(cm), 작을수록 늦게/세게 꺾음')
+    ap.add_argument('--track', type=float, default=WHEEL_TRACK_CM, help='조향 세기용 바퀴 간격(cm), 클수록 세게 돎')
+    ap.add_argument('--smooth', type=float, default=STEER_SMOOTH, help='곡률 필터 (0~1, 클수록 반응 느림)')
+    ap.add_argument('--pivot-back', type=float, default=PIVOT_BACK_CM, help='회전 중심이 카메라 바로 아래보다 뒤인 거리(cm)')
+    ap.add_argument('--corner-slow', type=float, default=CORNER_SLOW_CM, help='코너 감속 정도')
+    ap.add_argument('--corner-delay', type=float, default=CORNER_DELAY_CM,
+                    help='앞에 코너가 보이면 목표점을 이만큼(cm) 가깝게 -> 더 직진한 뒤 꺾기 시작')
+    ap.add_argument('--start-corner-delay', type=float, default=START_CORNER_DELAY_CM,
+                    help=f'출발 후 {START_WINDOW_S:g}초 안에 만나는 첫 코너에만 쓰는 회전 지연(cm, 0=사용 안 함)')
+    # 방향 통합(2026-11-05): 아래 값은 주행 방향과 관계없이 항상 적용. --ccw 는 예전 명령 호환용으로만 남김(무시됨)
+    ap.add_argument('--ccw', action='store_true', help='(무시됨) 방향은 자동 - 예전 명령 호환용')
+    ap.add_argument('--left-bias-extra', type=float, default=LEFT_BIAS_EXTRA_CM,
+                    help='좌회전 코너에서만 추가로 바깥쪽에 두는 거리(cm, 반경 50cm 이하에서 전부 적용)')
+    ap.add_argument('--left-corner-delay', type=float, default=LEFT_CORNER_DELAY_CM,
+                    help='좌회전 코너에서만 쓰는 회전 지연(cm)')
+    ap.add_argument('--line-keep-gain', type=float, default=LINE_KEEP_GAIN,
+                    help='좌우 선 직접 보정 세기 (0=사용 안 함)')
+    ap.add_argument('--corner-bias', type=float, default=CORNER_BIAS_CM,
+                    help='코너에서 목표 경로를 바깥쪽으로 옮기는 최대 거리(cm, 내륜차 보정)')
+    ap.add_argument('--fps', type=float, default=15, help='카메라 프레임레이트')
+    ap.add_argument('--dry-run', action='store_true', help='모터는 돌리지 않음')
+    ap.add_argument('--no-volt-guard', action='store_true',
+                    help='전압 보호(4.85V 미만 감속, 4.75V 미만 정지) 끄기. Pi 가 꺼질 수 있음 (기록은 남음)')
+    # 조명 강건성
+    ap.add_argument('--robust', action='store_true',
+                    help='조명 강건 인식(어두움/반사/그림자) + 품질 낮으면 차선 놓침 처리 + 목표점 급변 거르기')
+    ap.add_argument('--cam-preset', choices=tuple(CAM_PRESETS), default='default',
+                    help='카메라 노출 설정 (robust: 밝은 반사가 하얗게 날아가지 않게 + 어두울 때 게인 더 허용)')
+    ap.add_argument('--ev', type=float, default=0.0, help='노출 보정 (-8~8, +면 밝게)')
+    ap.add_argument('--save-every', type=int, default=5, help='N 프레임마다 원본 저장 (0=저장 안 함)')
+    ap.add_argument('--video', action='store_true',
+                    help='카메라 영상 녹화 (원본 video_raw.mp4 + 주행 정보 표시 video_overlay.mp4)')
+    ap.add_argument('--video-chunk', type=float, default=10.0, help='영상 조각 길이(초), 전원 차단 대비')
+    ap.add_argument('--calib', default=str(HERE / 'calib_checkerboard.npz'))
+    args = ap.parse_args()
+    road_fixed = None if args.road == 'auto' else args.road
+    road_hint = args.start_road  # 자동 모드에서 직전에 판단한 도로 (한쪽 선만 보일 때 유지)
+
+    # 보정/버드아이 변환은 미리 한 번만 계산
+    c = np.load(args.calib)
+    size_img = tuple(int(v) for v in c['size'])
+    newK = cv2.fisheye.estimateNewCameraMatrixForUndistortRectify(
+        c['K'], c['D'], size_img, np.eye(3), balance=0.0)
+    m1, m2 = cv2.fisheye.initUndistortRectifyMap(c['K'], c['D'], np.eye(3), newK, size_img, cv2.CV_16SC2)
+    g = dict(np.load(HERE / 'ground.npz'))
+    M, size, _ = L.bev_transform(g, newK, size_img[1])
+    Mi = np.linalg.inv(M)  # 버드아이 -> 보정 영상 (영상에 중앙선/목표점 표시용)
+
+    run_dir = HERE / 'runs' / datetime.now().strftime('%Y%m%d_%H%M%S')
+    run_dir.mkdir(parents=True, exist_ok=True)
+    with open(run_dir / 'params.json', 'w') as f:  # 조향 설정 비교용 (lane_eval.py)
+        json.dump({k: getattr(args, k) for k in ('speed', 'lookahead', 'track', 'smooth', 'pivot_back',
+                                                 'corner_slow', 'corner_bias', 'corner_delay', 'start_corner_delay',
+                                                 'ccw', 'left_bias_extra', 'left_corner_delay', 'line_keep_gain',
+                                                 'robust', 'cam_preset', 'ev', 'road', 'turn', 'corner_mode', 'corner_ratio',
+                                                 'corner_outer', 'corner_min_s', 'corner_max_s')}, f)
+    log = open(run_dir / 'log.csv', 'w', newline='')
+    wr = csv.writer(log)
+
+    def log_row(row):
+        wr.writerow(row)
+        log.flush()
+        os.fsync(log.fileno())
+
+    log_row(['t', 'frame', 'ok', 'segment', 'offset_cm', 'heading_deg', 'target_lat', 'target_fwd',
+             'curv', 'left', 'right', 'ext5v', 'pi_power_w', 'road', 'gap_cm', 'path_R', 'clear_l', 'clear_r',
+             'turn', 'path', 'proc_ms'])
+
+    print(f'[power] 시작 전 EXT5V {read_ext5v()}V, {vcgencmd("measure_temp")}, '
+          f'상태: {describe_throttled(read_throttled())}')
+    # 구간(직선 S0, 코너 C1, 직선 S1, ...)별로 전원 부하를 기록 -> CUR/plot_power.py 로 그래프
+    rec = Recorder(run_dir / 'power.csv', ('step', 'label', 'left', 'right', 'phase'))
+    rec.state.update(step=0, label='S0', left=0.0, right=0.0, phase='idle')
+    rec.start()
+    # 조향 기록 (프레임마다 등가 조향 각도/바퀴 출력, CUR/steer_rec.py) + 영상 녹화 (CUR/video_rec.py)
+    steer = SteerRecorder(run_dir / 'steer.csv', L.WHEELBASE_CM, args.track)
+    videos = {}
+    if args.video:
+        videos = {k: ChunkedVideo(run_dir, f'video_{k}', args.fps, size_img, args.video_chunk)
+                  for k in ('raw', 'overlay')}
+
+    from gpiozero import Button
+    from picamera2 import Picamera2
+    from plot_power import plot
+    buttons = [Button(p, pull_up=False) for p in PIN_BUTTONS]
+    motors = None if args.dry_run else Motors()
+    cam = Picamera2()
+    cfg = cam.create_video_configuration(main={"format": "RGB888", "size": size_img},
+                                         controls={"FrameRate": args.fps, "ExposureValue": args.ev,
+                                                   **CAM_PRESETS[args.cam_preset]})
+    cam.align_configuration(cfg)
+    cam.configure(cfg)
+    cam.start()
+    time.sleep(1.5)  # AE/AWB 안정화
+
+    print(f'[drive] {"DRY-RUN (모터 꺼짐)" if args.dry_run else "주행"} '
+          f'road={args.road}{f" (출발 {road_hint})" if road_fixed is None else ""} '
+          f'turn={args.turn} speed={args.speed} duration={args.duration}s '
+          f'{f"corners={args.corners} " if args.corners else ""}fps={args.fps} PWM {PWM_FREQ_HZ}Hz -> {run_dir}')
+    print('[drive] 정지: 보드 버튼 아무거나 / Ctrl+C')
+    lost, curv_f = 0, 0.0
+    prev_la, jump_cnt = None, 0  # 목표점 급변 거르기 (--robust)
+    target, out, good_target = (0.0, 0.0), (0.0, 0.0), (0.0, 0.0)
+    in_corner, corner_cnt, corners_done, seg = False, 0, 0, 0
+    corner_bend, corner_t0 = None, 0.0  # 고정 조향용: 이번 코너 방향과 진입 시각
+    bend_votes, lap_bend = [], None
+    start_phase = args.start_corner_delay > 0  # 출발 직후 첫 코너 구간 (회전 지연 적용)
+    t_start = t_prev = time.time()
+    frame = 0
+    reason = '시간 종료'
+    rec.state['phase'] = 'hold'
+    rec.event('step S0')
+
+    def new_segment(label):
+        nonlocal seg
+        seg += 1
+        rec.state.update(step=seg, label=label)
+        rec.event(f'step {label}')
+
+    signal.signal(signal.SIGTERM, _sigterm_to_interrupt)
+    try:
+        while time.time() - t_start < args.duration:
+            if any(b.is_pressed for b in buttons):
+                reason = '버튼 정지'
+                break
+            if not args.no_volt_guard and rec.volt is not None and rec.volt < VOLT_CUT:
+                reason = f'전압 강하 {rec.volt:.2f}V < {VOLT_CUT}V'
+                break
+            img = cv2.flip(cam.capture_array(), -1)  # 카메라가 뒤집혀 장착됨
+            t0 = time.time()
+            und = cv2.remap(img, m1, m2, cv2.INTER_LINEAR)
+            if start_phase and not in_corner and t0 - t_start > START_WINDOW_S:
+                start_phase = False
+                print(f'{t0 - t_start:5.1f}s [start] {START_WINDOW_S:g}초 안에 코너 없음 -> 첫 코너 회전 지연 해제')
+            start_d = args.start_corner_delay if start_phase else 0.0
+            res, notes = L.analyze(und, M, size, road_fixed, args.turn, road_hint, args.lookahead, args.pivot_back,
+                                   args.corner_bias, max(args.corner_delay, start_d),
+                                   args.left_bias_extra, max(args.left_corner_delay, start_d),
+                                   args.line_keep_gain, args.robust)
+            proc_ms = (time.time() - t0) * 1000
+
+            # 목표점 급변 거르기: 바로 전 프레임보다 JUMP_CM 넘게 갑자기 바뀌면 JUMP_HOLD_FRAMES 까지는 직전 조향 유지
+            # (반사·그림자로 한두 프레임만 튀는 경우), 그 이상 이어지면 실제 변화로 받아들임
+            # 코너에서는 목표점이 실제로 빠르게 움직이므로 거르지 않음 (거르면 회전이 늦어져 바깥으로 밀림:
+            # 코너에서 31번 거른 주행이 바깥 선 침범 12%)
+            hold = False
+            if args.robust and res is not None:
+                la0 = res['lookahead'][0]
+                straight = not in_corner and (res['path_R'] is None or res['path_R'] >= CORNER_EXIT_R_CM)
+                if (straight and prev_la is not None and abs(la0 - prev_la) > JUMP_CM
+                        and jump_cnt < JUMP_HOLD_FRAMES):
+                    hold = True
+                    jump_cnt += 1
+                    notes.append(f'[quality] 목표점 급변 {prev_la:+.1f}->{la0:+.1f}cm, 직전 조향 유지 ({jump_cnt})')
+                else:
+                    prev_la, jump_cnt = la0, 0
+
+            fixed_now = args.corner_mode == 'fixed' and in_corner  # 고정 조향 중에는 차선을 놓쳐도 계속 돎
+            if hold:
+                pass
+            elif res is None:
+                lost += 1
+                quality_lost = any(n.startswith('[quality] 인식') for n in notes)
+                if not fixed_now and lost >= (QUALITY_STOP_FRAMES if quality_lost else LOST_STOP_FRAMES):
+                    reason = f'차선을 {lost}프레임 연속 놓침' + (' (인식 품질 낮음)' if quality_lost else '')
+                    break
+                if quality_lost:  # 조명 급변 등: 노출이 회복될 때까지 직전 조향 방향으로 천천히
+                    target = (good_target[0] * QUALITY_COAST, good_target[1] * QUALITY_COAST)
+                elif lost > LOST_HOLD_FRAMES:
+                    target = (0.0, 0.0)
+            else:
+                lost = 0
+                road_hint = res['road']
+                curv_f = args.smooth * curv_f + (1 - args.smooth) * res['curv_pp']
+                target = good_target = wheel_speeds(curv_f, args.speed, args.track, args.corner_slow)
+            if fixed_now:  # 코너 고정 조향: 차선 대신 정해진 좌/우 출력
+                target = fixed_corner_target(corner_bend, args.corner_outer or args.speed, args.corner_ratio)
+            if not args.no_volt_guard and rec.volt is not None and rec.volt < VOLT_WARN:  # 낮으면 가속 금지, 감속
+                target = (out[0] * 0.8, out[1] * 0.8)
+            now = time.time()
+            out = slew(out, target, ACCEL_PER_S * (now - t_prev))
+            t_prev = now
+            if motors:
+                motors.set(*out)
+            rec.state.update(left=out[0], right=out[1])
+
+            # 코너 세기 (중앙선 반경 기준, 진입/통과 모두 여러 프레임 연속일 때만 인정)
+            R = None if res is None else res['path_R']
+            t = now - t_start
+            if not in_corner:
+                if R is not None and R < CORNER_ENTER_R_CM:
+                    corner_cnt += 1
+                    bend_votes.append(res['path_bend'])
+                else:
+                    corner_cnt, bend_votes = 0, []
+                if corner_cnt >= CORNER_ENTER_FRAMES:
+                    bend = max(set(bend_votes), key=bend_votes.count)
+                    if args.corners and lap_bend is not None and bend != lap_bend:
+                        print(f'{t:5.1f}s [corner] {bend} 코너 신호 무시 (이 바퀴는 {lap_bend} 코너)')
+                    else:
+                        lap_bend = lap_bend or bend
+                        in_corner = True
+                        corner_bend, corner_t0 = bend, t
+                        new_segment(f'C{corners_done + 1}')
+                        print(f'{t:5.1f}s [corner] {corners_done + 1}번째 코너 진입 ({bend})'
+                              + (f' -> 고정 조향 비율 {args.corner_ratio:g}' if args.corner_mode == 'fixed' else ''))
+                    corner_cnt, bend_votes = 0, []
+            elif args.corner_mode == 'fixed':  # 고정 조향: 최소 시간 뒤 직선이 실제로 보여야 복귀 (놓침은 직선 아님)
+                el = t - corner_t0
+                straight = R is not None and R >= CORNER_EXIT_R_CM and el >= args.corner_min_s
+                corner_cnt = corner_cnt + 1 if straight else 0
+                if el >= args.corner_max_s and corner_cnt < CORNER_FIXED_EXIT_FRAMES:
+                    print(f'{t:5.1f}s [corner] 고정 조향 최대 {args.corner_max_s:g}초 -> 차선 추종으로 복귀')
+                    corner_cnt = CORNER_FIXED_EXIT_FRAMES
+            else:
+                corner_cnt = corner_cnt + 1 if R is None or R >= CORNER_EXIT_R_CM else 0
+            exit_frames = CORNER_FIXED_EXIT_FRAMES if args.corner_mode == 'fixed' else CORNER_EXIT_FRAMES
+            if in_corner and corner_cnt >= exit_frames:
+                in_corner, corner_cnt = False, 0
+                corners_done += 1
+                new_segment(f'S{corners_done}')
+                print(f'{t:5.1f}s [corner] {corners_done}번째 코너 통과')
+                if start_phase:
+                    start_phase = False
+                    print(f'{t:5.1f}s [start] 첫 코너 통과 -> 회전 지연 해제 (이후 C안 그대로)')
+                if args.corners and corners_done >= args.corners:
+                    reason = f'코너 {corners_done}개 통과 (목표 {args.corners}개)'
+                    break
+                plot(run_dir / 'power.csv', snapshot=True, title='Lane drive load')  # 중간 저장
+
+            srow = steer.log(t, frame, rec.state['label'], res, curv_f, out[0], out[1])
+            if videos:
+                videos['raw'].write(img)
+                ov_center = ov_target = None  # 영상 표시용 (모터 목표 target 과 이름이 겹치지 않게)
+                if res is not None:
+                    back = cv2.perspectiveTransform(res['Ct'].reshape(-1, 1, 2).astype(np.float32), Mi)
+                    ov_center, ov_target = back.reshape(-1, 2), back.reshape(-1, 2)[res['ia']]
+                info = [f'{t:6.1f}s  #{frame}  [{rec.state["label"]}]  corners {corners_done}',
+                        f'wheel L {out[0]:.2f}  R {out[1]:.2f}   EXT5V {rec.volt}V']
+                if res is not None:
+                    info.append(f'offset {res["Ccm"][res["i0"], 0]:+.1f}cm  heading {res["heading"]:+.1f}deg  '
+                                f'target {srow["steer_target_deg"]}deg')
+                else:
+                    info.append(f'LANE LOST ({lost})')
+                videos['overlay'].write(draw_overlay(und.copy(), ov_center, ov_target, info,
+                                                     float(srow['steer_wheel_deg'])))
+
+            p_now = '' if rec.power is None else f'{rec.power:.2f}'
+            if res is not None:
+                off = res['Ccm'][res['i0'], 0]
+                la = res['lookahead']
+                log_row([f'{t:.3f}', frame, 1, rec.state['label'], f'{off:.2f}', f'{res["heading"]:.1f}',
+                         f'{la[0]:.2f}', f'{la[1]:.2f}', f'{curv_f:.4f}', f'{out[0]:.3f}', f'{out[1]:.3f}',
+                         rec.volt, p_now, res['road'], '' if res['gap'] is None else f'{res["gap"]:.1f}',
+                         '' if res['path_R'] is None else f'{res["path_R"]:.0f}',
+                         *('' if res['clear'][s] is None else f'{res["clear"][s]:.1f}' for s in ('left', 'right')),
+                         res['turn'], res['path_desc'], f'{proc_ms:.1f}'])
+                if frame % 15 == 0:
+                    print(f'{t:5.1f}s #{frame:4d} [{rec.state["label"]}] 이탈 {off:+5.1f}cm 각도 {res["heading"]:+5.1f}° '
+                          f'-> L {out[0]:+.2f} R {out[1]:+.2f} | 선보정 {res["keep"]:+.3f} | {res["road"]} | '
+                          f'{rec.volt}V {p_now}W | {res["path_desc"]} | {proc_ms:.0f}ms')
+            else:
+                log_row([f'{t:.3f}', frame, 0, rec.state['label'], '', '', '', '', f'{curv_f:.4f}',
+                         f'{out[0]:.3f}', f'{out[1]:.3f}', rec.volt, p_now, '', '', '', '', '', '',
+                         ' '.join(notes), f'{proc_ms:.1f}'])
+                why = next((n for n in notes if n.startswith('[quality] 인식')), '')
+                print(f'{t:5.1f}s #{frame:4d} 차선 놓침 ({lost}) -> L {out[0]:+.2f} R {out[1]:+.2f} | {rec.volt}V {why}')
+            if hold and frame % 3 == 0:
+                print(f'{t:5.1f}s #{frame:4d} {notes[-1]}')
+            if args.save_every and frame % args.save_every == 0:
+                cv2.imwrite(str(run_dir / f'frame_{frame:05d}.jpg'), img)
+            frame += 1
+    except KeyboardInterrupt:
+        reason = 'Ctrl+C'
+    finally:
+        if motors:
+            try:
+                motors.close()
+            finally:
+                force_pins_low()  # close 가 실패하거나 중간에 끊겨도 핀은 반드시 lo
+        cam.close()
+        rec.event(f'stopped: {reason}')
+        rec.stop()
+        log.close()
+        steer.close()
+        video_out = {k: v.close() for k, v in videos.items()}  # 조각 합치기 (실패하면 조각 파일 그대로)
+    dt = time.time() - t_start
+    print(f'[drive] 정지 ({reason}). {frame} 프레임 / {dt:.1f}s = {frame / max(dt, 1e-6):.1f} fps, '
+          f'코너 {corners_done}개 통과, 기록: {run_dir}')
+
+    # 구간별 전원 부하 요약
+    drive = [s for s in rec.samples if s[0]['phase'] == 'hold' and s[1] is not None]
+    if drive:
+        print(f'[power] 주행 중 EXT5V 최저 {min(s[1] for s in drive):.3f}V, '
+              f'상태: {describe_throttled(read_throttled())}')
+        for label in dict.fromkeys(s[0]['label'] for s in drive):
+            ss = [s for s in drive if s[0]['label'] == label]
+            v = [s[1] for s in ss]
+            p = [s[2] for s in ss if s[2] is not None]
+            lw = np.mean([s[0]['left'] for s in ss])
+            rw = np.mean([s[0]['right'] for s in ss])
+            print(f'  {label:3s}: 바퀴 평균 L {lw:.2f} R {rw:.2f} | EXT5V 최저 {min(v):.3f}V 평균 {np.mean(v):.3f}V '
+                  f'| Pi 소비전력 {np.mean(p) if p else float("nan"):.2f}W')
+    print(f'[power] 그래프: {plot(run_dir / "power.csv", title="Lane drive load")}')
+    from plot_steer import plot as plot_steer
+    print(f'[steer] 조향 기록: {run_dir / "steer.csv"}, 그래프: {plot_steer(run_dir / "steer.csv")}')
+    for k, p in video_out.items():
+        print(f'[video] {k}: {p or "합치기 실패 -> 조각 파일(video_" + k + "_partNNN.mp4) 참고"}')
+
+
+if __name__ == '__main__':
+    main()

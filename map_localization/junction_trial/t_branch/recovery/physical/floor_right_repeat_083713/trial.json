@@ -1,0 +1,12 @@
+{
+  "label": "right_pivot",
+  "mode": "drive",
+  "duty": 0.26,
+  "frequency_hz": 1000,
+  "ramp_s": 0.5,
+  "hold_s": 3.0,
+  "right_sign": -1,
+  "status": "completed",
+  "min_voltage": 5.01562,
+  "actual_hold_s": 2.9984345599950757
+}

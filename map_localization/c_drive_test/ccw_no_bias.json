@@ -1,0 +1,34 @@
+{
+  "direction": "ccw",
+  "profile": "no_bias",
+  "parameters": {
+    "speed": 0.3,
+    "lookahead": 18,
+    "track": 18.0,
+    "smooth": 0.3,
+    "pivot_back": 0.0,
+    "corner_slow": 10.0,
+    "corner_bias": 0.0,
+    "corner_delay": 0.0,
+    "start_corner_delay": 0.0,
+    "ccw": false,
+    "left_bias_extra": 0.8,
+    "left_corner_delay": 1.0,
+    "line_keep_gain": 0.008,
+    "road": "auto",
+    "turn": "straight"
+  },
+  "elapsed_s": 137.6,
+  "full_revolution": true,
+  "turns": 1.0005270886022422,
+  "minimum_cm": -5.155820369720459,
+  "negative_frame_percent": 34.10852713178294,
+  "first_negative_s": 8.733333333333333,
+  "corner_minimum_cm": {
+    "photo_bottom_left": -5.155820369720459,
+    "photo_bottom_right": -3.7641234397888184,
+    "photo_top_right": -3.8444485664367676,
+    "photo_top_left": -3.8485190868377686
+  },
+  "drive_end": "[drive] 정지 (버튼 정지). 2064 프레임 / 137.6s = 15.0 fps, 코너 4개 통과"
+}

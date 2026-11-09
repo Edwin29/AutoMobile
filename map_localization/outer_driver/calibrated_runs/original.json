@@ -1,0 +1,29 @@
+{
+  "mode": "original",
+  "calibration": {
+    "left_gain": 0.6932409012131716,
+    "train_pwm": 57.699999999999996,
+    "train_visual": 40.0,
+    "train_frames": [
+      115,
+      175
+    ],
+    "test_frames": [
+      615,
+      660
+    ],
+    "test_observed": 27.643481825732096,
+    "test_uncorrected": 42.88855301560565,
+    "test_predicted": 29.73209914426735
+  },
+  "right_plant_gain": 1.0,
+  "reason": "footprint limit",
+  "elapsed_s": 14.933333333333334,
+  "actual_laps": 0.08593208107941049,
+  "minimum_cm": 0.00768365990370512,
+  "crossing_frames": 0,
+  "max_error_cm": 1.4664261880487972,
+  "max_error_deg": 2.5668910603455566,
+  "last_forecast_margin_cm": 0.24500700396684233,
+  "updates": []
+}

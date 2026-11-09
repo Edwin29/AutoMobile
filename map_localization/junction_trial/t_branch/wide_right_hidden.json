@@ -1,0 +1,16 @@
+{
+  "site": "wide",
+  "command": "right",
+  "condition": "hidden",
+  "outcome": "unmatched road edges",
+  "observed_exit": null,
+  "elapsed_s": 10.333333333333334,
+  "min_cm": 2.9749999046325684,
+  "crossed_frames": 0,
+  "max_error_cm": 0.06487181994649346,
+  "max_yaw_deg": 0.14434266329751352,
+  "settled_frames_after_restore": null,
+  "missing_frames": 4,
+  "geometry_min_cm": 0.7895432439887333,
+  "turn_radius_cm": 8
+}

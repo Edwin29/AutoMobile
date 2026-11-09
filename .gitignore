@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.mp4
+*.avi
+*.zip
+*.log
+*.partial
+.codex-remote-attachments/
+road_ai_v1/20261106_193448_316130/take_*/
+road_ai_v1/clean_inference_257/labels/
+road_ai_v1/replay_new/

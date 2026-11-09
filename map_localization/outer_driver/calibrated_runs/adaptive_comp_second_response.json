@@ -1,0 +1,31 @@
+{
+  "mode": "adaptive_comp",
+  "scenario": "second_response",
+  "calibration": {
+    "left_gain": 0.6932409012131716,
+    "train_pwm": 57.699999999999996,
+    "train_visual": 40.0,
+    "train_frames": [
+      115,
+      175
+    ],
+    "test_frames": [
+      615,
+      660
+    ],
+    "test_observed": 27.643481825732096,
+    "test_uncorrected": 42.88855301560565,
+    "test_predicted": 29.73209914426735
+  },
+  "left_plant_gain": 0.6445421885805659,
+  "right_plant_gain": 1.0,
+  "reason": "footprint limit",
+  "elapsed_s": 16.53333333333333,
+  "actual_laps": 0.09452956978959162,
+  "minimum_cm": 0.3389011025428772,
+  "crossing_frames": 0,
+  "max_error_cm": 0.5066584275774237,
+  "max_error_deg": 0.662021376702338,
+  "last_forecast_margin_cm": 0.24909556843968517,
+  "updates": []
+}

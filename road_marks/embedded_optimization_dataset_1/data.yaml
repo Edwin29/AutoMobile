@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['cross', 'dashline', 'green', 'horn', 'line', 'red', 'right', 'slow', 'stop']
+
+roboflow:
+  workspace: -uirjp
+  project: embedded_optimization
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/-uirjp/embedded_optimization/dataset/2

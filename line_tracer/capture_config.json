@@ -1,0 +1,85 @@
+{
+  "configuration": {
+    "use_case": "video",
+    "transform": "<libcamera.Transform 'identity'>",
+    "colour_space": "<libcamera.ColorSpace 'SMPTE170M'>",
+    "buffer_count": 6,
+    "queue": true,
+    "main": {
+      "format": "RGB888",
+      "size": [
+        640,
+        480
+      ],
+      "preserve_ar": true,
+      "stride": 1920,
+      "framesize": 921600
+    },
+    "lores": null,
+    "raw": {
+      "format": "GBRG_PISP_COMP1",
+      "size": [
+        640,
+        480
+      ],
+      "stride": 640,
+      "framesize": 307200
+    },
+    "controls": {
+      "NoiseReductionMode": "NoiseReductionModeEnum.Fast",
+      "FrameDurationLimits": [
+        33333,
+        33333
+      ]
+    },
+    "sensor": {
+      "bit_depth": 10,
+      "output_size": [
+        640,
+        480
+      ]
+    },
+    "display": "main",
+    "encode": "main"
+  },
+  "metadata": {
+    "SensorTimestamp": 1001402094000,
+    "FrameWallClock": 1793334414383790848,
+    "FocusFoM": 35,
+    "ExposureTime": 33177,
+    "ControlListSequence": 87,
+    "ColourGains": [
+      1.3985981941223145,
+      1.249753475189209
+    ],
+    "DigitalGain": 1.0093662738800049,
+    "FrameDuration": 33304,
+    "Lux": 201.1566619873047,
+    "AeState": 2,
+    "ColourTemperature": 5047,
+    "SensorBlackLevels": [
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "AnalogueGain": 3.3125,
+    "ColourCorrectionMatrix": [
+      2.04685640335083,
+      -0.5561700463294983,
+      -0.49069344997406006,
+      -0.5096296668052673,
+      1.9879401922225952,
+      -0.4783104956150055,
+      -0.1077495589852333,
+      -0.6346003413200378,
+      1.742347002029419
+    ],
+    "ScalerCrop": [
+      16,
+      0,
+      2560,
+      1920
+    ]
+  }
+}

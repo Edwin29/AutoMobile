@@ -1,0 +1,38 @@
+{
+  "mode": "fixed_comp",
+  "scenario": "symmetric_drift",
+  "direction": "cw",
+  "cw_policy": "measured",
+  "right_prior": 0.6217314378064263,
+  "calibration": {
+    "left_gain": 0.6932409012131716,
+    "train_pwm": 57.699999999999996,
+    "train_visual": 40.0,
+    "train_frames": [
+      115,
+      175
+    ],
+    "test_frames": [
+      615,
+      660
+    ],
+    "test_observed": 27.643481825732096,
+    "test_uncorrected": 42.88855301560565,
+    "test_predicted": 29.73209914426735
+  },
+  "left_plant_gain": 0.6932409012131716,
+  "right_plant_gain": 0.6932409012131716,
+  "drift_deg_s_at_30": -1.0,
+  "reason": "lap complete",
+  "elapsed_s": 153.06666666666666,
+  "actual_laps": 1.0000830406507244,
+  "minimum_cm": 0.5687500238418579,
+  "crossing_frames": 0,
+  "max_error_cm": 0.9447152449144284,
+  "max_error_deg": 2.2378082328998667,
+  "last_forecast_margin_cm": 4.5724196973163345,
+  "updates": [],
+  "output_policy": "directional",
+  "left_output_multiplier": 1.3846153846153846,
+  "right_output_multiplier": 1.6084115088794115
+}

@@ -1,0 +1,16 @@
+{
+  "site": "narrow",
+  "command": "straight",
+  "condition": "normal",
+  "outcome": "pass",
+  "observed_exit": "straight",
+  "elapsed_s": 18.53333333333333,
+  "min_cm": 4.868749618530273,
+  "crossed_frames": 0,
+  "max_error_cm": 0.18209621575637516,
+  "max_yaw_deg": 0.2322781280207879,
+  "settled_frames_after_restore": 0,
+  "missing_frames": 0,
+  "geometry_min_cm": 1.8650526359192199,
+  "turn_radius_cm": 0
+}

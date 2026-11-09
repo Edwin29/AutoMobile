@@ -1,0 +1,52 @@
+{
+  "front_axle_cm": 8.5,
+  "rear_axle_cm": 20.5,
+  "pivot_behind_body_center_cm": 2.25,
+  "trials": [
+    {
+      "pivot_back_cm": 0.0,
+      "minimum_clearance_cm": -5.8348493576049805,
+      "nearest_boundary": "island",
+      "time_of_min_s": 15.333333333333334,
+      "exit_s": 20.466666666666665,
+      "controller": "C",
+      "steering_track_cm": 18.0
+    },
+    {
+      "pivot_back_cm": 10.11,
+      "minimum_clearance_cm": -1.8431692123413086,
+      "nearest_boundary": "island",
+      "time_of_min_s": 15.533333333333333,
+      "exit_s": 21.4,
+      "controller": "C",
+      "steering_track_cm": 18.0
+    },
+    {
+      "pivot_back_cm": 12.36,
+      "minimum_clearance_cm": -0.82669597864151,
+      "nearest_boundary": "island",
+      "time_of_min_s": 15.666666666666666,
+      "exit_s": 21.6,
+      "controller": "C",
+      "steering_track_cm": 18.0
+    },
+    {
+      "controller": "map",
+      "steering_track_cm": 13.0,
+      "pivot_back_cm": 12.36,
+      "minimum_clearance_cm": 0.5375000238418579,
+      "nearest_boundary": "outer",
+      "time_of_min_s": 16.666666666666668,
+      "exit_s": 23.8
+    },
+    {
+      "controller": "map",
+      "steering_track_cm": 18.0,
+      "pivot_back_cm": 12.36,
+      "minimum_clearance_cm": 1.1749999523162842,
+      "nearest_boundary": "outer",
+      "time_of_min_s": 16.0,
+      "exit_s": 22.666666666666668
+    }
+  ]
+}

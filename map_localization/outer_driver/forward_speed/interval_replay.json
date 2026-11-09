@@ -1,0 +1,2122 @@
+{
+  "ccw_edges_20261106_173559_edges": [
+    {
+      "frame": 0,
+      "prior_range": [
+        -12.789943411959143,
+        12.789943411959143
+      ],
+      "range_after": [
+        -12.789943411959143,
+        12.789943411959143
+      ],
+      "unique": true,
+      "proposed": -3.0,
+      "marker": 5,
+      "checked_ratio": 0.7022900763358778,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.916030534351145,
+      "ratio": 0.916030534351145,
+      "points": 131,
+      "matched": 120,
+      "passes": true
+    },
+    {
+      "frame": 1,
+      "prior_range": [
+        -12.833247505439589,
+        12.833247505439589
+      ],
+      "range_after": [
+        -12.833247505439589,
+        12.833247505439589
+      ],
+      "unique": true,
+      "proposed": -2.75,
+      "marker": 5,
+      "checked_ratio": 0.752,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.936,
+      "ratio": 0.936,
+      "points": 125,
+      "matched": 117,
+      "passes": true
+    },
+    {
+      "frame": 2,
+      "prior_range": [
+        -12.874915794586045,
+        12.874915794586045
+      ],
+      "range_after": [
+        -12.874915794586045,
+        12.874915794586045
+      ],
+      "unique": true,
+      "proposed": -2.5,
+      "marker": 5,
+      "checked_ratio": 0.7083333333333334,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.95,
+      "ratio": 0.95,
+      "points": 120,
+      "matched": 114,
+      "passes": true
+    },
+    {
+      "frame": 3,
+      "prior_range": [
+        -12.919490040374395,
+        12.919490040374395
+      ],
+      "range_after": [
+        -12.919490040374395,
+        12.919490040374395
+      ],
+      "unique": true,
+      "proposed": -2.75,
+      "marker": 5,
+      "checked_ratio": 0.7288135593220338,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9322033898305084,
+      "ratio": 0.9322033898305084,
+      "points": 118,
+      "matched": 110,
+      "passes": true
+    },
+    {
+      "frame": 4,
+      "prior_range": [
+        -12.962426305057782,
+        12.962426305057782
+      ],
+      "range_after": [
+        -12.962426305057782,
+        12.962426305057782
+      ],
+      "unique": true,
+      "proposed": -2.75,
+      "marker": 5,
+      "checked_ratio": 0.7542372881355932,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9491525423728814,
+      "ratio": 0.9491525423728814,
+      "points": 118,
+      "matched": 112,
+      "passes": true
+    },
+    {
+      "frame": 5,
+      "prior_range": [
+        -13.003666086718214,
+        13.003666086718214
+      ],
+      "range_after": [
+        -13.003666086718214,
+        13.003666086718214
+      ],
+      "unique": true,
+      "proposed": -3.25,
+      "marker": 5,
+      "checked_ratio": 0.7372881355932204,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9661016949152542,
+      "ratio": 0.9661016949152542,
+      "points": 118,
+      "matched": 114,
+      "passes": true
+    },
+    {
+      "frame": 6,
+      "prior_range": [
+        -13.04783671220254,
+        13.04783671220254
+      ],
+      "range_after": [
+        -13.04783671220254,
+        13.04783671220254
+      ],
+      "unique": true,
+      "proposed": -3.25,
+      "marker": 5,
+      "checked_ratio": 0.6949152542372882,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9491525423728814,
+      "ratio": 0.9491525423728814,
+      "points": 118,
+      "matched": 112,
+      "passes": true
+    },
+    {
+      "frame": 7,
+      "prior_range": [
+        -13.090515195548178,
+        13.090515195548178
+      ],
+      "range_after": [
+        -13.090515195548178,
+        13.090515195548178
+      ],
+      "unique": true,
+      "proposed": -3.25,
+      "marker": 5,
+      "checked_ratio": 0.6915887850467289,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9906542056074766,
+      "ratio": 0.9906542056074766,
+      "points": 107,
+      "matched": 106,
+      "passes": true
+    },
+    {
+      "frame": 8,
+      "prior_range": [
+        -13.131995270757427,
+        13.131995270757427
+      ],
+      "range_after": [
+        -13.131995270757427,
+        13.131995270757427
+      ],
+      "unique": true,
+      "proposed": -3.75,
+      "marker": 5,
+      "checked_ratio": 0.6952380952380952,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9714285714285714,
+      "ratio": 0.9714285714285714,
+      "points": 105,
+      "matched": 102,
+      "passes": true
+    },
+    {
+      "frame": 9,
+      "prior_range": [
+        -13.176136263706443,
+        13.176136263706443
+      ],
+      "range_after": [
+        -13.176136263706443,
+        13.176136263706443
+      ],
+      "unique": true,
+      "proposed": -3.75,
+      "marker": 5,
+      "checked_ratio": 0.7254901960784313,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9901960784313726,
+      "ratio": 0.9901960784313726,
+      "points": 102,
+      "matched": 101,
+      "passes": true
+    },
+    {
+      "frame": 10,
+      "prior_range": [
+        -13.218591037561925,
+        13.218591037561925
+      ],
+      "range_after": [
+        -13.218591037561925,
+        13.218591037561925
+      ],
+      "unique": true,
+      "proposed": -4.0,
+      "marker": 5,
+      "checked_ratio": 0.7102803738317757,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 1.0,
+      "ratio": 1.0,
+      "points": 107,
+      "matched": 107,
+      "passes": true
+    },
+    {
+      "frame": 11,
+      "prior_range": [
+        -13.261842245494336,
+        13.261842245494336
+      ],
+      "range_after": [
+        -13.261842245494336,
+        13.261842245494336
+      ],
+      "unique": true,
+      "proposed": -4.0,
+      "marker": 5,
+      "checked_ratio": 0.7378640776699029,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9902912621359223,
+      "ratio": 0.9902912621359223,
+      "points": 103,
+      "matched": 102,
+      "passes": true
+    },
+    {
+      "frame": 12,
+      "prior_range": [
+        -13.303586620681283,
+        13.303586620681283
+      ],
+      "range_after": [
+        -13.303586620681283,
+        13.303586620681283
+      ],
+      "unique": true,
+      "proposed": -4.25,
+      "marker": 5,
+      "checked_ratio": 0.71,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.99,
+      "ratio": 0.99,
+      "points": 100,
+      "matched": 99,
+      "passes": true
+    },
+    {
+      "frame": 13,
+      "prior_range": [
+        -13.346083602324528,
+        13.346083602324528
+      ],
+      "range_after": [
+        -13.346083602324528,
+        13.346083602324528
+      ],
+      "unique": true,
+      "proposed": -4.25,
+      "marker": 5,
+      "checked_ratio": 0.6947368421052632,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 1.0,
+      "ratio": 1.0,
+      "points": 95,
+      "matched": 95,
+      "passes": true
+    },
+    {
+      "frame": 14,
+      "prior_range": [
+        -13.387406842099509,
+        13.387406842099509
+      ],
+      "range_after": [
+        -13.387406842099509,
+        13.387406842099509
+      ],
+      "unique": true,
+      "proposed": -4.0,
+      "marker": 5,
+      "checked_ratio": 0.6597938144329897,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9690721649484536,
+      "ratio": 0.9690721649484536,
+      "points": 97,
+      "matched": 94,
+      "passes": true
+    },
+    {
+      "frame": 15,
+      "prior_range": [
+        -13.43156526908603,
+        13.43156526908603
+      ],
+      "range_after": [
+        -13.43156526908603,
+        13.43156526908603
+      ],
+      "unique": true,
+      "proposed": -4.0,
+      "marker": 5,
+      "checked_ratio": 0.6666666666666666,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9142857142857143,
+      "ratio": 0.9142857142857143,
+      "points": 105,
+      "matched": 96,
+      "passes": true
+    },
+    {
+      "frame": 16,
+      "prior_range": [
+        -13.474508601023015,
+        13.474508601023015
+      ],
+      "range_after": [
+        -13.474508601023015,
+        13.474508601023015
+      ],
+      "unique": true,
+      "proposed": -3.75,
+      "marker": 5,
+      "checked_ratio": 0.6272727272727273,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8727272727272727,
+      "ratio": 0.8727272727272727,
+      "points": 110,
+      "matched": 96,
+      "passes": true
+    },
+    {
+      "frame": 17,
+      "prior_range": [
+        -13.515727746103629,
+        13.515727746103629
+      ],
+      "range_after": [
+        -13.515727746103629,
+        13.515727746103629
+      ],
+      "unique": true,
+      "proposed": -3.75,
+      "marker": 5,
+      "checked_ratio": 0.6,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8181818181818182,
+      "ratio": 0.8181818181818182,
+      "points": 110,
+      "matched": 90,
+      "passes": true
+    },
+    {
+      "frame": 18,
+      "prior_range": [
+        -13.559822067372748,
+        13.559822067372748
+      ],
+      "range_after": [
+        -13.559822067372748,
+        13.559822067372748
+      ],
+      "unique": true,
+      "proposed": -3.5,
+      "marker": 5,
+      "checked_ratio": 0.5689655172413793,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7758620689655172,
+      "ratio": 0.7758620689655172,
+      "points": 116,
+      "matched": 90,
+      "passes": true
+    },
+    {
+      "frame": 19,
+      "prior_range": [
+        -13.602700842187694,
+        13.602700842187694
+      ],
+      "range_after": [
+        -13.602700842187694,
+        13.602700842187694
+      ],
+      "unique": true,
+      "proposed": -3.25,
+      "marker": 5,
+      "checked_ratio": 0.5966386554621849,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7478991596638656,
+      "ratio": 0.7478991596638656,
+      "points": 119,
+      "matched": 89,
+      "passes": true
+    },
+    {
+      "frame": 20,
+      "prior_range": [
+        -13.644118276463892,
+        13.644118276463892
+      ],
+      "range_after": [
+        -13.644118276463892,
+        13.644118276463892
+      ],
+      "unique": true,
+      "proposed": -3.0,
+      "marker": 5,
+      "checked_ratio": 0.578125,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.71875,
+      "ratio": 0.71875,
+      "points": 128,
+      "matched": 92,
+      "passes": true
+    },
+    {
+      "frame": 21,
+      "prior_range": [
+        -13.688249166784512,
+        13.688249166784512
+      ],
+      "range_after": [
+        -13.688249166784512,
+        13.688249166784512
+      ],
+      "unique": true,
+      "proposed": -2.75,
+      "marker": 5,
+      "checked_ratio": 0.5606060606060606,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.6590909090909091,
+      "ratio": 0.6590909090909091,
+      "points": 132,
+      "matched": 87,
+      "passes": true
+    },
+    {
+      "frame": 22,
+      "prior_range": [
+        -13.731125720271146,
+        13.731125720271146
+      ],
+      "range_after": [
+        -13.731125720271146,
+        13.731125720271146
+      ],
+      "unique": true,
+      "proposed": -2.5,
+      "marker": 5,
+      "checked_ratio": 0.5092592592592593,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5740740740740741,
+      "ratio": 0.5740740740740741,
+      "points": 108,
+      "matched": 62,
+      "passes": true
+    },
+    {
+      "frame": 23,
+      "prior_range": [
+        -13.769591033976733,
+        13.769591033976733
+      ],
+      "range_after": [
+        -13.769591033976733,
+        13.769591033976733
+      ],
+      "unique": true,
+      "proposed": -3.0,
+      "marker": 5,
+      "checked_ratio": 0.48672566371681414,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5486725663716814,
+      "ratio": 0.5486725663716814,
+      "points": 113,
+      "matched": 62,
+      "passes": false
+    }
+  ],
+  "ccw_edges_20261106_173933_edges": [
+    {
+      "frame": 0,
+      "prior_range": [
+        -24.398251044975204,
+        24.398251044975204
+      ],
+      "range_after": [
+        -24.398251044975204,
+        24.398251044975204
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9389312977099237,
+      "ratio": 0.9389312977099237,
+      "points": 131,
+      "matched": 123,
+      "passes": true
+    },
+    {
+      "frame": 1,
+      "prior_range": [
+        -24.4437364840039,
+        24.4437364840039
+      ],
+      "range_after": [
+        -24.4437364840039,
+        24.4437364840039
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.935251798561151,
+      "ratio": 0.935251798561151,
+      "points": 139,
+      "matched": 130,
+      "passes": true
+    },
+    {
+      "frame": 2,
+      "prior_range": [
+        -24.488693080622834,
+        24.488693080622834
+      ],
+      "range_after": [
+        -24.488693080622834,
+        24.488693080622834
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9459459459459459,
+      "ratio": 0.9459459459459459,
+      "points": 111,
+      "matched": 105,
+      "passes": true
+    },
+    {
+      "frame": 3,
+      "prior_range": [
+        -24.536234833340945,
+        24.536234833340945
+      ],
+      "range_after": [
+        -24.536234833340945,
+        24.536234833340945
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9057971014492754,
+      "ratio": 0.9057971014492754,
+      "points": 138,
+      "matched": 125,
+      "passes": true
+    },
+    {
+      "frame": 4,
+      "prior_range": [
+        -24.58565109832414,
+        24.58565109832414
+      ],
+      "range_after": [
+        -24.58565109832414,
+        24.58565109832414
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8867924528301887,
+      "ratio": 0.8867924528301887,
+      "points": 106,
+      "matched": 94,
+      "passes": true
+    },
+    {
+      "frame": 5,
+      "prior_range": [
+        -24.62841703352612,
+        24.62841703352612
+      ],
+      "range_after": [
+        -24.62841703352612,
+        24.62841703352612
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8785046728971962,
+      "ratio": 0.8785046728971962,
+      "points": 107,
+      "matched": 94,
+      "passes": true
+    },
+    {
+      "frame": 6,
+      "prior_range": [
+        -24.677307371770777,
+        24.677307371770777
+      ],
+      "range_after": [
+        -24.677307371770777,
+        24.677307371770777
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8837209302325582,
+      "ratio": 0.8837209302325582,
+      "points": 129,
+      "matched": 114,
+      "passes": true
+    },
+    {
+      "frame": 7,
+      "prior_range": [
+        -24.725755947204597,
+        24.725755947204597
+      ],
+      "range_after": [
+        -24.725755947204597,
+        24.725755947204597
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7777777777777778,
+      "ratio": 0.7777777777777778,
+      "points": 108,
+      "matched": 84,
+      "passes": true
+    },
+    {
+      "frame": 8,
+      "prior_range": [
+        -24.77189653131482,
+        24.77189653131482
+      ],
+      "range_after": [
+        -24.77189653131482,
+        24.77189653131482
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8203125,
+      "ratio": 0.8203125,
+      "points": 128,
+      "matched": 105,
+      "passes": true
+    },
+    {
+      "frame": 9,
+      "prior_range": [
+        -24.820937491778665,
+        24.820937491778665
+      ],
+      "range_after": [
+        -24.820937491778665,
+        24.820937491778665
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.746268656716418,
+      "ratio": 0.746268656716418,
+      "points": 134,
+      "matched": 100,
+      "passes": true
+    },
+    {
+      "frame": 10,
+      "prior_range": [
+        -24.867647927513623,
+        24.867647927513623
+      ],
+      "range_after": [
+        -24.867647927513623,
+        24.867647927513623
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7669172932330827,
+      "ratio": 0.7669172932330827,
+      "points": 133,
+      "matched": 102,
+      "passes": true
+    },
+    {
+      "frame": 11,
+      "prior_range": [
+        -24.912358748688266,
+        24.912358748688266
+      ],
+      "range_after": [
+        -24.912358748688266,
+        24.912358748688266
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.680672268907563,
+      "ratio": 0.680672268907563,
+      "points": 119,
+      "matched": 81,
+      "passes": true
+    },
+    {
+      "frame": 12,
+      "prior_range": [
+        -24.960297625203427,
+        24.960297625203427
+      ],
+      "range_after": [
+        -24.960297625203427,
+        24.960297625203427
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.635593220338983,
+      "ratio": 0.635593220338983,
+      "points": 118,
+      "matched": 75,
+      "passes": true
+    },
+    {
+      "frame": 13,
+      "prior_range": [
+        -25.006012506477987,
+        25.006012506477987
+      ],
+      "range_after": [
+        -25.006012506477987,
+        25.006012506477987
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.6416666666666667,
+      "ratio": 0.6416666666666667,
+      "points": 120,
+      "matched": 77,
+      "passes": true
+    },
+    {
+      "frame": 14,
+      "prior_range": [
+        -25.050439243196454,
+        25.050439243196454
+      ],
+      "range_after": [
+        -25.050439243196454,
+        25.050439243196454
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5968992248062015,
+      "ratio": 0.5968992248062015,
+      "points": 129,
+      "matched": 77,
+      "passes": true
+    },
+    {
+      "frame": 15,
+      "prior_range": [
+        -25.09798578491913,
+        25.09798578491913
+      ],
+      "range_after": [
+        -25.09798578491913,
+        25.09798578491913
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.6198347107438017,
+      "ratio": 0.6198347107438017,
+      "points": 121,
+      "matched": 75,
+      "passes": true
+    },
+    {
+      "frame": 16,
+      "prior_range": [
+        -25.144152338479234,
+        25.144152338479234
+      ],
+      "range_after": [
+        -25.144152338479234,
+        25.144152338479234
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.6333333333333333,
+      "ratio": 0.6333333333333333,
+      "points": 120,
+      "matched": 76,
+      "passes": true
+    },
+    {
+      "frame": 17,
+      "prior_range": [
+        -25.188840010701362,
+        25.188840010701362
+      ],
+      "range_after": [
+        -25.188840010701362,
+        25.188840010701362
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.6302521008403361,
+      "ratio": 0.6302521008403361,
+      "points": 119,
+      "matched": 75,
+      "passes": true
+    },
+    {
+      "frame": 18,
+      "prior_range": [
+        -25.236534209258785,
+        25.236534209258785
+      ],
+      "range_after": [
+        -25.236534209258785,
+        25.236534209258785
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5887096774193549,
+      "ratio": 0.5887096774193549,
+      "points": 124,
+      "matched": 73,
+      "passes": true
+    },
+    {
+      "frame": 19,
+      "prior_range": [
+        -25.28259119190846,
+        25.28259119190846
+      ],
+      "range_after": [
+        -25.28259119190846,
+        25.28259119190846
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5655737704918032,
+      "ratio": 0.5655737704918032,
+      "points": 122,
+      "matched": 69,
+      "passes": true
+    },
+    {
+      "frame": 20,
+      "prior_range": [
+        -25.329259781131775,
+        25.329259781131775
+      ],
+      "range_after": [
+        -25.329259781131775,
+        25.329259781131775
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5983606557377049,
+      "ratio": 0.5983606557377049,
+      "points": 122,
+      "matched": 73,
+      "passes": true
+    },
+    {
+      "frame": 21,
+      "prior_range": [
+        -25.37504366613307,
+        25.37504366613307
+      ],
+      "range_after": [
+        -25.37504366613307,
+        25.37504366613307
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5897435897435898,
+      "ratio": 0.5897435897435898,
+      "points": 117,
+      "matched": 69,
+      "passes": true
+    },
+    {
+      "frame": 22,
+      "prior_range": [
+        -25.42061708895802,
+        25.42061708895802
+      ],
+      "range_after": [
+        -25.42061708895802,
+        25.42061708895802
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5630252100840336,
+      "ratio": 0.5630252100840336,
+      "points": 119,
+      "matched": 67,
+      "passes": true
+    },
+    {
+      "frame": 23,
+      "prior_range": [
+        -25.460904470951448,
+        25.460904470951448
+      ],
+      "range_after": [
+        -25.460904470951448,
+        25.460904470951448
+      ],
+      "unique": false,
+      "proposed": null,
+      "marker": null,
+      "checked_ratio": null,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5486725663716814,
+      "ratio": 0.5486725663716814,
+      "points": 113,
+      "matched": 62,
+      "passes": false
+    }
+  ],
+  "ccw_forward127_20261106_184214_edges": [
+    {
+      "frame": 0,
+      "prior_range": [
+        -39.924225501601754,
+        39.924225501601754
+      ],
+      "range_after": [
+        -39.924225501601754,
+        39.924225501601754
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.5555555555555556,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8425925925925926,
+      "ratio": 0.8425925925925926,
+      "points": 108,
+      "matched": 91,
+      "passes": true
+    },
+    {
+      "frame": 1,
+      "prior_range": [
+        -39.9662686171604,
+        39.9662686171604
+      ],
+      "range_after": [
+        -39.9662686171604,
+        39.9662686171604
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.6,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.93,
+      "ratio": 0.93,
+      "points": 100,
+      "matched": 93,
+      "passes": true
+    },
+    {
+      "frame": 2,
+      "prior_range": [
+        -40.011253686607674,
+        40.011253686607674
+      ],
+      "range_after": [
+        -40.011253686607674,
+        40.011253686607674
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.631578947368421,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9368421052631579,
+      "ratio": 0.9368421052631579,
+      "points": 95,
+      "matched": 89,
+      "passes": true
+    },
+    {
+      "frame": 3,
+      "prior_range": [
+        -40.05491422069612,
+        40.05491422069612
+      ],
+      "range_after": [
+        -40.05491422069612,
+        40.05491422069612
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.673469387755102,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9693877551020408,
+      "ratio": 0.9693877551020408,
+      "points": 98,
+      "matched": 95,
+      "passes": true
+    },
+    {
+      "frame": 4,
+      "prior_range": [
+        -40.09731843748078,
+        40.09731843748078
+      ],
+      "range_after": [
+        -40.09731843748078,
+        40.09731843748078
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.6626506024096386,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9879518072289156,
+      "ratio": 0.9879518072289156,
+      "points": 83,
+      "matched": 82,
+      "passes": true
+    },
+    {
+      "frame": 5,
+      "prior_range": [
+        -40.14271675041849,
+        40.14271675041849
+      ],
+      "range_after": [
+        -40.14271675041849,
+        40.14271675041849
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 0.7435897435897436,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 1.0,
+      "ratio": 1.0,
+      "points": 78,
+      "matched": 78,
+      "passes": true
+    },
+    {
+      "frame": 6,
+      "prior_range": [
+        -40.18702827441927,
+        40.18702827441927
+      ],
+      "range_after": [
+        -40.18702827441927,
+        40.18702827441927
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.6585365853658537,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 1.0,
+      "ratio": 1.0,
+      "points": 82,
+      "matched": 82,
+      "passes": true
+    },
+    {
+      "frame": 7,
+      "prior_range": [
+        -40.229828157769624,
+        40.229828157769624
+      ],
+      "range_after": [
+        -40.229828157769624,
+        40.229828157769624
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.7792207792207793,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 1.0,
+      "ratio": 1.0,
+      "points": 77,
+      "matched": 77,
+      "passes": true
+    },
+    {
+      "frame": 8,
+      "prior_range": [
+        -40.27596996918289,
+        40.27596996918289
+      ],
+      "range_after": [
+        -40.27596996918289,
+        40.27596996918289
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 0.7631578947368421,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9736842105263158,
+      "ratio": 0.9736842105263158,
+      "points": 76,
+      "matched": 74,
+      "passes": true
+    },
+    {
+      "frame": 9,
+      "prior_range": [
+        -40.323228665086425,
+        40.323228665086425
+      ],
+      "range_after": [
+        -40.323228665086425,
+        40.323228665086425
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 0.7464788732394366,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.971830985915493,
+      "ratio": 0.971830985915493,
+      "points": 71,
+      "matched": 69,
+      "passes": true
+    },
+    {
+      "frame": 10,
+      "prior_range": [
+        -40.364426101036024,
+        40.364426101036024
+      ],
+      "range_after": [
+        -40.364426101036024,
+        40.364426101036024
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 0.751937984496124,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.937984496124031,
+      "ratio": 0.937984496124031,
+      "points": 129,
+      "matched": 121,
+      "passes": true
+    },
+    {
+      "frame": 11,
+      "prior_range": [
+        -40.41124046659548,
+        40.41124046659548
+      ],
+      "range_after": [
+        -40.41124046659548,
+        40.41124046659548
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 0.8059701492537313,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.9104477611940298,
+      "ratio": 0.9104477611940298,
+      "points": 134,
+      "matched": 122,
+      "passes": true
+    },
+    {
+      "frame": 12,
+      "prior_range": [
+        -40.456496475828175,
+        40.456496475828175
+      ],
+      "range_after": [
+        -40.456496475828175,
+        40.456496475828175
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 0.8717948717948718,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7948717948717948,
+      "ratio": 0.7948717948717948,
+      "points": 78,
+      "matched": 62,
+      "passes": true
+    },
+    {
+      "frame": 13,
+      "prior_range": [
+        -40.51281008651845,
+        40.51281008651845
+      ],
+      "range_after": [
+        -40.51281008651845,
+        40.51281008651845
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 0.8,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.775,
+      "ratio": 0.775,
+      "points": 80,
+      "matched": 62,
+      "passes": true
+    },
+    {
+      "frame": 14,
+      "prior_range": [
+        -40.573081854372234,
+        40.573081854372234
+      ],
+      "range_after": [
+        -40.573081854372234,
+        40.573081854372234
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 0.9305555555555556,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7777777777777778,
+      "ratio": 0.7777777777777778,
+      "points": 72,
+      "matched": 56,
+      "passes": true
+    },
+    {
+      "frame": 15,
+      "prior_range": [
+        -40.631953451115926,
+        40.631953451115926
+      ],
+      "range_after": [
+        -40.631953451115926,
+        40.631953451115926
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 0.8888888888888888,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7283950617283951,
+      "ratio": 0.7283950617283951,
+      "points": 81,
+      "matched": 59,
+      "passes": true
+    },
+    {
+      "frame": 16,
+      "prior_range": [
+        -40.689299474755344,
+        40.689299474755344
+      ],
+      "range_after": [
+        -40.689299474755344,
+        40.689299474755344
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 0.961038961038961,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.6493506493506493,
+      "ratio": 0.6493506493506493,
+      "points": 77,
+      "matched": 50,
+      "passes": true
+    },
+    {
+      "frame": 17,
+      "prior_range": [
+        -40.750962652365644,
+        40.750962652365644
+      ],
+      "range_after": [
+        -40.750962652365644,
+        40.750962652365644
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 0.9418604651162791,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.5930232558139535,
+      "ratio": 0.5930232558139535,
+      "points": 86,
+      "matched": 51,
+      "passes": true
+    },
+    {
+      "frame": 18,
+      "prior_range": [
+        -40.81143297292986,
+        40.81143297292986
+      ],
+      "range_after": [
+        3.0,
+        5.0
+      ],
+      "unique": true,
+      "proposed": 3.75,
+      "marker": 4,
+      "checked_ratio": 0.9882352941176471,
+      "confirmed": true,
+      "offset": 4.0,
+      "baseline_ratio": 0.611764705882353,
+      "ratio": 0.9882352941176471,
+      "points": 85,
+      "matched": 84,
+      "passes": true
+    },
+    {
+      "frame": 19,
+      "prior_range": [
+        2.9410295863836264,
+        5.058970413616374
+      ],
+      "range_after": [
+        2.9410295863836264,
+        5.058970413616374
+      ],
+      "unique": true,
+      "proposed": 3.75,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.0,
+      "baseline_ratio": 0.6075949367088608,
+      "ratio": 1.0,
+      "points": 79,
+      "matched": 79,
+      "passes": true
+    },
+    {
+      "frame": 20,
+      "prior_range": [
+        2.8787854974610316,
+        5.121214502538968
+      ],
+      "range_after": [
+        2.8787854974610316,
+        5.121214502538968
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.0,
+      "baseline_ratio": 0.5875,
+      "ratio": 1.0,
+      "points": 80,
+      "matched": 80,
+      "passes": true
+    },
+    {
+      "frame": 21,
+      "prior_range": [
+        2.819353205947997,
+        5.180646794052002
+      ],
+      "range_after": [
+        2.819353205947997,
+        5.180646794052002
+      ],
+      "unique": true,
+      "proposed": 3.75,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.0,
+      "baseline_ratio": 0.5555555555555556,
+      "ratio": 1.0,
+      "points": 81,
+      "matched": 81,
+      "passes": true
+    },
+    {
+      "frame": 22,
+      "prior_range": [
+        2.7621261833454307,
+        5.237873816654568
+      ],
+      "range_after": [
+        2.7621261833454307,
+        5.237873816654568
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.0,
+      "baseline_ratio": 0.581081081081081,
+      "ratio": 1.0,
+      "points": 74,
+      "matched": 74,
+      "passes": true
+    },
+    {
+      "frame": 23,
+      "prior_range": [
+        2.7069230772978825,
+        5.293076922702117
+      ],
+      "range_after": [
+        2.7069230772978825,
+        5.293076922702117
+      ],
+      "unique": true,
+      "proposed": 4.0,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.0,
+      "baseline_ratio": 0.5454545454545454,
+      "ratio": 1.0,
+      "points": 88,
+      "matched": 88,
+      "passes": true
+    }
+  ],
+  "ccw_v135_20261106_174607_edges": [
+    {
+      "frame": 0,
+      "prior_range": [
+        -36.34088225361245,
+        36.34088225361245
+      ],
+      "range_after": [
+        -36.34088225361245,
+        36.34088225361245
+      ],
+      "unique": true,
+      "proposed": 5.5,
+      "marker": 4,
+      "checked_ratio": 0.7926829268292683,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8048780487804879,
+      "ratio": 0.8048780487804879,
+      "points": 82,
+      "matched": 66,
+      "passes": true
+    },
+    {
+      "frame": 1,
+      "prior_range": [
+        -36.38575749335351,
+        36.38575749335351
+      ],
+      "range_after": [
+        -36.38575749335351,
+        36.38575749335351
+      ],
+      "unique": true,
+      "proposed": 5.25,
+      "marker": 4,
+      "checked_ratio": 0.7894736842105263,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.8421052631578947,
+      "ratio": 0.8421052631578947,
+      "points": 76,
+      "matched": 64,
+      "passes": true
+    },
+    {
+      "frame": 2,
+      "prior_range": [
+        -36.429779513959225,
+        36.429779513959225
+      ],
+      "range_after": [
+        -36.429779513959225,
+        36.429779513959225
+      ],
+      "unique": true,
+      "proposed": 5.0,
+      "marker": 4,
+      "checked_ratio": 0.8205128205128205,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7948717948717948,
+      "ratio": 0.7948717948717948,
+      "points": 78,
+      "matched": 62,
+      "passes": true
+    },
+    {
+      "frame": 3,
+      "prior_range": [
+        -36.472513252160226,
+        36.472513252160226
+      ],
+      "range_after": [
+        -36.472513252160226,
+        36.472513252160226
+      ],
+      "unique": true,
+      "proposed": 5.0,
+      "marker": 4,
+      "checked_ratio": 0.8607594936708861,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7721518987341772,
+      "ratio": 0.7721518987341772,
+      "points": 79,
+      "matched": 61,
+      "passes": true
+    },
+    {
+      "frame": 4,
+      "prior_range": [
+        -36.51815364183453,
+        36.51815364183453
+      ],
+      "range_after": [
+        -36.51815364183453,
+        36.51815364183453
+      ],
+      "unique": true,
+      "proposed": 4.75,
+      "marker": 4,
+      "checked_ratio": 0.8571428571428571,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7619047619047619,
+      "ratio": 0.7619047619047619,
+      "points": 84,
+      "matched": 64,
+      "passes": true
+    },
+    {
+      "frame": 5,
+      "prior_range": [
+        -36.563013580942524,
+        36.563013580942524
+      ],
+      "range_after": [
+        -36.563013580942524,
+        36.563013580942524
+      ],
+      "unique": true,
+      "proposed": 4.75,
+      "marker": 4,
+      "checked_ratio": 0.95,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.725,
+      "ratio": 0.725,
+      "points": 80,
+      "matched": 58,
+      "passes": true
+    },
+    {
+      "frame": 6,
+      "prior_range": [
+        -36.60670344658858,
+        36.60670344658858
+      ],
+      "range_after": [
+        -36.60670344658858,
+        36.60670344658858
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.925,
+      "confirmed": false,
+      "offset": 0.0,
+      "baseline_ratio": 0.7,
+      "ratio": 0.7,
+      "points": 80,
+      "matched": 56,
+      "passes": true
+    },
+    {
+      "frame": 7,
+      "prior_range": [
+        -36.65327958214977,
+        36.65327958214977
+      ],
+      "range_after": [
+        3.5,
+        5.5
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 0.9647058823529412,
+      "confirmed": true,
+      "offset": 4.5,
+      "baseline_ratio": 0.5764705882352941,
+      "ratio": 0.9647058823529412,
+      "points": 85,
+      "matched": 82,
+      "passes": true
+    },
+    {
+      "frame": 8,
+      "prior_range": [
+        3.454010751620497,
+        5.545989248379503
+      ],
+      "range_after": [
+        3.454010751620497,
+        5.545989248379503
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.6486486486486487,
+      "ratio": 1.0,
+      "points": 74,
+      "matched": 74,
+      "passes": true
+    },
+    {
+      "frame": 9,
+      "prior_range": [
+        3.409500317876949,
+        5.590499682123052
+      ],
+      "range_after": [
+        3.409500317876949,
+        5.590499682123052
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.6575342465753424,
+      "ratio": 1.0,
+      "points": 73,
+      "matched": 73,
+      "passes": true
+    },
+    {
+      "frame": 10,
+      "prior_range": [
+        3.3617961952604665,
+        5.638203804739534
+      ],
+      "range_after": [
+        3.3617961952604665,
+        5.638203804739534
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5949367088607594,
+      "ratio": 1.0,
+      "points": 79,
+      "matched": 79,
+      "passes": true
+    },
+    {
+      "frame": 11,
+      "prior_range": [
+        3.3146714025029516,
+        5.685328597497049
+      ],
+      "range_after": [
+        3.3146714025029516,
+        5.685328597497049
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.631578947368421,
+      "ratio": 1.0,
+      "points": 76,
+      "matched": 76,
+      "passes": true
+    },
+    {
+      "frame": 12,
+      "prior_range": [
+        3.2691534933715563,
+        5.730846506628445
+      ],
+      "range_after": [
+        3.2691534933715563,
+        5.730846506628445
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5949367088607594,
+      "ratio": 1.0,
+      "points": 79,
+      "matched": 79,
+      "passes": true
+    },
+    {
+      "frame": 13,
+      "prior_range": [
+        3.220593564230598,
+        5.779406435769403
+      ],
+      "range_after": [
+        3.220593564230598,
+        5.779406435769403
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5909090909090909,
+      "ratio": 1.0,
+      "points": 88,
+      "matched": 88,
+      "passes": true
+    },
+    {
+      "frame": 14,
+      "prior_range": [
+        3.1697353330964986,
+        5.830264666903502
+      ],
+      "range_after": [
+        3.1697353330964986,
+        5.830264666903502
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.6329113924050633,
+      "ratio": 1.0,
+      "points": 79,
+      "matched": 79,
+      "passes": true
+    },
+    {
+      "frame": 15,
+      "prior_range": [
+        3.126022634851019,
+        5.873977365148981
+      ],
+      "range_after": [
+        3.126022634851019,
+        5.873977365148981
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.6125,
+      "ratio": 1.0,
+      "points": 80,
+      "matched": 80,
+      "passes": true
+    },
+    {
+      "frame": 16,
+      "prior_range": [
+        3.0778717437588585,
+        5.922128256241142
+      ],
+      "range_after": [
+        3.0778717437588585,
+        5.922128256241142
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.611764705882353,
+      "ratio": 1.0,
+      "points": 85,
+      "matched": 85,
+      "passes": true
+    },
+    {
+      "frame": 17,
+      "prior_range": [
+        3.0307238994697414,
+        5.969276100530259
+      ],
+      "range_after": [
+        3.0307238994697414,
+        5.969276100530259
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.6352941176470588,
+      "ratio": 1.0,
+      "points": 85,
+      "matched": 85,
+      "passes": true
+    },
+    {
+      "frame": 18,
+      "prior_range": [
+        2.9857219775685855,
+        6.014278022431414
+      ],
+      "range_after": [
+        2.9857219775685855,
+        6.014278022431414
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5882352941176471,
+      "ratio": 1.0,
+      "points": 85,
+      "matched": 85,
+      "passes": true
+    },
+    {
+      "frame": 19,
+      "prior_range": [
+        2.9388005669119446,
+        6.061199433088055
+      ],
+      "range_after": [
+        2.9388005669119446,
+        6.061199433088055
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5517241379310345,
+      "ratio": 1.0,
+      "points": 87,
+      "matched": 87,
+      "passes": true
+    },
+    {
+      "frame": 20,
+      "prior_range": [
+        2.89267328910332,
+        6.107326710896681
+      ],
+      "range_after": [
+        2.89267328910332,
+        6.107326710896681
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.6024096385542169,
+      "ratio": 1.0,
+      "points": 83,
+      "matched": 83,
+      "passes": true
+    },
+    {
+      "frame": 21,
+      "prior_range": [
+        2.8489545184785396,
+        6.151045481521461
+      ],
+      "range_after": [
+        2.8489545184785396,
+        6.151045481521461
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5833333333333334,
+      "ratio": 1.0,
+      "points": 84,
+      "matched": 84,
+      "passes": true
+    },
+    {
+      "frame": 22,
+      "prior_range": [
+        2.8030656032650585,
+        6.196934396734942
+      ],
+      "range_after": [
+        2.8030656032650585,
+        6.196934396734942
+      ],
+      "unique": true,
+      "proposed": 4.25,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5697674418604651,
+      "ratio": 1.0,
+      "points": 86,
+      "matched": 86,
+      "passes": true
+    },
+    {
+      "frame": 23,
+      "prior_range": [
+        2.761781764221051,
+        6.23821823577895
+      ],
+      "range_after": [
+        2.761781764221051,
+        6.23821823577895
+      ],
+      "unique": true,
+      "proposed": 4.5,
+      "marker": 4,
+      "checked_ratio": 1.0,
+      "confirmed": false,
+      "offset": 4.5,
+      "baseline_ratio": 0.5161290322580645,
+      "ratio": 1.0,
+      "points": 93,
+      "matched": 93,
+      "passes": true
+    }
+  ]
+}
