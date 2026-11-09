@@ -1,0 +1,122 @@
+[
+  {
+    "run": "ccw_edges_20261106_173559_edges",
+    "n_points": 113,
+    "candidates": 5577,
+    "prior_median_cm": 0.5958688521662907,
+    "prior_inliers": 0.5486725663716814,
+    "passing": 605,
+    "elapsed_s": 0.3696741000749171,
+    "best_offset_lat_lon_yaw": [
+      3.0,
+      -8.0,
+      -5.0
+    ],
+    "best_loss_median_inliers": [
+      4.345860898304958,
+      0.7643173085646424,
+      0.7876106194690266
+    ],
+    "best_pass": true,
+    "best_passing_offset": [
+      3.0,
+      -8.0,
+      -5.0
+    ],
+    "passing_longitudinal_range": [
+      -8.0,
+      8.0
+    ],
+    "input_sha256": "542619e02bfa1c70b60970ccba9398707c02a99a0e06f96f4f8e98b254463463"
+  },
+  {
+    "run": "ccw_edges_20261106_173933_edges",
+    "n_points": 113,
+    "candidates": 5577,
+    "prior_median_cm": 0.8413160804766311,
+    "prior_inliers": 0.5486725663716814,
+    "passing": 4,
+    "elapsed_s": 0.33655530004762113,
+    "best_offset_lat_lon_yaw": [
+      3.0,
+      -8.0,
+      -1.0
+    ],
+    "best_loss_median_inliers": [
+      9.124360504681547,
+      1.9718267517698558,
+      0.6017699115044248
+    ],
+    "best_pass": false,
+    "best_passing_offset": [
+      0.5,
+      -8.0,
+      4.0
+    ],
+    "passing_longitudinal_range": [
+      -8.0,
+      -7.0
+    ],
+    "input_sha256": "dee93e90357fe73845e00970f54faee59a7a56b4a8340f80ee380bb0040cfa69"
+  },
+  {
+    "run": "ccw_forward127_20261106_184214_edges",
+    "n_points": 88,
+    "candidates": 5577,
+    "prior_median_cm": 0.2678586694258769,
+    "prior_inliers": 0.5454545454545454,
+    "passing": 1045,
+    "elapsed_s": 0.22553710010834038,
+    "best_offset_lat_lon_yaw": [
+      2.5,
+      6.5,
+      -5.0
+    ],
+    "best_loss_median_inliers": [
+      0.13588442677972792,
+      0.35495548815187306,
+      1.0
+    ],
+    "best_pass": true,
+    "best_passing_offset": [
+      2.5,
+      6.5,
+      -5.0
+    ],
+    "passing_longitudinal_range": [
+      -2.0,
+      8.0
+    ],
+    "input_sha256": "d9436aef4fa09ae1bbf49fff3ec2c0402d2b209d0c2286e18c32492cb305461f"
+  },
+  {
+    "run": "ccw_v135_20261106_174607_edges",
+    "n_points": 93,
+    "candidates": 5577,
+    "prior_median_cm": 0.36721987393485733,
+    "prior_inliers": 0.5161290322580645,
+    "passing": 918,
+    "elapsed_s": 0.20930270000826567,
+    "best_offset_lat_lon_yaw": [
+      2.5,
+      7.0,
+      -5.0
+    ],
+    "best_loss_median_inliers": [
+      0.15837977265103034,
+      0.279208109492497,
+      1.0
+    ],
+    "best_pass": true,
+    "best_passing_offset": [
+      2.5,
+      7.0,
+      -5.0
+    ],
+    "passing_longitudinal_range": [
+      -1.0,
+      8.0
+    ],
+    "input_sha256": "d016ca6d2e6abc0e80dc083d6a411c6d493bb3be86897b22f691c0b18bc3c7a8"
+  }
+]

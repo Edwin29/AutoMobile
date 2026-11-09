@@ -1,0 +1,31 @@
+{
+  "name": "cw_combined_20",
+  "direction": "cw",
+  "scenario": "combined",
+  "onset": 20.0,
+  "reason": "unmatched road edges",
+  "end_s": 22.866666666666667,
+  "simulated_laps": 0.16305226619353724,
+  "estimated_laps": 0.15617255787524117,
+  "min_true_margin_cm": 3.4760143055468347,
+  "max_position_error_cm": 1.2968399880396757,
+  "max_yaw_error_deg": 1.1434567080437164,
+  "final_longitudinal_error_cm": -1.1145152112102008,
+  "final_lateral_error_cm": -0.45393087072610633,
+  "wall_seconds": 27.407224699971266,
+  "final": {
+    "points": 0,
+    "inliers": null,
+    "median": null,
+    "true_inliers": null,
+    "true_median": null
+  },
+  "config": {
+    "motor": true,
+    "exposure": 0.066513,
+    "glare": true,
+    "seam": true,
+    "object": true
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

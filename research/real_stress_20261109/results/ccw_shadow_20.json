@@ -1,0 +1,27 @@
+{
+  "name": "ccw_shadow_20",
+  "direction": "ccw",
+  "scenario": "shadow",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.73333333333332,
+  "simulated_laps": 1.0002856300114498,
+  "estimated_laps": 1.000305302324078,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 0.7064453906654647,
+  "max_yaw_error_deg": 0.6179336158040871,
+  "final_longitudinal_error_cm": 0.045881455128707,
+  "final_lateral_error_cm": 0.15089958576735166,
+  "wall_seconds": 157.57459500001278,
+  "final": {
+    "points": 134,
+    "inliers": 1.0,
+    "median": 0.09407407878999408,
+    "true_inliers": 1.0,
+    "true_median": 0.13828015280142836
+  },
+  "config": {
+    "shadow": true
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

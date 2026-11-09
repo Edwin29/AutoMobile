@@ -1,0 +1,46 @@
+{
+  "name": "ccw_combined_20",
+  "direction": "ccw",
+  "scenario": "combined",
+  "onset": 20.0,
+  "reason": "unmatched road edges",
+  "end_s": 105.0,
+  "simulated_laps": 0.6871139895617532,
+  "estimated_laps": 0.695503535150652,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 2.196441363317776,
+  "max_yaw_error_deg": 3.58024496151463,
+  "final_longitudinal_error_cm": -0.05857033606099946,
+  "final_lateral_error_cm": 0.1593889923291116,
+  "wall_seconds": 81.41649580001831,
+  "final": {
+    "points": 125,
+    "inliers": 0.544,
+    "median": 1.1476008653309577,
+    "true_inliers": 0.544,
+    "true_median": 1.2889213568699915
+  },
+  "config": {
+    "motor": true,
+    "exposure": 0.066513,
+    "glare": true,
+    "seam": true,
+    "object": true
+  },
+  "feedback_updates": "output only; prediction gain fixed",
+  "stop_grid": {
+    "passing": 343,
+    "total": 5577,
+    "best_offset": [
+      1.0,
+      0.5,
+      -2.0
+    ],
+    "best_scores": [
+      10.406575626666298,
+      1.2978251111775307,
+      0.552
+    ],
+    "best_pass": true
+  }
+}

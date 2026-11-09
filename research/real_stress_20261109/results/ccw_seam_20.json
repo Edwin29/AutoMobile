@@ -1,0 +1,42 @@
+{
+  "name": "ccw_seam_20",
+  "direction": "ccw",
+  "scenario": "seam",
+  "onset": 20.0,
+  "reason": "unmatched road edges",
+  "end_s": 105.8,
+  "simulated_laps": 0.6874233887785326,
+  "estimated_laps": 0.6958088374747383,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 0.29181108789416216,
+  "max_yaw_error_deg": 0.4936577439920711,
+  "final_longitudinal_error_cm": -0.043119047025711066,
+  "final_lateral_error_cm": 0.17376686290128388,
+  "wall_seconds": 124.83234970003832,
+  "final": {
+    "points": 137,
+    "inliers": 0.5328467153284672,
+    "median": 1.296282797638895,
+    "true_inliers": 0.5328467153284672,
+    "true_median": 1.2677695556884316
+  },
+  "config": {
+    "seam": true
+  },
+  "feedback_updates": "output only; prediction gain fixed",
+  "stop_grid": {
+    "passing": 132,
+    "total": 5577,
+    "best_offset": [
+      -3.0,
+      -1.5,
+      5.0
+    ],
+    "best_scores": [
+      10.462697856618238,
+      1.4285296948056896,
+      0.5474452554744526
+    ],
+    "best_pass": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "cw_glare_20",
+  "direction": "cw",
+  "scenario": "glare",
+  "onset": 20.0,
+  "reason": "unmatched road edges",
+  "end_s": 23.133333333333333,
+  "simulated_laps": 0.16199632412781087,
+  "estimated_laps": 0.15662744160474706,
+  "min_true_margin_cm": 4.059093854795464,
+  "max_position_error_cm": 0.1284790578798627,
+  "max_yaw_error_deg": 0.22187659743004773,
+  "final_longitudinal_error_cm": -0.011912926012163583,
+  "final_lateral_error_cm": 0.04368173400029927,
+  "wall_seconds": 20.810119300032966,
+  "final": {
+    "points": 0,
+    "inliers": null,
+    "median": null,
+    "true_inliers": null,
+    "true_median": null
+  },
+  "config": {
+    "glare": true
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

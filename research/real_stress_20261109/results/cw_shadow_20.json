@@ -1,0 +1,27 @@
+{
+  "name": "cw_shadow_20",
+  "direction": "cw",
+  "scenario": "shadow",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.86666666666667,
+  "simulated_laps": 1.0003306055431327,
+  "estimated_laps": 1.0003053023240926,
+  "min_true_margin_cm": 2.3308580697652417,
+  "max_position_error_cm": 1.358304840822344,
+  "max_yaw_error_deg": 0.7874363994358533,
+  "final_longitudinal_error_cm": 0.011253222731327757,
+  "final_lateral_error_cm": -0.10418675114853064,
+  "wall_seconds": 134.97185870003887,
+  "final": {
+    "points": 117,
+    "inliers": 1.0,
+    "median": 0.09084134665857846,
+    "true_inliers": 1.0,
+    "true_median": 0.07093606942733288
+  },
+  "config": {
+    "shadow": true
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

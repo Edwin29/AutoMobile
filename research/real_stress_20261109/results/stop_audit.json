@@ -1,0 +1,121 @@
+[
+  {
+    "name": "ccw_combined_20",
+    "corrupt_at_truth_pass": false,
+    "corrupt_at_truth_inliers": 0.544,
+    "corrupt_at_truth_median": 1.2889213568699915,
+    "clean_at_same_prior_pass": true,
+    "clean_at_same_prior_inliers": 1.0,
+    "clean_at_same_prior_median": 0.09329162760034264,
+    "prior_position_error_cm": 0.1698097027321702,
+    "best_candidate_position_error_cm": 1.2398375879539942,
+    "best_candidate_yaw_error_deg": -2.381238705669554,
+    "best_candidate_pass": true,
+    "true_lateral_longitudinal_offset": [
+      -0.1589957473840922,
+      0.059629585406591176
+    ]
+  },
+  {
+    "name": "ccw_forward_persistent_2",
+    "corrupt_at_truth_pass": true,
+    "corrupt_at_truth_inliers": 1.0,
+    "corrupt_at_truth_median": 0.07914380695018625,
+    "clean_at_same_prior_pass": false,
+    "clean_at_same_prior_inliers": 0.5102040816326531,
+    "clean_at_same_prior_median": 2.3658680606680065,
+    "prior_position_error_cm": 12.477768549308816,
+    "best_candidate_position_error_cm": 16.26102618884615,
+    "best_candidate_yaw_error_deg": -5.049080332675751,
+    "best_candidate_pass": true,
+    "true_lateral_longitudinal_offset": [
+      -0.022003450534600726,
+      12.477749148716079
+    ]
+  },
+  {
+    "name": "ccw_prior_error_20",
+    "corrupt_at_truth_pass": true,
+    "corrupt_at_truth_inliers": 1.0,
+    "corrupt_at_truth_median": 0.04282513348888934,
+    "clean_at_same_prior_pass": true,
+    "clean_at_same_prior_inliers": 1.0,
+    "clean_at_same_prior_median": 0.5382506176805287,
+    "prior_position_error_cm": 6.578472118220927,
+    "best_candidate_position_error_cm": 0.5555713140068447,
+    "best_candidate_yaw_error_deg": -0.023913152220047557,
+    "best_candidate_pass": true,
+    "true_lateral_longitudinal_offset": [
+      -2.5860041929143365,
+      -6.04887408733556
+    ]
+  },
+  {
+    "name": "ccw_prior_lateral_20",
+    "corrupt_at_truth_pass": true,
+    "corrupt_at_truth_inliers": 1.0,
+    "corrupt_at_truth_median": 0.04282513348888934,
+    "clean_at_same_prior_pass": false,
+    "clean_at_same_prior_inliers": 0.0,
+    "clean_at_same_prior_median": 6.596563181206818,
+    "prior_position_error_cm": 3.0720604298758296,
+    "best_candidate_position_error_cm": 0.06646704938639349,
+    "best_candidate_yaw_error_deg": -0.023913152220049146,
+    "best_candidate_pass": true,
+    "true_lateral_longitudinal_offset": [
+      -3.0199561565437882,
+      -0.5634004768920021
+    ]
+  },
+  {
+    "name": "ccw_seam_20",
+    "corrupt_at_truth_pass": false,
+    "corrupt_at_truth_inliers": 0.5328467153284672,
+    "corrupt_at_truth_median": 1.2677695556884316,
+    "clean_at_same_prior_pass": true,
+    "clean_at_same_prior_inliers": 1.0,
+    "clean_at_same_prior_median": 0.08854199772449078,
+    "prior_position_error_cm": 0.17903679749972928,
+    "best_candidate_position_error_cm": 3.220946525313835,
+    "best_candidate_yaw_error_deg": 4.5840723487357495,
+    "best_candidate_pass": false,
+    "true_lateral_longitudinal_offset": [
+      -0.1734492727292854,
+      0.044379326815996614
+    ]
+  },
+  {
+    "name": "cw_forward_persistent_2",
+    "corrupt_at_truth_pass": true,
+    "corrupt_at_truth_inliers": 1.0,
+    "corrupt_at_truth_median": 0.06870778693331935,
+    "clean_at_same_prior_pass": true,
+    "clean_at_same_prior_inliers": 0.9893617021276596,
+    "clean_at_same_prior_median": 0.9779356056084323,
+    "prior_position_error_cm": 10.071813208213117,
+    "best_candidate_position_error_cm": 2.4487372284643647,
+    "best_candidate_yaw_error_deg": -4.58652688072569,
+    "best_candidate_pass": true,
+    "true_lateral_longitudinal_offset": [
+      -0.862262140318381,
+      10.034835589211703
+    ]
+  },
+  {
+    "name": "cw_seam_20",
+    "corrupt_at_truth_pass": false,
+    "corrupt_at_truth_inliers": 0.45038167938931295,
+    "corrupt_at_truth_median": 2.739563959467162,
+    "clean_at_same_prior_pass": true,
+    "clean_at_same_prior_inliers": 1.0,
+    "clean_at_same_prior_median": 0.23931427933123928,
+    "prior_position_error_cm": 1.355430583112987,
+    "best_candidate_position_error_cm": 0.8120945244896224,
+    "best_candidate_yaw_error_deg": -5.242533918480597,
+    "best_candidate_pass": true,
+    "true_lateral_longitudinal_offset": [
+      0.7035327883430551,
+      1.1585480919514122
+    ]
+  }
+]

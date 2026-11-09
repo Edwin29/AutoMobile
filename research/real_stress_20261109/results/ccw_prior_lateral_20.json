@@ -1,0 +1,42 @@
+{
+  "name": "ccw_prior_lateral_20",
+  "direction": "ccw",
+  "scenario": "prior_lateral",
+  "onset": 20.0,
+  "reason": "unmatched road edges",
+  "end_s": 20.0,
+  "simulated_laps": 0.11079704213122173,
+  "estimated_laps": 0.12039916342543514,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 3.0720604298758296,
+  "max_yaw_error_deg": 5.976086847779952,
+  "final_longitudinal_error_cm": 0.24592080568905503,
+  "final_lateral_error_cm": 3.0622015351929583,
+  "wall_seconds": 20.45073429995682,
+  "final": {
+    "points": 126,
+    "inliers": 0.0,
+    "median": 6.596563181206818,
+    "true_inliers": 1.0,
+    "true_median": 0.04282513348888934
+  },
+  "config": {
+    "prior_lateral": true
+  },
+  "feedback_updates": "output only; prediction gain fixed",
+  "stop_grid": {
+    "passing": 321,
+    "total": 5577,
+    "best_offset": [
+      -3.0,
+      -0.5,
+      -6.0
+    ],
+    "best_scores": [
+      0.004453134498809776,
+      0.038255742484992084,
+      1.0
+    ],
+    "best_pass": true
+  }
+}

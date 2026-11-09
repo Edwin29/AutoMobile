@@ -1,0 +1,709 @@
+[
+  {
+    "name": "ccw_clean_20",
+    "direction": "ccw",
+    "scenario": "clean",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.73333333333332,
+    "simulated_laps": 1.0003933886645846,
+    "estimated_laps": 1.0004579534861215,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 0.28888315383841146,
+    "max_yaw_error_deg": 0.3387449823514493,
+    "final_longitudinal_error_cm": 0.05461097013369871,
+    "final_lateral_error_cm": 0.15001099611365104,
+    "wall_seconds": 112.36372369993478,
+    "final": {
+      "points": 135,
+      "inliers": 1.0,
+      "median": 0.094278137217709,
+      "true_inliers": 1.0,
+      "true_median": 0.08306571881854519
+    },
+    "config": {},
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "ccw_combined_20",
+    "direction": "ccw",
+    "scenario": "combined",
+    "onset": 20.0,
+    "reason": "unmatched road edges",
+    "end_s": 105.0,
+    "simulated_laps": 0.6871139895617532,
+    "estimated_laps": 0.695503535150652,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 2.196441363317776,
+    "max_yaw_error_deg": 3.58024496151463,
+    "final_longitudinal_error_cm": -0.05857033606099946,
+    "final_lateral_error_cm": 0.1593889923291116,
+    "wall_seconds": 81.41649580001831,
+    "final": {
+      "points": 125,
+      "inliers": 0.544,
+      "median": 1.1476008653309577,
+      "true_inliers": 0.544,
+      "true_median": 1.2889213568699915
+    },
+    "config": {
+      "motor": true,
+      "exposure": 0.066513,
+      "glare": true,
+      "seam": true,
+      "object": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 343,
+      "total": 5577,
+      "best_offset": [
+        1.0,
+        0.5,
+        -2.0
+      ],
+      "best_scores": [
+        10.406575626666298,
+        1.2978251111775307,
+        0.552
+      ],
+      "best_pass": true
+    }
+  },
+  {
+    "name": "ccw_exposure_66ms_20",
+    "direction": "ccw",
+    "scenario": "exposure_66ms",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.73333333333332,
+    "simulated_laps": 1.000440040681435,
+    "estimated_laps": 1.0004579534861209,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 0.2929349714182985,
+    "max_yaw_error_deg": 0.340990585701384,
+    "final_longitudinal_error_cm": 0.05195466423113619,
+    "final_lateral_error_cm": 0.1459749430638626,
+    "wall_seconds": 123.42124729999341,
+    "final": {
+      "points": 133,
+      "inliers": 1.0,
+      "median": 0.08944075367418285,
+      "true_inliers": 1.0,
+      "true_median": 0.13623402210130564
+    },
+    "config": {
+      "exposure": 0.066513
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "ccw_forward_persistent_2",
+    "direction": "ccw",
+    "scenario": "forward_persistent",
+    "onset": 2.0,
+    "reason": "unmatched road edges",
+    "end_s": 22.2,
+    "simulated_laps": 0.1510791291573622,
+    "estimated_laps": 0.14512865167641467,
+    "min_true_margin_cm": 1.6249047776302064,
+    "max_position_error_cm": 12.477768549308816,
+    "max_yaw_error_deg": 6.169454239968934,
+    "final_longitudinal_error_cm": -12.47525474928673,
+    "final_lateral_error_cm": 0.25045340987725073,
+    "wall_seconds": 27.467219199985266,
+    "final": {
+      "points": 98,
+      "inliers": 0.5102040816326531,
+      "median": 2.3658680606680065,
+      "true_inliers": 1.0,
+      "true_median": 0.07914380695018625
+    },
+    "config": {
+      "persistent_speed": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 875,
+      "total": 5577,
+      "best_offset": [
+        3.0,
+        -3.5,
+        -4.0
+      ],
+      "best_scores": [
+        2.4882658122378687,
+        0.8442349534580984,
+        0.9081632653061225
+      ],
+      "best_pass": true
+    }
+  },
+  {
+    "name": "ccw_glare_20",
+    "direction": "ccw",
+    "scenario": "glare",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.73333333333332,
+    "simulated_laps": 1.0003379353993946,
+    "estimated_laps": 1.0003053023240769,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 0.28725016881637716,
+    "max_yaw_error_deg": 0.3771536402536433,
+    "final_longitudinal_error_cm": 0.04924979459260097,
+    "final_lateral_error_cm": 0.15613315885518472,
+    "wall_seconds": 137.86793099995703,
+    "final": {
+      "points": 136,
+      "inliers": 1.0,
+      "median": 0.09152705807883166,
+      "true_inliers": 1.0,
+      "true_median": 0.11952977417232669
+    },
+    "config": {
+      "glare": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "ccw_object_20",
+    "direction": "ccw",
+    "scenario": "object",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.73333333333332,
+    "simulated_laps": 1.000412011902794,
+    "estimated_laps": 1.000457953486121,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 0.2889616824399091,
+    "max_yaw_error_deg": 0.35827297648864637,
+    "final_longitudinal_error_cm": 0.05117240754017053,
+    "final_lateral_error_cm": 0.14569033895466535,
+    "wall_seconds": 106.78281689994037,
+    "final": {
+      "points": 133,
+      "inliers": 1.0,
+      "median": 0.08763201042408753,
+      "true_inliers": 1.0,
+      "true_median": 0.13616731719562836
+    },
+    "config": {
+      "object": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "ccw_prior_error_20",
+    "direction": "ccw",
+    "scenario": "prior_error",
+    "onset": 20.0,
+    "reason": "route discontinuity",
+    "end_s": 20.0,
+    "simulated_laps": 0.11079704213122173,
+    "estimated_laps": 0.12039916342543514,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 6.561700866862631,
+    "max_yaw_error_deg": 4.425895079906455,
+    "final_longitudinal_error_cm": 6.219633714875975,
+    "final_lateral_error_cm": 2.0909506734889454,
+    "wall_seconds": 13.186068099923432,
+    "final": {
+      "points": 126,
+      "inliers": 1.0,
+      "median": 0.5382506176805287,
+      "true_inliers": 1.0,
+      "true_median": 0.04282513348888934
+    },
+    "config": {
+      "prior_offset": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 2477,
+      "total": 5577,
+      "best_offset": [
+        -2.5,
+        -5.5,
+        5.0
+      ],
+      "best_scores": [
+        0.004730095287335808,
+        0.051314142931829565,
+        1.0
+      ],
+      "best_pass": true
+    }
+  },
+  {
+    "name": "ccw_prior_lateral_20",
+    "direction": "ccw",
+    "scenario": "prior_lateral",
+    "onset": 20.0,
+    "reason": "unmatched road edges",
+    "end_s": 20.0,
+    "simulated_laps": 0.11079704213122173,
+    "estimated_laps": 0.12039916342543514,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 3.0720604298758296,
+    "max_yaw_error_deg": 5.976086847779952,
+    "final_longitudinal_error_cm": 0.24592080568905503,
+    "final_lateral_error_cm": 3.0622015351929583,
+    "wall_seconds": 20.45073429995682,
+    "final": {
+      "points": 126,
+      "inliers": 0.0,
+      "median": 6.596563181206818,
+      "true_inliers": 1.0,
+      "true_median": 0.04282513348888934
+    },
+    "config": {
+      "prior_lateral": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 321,
+      "total": 5577,
+      "best_offset": [
+        -3.0,
+        -0.5,
+        -6.0
+      ],
+      "best_scores": [
+        0.004453134498809776,
+        0.038255742484992084,
+        1.0
+      ],
+      "best_pass": true
+    }
+  },
+  {
+    "name": "ccw_response_only_20",
+    "direction": "ccw",
+    "scenario": "response_only",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 149.8,
+    "simulated_laps": 1.0001343029763747,
+    "estimated_laps": 1.000152651162034,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 1.1329068043201016,
+    "max_yaw_error_deg": 1.6068762234858778,
+    "final_longitudinal_error_cm": 0.05152116879238971,
+    "final_lateral_error_cm": 0.15049041771543414,
+    "wall_seconds": 124.75584399991203,
+    "final": {
+      "points": 131,
+      "inliers": 1.0,
+      "median": 0.08918431072372357,
+      "true_inliers": 1.0,
+      "true_median": 0.13661303955508686
+    },
+    "config": {
+      "motor": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "ccw_seam_20",
+    "direction": "ccw",
+    "scenario": "seam",
+    "onset": 20.0,
+    "reason": "unmatched road edges",
+    "end_s": 105.8,
+    "simulated_laps": 0.6874233887785326,
+    "estimated_laps": 0.6958088374747383,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 0.29181108789416216,
+    "max_yaw_error_deg": 0.4936577439920711,
+    "final_longitudinal_error_cm": -0.043119047025711066,
+    "final_lateral_error_cm": 0.17376686290128388,
+    "wall_seconds": 124.83234970003832,
+    "final": {
+      "points": 137,
+      "inliers": 0.5328467153284672,
+      "median": 1.296282797638895,
+      "true_inliers": 0.5328467153284672,
+      "true_median": 1.2677695556884316
+    },
+    "config": {
+      "seam": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 132,
+      "total": 5577,
+      "best_offset": [
+        -3.0,
+        -1.5,
+        5.0
+      ],
+      "best_scores": [
+        10.462697856618238,
+        1.4285296948056896,
+        0.5474452554744526
+      ],
+      "best_pass": false
+    }
+  },
+  {
+    "name": "ccw_shadow_20",
+    "direction": "ccw",
+    "scenario": "shadow",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.73333333333332,
+    "simulated_laps": 1.0002856300114498,
+    "estimated_laps": 1.000305302324078,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 0.7064453906654647,
+    "max_yaw_error_deg": 0.6179336158040871,
+    "final_longitudinal_error_cm": 0.045881455128707,
+    "final_lateral_error_cm": 0.15089958576735166,
+    "wall_seconds": 157.57459500001278,
+    "final": {
+      "points": 134,
+      "inliers": 1.0,
+      "median": 0.09407407878999408,
+      "true_inliers": 1.0,
+      "true_median": 0.13828015280142836
+    },
+    "config": {
+      "shadow": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "ccw_stall_combined_20",
+    "direction": "ccw",
+    "scenario": "stall_combined",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 151.4,
+    "simulated_laps": 1.0002590669261953,
+    "estimated_laps": 1.0003053023240787,
+    "min_true_margin_cm": 2.364423571921634,
+    "max_position_error_cm": 2.933153051729862,
+    "max_yaw_error_deg": 4.22515738770439,
+    "final_longitudinal_error_cm": 0.05352299387388247,
+    "final_lateral_error_cm": 0.16204548045491135,
+    "wall_seconds": 196.32852019998245,
+    "final": {
+      "points": 134,
+      "inliers": 1.0,
+      "median": 0.08881770061063499,
+      "true_inliers": 1.0,
+      "true_median": 0.1401832327550494
+    },
+    "config": {
+      "stall": true,
+      "exposure": 0.066513,
+      "glare": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_clean_20",
+    "direction": "cw",
+    "scenario": "clean",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.66666666666666,
+    "simulated_laps": 1.0003455906117658,
+    "estimated_laps": 1.0003053023240958,
+    "min_true_margin_cm": 2.337256023741304,
+    "max_position_error_cm": 0.18117662138762683,
+    "max_yaw_error_deg": 0.2798968610105698,
+    "final_longitudinal_error_cm": 0.00713971585246996,
+    "final_lateral_error_cm": -0.10332681884449495,
+    "wall_seconds": 119.60470570006873,
+    "final": {
+      "points": 116,
+      "inliers": 1.0,
+      "median": 0.07629471166316082,
+      "true_inliers": 1.0,
+      "true_median": 0.05073511006319099
+    },
+    "config": {},
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_combined_20",
+    "direction": "cw",
+    "scenario": "combined",
+    "onset": 20.0,
+    "reason": "unmatched road edges",
+    "end_s": 22.866666666666667,
+    "simulated_laps": 0.16305226619353724,
+    "estimated_laps": 0.15617255787524117,
+    "min_true_margin_cm": 3.4760143055468347,
+    "max_position_error_cm": 1.2968399880396757,
+    "max_yaw_error_deg": 1.1434567080437164,
+    "final_longitudinal_error_cm": -1.1145152112102008,
+    "final_lateral_error_cm": -0.45393087072610633,
+    "wall_seconds": 27.407224699971266,
+    "final": {
+      "points": 0,
+      "inliers": null,
+      "median": null,
+      "true_inliers": null,
+      "true_median": null
+    },
+    "config": {
+      "motor": true,
+      "exposure": 0.066513,
+      "glare": true,
+      "seam": true,
+      "object": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_exposure_66ms_20",
+    "direction": "cw",
+    "scenario": "exposure_66ms",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.66666666666666,
+    "simulated_laps": 1.0003163687872987,
+    "estimated_laps": 1.0003053023240962,
+    "min_true_margin_cm": 2.334307318207749,
+    "max_position_error_cm": 0.17705792112865829,
+    "max_yaw_error_deg": 0.38763117516703666,
+    "final_longitudinal_error_cm": 0.001645321637163692,
+    "final_lateral_error_cm": -0.10571027688482823,
+    "wall_seconds": 127.67042799992487,
+    "final": {
+      "points": 116,
+      "inliers": 1.0,
+      "median": 0.08944955296020396,
+      "true_inliers": 1.0,
+      "true_median": 0.07018593977591792
+    },
+    "config": {
+      "exposure": 0.066513
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_forward_persistent_2",
+    "direction": "cw",
+    "scenario": "forward_persistent",
+    "onset": 2.0,
+    "reason": "footprint limit",
+    "end_s": 12.066666666666666,
+    "simulated_laps": 0.11556670028306543,
+    "estimated_laps": 0.08930092979520793,
+    "min_true_margin_cm": 3.6223359968639244,
+    "max_position_error_cm": 10.618220512424639,
+    "max_yaw_error_deg": 11.03707241019489,
+    "final_longitudinal_error_cm": -9.431683889980855,
+    "final_lateral_error_cm": 2.8579108085917317,
+    "wall_seconds": 12.715572100016288,
+    "final": {
+      "points": 94,
+      "inliers": 0.9893617021276596,
+      "median": 0.9779356056084323,
+      "true_inliers": 1.0,
+      "true_median": 0.06870778693331935
+    },
+    "config": {
+      "persistent_speed": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 2249,
+      "total": 5577,
+      "best_offset": [
+        0.5,
+        8.0,
+        6.0
+      ],
+      "best_scores": [
+        0.014532755782842181,
+        0.08248893950226593,
+        1.0
+      ],
+      "best_pass": true
+    }
+  },
+  {
+    "name": "cw_glare_20",
+    "direction": "cw",
+    "scenario": "glare",
+    "onset": 20.0,
+    "reason": "unmatched road edges",
+    "end_s": 23.133333333333333,
+    "simulated_laps": 0.16199632412781087,
+    "estimated_laps": 0.15662744160474706,
+    "min_true_margin_cm": 4.059093854795464,
+    "max_position_error_cm": 0.1284790578798627,
+    "max_yaw_error_deg": 0.22187659743004773,
+    "final_longitudinal_error_cm": -0.011912926012163583,
+    "final_lateral_error_cm": 0.04368173400029927,
+    "wall_seconds": 20.810119300032966,
+    "final": {
+      "points": 0,
+      "inliers": null,
+      "median": null,
+      "true_inliers": null,
+      "true_median": null
+    },
+    "config": {
+      "glare": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_object_20",
+    "direction": "cw",
+    "scenario": "object",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.66666666666666,
+    "simulated_laps": 1.000321434354943,
+    "estimated_laps": 1.0003053023240953,
+    "min_true_margin_cm": 2.3347592139428457,
+    "max_position_error_cm": 0.18517948260221082,
+    "max_yaw_error_deg": 0.29099335336119253,
+    "final_longitudinal_error_cm": 0.010611431432256025,
+    "final_lateral_error_cm": -0.11810145279426318,
+    "wall_seconds": 182.2270311000757,
+    "final": {
+      "points": 118,
+      "inliers": 1.0,
+      "median": 0.08483018785854235,
+      "true_inliers": 1.0,
+      "true_median": 0.0797030546434153
+    },
+    "config": {
+      "object": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_response_only_20",
+    "direction": "cw",
+    "scenario": "response_only",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 149.93333333333334,
+    "simulated_laps": 0.9999801489745951,
+    "estimated_laps": 1.000000000000007,
+    "min_true_margin_cm": 2.3326938916657127,
+    "max_position_error_cm": 1.5058942903780765,
+    "max_yaw_error_deg": 0.7639546387769686,
+    "final_longitudinal_error_cm": 0.008937994230690431,
+    "final_lateral_error_cm": -0.10458316050878351,
+    "wall_seconds": 122.0535142000299,
+    "final": {
+      "points": 116,
+      "inliers": 1.0,
+      "median": 0.09050437029993219,
+      "true_inliers": 1.0,
+      "true_median": 0.07415190504670477
+    },
+    "config": {
+      "motor": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_seam_20",
+    "direction": "cw",
+    "scenario": "seam",
+    "onset": 20.0,
+    "reason": "unmatched road edges",
+    "end_s": 42.53333333333333,
+    "simulated_laps": 0.2859666672711168,
+    "estimated_laps": 0.2793090231122883,
+    "min_true_margin_cm": 3.3314545325149254,
+    "max_position_error_cm": 1.3667134526319888,
+    "max_yaw_error_deg": 3.5774673576191973,
+    "final_longitudinal_error_cm": -1.1491462229028482,
+    "final_lateral_error_cm": -0.718787189664736,
+    "wall_seconds": 45.10001589998137,
+    "final": {
+      "points": 131,
+      "inliers": 0.5114503816793893,
+      "median": 2.3712240452401687,
+      "true_inliers": 0.45038167938931295,
+      "true_median": 2.739563959467162
+    },
+    "config": {
+      "seam": true
+    },
+    "feedback_updates": "output only; prediction gain fixed",
+    "stop_grid": {
+      "passing": 848,
+      "total": 5577,
+      "best_offset": [
+        1.5,
+        1.0,
+        -6.0
+      ],
+      "best_scores": [
+        4.276274911392724,
+        1.756143743254313,
+        0.7251908396946565
+      ],
+      "best_pass": true
+    }
+  },
+  {
+    "name": "cw_shadow_20",
+    "direction": "cw",
+    "scenario": "shadow",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 150.86666666666667,
+    "simulated_laps": 1.0003306055431327,
+    "estimated_laps": 1.0003053023240926,
+    "min_true_margin_cm": 2.3308580697652417,
+    "max_position_error_cm": 1.358304840822344,
+    "max_yaw_error_deg": 0.7874363994358533,
+    "final_longitudinal_error_cm": 0.011253222731327757,
+    "final_lateral_error_cm": -0.10418675114853064,
+    "wall_seconds": 134.97185870003887,
+    "final": {
+      "points": 117,
+      "inliers": 1.0,
+      "median": 0.09084134665857846,
+      "true_inliers": 1.0,
+      "true_median": 0.07093606942733288
+    },
+    "config": {
+      "shadow": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  },
+  {
+    "name": "cw_stall_combined_20",
+    "direction": "cw",
+    "scenario": "stall_combined",
+    "onset": 20.0,
+    "reason": "lap complete",
+    "end_s": 151.8,
+    "simulated_laps": 1.0002527544733255,
+    "estimated_laps": 1.0003053023240944,
+    "min_true_margin_cm": 2.339187172946737,
+    "max_position_error_cm": 4.446124130330161,
+    "max_yaw_error_deg": 5.780900192662716,
+    "final_longitudinal_error_cm": 0.004377960652534628,
+    "final_lateral_error_cm": -0.11213027463866189,
+    "wall_seconds": 194.1598846000852,
+    "final": {
+      "points": 123,
+      "inliers": 1.0,
+      "median": 0.09078456578155265,
+      "true_inliers": 1.0,
+      "true_median": 0.08464433686299636
+    },
+    "config": {
+      "stall": true,
+      "exposure": 0.066513,
+      "glare": true
+    },
+    "feedback_updates": "output only; prediction gain fixed"
+  }
+]

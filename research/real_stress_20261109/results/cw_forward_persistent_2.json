@@ -1,0 +1,42 @@
+{
+  "name": "cw_forward_persistent_2",
+  "direction": "cw",
+  "scenario": "forward_persistent",
+  "onset": 2.0,
+  "reason": "footprint limit",
+  "end_s": 12.066666666666666,
+  "simulated_laps": 0.11556670028306543,
+  "estimated_laps": 0.08930092979520793,
+  "min_true_margin_cm": 3.6223359968639244,
+  "max_position_error_cm": 10.618220512424639,
+  "max_yaw_error_deg": 11.03707241019489,
+  "final_longitudinal_error_cm": -9.431683889980855,
+  "final_lateral_error_cm": 2.8579108085917317,
+  "wall_seconds": 12.715572100016288,
+  "final": {
+    "points": 94,
+    "inliers": 0.9893617021276596,
+    "median": 0.9779356056084323,
+    "true_inliers": 1.0,
+    "true_median": 0.06870778693331935
+  },
+  "config": {
+    "persistent_speed": true
+  },
+  "feedback_updates": "output only; prediction gain fixed",
+  "stop_grid": {
+    "passing": 2249,
+    "total": 5577,
+    "best_offset": [
+      0.5,
+      8.0,
+      6.0
+    ],
+    "best_scores": [
+      0.014532755782842181,
+      0.08248893950226593,
+      1.0
+    ],
+    "best_pass": true
+  }
+}

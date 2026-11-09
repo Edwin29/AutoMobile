@@ -1,0 +1,27 @@
+{
+  "name": "ccw_exposure_66ms_20",
+  "direction": "ccw",
+  "scenario": "exposure_66ms",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.73333333333332,
+  "simulated_laps": 1.000440040681435,
+  "estimated_laps": 1.0004579534861209,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 0.2929349714182985,
+  "max_yaw_error_deg": 0.340990585701384,
+  "final_longitudinal_error_cm": 0.05195466423113619,
+  "final_lateral_error_cm": 0.1459749430638626,
+  "wall_seconds": 123.42124729999341,
+  "final": {
+    "points": 133,
+    "inliers": 1.0,
+    "median": 0.08944075367418285,
+    "true_inliers": 1.0,
+    "true_median": 0.13623402210130564
+  },
+  "config": {
+    "exposure": 0.066513
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

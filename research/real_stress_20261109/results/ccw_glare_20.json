@@ -1,0 +1,27 @@
+{
+  "name": "ccw_glare_20",
+  "direction": "ccw",
+  "scenario": "glare",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.73333333333332,
+  "simulated_laps": 1.0003379353993946,
+  "estimated_laps": 1.0003053023240769,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 0.28725016881637716,
+  "max_yaw_error_deg": 0.3771536402536433,
+  "final_longitudinal_error_cm": 0.04924979459260097,
+  "final_lateral_error_cm": 0.15613315885518472,
+  "wall_seconds": 137.86793099995703,
+  "final": {
+    "points": 136,
+    "inliers": 1.0,
+    "median": 0.09152705807883166,
+    "true_inliers": 1.0,
+    "true_median": 0.11952977417232669
+  },
+  "config": {
+    "glare": true
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

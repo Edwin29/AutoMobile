@@ -1,0 +1,25 @@
+{
+  "name": "cw_clean_20",
+  "direction": "cw",
+  "scenario": "clean",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.66666666666666,
+  "simulated_laps": 1.0003455906117658,
+  "estimated_laps": 1.0003053023240958,
+  "min_true_margin_cm": 2.337256023741304,
+  "max_position_error_cm": 0.18117662138762683,
+  "max_yaw_error_deg": 0.2798968610105698,
+  "final_longitudinal_error_cm": 0.00713971585246996,
+  "final_lateral_error_cm": -0.10332681884449495,
+  "wall_seconds": 119.60470570006873,
+  "final": {
+    "points": 116,
+    "inliers": 1.0,
+    "median": 0.07629471166316082,
+    "true_inliers": 1.0,
+    "true_median": 0.05073511006319099
+  },
+  "config": {},
+  "feedback_updates": "output only; prediction gain fixed"
+}

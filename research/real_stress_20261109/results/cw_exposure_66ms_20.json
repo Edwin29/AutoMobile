@@ -1,0 +1,27 @@
+{
+  "name": "cw_exposure_66ms_20",
+  "direction": "cw",
+  "scenario": "exposure_66ms",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.66666666666666,
+  "simulated_laps": 1.0003163687872987,
+  "estimated_laps": 1.0003053023240962,
+  "min_true_margin_cm": 2.334307318207749,
+  "max_position_error_cm": 0.17705792112865829,
+  "max_yaw_error_deg": 0.38763117516703666,
+  "final_longitudinal_error_cm": 0.001645321637163692,
+  "final_lateral_error_cm": -0.10571027688482823,
+  "wall_seconds": 127.67042799992487,
+  "final": {
+    "points": 116,
+    "inliers": 1.0,
+    "median": 0.08944955296020396,
+    "true_inliers": 1.0,
+    "true_median": 0.07018593977591792
+  },
+  "config": {
+    "exposure": 0.066513
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

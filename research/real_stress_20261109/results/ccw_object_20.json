@@ -1,0 +1,27 @@
+{
+  "name": "ccw_object_20",
+  "direction": "ccw",
+  "scenario": "object",
+  "onset": 20.0,
+  "reason": "lap complete",
+  "end_s": 150.73333333333332,
+  "simulated_laps": 1.000412011902794,
+  "estimated_laps": 1.000457953486121,
+  "min_true_margin_cm": 2.364423571921634,
+  "max_position_error_cm": 0.2889616824399091,
+  "max_yaw_error_deg": 0.35827297648864637,
+  "final_longitudinal_error_cm": 0.05117240754017053,
+  "final_lateral_error_cm": 0.14569033895466535,
+  "wall_seconds": 106.78281689994037,
+  "final": {
+    "points": 133,
+    "inliers": 1.0,
+    "median": 0.08763201042408753,
+    "true_inliers": 1.0,
+    "true_median": 0.13616731719562836
+  },
+  "config": {
+    "object": true
+  },
+  "feedback_updates": "output only; prediction gain fixed"
+}

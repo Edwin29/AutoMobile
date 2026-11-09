@@ -1,0 +1,98 @@
+[
+  {
+    "run": "ccw_edges_20261106_173559_edges",
+    "frames": 24,
+    "any_candidate_pass": 24,
+    "small_candidate_pass": 24,
+    "lowest_loss_pass": 24,
+    "best_longitudinal_range": [
+      -8.0,
+      2.5
+    ],
+    "last": {
+      "frame": 23,
+      "prior_inliers": 0.5486725663716814,
+      "prior_median": 0.5958688521662907,
+      "pass_count": 605,
+      "small_pass_count": 1,
+      "best_lat": 3.0,
+      "best_lon": -8.0,
+      "best_yaw": -5.0,
+      "best_loss": 4.345860898304958,
+      "best_inliers": 0.7876106194690266,
+      "best_pass": true
+    }
+  },
+  {
+    "run": "ccw_edges_20261106_173933_edges",
+    "frames": 24,
+    "any_candidate_pass": 24,
+    "small_candidate_pass": 23,
+    "lowest_loss_pass": 15,
+    "best_longitudinal_range": [
+      -8.0,
+      -2.0
+    ],
+    "last": {
+      "frame": 23,
+      "prior_inliers": 0.5486725663716814,
+      "prior_median": 0.8413160804766311,
+      "pass_count": 4,
+      "small_pass_count": 0,
+      "best_lat": 3.0,
+      "best_lon": -8.0,
+      "best_yaw": -1.0,
+      "best_loss": 9.124360504681547,
+      "best_inliers": 0.6017699115044248,
+      "best_pass": false
+    }
+  },
+  {
+    "run": "ccw_forward127_20261106_184214_edges",
+    "frames": 24,
+    "any_candidate_pass": 24,
+    "small_candidate_pass": 24,
+    "lowest_loss_pass": 24,
+    "best_longitudinal_range": [
+      0.0,
+      6.5
+    ],
+    "last": {
+      "frame": 23,
+      "prior_inliers": 0.5454545454545454,
+      "prior_median": 0.2678586694258769,
+      "pass_count": 1045,
+      "small_pass_count": 5,
+      "best_lat": 2.5,
+      "best_lon": 6.5,
+      "best_yaw": -5.0,
+      "best_loss": 0.13588442677972792,
+      "best_inliers": 1.0,
+      "best_pass": true
+    }
+  },
+  {
+    "run": "ccw_v135_20261106_174607_edges",
+    "frames": 24,
+    "any_candidate_pass": 24,
+    "small_candidate_pass": 23,
+    "lowest_loss_pass": 24,
+    "best_longitudinal_range": [
+      1.0,
+      7.0
+    ],
+    "last": {
+      "frame": 23,
+      "prior_inliers": 0.5161290322580645,
+      "prior_median": 0.36721987393485733,
+      "pass_count": 918,
+      "small_pass_count": 0,
+      "best_lat": 2.5,
+      "best_lon": 7.0,
+      "best_yaw": -5.0,
+      "best_loss": 0.15837977265103034,
+      "best_inliers": 1.0,
+      "best_pass": true
+    }
+  }
+]
