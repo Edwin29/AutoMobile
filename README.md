@@ -20,6 +20,7 @@
 | [프로젝트 맥락](docs/PROJECT_CONTEXT.md) | 하드웨어·규칙·실측·다른 에이전트에 전달할 정정 설명 |
 | [연구 과정](docs/RESEARCH_HISTORY.md) | 전원 진단부터 C안·가상맵·동적 보정·교차로·실차·CNN·재정의까지 |
 | [증거와 한계](docs/EVIDENCE_AND_LIMITS.md) | 실차/재생/합성 구분, 정합 판정과 독립 정확도의 차이 |
+| [예측 오류를 전제로 한 재설계 검토](docs/REDESIGN_REVIEW_20261109.md) | Claude 제안 검토, 국소 주행·구간 후보·미션·실행 판단 분리. 설계 단계 |
 | [자료 목록](docs/DATA_CATALOG.md) | Drive, 입력 해시와 원본 영상의 접근 범위 |
 | [재현 방법](docs/REPRODUCE.md) | 실행 환경, 스모크 검사, 시뮬레이션과 필요한 외부 자료 |
 | [소스 목록](docs/source_manifest.json) | 원본·게시본 SHA-256과 경로 일반화 여부 |
