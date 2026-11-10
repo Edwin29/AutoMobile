@@ -90,6 +90,20 @@ def specs():
                 for ctrl in ("cnnA5b", "cnnC5b", "v4"):
                     s.append(dict(group="H_realcam_factor", controller=ctrl, vehicle=v, effects=[f"realcam_{f}"],
                                   direction=d, timing="own", seed=41))
+    # I: CNN-first hybrid (hyb2) vs CNN alone vs v4. Conditions of cnn_map_hybrid_lab's
+    # outer test, then the field-log camera. Same seeds for every driver.
+    I_COND = [("field_estimate", [], "fixed"), ("unequal_sides", [], "fixed"), ("weak_left_turn", [], "fixed"),
+              ("high_start_duty", [], "fixed"), ("field_estimate", ["glare"], "fixed"),
+              ("field_estimate", ["occlusion"], "fixed"), ("field_estimate", ["dropout"], "fixed"),
+              ("field_estimate", ["whiteout_midturn"], "fixed"),
+              ("field_estimate", ["blur_warm", "glare", "low_power", "occlusion"], "mild")]
+    I_COND += [(v, [fx], "fixed") for v in ("field_estimate", "weak_left_turn", "sluggish", "random:500")
+               for fx in ("realcam", "realcam_harsh")]
+    for v, fx, var in I_COND:
+        for d in ("ccw", "cw"):
+            for ctrl in ("hyb2", "cnnA5b", "v4"):
+                s.append(dict(group="I_hybrid", controller=ctrl, vehicle=v, effects=fx, direction=d,
+                              timing="own", seed=41, variation=var))
     for x in s:
         x.setdefault("variation", "fixed")
         x["slug"] = f"{x['group']}__{x['controller']}_{x['timing']}__{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['direction']}"

@@ -138,3 +138,113 @@ def _cnn(name):
 
 CONTROLLERS = {"v4": V4, "v3r": V3R, "cnnC5b": _cnn("lane-real-C5b"), "cnnA5b": _cnn("lane-v5b"),
                "cnnB": _cnn("lane-real-B"), "cnnC": _cnn("lane-real-C"), "cnnA": _cnn("lane-v4b")}
+
+
+class HybridCNN:
+    """CNN drives; the v4 map only steps in when needed (2026-11-11, improvement of the
+    cnn_map_hybrid_lab prototype).
+
+    Findings that shaped it (that prototype's logs): its map weight w*corner was > 0 on
+    almost every frame (median 0.33, > 0.5 on 40 %), so the v4 allocator and the map's
+    corner timing replaced the CNN even where the CNN alone was best (outer lap 18/18
+    clean vs 15/18), and the full v4 pipeline ran on every frame (~30 ms of 32 ms).
+
+      * every frame: the CNN command, unchanged (its own duty mixer and speed)
+      * the v4 map runs on every MAP_EVERY-th frame as a separate worker (on the Pi:
+        another core); its result is used only MAP_LATENCY_S after that frame was taken.
+        In between, its pose is predicted from the commands actually sent.
+      * the map changes the command only
+          - when the image is unusable (flat: white-out / black-out): drive the map's
+            curvature for at most MAP_ONLY_S, then hold briefly, then stop
+          - through the v4 departure guard: a small curvature push added to the CNN
+            command as a wheel difference, keeping the CNN's mean duty
+    """
+    raw_camera = True
+    MAP_EVERY = 3            # 30 fps camera -> map at 10 Hz
+    MAP_LATENCY_S = 0.070    # v4 sensor->result median on the Pi (live 2026-11-10)
+    FLAT_STD = 8.0           # grey-level std of the floor half below this = no picture
+    MAP_ONLY_S = 1.5         # same as v4's coast_turn_s
+    HOLD_S = 0.3
+
+    def __init__(self, direction, start_hint, timing):
+        sys.path.insert(0, str(VENDOR_V4))
+        from drive_v4.core import Driver, load_config
+        self.cnn = CONTROLLERS["cnnA5b"](direction, start_hint, timing)
+        self.driver = Driver(load_config(), direction=direction, pose=np.asarray(start_hint, float), clock="bench")
+        self.cfg = self.driver.cfg
+        self.n = 0
+        self.pending = []          # (ready_s, record) of map runs not yet usable
+        self.rec = None            # latest usable map record
+        self.flat_since = None
+        self.last_cnn = np.zeros(2)
+        self.source = f"CNN A5b + v4 map on demand ({VENDOR_V4.name}), map every {self.MAP_EVERY} frames"
+
+    def _map_now(self, done):
+        while self.pending and self.pending[0][0] <= done + 1e-9:
+            self.rec = self.pending.pop(0)[1]
+        d = self.driver
+        w, _ = d.map.weight()
+        if self.rec is None or w <= 0:
+            return None, None, w
+        pose = d.map.pose_at(done)
+        adv, info = d.map.advice(pose, self.cfg["steer"])
+        if adv is None:
+            return None, None, 0.0
+        return pose, (adv, info), w
+
+    def step(self, image, capture_s, done_s):
+        import time
+        t0 = time.perf_counter()
+        d, cm = self.driver, self.cfg["motor"]
+        pwm_cnn, cinfo = self.cnn.step(image, capture_s, done_s)
+        t1 = time.perf_counter()
+        map_ms = 0.0
+        if self.n % self.MAP_EVERY == 0:                      # the map worker takes this frame
+            tm = time.perf_counter()
+            ready = capture_s + self.MAP_LATENCY_S
+            _, rec = d.step(image, capture_s, ready, rotate180=False, rectified=False)
+            self.pending.append((ready, rec))
+            map_ms = (time.perf_counter() - tm) * 1e3
+        self.n += 1
+        floor_half = image[image.shape[0] // 2:]
+        flat = float(floor_half[::4, ::4].std()) < self.FLAT_STD
+        if flat:
+            self.flat_since = capture_s if self.flat_since is None else self.flat_since
+        else:
+            self.flat_since = None
+        pose, adv, w = self._map_now(done_s)
+        mode, push = "cnn", 0.0
+        out = np.asarray(pwm_cnn, float).copy()
+        if flat:
+            since = capture_s - self.flat_since
+            if adv is not None and w >= 0.5 and since <= self.MAP_ONLY_S:
+                (k_ff, k_head, corner), info = adv
+                k = float(np.clip(k_ff + k_head, -self.cfg["steer"]["k_max"], self.cfg["steer"]["k_max"]))
+                k, g = d._departure_guard(pose, info, k)
+                out, _ = d.motor.mix(cm["cruise_duty"], k, cm["corner_pwm_max"])
+                mode = "map_only"
+            elif since <= self.HOLD_S:
+                out, mode = self.last_cnn.copy(), "hold_last"
+            else:
+                out, mode = np.zeros(2), "stop_no_picture"
+        else:
+            self.last_cnn = out.copy()
+            if adv is not None and w >= 0.5 and d.trust >= 0.8 and d.bias_time >= self.cfg["guard"]["min_bias_s"]:
+                v, om = d.motor.velocity(out)
+                if v > 1.0:
+                    _, g = d._departure_guard(pose, adv[1], om / v)
+                    push = g["push_k"]
+                    if push:
+                        mean = float(np.mean(out))
+                        a = push * cm["track_cm"] / (2 * d.motor.yaw_gain(push))
+                        out = np.clip(out + mean * a * np.array([1.0, -1.0]), 0.0, cm["pwm_max"] + 0.06)
+                        mode = "cnn+guard"
+        d.applied(done_s, out)
+        est = d.map.pose_at(done_s)
+        return out, dict(reason=mode, w_map=w, push=push, flat=flat, linear=cinfo.get("linear"),
+                         angular=cinfo.get("angular"), cnn_pwm=np.asarray(pwm_cnn).tolist(),
+                         est=[float(v) for v in est], ms=(time.perf_counter() - t0) * 1e3,
+                         ms_cnn_path=(time.perf_counter() - t0) * 1e3 - map_ms, ms_cnn=(t1 - t0) * 1e3, ms_map=map_ms)
+
+
+CONTROLLERS["hyb2"] = HybridCNN

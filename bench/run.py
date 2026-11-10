@@ -47,7 +47,7 @@ def timing_profile(name):
 
 
 OWN = {"v4": "v4_pi", "v3r": "v3r_laptop", "cnnC5b": "cnn_pi", "cnnA5b": "cnn_pi", "cnnB": "cnn_pi",
-       "cnnC": "cnn_pi", "cnnA": "cnn_pi"}
+       "cnnC": "cnn_pi", "cnnA": "cnn_pi", "hyb2": "cnn_pi"}   # hyb2: map on another core, CNN path only
 
 
 def vehicle_from_args(vehicle, overrides):
@@ -75,6 +75,8 @@ def run(controller, params, effects, direction, timing, seed, seconds, out, vide
     dist = Disturbances(combine(effects), direction, seed)
     dist.arm(renderer)
     trigger = scorer.first_corner_progress - (30.0 if "seam" in effects else 4.0)
+    if "trigger_cm" in dist.p:                 # e.g. white-out while already turning
+        trigger = scorer.first_corner_progress + dist.p["trigger_cm"]
     ctrl = CONTROLLERS[controller](direction, hint, profile)
     t, last_pwm, history = 0.0, np.zeros(2), [(0.0, truth0.copy())]
     outcome = "time_limit"

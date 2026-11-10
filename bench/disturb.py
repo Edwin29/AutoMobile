@@ -25,6 +25,9 @@ EFFECTS = {
     # exposure lag, real background; 'harsh' adds shadows, walkers, long exposure, flare, noise.
     "realcam": {"realcam": "typical"},
     "realcam_harsh": {"realcam": "harsh"},
+    # 3 s white-out once the car is inside the first corner (~35 deg turned), as in the
+    # cnn_map_hybrid_lab 'midturn' test where the CNN alone left the road
+    "whiteout_midturn": {"dropout_s": 3.0, "trigger_cm": 30.0},
     **{f"realcam_{f}": {"realcam": f"harsh_{f}"} for f in ("light", "shadow", "exposure", "blur", "optics")},
 }
 
