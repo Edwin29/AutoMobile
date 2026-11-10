@@ -1,0 +1,274 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": false,
+  "progress_cm": 658.1883639640562,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 104.92133333333656,
+  "proper_corners": 3,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 12.957333333333235,
+      "turn_deg": 94.19861890480229,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 23.813333333333496,
+      "end_s": 37.67333333333402,
+      "turn_deg": 94.927595132843,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 48.95733333333445,
+      "end_s": 67.15733333333513,
+      "turn_deg": 121.2100458942822,
+      "proper": false
+    },
+    {
+      "corner": "EN",
+      "start_s": 77.25333333333552,
+      "end_s": 92.6973333333361,
+      "turn_deg": 98.51236596199041,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      33.7912847830664
+    ],
+    [
+      "WS",
+      197.5555757111508
+    ],
+    [
+      "WN",
+      361.8327882529446
+    ],
+    [
+      "EN",
+      525.5970791810022
+    ]
+  ],
+  "min_margin_cm": -4.257993634018206,
+  "outside_s": 24.20800000000066,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": -0.28381460491518595,
+  "worst_after_first_corner_cm": -4.257993634018206,
+  "episodes": [
+    {
+      "start_s": 3.0213333333333354,
+      "start_progress_cm": 21.07854974033222,
+      "min_cm": -0.16724038980358813,
+      "end_s": 4.337333333333333,
+      "recovered": true
+    },
+    {
+      "start_s": 5.597333333333318,
+      "start_progress_cm": 34.289397098576615,
+      "min_cm": -0.28381460491518595,
+      "end_s": 7.017333333333302,
+      "recovered": true
+    },
+    {
+      "start_s": 43.865333333334256,
+      "start_progress_cm": 280.1441819820466,
+      "min_cm": -4.079590463860285,
+      "end_s": 51.85733333333456,
+      "recovered": true
+    },
+    {
+      "start_s": 56.86133333333475,
+      "start_progress_cm": 358.65502934030565,
+      "min_cm": -0.6821985033484026,
+      "end_s": 61.61333333333493,
+      "recovered": true
+    },
+    {
+      "start_s": 61.62933333333493,
+      "start_progress_cm": 374.44844836256857,
+      "min_cm": -4.257993634018206,
+      "end_s": 69.47733333333522,
+      "recovered": true
+    },
+    {
+      "start_s": 77.00133333333551,
+      "start_progress_cm": 479.21627297305577,
+      "min_cm": -0.7389952590465896,
+      "end_s": 81.44933333333567,
+      "recovered": true
+    },
+    {
+      "start_s": 88.25333333333593,
+      "start_progress_cm": 541.6883639640737,
+      "min_cm": -0.650534387362967,
+      "end_s": 91.20533333333604,
+      "recovered": true
+    },
+    {
+      "start_s": 103.1213333333365,
+      "start_progress_cm": 645.9883639640545,
+      "min_cm": -0.11653926419300831,
+      "end_s": 104.92133333333656,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "cnnA5b",
+  "controller_source": "team CNN lane-v5b (track-digital-twin models-2026-11-01), speed_scale 1.0",
+  "direction": "cw",
+  "effects": [
+    "realcam_harsh"
+  ],
+  "seed": 43,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2913,
+  "variation": {
+    "name": "harsh",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.12,
+    "wander_speed_rel": 0.1,
+    "wander_start_duty": 0.025,
+    "wander_max_duty": 0.08,
+    "wander_delay_s": 0.03,
+    "trend_speed_rel_per_min": -0.06,
+    "trend_max_duty_rel_per_min": -0.06,
+    "patches": 6,
+    "patch_speed": [
+      0.75,
+      1.0
+    ],
+    "patch_turn": [
+      0.65,
+      1.1
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.06,
+    "seed": 43
+  },
+  "floor_patches": [
+    {
+      "box": [
+        -91.38807404287084,
+        -54.603822392650244,
+        59.9684067386256,
+        96.7526583888462
+      ],
+      "speed": 0.8967857618970146,
+      "turn": 0.751117353591631
+    },
+    {
+      "box": [
+        26.086984393815808,
+        54.48654258814116,
+        68.54668045744806,
+        96.94623865177341
+      ],
+      "speed": 0.8627578467502772,
+      "turn": 1.079891560649557
+    },
+    {
+      "box": [
+        -97.23361310850139,
+        -68.79362161155613,
+        -49.63871166544166,
+        -21.198720168496408
+      ],
+      "speed": 0.7510194312464972,
+      "turn": 0.7890156954853068
+    },
+    {
+      "box": [
+        56.92936006320228,
+        87.63192520515436,
+        -108.43896857980867,
+        -77.7364034378566
+      ],
+      "speed": 0.8713721364893718,
+      "turn": 1.075307006067855
+    },
+    {
+      "box": [
+        60.521220427836695,
+        81.19651351415062,
+        -106.29951794009114,
+        -85.6242248537772
+      ],
+      "speed": 0.7796401505230868,
+      "turn": 0.9925394770895812
+    },
+    {
+      "box": [
+        -72.81819785903576,
+        -46.81781206310632,
+        71.15297849416945,
+        97.15336429009889
+      ],
+      "speed": 0.8877612726474308,
+      "turn": 0.6727788930342966
+    }
+  ],
+  "pose_error_cm": null,
+  "camera": {
+    "profile": "harsh",
+    "device": "cuda",
+    "drawn": {
+      "exposure_s": 0.107,
+      "sub_samples": 4,
+      "focus_sigma": 2.047,
+      "haze": 0.092,
+      "target_rel": 0.745,
+      "ae_tau_s": 0.579,
+      "ae_hunt": 0.25,
+      "start_gain": 0.214,
+      "awb_drift": 0.08,
+      "start_magenta": 0.6,
+      "vignette": 0.309,
+      "magenta_corner": 0.296,
+      "sheen_lights": 4,
+      "sheen_amp": 169.995,
+      "sheen_width": 0.134,
+      "sheen_dist": 25.705,
+      "creases": 8,
+      "crease_amp": 41.7,
+      "static_shadows": 10,
+      "shadow_dark": 0.386,
+      "walkers": 3,
+      "own_shadow": 0.709,
+      "read_noise": 4.46,
+      "shot_noise": 1.0,
+      "flare": 1.0,
+      "background": 1
+    }
+  },
+  "wall_s": 126.84151329984888
+}
