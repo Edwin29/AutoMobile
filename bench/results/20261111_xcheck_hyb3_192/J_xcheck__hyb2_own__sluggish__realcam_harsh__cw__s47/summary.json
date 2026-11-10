@@ -1,0 +1,168 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 654.7883639640551,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 101.33733333333643,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 13.029333333333234,
+      "turn_deg": 85.26748862184758,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 23.505333333333486,
+      "end_s": 39.365333333334085,
+      "turn_deg": 99.70103928734217,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 51.06533333333453,
+      "end_s": 64.90533333333505,
+      "turn_deg": 93.39575218056085,
+      "proper": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 75.65333333333545,
+      "end_s": 89.63733333333599,
+      "turn_deg": 92.7188252493021,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      36.691284783066884
+    ],
+    [
+      "WS",
+      200.45557571115134
+    ],
+    [
+      "WN",
+      364.73278825294517
+    ],
+    [
+      "EN",
+      528.4970791810027
+    ]
+  ],
+  "min_margin_cm": -9.267395567194257,
+  "outside_s": 15.67599999999933,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": 0.0,
+  "worst_after_first_corner_cm": -9.267395567194257,
+  "episodes": [
+    {
+      "start_s": 29.609333333333716,
+      "start_progress_cm": 199.16349905145154,
+      "min_cm": -9.267395567194257,
+      "end_s": 46.88933333333437,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "hyb2",
+  "controller_source": "CNN A5b + v4 map on demand (v4_65c68a6613a0), map every 3 frames",
+  "direction": "cw",
+  "effects": [
+    "realcam_harsh"
+  ],
+  "seed": 47,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.15,
+    "time_constant_s": 0.25,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2813,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 47
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 14.473170754413868,
+    "p95": 39.812744672901566,
+    "max": 46.368548916145976
+  },
+  "camera": {
+    "profile": "harsh",
+    "device": "cuda",
+    "drawn": {
+      "exposure_s": 0.094,
+      "sub_samples": 4,
+      "focus_sigma": 1.835,
+      "haze": 0.135,
+      "target_rel": 1.304,
+      "ae_tau_s": 0.507,
+      "ae_hunt": 0.25,
+      "start_gain": 0.247,
+      "awb_drift": 0.08,
+      "start_magenta": 0.6,
+      "vignette": 0.297,
+      "magenta_corner": 0.197,
+      "sheen_lights": 4,
+      "sheen_amp": 158.287,
+      "sheen_width": 0.23,
+      "sheen_dist": 41.119,
+      "creases": 8,
+      "crease_amp": 46.606,
+      "static_shadows": 10,
+      "shadow_dark": 0.333,
+      "walkers": 3,
+      "own_shadow": 0.643,
+      "read_noise": 4.538,
+      "shot_noise": 1.0,
+      "flare": 1.0,
+      "background": 1
+    }
+  },
+  "wall_s": 170.45071789994836
+}

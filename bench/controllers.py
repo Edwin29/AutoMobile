@@ -170,6 +170,7 @@ class HybridCNN:
         sys.path.insert(0, str(VENDOR_V4))
         from drive_v4.core import Driver, load_config
         self.cnn = CONTROLLERS["cnnA5b"](direction, start_hint, timing)
+        self.cnn.speed_scale = 1.0     # as in all hyb2 results; independent of BENCH_CNN_SPEED
         self.driver = Driver(load_config(), direction=direction, pose=np.asarray(start_hint, float), clock="bench")
         self.cfg = self.driver.cfg
         self.n = 0
@@ -235,16 +236,121 @@ class HybridCNN:
                     _, g = d._departure_guard(pose, adv[1], om / v)
                     push = g["push_k"]
                     if push:
-                        mean = float(np.mean(out))
-                        a = push * cm["track_cm"] / (2 * d.motor.yaw_gain(push))
-                        out = np.clip(out + mean * a * np.array([1.0, -1.0]), 0.0, cm["pwm_max"] + 0.06)
+                        out = self._add_curvature(out, push)
                         mode = "cnn+guard"
+            out, mode = self._xcheck(out, pwm_cnn, pose, adv, w, mode)
+        diag = self._diag(pwm_cnn, done_s)
         d.applied(done_s, out)
         est = d.map.pose_at(done_s)
         return out, dict(reason=mode, w_map=w, push=push, flat=flat, linear=cinfo.get("linear"),
                          angular=cinfo.get("angular"), cnn_pwm=np.asarray(pwm_cnn).tolist(),
                          est=[float(v) for v in est], ms=(time.perf_counter() - t0) * 1e3,
-                         ms_cnn_path=(time.perf_counter() - t0) * 1e3 - map_ms, ms_cnn=(t1 - t0) * 1e3, ms_map=map_ms)
+                         ms_cnn_path=(time.perf_counter() - t0) * 1e3 - map_ms, ms_cnn=(t1 - t0) * 1e3, ms_map=map_ms,
+                         **diag)
+
+    def _add_curvature(self, out, dk):
+        """Add curvature dk as a wheel difference, keeping the mean duty (the CNN's speed)."""
+        d, cm = self.driver, self.cfg["motor"]
+        mean = float(np.mean(out))
+        a = dk * cm["track_cm"] / (2 * d.motor.yaw_gain(dk))
+        return np.clip(out + mean * a * np.array([1.0, -1.0]), 0.0, cm["pwm_max"] + 0.06)
+
+    def _xcheck(self, out, pwm_cnn, pose, adv, w, mode):
+        return out, mode                       # hyb2: no cross-check
+
+    def _diag(self, pwm_cnn, done_s):
+        """Log only (no effect on the command): CNN curvature vs the curvature the map
+        would ask for at its own (possibly predicted) pose, whatever its weight."""
+        d = self.driver
+        v, om = d.motor.velocity(np.asarray(pwm_cnn, float))
+        w, sxy = d.map.weight()
+        out = dict(k_cnn=float(om / max(v, 1.0)), v_cnn=float(v), sxy=float(sxy), w_raw=float(w), map_status=d.map.status,
+                   obs_age=(None if d.map.last_obs_t is None or d.map.t is None else float(d.map.t - d.map.last_obs_t)))
+        if self.rec is not None:
+            adv, info = d.map.advice(d.map.pose_at(done_s), self.cfg["steer"])
+            if adv is not None:
+                out.update(k_mapf=float(adv[0] + adv[1]), k_ff=float(adv[0]), corner=float(adv[2]),
+                           arc=float(info["route_arc_cm"]), lat=float(info["lateral_cm"]))
+        return out
 
 
 CONTROLLERS["hyb2"] = HybridCNN
+
+
+class HybridXCheck(HybridCNN):
+    """hyb2 + CNN x map cross-check (plan 3, 2026-11-11).
+
+    Design data (J_xcheck seeds 41/43, hyb2 with logging, truth used ONLY offline):
+      * the map's weight w does not tell a right map from a wrong one in harsh light
+        (w median 0.90 when the map was right, 0.56 when it was > 6 cm off), but its
+        position spread sxy does: sxy < 0.5 cm -> right 100 %, 0.5-1 -> 84 %,
+        1-2 -> 43 %, > 2 -> 15 %.
+      * so the map's authority q comes from sxy, not w. It may act even when w has
+        faded (dead reckoning after the last match is often still good), and it is
+        ignored when w is high but sxy says the fit is loose.
+      * cross-check: while CNN and map curvature agree (|dk| <= DK0) the CNN drives
+        alone. When they disagree and q > 0 the command is pulled part of the way
+        toward the map (wheel difference, CNN speed kept). Lateral position stays
+        with the CNN: the map advice is along-track only (k_ff + k_head).
+    """
+    SXY_GOOD, SXY_BAD = 0.7, 1.3    # cm: q = 1 below, 0 above
+    MAX_AGE_S = 5.0                 # no match for this long -> q = 0
+    DK0 = 0.02                      # 1/cm: disagreement the CNN is allowed alone
+    BETA = 0.6                      # share of the excess disagreement corrected
+    DK_MAX = 0.06                   # 1/cm: largest correction
+    TAU_S = 0.1                     # correction low-pass
+
+    def __init__(self, direction, start_hint, timing):
+        super().__init__(direction, start_hint, timing)
+        self.corr, self.last_t, self.q = 0.0, None, 0.0
+        self.source = self.source.replace("on demand", "on demand + sxy cross-check")
+
+    def _quality(self):
+        m = self.driver.map
+        _, sxy = m.weight()
+        age = 1e9 if m.last_obs_t is None or m.t is None else m.t - m.last_obs_t
+        if age > self.MAX_AGE_S:
+            return 0.0
+        return float(np.clip((self.SXY_BAD - sxy) / (self.SXY_BAD - self.SXY_GOOD), 0.0, 1.0))
+
+    def _map_now(self, done):
+        """Same as hyb2, but the gate value returned in place of w is q (from sxy)."""
+        while self.pending and self.pending[0][0] <= done + 1e-9:
+            self.rec = self.pending.pop(0)[1]
+        d = self.driver
+        self.q = q = self._quality() if self.rec is not None else 0.0
+        if q <= 0:
+            return None, None, q
+        pose = d.map.pose_at(done)
+        adv, info = d.map.advice(pose, self.cfg["steer"])
+        if adv is None:
+            return None, None, 0.0
+        return pose, (adv, info), q
+
+    def _xcheck(self, out, pwm_cnn, pose, adv, q, mode):
+        d = self.driver
+        dt = 1 / 30 if self.last_t is None else max(1e-3, d.map.t - self.last_t if d.map.t else 1 / 30)
+        self.last_t = d.map.t
+        target = 0.0
+        if adv is not None and q > 0:
+            v, om = d.motor.velocity(np.asarray(pwm_cnn, float))
+            if v > 1.0:
+                (k_ff, k_head, _), _ = adv
+                dk = (k_ff + k_head) - om / v
+                excess = abs(dk) - self.DK0
+                if excess > 0:
+                    target = float(np.clip(q * self.BETA * excess * np.sign(dk), -self.DK_MAX, self.DK_MAX))
+        a = np.exp(-dt / self.TAU_S)
+        self.corr = a * self.corr + (1 - a) * target
+        if abs(self.corr) > 1e-4:
+            out = self._add_curvature(out, self.corr)
+            mode = mode + "+xcheck"
+        return out, mode
+
+    def _diag(self, pwm_cnn, done_s):
+        out = super()._diag(pwm_cnn, done_s)
+        out.update(q=self.q, xcorr=self.corr)
+        return out
+
+
+CONTROLLERS["hyb3"] = HybridXCheck

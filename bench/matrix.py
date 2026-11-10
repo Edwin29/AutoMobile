@@ -104,11 +104,22 @@ def specs():
             for ctrl in ("hyb2", "cnnA5b", "v4"):
                 s.append(dict(group="I_hybrid", controller=ctrl, vehicle=v, effects=fx, direction=d,
                               timing="own", seed=41, variation=var))
+    # Plan 3 (CNN x map cross-check): field-log camera only, several seeds.
+    # Seeds 41/43 = design set (looked at while writing hyb3), 47/53 = held out.
+    for seed in (41, 43, 47, 53):
+        for v in ("field_estimate", "weak_left_turn", "sluggish", "random:500"):
+            for fx in ("realcam", "realcam_harsh"):
+                for d in ("ccw", "cw"):
+                    for ctrl in ("hyb2", "hyb3", "cnnA5b"):
+                        s.append(dict(group="J_xcheck", controller=ctrl, vehicle=v, effects=[fx], direction=d,
+                                      timing="own", seed=seed))
     for x in s:
         x.setdefault("variation", "fixed")
         x["slug"] = f"{x['group']}__{x['controller']}_{x['timing']}__{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['direction']}"
         if x["variation"] != "fixed":
             x["slug"] += f"__{x['variation']}"
+        if x["group"] == "J_xcheck":
+            x["slug"] += f"__s{x['seed']}"
     return s
 
 
@@ -122,7 +133,11 @@ def run_one(spec, out):
     cmd = [sys.executable, "-m", "bench.run", "--controller", spec["controller"], "--vehicle", spec["vehicle"],
            "--effects", ",".join(spec["effects"]), "--direction", spec["direction"], "--timing", spec["timing"],
            "--seed", str(spec["seed"]), "--variation", spec["variation"], "--out", str(dst)]
-    env = dict(os.environ, OPENBLAS_NUM_THREADS="1", OMP_NUM_THREADS="1", MKL_NUM_THREADS="1", PYTHONIOENCODING="utf-8")
+    # CNN speed: every documented comparison uses 1.0 (team default 0.5 cannot start the car).
+    # Forgetting the variable once (2026-11-11) silently produced a 0.5 run set; default it here.
+    env = dict(os.environ)
+    env.setdefault("BENCH_CNN_SPEED", "1.0")
+    env = dict(env, OPENBLAS_NUM_THREADS="1", OMP_NUM_THREADS="1", MKL_NUM_THREADS="1", PYTHONIOENCODING="utf-8")
     r = subprocess.run(cmd, cwd=ROOT, env=env, capture_output=True, text=True, encoding="utf-8", errors="replace")
     return spec["slug"], (r.stdout.strip().splitlines() or [""])[-1] if r.returncode == 0 else "FAIL " + r.stderr[-600:]
 
@@ -175,14 +190,16 @@ def main():
     ap.add_argument("--share", default="0/1")
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--group", help="only run specs of this group")
-    ap.add_argument("--controller", help="only run specs of this controller (v4 / v3r)")
+    ap.add_argument("--controller", help="only run specs of these controllers (comma list)")
+    ap.add_argument("--seeds", help="only run specs with these seeds (comma list)")
     a = ap.parse_args()
     if a.report:
         print(report(a.out))
         return
     k, n = map(int, a.share.split("/"))
     todo = [s for i, s in enumerate(specs()) if i % n == k and (not a.group or s["group"] == a.group)
-            and (not a.controller or s["controller"] == a.controller)]
+            and (not a.controller or s["controller"] in a.controller.split(","))
+            and (not a.seeds or str(s["seed"]) in a.seeds.split(","))]
     # longest first: v3r at v4's latency, then other v3r runs, then v4
     todo.sort(key=lambda s: (not (s["controller"] == "v3r" and s["timing"] == "fast"), s["controller"] != "v3r"))
     Path(a.out).mkdir(parents=True, exist_ok=True)

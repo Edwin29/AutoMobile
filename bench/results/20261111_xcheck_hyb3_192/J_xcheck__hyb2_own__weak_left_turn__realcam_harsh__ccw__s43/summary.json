@@ -1,0 +1,175 @@
+{
+  "outcome": "severe_departure",
+  "verified_lap": false,
+  "progress_cm": 649.6883639640287,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 97.28933333333627,
+  "proper_corners": 3,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 12.885333333333236,
+      "end_s": 27.177333333333625,
+      "turn_deg": -98.33005854993571,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 37.60133333333402,
+      "end_s": 51.785333333334556,
+      "turn_deg": -95.92792315000523,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 62.297333333334954,
+      "end_s": 75.84933333333547,
+      "turn_deg": -89.37206196610455,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.99128478308617
+    ],
+    [
+      "WN",
+      297.7555757111674
+    ],
+    [
+      "WS",
+      462.03278825292824
+    ],
+    [
+      "ES",
+      625.7970791809935
+    ]
+  ],
+  "min_margin_cm": -12.04122086519854,
+  "outside_s": 8.100000000000502,
+  "zero_output_s": 0.17733333333333334,
+  "clean_lap": false,
+  "worst_first_corner_cm": -0.6503484993426127,
+  "worst_after_first_corner_cm": -12.04122086519854,
+  "episodes": [
+    {
+      "start_s": 21.849333333333423,
+      "start_progress_cm": 143.03174952573193,
+      "min_cm": -0.6503484993426127,
+      "end_s": 25.593333333333565,
+      "recovered": true
+    },
+    {
+      "start_s": 44.961333333334295,
+      "start_progress_cm": 300.13869718872263,
+      "min_cm": -0.6832128783751017,
+      "end_s": 47.89733333333441,
+      "recovered": true
+    },
+    {
+      "start_s": 93.86933333333614,
+      "start_progress_cm": 630.7620992316453,
+      "min_cm": -12.04122086519854,
+      "end_s": 97.28933333333627,
+      "recovered": false
+    }
+  ],
+  "unrecovered_episodes": 1,
+  "controller": "hyb2",
+  "controller_source": "CNN A5b + v4 map on demand (v4_65c68a6613a0), map every 3 frames",
+  "direction": "ccw",
+  "effects": [
+    "realcam_harsh"
+  ],
+  "seed": 43,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.5,
+    "turn_eff_right": 0.7,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2701,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 43
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 7.16536396615719,
+    "p95": 24.051780256451487,
+    "max": 32.48572802885371
+  },
+  "camera": {
+    "profile": "harsh",
+    "device": "cuda",
+    "drawn": {
+      "exposure_s": 0.107,
+      "sub_samples": 4,
+      "focus_sigma": 2.047,
+      "haze": 0.092,
+      "target_rel": 0.745,
+      "ae_tau_s": 0.579,
+      "ae_hunt": 0.25,
+      "start_gain": 0.214,
+      "awb_drift": 0.08,
+      "start_magenta": 0.6,
+      "vignette": 0.309,
+      "magenta_corner": 0.296,
+      "sheen_lights": 4,
+      "sheen_amp": 169.995,
+      "sheen_width": 0.134,
+      "sheen_dist": 25.705,
+      "creases": 8,
+      "crease_amp": 41.7,
+      "static_shadows": 10,
+      "shadow_dark": 0.386,
+      "walkers": 3,
+      "own_shadow": 0.709,
+      "read_noise": 4.46,
+      "shot_noise": 1.0,
+      "flare": 1.0,
+      "background": 1
+    }
+  },
+  "wall_s": 205.62729169987142
+}

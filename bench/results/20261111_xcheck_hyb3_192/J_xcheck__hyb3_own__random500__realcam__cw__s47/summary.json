@@ -1,0 +1,168 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 654.6883639640566,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 96.40533333333624,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 13.497333333333229,
+      "turn_deg": 83.9041595687501,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 24.333333333333517,
+      "end_s": 37.34933333333401,
+      "turn_deg": 88.82140687652259,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 47.86133333333441,
+      "end_s": 61.19733333333491,
+      "turn_deg": 90.17004740754899,
+      "proper": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 71.6213333333353,
+      "end_s": 85.01333333333581,
+      "turn_deg": 88.50165658364656,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      36.691284783066884
+    ],
+    [
+      "WS",
+      200.45557571115134
+    ],
+    [
+      "WN",
+      364.73278825294517
+    ],
+    [
+      "EN",
+      528.4970791810027
+    ]
+  ],
+  "min_margin_cm": -4.7490929518144895,
+  "outside_s": 12.040000000000065,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": -4.7490929518144895,
+  "worst_after_first_corner_cm": 0.0,
+  "episodes": [
+    {
+      "start_s": 7.089333333333301,
+      "start_progress_cm": 43.149177861694966,
+      "min_cm": -4.7490929518144895,
+      "end_s": 20.141333333333357,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "hyb3",
+  "controller_source": "CNN A5b + v4 map on demand + sxy cross-check (v4_65c68a6613a0), map every 3 frames",
+  "direction": "cw",
+  "effects": [
+    "realcam"
+  ],
+  "seed": 47,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3116285759277908,
+    "start_duty_right": 0.2928925450350796,
+    "max_duty": 0.7340159724877724,
+    "cm_s_per_duty_left": 15.575994544932191,
+    "cm_s_per_duty_right": 16.957950599519467,
+    "turn_eff_left": 0.9017486716209187,
+    "turn_eff_right": 0.6218877442264541,
+    "drift_rad_s": 0.017173247402699973,
+    "actuation_delay_s": 0.06533252350365104,
+    "time_constant_s": 0.061907552772188484,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2676,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 47
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 0.4639645624196662,
+    "p95": 0.8383557866410766,
+    "max": 1.4945004202101726
+  },
+  "camera": {
+    "profile": "typical",
+    "device": "cuda",
+    "drawn": {
+      "exposure_s": 0.058,
+      "sub_samples": 3,
+      "focus_sigma": 1.147,
+      "haze": 0.033,
+      "target_rel": 1.087,
+      "ae_tau_s": 0.19,
+      "ae_hunt": 0.0,
+      "start_gain": 0.962,
+      "awb_drift": 0.03,
+      "start_magenta": 0.0,
+      "vignette": 0.113,
+      "magenta_corner": 0.112,
+      "sheen_lights": 2,
+      "sheen_amp": 83.493,
+      "sheen_width": 0.221,
+      "sheen_dist": 40.839,
+      "creases": 4,
+      "crease_amp": 26.448,
+      "static_shadows": 0,
+      "shadow_dark": 0.577,
+      "walkers": 0,
+      "own_shadow": 0.879,
+      "read_noise": 2.269,
+      "shot_noise": 0.4,
+      "flare": 0.0,
+      "background": 1
+    }
+  },
+  "wall_s": 107.61353869992308
+}
