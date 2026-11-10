@@ -1,0 +1,118 @@
+{
+  "kind": "real_images_offline_smoke_review_not_accuracy",
+  "runs": [
+    {
+      "name": "ccw_edges_20261106_173559_edges",
+      "frames": 24,
+      "frames_with_boundary_fragments": 24,
+      "frames_with_blue_candidates": 0,
+      "median_observer_ms": 47.260649999770976,
+      "p95_observer_ms": 57.55738999987443,
+      "summary_sha256": "f5fb624337bec2d404d08ff636999870228b190ffb9885e06028cd994a0a15db",
+      "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+      "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+      "code_sha256": {
+        "__init__.py": "fa056c4388ca767b4c62272d0a1fc1184cb479ac17efe95fe34f4cee65a4a0f7",
+        "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+        "contracts.py": "6b69bf06222ef7089d973a737cdf4866a5586e55dfaee14013dd7e44ce1c56c2",
+        "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+        "observation.py": "fd47e8c6ef33493f9542f452f709f22bd2cc38d8331a6002955268da2b26092d",
+        "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+        "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+        "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff"
+      }
+    },
+    {
+      "name": "ccw_edges_20261106_173933_edges",
+      "frames": 24,
+      "frames_with_boundary_fragments": 24,
+      "frames_with_blue_candidates": 0,
+      "median_observer_ms": 52.53464999987045,
+      "p95_observer_ms": 101.4688499999465,
+      "summary_sha256": "922ec0261ca1d024ff2b1c24e8e1fac9cbec71c4d430dd7e025a982ebd405fdf",
+      "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+      "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+      "code_sha256": {
+        "__init__.py": "fa056c4388ca767b4c62272d0a1fc1184cb479ac17efe95fe34f4cee65a4a0f7",
+        "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+        "contracts.py": "6b69bf06222ef7089d973a737cdf4866a5586e55dfaee14013dd7e44ce1c56c2",
+        "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+        "observation.py": "fd47e8c6ef33493f9542f452f709f22bd2cc38d8331a6002955268da2b26092d",
+        "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+        "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+        "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff"
+      }
+    },
+    {
+      "name": "ccw_v135_20261106_174607_edges",
+      "frames": 24,
+      "frames_with_boundary_fragments": 24,
+      "frames_with_blue_candidates": 0,
+      "median_observer_ms": 45.82650000065769,
+      "p95_observer_ms": 66.19365500046115,
+      "summary_sha256": "8b4c13133d4de9440441eae072c99505aa65e01433d7a479078bb1a8a2915a91",
+      "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+      "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+      "code_sha256": {
+        "__init__.py": "fa056c4388ca767b4c62272d0a1fc1184cb479ac17efe95fe34f4cee65a4a0f7",
+        "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+        "contracts.py": "6b69bf06222ef7089d973a737cdf4866a5586e55dfaee14013dd7e44ce1c56c2",
+        "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+        "observation.py": "fd47e8c6ef33493f9542f452f709f22bd2cc38d8331a6002955268da2b26092d",
+        "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+        "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+        "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff"
+      }
+    },
+    {
+      "name": "ccw_forward127_20261106_184214_edges",
+      "frames": 24,
+      "frames_with_boundary_fragments": 24,
+      "frames_with_blue_candidates": 0,
+      "median_observer_ms": 49.31369999940216,
+      "p95_observer_ms": 74.20679499982725,
+      "summary_sha256": "41b177d2d2111887b95522280bfe33b95f0af1b630a3eef334d16cd84bc3ea2f",
+      "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+      "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+      "code_sha256": {
+        "__init__.py": "fa056c4388ca767b4c62272d0a1fc1184cb479ac17efe95fe34f4cee65a4a0f7",
+        "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+        "contracts.py": "6b69bf06222ef7089d973a737cdf4866a5586e55dfaee14013dd7e44ce1c56c2",
+        "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+        "observation.py": "fd47e8c6ef33493f9542f452f709f22bd2cc38d8331a6002955268da2b26092d",
+        "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+        "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+        "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff"
+      }
+    },
+    {
+      "name": "capture_257",
+      "frames": 257,
+      "frames_with_boundary_fragments": 256,
+      "frames_with_blue_candidates": 40,
+      "median_observer_ms": 57.47419999897829,
+      "p95_observer_ms": 97.25526000074751,
+      "summary_sha256": "9dabc8c3eac92ba5f1d95955c0653223d8f5303776540fabc3adec6f8572731e",
+      "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+      "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+      "code_sha256": {
+        "__init__.py": "fa056c4388ca767b4c62272d0a1fc1184cb479ac17efe95fe34f4cee65a4a0f7",
+        "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+        "contracts.py": "6b69bf06222ef7089d973a737cdf4866a5586e55dfaee14013dd7e44ce1c56c2",
+        "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+        "observation.py": "fd47e8c6ef33493f9542f452f709f22bd2cc38d8331a6002955268da2b26092d",
+        "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+        "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+        "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff"
+      }
+    }
+  ],
+  "total_frames": 353,
+  "limits": [
+    "Counts measure candidate presence, not correctness",
+    "No pose or control executed",
+    "Single-session archived calibration, extrinsic agreement unverified",
+    "CPU timings measured on laptop, not Raspberry Pi",
+    "Stop buffers are known regressions, not independent holdout data"
+  ]
+}

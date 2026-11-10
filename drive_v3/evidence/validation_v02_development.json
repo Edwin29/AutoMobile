@@ -1,0 +1,1886 @@
+{
+  "schema": 1,
+  "version": "0.2.0",
+  "unit_tests": 56,
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "opencv": "4.14.0",
+    "scipy": "1.17.1"
+  },
+  "matrix_outcomes": {
+    "time_limit": 16,
+    "held": 6
+  },
+  "matrix": [
+    {
+      "direction": "cw",
+      "scenario": "baseline",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.90073776365341,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.7608425259922775,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.18989259311634196,
+      "median_step_ms": 447.8466999989905,
+      "p95_step_ms": 565.1567400000204,
+      "wall_s": 65.18813430000046,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "00_cw_baseline",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.7809748425148328,
+          0.24101817080996601,
+          0.0082863971630938
+        ],
+        [
+          0.24101817080996601,
+          0.924447862271119,
+          0.020645132199763258
+        ],
+        [
+          0.0082863971630938,
+          0.020645132199763258,
+          0.0006011978780388151
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.6897070926814337,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "speed_bias",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 143.85617215572478,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 1.8130856178736963,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 6.918589557096437,
+      "median_step_ms": 353.2159000005777,
+      "p95_step_ms": 484.8836400000436,
+      "wall_s": 54.11921650000113,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "01_cw_speed_bias",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.7704598631654715,
+          0.15306949520779273,
+          0.004523495272746727
+        ],
+        [
+          0.15306949520779273,
+          1.3390116266536258,
+          0.03518332018863857
+        ],
+        [
+          0.004523495272746727,
+          0.03518332018863857,
+          0.00124889519608141
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.931810228643488,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": -1.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "yaw_loss",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 105.10163935503869,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.1653128551518073,
+      "last_reason": "tracking",
+      "last_control": "deadband_path_infeasible",
+      "max_pose_error_cm": 0.6909555498756967,
+      "median_step_ms": 352.006999999503,
+      "p95_step_ms": 516.7802399999346,
+      "wall_s": 52.37521519999973,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "02_cw_yaw_loss",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          4.528636679852251,
+          0.03194988823119547,
+          0.0009916097113570606
+        ],
+        [
+          0.03194988823119547,
+          1.3726953426248258,
+          0.03574026294477956
+        ],
+        [
+          0.0009916097113570606,
+          0.03574026294477956,
+          0.0015909322566076839
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 0.4845691692486502,
+        "source": "map",
+        "candidates": 3,
+        "offset_cm": 1.0,
+        "horizon_cm": 16.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 2,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "left_bias",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 113.94268673270147,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.7968157583045006,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.6315665756757196,
+      "median_step_ms": 364.59130000002915,
+      "p95_step_ms": 465.1092599993717,
+      "wall_s": 53.2156171000006,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "03_cw_left_bias",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          1.115471115944565,
+          0.27739876563536425,
+          0.00950301846065954
+        ],
+        [
+          0.27739876563536425,
+          0.8462335983747513,
+          0.02088067938632588
+        ],
+        [
+          0.00950301846065954,
+          0.02088067938632588,
+          0.0006833788358568071
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.6888618334553513,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "delay",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 113.94268673270147,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.760921152451367,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.427219464737174,
+      "median_step_ms": 396.2461999999505,
+      "p95_step_ms": 505.37858000061533,
+      "wall_s": 58.10434650000025,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "04_cw_delay",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          1.1119208887882919,
+          0.3345582002458716,
+          0.011211742298179034
+        ],
+        [
+          0.3345582002458716,
+          1.1289740607664607,
+          0.025529723154525646
+        ],
+        [
+          0.011211742298179034,
+          0.025529723154525646,
+          0.0007612380501890688
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.8042220875989046,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "short_dropout",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.42087806882546,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.6960397531805427,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.21860759590103906,
+      "median_step_ms": 409.63860000010754,
+      "p95_step_ms": 549.719560000085,
+      "wall_s": 58.71183730000121,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "05_cw_short_dropout",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.8417399450478209,
+          0.25898248582372974,
+          0.00858966231489603
+        ],
+        [
+          0.25898248582372974,
+          1.0328501781788368,
+          0.02447272191169194
+        ],
+        [
+          0.00858966231489603,
+          0.02447272191169194,
+          0.0007808939839490747
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.6610651160625338,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "long_dropout",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 107.85327855125843,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.6963029792638302,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.19854215517120077,
+      "median_step_ms": 123.57469999915338,
+      "p95_step_ms": 167.39349999879778,
+      "wall_s": 18.363389300000563,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "06_cw_long_dropout",
+      "planner_hold_frames": 6,
+      "recoveries_after_hold": 1,
+      "longest_hold_s": 1.1999999999999993,
+      "last_covariance": [
+        [
+          3.755377724551752,
+          0.16098674968458312,
+          0.005040134390033573
+        ],
+        [
+          0.16098674968458312,
+          1.146242974838465,
+          0.03121873429860951
+        ],
+        [
+          0.005040134390033573,
+          0.03121873429860951,
+          0.0012327574572027242
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.508027110857401,
+        "source": "map",
+        "candidates": 4,
+        "offset_cm": 1.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 1,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "glare",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.90073776365347,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.70239379502763,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.20328804610902557,
+      "median_step_ms": 113.79199999828415,
+      "p95_step_ms": 204.58673999964955,
+      "wall_s": 18.129347599999164,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "07_cw_glare",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.7017459189330038,
+          0.22474343450425105,
+          0.007365863060310073
+        ],
+        [
+          0.22474343450425105,
+          1.070692125606582,
+          0.02514434304656391
+        ],
+        [
+          0.007365863060310073,
+          0.02514434304656391,
+          0.0007891122871401762
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.5412866421335736,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "occlusion",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.90073776365352,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 2.684998333671059,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.23051732772193975,
+      "median_step_ms": 95.83179999935965,
+      "p95_step_ms": 146.36410000130127,
+      "wall_s": 15.19830390000061,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "08_cw_occlusion",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.8618879269138917,
+          0.2679644806063284,
+          0.00951099977888889
+        ],
+        [
+          0.2679644806063284,
+          1.1714515732184352,
+          0.026600043632498047
+        ],
+        [
+          0.00951099977888889,
+          0.026600043632498047,
+          0.0008829126356145398
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 1.6412113776544317,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "baseline",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.31130377613596,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.7039851083884514,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.21494576326699802,
+      "median_step_ms": 86.28700000008394,
+      "p95_step_ms": 118.68868000019575,
+      "wall_s": 13.515086499999597,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "09_ccw_baseline",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.5408235455333256,
+          -0.48279292955297626,
+          -0.01228050713608379
+        ],
+        [
+          -0.48279292955297626,
+          1.307768758550552,
+          0.02889714238130045
+        ],
+        [
+          -0.01228050713608379,
+          0.02889714238130045,
+          0.0009994445161726113
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 2.952642606244498,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "speed_bias",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 144.84178998386125,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 1.942023132081971,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 3.487575609358492,
+      "median_step_ms": 84.82999999978347,
+      "p95_step_ms": 106.02102000011655,
+      "wall_s": 13.065732900000512,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "10_ccw_speed_bias",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.9576973586920088,
+          -0.009487376610522383,
+          -0.00026897668303732975
+        ],
+        [
+          -0.009487376610522383,
+          0.9214538351181474,
+          0.02507140199248429
+        ],
+        [
+          -0.00026897668303732975,
+          0.02507140199248429,
+          0.0007893399193874992
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 3.1859018206760537,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.5,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "yaw_loss",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 93,
+      "simulated_s": 18.6,
+      "progress_cm": 65.00482358581854,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.0881878835660146,
+      "last_reason": "tracking",
+      "last_control": "limited",
+      "max_pose_error_cm": 0.7008412029155736,
+      "median_step_ms": 86.46029999908933,
+      "p95_step_ms": 128.00065999981598,
+      "wall_s": 10.459751999998844,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "11_ccw_yaw_loss",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          5.8798340419403194,
+          -0.015882467535229552,
+          -0.0004994141804150662
+        ],
+        [
+          -0.015882467535229552,
+          1.3329596170189593,
+          0.03484551072432668
+        ],
+        [
+          -0.0004994141804150662,
+          0.03484551072432668,
+          0.0015852608155131353
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 0.38694387880700104,
+        "source": "map",
+        "candidates": 2,
+        "offset_cm": -1.0,
+        "horizon_cm": 16.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 3,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "left_bias",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 115.81240842661003,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.4143434816734626,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.48202551781031316,
+      "median_step_ms": 85.39190000010421,
+      "p95_step_ms": 108.38921999966259,
+      "wall_s": 13.08342889999949,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "12_ccw_left_bias",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.48090855017467665,
+          -0.40966276289041503,
+          -0.009286547979064806
+        ],
+        [
+          -0.40966276289041503,
+          1.3003584249941442,
+          0.02857306754554129
+        ],
+        [
+          -0.009286547979064806,
+          0.02857306754554129,
+          0.0008358416978664437
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 2.2036475123168797,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": -0.5,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "delay",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 113.31056736449784,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.7978268012085348,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.441949004988279,
+      "median_step_ms": 90.0141000001895,
+      "p95_step_ms": 118.06544000100983,
+      "wall_s": 13.999467500001629,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "13_ccw_delay",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.465010338499812,
+          -0.3501842320002335,
+          -0.00929635243657141
+        ],
+        [
+          -0.3501842320002335,
+          0.9138774922951528,
+          0.022062624138782065
+        ],
+        [
+          -0.00929635243657141,
+          0.022062624138782065,
+          0.0007209893042813031
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 3.146852378157848,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "short_dropout",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.31130377613596,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.6953572038752522,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.1889961023131818,
+      "median_step_ms": 104.54279999976279,
+      "p95_step_ms": 127.937899999597,
+      "wall_s": 15.932589300000473,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "14_ccw_short_dropout",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.512271473707676,
+          -0.4495574439706215,
+          -0.011317756093572516
+        ],
+        [
+          -0.4495574439706215,
+          1.2654584211079252,
+          0.02765178852035311
+        ],
+        [
+          -0.011317756093572516,
+          0.02765178852035311,
+          0.0009745651810453126
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 3.019596369960328,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "long_dropout",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 106.30541252312048,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.7065351775345903,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.21356517889657567,
+      "median_step_ms": 86.2766999998712,
+      "p95_step_ms": 128.46965999997337,
+      "wall_s": 14.166517400000885,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "15_ccw_long_dropout",
+      "planner_hold_frames": 6,
+      "recoveries_after_hold": 1,
+      "longest_hold_s": 1.1999999999999993,
+      "last_covariance": [
+        [
+          0.6328881904632943,
+          -0.4060680515728142,
+          -0.012063126423969311
+        ],
+        [
+          -0.4060680515728142,
+          1.2757930339110504,
+          0.030973062227783087
+        ],
+        [
+          -0.012063126423969311,
+          0.030973062227783087,
+          0.000952380440346796
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 2.7029924106858543,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "glare",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "time_limit",
+      "frames": 125,
+      "simulated_s": 25.0,
+      "progress_cm": 114.31130377613596,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 2.7039851083884514,
+      "last_reason": "tracking",
+      "last_control": "tracking",
+      "max_pose_error_cm": 0.21494576326699802,
+      "median_step_ms": 81.90439999998489,
+      "p95_step_ms": 107.02794000062568,
+      "wall_s": 12.959597399998529,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "16_ccw_glare",
+      "planner_hold_frames": 0,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 0.0,
+      "last_covariance": [
+        [
+          0.5408235455333256,
+          -0.48279292955297626,
+          -0.01228050713608379
+        ],
+        [
+          -0.48279292955297626,
+          1.307768758550552,
+          0.02889714238130045
+        ],
+        [
+          -0.01228050713608379,
+          0.02889714238130045,
+          0.0009994445161726113
+        ]
+      ],
+      "last_planner": {
+        "state": "CRUISE",
+        "margin_cm": 2.952642606244498,
+        "source": "map",
+        "candidates": 5,
+        "offset_cm": 0.0,
+        "horizon_cm": 28.0,
+        "rejected": {
+          "curvature": 0,
+          "footprint": 0,
+          "observed_boundary": 0
+        }
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "occlusion",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 61,
+      "simulated_s": 12.200000000000001,
+      "progress_cm": 45.55274295328627,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 3.396869553413133,
+      "last_reason": "observation_budget_exhausted",
+      "last_control": "observation_budget_exhausted",
+      "max_pose_error_cm": 3.0805701935238146,
+      "median_step_ms": 84.35350000036124,
+      "p95_step_ms": 116.80700000033539,
+      "wall_s": 6.489509700000781,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "17_ccw_occlusion",
+      "planner_hold_frames": 12,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.200000000000001,
+      "last_covariance": [
+        [
+          2.5028095698732105,
+          -0.16912858379546625,
+          0.004817187881196944
+        ],
+        [
+          -0.16912858379546628,
+          9.354658793396368,
+          0.08840136383265522
+        ],
+        [
+          0.004817187881196944,
+          0.08840136383265522,
+          0.018941474109987085
+        ]
+      ],
+      "last_planner": {
+        "reason": "observation_budget_exhausted"
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "baseline",
+      "junction": "center:N:right",
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 40,
+      "simulated_s": 8.0,
+      "progress_cm": 17.30588596999019,
+      "route_length_cm": 63.400700884731464,
+      "minimum_margin_cm": 2.283014319766693,
+      "last_reason": "no_feasible_candidate",
+      "last_control": "no_feasible_candidate",
+      "max_pose_error_cm": 0.11933721648307895,
+      "median_step_ms": 96.38310000082129,
+      "p95_step_ms": 133.44279999973872,
+      "wall_s": 7.278830499999458,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "18_ccw_baseline",
+      "planner_hold_frames": 12,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.1999999999999993,
+      "last_covariance": [
+        [
+          0.6245699337784121,
+          -0.09630795010770613,
+          0.014545496404045632
+        ],
+        [
+          -0.09630795010770613,
+          0.4474285412426471,
+          -0.0029147703802570517
+        ],
+        [
+          0.014545496404045632,
+          -0.0029147703802570517,
+          0.0005350277037334379
+        ]
+      ],
+      "last_planner": {
+        "reason": "no_feasible_candidate",
+        "rejected": {
+          "curvature": 4,
+          "footprint": 1,
+          "observed_boundary": 0
+        },
+        "current_margin_cm": 0.9544056461605266,
+        "horizon_cm": 6.0
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "baseline",
+      "junction": "center:E:right",
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 12,
+      "simulated_s": 2.4000000000000004,
+      "progress_cm": 0.0,
+      "route_length_cm": 61.31295126891833,
+      "minimum_margin_cm": 1.2493629377831326,
+      "last_reason": "no_feasible_candidate",
+      "last_control": "no_feasible_candidate",
+      "max_pose_error_cm": 0.054962954164607655,
+      "median_step_ms": 162.96155000054569,
+      "p95_step_ms": 529.6569899994206,
+      "wall_s": 5.724223499999425,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "19_ccw_baseline",
+      "planner_hold_frames": 12,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.2,
+      "last_covariance": [
+        [
+          0.13592498020655458,
+          -0.03987383922937251,
+          0.0005979555568871983
+        ],
+        [
+          -0.03987383922937251,
+          0.6135026298458477,
+          -0.008813288186990842
+        ],
+        [
+          0.0005979555568871983,
+          -0.008813288186990842,
+          0.0004457761039399309
+        ]
+      ],
+      "last_planner": {
+        "reason": "no_feasible_candidate",
+        "rejected": {
+          "curvature": 2,
+          "footprint": 3,
+          "observed_boundary": 0
+        },
+        "current_margin_cm": -0.058516057517746856,
+        "horizon_cm": 6.0
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "baseline",
+      "junction": "west:S:right",
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 34,
+      "simulated_s": 6.800000000000001,
+      "progress_cm": 15.87480458000493,
+      "route_length_cm": 64.87472944077385,
+      "minimum_margin_cm": 3.5849622329924955,
+      "last_reason": "no_feasible_candidate",
+      "last_control": "no_feasible_candidate",
+      "max_pose_error_cm": 0.17390372654613587,
+      "median_step_ms": 102.48269999920012,
+      "p95_step_ms": 164.78765000001658,
+      "wall_s": 6.84954259999904,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "20_ccw_baseline",
+      "planner_hold_frames": 12,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.2,
+      "last_covariance": [
+        [
+          0.689957806266028,
+          0.022301839540794836,
+          -0.017072825707432106
+        ],
+        [
+          0.022301839540794836,
+          0.7738500397653207,
+          -0.0028287803102072214
+        ],
+        [
+          -0.017072825707432106,
+          -0.0028287803102072214,
+          0.0007036748943951607
+        ]
+      ],
+      "last_planner": {
+        "reason": "no_feasible_candidate",
+        "rejected": {
+          "curvature": 5,
+          "footprint": 0,
+          "observed_boundary": 0
+        },
+        "current_margin_cm": 2.909396078900175,
+        "horizon_cm": 6.0
+      }
+    },
+    {
+      "direction": "ccw",
+      "scenario": "baseline",
+      "junction": "north:S:right",
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 23,
+      "simulated_s": 4.6000000000000005,
+      "progress_cm": 9.769451916716697,
+      "route_length_cm": 60.82748842115174,
+      "minimum_margin_cm": 2.0109955119715064,
+      "last_reason": "no_feasible_candidate",
+      "last_control": "no_feasible_candidate",
+      "max_pose_error_cm": 0.1870970992727386,
+      "median_step_ms": 227.80620000048657,
+      "p95_step_ms": 309.68769000046444,
+      "wall_s": 9.281439899999896,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "e024a0d217383d8a6d78da5b5299811bbc55da4fa0daa75dae3cad3b6190e37a",
+      "source_changed_during_process": true,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "21_ccw_baseline",
+      "planner_hold_frames": 11,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.0000000000000004,
+      "last_covariance": [
+        [
+          3.4040541039686985,
+          -5.726666713225825e-07,
+          1.4930982116750314e-07
+        ],
+        [
+          -5.726666713225825e-07,
+          0.18257327601257156,
+          -0.0017066677442983107
+        ],
+        [
+          1.4930982116750314e-07,
+          -0.0017066677442983107,
+          0.0008278434365165668
+        ]
+      ],
+      "last_planner": {
+        "reason": "no_feasible_candidate",
+        "rejected": {
+          "curvature": 2,
+          "footprint": 3,
+          "observed_boundary": 0
+        },
+        "current_margin_cm": -0.17803846303823623,
+        "horizon_cm": 6.0
+      }
+    }
+  ],
+  "loops": [
+    {
+      "direction": "ccw",
+      "scenario": "baseline",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 241,
+      "simulated_s": 48.2,
+      "progress_cm": 215.17075621157983,
+      "route_length_cm": 645.937008904275,
+      "minimum_margin_cm": 1.790413274922301,
+      "last_reason": "no_feasible_candidate",
+      "last_control": "no_feasible_candidate",
+      "max_pose_error_cm": 0.5831679087250095,
+      "median_step_ms": 127.86819999928412,
+      "p95_step_ms": 215.09300000070652,
+      "wall_s": 38.347894099999394,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "c8f9cb2bbb566d210f8846d55c08aaab216a67a1ae0e5b09fea6d4f9150f82ae",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "release_final_ccw",
+      "planner_hold_frames": 12,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.200000000000003,
+      "last_covariance": [
+        [
+          0.9289207757284722,
+          0.8657041606219075,
+          -0.024856938106909393
+        ],
+        [
+          0.8657041606219075,
+          4.9586902298181705,
+          -0.020552075737518674
+        ],
+        [
+          -0.024856938106909393,
+          -0.020552075737518674,
+          0.0013507912723010503
+        ]
+      ],
+      "last_planner": {
+        "reason": "no_feasible_candidate",
+        "rejected": {
+          "curvature": 4,
+          "footprint": 1,
+          "observed_boundary": 0
+        },
+        "current_margin_cm": 0.23615180211722614,
+        "horizon_cm": 6.0
+      }
+    },
+    {
+      "direction": "cw",
+      "scenario": "baseline",
+      "junction": null,
+      "controller": "pure_pursuit",
+      "vo": false,
+      "outcome": "held",
+      "frames": 285,
+      "simulated_s": 57.0,
+      "progress_cm": 258.0143832948973,
+      "route_length_cm": 645.9468984314612,
+      "minimum_margin_cm": 1.7675875233031615,
+      "last_reason": "no_feasible_candidate",
+      "last_control": "no_feasible_candidate",
+      "max_pose_error_cm": 0.29197344387699925,
+      "median_step_ms": 89.76350000011735,
+      "p95_step_ms": 147.1632000000682,
+      "wall_s": 33.8391847999992,
+      "settings_hash": "10092321be6456c717989530bb347f8f3526bcda31e2ff1fb749e096c9f101b1",
+      "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "code_hash": "c8f9cb2bbb566d210f8846d55c08aaab216a67a1ae0e5b09fea6d4f9150f82ae",
+      "source_changed_during_process": false,
+      "limits": "Synthetic planar raster, no real shadows/3D objects; finite footprint samples; no physical guarantee",
+      "run": "release_final_cw",
+      "planner_hold_frames": 12,
+      "recoveries_after_hold": 0,
+      "longest_hold_s": 2.1999999999999957,
+      "last_covariance": [
+        [
+          0.9736017930511283,
+          -1.4305435836199392,
+          0.026361395081734133
+        ],
+        [
+          -1.4305435836199392,
+          9.131419846920345,
+          -0.03653826922402191
+        ],
+        [
+          0.026361395081734133,
+          -0.03653826922402191,
+          0.0014077025663209624
+        ]
+      ],
+      "last_planner": {
+        "reason": "no_feasible_candidate",
+        "rejected": {
+          "curvature": 4,
+          "footprint": 1,
+          "observed_boundary": 0
+        },
+        "current_margin_cm": -0.5865269339834318,
+        "horizon_cm": 6.0
+      }
+    }
+  ],
+  "real_review": {
+    "kind": "real_images_offline_smoke_review_not_accuracy",
+    "runs": [
+      {
+        "name": "ccw_edges_20261106_173559_edges",
+        "frames": 24,
+        "frames_with_boundary_fragments": 24,
+        "frames_with_blue_candidates": 0,
+        "median_observer_ms": 105.11419999966165,
+        "p95_observer_ms": 119.55024999897432,
+        "summary_sha256": "c1a7c1b43dde20f0b94d99507d38f3034bd859f468851ce9d252b45ac65c8673",
+        "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+        "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+        "code_sha256": {
+          "__init__.py": "0bc30eeb87e1301acafc0a54aac2c58dcfd0c7409382e3fc8c806708bac67181",
+          "__main__.py": "5d3600302299a881183c16f72816e24ed9468e51c8313f01b019b9f206aad3b3",
+          "actuation.py": "b7b196972e9d88ef5ec4bcb5dc4e3ee9b2acfec593f934318a08028345d2a956",
+          "build_map.py": "20761206533900c43fa583327c897eef3e40db25fa13030d30488aa1c04dbf13",
+          "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+          "context.py": "bf2d2928d31abedaaaeddb55907ca5f8c8a8d1344c4b43db95979278cd10f5f4",
+          "contracts.py": "8da01ab99808caf5d21cfb39eb7d9d988d417e8df53e0c4d840ef1f5972167d9",
+          "control.py": "876e47c3734c6eb135bd5a64568ac5765acdec3b38ca87004dc702fc0eaa2e4b",
+          "estimation.py": "abf992feed7c90deaf2b40f63ab68c36d22cc1057598a487f8343739b2178483",
+          "features.py": "c8a83080edffd6c329655751f549cb167bf11000423cc46f664d59519e0b9a7e",
+          "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+          "geometry.py": "09edefb06e8ccacb2f98f5b28cecce53289e06ec734e93d2088c6c148c7cce63",
+          "map_model.py": "8b13fe3a055cdf79327ce8ec0eea8aa4ff0d1d265db61bcf3ab53fc7095c8a0a",
+          "mission.py": "daa48c3241064778063f661a275ee4c17667ce43c4076b0970bd95d512beee6c",
+          "observation.py": "37fb674fe16eeae3ca080c7177f9b952a1d8e5a49b0201cd032ebc6077bb1a2e",
+          "planning.py": "439e769810a991b8bb8dc0def68f0154b0d6d9b3cc042cc48afd03f873b77de0",
+          "provenance.py": "dfd14b821e94e5d218527e0521303b257a490effe47aaf1dfa15ba3092b86685",
+          "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+          "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+          "runtime.py": "f5160a8ca44a9f88471dffdbec6f708595ddfea9b2d5ddbacf688994c13b8c83",
+          "settings.py": "33b3c33ac7b32fd0bf8cc4eb745748b59d93eece674833f0246080cc6bb65240",
+          "shadow.py": "f437aaded971615d2cb0e57c6e0c74aea6109f7264585c3607d967025e413f7e",
+          "simulation.py": "8bf00e0b15e178b3d9e59c5f5c3e71eac5ee9d0575d347767bbbb2ae32348eef",
+          "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff",
+          "tests\\test_system.py": "7a91e06d396cdfeb19c8a2ed1a5e46b10af8e10761805ad2ef17e9b885d44ab9",
+          "validate_matrix.py": "b89dcba5bb773fdab6828501f28c4a0e9d30e59b835e7aed41ec10830af159f9",
+          "visual_motion.py": "59859e32daafd58b86bde2aea7d3f0564542e22e7cee75fd02f6384738640d9d"
+        }
+      },
+      {
+        "name": "ccw_edges_20261106_173933_edges",
+        "frames": 24,
+        "frames_with_boundary_fragments": 24,
+        "frames_with_blue_candidates": 0,
+        "median_observer_ms": 116.41650000001391,
+        "p95_observer_ms": 140.62652500069814,
+        "summary_sha256": "907508d92d17b2b871a8580dc6defcbe20818d89188f207804534449f7273423",
+        "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+        "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+        "code_sha256": {
+          "__init__.py": "0bc30eeb87e1301acafc0a54aac2c58dcfd0c7409382e3fc8c806708bac67181",
+          "__main__.py": "5d3600302299a881183c16f72816e24ed9468e51c8313f01b019b9f206aad3b3",
+          "actuation.py": "b7b196972e9d88ef5ec4bcb5dc4e3ee9b2acfec593f934318a08028345d2a956",
+          "build_map.py": "20761206533900c43fa583327c897eef3e40db25fa13030d30488aa1c04dbf13",
+          "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+          "context.py": "bf2d2928d31abedaaaeddb55907ca5f8c8a8d1344c4b43db95979278cd10f5f4",
+          "contracts.py": "8da01ab99808caf5d21cfb39eb7d9d988d417e8df53e0c4d840ef1f5972167d9",
+          "control.py": "876e47c3734c6eb135bd5a64568ac5765acdec3b38ca87004dc702fc0eaa2e4b",
+          "estimation.py": "abf992feed7c90deaf2b40f63ab68c36d22cc1057598a487f8343739b2178483",
+          "features.py": "c8a83080edffd6c329655751f549cb167bf11000423cc46f664d59519e0b9a7e",
+          "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+          "geometry.py": "09edefb06e8ccacb2f98f5b28cecce53289e06ec734e93d2088c6c148c7cce63",
+          "map_model.py": "8b13fe3a055cdf79327ce8ec0eea8aa4ff0d1d265db61bcf3ab53fc7095c8a0a",
+          "mission.py": "daa48c3241064778063f661a275ee4c17667ce43c4076b0970bd95d512beee6c",
+          "observation.py": "37fb674fe16eeae3ca080c7177f9b952a1d8e5a49b0201cd032ebc6077bb1a2e",
+          "planning.py": "439e769810a991b8bb8dc0def68f0154b0d6d9b3cc042cc48afd03f873b77de0",
+          "provenance.py": "dfd14b821e94e5d218527e0521303b257a490effe47aaf1dfa15ba3092b86685",
+          "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+          "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+          "runtime.py": "f5160a8ca44a9f88471dffdbec6f708595ddfea9b2d5ddbacf688994c13b8c83",
+          "settings.py": "33b3c33ac7b32fd0bf8cc4eb745748b59d93eece674833f0246080cc6bb65240",
+          "shadow.py": "f437aaded971615d2cb0e57c6e0c74aea6109f7264585c3607d967025e413f7e",
+          "simulation.py": "8bf00e0b15e178b3d9e59c5f5c3e71eac5ee9d0575d347767bbbb2ae32348eef",
+          "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff",
+          "tests\\test_system.py": "7a91e06d396cdfeb19c8a2ed1a5e46b10af8e10761805ad2ef17e9b885d44ab9",
+          "validate_matrix.py": "b89dcba5bb773fdab6828501f28c4a0e9d30e59b835e7aed41ec10830af159f9",
+          "visual_motion.py": "59859e32daafd58b86bde2aea7d3f0564542e22e7cee75fd02f6384738640d9d"
+        }
+      },
+      {
+        "name": "ccw_v135_20261106_174607_edges",
+        "frames": 24,
+        "frames_with_boundary_fragments": 24,
+        "frames_with_blue_candidates": 0,
+        "median_observer_ms": 97.28965000067546,
+        "p95_observer_ms": 106.82701499908944,
+        "summary_sha256": "b3ed0251bc4deb03104600178673b5a75eb4693d47cd94a464b9893344757046",
+        "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+        "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+        "code_sha256": {
+          "__init__.py": "0bc30eeb87e1301acafc0a54aac2c58dcfd0c7409382e3fc8c806708bac67181",
+          "__main__.py": "5d3600302299a881183c16f72816e24ed9468e51c8313f01b019b9f206aad3b3",
+          "actuation.py": "b7b196972e9d88ef5ec4bcb5dc4e3ee9b2acfec593f934318a08028345d2a956",
+          "build_map.py": "20761206533900c43fa583327c897eef3e40db25fa13030d30488aa1c04dbf13",
+          "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+          "context.py": "bf2d2928d31abedaaaeddb55907ca5f8c8a8d1344c4b43db95979278cd10f5f4",
+          "contracts.py": "8da01ab99808caf5d21cfb39eb7d9d988d417e8df53e0c4d840ef1f5972167d9",
+          "control.py": "876e47c3734c6eb135bd5a64568ac5765acdec3b38ca87004dc702fc0eaa2e4b",
+          "estimation.py": "abf992feed7c90deaf2b40f63ab68c36d22cc1057598a487f8343739b2178483",
+          "features.py": "c8a83080edffd6c329655751f549cb167bf11000423cc46f664d59519e0b9a7e",
+          "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+          "geometry.py": "09edefb06e8ccacb2f98f5b28cecce53289e06ec734e93d2088c6c148c7cce63",
+          "map_model.py": "8b13fe3a055cdf79327ce8ec0eea8aa4ff0d1d265db61bcf3ab53fc7095c8a0a",
+          "mission.py": "daa48c3241064778063f661a275ee4c17667ce43c4076b0970bd95d512beee6c",
+          "observation.py": "37fb674fe16eeae3ca080c7177f9b952a1d8e5a49b0201cd032ebc6077bb1a2e",
+          "planning.py": "439e769810a991b8bb8dc0def68f0154b0d6d9b3cc042cc48afd03f873b77de0",
+          "provenance.py": "dfd14b821e94e5d218527e0521303b257a490effe47aaf1dfa15ba3092b86685",
+          "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+          "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+          "runtime.py": "f5160a8ca44a9f88471dffdbec6f708595ddfea9b2d5ddbacf688994c13b8c83",
+          "settings.py": "33b3c33ac7b32fd0bf8cc4eb745748b59d93eece674833f0246080cc6bb65240",
+          "shadow.py": "f437aaded971615d2cb0e57c6e0c74aea6109f7264585c3607d967025e413f7e",
+          "simulation.py": "8bf00e0b15e178b3d9e59c5f5c3e71eac5ee9d0575d347767bbbb2ae32348eef",
+          "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff",
+          "tests\\test_system.py": "7a91e06d396cdfeb19c8a2ed1a5e46b10af8e10761805ad2ef17e9b885d44ab9",
+          "validate_matrix.py": "b89dcba5bb773fdab6828501f28c4a0e9d30e59b835e7aed41ec10830af159f9",
+          "visual_motion.py": "59859e32daafd58b86bde2aea7d3f0564542e22e7cee75fd02f6384738640d9d"
+        }
+      },
+      {
+        "name": "ccw_forward127_20261106_184214_edges",
+        "frames": 24,
+        "frames_with_boundary_fragments": 24,
+        "frames_with_blue_candidates": 0,
+        "median_observer_ms": 100.80614999969839,
+        "p95_observer_ms": 114.28601499928845,
+        "summary_sha256": "baf1b20d6d56259fd6f7684fd7ec9bd2a7b902061606230c83d5faea4a1b3304",
+        "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+        "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+        "code_sha256": {
+          "__init__.py": "0bc30eeb87e1301acafc0a54aac2c58dcfd0c7409382e3fc8c806708bac67181",
+          "__main__.py": "5d3600302299a881183c16f72816e24ed9468e51c8313f01b019b9f206aad3b3",
+          "actuation.py": "b7b196972e9d88ef5ec4bcb5dc4e3ee9b2acfec593f934318a08028345d2a956",
+          "build_map.py": "20761206533900c43fa583327c897eef3e40db25fa13030d30488aa1c04dbf13",
+          "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+          "context.py": "bf2d2928d31abedaaaeddb55907ca5f8c8a8d1344c4b43db95979278cd10f5f4",
+          "contracts.py": "8da01ab99808caf5d21cfb39eb7d9d988d417e8df53e0c4d840ef1f5972167d9",
+          "control.py": "876e47c3734c6eb135bd5a64568ac5765acdec3b38ca87004dc702fc0eaa2e4b",
+          "estimation.py": "abf992feed7c90deaf2b40f63ab68c36d22cc1057598a487f8343739b2178483",
+          "features.py": "c8a83080edffd6c329655751f549cb167bf11000423cc46f664d59519e0b9a7e",
+          "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+          "geometry.py": "09edefb06e8ccacb2f98f5b28cecce53289e06ec734e93d2088c6c148c7cce63",
+          "map_model.py": "8b13fe3a055cdf79327ce8ec0eea8aa4ff0d1d265db61bcf3ab53fc7095c8a0a",
+          "mission.py": "daa48c3241064778063f661a275ee4c17667ce43c4076b0970bd95d512beee6c",
+          "observation.py": "37fb674fe16eeae3ca080c7177f9b952a1d8e5a49b0201cd032ebc6077bb1a2e",
+          "planning.py": "439e769810a991b8bb8dc0def68f0154b0d6d9b3cc042cc48afd03f873b77de0",
+          "provenance.py": "dfd14b821e94e5d218527e0521303b257a490effe47aaf1dfa15ba3092b86685",
+          "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+          "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+          "runtime.py": "f5160a8ca44a9f88471dffdbec6f708595ddfea9b2d5ddbacf688994c13b8c83",
+          "settings.py": "33b3c33ac7b32fd0bf8cc4eb745748b59d93eece674833f0246080cc6bb65240",
+          "shadow.py": "f437aaded971615d2cb0e57c6e0c74aea6109f7264585c3607d967025e413f7e",
+          "simulation.py": "8bf00e0b15e178b3d9e59c5f5c3e71eac5ee9d0575d347767bbbb2ae32348eef",
+          "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff",
+          "tests\\test_system.py": "7a91e06d396cdfeb19c8a2ed1a5e46b10af8e10761805ad2ef17e9b885d44ab9",
+          "validate_matrix.py": "b89dcba5bb773fdab6828501f28c4a0e9d30e59b835e7aed41ec10830af159f9",
+          "visual_motion.py": "59859e32daafd58b86bde2aea7d3f0564542e22e7cee75fd02f6384738640d9d"
+        }
+      },
+      {
+        "name": "capture_257",
+        "frames": 257,
+        "frames_with_boundary_fragments": 256,
+        "frames_with_blue_candidates": 40,
+        "median_observer_ms": 107.01860000153829,
+        "p95_observer_ms": 171.54650000084075,
+        "summary_sha256": "e73f4aa3358089aac5c9e3b53fe8e3a205ce560fb870ccb510562707bfcf8e2d",
+        "calibration_id": "699aea9c47e8fb665aa91b89a7fb3c69997c9bf8caf6898d56d9fc30e6f9a27c",
+        "config_id": "b3ec39bf8a4ca3f5e19c4db2f553d9b38d3f5af19172d4b5bddc28f506b86271",
+        "code_sha256": {
+          "__init__.py": "0bc30eeb87e1301acafc0a54aac2c58dcfd0c7409382e3fc8c806708bac67181",
+          "__main__.py": "5d3600302299a881183c16f72816e24ed9468e51c8313f01b019b9f206aad3b3",
+          "actuation.py": "b7b196972e9d88ef5ec4bcb5dc4e3ee9b2acfec593f934318a08028345d2a956",
+          "build_map.py": "20761206533900c43fa583327c897eef3e40db25fa13030d30488aa1c04dbf13",
+          "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+          "context.py": "bf2d2928d31abedaaaeddb55907ca5f8c8a8d1344c4b43db95979278cd10f5f4",
+          "contracts.py": "8da01ab99808caf5d21cfb39eb7d9d988d417e8df53e0c4d840ef1f5972167d9",
+          "control.py": "876e47c3734c6eb135bd5a64568ac5765acdec3b38ca87004dc702fc0eaa2e4b",
+          "estimation.py": "abf992feed7c90deaf2b40f63ab68c36d22cc1057598a487f8343739b2178483",
+          "features.py": "c8a83080edffd6c329655751f549cb167bf11000423cc46f664d59519e0b9a7e",
+          "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+          "geometry.py": "09edefb06e8ccacb2f98f5b28cecce53289e06ec734e93d2088c6c148c7cce63",
+          "map_model.py": "8b13fe3a055cdf79327ce8ec0eea8aa4ff0d1d265db61bcf3ab53fc7095c8a0a",
+          "mission.py": "daa48c3241064778063f661a275ee4c17667ce43c4076b0970bd95d512beee6c",
+          "observation.py": "37fb674fe16eeae3ca080c7177f9b952a1d8e5a49b0201cd032ebc6077bb1a2e",
+          "planning.py": "439e769810a991b8bb8dc0def68f0154b0d6d9b3cc042cc48afd03f873b77de0",
+          "provenance.py": "dfd14b821e94e5d218527e0521303b257a490effe47aaf1dfa15ba3092b86685",
+          "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+          "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+          "runtime.py": "f5160a8ca44a9f88471dffdbec6f708595ddfea9b2d5ddbacf688994c13b8c83",
+          "settings.py": "33b3c33ac7b32fd0bf8cc4eb745748b59d93eece674833f0246080cc6bb65240",
+          "shadow.py": "f437aaded971615d2cb0e57c6e0c74aea6109f7264585c3607d967025e413f7e",
+          "simulation.py": "8bf00e0b15e178b3d9e59c5f5c3e71eac5ee9d0575d347767bbbb2ae32348eef",
+          "tests\\test_observation.py": "2a393b1a6bef776751178ef77c0857d5e37148429d3968538fd0ee42868e64ff",
+          "tests\\test_system.py": "40eb0aed0c6059b46d0ee81cae0d18db6b1a00f451b696493cf9a6745b0b1285",
+          "validate_matrix.py": "b89dcba5bb773fdab6828501f28c4a0e9d30e59b835e7aed41ec10830af159f9",
+          "visual_motion.py": "59859e32daafd58b86bde2aea7d3f0564542e22e7cee75fd02f6384738640d9d"
+        }
+      }
+    ],
+    "total_frames": 353,
+    "limits": [
+      "Counts measure candidate presence, not correctness",
+      "No pose or control executed",
+      "Single-session archived calibration, extrinsic agreement unverified",
+      "CPU timings measured on laptop, not Raspberry Pi",
+      "Stop buffers are known regressions, not independent holdout data"
+    ]
+  },
+  "marker_candidate_counts": {
+    "blue_circle_candidate": 56,
+    "blue_patch": 1173,
+    "white_patch": 1077,
+    "crosswalk": 21,
+    "red_patch": 21,
+    "red_line": 17,
+    "pink_patch": 6
+  },
+  "map_library": {
+    "map_hash": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+    "config_hash": "8682167c9c15f4bb4798aefea76c1031bec1c021bc4bcb475606ec1aef04af9a",
+    "source": "Historical sim_drive.py layout, not a new surveyed map. Blue disk positions are legacy layout assumptions, not measured ground truth.",
+    "limits": "Sampled footprint feasibility only; no actuator/slip/uncertainty guarantee",
+    "routes": [
+      {
+        "id": "outer_cw",
+        "min_clearance_cm": 1.1966179396914072,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09241175677609004
+      },
+      {
+        "id": "outer_ccw",
+        "min_clearance_cm": 1.202256228059852,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08329440919017146
+      },
+      {
+        "id": "center_N_E",
+        "min_clearance_cm": -0.177415395472865,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09965864560519933
+      },
+      {
+        "id": "center_N_S",
+        "min_clearance_cm": 2.5,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.7763568394002505e-15
+      },
+      {
+        "id": "center_N_W",
+        "min_clearance_cm": -0.1774153954729023,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09965864560519044
+      },
+      {
+        "id": "center_E_N",
+        "min_clearance_cm": 0.36562196849297024,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08257830822476842
+      },
+      {
+        "id": "center_E_S",
+        "min_clearance_cm": 0.365621968492972,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08257830822476908
+      },
+      {
+        "id": "center_E_W",
+        "min_clearance_cm": 1.25,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 8.881784197001252e-16
+      },
+      {
+        "id": "center_S_N",
+        "min_clearance_cm": 2.5,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.0
+      },
+      {
+        "id": "center_S_E",
+        "min_clearance_cm": -0.17741539546941887,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09965864560620075
+      },
+      {
+        "id": "center_S_W",
+        "min_clearance_cm": -0.17741539546941887,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09965864560620075
+      },
+      {
+        "id": "center_W_N",
+        "min_clearance_cm": 0.36562196849297024,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08257830822476842
+      },
+      {
+        "id": "center_W_E",
+        "min_clearance_cm": 1.25,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 8.881784197001252e-16
+      },
+      {
+        "id": "center_W_S",
+        "min_clearance_cm": 0.365621968492972,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08257830822476908
+      },
+      {
+        "id": "north_E_S",
+        "min_clearance_cm": 1.2817693999694217,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09435421813855172
+      },
+      {
+        "id": "north_E_W",
+        "min_clearance_cm": 4.999999999999162,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.4832579608992091e-13
+      },
+      {
+        "id": "north_S_E",
+        "min_clearance_cm": 2.0351698063144,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.07672539187610194
+      },
+      {
+        "id": "north_S_W",
+        "min_clearance_cm": 2.0351698063144,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.07672539187610194
+      },
+      {
+        "id": "north_W_E",
+        "min_clearance_cm": 4.999999999999162,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.4832579608992091e-13
+      },
+      {
+        "id": "north_W_S",
+        "min_clearance_cm": 1.2817693999694217,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09435421813855172
+      },
+      {
+        "id": "east_N_S",
+        "min_clearance_cm": 3.99999999999919,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.4832579608992091e-13
+      },
+      {
+        "id": "east_N_W",
+        "min_clearance_cm": 0.028836404812661698,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09358959356605379
+      },
+      {
+        "id": "east_S_N",
+        "min_clearance_cm": 3.99999999999919,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.481590113192815e-13
+      },
+      {
+        "id": "east_S_W",
+        "min_clearance_cm": 0.02883640481274874,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09358959356629826
+      },
+      {
+        "id": "east_W_N",
+        "min_clearance_cm": 0.7872188063561651,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08306910347641572
+      },
+      {
+        "id": "east_W_S",
+        "min_clearance_cm": 0.7872188063562078,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.08306910347663532
+      },
+      {
+        "id": "south_N_E",
+        "min_clearance_cm": 2.0351698063144,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.07672539187609839
+      },
+      {
+        "id": "south_N_W",
+        "min_clearance_cm": 2.0351698063144,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.07672539187609839
+      },
+      {
+        "id": "south_E_N",
+        "min_clearance_cm": 1.281769399969539,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09435421813855926
+      },
+      {
+        "id": "south_E_W",
+        "min_clearance_cm": 4.999999999999162,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.4832579608992091e-13
+      },
+      {
+        "id": "south_W_N",
+        "min_clearance_cm": 1.281769399969539,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09435421813855926
+      },
+      {
+        "id": "south_W_E",
+        "min_clearance_cm": 4.999999999999162,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.4832579608992091e-13
+      },
+      {
+        "id": "west_N_E",
+        "min_clearance_cm": 0.18520473798966464,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.1067170341671062
+      },
+      {
+        "id": "west_N_S",
+        "min_clearance_cm": 4.999999999999176,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 3.3618288077916877e-13
+      },
+      {
+        "id": "west_E_N",
+        "min_clearance_cm": 0.8716609468198229,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09143341614260514
+      },
+      {
+        "id": "west_E_S",
+        "min_clearance_cm": 0.87166094682037,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.09143341614267886
+      },
+      {
+        "id": "west_S_N",
+        "min_clearance_cm": 4.999999999999346,
+        "geometric_feasible": true,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 1.1453437294111658e-13
+      },
+      {
+        "id": "west_S_E",
+        "min_clearance_cm": 0.1852047379894941,
+        "geometric_feasible": false,
+        "curvature_within_planner_limit": true,
+        "max_curvature_cm_inv": 0.10671703416726097
+      }
+    ]
+  },
+  "limits": [
+    "Simulated truth is evaluation only",
+    "time_limit does not mean completed",
+    "Real image counts are not accuracy",
+    "Concurrent laptop timings are not Pi benchmarks",
+    "Matrix revision differs from later asynchronous-time guards; see recorded code hashes"
+  ]
+}
