@@ -5,6 +5,7 @@ from scipy.interpolate import make_interp_spline
 
 from .geometry import to_body,to_world,path_geometry,footprint,sigma_poses,wrap
 from .contracts import PathDecision
+from .path_acceptance import evaluate_prefix, commitment_distance
 
 
 class LocalPlanner:
@@ -33,7 +34,8 @@ class LocalPlanner:
                 p=np.empty((len(world),len(self.rim),2))
                 p[:,:,0]=world[:,None,0]+c[:,None]*self.rim[None,:,0]+s[:,None]*self.rim[None,:,1]
                 p[:,:,1]=world[:,None,1]-s[:,None]*self.rim[None,:,0]+c[:,None]*self.rim[None,:,1]
-                worst=min(worst,float(self.track.clearance_fast(p).min()))
+                distance=self.track.clearance if self.cfg.get('distance_mode','grid_lower_bound')=='exact' else self.track.clearance_fast
+                worst=min(worst,float(distance(p).min()))
         return worst
 
     def _observed_margin(self,path,observation):
@@ -76,6 +78,7 @@ class LocalPlanner:
         return np.c_[(left+right)/2,y]
 
     def plan(self,estimator,observation,now,clock,mission_stop=False,speed_cap=None,_horizon=None):
+        if _horizon is None:self._attempt_trace=[]
         if mission_stop:return self.stop(now,clock,"mission_hold")
         beliefs=estimator.hypotheses;primary=beliefs[0]
         age=now-primary.last_observed_s
@@ -95,10 +98,17 @@ class LocalPlanner:
         base=to_body(world,primary.mean)
         s,head,k=path_geometry(base)
         candidates=[]
+        bounded=self.cfg.get('acceptance_mode','legacy_full')=='bounded_prefix'
+        requested_speed=self.cfg['normal_speed_cm_s'] if age<.15 else self.cfg['degraded_speed_cm_s']
+        if speed_cap is not None:requested_speed=min(requested_speed,speed_cap)
+        commitment=commitment_distance(self.cfg,requested_speed,age)
         rejected={"curvature":0,"footprint":0,"observed_boundary":0}
+        attempt={"horizon_cm":float(horizon),"candidates":[]}
+        self._attempt_trace.append(attempt)
         current=self._margin(np.array([[0.,0.],[0.,.01],[0.,.02]]),beliefs)
         visual=self._visual_candidate(observation)
         for offset in self.cfg["offsets_cm"]:
+            trace={"offset_cm":float(offset)};attempt["candidates"].append(trace)
             right=np.c_[np.cos(head),-np.sin(head)]
             p=base+offset*right
             # Quintic blend corrects the initial position/heading without an instantaneous jump.
@@ -112,20 +122,36 @@ class LocalPlanner:
                 spline=make_interp_spline(s,p,k=3)
                 dense=spline(np.linspace(0,s[-1],max(4,int(s[-1]/.5)+1)))
                 _,_,curv=path_geometry(dense)
-            except ValueError:continue
+            except ValueError:
+                trace['rejected']='invalid_spline';continue
+            trace['max_curvature_cm_inv']=float(np.max(np.abs(curv)))
             if np.max(np.abs(curv))>self.cfg["max_curvature_cm_inv"]:
+                trace['rejected']='curvature'
                 rejected["curvature"]+=1;continue
-            margin=self._margin(dense,beliefs)
+            if bounded:
+                allowed,reason,acceptance=evaluate_prefix(self.track,self.rim,dense,beliefs,self.cfg,commitment)
+                trace['acceptance']=acceptance
+                if not allowed:
+                    trace['rejected']=reason;rejected['footprint']+=1;continue
+                margin=acceptance['short_minimum_cm']
+            else:margin=self._margin(dense,beliefs)
             observed=self._observed_margin(dense,observation)
+            trace.update(margin_cm=margin,observed_margin_cm=observed if np.isfinite(observed) else None)
             recovering=False
-            if margin<self.cfg["clearance_cm"]:
+            if not bounded and margin<self.cfg["clearance_cm"]:
                 # Only slight existing penetration, visible corridor, improving end,
                 # and no further penetration across retained pose hypotheses.
                 recovering=(visual is not None and -self.cfg["recovery_penetration_cm"]<=current<self.cfg["clearance_cm"]
                             and margin>=current-.05 and self._margin(dense[-3:],beliefs)>self.cfg["clearance_cm"])
-                if not recovering:rejected["footprint"]+=1;continue
-            if observed<0 and not recovering:rejected["observed_boundary"]+=1;continue
+                if not recovering:
+                    trace['rejected']='footprint';rejected["footprint"]+=1;continue
+            observed_limit=-self.cfg.get('allowed_penetration_cm',.5) if bounded else 0.
+            if observed<observed_limit and not recovering:
+                trace['rejected']='observed_boundary';rejected["observed_boundary"]+=1;continue
+            trace['rejected']=None
+            if bounded:recovering=acceptance['initial_worst_cm']<self.cfg['clearance_cm']
             score=-margin+.25*abs(offset)+2*float(np.mean(curv**2))
+            if bounded:score+=2*max(0.,self.cfg['clearance_cm']-acceptance['mean_minimum_cm'])
             candidates.append((score,offset,dense,margin,"recovery" if recovering else "map"))
         if visual is not None and age>.05:
             # Partial visual corridor cannot authorize a junction turn or extrapolated unseen floor.
@@ -142,7 +168,7 @@ class LocalPlanner:
             if smaller is not None:return self.plan(estimator,observation,now,clock,mission_stop,speed_cap,smaller)
             self.good_after_hold=0
             result=self.stop(now,clock,"no_feasible_candidate")
-            self.last_diagnostics.update(rejected=rejected,current_margin_cm=current,horizon_cm=horizon)
+            self.last_diagnostics.update(rejected=rejected,current_margin_cm=current,horizon_cm=horizon,attempts=self._attempt_trace)
             return result
         candidates.sort(key=lambda c:c[0]);best=candidates[0]
         old=next((c for c in candidates if c[1]==self.offset),None)
@@ -161,7 +187,7 @@ class LocalPlanner:
         if horizon<self.cfg["horizon_cm"] or self.state=="RECOVERY":speed=min(speed,self.cfg["degraded_speed_cm_s"])
         stop_distance=speed*self.cfg["stop_latency_s"]+speed**2/(2*self.cfg["brake_cm_s2"])
         if stop_distance>horizon:return self.stop(now,clock,"insufficient_stopping_horizon")
-        self.last_diagnostics={"state":self.state,"margin_cm":best[3],"source":best[4],"candidates":len(candidates),"offset_cm":best[1],"horizon_cm":horizon,"rejected":rejected}
+        self.last_diagnostics={"state":self.state,"margin_cm":best[3],"source":best[4],"candidates":len(candidates),"offset_cm":best[1],"horizon_cm":horizon,"rejected":rejected,"attempts":self._attempt_trace}
         reference=base[0]+best[1]*np.array([np.cos(head[0]),-np.sin(head[0])])
         lateral=float(-reference@np.array([np.cos(head[0]),-np.sin(head[0])]))
         return PathDecision(best[2].tolist(),speed,now+self.cfg["path_valid_s"],clock,"tracking",

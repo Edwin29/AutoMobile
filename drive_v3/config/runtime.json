@@ -6,6 +6,10 @@
     "use_visual_odometry": false,
     "initial_sigma": [1.0, 1.0, 0.04], "motion_sigma_per_s": [0.8, 1.5, 0.07],
     "measurement_sigma_cm": 1.0, "huber_scale": 1.5, "max_points_per_fragment": 8,
+    "length_weighted_boundaries": true,
+    "evidence_length_cm": 6.0, "reliable_support_cm": 4.0,
+    "support_join_gap_cm": 2.0, "support_join_normal_cm": 0.6, "support_join_angle_deg": 20.0,
+    "evidence_cell_cm": 0.5,
     "max_fragments": 12, "fit_iterations": 12, "fit_bound_cm": 6.0,
     "fit_bound_yaw_rad": 0.16, "postfit_rms_cm": 2.0, "inlier_cm": 3.0,
     "min_inlier_fraction": 0.6, "innovation_limit": 16.3,
@@ -17,6 +21,9 @@
     "vo_min_inliers": 8, "vo_max_rms_cm": 0.8, "vo_max_dt_s": 0.4
   },
   "planner": {
+    "distance_mode": "exact", "acceptance_mode": "legacy_full",
+    "replan_period_s": 0.2, "speed_bound_factor": 1.5, "commitment_extra_cm": 0.5,
+    "clearance_tolerance_cm": 0.05, "allowed_penetration_cm": 0.5, "recovery_progress_cm": 0.05,
     "horizon_cm": 28.0, "join_cm": 20.0, "spacing_cm": 1.0,
     "offsets_cm": [0.0, -0.5, 0.5, -1.0, 1.0], "clearance_cm": 0.25,
     "sigma_multiplier": 1.0, "max_yaw_sigma_rad": 0.18, "max_xy_sigma_cm": 8.0,
@@ -54,6 +61,7 @@
     "rule_values_verified": false
   },
   "rationale": {
+    "boundary_weighting": "정지 영상의 1.5cm 조각과 10.4cm 경계에 동일한 영향이 부여되던 문제를 관측 길이 가중치로 비교한다. 6cm를 단위 지지 길이로, 4cm 미만의 고립 지지는 연속적으로 감쇠한다. 인접 정렬 조각의 틈은 지지 길이에 더하지 않는다. 2cm/0.6cm/20도 연결 및 0.5cm 중복 셀은 임시 기하값이며 다른 장면에서도 검증 필요. Huber는 가중 전 cm 잔차에 적용한다.",
     "units": "cm, s, rad; body x right/y forward, yaw clockwise from world north",
     "thresholds": "초기 비교값. nominal 5cm/s는 기존 PWM .3 *16에 가까움. sigma와 게이트는 보정된 실차 확률이 아님. 여유 .25cm는 이전 사용자 설정과 비교용.",
     "motor": "최소 duty .12·최대 .6·변화율은 임시 작동범위이며 실측 모터별 데드밴드가 아님. 킥/자동 후진 비활성.",

@@ -2,6 +2,8 @@
 
 [합의한 여섯 파트](../docs/DRIVE_V3_DESIGN_20261110.md)를 별도 코드로 연결했다. **노트북에서 사진·영상 재생, 합성 카메라 폐루프, 미션 로직 시험을 실행하는 통합 실험판**이다. 기존 C안·실차 배포본은 변경하지 않는다. 실차 완주가 검증된 배포판이라는 뜻은 아니다.
 
+11월 10일 후속으로 Pi의 실제 정지 영상에서 경계 길이 가중치를 검증하고, 정밀 거리 및 `bounded_prefix` 경로 판정을 비교했다. [정지 추정 안정화](../docs/DRIVE_V3_STATIONARY_20261110.md)와 [플래너 판정 비교](../docs/DRIVE_V3_PLANNER_REVIEW_20261110.md)를 참조한다. `VALIDATION_V02.md`는 수정 전 보존 기록이다. 기본은 `legacy_full`+정밀 거리이며, 짧은 실행 구간 정책은 `simulate --planner-policy bounded_prefix`로 명시한다. Pi 시험은 GPIO 없이 수행했다.
+
 ## 구현 범위
 
 | 파트 | 구현 | 주요 파일 |

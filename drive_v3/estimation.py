@@ -7,6 +7,7 @@ from scipy.optimize import least_squares
 
 from .geometry import advance, axes, to_world, wrap
 from .contracts import EvidenceSource
+from .boundary_evidence import sample_evidence, weighted_huber
 
 
 @dataclass
@@ -64,6 +65,8 @@ class Estimator:
         self.motion_distance+=float(np.linalg.norm(velocity)*dt)
 
     def _data(self,observation):
+        if self.cfg.get('length_weighted_boundaries',False):
+            return sample_evidence(observation.fragments,self.cfg)
         points=[];weights=[];groups=[]
         for f in sorted(observation.fragments,key=lambda x:-x.quality.get("length_cm",0))[:self.cfg["max_fragments"]]:
             if f.source != EvidenceSource.OBSERVED:
@@ -120,7 +123,8 @@ class Estimator:
         if len(p)<4 and not markers:return None
 
         def residual(q):
-            r=self.track.boundary_residual(to_world(p,q),ids)*w/sigma
+            r=self.track.boundary_residual(to_world(p,q),ids)/sigma
+            if not self.cfg.get('length_weighted_boundaries',False):r=r*w
             for center,xy,msigma,normal in markers:
                 delta=(to_world([center],q)[0]-xy)/math.hypot(self.cfg["landmark_sigma_cm"],msigma)
                 r=np.r_[r,delta if normal is None else delta@normal]
@@ -128,12 +132,16 @@ class Estimator:
 
         bound=np.array([self.cfg["fit_bound_cm"],self.cfg["fit_bound_cm"],self.cfg["fit_bound_yaw_rad"]])
         # Keep yaw unwrapped around seed during optimization.
-        fit=least_squares(residual,seed,bounds=(seed-bound,seed+bound),loss="huber",
+        robust_loss='huber'
+        if self.cfg.get('length_weighted_boundaries',False):
+            robust_loss=weighted_huber(np.r_[w,np.ones(len(residual(seed))-len(p))])
+        fit=least_squares(residual,seed,bounds=(seed-bound,seed+bound),loss=robust_loss,
                           f_scale=self.cfg["huber_scale"],max_nfev=self.cfg["fit_iterations"],x_scale=[1,1,.05])
         raw=self.track.boundary_residual(to_world(p,fit.x),ids)
         inliers=np.abs(raw)<self.cfg["inlier_cm"]
-        rms=float(np.sqrt(np.mean(np.minimum(raw**2,25.)))) if len(raw) else 0.
-        fraction=float(inliers.mean()) if len(inliers) else 1.
+        mass=w*w if self.cfg.get('length_weighted_boundaries',False) else np.ones(len(raw))
+        rms=float(np.sqrt(np.average(np.minimum(raw**2,25.),weights=mass))) if len(raw) else 0.
+        fraction=float(np.average(inliers,weights=mass)) if len(inliers) else 1.
         landmark_residual=residual(fit.x)[len(p):]
         marker_error=float(np.sqrt(np.mean(landmark_residual**2))) if len(landmark_residual) else 0.
         if rms>self.cfg["postfit_rms_cm"] or fraction<self.cfg["min_inlier_fraction"] or marker_error>3.:
@@ -168,6 +176,9 @@ class Estimator:
         return Belief(mean,(covariance+covariance.T)/2,score,assoc,observation.stamp.capture_s), {
             "rms_cm":rms,"inlier_fraction":fraction,"nis":nis,"landmark_residual_sigma":marker_error,
             "unreachable_points":discarded,
+            "boundary_evidence_mass":float((w*w).sum()),
+            "boundary_weighting":"observed_length" if self.cfg.get('length_weighted_boundaries',False) else "equal_fragment",
+            "unweighted_rms_cm":float(np.sqrt(np.mean(np.minimum(raw**2,25.)))) if len(raw) else 0.,
             "information_eigenvalues":eig.tolist(),"boundary_ids":sorted(set(map(int,ids))),
             "relocalized":nis>self.cfg["innovation_limit"]}
 

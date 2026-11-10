@@ -70,11 +70,14 @@ class Renderer:
         return image
 
 
-def run(output,direction="ccw",scenario="baseline",duration=200.,dt=.2,video=False,junction=None,controller=None,vo=False):
+def run(output,direction="ccw",scenario="baseline",duration=200.,dt=.2,video=False,junction=None,controller=None,vo=False,planner_policy=None):
     output=Path(output);output.mkdir(parents=True,exist_ok=False)
     provenance=PROCESS_CODE_MANIFEST
     (output/"code_manifest.json").write_text(json.dumps(provenance,indent=2),encoding="utf-8")
     cfg,config_id=load_settings();track=TrackMap()
+    if planner_policy is not None:
+        if planner_policy not in ('legacy_full','bounded_prefix'):raise ValueError('Unknown planner policy')
+        cfg['planner']['acceptance_mode']=planner_policy
     if controller:cfg["controller"]["mode"]=controller
     cfg["estimator"]["use_visual_odometry"]=vo
     route=track.outer_route(direction)
@@ -132,7 +135,7 @@ def run(output,direction="ccw",scenario="baseline",duration=200.,dt=.2,video=Fal
             if zero_since is not None and now-zero_since>2.:outcome="held";break
     if writer:writer.release()
     timings=np.array([r["total_ms"] for r in records])
-    summary=dict(direction=direction,scenario=scenario,junction=junction,controller=cfg["controller"]["mode"],vo=vo,outcome=outcome,frames=len(records),
+    summary=dict(direction=direction,scenario=scenario,junction=junction,controller=cfg["controller"]["mode"],vo=vo,planner_policy=cfg['planner'].get('acceptance_mode','legacy_full'),outcome=outcome,frames=len(records),
                  simulated_s=records[-1]["now_s"],progress_cm=progress,route_length_cm=float(route.s[-1]),
                  minimum_margin_cm=minimum,last_reason=records[-1]["path_reason"],last_control=records[-1]["control_reason"],
                  max_pose_error_cm=max(r["pose_error_cm"] for r in records),
@@ -150,7 +153,8 @@ def main():
     p.add_argument("--scenario",choices=["baseline","speed_bias","yaw_loss","left_bias","delay","short_dropout","long_dropout","glare","occlusion"],default="baseline")
     p.add_argument("--seconds",type=float,default=200);p.add_argument("--dt",type=float,default=.2)
     p.add_argument("--video",action="store_true");p.add_argument("--junction");p.add_argument("--controller",choices=["feedback","pure_pursuit"]);p.add_argument("--vo",action="store_true")
-    a=p.parse_args();run(a.output,a.direction,a.scenario,a.seconds,a.dt,a.video,a.junction,a.controller,a.vo)
+    p.add_argument('--planner-policy',choices=['legacy_full','bounded_prefix'])
+    a=p.parse_args();run(a.output,a.direction,a.scenario,a.seconds,a.dt,a.video,a.junction,a.controller,a.vo,a.planner_policy)
 
 
 if __name__=="__main__":main()

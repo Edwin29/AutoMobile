@@ -1,0 +1,122 @@
+{
+  "note": "Same captured stationary frames/timestamps and initial pose. Pose variation is not absolute pose accuracy or driving performance.",
+  "steps_sha256": "45743ff01f0ea27bbf1b2bd5044cf8a05111cb5d9070648bb2476effabb99d87",
+  "inputs": {
+    "000_raw.png": "eaf47bb049bb128e9bb899921e857d0c91e54a62dca0b52838a03b0c7f9ccdf5",
+    "001_raw.png": "f0cf0b2947b00c9581c3661d7ee106b1df8f83f30098441971b4615f2e88d645",
+    "002_raw.png": "9306b121a872d5d6e769d90f30f544dbfe54ea739691c5350a23b20b755a1e0a",
+    "003_raw.png": "f42cc9f1f03dce7d3808eef63c04c5d9b4dfd637f95cabc80a8546df75010c00",
+    "004_raw.png": "4deef847c353bb79df4829179b02dbd7efb8e10dc4c8da385c8c98ac97278568",
+    "005_raw.png": "fff4500a2708056e22d3ed0c133c55be2d7a07c84c23006a3b9485a2c1ec051a",
+    "006_raw.png": "c0fc82fbd0cc360a740d3f8386db7119d6f55f438f7875532fc0bac3d2f618fb",
+    "007_raw.png": "8896155727e4ef679990a6470371ae6b40d9271396a9dffe7a46d96eb623bdd5",
+    "008_raw.png": "48f43d45e56f8a1ffdaf7c02c1dadd3546c77fadcaa0ccdb584b62387bc267c4",
+    "009_raw.png": "44c8bdf31e1628c982e7a8001f13f5468a9f5223dabb0fdbfbc9edcfb1979693",
+    "010_raw.png": "728778204ae4f5c61c1e18be72b730158c3162bb6963558f827ebfeecbb7f671",
+    "011_raw.png": "613db599dae399f2fb5b78b8a23e60bc57eda3599e80b08c91a3a47f081eb1d6",
+    "012_raw.png": "fa9a9a794d505235bcf5e7fdaf9e5603016b2cb00726669cb9b5c01db668375f",
+    "013_raw.png": "9a851b1cd47e1367aa5a6e0d8acfc60e83b21198059dcf17428e9137501c6952",
+    "014_raw.png": "c58b0ddf007e1c5270d47032e10f6609a186f129e1a98a572e755121091ca2e6",
+    "015_raw.png": "49d329d1f307267ea2743d8af5093cf117532c33c01af505d4da0dc4b5df1a67",
+    "016_raw.png": "c16a2f939c9368acded5e58124f5bfdcf84c8cc24c9b9f88beada4e1dde3ae5a",
+    "017_raw.png": "0f2403ef05a1addb9fc35851c3b6d2ddac1a342195fc542b4f506bc06f3430e4",
+    "018_raw.png": "a022105b891ed991e3df4a85e0438dadfb664ba9a66b141b4469a6cb2d41bf0e",
+    "019_raw.png": "50541b78e6ad393f23daee1ce2ee16522b7cc504a18444ddb04118abc5545146",
+    "020_raw.png": "8e84ed3306c033f340d137760bbfddaa69cd765bfc564f97a8539f6cd3a03fe2",
+    "021_raw.png": "6cfa3bd1e6497eee7566ca80a19184ccb6378a9b3c0e56f80a3d3cdd90763094",
+    "022_raw.png": "75c8ad77bf1ed86367ecad09a9e4570992b46d7dc4a30bbc4fc4cd488f27ead6",
+    "023_raw.png": "8d278f0f628d94292db4e4c629f15c650df85e394ce370f2588febf26f593175",
+    "024_raw.png": "3f9745f9d636df6635313edc250afb2a998b7fa11685db5cab4e6f9dce92689c",
+    "025_raw.png": "e6919a1cb9a91b22528e930d5f55b031abbcd1c20ac4c407d9fa31aae4ccbef9",
+    "026_raw.png": "cabd05faec842323104604d6f2ef338e102ec96666591a5f1e2989175db2056c",
+    "027_raw.png": "925d75807e7d7b8cadb99162c764f245917e5ba7a0d2d9d05fd6779fc1af46e2",
+    "028_raw.png": "c4440ef17498bf8565cb95ba6a1b3a22fb2f8d7c313e91276577ec310e225c3f",
+    "029_raw.png": "9f01ee32b4b241d653eb2672dbf352614489f4b77dbba28d11e03ea1301cc09c",
+    "030_raw.png": "96914213d596e73e5a0625fd68401c3475db9982eb3f218f2080efc40bd0b862",
+    "031_raw.png": "51c3f038acb2412822dbb36157cd5d19678a018d62b8c80ba684103ac61525b0",
+    "032_raw.png": "0b7797b3f4cf5ac19200ca4e2b7194743c24f8d0f9ffaa595f6537598abaf852",
+    "033_raw.png": "f56cc3ab1b7486f28ea3d794195a989684dd288aa0faaf645442bdfa39d88c1f",
+    "034_raw.png": "bbe8c80c46be7ee16d589a35c38409fb6c32fcdf2ae5467fc83256f77187f408",
+    "035_raw.png": "7fdd9717afa3215556927872e278c7ce0cb8e737b1790b465338c3648d50b108",
+    "036_raw.png": "97c3b1d8cf0dc87a1787059b52211b8a6e5cc6f38e146d835c4981edbcd2f0a2",
+    "037_raw.png": "99963ab4eb75d92ee01299cb451a3c94e4cb21b727137e48f96231252a15569a",
+    "038_raw.png": "096f4c1de8a177106f6493086423c1bf501b4933c7e355742086eadddec0f166",
+    "039_raw.png": "f249b3ff22b8e867565952cbe24cde542e8b158ecd7f7d19e588ae3ac9a7ed24"
+  },
+  "code": {
+    "files": {
+      "__init__.py": "0bc30eeb87e1301acafc0a54aac2c58dcfd0c7409382e3fc8c806708bac67181",
+      "__main__.py": "5d3600302299a881183c16f72816e24ed9468e51c8313f01b019b9f206aad3b3",
+      "actuation.py": "b7b196972e9d88ef5ec4bcb5dc4e3ee9b2acfec593f934318a08028345d2a956",
+      "boundary_evidence.py": "f3a545f69fcdcef5edbd80a1fee2bd3165b7726e0aa605a4b192d57ae26823d0",
+      "build_map.py": "20761206533900c43fa583327c897eef3e40db25fa13030d30488aa1c04dbf13",
+      "camera.py": "f2cd4dc6b341d578bd7d2241cdeb75e299128ec79ed81925489c2bb48b4e826f",
+      "context.py": "51d9b0f6ecc72e8eab4be655b09e495f4d027f5d578e37fdaa3e6aa7203cfbc3",
+      "contracts.py": "8da01ab99808caf5d21cfb39eb7d9d988d417e8df53e0c4d840ef1f5972167d9",
+      "control.py": "876e47c3734c6eb135bd5a64568ac5765acdec3b38ca87004dc702fc0eaa2e4b",
+      "estimation.py": "c73c81be58e8d661bc8454a25964d568030dc7b267d1460f3de7feee8818099f",
+      "features.py": "f86564710e5fa55deb6c9e9e0bc02b7c5116ca18e21508771dc24aa831336372",
+      "fragments.py": "cf3566af44ab4325e07479fb13f7eb50aaa37c3f9d7efe0431c51daa65d9a2ec",
+      "geometry.py": "09edefb06e8ccacb2f98f5b28cecce53289e06ec734e93d2088c6c148c7cce63",
+      "map_model.py": "8b13fe3a055cdf79327ce8ec0eea8aa4ff0d1d265db61bcf3ab53fc7095c8a0a",
+      "mission.py": "22c544e7c63b758918d41549d96c243c3ea564f809c5a7a40d3af10789d8ac0f",
+      "observation.py": "bbd9f062d95b6d904cf681aa5f50642abb4ea07f9cc617e98a335a03a8cf5d68",
+      "planning.py": "439e769810a991b8bb8dc0def68f0154b0d6d9b3cc042cc48afd03f873b77de0",
+      "provenance.py": "dfd14b821e94e5d218527e0521303b257a490effe47aaf1dfa15ba3092b86685",
+      "replay.py": "84f835a2bd45ba7761071c6ec4cf28bf78d5f9836d336ae76af0c56c969cd611",
+      "replay_stationary.py": "8ffb6c66b75a8086c6e45d6270cee8fb26becd97cb6d97ab71bc7ca2d5f81e2f",
+      "review_saved.py": "6b89d93f04b9a6245639682bf5ec98571a0d7a0035ecbd4efb059a010b1d1f7e",
+      "runtime.py": "88cba641ffab7aaceb4a0fbe56ac10dd9a27fb568308a51da9ec0264f86fbd58",
+      "settings.py": "33b3c33ac7b32fd0bf8cc4eb745748b59d93eece674833f0246080cc6bb65240",
+      "shadow.py": "f437aaded971615d2cb0e57c6e0c74aea6109f7264585c3607d967025e413f7e",
+      "simulation.py": "8bf00e0b15e178b3d9e59c5f5c3e71eac5ee9d0575d347767bbbb2ae32348eef",
+      "validate_matrix.py": "b89dcba5bb773fdab6828501f28c4a0e9d30e59b835e7aed41ec10830af159f9",
+      "visual_motion.py": "59859e32daafd58b86bde2aea7d3f0564542e22e7cee75fd02f6384738640d9d",
+      "config/camera_legacy_track.json": "c5ed313f83e64f9d9d3b36125bcdf1e4ca16300db68d1af730f13713444f9252",
+      "config/map.json": "2b4be7b5bcf0f7856385f7e0e2a87c39118798361866bcfd8d5bfb9a682841a5",
+      "config/observation.json": "d36de7c352f282706906e515ca30b38901010bccdef6b7a50efd148f9a3bcaab",
+      "config/runtime.json": "ee2a52d851f27222d7d899c9340841c71313687fb4a7e632ba498f6e9203d22a"
+    },
+    "sha256": "0fa96ce8243fe435029a3768bc20654747b89fc2ca1b058d31c40d6ddb147420"
+  },
+  "results": {
+    "equal_fragment": {
+      "frames": 40,
+      "observed": 40,
+      "tail_half_span_x_y_cm": [
+        0.8831005580735223,
+        3.1682175856646637
+      ],
+      "tail_half_span_yaw_deg": 1.4125168403900639,
+      "last_pose": [
+        -81.88608143122116,
+        57.66777982791207,
+        -3.052328793541878
+      ],
+      "path_counts": {
+        "tracking": 3,
+        "no_feasible_candidate": 37
+      },
+      "prediction_commands_all_zero": true
+    },
+    "observed_length": {
+      "frames": 40,
+      "observed": 40,
+      "tail_half_span_x_y_cm": [
+        0.13427317797425076,
+        0.24565533794147854
+      ],
+      "tail_half_span_yaw_deg": 0.4285690072741722,
+      "last_pose": [
+        -83.51931684202653,
+        55.166248775450555,
+        -3.113167682763564
+      ],
+      "path_counts": {
+        "tracking": 26,
+        "no_feasible_candidate": 14
+      },
+      "prediction_commands_all_zero": true
+    }
+  }
+}
