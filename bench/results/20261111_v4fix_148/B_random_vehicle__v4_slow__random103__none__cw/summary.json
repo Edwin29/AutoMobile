@@ -1,0 +1,105 @@
+{
+  "outcome": "severe_departure",
+  "verified_lap": false,
+  "progress_cm": 66.7720909910073,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 13.192505233346212,
+  "proper_corners": 0,
+  "corners": [],
+  "corner_plan": [
+    [
+      "ES",
+      34.291284783066516
+    ],
+    [
+      "WS",
+      198.05557571115094
+    ],
+    [
+      "WN",
+      362.33278825294485
+    ],
+    [
+      "EN",
+      526.0970791810023
+    ]
+  ],
+  "min_margin_cm": -12.047682874645865,
+  "outside_s": 8.938695700019396,
+  "zero_output_s": 0.9057204333313469,
+  "clean_lap": false,
+  "worst_first_corner_cm": -12.047682874645865,
+  "worst_after_first_corner_cm": 0.0,
+  "episodes": [
+    {
+      "start_s": 4.273809533326903,
+      "start_progress_cm": 14.200000000002206,
+      "min_cm": -12.047682874645865,
+      "end_s": 13.192505233346212,
+      "recovered": false
+    }
+  ],
+  "unrecovered_episodes": 1,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7c4753ff9c57",
+  "direction": "cw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.27456077824754443,
+    "start_duty_right": 0.3288142916474746,
+    "max_duty": 0.9287712441901848,
+    "cm_s_per_duty_left": 15.755254830169035,
+    "cm_s_per_duty_right": 14.746211031614544,
+    "turn_eff_left": 0.5069593384692606,
+    "turn_eff_right": 0.6089994104238319,
+    "drift_rad_s": 0.009694304348777383,
+    "actuation_delay_s": 0.10519436454438619,
+    "time_constant_s": 0.10967000077988828,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 27,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 1.465828632295169,
+    "p95": 3.1694224922052747,
+    "max": 4.032055178247193
+  },
+  "wall_s": 2.3876946999225765
+}

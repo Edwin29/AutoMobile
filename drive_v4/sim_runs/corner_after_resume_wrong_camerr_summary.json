@@ -1,0 +1,34 @@
+{
+  "scenario": "resume_wrong",
+  "variant": "after",
+  "cam_scale": 1.05,
+  "cam_offset": 1.5,
+  "outcome": "lap_complete",
+  "sim_s": 104.53333333333333,
+  "progress_cm": 646.4773895201789,
+  "route_cm": 646.0140586101134,
+  "min_margin_cm": -1.5928534585371157,
+  "frames_margin_below_0": 122,
+  "frames_margin_below_minus3": 0,
+  "reasons": {
+    "road_lost_hold": 2,
+    "drive": 1566
+  },
+  "wall_s": 289.7512607000026,
+  "corner_min_margin_cm": [
+    0.42,
+    0.3,
+    -1.59,
+    0.04,
+    -0.25,
+    3.34
+  ],
+  "plant": {
+    "deadband": 0.28,
+    "gain": 16.8,
+    "track": 13.0,
+    "yaw_eff": 0.6,
+    "left_bias": 0.0
+  },
+  "video": null
+}

@@ -1,0 +1,172 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 670.3883639640163,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 114.34333333332866,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 15.053333333333374,
+      "end_s": 29.03333333333343,
+      "turn_deg": -94.38104950477847,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 41.63333333333348,
+      "end_s": 56.73333333333354,
+      "turn_deg": -99.85354717701456,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 70.33333333333294,
+      "end_s": 86.01333333333142,
+      "turn_deg": -96.05205654102001,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 99.5433333333301,
+      "end_s": 114.34333333332866,
+      "turn_deg": -93.669968692175,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -1.0350181706030668,
+  "outside_s": 5.779999999999879,
+  "zero_output_s": 0.24333333333333335,
+  "clean_lap": false,
+  "worst_first_corner_cm": 0.0,
+  "worst_after_first_corner_cm": -1.0350181706030668,
+  "episodes": [
+    {
+      "start_s": 50.82333333333352,
+      "start_progress_cm": 307.98239025708585,
+      "min_cm": -1.0350181706030668,
+      "end_s": 54.34333333333354,
+      "recovered": true
+    },
+    {
+      "start_s": 79.943333333332,
+      "start_progress_cm": 470.17526118712664,
+      "min_cm": -0.9704219504143907,
+      "end_s": 84.1933333333316,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7a751bf0f8b2",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v4_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.07,
+    "source": "drive_v4 measured on the Pi (sensor->write median 70 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.2903829775516766,
+    "start_duty_right": 0.2801428087040414,
+    "max_duty": 0.8766402249059895,
+    "cm_s_per_duty_left": 16.561519644769966,
+    "cm_s_per_duty_right": 16.80144106458006,
+    "turn_eff_left": 0.9071822791310693,
+    "turn_eff_right": 0.7127977124648975,
+    "drift_rad_s": 0.01170127007371248,
+    "actuation_delay_s": 0.077309662106284,
+    "time_constant_s": 0.13902220314596664,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 1632,
+  "variation": {
+    "name": "mild",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.05,
+    "wander_speed_rel": 0.04,
+    "wander_start_duty": 0.01,
+    "wander_max_duty": 0.03,
+    "wander_delay_s": 0.01,
+    "trend_speed_rel_per_min": -0.02,
+    "trend_max_duty_rel_per_min": -0.02,
+    "patches": 3,
+    "patch_speed": [
+      0.9,
+      1.0
+    ],
+    "patch_turn": [
+      0.85,
+      1.05
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.02,
+    "seed": 17
+  },
+  "floor_patches": [
+    {
+      "box": [
+        -67.92510482958559,
+        -40.56350599630017,
+        74.35860243593974,
+        101.72020126922517
+      ],
+      "speed": 0.9214941963561769,
+      "turn": 0.9271648075178397
+    },
+    {
+      "box": [
+        -28.857538850155517,
+        5.870178560110215,
+        -106.36803465811452,
+        -71.64031724784878
+      ],
+      "speed": 0.9015289656596712,
+      "turn": 0.9008081827585278
+    },
+    {
+      "box": [
+        -114.28320750162062,
+        -77.63628501160655,
+        -84.92559009506412,
+        -48.278667605050046
+      ],
+      "speed": 0.9036777357667325,
+      "turn": 0.963507962629689
+    }
+  ],
+  "pose_error_cm": {
+    "mean": 0.5103546225006588,
+    "p95": 1.51682699450698,
+    "max": 2.0122054411897405
+  },
+  "wall_s": 104.0331091999542
+}

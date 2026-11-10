@@ -1,0 +1,175 @@
+{
+  "preprocess": "rgb_bottom_half_yuv_blur3_200x66_chw_div255",
+  "action_space": "normalized_linear_angular_v1",
+  "output": "[linear/max_speed_m_s, angular/max_yaw_rad_s] in [-1, 1]",
+  "max_speed_m_s": 0.18,
+  "max_yaw_rad_s": 2.0,
+  "experiment": "C-sim-to-real",
+  "seed": 42,
+  "frame_stride": 1,
+  "recovery_within_m": 0.0,
+  "exclude_junctions_m": 0.0,
+  "synthetic_roots": [],
+  "splits": {
+    "train": [],
+    "validation": [],
+    "test": []
+  },
+  "synthetic_seed_history": [
+    "1000",
+    "1001",
+    "1002",
+    "1003",
+    "1004",
+    "1005",
+    "1006",
+    "1007",
+    "1008",
+    "1009",
+    "1010",
+    "1011",
+    "1012",
+    "1013",
+    "1014",
+    "1015",
+    "1016",
+    "1017",
+    "1018",
+    "1019",
+    "1020",
+    "1021",
+    "1022",
+    "1023",
+    "1024",
+    "1025",
+    "1026",
+    "1027",
+    "1028",
+    "1029",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "3000",
+    "3001",
+    "3002",
+    "3003",
+    "3004",
+    "3005",
+    "3006",
+    "3007",
+    "3008",
+    "3009",
+    "3010",
+    "3011",
+    "3012",
+    "3013",
+    "3014",
+    "3015",
+    "3016",
+    "3017",
+    "3018",
+    "3019",
+    "3020",
+    "3021",
+    "3022",
+    "3023",
+    "3024",
+    "3025",
+    "3026",
+    "3027",
+    "3028",
+    "3029",
+    "4000",
+    "4001",
+    "4002",
+    "4003",
+    "4004",
+    "4005",
+    "4006",
+    "4007",
+    "4008",
+    "4009"
+  ],
+  "train_on": "real",
+  "select_on": "real",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 3e-05,
+    "weight_decay": 0.0001
+  },
+  "epochs": 5,
+  "best_epoch": 2,
+  "optimizer_steps": 500,
+  "wall_time_s": 251.0,
+  "init_checkpoint": {
+    "path": "models/lane-v4b/policy.pt",
+    "sha256": "6395697af51c230c1eae88149ffcf0b88dc6f4b20bedab7ed9f3a65958bd83eb",
+    "experiment": "A-synthetic-v4b",
+    "train_on": "synthetic",
+    "real_manifest_id": null
+  },
+  "real_data": {
+    "manifest": "outputs/real/manifest-1031.json",
+    "manifest_id": "101143f90aeaf366",
+    "sessions": {
+      "train": 3,
+      "validation": 1,
+      "test": 1
+    },
+    "frames": {
+      "train": 6393,
+      "validation": 2966
+    },
+    "used_for_training": true
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_normalized_mae": [
+        0.39882597920063456,
+        0.18944784116680688
+      ]
+    },
+    {
+      "epoch": 2,
+      "validation_normalized_mae": [
+        0.38175960111200047,
+        0.171698594326436
+      ]
+    },
+    {
+      "epoch": 3,
+      "validation_normalized_mae": [
+        0.3787084648276372,
+        0.2216453422828052
+      ]
+    },
+    {
+      "epoch": 4,
+      "validation_normalized_mae": [
+        0.3836066068545114,
+        0.21199737564583365
+      ]
+    },
+    {
+      "epoch": 5,
+      "validation_normalized_mae": [
+        0.3831839429632844,
+        0.2153817882267752
+      ]
+    }
+  ],
+  "frames": {
+    "train": 6393,
+    "validation": 2966
+  },
+  "test_evaluated": false,
+  "warning": "Selection used validation only; run evaluate_lane_offline.py --split test once after fixing settings. Offline MAE is not closed-loop driving performance."
+}

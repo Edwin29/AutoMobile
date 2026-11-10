@@ -1,0 +1,138 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 667.2883639640307,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 100.73452703347373,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 14.296599533346209,
+      "end_s": 27.09120263337179,
+      "turn_deg": -88.50059449989315,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 38.56377013338669,
+      "end_s": 51.65181213340793,
+      "turn_deg": -91.91590538326783,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 63.22003453341641,
+      "end_s": 76.17926293344024,
+      "turn_deg": -92.78457552804672,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 87.67846803345502,
+      "end_s": 100.73452703347373,
+      "turn_deg": -91.14094243943853,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      130.39128478308572
+    ],
+    [
+      "WN",
+      294.15557571116693
+    ],
+    [
+      "WS",
+      458.4327882529277
+    ],
+    [
+      "ES",
+      622.197079180993
+    ]
+  ],
+  "min_margin_cm": -0.9265974695335331,
+  "outside_s": 2.285349100001784,
+  "zero_output_s": 0.9057204333313469,
+  "clean_lap": false,
+  "worst_first_corner_cm": 0.0,
+  "worst_after_first_corner_cm": -0.9265974695335331,
+  "episodes": [
+    {
+      "start_s": 70.57646573342986,
+      "start_progress_cm": 465.585315996349,
+      "min_cm": -0.9265974695335331,
+      "end_s": 73.8740274334314,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7c4753ff9c57",
+  "direction": "ccw",
+  "effects": [
+    "blur_warm",
+    "glare",
+    "occlusion"
+  ],
+  "seed": 12,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.276609622425126,
+    "start_duty_right": 0.30381842540615517,
+    "max_duty": 0.9632869050654413,
+    "cm_s_per_duty_left": 17.427910255195105,
+    "cm_s_per_duty_right": 18.20586707616267,
+    "turn_eff_left": 0.8845058498953502,
+    "turn_eff_right": 0.9169263679241721,
+    "drift_rad_s": 0.026745618883320867,
+    "actuation_delay_s": 0.04069722447021393,
+    "time_constant_s": 0.037138915142831797,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 219,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 12
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 2.633875530074186,
+    "p95": 4.394187171740357,
+    "max": 5.234066663939911
+  },
+  "wall_s": 37.88858159980737
+}

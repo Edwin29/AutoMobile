@@ -1,0 +1,172 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 686.3883639640625,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 77.10933333333551,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 8.801333333333282,
+      "end_s": 19.833333333333346,
+      "turn_deg": -99.42309372804878,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 27.34133333333363,
+      "end_s": 38.46533333333405,
+      "turn_deg": -104.42309429775742,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 46.041333333334336,
+      "end_s": 56.96933333333475,
+      "turn_deg": -103.88546462003644,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 64.45733333333503,
+      "end_s": 75.52533333333545,
+      "turn_deg": -104.98259823565513,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -2.3312684177393095,
+  "outside_s": 35.86800000000056,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": -2.0034570384789134,
+  "worst_after_first_corner_cm": -2.3312684177393095,
+  "episodes": [
+    {
+      "start_s": 12.669333333333238,
+      "start_progress_cm": 125.44704467146113,
+      "min_cm": -2.0034570384789134,
+      "end_s": 21.077333333333392,
+      "recovered": true
+    },
+    {
+      "start_s": 23.829333333333498,
+      "start_progress_cm": 218.67209099103832,
+      "min_cm": -1.071185789533967,
+      "end_s": 25.98933333333358,
+      "recovered": true
+    },
+    {
+      "start_s": 31.101333333333773,
+      "start_progress_cm": 288.4144434181861,
+      "min_cm": -1.983628859110155,
+      "end_s": 39.7973333333341,
+      "recovered": true
+    },
+    {
+      "start_s": 42.585333333334205,
+      "start_progress_cm": 383.54418198204235,
+      "min_cm": -0.851895591370095,
+      "end_s": 44.56533333333428,
+      "recovered": true
+    },
+    {
+      "start_s": 49.49733333333447,
+      "start_progress_cm": 449.4153581956055,
+      "min_cm": -1.9946075666460956,
+      "end_s": 58.1573333333348,
+      "recovered": true
+    },
+    {
+      "start_s": 60.801333333334895,
+      "start_progress_cm": 545.5162729730462,
+      "min_cm": -2.118255171983014,
+      "end_s": 65.10533333333505,
+      "recovered": true
+    },
+    {
+      "start_s": 68.23733333333517,
+      "start_progress_cm": 616.7532628352728,
+      "min_cm": -2.3312684177393095,
+      "end_s": 77.10933333333551,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "cnnA",
+  "controller_source": "team CNN lane-v4b (track-digital-twin models-2026-11-01), speed_scale 1.0",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.5,
+    "turn_eff_right": 0.7,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2140,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": null,
+  "wall_s": 71.41675930004567
+}

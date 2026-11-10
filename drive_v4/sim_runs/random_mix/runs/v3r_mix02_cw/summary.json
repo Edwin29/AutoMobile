@@ -1,0 +1,65 @@
+{
+  "scenario": "mix02",
+  "profile": {
+    "drift": -0.035,
+    "sag": 0.65,
+    "sag_s": 12.0,
+    "occlusion_s": 3.0,
+    "turn_proxy": true
+  },
+  "direction": "cw",
+  "period_s": 0.6,
+  "seed": 72,
+  "outcome": "held",
+  "verified_lap": false,
+  "frames": 48,
+  "simulated_s": 29.240662300000285,
+  "progress_cm": 103.48720211162566,
+  "proper_corner_exits": 0,
+  "truth_corner_events": [],
+  "minimum_true_margin_cm": -2.9558617696168596,
+  "outside_s": 7.02066230000036,
+  "stopped_s": 8.10139199999111,
+  "penetration_episodes": [
+    {
+      "start_s": 22.24000000000001,
+      "start_progress_cm": 97.13359220698214,
+      "min_cm": -2.9558617696168596,
+      "end_s": 29.240662300000285,
+      "recovered": false
+    }
+  ],
+  "events": [
+    {
+      "kind": "first_corner_disturbance_window",
+      "t": 16.51999999999999,
+      "progress_cm": 81.60513016204595
+    }
+  ],
+  "event_time_s": 16.51999999999999,
+  "mean_pose_error_cm": 4.085800590114091,
+  "max_pose_error_cm": 12.504723604559878,
+  "p95_pose_error_cm": 12.504723604559878,
+  "mean_pwm_only_error_cm": 34.1103751377649,
+  "max_pwm_only_error_cm": 73.60407990583673,
+  "p95_yaw_error_deg": 37.00690931155534,
+  "reasons": {
+    "tracking": 29,
+    "no_local_or_map_support": 13,
+    "rolling_limited": 6
+  },
+  "path_reasons": {
+    "tracking": 35,
+    "no_local_or_map_support": 13
+  },
+  "observation_status": {
+    "observed": 33,
+    "prediction_only": 15
+  },
+  "saturation_fraction": 0.10416666666666667,
+  "map_hash": "7063f64a93146548e1e0e1bc0621978bc8f869ee27bb8a3e594205e0d9309d7c",
+  "code_hash": "47bc0119788a780b88cf349c21a40dc9366e05ad2a0030e1ad69685a5f88432d",
+  "code_unchanged": true,
+  "wall_s": 6.1245491001755,
+  "limits": "Fixed corrected candidate map; synthetic raster camera. Historical turn ratios are proxies, other magnitudes are declared stress assumptions. Same-PWM shadow is NOT a second camera-free controlled trajectory. No new adaptation or controller tuning. Effective stalled-side model is not four-wheel contact physics. Laptop latency trace + assumed 50ms delivery, not measured Pi timing."
+}

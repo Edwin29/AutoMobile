@@ -1,0 +1,162 @@
+{
+  "outcome": "held",
+  "verified_lap": false,
+  "progress_cm": 246.47209099104464,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 79.36053483344283,
+  "proper_corners": 1,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 28.096024133372623,
+      "end_s": 53.01910403340721,
+      "turn_deg": -86.86477256619102,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -4.245220668816448,
+  "outside_s": 17.66556400001989,
+  "zero_output_s": 6.370321133336408,
+  "clean_lap": false,
+  "worst_first_corner_cm": -4.245220668816448,
+  "worst_after_first_corner_cm": -2.556629648863776,
+  "episodes": [
+    {
+      "start_s": 4.6398265333300985,
+      "start_progress_cm": 13.300000000002001,
+      "min_cm": -0.22165988230169376,
+      "end_s": 5.919848933333017,
+      "recovered": true
+    },
+    {
+      "start_s": 18.209648233349057,
+      "start_progress_cm": 57.40000000000907,
+      "min_cm": -0.3023383133367954,
+      "end_s": 19.678637033349283,
+      "recovered": true
+    },
+    {
+      "start_s": 21.527096333358124,
+      "start_progress_cm": 68.1000000000115,
+      "min_cm": -0.24349856295384598,
+      "end_s": 22.833742833359203,
+      "recovered": true
+    },
+    {
+      "start_s": 30.837648233369325,
+      "start_progress_cm": 97.70000000001824,
+      "min_cm": -0.6442594482353314,
+      "end_s": 32.417961533368754,
+      "recovered": true
+    },
+    {
+      "start_s": 34.07252333337613,
+      "start_progress_cm": 110.00000000002103,
+      "min_cm": -1.2598502737834405,
+      "end_s": 35.84395123337534,
+      "recovered": true
+    },
+    {
+      "start_s": 37.12496073338194,
+      "start_progress_cm": 122.06983557236106,
+      "min_cm": -4.245220668816448,
+      "end_s": 48.368286533397175,
+      "recovered": true
+    },
+    {
+      "start_s": 71.42663233343417,
+      "start_progress_cm": 236.07209099104227,
+      "min_cm": -0.8686110010366406,
+      "end_s": 73.15844373343276,
+      "recovered": true
+    },
+    {
+      "start_s": 74.19080363343143,
+      "start_progress_cm": 245.27209099104437,
+      "min_cm": -2.556629648863776,
+      "end_s": 79.36053483344283,
+      "recovered": false
+    }
+  ],
+  "unrecovered_episodes": 1,
+  "controller": "v3r",
+  "controller_source": "v3-recovery commit 8b41dd9 (recovery_rollout policy)",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.31700186644179196,
+    "start_duty_right": 0.30017790641077685,
+    "max_duty": 0.6199250539117444,
+    "cm_s_per_duty_left": 17.695520605873845,
+    "cm_s_per_duty_right": 17.748421886208554,
+    "turn_eff_left": 0.9319950741205605,
+    "turn_eff_right": 0.4878403880020652,
+    "drift_rad_s": 0.012157575830612985,
+    "actuation_delay_s": 0.014685073678433235,
+    "time_constant_s": 0.11141978745467418,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 174,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 5.014733145094135,
+    "p95": 15.098218910979531,
+    "max": 16.581731571760923
+  },
+  "wall_s": 17.347586499992758
+}

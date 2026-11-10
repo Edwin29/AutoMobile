@@ -1,0 +1,166 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 673.6883639640172,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 122.13683843351045,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 16.754465733352028,
+      "end_s": 32.297961533368735,
+      "turn_deg": -81.20436967508132,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 45.82573153339028,
+      "end_s": 61.857301133414545,
+      "turn_deg": -81.1486978043899,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 75.4885386334379,
+      "end_s": 91.46833633346024,
+      "turn_deg": -82.84568010379834,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 105.00586303348452,
+      "end_s": 121.02549093351051,
+      "turn_deg": -80.32032020841967,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      130.7912847830857
+    ],
+    [
+      "WN",
+      294.55557571116697
+    ],
+    [
+      "WS",
+      458.8327882529277
+    ],
+    [
+      "ES",
+      622.597079180993
+    ]
+  ],
+  "min_margin_cm": -7.1897000818914165,
+  "outside_s": 42.156875700054385,
+  "zero_output_s": 0.9057204333313469,
+  "clean_lap": false,
+  "worst_first_corner_cm": -7.1897000818914165,
+  "worst_after_first_corner_cm": -6.6285790873986805,
+  "episodes": [
+    {
+      "start_s": 22.095653033361803,
+      "start_progress_cm": 112.4000000000218,
+      "min_cm": -7.1897000818914165,
+      "end_s": 32.65796153336879,
+      "recovered": true
+    },
+    {
+      "start_s": 52.71910403340716,
+      "start_progress_cm": 285.21779502125935,
+      "min_cm": -5.0656577930132425,
+      "end_s": 64.13225303341929,
+      "recovered": true
+    },
+    {
+      "start_s": 79.47772543344378,
+      "start_progress_cm": 434.04418198202814,
+      "min_cm": -6.6285790873986805,
+      "end_s": 92.37811013346487,
+      "recovered": true
+    },
+    {
+      "start_s": 109.19766653349765,
+      "start_progress_cm": 598.8162729730074,
+      "min_cm": -0.6301808674787885,
+      "end_s": 111.08290983349029,
+      "recovered": true
+    },
+    {
+      "start_s": 111.68678353349009,
+      "start_progress_cm": 613.0599660413741,
+      "min_cm": -4.517785498443218,
+      "end_s": 122.13683843351045,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7c4753ff9c57",
+  "direction": "ccw",
+  "effects": [
+    "glare",
+    "occlusion",
+    "seam"
+  ],
+  "seed": 59,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.314923088222489,
+    "start_duty_right": 0.26087104042780535,
+    "max_duty": 0.5693903517401806,
+    "cm_s_per_duty_left": 14.987869768351537,
+    "cm_s_per_duty_right": 15.292490218261925,
+    "turn_eff_left": 0.8575236097027171,
+    "turn_eff_right": 0.8673190608591126,
+    "drift_rad_s": 0.012596913156212565,
+    "actuation_delay_s": 0.016540816316354207,
+    "time_constant_s": 0.08650833858118204,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 267,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 59
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 1.7858230511556956,
+    "p95": 5.982704013616164,
+    "max": 11.847827149609698
+  },
+  "wall_s": 21.224313100101426
+}

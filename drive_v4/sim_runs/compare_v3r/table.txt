@@ -1,0 +1,46 @@
+scenario                 | modified v3 (0.6s)                                   | v4 same timing (0.6s)
+baseline_ccw_s17         | PASS             corners 4/4  min  +1.04  out   0.0s | PASS             corners 4/4  min  -1.63  out  22.3s
+baseline_cw_s17          | PASS             corners 4/4  min  +1.19  out   0.0s | PASS             corners 4/4  min  -2.29  out   8.8s
+drift_left_ccw_s17       | PASS             corners 4/4  min  +1.49  out   0.0s | severe_departure corners 2/4  min -12.08  out  27.2s
+drift_left_cw_s17        | PASS             corners 4/4  min  +0.56  out   0.0s | PASS             corners 4/4  min  +0.54  out   0.0s
+turn_under_ccw_s17       | PASS             corners 4/4  min  -3.12  out  25.0s | PASS             corners 4/4  min  -0.48  out   1.5s
+turn_under_cw_s17        | PASS             corners 4/4  min  -4.88  out  34.0s | PASS             corners 4/4  min  -2.13  out   2.3s
+slip_ccw_s17             | held             corners 0/4  min  -4.35  out   6.4s | PASS             corners 4/4  min  -1.44  out  18.1s
+slip_cw_s17              | PASS             corners 4/4  min  -2.90  out   7.6s | PASS             corners 4/4  min  -1.62  out   1.3s
+low_power_ccw_s17        | PASS             corners 4/4  min  +1.25  out   0.0s | PASS             corners 4/4  min  -3.18  out  25.9s
+low_power_cw_s17         | PASS             corners 4/4  min  +1.20  out   0.0s | PASS             corners 4/4  min  -3.08  out  29.0s
+wheel_stall_ccw_s17      | PASS             corners 4/4  min  -0.44  out   2.1s | PASS             corners 4/4  min  -6.64  out  24.4s
+wheel_stall_cw_s17       | held             corners 0/4  min  -1.86  out   6.2s | PASS             corners 4/4  min  +0.25  out   0.0s
+glare_ccw_s17            | PASS             corners 4/4  min  +1.04  out   0.0s | PASS             corners 4/4  min  -1.60  out  22.3s
+glare_cw_s17             | PASS             corners 4/4  min  +1.23  out   0.0s | PASS             corners 4/4  min  -2.38  out   9.0s
+seam_ccw_s17             | PASS             corners 4/4  min  +1.06  out   0.0s | PASS             corners 4/4  min  -1.59  out  22.4s
+seam_cw_s17              | PASS             corners 4/4  min  +1.23  out   0.0s | PASS             corners 4/4  min  -2.28  out   8.8s
+occlusion_ccw_s17        | PASS             corners 4/4  min  +1.05  out   0.0s | PASS             corners 4/4  min  -1.66  out  19.8s
+occlusion_cw_s17         | PASS             corners 4/4  min  +1.21  out   0.0s | PASS             corners 4/4  min  -2.16  out   8.7s
+dropout_ccw_s17          | PASS             corners 4/4  min  +1.07  out   0.0s | PASS             corners 4/4  min  -2.27  out  24.2s
+dropout_cw_s17           | PASS             corners 4/4  min  +1.19  out   0.0s | PASS             corners 4/4  min  -3.00  out  26.4s
+blur_warm_ccw_s17        | PASS             corners 4/4  min  +1.08  out   0.0s | PASS             corners 4/4  min  -1.79  out  23.0s
+blur_warm_cw_s17         | PASS             corners 4/4  min  +1.24  out   0.0s | PASS             corners 4/4  min  -2.36  out   9.0s
+mixed_mild_ccw_s17       | PASS             corners 4/4  min  -1.59  out   3.1s | PASS             corners 4/4  min  -2.60  out  25.6s
+mixed_mild_cw_s17        | PASS             corners 4/4  min  -2.56  out   8.4s | PASS             corners 4/4  min  +1.28  out   0.0s
+mixed_mild_ccw_s31       | PASS             corners 4/4  min  -1.54  out   3.1s | PASS             corners 4/4  min  -2.61  out  25.6s
+mixed_mild_cw_s31        | PASS             corners 4/4  min  -2.43  out   8.0s | PASS             corners 4/4  min  +1.43  out   0.0s
+mixed_mild_ccw_s47       | PASS             corners 4/4  min  -1.54  out   3.0s | PASS             corners 4/4  min  -2.63  out  25.9s
+mixed_mild_cw_s47        | PASS             corners 4/4  min  -2.47  out   8.1s | PASS             corners 4/4  min  +1.37  out   0.0s
+mixed_strong_ccw_s17     | held             corners 0/4  min  -1.75  out  12.9s | PASS             corners 4/4  min  -3.55  out  26.4s
+mixed_strong_cw_s17      | severe_departure corners 0/4  min -12.01  out   6.4s | severe_departure corners 0/4  min -12.02  out   9.7s
+mixed_strong_ccw_s31     | held             corners 0/4  min  -1.51  out  12.3s | PASS             corners 4/4  min  -3.53  out  26.0s
+mixed_strong_cw_s31      | severe_departure corners 0/4  min -12.01  out  10.0s | held             corners 0/4  min -11.40  out  13.2s
+mixed_strong_ccw_s47     | held             corners 0/4  min  -1.64  out  12.3s | PASS             corners 4/4  min  -5.63  out  41.0s
+mixed_strong_cw_s47      | severe_departure corners 0/4  min -12.02  out   6.2s | held             corners 0/4  min -11.62  out  18.2s
+verified laps: {'v3r': '26/34', 'v4': '30/34'}
+
+v4 own timing (15fps, 70ms):
+  baseline_ccw           PASS             corners 4/4  min  -1.59  out   8.2s
+  baseline_cw            PASS             corners 4/4  min  -2.07  out  11.5s
+  turn_under_ccw         PASS             corners 4/4  min  -1.93  out   5.5s
+  turn_under_cw          PASS             corners 4/4  min  -1.72  out  10.3s
+  slip_ccw               PASS             corners 4/4  min  -1.17  out   3.8s
+  slip_cw                PASS             corners 4/4  min  -1.70  out   1.8s
+  mixed_strong_ccw       PASS             corners 4/4  min  -2.76  out   4.4s
+  mixed_strong_cw        PASS             corners 4/4  min  -7.22  out  38.4s

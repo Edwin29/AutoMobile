@@ -1,0 +1,155 @@
+{
+  "outcome": "held",
+  "verified_lap": false,
+  "progress_cm": 143.7720909910248,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 41.638877633391125,
+  "proper_corners": 1,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 19.638637033349283,
+      "turn_deg": 87.73597941916442,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      34.291284783066516
+    ],
+    [
+      "WS",
+      198.05557571115094
+    ],
+    [
+      "WN",
+      362.33278825294485
+    ],
+    [
+      "EN",
+      526.0970791810023
+    ]
+  ],
+  "min_margin_cm": -4.524720265406117,
+  "outside_s": 14.875305800037484,
+  "zero_output_s": 6.422340133341073,
+  "clean_lap": false,
+  "worst_first_corner_cm": -4.524720265406117,
+  "worst_after_first_corner_cm": -2.6574426159391322,
+  "episodes": [
+    {
+      "start_s": 1.5119860333284791,
+      "start_progress_cm": 2.8000000000004093,
+      "min_cm": -0.27720504082454056,
+      "end_s": 2.738576633325914,
+      "recovered": true
+    },
+    {
+      "start_s": 4.293809533326902,
+      "start_progress_cm": 14.100000000002183,
+      "min_cm": -3.5678730388589504,
+      "end_s": 7.4451345333322045,
+      "recovered": true
+    },
+    {
+      "start_s": 8.807867933334096,
+      "start_progress_cm": 32.90213319025611,
+      "min_cm": -2.294510847789722,
+      "end_s": 11.836673133345508,
+      "recovered": true
+    },
+    {
+      "start_s": 12.021157733346241,
+      "start_progress_cm": 48.794881891903856,
+      "min_cm": -4.524720265406117,
+      "end_s": 25.165558833361644,
+      "recovered": true
+    },
+    {
+      "start_s": 26.633873933371717,
+      "start_progress_cm": 107.57209099101658,
+      "min_cm": -1.714336688007208,
+      "end_s": 28.421803733372577,
+      "recovered": true
+    },
+    {
+      "start_s": 29.55465993336715,
+      "start_progress_cm": 119.57209099101931,
+      "min_cm": -2.6574426159391322,
+      "end_s": 34.42121783337347,
+      "recovered": true
+    },
+    {
+      "start_s": 35.983951233375365,
+      "start_progress_cm": 140.27209099102402,
+      "min_cm": -2.290430371884426,
+      "end_s": 37.745943533382885,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v3r",
+  "controller_source": "v3-recovery commit 8b41dd9 (recovery_rollout policy)",
+  "direction": "cw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.3227844329575982,
+    "start_duty_right": 0.30730225481835294,
+    "max_duty": 0.6471642805984641,
+    "cm_s_per_duty_left": 18.073970282259108,
+    "cm_s_per_duty_right": 17.47428976262532,
+    "turn_eff_left": 0.957499127532603,
+    "turn_eff_right": 0.9281323495732132,
+    "drift_rad_s": -0.00815169442256863,
+    "actuation_delay_s": 0.1459765221949341,
+    "time_constant_s": 0.05613108268378281,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 90,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 5.966954296375978,
+    "p95": 14.298908915233648,
+    "max": 15.142881592757872
+  },
+  "wall_s": 9.421212099958211
+}

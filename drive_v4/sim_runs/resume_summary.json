@@ -1,0 +1,23 @@
+{
+  "scenario": "resume",
+  "outcome": "lap_complete",
+  "sim_s": 117.13333333333333,
+  "progress_cm": 646.4773895201787,
+  "route_cm": 646.0140586101134,
+  "min_margin_cm": 0.2988249823475968,
+  "frames_margin_below_0": 0,
+  "frames_margin_below_minus3": 0,
+  "reasons": {
+    "road_lost_hold": 2,
+    "drive": 1755
+  },
+  "wall_s": 373.19463749999704,
+  "plant": {
+    "deadband": 0.28,
+    "gain": 15.0,
+    "track": 13.0,
+    "yaw_eff": 0.85,
+    "left_bias": 0.0
+  },
+  "video": "C:\\Users\\user\\AppData\\Local\\Temp\\claude\\b2a73cb441173feb\\37d243ac-6618-4e4e-a585-715bfa88d552\\scratchpad\\sim_v4map\\resume.mp4"
+}

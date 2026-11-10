@@ -1,0 +1,166 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": false,
+  "progress_cm": 669.7883639640173,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 125.20284743351183,
+  "proper_corners": 3,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 17.75972413334812,
+      "end_s": 37.344960733381974,
+      "turn_deg": -69.08830720680929,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 51.06478773340686,
+      "end_s": 65.98883973342772,
+      "turn_deg": -68.71662523035877,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 79.97518733344818,
+      "end_s": 94.32392003347437,
+      "turn_deg": -58.57412656149838,
+      "proper": false
+    },
+    {
+      "corner": "ES",
+      "start_s": 108.3021238334948,
+      "end_s": 125.20284743351183,
+      "turn_deg": -91.9394954647561,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      132.89128478308592
+    ],
+    [
+      "WN",
+      296.6555757111672
+    ],
+    [
+      "WS",
+      460.93278825292793
+    ],
+    [
+      "ES",
+      624.6970791809932
+    ]
+  ],
+  "min_margin_cm": -7.222137073474244,
+  "outside_s": 56.070938100078976,
+  "zero_output_s": 1.7668791333305702,
+  "clean_lap": false,
+  "worst_first_corner_cm": -6.020131995754373,
+  "worst_after_first_corner_cm": -7.222137073474244,
+  "episodes": [
+    {
+      "start_s": 18.409648233349053,
+      "start_progress_cm": 90.10000000001651,
+      "min_cm": -1.0313387578601265,
+      "end_s": 21.867096333358116,
+      "recovered": true
+    },
+    {
+      "start_s": 22.59631533336206,
+      "start_progress_cm": 106.20000000002017,
+      "min_cm": -6.020131995754373,
+      "end_s": 43.554597533388765,
+      "recovered": true
+    },
+    {
+      "start_s": 55.17210743341376,
+      "start_progress_cm": 273.6720909910508,
+      "min_cm": -7.222137073474244,
+      "end_s": 72.56181483343126,
+      "recovered": true
+    },
+    {
+      "start_s": 83.48106473345386,
+      "start_progress_cm": 435.84418198203014,
+      "min_cm": -7.1366520167984975,
+      "end_s": 100.71452703347373,
+      "recovered": true
+    },
+    {
+      "start_s": 112.65855093348915,
+      "start_progress_cm": 600.8162729730112,
+      "min_cm": -1.830775717811889,
+      "end_s": 117.24977453349848,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7a751bf0f8b2",
+  "direction": "ccw",
+  "effects": [
+    "dropout",
+    "glare",
+    "low_power"
+  ],
+  "seed": 51,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.339766352031171,
+    "start_duty_right": 0.2857482001938721,
+    "max_duty": 0.9457109023138026,
+    "cm_s_per_duty_left": 17.681624022478122,
+    "cm_s_per_duty_right": 17.214451249589562,
+    "turn_eff_left": 0.5088088079521724,
+    "turn_eff_right": 0.9164293064700162,
+    "drift_rad_s": 0.021628731173763904,
+    "actuation_delay_s": 0.09411385967257978,
+    "time_constant_s": 0.21736008370128357,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 274,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 51
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 1.6363688783154862,
+    "p95": 5.334593620454123,
+    "max": 11.05842901714234
+  },
+  "wall_s": 20.289120099972934
+}

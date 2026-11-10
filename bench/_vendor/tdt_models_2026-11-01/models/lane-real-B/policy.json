@@ -1,0 +1,88 @@
+{
+  "preprocess": "rgb_bottom_half_yuv_blur3_200x66_chw_div255",
+  "action_space": "normalized_linear_angular_v1",
+  "output": "[linear/max_speed_m_s, angular/max_yaw_rad_s] in [-1, 1]",
+  "max_speed_m_s": 0.18,
+  "max_yaw_rad_s": 2.0,
+  "experiment": "B-real-only",
+  "seed": 42,
+  "frame_stride": 1,
+  "recovery_within_m": 0.0,
+  "exclude_junctions_m": 0.0,
+  "synthetic_roots": [],
+  "splits": {
+    "train": [],
+    "validation": [],
+    "test": []
+  },
+  "synthetic_seed_history": [],
+  "train_on": "real",
+  "select_on": "real",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001
+  },
+  "epochs": 5,
+  "best_epoch": 2,
+  "optimizer_steps": 500,
+  "wall_time_s": 788.7,
+  "init_checkpoint": null,
+  "real_data": {
+    "manifest": "outputs/real/manifest-1031.json",
+    "manifest_id": "101143f90aeaf366",
+    "sessions": {
+      "train": 3,
+      "validation": 1,
+      "test": 1
+    },
+    "frames": {
+      "train": 6393,
+      "validation": 2966
+    },
+    "used_for_training": true
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_normalized_mae": [
+        0.39682717236488635,
+        0.1794839804277417
+      ]
+    },
+    {
+      "epoch": 2,
+      "validation_normalized_mae": [
+        0.39306674643456735,
+        0.17600582482761734
+      ]
+    },
+    {
+      "epoch": 3,
+      "validation_normalized_mae": [
+        0.3920907900289997,
+        0.2631901029952056
+      ]
+    },
+    {
+      "epoch": 4,
+      "validation_normalized_mae": [
+        0.3947967055353536,
+        0.22925041385864134
+      ]
+    },
+    {
+      "epoch": 5,
+      "validation_normalized_mae": [
+        0.3978816718566442,
+        0.22078415936340132
+      ]
+    }
+  ],
+  "frames": {
+    "train": 6393,
+    "validation": 2966
+  },
+  "test_evaluated": false,
+  "warning": "Selection used validation only; run evaluate_lane_offline.py --split test once after fixing settings. Offline MAE is not closed-loop driving performance."
+}

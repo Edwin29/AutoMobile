@@ -1,0 +1,169 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 673.7883639640158,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 123.64969013351563,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 18.209648233349057,
+      "end_s": 33.72630143337301,
+      "turn_deg": -75.99051115859926,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 48.05245533339694,
+      "end_s": 63.120034533416394,
+      "turn_deg": -94.17180616402737,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 78.12087103344783,
+      "end_s": 93.40492303346872,
+      "turn_deg": -80.96678326484553,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 107.80283733349,
+      "end_s": 123.02093273351046,
+      "turn_deg": -92.41054689901685,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -5.678667383767703,
+  "outside_s": 33.407263300047575,
+  "zero_output_s": 0.43994083333139616,
+  "clean_lap": false,
+  "worst_first_corner_cm": -1.1868557489057139,
+  "worst_after_first_corner_cm": -5.678667383767703,
+  "episodes": [
+    {
+      "start_s": 26.931202633371793,
+      "start_progress_cm": 140.04850754109935,
+      "min_cm": -1.1868557489057139,
+      "end_s": 29.874659933367145,
+      "recovered": true
+    },
+    {
+      "start_s": 56.79074323340823,
+      "start_progress_cm": 303.8105437229042,
+      "min_cm": -2.5562818692385747,
+      "end_s": 64.0922530334193,
+      "recovered": true
+    },
+    {
+      "start_s": 70.21646573342993,
+      "start_progress_cm": 374.3441819820419,
+      "min_cm": -0.6400951800424508,
+      "end_s": 72.23189073343028,
+      "recovered": true
+    },
+    {
+      "start_s": 85.26981483345133,
+      "start_progress_cm": 456.5670951113376,
+      "min_cm": -5.678667383767703,
+      "end_s": 104.16456523348522,
+      "recovered": true
+    },
+    {
+      "start_s": 105.92397873348999,
+      "start_progress_cm": 569.7162729729998,
+      "min_cm": -0.7029560273497708,
+      "end_s": 108.16212383349483,
+      "recovered": true
+    },
+    {
+      "start_s": 116.46046463349685,
+      "start_progress_cm": 631.9507037811784,
+      "min_cm": -3.259824382544082,
+      "end_s": 123.64969013351563,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v3r",
+  "controller_source": "v3-recovery commit 8b41dd9 (recovery_rollout policy)",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.2677383564357299,
+    "start_duty_right": 0.30053634734158036,
+    "max_duty": 0.6982194757414777,
+    "cm_s_per_duty_left": 15.576578190622461,
+    "cm_s_per_duty_right": 17.52898447818989,
+    "turn_eff_left": 0.5633089298256547,
+    "turn_eff_right": 0.9358528528539305,
+    "drift_rad_s": 0.00242897279299744,
+    "actuation_delay_s": 0.09183066908375619,
+    "time_constant_s": 0.07134039689800939,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 271,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 0.6644666886095125,
+    "p95": 2.0234102235020854,
+    "max": 3.0407778658547464
+  },
+  "wall_s": 25.800803599879146
+}

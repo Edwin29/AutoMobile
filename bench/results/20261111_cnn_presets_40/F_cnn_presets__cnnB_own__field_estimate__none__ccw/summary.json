@@ -1,0 +1,151 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 670.3883639640253,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 107.18933333333665,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 13.733333333333226,
+      "end_s": 28.92533333333369,
+      "turn_deg": -93.00130563655604,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 40.13733333333411,
+      "end_s": 55.13333333333468,
+      "turn_deg": -93.78429137477347,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 66.4373333333351,
+      "end_s": 81.14133333333567,
+      "turn_deg": -92.6436567392237,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 92.35733333333609,
+      "end_s": 107.18933333333665,
+      "turn_deg": -92.61913242092287,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -1.7992651591287228,
+  "outside_s": 21.784000000000955,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": -1.062118501254659,
+  "worst_after_first_corner_cm": -1.7992651591287228,
+  "episodes": [
+    {
+      "start_s": 23.273333333333476,
+      "start_progress_cm": 142.5317495257318,
+      "min_cm": -1.062118501254659,
+      "end_s": 30.345333333333745,
+      "recovered": true
+    },
+    {
+      "start_s": 49.44533333333447,
+      "start_progress_cm": 306.59177474569196,
+      "min_cm": -1.7992651591287228,
+      "end_s": 58.085333333334795,
+      "recovered": true
+    },
+    {
+      "start_s": 75.70533333333546,
+      "start_progress_cm": 471.06922830159795,
+      "min_cm": -0.955767657038237,
+      "end_s": 82.29333333333571,
+      "recovered": true
+    },
+    {
+      "start_s": 102.07733333333645,
+      "start_progress_cm": 637.9104845443067,
+      "min_cm": -1.08818346312664,
+      "end_s": 106.73733333333664,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "cnnB",
+  "controller_source": "team CNN lane-real-B (track-digital-twin models-2026-11-01), speed_scale 1.0",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2976,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": null,
+  "wall_s": 96.76422670017928
+}

@@ -1,0 +1,194 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 670.7883639640107,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 164.28533333333883,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 15.369333333333207,
+      "end_s": 35.67333333333394,
+      "turn_deg": -87.08685175840336,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 54.89733333333467,
+      "end_s": 73.25733333333537,
+      "turn_deg": -92.52280955810677,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 91.86933333333607,
+      "end_s": 118.22133333333707,
+      "turn_deg": -95.25466587291069,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 141.22533333333794,
+      "end_s": 164.28533333333883,
+      "turn_deg": -92.71669367910943,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.89128478308615
+    ],
+    [
+      "WN",
+      297.65557571116744
+    ],
+    [
+      "WS",
+      461.9327882529282
+    ],
+    [
+      "ES",
+      625.6970791809936
+    ]
+  ],
+  "min_margin_cm": -3.5581701708031233,
+  "outside_s": 6.228000000000285,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": -3.5581701708031233,
+  "worst_after_first_corner_cm": 0.0,
+  "episodes": [
+    {
+      "start_s": 24.36933333333352,
+      "start_progress_cm": 132.89945190781708,
+      "min_cm": -3.5581701708031233,
+      "end_s": 31.605333333333792,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "cnnA5b",
+  "controller_source": "team CNN lane-v5b (track-digital-twin models-2026-11-01), speed_scale 1.0",
+  "direction": "ccw",
+  "effects": [
+    "recurring_strong",
+    "seam"
+  ],
+  "seed": 31,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3381821381359914,
+    "start_duty_right": 0.2905314734590321,
+    "max_duty": 0.667039582183796,
+    "cm_s_per_duty_left": 14.59779971309707,
+    "cm_s_per_duty_right": 14.994990774667723,
+    "turn_eff_left": 0.5362040286263249,
+    "turn_eff_right": 0.6851384313163449,
+    "drift_rad_s": -0.008365494190667459,
+    "actuation_delay_s": 0.12591524471551452,
+    "time_constant_s": 0.14643793066690433,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 4562,
+  "variation": {
+    "name": "harsh",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.12,
+    "wander_speed_rel": 0.1,
+    "wander_start_duty": 0.025,
+    "wander_max_duty": 0.08,
+    "wander_delay_s": 0.03,
+    "trend_speed_rel_per_min": -0.06,
+    "trend_max_duty_rel_per_min": -0.06,
+    "patches": 6,
+    "patch_speed": [
+      0.75,
+      1.0
+    ],
+    "patch_turn": [
+      0.65,
+      1.1
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.06,
+    "seed": 31
+  },
+  "floor_patches": [
+    {
+      "box": [
+        -83.89692508193107,
+        -54.446030962346335,
+        75.3837075940142,
+        104.83460171359891
+      ],
+      "speed": 0.9193569442347034,
+      "turn": 0.6678461247970766
+    },
+    {
+      "box": [
+        -91.59295036907888,
+        -52.01955719887111,
+        -100.96423909129575,
+        -61.39084592108799
+      ],
+      "speed": 0.825539606833236,
+      "turn": 0.9156251097181938
+    },
+    {
+      "box": [
+        18.569820946483564,
+        47.057648106265106,
+        -96.0245213598813,
+        -67.53669420009976
+      ],
+      "speed": 0.7759357187113003,
+      "turn": 0.7781856944775849
+    },
+    {
+      "box": [
+        -50.068382061159994,
+        -13.218997605635977,
+        -96.77243621546877,
+        -59.923051759944755
+      ],
+      "speed": 0.9742265163777126,
+      "turn": 0.8829208719735937
+    },
+    {
+      "box": [
+        -109.84578957143685,
+        -69.95760961169856,
+        -4.692289895771928,
+        35.19589006396638
+      ],
+      "speed": 0.8944232704593809,
+      "turn": 0.7138466799215389
+    },
+    {
+      "box": [
+        12.310547953825118,
+        49.39429343580322,
+        71.8868901168984,
+        108.9706355988765
+      ],
+      "speed": 0.9199739554120077,
+      "turn": 0.7955604666064042
+    }
+  ],
+  "pose_error_cm": null,
+  "wall_s": 636.4938631998375
+}

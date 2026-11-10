@@ -1,0 +1,52 @@
+{
+ "source": "pi_TEST_captures_20261105 (2026-10-30..11-05, every 6th frame) + v4 live runs 2026-11-10 (every 4th raw frame)",
+ "frames": 2470,
+ "lower_half_luminance_p5_p50_p95": [
+  69.00592079162598,
+  90.97167587280273,
+  123.60765266418457
+ ],
+ "laplacian_var_p5_p50_p95": [
+  6.719549322128296,
+  12.47913646697998,
+  40.86804847717283
+ ],
+ "lower_half_mean_bgr_p50": [
+  79.45591354370117,
+  105.24765396118164,
+  66.09651947021484
+ ],
+ "road_bgr": [
+  47.4,
+  55.9,
+  31.4
+ ],
+ "green_bgr": [
+  84.0,
+  169.2,
+  71.0
+ ],
+ "dark_startup_frames": "runs 20261031_170348/170807 start with dark magenta frames (lum < 20): exposure/white balance not yet settled",
+ "seen_in_logs": [
+  "specular sheen of ceiling lights on the glossy black mat",
+  "bright mat creases",
+  "magenta/purple lens shading at the corners",
+  "people, chairs, other cars above the horizon",
+  "rainbow lens flare from a lamp",
+  "soft focus (laplacian lower than the clean render)"
+ ],
+ "background_frames": [
+  "frame_00024.jpg / 20261031_170348",
+  "frame_02430.jpg / 20261105_150939",
+  "frame_01584.jpg / 20261031_154112",
+  "frame_00780.jpg / 20261104_190459",
+  "0224_raw.jpg / live_20261110_185902",
+  "frame_00420.jpg / 20261031_160224",
+  "0108_raw.jpg / live_20261110_200105",
+  "frame_00300.jpg / 20261031_171440",
+  "frame_00000.jpg / 20261031_143209",
+  "frame_00930.jpg / 20261031_134739",
+  "frame_00288.jpg / 20261031_161433",
+  "frame_00468.jpg / 20261031_143905"
+ ]
+}

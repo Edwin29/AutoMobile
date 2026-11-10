@@ -1,0 +1,233 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 654.6883639640401,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 160.70878473356706,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 15.904299133347722,
+      "turn_deg": 77.7412949574991,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 31.649892833368142,
+      "end_s": 55.697887033413714,
+      "turn_deg": 78.84683299997212,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 69.47752353343351,
+      "end_s": 93.0049230334688,
+      "turn_deg": 108.38722856023375,
+      "proper": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 113.7241597334944,
+      "end_s": 140.740243033536,
+      "turn_deg": 83.54371810746305,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      33.891284783066425
+    ],
+    [
+      "WS",
+      197.65557571115085
+    ],
+    [
+      "WN",
+      361.9327882529447
+    ],
+    [
+      "EN",
+      525.6970791810022
+    ]
+  ],
+  "min_margin_cm": -4.743938577479014,
+  "outside_s": 36.371108300076656,
+  "zero_output_s": 3.1049363333317626,
+  "clean_lap": false,
+  "worst_first_corner_cm": -1.1952771055298257,
+  "worst_after_first_corner_cm": -4.743938577479014,
+  "episodes": [
+    {
+      "start_s": 2.232814833330534,
+      "start_progress_cm": 5.400000000000773,
+      "min_cm": -0.1506128370926323,
+      "end_s": 3.4415649333280935,
+      "recovered": true
+    },
+    {
+      "start_s": 7.896131433332523,
+      "start_progress_cm": 41.441804334932726,
+      "min_cm": -1.1952771055298257,
+      "end_s": 15.687353233349763,
+      "recovered": true
+    },
+    {
+      "start_s": 44.11054903339323,
+      "start_progress_cm": 191.09902604403038,
+      "min_cm": -3.8628661712791743,
+      "end_s": 54.85210743341371,
+      "recovered": true
+    },
+    {
+      "start_s": 79.22053483344285,
+      "start_progress_cm": 373.2571625305607,
+      "min_cm": -0.2967485300682142,
+      "end_s": 81.50336923345385,
+      "recovered": true
+    },
+    {
+      "start_s": 86.44807643345338,
+      "start_progress_cm": 393.8162729730657,
+      "min_cm": -4.743938577479014,
+      "end_s": 94.64075513346947,
+      "recovered": true
+    },
+    {
+      "start_s": 124.94863233351194,
+      "start_progress_cm": 507.2162729730469,
+      "min_cm": -2.852761269710654,
+      "end_s": 137.45240253353427,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7c4753ff9c57",
+  "direction": "cw",
+  "effects": [
+    "recurring_strong",
+    "seam"
+  ],
+  "seed": 31,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 354,
+  "variation": {
+    "name": "harsh",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.12,
+    "wander_speed_rel": 0.1,
+    "wander_start_duty": 0.025,
+    "wander_max_duty": 0.08,
+    "wander_delay_s": 0.03,
+    "trend_speed_rel_per_min": -0.06,
+    "trend_max_duty_rel_per_min": -0.06,
+    "patches": 6,
+    "patch_speed": [
+      0.75,
+      1.0
+    ],
+    "patch_turn": [
+      0.65,
+      1.1
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.06,
+    "seed": 31
+  },
+  "floor_patches": [
+    {
+      "box": [
+        -83.89692508193107,
+        -54.446030962346335,
+        75.3837075940142,
+        104.83460171359891
+      ],
+      "speed": 0.9193569442347034,
+      "turn": 0.6678461247970766
+    },
+    {
+      "box": [
+        -91.59295036907888,
+        -52.01955719887111,
+        -100.96423909129575,
+        -61.39084592108799
+      ],
+      "speed": 0.825539606833236,
+      "turn": 0.9156251097181938
+    },
+    {
+      "box": [
+        18.569820946483564,
+        47.057648106265106,
+        -96.0245213598813,
+        -67.53669420009976
+      ],
+      "speed": 0.7759357187113003,
+      "turn": 0.7781856944775849
+    },
+    {
+      "box": [
+        -50.068382061159994,
+        -13.218997605635977,
+        -96.77243621546877,
+        -59.923051759944755
+      ],
+      "speed": 0.9742265163777126,
+      "turn": 0.8829208719735937
+    },
+    {
+      "box": [
+        -109.84578957143685,
+        -69.95760961169856,
+        -4.692289895771928,
+        35.19589006396638
+      ],
+      "speed": 0.8944232704593809,
+      "turn": 0.7138466799215389
+    },
+    {
+      "box": [
+        12.310547953825118,
+        49.39429343580322,
+        71.8868901168984,
+        108.9706355988765
+      ],
+      "speed": 0.9199739554120077,
+      "turn": 0.7955604666064042
+    }
+  ],
+  "pose_error_cm": {
+    "mean": 5.80656403101404,
+    "p95": 17.339542569951895,
+    "max": 26.193236797089522
+  },
+  "wall_s": 72.75960499979556
+}

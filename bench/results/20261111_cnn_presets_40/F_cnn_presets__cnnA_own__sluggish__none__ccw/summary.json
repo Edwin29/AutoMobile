@@ -1,0 +1,179 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 670.4883639640602,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 74.44533333333541,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 9.089333333333279,
+      "end_s": 19.853333333333346,
+      "turn_deg": -101.99256505404742,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 27.413333333333632,
+      "end_s": 38.21333333333404,
+      "turn_deg": -106.21463653121265,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 45.77333333333433,
+      "end_s": 56.32133333333473,
+      "turn_deg": -103.88454750053904,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 63.73733333333501,
+      "end_s": 74.44533333333541,
+      "turn_deg": -105.9836124092445,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -2.278538878622669,
+  "outside_s": 23.924000000000078,
+  "zero_output_s": 0.06933333333333333,
+  "clean_lap": false,
+  "worst_first_corner_cm": -1.6437709771810631,
+  "worst_after_first_corner_cm": -2.278538878622669,
+  "episodes": [
+    {
+      "start_s": 12.761333333333237,
+      "start_progress_cm": 124.15575883945229,
+      "min_cm": -1.6437709771810631,
+      "end_s": 18.449333333333293,
+      "recovered": true
+    },
+    {
+      "start_s": 23.66933333333349,
+      "start_progress_cm": 217.7720909910381,
+      "min_cm": -2.278538878622669,
+      "end_s": 28.581333333333678,
+      "recovered": true
+    },
+    {
+      "start_s": 30.905333333333765,
+      "start_progress_cm": 286.22919047171,
+      "min_cm": -1.1371613638864133,
+      "end_s": 35.62133333333394,
+      "recovered": true
+    },
+    {
+      "start_s": 42.20933333333419,
+      "start_progress_cm": 383.24418198204273,
+      "min_cm": -1.5535018857297054,
+      "end_s": 46.47333333333435,
+      "recovered": true
+    },
+    {
+      "start_s": 48.99333333333445,
+      "start_progress_cm": 447.7267536460552,
+      "min_cm": -1.1712423202633886,
+      "end_s": 53.70933333333463,
+      "recovered": true
+    },
+    {
+      "start_s": 60.24533333333488,
+      "start_progress_cm": 546.9162729730463,
+      "min_cm": -1.2210761870068865,
+      "end_s": 64.27733333333502,
+      "recovered": true
+    },
+    {
+      "start_s": 67.38933333333514,
+      "start_progress_cm": 616.1572847589609,
+      "min_cm": -0.6481921399742063,
+      "end_s": 69.40533333333522,
+      "recovered": true
+    },
+    {
+      "start_s": 69.47733333333522,
+      "start_progress_cm": 629.5667914759764,
+      "min_cm": -1.4770083254684465,
+      "end_s": 73.24133333333536,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "cnnA",
+  "controller_source": "team CNN lane-v4b (track-digital-twin models-2026-11-01), speed_scale 1.0",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.15,
+    "time_constant_s": 0.25,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 2066,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": null,
+  "wall_s": 63.63658610009588
+}

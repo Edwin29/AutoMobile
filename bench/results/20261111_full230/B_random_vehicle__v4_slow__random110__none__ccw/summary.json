@@ -1,0 +1,162 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 690.8883639640293,
+  "lap_cm": 655.0883639640593,
+  "simulated_s": 111.46290983349022,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "EN",
+      "start_s": 15.36735323334977,
+      "end_s": 28.628069333369716,
+      "turn_deg": -80.81796328042218,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 40.24858853338743,
+      "end_s": 55.152107433413754,
+      "turn_deg": -98.48488764077545,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 66.8333243334284,
+      "end_s": 80.98604053345379,
+      "turn_deg": -79.30694751249877,
+      "proper": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 92.55593673346868,
+      "end_s": 108.22212383349482,
+      "turn_deg": -86.84351414257065,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "EN",
+      133.4912847830861
+    ],
+    [
+      "WN",
+      297.2555757111673
+    ],
+    [
+      "WS",
+      461.53278825292807
+    ],
+    [
+      "ES",
+      625.2970791809934
+    ]
+  ],
+  "min_margin_cm": -6.928969611804303,
+  "outside_s": 44.80144210008625,
+  "zero_output_s": 1.371986033328479,
+  "clean_lap": false,
+  "worst_first_corner_cm": -6.480082017348173,
+  "worst_after_first_corner_cm": -6.928969611804303,
+  "episodes": [
+    {
+      "start_s": 19.501860833349255,
+      "start_progress_cm": 112.90000000002169,
+      "min_cm": -6.480082017348173,
+      "end_s": 31.855909833371342,
+      "recovered": true
+    },
+    {
+      "start_s": 44.61623423339062,
+      "start_progress_cm": 277.37209099105166,
+      "min_cm": -2.8362014552417083,
+      "end_s": 53.74995723341285,
+      "recovered": true
+    },
+    {
+      "start_s": 54.30728593341293,
+      "start_progress_cm": 336.94418198204454,
+      "min_cm": -0.08985948043932979,
+      "end_s": 56.08415263341083,
+      "recovered": true
+    },
+    {
+      "start_s": 70.71068083342978,
+      "start_progress_cm": 438.84418198203036,
+      "min_cm": -6.928969611804303,
+      "end_s": 82.34819073345469,
+      "recovered": true
+    },
+    {
+      "start_s": 96.31104423347314,
+      "start_progress_cm": 602.5162729730183,
+      "min_cm": -4.997717277240077,
+      "end_s": 111.46290983349022,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7a751bf0f8b2",
+  "direction": "ccw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.31700186644179196,
+    "start_duty_right": 0.30017790641077685,
+    "max_duty": 0.6199250539117444,
+    "cm_s_per_duty_left": 17.695520605873845,
+    "cm_s_per_duty_right": 17.748421886208554,
+    "turn_eff_left": 0.9319950741205605,
+    "turn_eff_right": 0.4878403880020652,
+    "drift_rad_s": 0.012157575830612985,
+    "actuation_delay_s": 0.014685073678433235,
+    "time_constant_s": 0.11141978745467418,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 245,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 2.280359998705467,
+    "p95": 5.881160486484946,
+    "max": 20.719147646106737
+  },
+  "wall_s": 20.892797499895096
+}

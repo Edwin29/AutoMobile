@@ -1,0 +1,103 @@
+{
+  "scenario": "mix02",
+  "profile": {
+    "drift": -0.035,
+    "sag": 0.65,
+    "sag_s": 12.0,
+    "occlusion_s": 3.0,
+    "turn_proxy": true
+  },
+  "direction": "ccw",
+  "period_s": 0.6,
+  "seed": 72,
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "frames": 206,
+  "simulated_s": 124.19451240000441,
+  "progress_cm": 646.0140586101134,
+  "proper_corner_exits": 4,
+  "truth_corner_events": [
+    {
+      "corner": "WS",
+      "start_s": 6.859999999999993,
+      "end_s": 22.79957319999871,
+      "turn_deg": -91.97490899662752,
+      "proper_exit": true
+    },
+    {
+      "corner": "ES",
+      "start_s": 41.939591800002155,
+      "end_s": 52.06000000000015,
+      "turn_deg": -94.30956278252971,
+      "proper_exit": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 71.17999999999996,
+      "end_s": 81.49999999999984,
+      "turn_deg": -93.94382457022243,
+      "proper_exit": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 100.62855670000343,
+      "end_s": 110.96082880000169,
+      "turn_deg": -95.42799771275453,
+      "proper_exit": true
+    }
+  ],
+  "minimum_true_margin_cm": -0.3795449492381948,
+  "outside_s": 1.792064600002518,
+  "stopped_s": 3.346088600000124,
+  "penetration_episodes": [
+    {
+      "start_s": 17.4,
+      "start_progress_cm": 66.73898705536732,
+      "min_cm": -0.3795449492381948,
+      "end_s": 19.880000000000003,
+      "travel_cm": 11.238655520964073,
+      "recovered": true
+    },
+    {
+      "start_s": 107.53999999999967,
+      "start_progress_cm": 555.8865197576018,
+      "min_cm": -0.04210341336627721,
+      "end_s": 108.85999999999963,
+      "travel_cm": 9.04754781920576,
+      "recovered": true
+    }
+  ],
+  "events": [
+    {
+      "kind": "first_corner_disturbance_window",
+      "t": 9.279999999999992,
+      "progress_cm": 42.10922590135141
+    }
+  ],
+  "event_time_s": 9.279999999999992,
+  "mean_pose_error_cm": 0.6365107192021136,
+  "max_pose_error_cm": 8.43034678949957,
+  "p95_pose_error_cm": 2.580460988747654,
+  "mean_pwm_only_error_cm": 135.17753978015415,
+  "max_pwm_only_error_cm": 423.01286085329144,
+  "p95_yaw_error_deg": 4.841692094474747,
+  "reasons": {
+    "tracking": 182,
+    "no_local_or_map_support": 4,
+    "rolling_limited": 20
+  },
+  "path_reasons": {
+    "tracking": 202,
+    "no_local_or_map_support": 4
+  },
+  "observation_status": {
+    "observed": 201,
+    "prediction_only": 5
+  },
+  "saturation_fraction": 0.0970873786407767,
+  "map_hash": "7063f64a93146548e1e0e1bc0621978bc8f869ee27bb8a3e594205e0d9309d7c",
+  "code_hash": "47bc0119788a780b88cf349c21a40dc9366e05ad2a0030e1ad69685a5f88432d",
+  "code_unchanged": true,
+  "wall_s": 20.78897499991581,
+  "limits": "Fixed corrected candidate map; synthetic raster camera. Historical turn ratios are proxies, other magnitudes are declared stress assumptions. Same-PWM shadow is NOT a second camera-free controlled trajectory. No new adaptation or controller tuning. Effective stalled-side model is not four-wheel contact physics. Laptop latency trace + assumed 50ms delivery, not measured Pi timing."
+}

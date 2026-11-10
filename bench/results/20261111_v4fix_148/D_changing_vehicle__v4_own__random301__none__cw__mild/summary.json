@@ -1,0 +1,172 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 654.6883639640347,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 113.77333333332871,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 15.033333333333374,
+      "turn_deg": 82.63467668748495,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 28.093333333333426,
+      "end_s": 42.79333333333349,
+      "turn_deg": 95.55519215110783,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 55.813333333333546,
+      "end_s": 70.96333333333288,
+      "turn_deg": 92.57863740748311,
+      "proper": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 84.47333333333157,
+      "end_s": 99.21333333333013,
+      "turn_deg": 89.66542224132068,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      34.291284783066516
+    ],
+    [
+      "WS",
+      198.05557571115094
+    ],
+    [
+      "WN",
+      362.33278825294485
+    ],
+    [
+      "EN",
+      526.0970791810023
+    ]
+  ],
+  "min_margin_cm": -5.8359683756965275,
+  "outside_s": 12.040000000000038,
+  "zero_output_s": 0.24333333333333335,
+  "clean_lap": false,
+  "worst_first_corner_cm": -5.8359683756965275,
+  "worst_after_first_corner_cm": -0.07474085857278112,
+  "episodes": [
+    {
+      "start_s": 5.373333333333336,
+      "start_progress_cm": 21.37989038156178,
+      "min_cm": -5.8359683756965275,
+      "end_s": 17.903333333333386,
+      "recovered": true
+    },
+    {
+      "start_s": 37.06333333333346,
+      "start_progress_cm": 210.0736760890794,
+      "min_cm": -0.07474085857278112,
+      "end_s": 38.593333333333476,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v4",
+  "controller_source": "drive_v4 pinned v4_7c4753ff9c57",
+  "direction": "cw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v4_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.07,
+    "source": "drive_v4 measured on the Pi (sensor->write median 70 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.2878101892664165,
+    "start_duty_right": 0.3341498537614783,
+    "max_duty": 0.9421927266143664,
+    "cm_s_per_duty_left": 16.16413401574615,
+    "cm_s_per_duty_right": 15.041791276099975,
+    "turn_eff_left": 0.8532256856374574,
+    "turn_eff_right": 0.5041504268963911,
+    "drift_rad_s": -0.027522086452931926,
+    "actuation_delay_s": 0.002103915214590185,
+    "time_constant_s": 0.14551941652013908,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 1624,
+  "variation": {
+    "name": "mild",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.05,
+    "wander_speed_rel": 0.04,
+    "wander_start_duty": 0.01,
+    "wander_max_duty": 0.03,
+    "wander_delay_s": 0.01,
+    "trend_speed_rel_per_min": -0.02,
+    "trend_max_duty_rel_per_min": -0.02,
+    "patches": 3,
+    "patch_speed": [
+      0.9,
+      1.0
+    ],
+    "patch_turn": [
+      0.85,
+      1.05
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.02,
+    "seed": 17
+  },
+  "floor_patches": [
+    {
+      "box": [
+        -67.92510482958559,
+        -40.56350599630017,
+        74.35860243593974,
+        101.72020126922517
+      ],
+      "speed": 0.9214941963561769,
+      "turn": 0.9271648075178397
+    },
+    {
+      "box": [
+        -28.857538850155517,
+        5.870178560110215,
+        -106.36803465811452,
+        -71.64031724784878
+      ],
+      "speed": 0.9015289656596712,
+      "turn": 0.9008081827585278
+    },
+    {
+      "box": [
+        -114.28320750162062,
+        -77.63628501160655,
+        -84.92559009506412,
+        -48.278667605050046
+      ],
+      "speed": 0.9036777357667325,
+      "turn": 0.963507962629689
+    }
+  ],
+  "pose_error_cm": {
+    "mean": 0.9831531598699909,
+    "p95": 2.8703394807219373,
+    "max": 8.434236019458268
+  },
+  "wall_s": 110.09671410010196
+}

@@ -1,0 +1,46 @@
+{
+  "controller": "drive_v4",
+  "timing": "own",
+  "period_s": 0.06666666666666667,
+  "scenario": "mix08",
+  "direction": "ccw",
+  "seed": 82,
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "simulated_s": 114.53666666666197,
+  "progress_cm": 646.0140586101134,
+  "proper_corner_exits": 4,
+  "minimum_true_margin_cm": -3.1080136977549007,
+  "outside_s": 11.070000000000233,
+  "stopped_s": 0.27666666666666667,
+  "penetration_episodes": [
+    {
+      "start_s": 11.00666666666669,
+      "start_progress_cm": 46.13531109150466,
+      "min_cm": -3.1080136977549007,
+      "end_s": 20.89666666666673,
+      "travel_cm": 55.86745457011813,
+      "recovered": true
+    },
+    {
+      "start_s": 98.69666666666352,
+      "start_progress_cm": 555.3916420271283,
+      "min_cm": -0.47910854557736116,
+      "end_s": 101.8866666666632,
+      "travel_cm": 17.556310759875828,
+      "recovered": true
+    }
+  ],
+  "frames": 1635,
+  "mean_pose_error_cm": 0.7555569167274598,
+  "reasons": {
+    "road_lost_hold": 2,
+    "drive": 1633
+  },
+  "turn_gain_end": {
+    "left": 0.9998030051778679,
+    "right": 0.62
+  },
+  "median_step_ms": 39.17989996261895,
+  "wall_s": 101.53916239994578
+}

@@ -1,0 +1,173 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 654.688363964034,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 134.4673539335306,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 19.83863703334928,
+      "turn_deg": 80.0131777444486,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 35.923951233375355,
+      "end_s": 52.28164213340274,
+      "turn_deg": 90.20401296255393,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 68.25260723342588,
+      "end_s": 84.47070023344905,
+      "turn_deg": 86.2606708939443,
+      "proper": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 100.03789813347224,
+      "end_s": 117.04977453349852,
+      "turn_deg": 68.72899629979689,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      34.89128478306665
+    ],
+    [
+      "WS",
+      198.65557571115107
+    ],
+    [
+      "WN",
+      362.93278825294493
+    ],
+    [
+      "EN",
+      526.6970791810023
+    ]
+  ],
+  "min_margin_cm": -1.0987162099025483,
+  "outside_s": 6.741083200011497,
+  "zero_output_s": 1.8128148333305338,
+  "clean_lap": false,
+  "worst_first_corner_cm": -0.7566447080200476,
+  "worst_after_first_corner_cm": -1.0987162099025483,
+  "episodes": [
+    {
+      "start_s": 19.22186083334926,
+      "start_progress_cm": 77.17209099100967,
+      "min_cm": -0.7566447080200476,
+      "end_s": 21.272203233356038,
+      "recovered": true
+    },
+    {
+      "start_s": 27.429416633374565,
+      "start_progress_cm": 114.87209099101824,
+      "min_cm": -0.26381445996516106,
+      "end_s": 29.08889813337177,
+      "recovered": true
+    },
+    {
+      "start_s": 35.23221473337384,
+      "start_progress_cm": 150.67209099102638,
+      "min_cm": -0.8818520533456677,
+      "end_s": 37.625943533382866,
+      "recovered": true
+    },
+    {
+      "start_s": 39.07275643338679,
+      "start_progress_cm": 168.7720909910305,
+      "min_cm": -1.0987162099025483,
+      "end_s": 43.280382433388944,
+      "recovered": true
+    },
+    {
+      "start_s": 61.24860663341717,
+      "start_progress_cm": 284.04418198204746,
+      "min_cm": -0.21575792717302988,
+      "end_s": 62.73760793341652,
+      "recovered": true
+    },
+    {
+      "start_s": 117.30977453349847,
+      "start_progress_cm": 572.988363964043,
+      "min_cm": -0.04444480038448262,
+      "end_s": 118.52441963350131,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v3r",
+  "controller_source": "v3-recovery commit 8b41dd9 (recovery_rollout policy)",
+  "direction": "cw",
+  "effects": [
+    "dropout",
+    "glare",
+    "low_power"
+  ],
+  "seed": 51,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.339766352031171,
+    "start_duty_right": 0.2857482001938721,
+    "max_duty": 0.9457109023138026,
+    "cm_s_per_duty_left": 17.681624022478122,
+    "cm_s_per_duty_right": 17.214451249589562,
+    "turn_eff_left": 0.5088088079521724,
+    "turn_eff_right": 0.9164293064700162,
+    "drift_rad_s": 0.021628731173763904,
+    "actuation_delay_s": 0.09411385967257978,
+    "time_constant_s": 0.21736008370128357,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 296,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 51
+  },
+  "floor_patches": [],
+  "pose_error_cm": {
+    "mean": 1.6665558592190866,
+    "p95": 4.797771322670492,
+    "max": 6.002859840113253
+  },
+  "wall_s": 30.169101299950853
+}

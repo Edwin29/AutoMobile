@@ -1,0 +1,242 @@
+{
+  "outcome": "lap_complete",
+  "verified_lap": true,
+  "progress_cm": 654.6883639640338,
+  "lap_cm": 655.088363964073,
+  "simulated_s": 180.77622393359613,
+  "proper_corners": 4,
+  "corners": [
+    {
+      "corner": "ES",
+      "start_s": 0.02,
+      "end_s": 18.349648233349054,
+      "turn_deg": 85.7116327500064,
+      "proper": true
+    },
+    {
+      "corner": "WS",
+      "start_s": 36.55413493337543,
+      "end_s": 58.166384333407116,
+      "turn_deg": 92.63897277149921,
+      "proper": true
+    },
+    {
+      "corner": "WN",
+      "start_s": 77.76977973344349,
+      "end_s": 101.30688693347248,
+      "turn_deg": 102.68341881423692,
+      "proper": true
+    },
+    {
+      "corner": "EN",
+      "start_s": 119.8520200335097,
+      "end_s": 145.17846813354018,
+      "turn_deg": 72.80231328648361,
+      "proper": true
+    }
+  ],
+  "corner_plan": [
+    [
+      "ES",
+      34.291284783066516
+    ],
+    [
+      "WS",
+      198.05557571115094
+    ],
+    [
+      "WN",
+      362.33278825294485
+    ],
+    [
+      "EN",
+      526.0970791810023
+    ]
+  ],
+  "min_margin_cm": -4.802610015204165,
+  "outside_s": 69.07724770008596,
+  "zero_output_s": 0.43994083333139616,
+  "clean_lap": false,
+  "worst_first_corner_cm": -3.75245554604824,
+  "worst_after_first_corner_cm": -4.802610015204165,
+  "episodes": [
+    {
+      "start_s": 2.518576633325914,
+      "start_progress_cm": 5.400000000000773,
+      "min_cm": -0.06159351590030404,
+      "end_s": 3.7742177333248152,
+      "recovered": true
+    },
+    {
+      "start_s": 8.987867933334092,
+      "start_progress_cm": 33.6967706253385,
+      "min_cm": -3.75245554604824,
+      "end_s": 25.68302073336606,
+      "recovered": true
+    },
+    {
+      "start_s": 38.523770133386684,
+      "start_progress_cm": 159.37209099102836,
+      "min_cm": -0.5456494416381759,
+      "end_s": 40.488588533387464,
+      "recovered": true
+    },
+    {
+      "start_s": 41.67887763339113,
+      "start_progress_cm": 173.07209099103147,
+      "min_cm": -4.237522919752999,
+      "end_s": 61.08860663341714,
+      "recovered": true
+    },
+    {
+      "start_s": 62.00829803341481,
+      "start_progress_cm": 257.4441819820414,
+      "min_cm": -0.2179844786954277,
+      "end_s": 63.77021823341647,
+      "recovered": true
+    },
+    {
+      "start_s": 64.52104403342294,
+      "start_progress_cm": 267.5441819820437,
+      "min_cm": -0.2819576592465829,
+      "end_s": 66.24883973342767,
+      "recovered": true
+    },
+    {
+      "start_s": 82.53397033345469,
+      "start_progress_cm": 334.54418198205894,
+      "min_cm": -4.5971638369671055,
+      "end_s": 96.4536068334746,
+      "recovered": true
+    },
+    {
+      "start_s": 96.73360683347454,
+      "start_progress_cm": 395.41627297306485,
+      "min_cm": -2.031382709594851,
+      "end_s": 99.83789813347228,
+      "recovered": true
+    },
+    {
+      "start_s": 115.31455133349597,
+      "start_progress_cm": 463.41627297305376,
+      "min_cm": -0.37318516023796633,
+      "end_s": 117.06977453349852,
+      "recovered": true
+    },
+    {
+      "start_s": 119.77202003350972,
+      "start_progress_cm": 480.7162729730513,
+      "min_cm": -0.030844926282796337,
+      "end_s": 120.96549093351052,
+      "recovered": true
+    },
+    {
+      "start_s": 123.3871275335142,
+      "start_progress_cm": 494.9162729730485,
+      "min_cm": -0.46047071457225286,
+      "end_s": 125.18284743351184,
+      "recovered": true
+    },
+    {
+      "start_s": 125.59879893351629,
+      "start_progress_cm": 504.11627297304693,
+      "min_cm": -4.802610015204165,
+      "end_s": 142.19063463353763,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "v3r",
+  "controller_source": "v3-recovery commit 8b41dd9 (recovery_rollout policy)",
+  "direction": "cw",
+  "effects": [],
+  "seed": 17,
+  "timing": {
+    "name": "v3r_laptop",
+    "latencies_s": null,
+    "max_latency_s": 0.5844846000007238,
+    "source": "v3-recovery laptop processing trace + assumed 50 ms delivery (NOT a Pi measurement)",
+    "controller_period_s": 0.6
+  },
+  "vehicle": {
+    "start_duty_left": 0.2878101892664165,
+    "start_duty_right": 0.3341498537614783,
+    "max_duty": 0.9421927266143664,
+    "cm_s_per_duty_left": 16.16413401574615,
+    "cm_s_per_duty_right": 15.041791276099975,
+    "turn_eff_left": 0.8532256856374574,
+    "turn_eff_right": 0.5041504268963911,
+    "drift_rad_s": -0.027522086452931926,
+    "actuation_delay_s": 0.002103915214590185,
+    "time_constant_s": 0.14551941652013908,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 396,
+  "variation": {
+    "name": "mild",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.05,
+    "wander_speed_rel": 0.04,
+    "wander_start_duty": 0.01,
+    "wander_max_duty": 0.03,
+    "wander_delay_s": 0.01,
+    "trend_speed_rel_per_min": -0.02,
+    "trend_max_duty_rel_per_min": -0.02,
+    "patches": 3,
+    "patch_speed": [
+      0.9,
+      1.0
+    ],
+    "patch_turn": [
+      0.85,
+      1.05
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.02,
+    "seed": 17
+  },
+  "floor_patches": [
+    {
+      "box": [
+        -67.92510482958559,
+        -40.56350599630017,
+        74.35860243593974,
+        101.72020126922517
+      ],
+      "speed": 0.9214941963561769,
+      "turn": 0.9271648075178397
+    },
+    {
+      "box": [
+        -28.857538850155517,
+        5.870178560110215,
+        -106.36803465811452,
+        -71.64031724784878
+      ],
+      "speed": 0.9015289656596712,
+      "turn": 0.9008081827585278
+    },
+    {
+      "box": [
+        -114.28320750162062,
+        -77.63628501160655,
+        -84.92559009506412,
+        -48.278667605050046
+      ],
+      "speed": 0.9036777357667325,
+      "turn": 0.963507962629689
+    }
+  ],
+  "pose_error_cm": {
+    "mean": 3.2362325080198784,
+    "p95": 9.967662206763599,
+    "max": 13.557009191326758
+  },
+  "wall_s": 39.44033860019408
+}
