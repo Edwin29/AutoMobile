@@ -3,7 +3,7 @@ import math
 
 import numpy as np
 
-from drive_v4.core import MAP_PATH, Driver, FloorLearner, MapAdvisor, MotorModel, TurnGainLearner, load_config, pursuit_on_path
+from drive_v4.core import MAP_PATH, Driver, exposure_samples, normalize_exposure, FloorLearner, MapAdvisor, MotorModel, TurnGainLearner, load_config, pursuit_on_path
 from drive_v3.map_model import TrackMap
 from drive_v3.settings import load_settings
 
@@ -173,6 +173,21 @@ def test_floor_stays_for_a_normal_car_and_is_capped():
     g = FloorLearner(m, dict(CFG["floor_learn"], cooldown_s=0.0))
     _floor_feed(g, 2000, pred_step_cm=0.4, meas_step_cm=0.0, pred_yaw_deg=0, meas_yaw_deg=0, low_pwm=0.32, straight=True)
     assert m.floor <= CFG["motor"]["pwm_floor"] + CFG["floor_learn"]["max_raise"] + 1e-9
+
+
+def test_exposure_normalisation_leaves_normal_frames_and_lifts_dark_ones():
+    cam = Driver(CFG, direction="ccw").camera
+    smp = exposure_samples(cam, rectified=True, rotate180=False)
+    rng = np.random.default_rng(0)
+    normal = np.repeat(rng.integers(40, 230, (480, 640, 1)), 3, axis=2).astype(np.uint8)   # field range
+    out, info = normalize_exposure(normal, smp, CFG["exposure"])
+    assert out is normal and info["gain"] == 1.0
+    dark = (normal * 0.5).astype(np.uint8)                           # 50 % exposure
+    out, info = normalize_exposure(dark, smp, CFG["exposure"])
+    assert info["gain"] > 1.2 and np.percentile(out[smp].max(-1), 97) >= CFG["exposure"]["hi_min"] - 2
+    black = np.zeros((480, 640, 3), np.uint8)                        # no signal: capped, stays dark
+    out, info = normalize_exposure(black, smp, CFG["exposure"])
+    assert info["gain"] <= CFG["exposure"]["max_gain"] and out.max() <= CFG["exposure"]["hi_min"]
 
 
 if __name__ == "__main__":

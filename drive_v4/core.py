@@ -37,6 +37,51 @@ def load_config(path=HERE / "config.json"):
 
 
 # ----------------------------------------------------------------------------
+# Exposure normalisation (bench 2026-11-11: a darker or hazier frame pushed the
+# grass below the fixed HSV threshold V >= 135 and v4 never started)
+# ----------------------------------------------------------------------------
+def exposure_samples(camera, rectified, rotate180, step=4):
+    """Pixel indices of the floor v4 actually looks at (the rectified pixels that land in
+    the bird's-eye window), expressed in the frame the driver receives. The same physical
+    region is measured whether the input is the raw (Pi) or the rectified (bench) frame."""
+    import cv2
+    W, H = camera.size
+    yy, xx = np.mgrid[0:H:step, 0:W:step]
+    ry, rx = yy.ravel(), xx.ravel()
+    bev = cv2.perspectiveTransform(np.c_[rx, ry].astype(np.float32).reshape(-1, 1, 2), camera.M).reshape(-1, 2)
+    bw, bh = camera.bev_size
+    keep = (bev[:, 0] >= 0) & (bev[:, 0] < bw) & (bev[:, 1] >= 0) & (bev[:, 1] < bh) & (camera.valid_rect[ry, rx] > 0)
+    ry, rx = ry[keep], rx[keep]
+    if rectified:
+        return ry, rx
+    m1, m2 = camera.remap
+    ox = np.clip(np.rint(m1[ry, rx]), 0, W - 1).astype(int)
+    oy = np.clip(np.rint(m2[ry, rx]), 0, H - 1).astype(int)
+    return (H - 1 - oy, W - 1 - ox) if rotate180 else (oy, ox)
+
+
+def normalize_exposure(image, samples, cfg):
+    """Stretch the floor's brightness range back into the range the real runs have.
+
+    Measured on the floor v4 uses, in the v4 field runs 11/10 (1,068 frames): the 97th
+    percentile of max(B,G,R) and the 3rd percentile. Inside [lo_max, hi_min] limits the
+    frame is left untouched, so normal field frames are not changed. A darker frame is
+    brightened (top below hi_min), a hazy one has its floor lowered (bottom above lo_max);
+    the gain is capped so a black frame is not turned into noise. Returns (image, info)."""
+    if not cfg.get("enabled", True):
+        return image, None
+    v = image[samples].max(axis=-1)
+    lo, hi = (float(x) for x in np.percentile(v, (3, 97)))
+    lo_t, hi_t = min(lo, cfg["lo_max"]), max(hi, cfg["hi_min"])
+    if lo_t == lo and hi_t == hi:
+        return image, {"gain": 1.0, "offset": 0.0, "p3": lo, "p97": hi}
+    gain = min((hi_t - lo_t) / max(hi - lo, 1.0), cfg["max_gain"])
+    lut = np.clip((np.arange(256, dtype=np.float32) - lo) * gain + lo_t, 0, 255).astype(np.uint8)
+    import cv2
+    return cv2.LUT(image, lut), {"gain": gain, "offset": lo_t - lo * gain, "p3": lo, "p97": hi}
+
+
+# ----------------------------------------------------------------------------
 # Motors
 # ----------------------------------------------------------------------------
 class MotorModel:
@@ -493,6 +538,7 @@ class Driver:
         v3, _ = load_settings()
         self.v3 = v3
         self.camera = CameraGeometry(V3 / "config/camera_legacy_track.json")
+        self._exposure_samples = {}
         self.observer = Observer(self.camera, V3 / "config/observation.json")
         self.observer.mark_cfg = v3["marks"]
         self.track = TrackMap(MAP_PATH)
@@ -640,6 +686,11 @@ class Driver:
         dt_frame = 0.1 if self.last_now is None else float(np.clip(now - self.last_now, 0.0, 1.0))
         stamp = FrameStamp(self.sequence, capture_s, self.clock)
         self.sequence += 1
+        key = (bool(rectified), bool(rotate180))
+        if key not in self._exposure_samples:
+            self._exposure_samples[key] = exposure_samples(self.camera, *key)
+        image, photo = normalize_exposure(image, self._exposure_samples[key],
+                                          self.cfg.get("exposure", {"enabled": False}))
         observation, debug = self.observer.process(image, stamp, rectified=rectified, rotate180=rotate180)
         t1 = time.perf_counter()
 
@@ -819,6 +870,7 @@ class Driver:
             "map": map_info, "guard": guard, "local_reason": local.reason,
             "local": {k: self.local.last_diagnostics.get(k) for k in ("paired_rows", "width_inferred_rows", "fit_rms_cm", "support_cm")},
             "fragments": len(observation.fragments),
+            "exposure": photo,
             "timings_ms": {"observe": (t1 - t0) * 1e3, "local": (t2 - t1) * 1e3, "map": (t3 - t2) * 1e3,
                            "total": (time.perf_counter() - t0) * 1e3},
         }
