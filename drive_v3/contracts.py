@@ -90,6 +90,7 @@ class PathDecision:
     reference_lateral_error_cm: float | None = None
     reference_heading_error_rad: float | None = None
     reference_curvature_cm_inv: float | None = None
+    lookahead_cm: float | None = None
 
 
 @dataclass

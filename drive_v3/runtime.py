@@ -17,6 +17,7 @@ from .mission import MissionManager
 from .features import DetectionTracker
 from .visual_motion import FloorVO
 from .context import TargetTracker
+from .local_corridor import LocalCorridorPlanner
 
 
 class RecordingSink:
@@ -40,6 +41,10 @@ class Runtime:
         self.estimator=Estimator(self.track,initial_pose,self.cfg["estimator"])
         self.timeline=TimedEstimator(self.estimator,start_s,clock_id)
         self.planner=LocalPlanner(self.track,self.route,self.cfg["planner"],self.cfg["vehicle"])
+        self.local_mode=self.cfg['planner'].get('mode')=='local_corridor'
+        if self.local_mode:
+            self.planner=LocalCorridorPlanner(self.camera,self.cfg['planner'].get('direction','ccw'))
+            self.planner.route=self.route
         self.model=ResponseModel(self.cfg["controller"],self.cfg["vehicle"])
         self.controller=Controller(self.model,self.cfg["controller"],self.cfg["controller"].get("mode","feedback"))
         self.mission=MissionManager(self.cfg["mission"])
@@ -70,10 +75,12 @@ class Runtime:
             fresh_capture=capture_s>self.last_capture
             self.last_motion=self.vo.update(debug,capture_s) if fresh_capture else None
             if fresh_capture:self.last_capture=capture_s
-            t=time.perf_counter(); self.timeline.step(now,observation,self.last_motion if self.cfg["estimator"].get("use_visual_odometry",False) else None)
+            t=time.perf_counter()
+            if self.local_mode:self.timeline.step(now)
+            else:self.timeline.step(now,observation,self.last_motion if self.cfg["estimator"].get("use_visual_odometry",False) else None)
             stages["estimate_ms"]=(time.perf_counter()-t)*1000
             quality=self.estimator.last_diagnostics.get("status")=="observed"
-            if context is None:
+            if context is None and not self.local_mode:
                 context=self.target_tracker.update(observation,self.estimator,self.last_motion,now)
             tracked=self.tracker.update(detections,capture_s) if fresh_capture else []
             self.mission.observe(tracked,context,now)
@@ -98,7 +105,12 @@ class Runtime:
             # State is replayed to now. Raw fragment coordinates are still in the
             # capture-time body frame: never apply them as fresh local constraints.
             action_observation=observation if now-capture_s<1e-9 else None
-            path=self.planner.plan(self.estimator,action_observation,now,self.clock,decision.hold,decision.speed_cap)
+            if self.local_mode:
+                path=self.planner.plan_local(debug,capture_s,now,self.clock,*self.model.forward_model(self.last_pwm))
+                if decision.hold:path=self.planner.stop(now,self.clock,'mission_hold')
+                quality=path.reason=='tracking'
+                self.estimator.last_diagnostics={'status':'local_observed' if quality else 'local_missing','global_pose':'command_prediction_only'}
+            else:path=self.planner.plan(self.estimator,action_observation,now,self.clock,decision.hold,decision.speed_cap)
             stages["plan_ms"]=(time.perf_counter()-t)*1000
             output=self.controller.step(path,now,now-self.last,self.clock,quality)
             # Online gains update slowly and only from the prior interval's applied command.
@@ -119,7 +131,7 @@ class Runtime:
                     "beliefs":[{"pose":h.mean.tolist(),"P":h.P.tolist(),"score":h.score,"associations":h.associations} for h in self.estimator.hypotheses],
                     "landmarks":[{"kind":m.kind,"body_cm":m.center_cm,"id":m.id,"flags":m.flags} for m in observation.landmarks if not m.kind.endswith("_patch")],
                     "config_hash":self.config_id,"map_hash":self.track.id,"camera_hash":self.camera.id,
-                    "current_frame_constraints_used":action_observation is not None,
+                    "current_frame_constraints_used":self.local_mode or action_observation is not None,
                     "total_ms":(time.perf_counter()-begin)*1000}
             return record,observation,debug,path
         except BaseException:

@@ -13,6 +13,7 @@ class LocalPlanner:
         self.track=track;self.route=route;self.cfg=cfg;self.vehicle=vehicle
         self.rim=footprint(vehicle);self.offset=0.;self.switched=-1e9
         self.state="CRUISE";self.last_observed_distance=0.;self.last_diagnostics={}
+        self.last_observed_stamp=-float('inf')
         self.completed_route=False
         self.good_after_hold=0
 
@@ -82,7 +83,12 @@ class LocalPlanner:
         if mission_stop:return self.stop(now,clock,"mission_hold")
         beliefs=estimator.hypotheses;primary=beliefs[0]
         age=now-primary.last_observed_s
-        if age<1e-6:self.last_observed_distance=estimator.motion_distance
+        # Camera observations belong to capture time, necessarily before now on
+        # hardware. Refresh the travel budget on a newly accepted observation,
+        # not only when capture and planning happen at the identical timestamp.
+        if primary.last_observed_s>self.last_observed_stamp and age<=self.cfg['prediction_only_s']:
+            self.last_observed_stamp=primary.last_observed_s
+            self.last_observed_distance=estimator.motion_distance
         if age>self.cfg["prediction_only_s"] or estimator.motion_distance-self.last_observed_distance>self.cfg["prediction_only_cm"]:
             return self.stop(now,clock,"observation_budget_exhausted")
         if any(np.sqrt(h.P[2,2])>self.cfg["max_yaw_sigma_rad"] or np.sqrt(np.max(np.diag(h.P)[:2]))>self.cfg["max_xy_sigma_cm"] for h in beliefs):

@@ -77,7 +77,10 @@ class Controller:
         near=int(np.argmin(np.linalg.norm(points,axis=1)))
         ahead=min(len(points)-1,near+max(1,round(self.speed*self.cfg["preview_s"]/max(np.median(np.diff(s)),.1))))
         k=float(curvature[ahead])
-        target=path.speed_limit_cm_s/(1+self.cfg["curvature_slowdown_cm"]*abs(k))
+        # Preferred cruising speed can be below the planner's checked upper bound.
+        # The existing ratio-preserving deadband lift may use that reserve.
+        preferred=min(path.speed_limit_cm_s,self.cfg.get('preferred_speed_cm_s',path.speed_limit_cm_s))
+        target=preferred/(1+self.cfg["curvature_slowdown_cm"]*abs(k))
         self.speed+=float(np.clip(target-self.speed,-self.cfg["decel_cm_s2"]*dt,self.cfg["accel_cm_s2"]*dt))
         # Path in current body frame: path right of car -> positive/right correction.
         theta=float(wrap(heading[near]))
@@ -86,7 +89,8 @@ class Controller:
         if path.reference_lateral_error_cm is not None:e=path.reference_lateral_error_cm
         if path.reference_heading_error_rad is not None:psi=path.reference_heading_error_rad
         if self.mode=="pure_pursuit":
-            target_index=int(np.searchsorted(s,min(s[-1],s[near]+10.)))
+            lookahead=10. if path.lookahead_cm is None else path.lookahead_cm
+            target_index=int(np.searchsorted(s,min(s[-1],s[near]+lookahead)))
             q=points[min(target_index,len(points)-1)]
             omega=self.speed*2*q[0]/max(q@q,1.)+self.trim
         else:

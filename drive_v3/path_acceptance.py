@@ -30,11 +30,17 @@ def judge_profiles(short_profiles, mean_profiles, cfg, short_means=None):
     target=cfg['clearance_cm'];eps=cfg.get('clearance_tolerance_cm',.05)
     depth=cfg.get('allowed_penetration_cm',.5);tol=1e-7
     initial=short[:,0];minimum=short.min(axis=1)
-    floor=np.where(initial>=target,target-eps,initial)
+    recovery_tolerance=cfg.get('recovery_motion_tolerance_cm',0.)
+    floor=np.where(initial>=target,target-eps,initial-recovery_tolerance)
     details=dict(short_minimum_cm=float(minimum.min()),mean_minimum_cm=float(means.min()),
         initial_worst_cm=float(initial.min()),worst_change_cm=float((minimum-initial).min()))
-    if np.any(minimum < -depth-tol):return False,'penetration_depth',details
+    support_depth=cfg.get('uncertain_penetration_cm',depth)
+    if np.any(minimum < -support_depth-tol):return False,'penetration_depth',details
+    if short_means is not None and np.min(short_means)<-depth-tol:
+        return False,'nominal_penetration_depth',details
     if np.any(minimum < floor-tol):return False,'candidate_worsening',details
+    if recovery_tolerance>0 and np.any(short[:,-1]<np.minimum(initial,target)-tol):
+        return False,'candidate_end_worsening',details
     for profile in (short[:1] if short_means is None else short_means):
         required=min(profile[0],target)
         if profile[0]<0:required=min(target,profile[0]+cfg.get('recovery_progress_cm',.05))
