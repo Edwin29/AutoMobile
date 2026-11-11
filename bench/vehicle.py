@@ -39,6 +39,10 @@ class VehicleParams:
     front_cm: float = 14.5
     rear_cm: float = 10.0
     half_width_cm: float = 8.0
+    # Turning in place (wheels opposite): the body slides sideways by this much per
+    # radian turned, in one direction per car (field: pivoting works, with some wheel
+    # slip / body slide; size not measured). 0 = ideal pivot.
+    pivot_slide_cm_per_rad: float = 0.0
 
     def to_dict(self):
         return asdict(self)
@@ -179,6 +183,13 @@ class Vehicle:
         omega = raw * (e["turn_left"] if raw < 0 else e["turn_right"]) + p.drift_rad_s * (v / 5.0)
         self.v, self.omega = v, omega
         self.pose = advance(self.pose, v, omega, dt)
+        if p.pivot_slide_cm_per_rad > 0 and self.speed[0] * self.speed[1] < 0:
+            if not hasattr(self, "_slide_dir"):     # own generator: other random draws unchanged
+                a = np.random.default_rng(self.var.seed + 7919).uniform(-np.pi, np.pi)
+                self._slide_dir = np.array([np.sin(a), np.cos(a)])
+            c, s_ = np.cos(self.pose[2]), np.sin(self.pose[2])
+            world = self._slide_dir @ np.array([[c, -s_], [s_, c]])
+            self.pose[:2] += p.pivot_slide_cm_per_rad * abs(omega * dt) * world
         return self.pose
 
     def footprint(self, step=1.0):
@@ -196,6 +207,11 @@ PRESETS = {
     "field_estimate": VehicleParams(cm_s_per_duty_left=16.8, cm_s_per_duty_right=16.8,
                                     turn_eff_left=0.6, turn_eff_right=0.6,
                                     actuation_delay_s=0.05, time_constant_s=0.10),
+    # field_estimate + 2 cm sideways body slide per radian of pivot (assumed size;
+    # field: pivoting works with some slip, not measured)
+    "field_pivot_slip": VehicleParams(cm_s_per_duty_left=16.8, cm_s_per_duty_right=16.8,
+                                      turn_eff_left=0.6, turn_eff_right=0.6,
+                                      actuation_delay_s=0.05, time_constant_s=0.10, pivot_slide_cm_per_rad=2.0),
     "weak_left_turn": VehicleParams(turn_eff_left=0.5, turn_eff_right=0.7, actuation_delay_s=0.05, time_constant_s=0.10),
     "sluggish": VehicleParams(turn_eff_left=0.6, turn_eff_right=0.6, actuation_delay_s=0.15, time_constant_s=0.25),
     "high_start_duty": VehicleParams(start_duty_left=0.34, start_duty_right=0.34, turn_eff_left=0.6, turn_eff_right=0.6,

@@ -162,7 +162,8 @@ class HybridCNN:
     raw_camera = True
     MAP_EVERY = 3            # 30 fps camera -> map at 10 Hz
     MAP_LATENCY_S = 0.070    # v4 sensor->result median on the Pi (live 2026-11-10)
-    FLAT_STD = 8.0           # grey-level std of the floor half below this = no picture
+    FLAT_STD = 8.0           # grey-level std of the floor half below this = no picture ...
+    FLAT_WHITE, FLAT_BLACK = 200.0, 35.0   # ... if also white-out / black-out (road V ~74)
     MAP_ONLY_S = 1.5         # same as v4's coast_turn_s
     HOLD_S = 0.3
 
@@ -207,8 +208,12 @@ class HybridCNN:
             self.pending.append((ready, rec))
             map_ms = (time.perf_counter() - tm) * 1e3
         self.n += 1
-        floor_half = image[image.shape[0] // 2:]
-        flat = float(floor_half[::4, ::4].std()) < self.FLAT_STD
+        floor_half = image[image.shape[0] // 2:][::4, ::4]
+        # flat AND white/black: a plain stretch of road (inner roads, no line in view) is
+        # also low-contrast in the clean render; it must not count as "no picture"
+        # (2026-11-11, junction approach from the south held the car).
+        mean = float(floor_half.mean())
+        flat = float(floor_half.std()) < self.FLAT_STD and (mean >= self.FLAT_WHITE or mean <= self.FLAT_BLACK)
         if flat:
             self.flat_since = capture_s if self.flat_since is None else self.flat_since
         else:
@@ -354,3 +359,7 @@ class HybridXCheck(HybridCNN):
 
 
 CONTROLLERS["hyb3"] = HybridXCheck
+
+
+# Junction movement controller (hyb2j) lives in its own module.
+from .controllers_junction import HybridJunction  # noqa: E402,F401  (registers "hyb2j")

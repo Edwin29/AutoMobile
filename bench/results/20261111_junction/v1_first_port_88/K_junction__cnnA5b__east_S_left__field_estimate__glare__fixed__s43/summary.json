@@ -1,0 +1,96 @@
+{
+  "outcome": "wrong_exit",
+  "observed_exit": "N",
+  "expected_exit": "W",
+  "correct_exit": false,
+  "clean": false,
+  "min_margin_cm": 3.2030923387741694,
+  "outside_s": 0.0,
+  "simulated_s": 11.985333333333246,
+  "progress_cm": 47.9894878627805,
+  "episodes": [],
+  "unrecovered_episodes": 0,
+  "controller": "cnnA5b",
+  "controller_source": "team CNN lane-v5b (track-digital-twin models-2026-11-01), speed_scale 1.0",
+  "junction": "east",
+  "came_from": "S",
+  "exit": "left",
+  "route": {
+    "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+    "junction": "east",
+    "came_from": "S",
+    "exit": "left",
+    "exit_arm": "W",
+    "radius_cm": 12.0,
+    "offset_in_cm": 1.0,
+    "offset_out_cm": -1.0,
+    "nominal_min_margin_cm": 1.0830204405722696
+  },
+  "effects": [
+    "glare"
+  ],
+  "seed": 43,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 331,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 43
+  },
+  "initial_truth": [
+    88.55459852540181,
+    -46.824898705444014,
+    -0.05026238412721395
+  ],
+  "hint": [
+    88.25,
+    -45.0,
+    -0.0
+  ],
+  "pose_error_cm": null,
+  "camera": null,
+  "wall_s": 14.938999899895862
+}

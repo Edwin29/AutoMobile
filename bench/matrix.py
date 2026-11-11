@@ -113,11 +113,46 @@ def specs():
                     for ctrl in ("hyb2", "hyb3", "cnnA5b"):
                         s.append(dict(group="J_xcheck", controller=ctrl, vehicle=v, effects=[fx], direction=d,
                                       timing="own", seed=seed))
+    # Junction movement (bench/junction.py). First the GPT prototype's scene for comparison:
+    # east T junction, arriving from the south, straight or left; its 9 conditions
+    # (no 'slip': not modelled in this bench) at seed 17, three of them again at 29/43,
+    # plus the field-log camera.
+    K = [(v, fx, var, sd) for v, fx, var in [("field_estimate", [], "fixed"), ("unequal_sides", [], "fixed"),
+                                             ("weak_left_turn", [], "fixed"), ("high_start_duty", [], "fixed"),
+                                             ("field_estimate", ["glare"], "fixed"), ("field_estimate", ["occlusion"], "fixed"),
+                                             ("field_estimate", ["dropout"], "fixed"),
+                                             ("field_estimate", ["blur_warm", "glare", "low_power", "occlusion"], "mild")]
+         for sd in (17,)]
+    K += [(v, fx, var, sd) for v, fx, var in [("field_estimate", [], "fixed"), ("field_estimate", ["glare"], "fixed"),
+                                             ("field_estimate", ["blur_warm", "glare", "low_power", "occlusion"], "mild")]
+          for sd in (29, 43)]
+    K += [(v, [fx], "fixed", sd) for v in ("field_estimate", "weak_left_turn") for fx in ("realcam", "realcam_harsh")
+          for sd in (41, 43)]
+    K += [("field_pivot_slip", [], "fixed", 17), ("field_pivot_slip", ["realcam"], "fixed", 41)]
+    for v, fx, var, sd in K:
+        for ex in ("straight", "left"):
+            for ctrl in ("hyb2j", "cnnA5b"):
+                s.append(dict(group="K_junction", controller=ctrl, vehicle=v, effects=fx, direction=ex, timing="own",
+                              seed=sd, variation=var, scene=dict(junction="east", came_from="S", exit=ex)))
+    # Central crossroad: always a right turn (course rule), from each of the four arms.
+    KC = [("field_estimate", [], "fixed", 17), ("weak_left_turn", [], "fixed", 17), ("unequal_sides", [], "fixed", 17),
+          ("field_estimate", ["glare"], "fixed", 17), ("field_estimate", ["blur_warm", "glare", "low_power", "occlusion"], "mild", 17),
+          ("field_estimate", ["realcam"], "fixed", 41), ("field_estimate", ["realcam"], "fixed", 43),
+          ("field_estimate", ["realcam_harsh"], "fixed", 41), ("field_estimate", ["realcam_harsh"], "fixed", 43),
+          ("field_pivot_slip", [], "fixed", 17), ("field_pivot_slip", ["realcam"], "fixed", 41)]
+    for v, fx, var, sd in KC:
+        for arm in ("N", "E", "S", "W"):
+            s.append(dict(group="K_junction", controller="hyb2j", vehicle=v, effects=fx, direction="right", timing="own",
+                          seed=sd, variation=var, scene=dict(junction="center", came_from=arm, exit="right")))
     for x in s:
         x.setdefault("variation", "fixed")
         x["slug"] = f"{x['group']}__{x['controller']}_{x['timing']}__{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['direction']}"
         if x["variation"] != "fixed":
             x["slug"] += f"__{x['variation']}"
+        if x["group"] == "K_junction":
+            sc = x["scene"]
+            x["slug"] = (f"K_junction__{x['controller']}__{sc['junction']}_{sc['came_from']}_{sc['exit']}__"
+                         f"{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['variation']}__s{x['seed']}")
         if x["group"] == "J_xcheck":
             x["slug"] += f"__s{x['seed']}"
     return s
@@ -130,9 +165,16 @@ def run_one(spec, out):
     if dst.exists():
         import shutil
         shutil.rmtree(dst)
-    cmd = [sys.executable, "-m", "bench.run", "--controller", spec["controller"], "--vehicle", spec["vehicle"],
-           "--effects", ",".join(spec["effects"]), "--direction", spec["direction"], "--timing", spec["timing"],
-           "--seed", str(spec["seed"]), "--variation", spec["variation"], "--out", str(dst)]
+    if "scene" in spec:
+        sc = spec["scene"]
+        cmd = [sys.executable, "-m", "bench.junction", "--controller", spec["controller"], "--vehicle", spec["vehicle"],
+               "--effects", ",".join(spec["effects"]), "--junction", sc["junction"], "--came-from", sc["came_from"],
+               "--exit", sc["exit"], "--timing", spec["timing"], "--seed", str(spec["seed"]),
+               "--variation", spec["variation"], "--out", str(dst)]
+    else:
+        cmd = [sys.executable, "-m", "bench.run", "--controller", spec["controller"], "--vehicle", spec["vehicle"],
+               "--effects", ",".join(spec["effects"]), "--direction", spec["direction"], "--timing", spec["timing"],
+               "--seed", str(spec["seed"]), "--variation", spec["variation"], "--out", str(dst)]
     # CNN speed: every documented comparison uses 1.0 (team default 0.5 cannot start the car).
     # Forgetting the variable once (2026-11-11) silently produced a 0.5 run set; default it here.
     env = dict(os.environ)

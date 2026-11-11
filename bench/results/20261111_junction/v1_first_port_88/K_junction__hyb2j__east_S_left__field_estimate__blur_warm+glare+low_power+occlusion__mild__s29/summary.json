@@ -1,0 +1,103 @@
+{
+  "outcome": "held",
+  "observed_exit": null,
+  "expected_exit": "W",
+  "correct_exit": false,
+  "clean": false,
+  "min_margin_cm": 2.192526268576742,
+  "outside_s": 0.0,
+  "simulated_s": 14.793333333333214,
+  "progress_cm": 44.99248305675995,
+  "episodes": [],
+  "unrecovered_episodes": 0,
+  "controller": "hyb2j",
+  "controller_source": "CNN A5b + v4 map on demand (v4_65c68a6613a0), map every 3 frames, junction route pursuit (sxy-gated reversible exit)",
+  "junction": "east",
+  "came_from": "S",
+  "exit": "left",
+  "route": {
+    "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+    "junction": "east",
+    "came_from": "S",
+    "exit": "left",
+    "exit_arm": "W",
+    "radius_cm": 12.0,
+    "offset_in_cm": 1.0,
+    "offset_out_cm": -1.0,
+    "nominal_min_margin_cm": 1.0830204405722696
+  },
+  "effects": [
+    "blur_warm",
+    "glare",
+    "low_power",
+    "occlusion"
+  ],
+  "seed": 29,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 409,
+  "variation": {
+    "name": "mild",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.05,
+    "wander_speed_rel": 0.04,
+    "wander_start_duty": 0.01,
+    "wander_max_duty": 0.03,
+    "wander_delay_s": 0.01,
+    "trend_speed_rel_per_min": -0.02,
+    "trend_max_duty_rel_per_min": -0.02,
+    "patches": 3,
+    "patch_speed": [
+      0.9,
+      1.0
+    ],
+    "patch_turn": [
+      0.85,
+      1.05
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.02,
+    "seed": 29
+  },
+  "initial_truth": [
+    87.35009394070813,
+    -44.9747108057142,
+    0.0020141828727876735
+  ],
+  "hint": [
+    88.25,
+    -45.0,
+    -0.0
+  ],
+  "pose_error_cm": {
+    "mean": 29.108650828876947,
+    "p95": 53.93205923476454,
+    "max": 53.93205923476454
+  },
+  "camera": null,
+  "wall_s": 68.22784640011378
+}

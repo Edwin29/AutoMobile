@@ -1,0 +1,97 @@
+{
+  "outcome": "correct_exit",
+  "observed_exit": "N",
+  "expected_exit": "N",
+  "correct_exit": true,
+  "clean": true,
+  "min_margin_cm": 3.9852001716895558,
+  "outside_s": 0.0,
+  "simulated_s": 11.717333333333249,
+  "progress_cm": 85.0,
+  "episodes": [],
+  "unrecovered_episodes": 0,
+  "controller": "hyb2j",
+  "controller_source": "CNN A5b + v4 map on demand (v4_65c68a6613a0), map every 3 frames, junction route pursuit (sxy-gated reversible exit)",
+  "junction": "east",
+  "came_from": "S",
+  "exit": "straight",
+  "route": {
+    "method": "straight centre line",
+    "junction": "east",
+    "came_from": "S",
+    "exit": "straight",
+    "exit_arm": "N",
+    "nominal_min_margin_cm": 5.0
+  },
+  "effects": [
+    "glare"
+  ],
+  "seed": 29,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 324,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 29
+  },
+  "initial_truth": [
+    86.35009394070813,
+    -44.9747108057142,
+    0.0020141828727876735
+  ],
+  "hint": [
+    87.25,
+    -45.0,
+    -0.0
+  ],
+  "pose_error_cm": {
+    "mean": 0.5031377772797166,
+    "p95": 1.2863012383728847,
+    "max": 1.462203491419252
+  },
+  "camera": null,
+  "wall_s": 21.69767009979114
+}

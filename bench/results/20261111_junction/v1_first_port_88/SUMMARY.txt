@@ -1,0 +1,40 @@
+ctrl    movement       camera     n correct clean unrecov min p50  worst  outcomes
+hyb2j   east_straight  sim       14      14    14       0    4.15   2.98  {'correct_exit': 14}
+hyb2j   east_straight  realcam    4       4     4       0    3.92   3.71  {'correct_exit': 4}
+hyb2j   east_straight  harsh      4       4     4       0    2.25   1.13  {'correct_exit': 4}
+hyb2j   east_straight  ALL       22      22    22       0    4.02   1.13  {'correct_exit': 22}
+hyb2j   east_left      sim       14      11     1       1   -0.27  -1.39  {'held': 3, 'correct_exit': 11}
+hyb2j   east_left      realcam    4       4     0       0   -1.69  -2.95  {'correct_exit': 4}
+hyb2j   east_left      harsh      4       2     0       1   -3.15 -12.02  {'correct_exit': 2, 'held': 1, 'severe_departure': 1}
+hyb2j   east_left      ALL       22      17     1       2   -0.65 -12.02  {'held': 4, 'correct_exit': 17, 'severe_departure': 1}
+cnnA5b  east_straight  sim       14      14    14       0    3.28   1.66  {'correct_exit': 14}
+cnnA5b  east_straight  realcam    4       4     4       0    2.34   2.09  {'correct_exit': 4}
+cnnA5b  east_straight  harsh      4       4     4       0    1.43   0.88  {'correct_exit': 4}
+cnnA5b  east_straight  ALL       22      22    22       0    3.10   0.88  {'correct_exit': 22}
+cnnA5b  east_left      sim       14       0     0       0    3.10   1.75  {'wrong_exit': 14}
+cnnA5b  east_left      realcam    4       0     0       0    2.30   2.03  {'wrong_exit': 4}
+cnnA5b  east_left      harsh      4       0     0       0    1.47   0.98  {'wrong_exit': 4}
+cnnA5b  east_left      ALL       22       0     0       0    2.99   0.98  {'wrong_exit': 22}
+
+  ast_S_left__field_estimate__blur_warm+glare+low_power+occlusion__mild__s17  held             m= -0.83 exit=None choice=None
+  ast_S_left__field_estimate__blur_warm+glare+low_power+occlusion__mild__s29  held             m=  2.19 exit=None choice=None
+  ast_S_left__field_estimate__blur_warm+glare+low_power+occlusion__mild__s43  held             m=  0.28 exit=None choice=None
+  ast_S_left__field_estimate__dropout__fixed__s17                             correct_exit     m= -0.28 exit=W choice=None
+  ast_S_left__field_estimate__glare__fixed__s17                               correct_exit     m= -0.44 exit=W choice=None
+  ast_S_left__field_estimate__glare__fixed__s29                               correct_exit     m= -0.46 exit=W choice=None
+  ast_S_left__field_estimate__glare__fixed__s43                               correct_exit     m= -0.47 exit=W choice=None
+  ast_S_left__field_estimate__none__fixed__s17                                correct_exit     m= -0.22 exit=W choice=None
+  ast_S_left__field_estimate__none__fixed__s29                                correct_exit     m= -0.25 exit=W choice=None
+  ast_S_left__field_estimate__none__fixed__s43                                correct_exit     m= -0.24 exit=W choice=None
+  ast_S_left__field_estimate__occlusion__fixed__s17                           correct_exit     m= -0.86 exit=W choice=None
+  ast_S_left__field_estimate__realcam__fixed__s41                             correct_exit     m= -1.25 exit=W choice=None
+  ast_S_left__field_estimate__realcam__fixed__s43                             correct_exit     m= -0.96 exit=W choice=None
+  ast_S_left__field_estimate__realcam_harsh__fixed__s41                       correct_exit     m= -3.47 exit=W choice=None
+  ast_S_left__field_estimate__realcam_harsh__fixed__s43                       held             m= -1.47 exit=None choice=None
+  ast_S_left__unequal_sides__none__fixed__s17                                 correct_exit     m= -0.13 exit=W choice=None
+  ast_S_left__weak_left_turn__none__fixed__s17                                correct_exit     m= -1.39 exit=W choice=None
+  ast_S_left__weak_left_turn__realcam__fixed__s41                             correct_exit     m= -2.95 exit=W choice=None
+  ast_S_left__weak_left_turn__realcam__fixed__s43                             correct_exit     m= -2.13 exit=W choice=None
+  ast_S_left__weak_left_turn__realcam_harsh__fixed__s41                       correct_exit     m= -2.83 exit=W choice=None
+  ast_S_left__weak_left_turn__realcam_harsh__fixed__s43                       severe_departure m=-12.02 exit=W choice=None
+turn choices Counter({(None, None): 44})

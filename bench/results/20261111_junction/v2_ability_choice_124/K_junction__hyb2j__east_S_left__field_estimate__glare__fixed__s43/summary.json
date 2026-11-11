@@ -1,0 +1,114 @@
+{
+  "outcome": "correct_exit",
+  "observed_exit": "W",
+  "expected_exit": "W",
+  "correct_exit": true,
+  "clean": false,
+  "min_margin_cm": -0.3054777865621521,
+  "outside_s": 0.39600000000000024,
+  "simulated_s": 11.753333333333249,
+  "progress_cm": 79.9875150122221,
+  "episodes": [
+    {
+      "start_s": 7.397333333333298,
+      "start_progress_cm": 47.9894878627805,
+      "min_cm": -0.3054777865621521,
+      "end_s": 8.801333333333282,
+      "recovered": true
+    }
+  ],
+  "unrecovered_episodes": 0,
+  "controller": "hyb2j",
+  "controller_source": "CNN A5b + v4 map on demand (v4_65c68a6613a0), map every 3 frames, junction route (ability-chosen arc / pivot, gated pose, reversible exit)",
+  "junction": "east",
+  "came_from": "S",
+  "exit": "left",
+  "route": {
+    "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+    "junction": "east",
+    "came_from": "S",
+    "exit": "left",
+    "exit_arm": "W",
+    "radius_cm": 12.0,
+    "offset_in_cm": 1.0,
+    "offset_out_cm": -1.0,
+    "nominal_min_margin_cm": 1.0830204405722696
+  },
+  "turn_choice": {
+    "kind": "arc",
+    "radius_cm": 14.0,
+    "margin_cm": 0.8455883341025583,
+    "r_min_cm": 10.317460317460318
+  },
+  "effects": [
+    "glare"
+  ],
+  "seed": 43,
+  "timing": {
+    "name": "cnn_pi",
+    "latencies_s": null,
+    "max_latency_s": 0.036,
+    "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+    "controller_period_s": 0.2
+  },
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0
+  },
+  "frames": 325,
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 43
+  },
+  "initial_truth": [
+    88.55459852540181,
+    -46.824898705444014,
+    -0.05026238412721395
+  ],
+  "hint": [
+    88.25,
+    -45.0,
+    -0.0
+  ],
+  "pose_error_cm": {
+    "mean": 0.2394976672162333,
+    "p95": 0.4167390354923197,
+    "max": 0.698105764257723
+  },
+  "camera": null,
+  "wall_s": 21.679568800143898
+}
