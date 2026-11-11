@@ -37,7 +37,7 @@ def collect(seed,out,model,iteration,count=1000):
             line=np.zeros((171,2));line[:,inner_axis]=np.linspace(-85,85,171)
             teacher.route=line if inner_sign>0 else line[::-1]
         else:teacher.route=outer_route
-        margin=100. if car is None else float(track.clearance(to_world(car.footprint(step=4),car.pose)).min())
+        margin=100. if car is None else float(track.clearance(to_world(car.footprint(),car.pose)).min())
         error=0.
         if car is not None:
             ri=int(np.argmin(np.sum((teacher.route-car.pose[:2])**2,axis=1)))
@@ -64,7 +64,7 @@ def collect(seed,out,model,iteration,count=1000):
             net.setInput(preprocess_bgr(image)[None]);prediction=net.forward()[0]
             mean=.66*float(np.clip(prediction[0],0,1));k=float(np.clip(-prediction[1]*.095,-.085,.085))
             pwm=allocator.mix(mean,k,.66)[0] if mean>=.05 else np.zeros(2)
-        margin=float(track.clearance(to_world(car.footprint(step=4),car.pose)).min())
+        margin=float(track.clearance(to_world(car.footprint(),car.pose)).min())
         distance=float(np.linalg.norm(junctions-car.pose[:2],axis=1).min())
         if distance>=35 and margin>=-3:
             X.append(np.rint(preprocess_bgr(image)*255).astype(np.uint8));Y.append(info['label'])
