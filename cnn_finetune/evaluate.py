@@ -14,10 +14,10 @@ def job(spec,root,onnx):
     return dict(arm=arm,vehicle_name=v,direction=d,effects_name=fx,path=str(dst),summary=s)
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--onnx',required=True);ap.add_argument('--out',required=True);a=ap.parse_args();root=Path(a.out);root.mkdir(parents=True,exist_ok=False)
-    specs=[(arm,v,d,fx) for arm in ['baseline','new'] for v in ['field_estimate','weak_left_turn','sluggish','unequal_sides'] for d in ['cw','ccw'] for fx in ['realcam']]
-    specs += [(arm,'field_estimate',d,'realcam_harsh') for arm in ['baseline','new'] for d in ['cw','ccw']]
-    rows=[]
+    ap=argparse.ArgumentParser();ap.add_argument('--onnx',default='');ap.add_argument('--out',required=True);ap.add_argument('--arms',default='baseline,new');a=ap.parse_args();root=Path(a.out);root.mkdir(parents=True,exist_ok=True)
+    specs=[(arm,v,d,fx) for arm in a.arms.split(',') for v in ['field_estimate','weak_left_turn','sluggish','unequal_sides'] for d in ['cw','ccw'] for fx in ['realcam']]
+    specs += [(arm,'field_estimate',d,'realcam_harsh') for arm in a.arms.split(',') for d in ['cw','ccw']]
+    rows=json.loads((root/"matrix.json").read_text()) if (root/"matrix.json").exists() else []
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         futures=[pool.submit(job,s,root,a.onnx) for s in specs]
         for f in concurrent.futures.as_completed(futures):
