@@ -1,0 +1,550 @@
+{
+  "count": 36000,
+  "corner_fraction": 0.32425,
+  "recovery_fraction": 0.29130555555555554,
+  "inner_count": 3000,
+  "minimum_junction_distance": 35.00414044766649,
+  "shards": [
+    {
+      "seed": 100,
+      "n": 1000,
+      "corner": 330,
+      "recovery": 353,
+      "inner": 100,
+      "minimum_junction_distance": 35.0351649865223,
+      "sha256": "c77cc9b22e9eb324ebc9958a2e1d433f73854ccb86547a42acd6fe357c810484"
+    },
+    {
+      "seed": 100,
+      "n": 200,
+      "corner": 200,
+      "recovery": 1,
+      "inner": 0,
+      "minimum_junction_distance": 42.705896378804965,
+      "sha256": "dd3c25f8ec1ffedd3f1b8b0120e1a5098e236d7cf851b2881d6291f35aeec17c"
+    },
+    {
+      "seed": 101,
+      "n": 1000,
+      "corner": 89,
+      "recovery": 308,
+      "inner": 100,
+      "minimum_junction_distance": 35.11932285107265,
+      "sha256": "9fc887742884bf21479b6140b258392af8db5ee22b222a783a0398327322024b"
+    },
+    {
+      "seed": 101,
+      "n": 200,
+      "corner": 200,
+      "recovery": 18,
+      "inner": 0,
+      "minimum_junction_distance": 48.39922417985274,
+      "sha256": "59729122d8b16bf410200930c62782bea044ac2521ae89fc9028e6a54c570a49"
+    },
+    {
+      "seed": 102,
+      "n": 1000,
+      "corner": 89,
+      "recovery": 351,
+      "inner": 100,
+      "minimum_junction_distance": 35.050095548587755,
+      "sha256": "fae47850b566e7c9b03c4cf18aed1a7cf6fa05f8628d20423169c99a50126713"
+    },
+    {
+      "seed": 102,
+      "n": 200,
+      "corner": 200,
+      "recovery": 43,
+      "inner": 0,
+      "minimum_junction_distance": 49.02709624807112,
+      "sha256": "2720e5ad2d7ad03957cf7fc8df41c8b4d45427dcb9fbf47d2fd6082eda3045a5"
+    },
+    {
+      "seed": 103,
+      "n": 1000,
+      "corner": 109,
+      "recovery": 352,
+      "inner": 100,
+      "minimum_junction_distance": 35.051470301904686,
+      "sha256": "6c278cd041dba05073382882a2f72a8c8edc61cce25fa31e1c130f014935fa76"
+    },
+    {
+      "seed": 103,
+      "n": 200,
+      "corner": 200,
+      "recovery": 27,
+      "inner": 0,
+      "minimum_junction_distance": 53.95451398165092,
+      "sha256": "143be41b28bcbf03db690dffb023c153736de1c4f4cdcc124c1499c5a1ecd797"
+    },
+    {
+      "seed": 104,
+      "n": 1000,
+      "corner": 279,
+      "recovery": 333,
+      "inner": 100,
+      "minimum_junction_distance": 35.024311328771944,
+      "sha256": "ce88bb7cd4c6fad082076e50f7ed056888ea5a202bc1f69a79e41bd7f5f25f8c"
+    },
+    {
+      "seed": 104,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 63.833113416578996,
+      "sha256": "73f0d3af5cf36b43b70f9bb9c91ad8768ac3814d2b220b6a1a2ff161132b643e"
+    },
+    {
+      "seed": 105,
+      "n": 1000,
+      "corner": 66,
+      "recovery": 357,
+      "inner": 100,
+      "minimum_junction_distance": 35.008926599211684,
+      "sha256": "281c547b0e32b916451216ba8cb6b357048ae945090fbf38eb3dd4c98ba55124"
+    },
+    {
+      "seed": 105,
+      "n": 200,
+      "corner": 200,
+      "recovery": 13,
+      "inner": 0,
+      "minimum_junction_distance": 50.127497035498465,
+      "sha256": "6037bd3f5445bc51da724ca52c26a1b44186afbaa3750836e02a75313b19eebb"
+    },
+    {
+      "seed": 106,
+      "n": 1000,
+      "corner": 376,
+      "recovery": 340,
+      "inner": 100,
+      "minimum_junction_distance": 35.15550508243691,
+      "sha256": "f44d262fb3e78ba0296793ea7d3e723b0103e90894eb5c0bbec4ee0d3c26c1f3"
+    },
+    {
+      "seed": 106,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 65.47219030288123,
+      "sha256": "4d254ee3c7085195e46fbf7dfbabdbf1c02c6c8f34caf8648c67ff38a4788278"
+    },
+    {
+      "seed": 107,
+      "n": 1000,
+      "corner": 54,
+      "recovery": 385,
+      "inner": 100,
+      "minimum_junction_distance": 35.055016408756316,
+      "sha256": "d8bebfae90e53171ece022a4103ac91ccc93b244c869af5c652ce33cc6a0a16f"
+    },
+    {
+      "seed": 107,
+      "n": 200,
+      "corner": 200,
+      "recovery": 4,
+      "inner": 0,
+      "minimum_junction_distance": 58.05028198366865,
+      "sha256": "2c53181aab09d33cea2a4eda47cd02693adda5819add82dbe5588b53a2ff9a31"
+    },
+    {
+      "seed": 108,
+      "n": 1000,
+      "corner": 360,
+      "recovery": 362,
+      "inner": 100,
+      "minimum_junction_distance": 35.02301569680649,
+      "sha256": "d17006fdb314168a4aa6d5a64b8682029dc9b4323f9fa07d617e4919364d6dcf"
+    },
+    {
+      "seed": 108,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 66.06463420283048,
+      "sha256": "dd1e0ef9f5467ec3d8cbd9fea8607dd495c685a73642894262091129371430e5"
+    },
+    {
+      "seed": 109,
+      "n": 1000,
+      "corner": 372,
+      "recovery": 376,
+      "inner": 100,
+      "minimum_junction_distance": 35.01659245979139,
+      "sha256": "04c991a16358350c13b97484449235930add69a310a763298116073b8f9a71d0"
+    },
+    {
+      "seed": 109,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 65.31365132862531,
+      "sha256": "0cae5163f793083a5da3b0961d70c6bc21d05f97d581cbd2b0742649ec62f10a"
+    },
+    {
+      "seed": 110,
+      "n": 1000,
+      "corner": 53,
+      "recovery": 345,
+      "inner": 100,
+      "minimum_junction_distance": 35.034530372671824,
+      "sha256": "824bc447a20e33367af8a6341253b955fc56c21ad27e7aacaf85dc70448266cb"
+    },
+    {
+      "seed": 110,
+      "n": 200,
+      "corner": 200,
+      "recovery": 12,
+      "inner": 0,
+      "minimum_junction_distance": 48.442227629238275,
+      "sha256": "86fb036afabb7c5d707caf8b3180b60cdef08b2b2f943d3f16e7097abcffde8a"
+    },
+    {
+      "seed": 111,
+      "n": 1000,
+      "corner": 15,
+      "recovery": 322,
+      "inner": 100,
+      "minimum_junction_distance": 35.03434207341957,
+      "sha256": "7c6ba019acfef5d733327835291b80eb420f3db597b0cf7af498bd44607d596d"
+    },
+    {
+      "seed": 111,
+      "n": 200,
+      "corner": 200,
+      "recovery": 18,
+      "inner": 0,
+      "minimum_junction_distance": 35.53831029557867,
+      "sha256": "2d0f60013a1eabe25d0b24bb10c4fb904f52cfa6b948286e6b49008ab884ef65"
+    },
+    {
+      "seed": 112,
+      "n": 1000,
+      "corner": 49,
+      "recovery": 327,
+      "inner": 100,
+      "minimum_junction_distance": 35.121031669940784,
+      "sha256": "7708563e885bf749fef216b9649b8d82e4dc85aaee121479291d291ded8044cc"
+    },
+    {
+      "seed": 112,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 58.785190094585694,
+      "sha256": "a99731c36d3aea8f9d9deef88c150f0319595d6da73a888ae636c7b7d88bde61"
+    },
+    {
+      "seed": 113,
+      "n": 1000,
+      "corner": 42,
+      "recovery": 330,
+      "inner": 100,
+      "minimum_junction_distance": 35.00414044766649,
+      "sha256": "655781ec497bddec04035213078aebc854d6bdaa4bc6b9bf5f49a65d9346950b"
+    },
+    {
+      "seed": 113,
+      "n": 200,
+      "corner": 200,
+      "recovery": 4,
+      "inner": 0,
+      "minimum_junction_distance": 60.78387727412688,
+      "sha256": "16b6dc1195c815c19534fc3560f6f0d87f4b530fef318d90e47c5dd6bea39c2d"
+    },
+    {
+      "seed": 114,
+      "n": 1000,
+      "corner": 311,
+      "recovery": 334,
+      "inner": 100,
+      "minimum_junction_distance": 35.020133086219104,
+      "sha256": "8a1d04b1e1790a072211757f02c8162d6beb9f8d9e444e23a75e61b4b75a63be"
+    },
+    {
+      "seed": 114,
+      "n": 200,
+      "corner": 200,
+      "recovery": 3,
+      "inner": 0,
+      "minimum_junction_distance": 49.11089991217955,
+      "sha256": "07bd5b903a7831f0eca44d8aa72843d0c0ebe3c7075c93e8183defcce4cfb720"
+    },
+    {
+      "seed": 115,
+      "n": 1000,
+      "corner": 48,
+      "recovery": 300,
+      "inner": 100,
+      "minimum_junction_distance": 35.14870491116065,
+      "sha256": "7b2c454f4b9c8f8e925383d4a2a7dc5829b90cc329a209ead155f608bbdc3758"
+    },
+    {
+      "seed": 115,
+      "n": 200,
+      "corner": 200,
+      "recovery": 16,
+      "inner": 0,
+      "minimum_junction_distance": 54.270426290222524,
+      "sha256": "48c262cdb05ef269e274666120031ff5be25906e178cae32222af646d5eb18c9"
+    },
+    {
+      "seed": 116,
+      "n": 1000,
+      "corner": 68,
+      "recovery": 344,
+      "inner": 100,
+      "minimum_junction_distance": 35.06141329979777,
+      "sha256": "48349b872d084d970543c69e60514258af90c2a64756e93e6f4d2f6b17c6d0a0"
+    },
+    {
+      "seed": 116,
+      "n": 200,
+      "corner": 200,
+      "recovery": 23,
+      "inner": 0,
+      "minimum_junction_distance": 57.30480077467732,
+      "sha256": "63413178d6d782f5a477d6222e9538a0b4cdbe2b486ea61fa9be62c7648553f5"
+    },
+    {
+      "seed": 117,
+      "n": 1000,
+      "corner": 270,
+      "recovery": 341,
+      "inner": 100,
+      "minimum_junction_distance": 35.051172145753625,
+      "sha256": "02dc0623b56287154258857e7aa5dcb868a0dcb03f21221acb5c0b5f0e4f1780"
+    },
+    {
+      "seed": 117,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 66.45025414592038,
+      "sha256": "fcfd8a673b07f8e4f82b139d0bde6c3e52e52c2f23b09c921cdd4e4982068180"
+    },
+    {
+      "seed": 118,
+      "n": 1000,
+      "corner": 377,
+      "recovery": 340,
+      "inner": 100,
+      "minimum_junction_distance": 35.0271031860665,
+      "sha256": "37676df113ed3f3ecb60b9ba69441bab91dbeef5241bb7561a17b44d50ee3145"
+    },
+    {
+      "seed": 118,
+      "n": 200,
+      "corner": 200,
+      "recovery": 11,
+      "inner": 0,
+      "minimum_junction_distance": 42.91416674846832,
+      "sha256": "3df1c82bfeaa23911192070202b33119619fdb3cf9ea14501839e888fc8e7626"
+    },
+    {
+      "seed": 119,
+      "n": 1000,
+      "corner": 327,
+      "recovery": 326,
+      "inner": 100,
+      "minimum_junction_distance": 35.025504565651914,
+      "sha256": "c03a3aa973b34a2957568149a24c20c06a1d97585318ab7f8e03bfeaa633babc"
+    },
+    {
+      "seed": 119,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 56.47326925704768,
+      "sha256": "7501d87f178da240da32a5c08f160bcef0ab0cc73890be2206e7b085fca2d714"
+    },
+    {
+      "seed": 120,
+      "n": 1000,
+      "corner": 333,
+      "recovery": 334,
+      "inner": 100,
+      "minimum_junction_distance": 35.02538901746795,
+      "sha256": "0649a098c8a8e9b8733ed2cfda2719b96e7b5f9bf262d4ef2bfccba57f75f82d"
+    },
+    {
+      "seed": 120,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 65.14072279047132,
+      "sha256": "ee7a6722f6c95a380e782a2d05402cf78dac77e7c752b3877122a74b245df9a3"
+    },
+    {
+      "seed": 121,
+      "n": 1000,
+      "corner": 41,
+      "recovery": 341,
+      "inner": 100,
+      "minimum_junction_distance": 35.00886560603164,
+      "sha256": "9855c4aefe19f49f5ceb57e0de0e54328662b5c10cc940da9118780d6eb169d9"
+    },
+    {
+      "seed": 121,
+      "n": 200,
+      "corner": 200,
+      "recovery": 2,
+      "inner": 0,
+      "minimum_junction_distance": 50.94332424903205,
+      "sha256": "57c23074e82573e8ad4be4569e37b33503c55a2e3a43107a97b62e6b3425ea17"
+    },
+    {
+      "seed": 122,
+      "n": 1000,
+      "corner": 330,
+      "recovery": 336,
+      "inner": 100,
+      "minimum_junction_distance": 35.06327847356323,
+      "sha256": "6de0cdfde23d79addc3e8a61e7e2921b55915487dda4d2582cb0c2a213fba987"
+    },
+    {
+      "seed": 122,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 64.56692812171819,
+      "sha256": "5e8959c214edcc79a4f16453e286b77297fe181b9517fdedb32fc7b8001c5fb0"
+    },
+    {
+      "seed": 123,
+      "n": 1000,
+      "corner": 209,
+      "recovery": 321,
+      "inner": 100,
+      "minimum_junction_distance": 35.04508847912603,
+      "sha256": "5d6c767eacc0742c949ddd2704540ed1082392eef2aaecedbb886baa8d6b11d2"
+    },
+    {
+      "seed": 123,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 60.85865216040269,
+      "sha256": "f442d9fce95cb659fd6da2f4cf20c9d8dcb54f79c7af2e728d50b915d461105a"
+    },
+    {
+      "seed": 124,
+      "n": 1000,
+      "corner": 51,
+      "recovery": 345,
+      "inner": 100,
+      "minimum_junction_distance": 35.09443681345726,
+      "sha256": "f0f73aac9bb1fa3eb27601649e6c8f84426c0298a14cae6da926dcf65cf9bb05"
+    },
+    {
+      "seed": 124,
+      "n": 200,
+      "corner": 200,
+      "recovery": 20,
+      "inner": 0,
+      "minimum_junction_distance": 47.53885502902851,
+      "sha256": "b07c65596f79fa1a7c51775e02dfad1101eff98be929ad9686cfd90f661e63e1"
+    },
+    {
+      "seed": 125,
+      "n": 1000,
+      "corner": 245,
+      "recovery": 315,
+      "inner": 100,
+      "minimum_junction_distance": 35.084094065398496,
+      "sha256": "eca6cbedc97915fa067544028dd1fbfd88e30c0b73aa74b7da4d98a61f49d2b5"
+    },
+    {
+      "seed": 125,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 66.42167889942272,
+      "sha256": "314964e7fdea3bc90e4d21b86fcad528781e1e4eb23361c56d8a123166e62512"
+    },
+    {
+      "seed": 126,
+      "n": 1000,
+      "corner": 397,
+      "recovery": 317,
+      "inner": 100,
+      "minimum_junction_distance": 35.23580801444619,
+      "sha256": "8a76816e344cf3fae0dc6feb314fd55a10f072267bea5b5677b86065ff3d38bb"
+    },
+    {
+      "seed": 126,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 66.07478885759362,
+      "sha256": "c9d4b6ee7120d81be3129b0ee7423507962c905e63b29f29bc26bef462b8a9c2"
+    },
+    {
+      "seed": 127,
+      "n": 1000,
+      "corner": 9,
+      "recovery": 351,
+      "inner": 100,
+      "minimum_junction_distance": 35.012933074025916,
+      "sha256": "086ebb3ea33ce4d41d084f0c734bdfe3f348a57fa0e7f62c56e75c02597f5e80"
+    },
+    {
+      "seed": 127,
+      "n": 200,
+      "corner": 200,
+      "recovery": 6,
+      "inner": 0,
+      "minimum_junction_distance": 62.202328673547946,
+      "sha256": "44b91f3e0d60ceee669b8aedbdf710410dc91f56a2dd4625d325aa823221038d"
+    },
+    {
+      "seed": 128,
+      "n": 1000,
+      "corner": 336,
+      "recovery": 381,
+      "inner": 100,
+      "minimum_junction_distance": 35.02447370695227,
+      "sha256": "6fcc278318a1192e263c8850d67d6d423484381fe1e5179ca34f67f60580c64c"
+    },
+    {
+      "seed": 128,
+      "n": 200,
+      "corner": 200,
+      "recovery": 0,
+      "inner": 0,
+      "minimum_junction_distance": 65.19400361950335,
+      "sha256": "c7b023bd2e0633aa28342bf03074b8eda583574692ff3d93eb8117139a75eb73"
+    },
+    {
+      "seed": 129,
+      "n": 1000,
+      "corner": 38,
+      "recovery": 360,
+      "inner": 100,
+      "minimum_junction_distance": 35.02806831071283,
+      "sha256": "b5a69dd82bda312cba5e3621cb1f1b9f7aa6d9caa45ffa14c52f00590df92b8a"
+    },
+    {
+      "seed": 129,
+      "n": 200,
+      "corner": 200,
+      "recovery": 39,
+      "inner": 0,
+      "minimum_junction_distance": 46.18669173553365,
+      "sha256": "ede3b011a0b03bc42b7f9ea1b1c5221e7db30ae7ec2d591abda8d745e42d34a0"
+    }
+  ],
+  "ok": true
+}

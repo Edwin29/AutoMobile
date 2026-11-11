@@ -1,0 +1,634 @@
+[
+  {
+    "outcome": "lap_complete",
+    "verified_lap": true,
+    "progress_cm": 654.6883639640685,
+    "lap_cm": 655.088363964073,
+    "simulated_s": 92.5533333333361,
+    "proper_corners": 4,
+    "corners": [
+      {
+        "corner": "ES",
+        "start_s": 0.02,
+        "end_s": 12.165333333333244,
+        "turn_deg": 91.352253629817,
+        "proper": true
+      },
+      {
+        "corner": "WS",
+        "start_s": 21.79733333333342,
+        "end_s": 35.52933333333394,
+        "turn_deg": 91.38904841348932,
+        "proper": true
+      },
+      {
+        "corner": "WN",
+        "start_s": 45.213333333334305,
+        "end_s": 58.73333333333482,
+        "turn_deg": 91.53788024943952,
+        "proper": true
+      },
+      {
+        "corner": "EN",
+        "start_s": 68.36133333333518,
+        "end_s": 81.9693333333357,
+        "turn_deg": 90.92134262068795,
+        "proper": true
+      }
+    ],
+    "corner_plan": [
+      [
+        "ES",
+        36.691284783066884
+      ],
+      [
+        "WS",
+        200.45557571115134
+      ],
+      [
+        "WN",
+        364.73278825294517
+      ],
+      [
+        "EN",
+        528.4970791810027
+      ]
+    ],
+    "min_margin_cm": 0.03804833624559478,
+    "outside_s": 0.0,
+    "zero_output_s": 0.06933333333333333,
+    "clean_lap": true,
+    "worst_first_corner_cm": 0.0,
+    "worst_after_first_corner_cm": 0.0,
+    "episodes": [],
+    "unrecovered_episodes": 0,
+    "controller": "cnnA5b",
+    "controller_source": "truth-pose teacher 18cm pursuit; simulation only",
+    "direction": "cw",
+    "effects": [
+      "realcam_harsh"
+    ],
+    "seed": 41,
+    "timing": {
+      "name": "cnn_pi",
+      "latencies_s": null,
+      "max_latency_s": 0.036,
+      "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+      "controller_period_s": 0.2
+    },
+    "vehicle": {
+      "start_duty_left": 0.2700776597430562,
+      "start_duty_right": 0.3261590468744596,
+      "max_duty": 0.9245360367155977,
+      "cm_s_per_duty_left": 17.24376760367675,
+      "cm_s_per_duty_right": 18.389441220019286,
+      "turn_eff_left": 0.6423805601655155,
+      "turn_eff_right": 0.7312750790935028,
+      "drift_rad_s": 0.00614999450979857,
+      "actuation_delay_s": 0.05082538698564424,
+      "time_constant_s": 0.15545160023615162,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "frames": 2569,
+    "variation": {
+      "name": "fixed",
+      "wander_tau_s": 8.0,
+      "wander_turn_eff": 0.0,
+      "wander_speed_rel": 0.0,
+      "wander_start_duty": 0.0,
+      "wander_max_duty": 0.0,
+      "wander_delay_s": 0.0,
+      "trend_speed_rel_per_min": 0.0,
+      "trend_max_duty_rel_per_min": 0.0,
+      "patches": 0,
+      "patch_speed": [
+        1.0,
+        1.0
+      ],
+      "patch_turn": [
+        1.0,
+        1.0
+      ],
+      "patch_size_cm": [
+        20.0,
+        40.0
+      ],
+      "breakaway_duty": 0.0,
+      "seed": 41
+    },
+    "floor_patches": [],
+    "pose_error_cm": null,
+    "camera": {
+      "profile": "harsh",
+      "device": "cuda",
+      "drawn": {
+        "exposure_s": 0.102,
+        "sub_samples": 4,
+        "focus_sigma": 1.632,
+        "haze": 0.111,
+        "target_rel": 0.664,
+        "ae_tau_s": 0.555,
+        "ae_hunt": 0.25,
+        "start_gain": 0.204,
+        "awb_drift": 0.08,
+        "start_magenta": 0.6,
+        "vignette": 0.264,
+        "magenta_corner": 0.264,
+        "sheen_lights": 4,
+        "sheen_amp": 99.651,
+        "sheen_width": 0.172,
+        "sheen_dist": 50.74,
+        "creases": 8,
+        "crease_amp": 42.974,
+        "static_shadows": 10,
+        "shadow_dark": 0.332,
+        "walkers": 3,
+        "own_shadow": 0.655,
+        "read_noise": 3.105,
+        "shot_noise": 1.0,
+        "flare": 1.0,
+        "background": 1
+      }
+    },
+    "wall_s": 54.387710799928755,
+    "vehicle_name": "random:41"
+  },
+  {
+    "outcome": "lap_complete",
+    "verified_lap": true,
+    "progress_cm": 668.088363964039,
+    "lap_cm": 655.0883639640593,
+    "simulated_s": 86.30933333333586,
+    "proper_corners": 4,
+    "corners": [
+      {
+        "corner": "EN",
+        "start_s": 11.537333333333251,
+        "end_s": 22.949333333333463,
+        "turn_deg": -90.17512267054705,
+        "proper": true
+      },
+      {
+        "corner": "WN",
+        "start_s": 32.577333333333826,
+        "end_s": 43.97333333333426,
+        "turn_deg": -90.54174370867676,
+        "proper": true
+      },
+      {
+        "corner": "WS",
+        "start_s": 53.673333333334625,
+        "end_s": 65.24933333333506,
+        "turn_deg": -89.83060459598191,
+        "proper": true
+      },
+      {
+        "corner": "ES",
+        "start_s": 74.86133333333542,
+        "end_s": 86.30933333333586,
+        "turn_deg": -90.5736865994988,
+        "proper": true
+      }
+    ],
+    "corner_plan": [
+      [
+        "EN",
+        131.09128478308574
+      ],
+      [
+        "WN",
+        294.85557571116703
+      ],
+      [
+        "WS",
+        459.1327882529277
+      ],
+      [
+        "ES",
+        622.897079180993
+      ]
+    ],
+    "min_margin_cm": 1.0093283437275034,
+    "outside_s": 0.0,
+    "zero_output_s": 0.06933333333333333,
+    "clean_lap": true,
+    "worst_first_corner_cm": 0.0,
+    "worst_after_first_corner_cm": 0.0,
+    "episodes": [],
+    "unrecovered_episodes": 0,
+    "controller": "cnnA5b",
+    "controller_source": "truth-pose teacher 18cm pursuit; simulation only",
+    "direction": "ccw",
+    "effects": [
+      "realcam_harsh"
+    ],
+    "seed": 41,
+    "timing": {
+      "name": "cnn_pi",
+      "latencies_s": null,
+      "max_latency_s": 0.036,
+      "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+      "controller_period_s": 0.2
+    },
+    "vehicle": {
+      "start_duty_left": 0.2700776597430562,
+      "start_duty_right": 0.3261590468744596,
+      "max_duty": 0.9245360367155977,
+      "cm_s_per_duty_left": 17.24376760367675,
+      "cm_s_per_duty_right": 18.389441220019286,
+      "turn_eff_left": 0.6423805601655155,
+      "turn_eff_right": 0.7312750790935028,
+      "drift_rad_s": 0.00614999450979857,
+      "actuation_delay_s": 0.05082538698564424,
+      "time_constant_s": 0.15545160023615162,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "frames": 2396,
+    "variation": {
+      "name": "fixed",
+      "wander_tau_s": 8.0,
+      "wander_turn_eff": 0.0,
+      "wander_speed_rel": 0.0,
+      "wander_start_duty": 0.0,
+      "wander_max_duty": 0.0,
+      "wander_delay_s": 0.0,
+      "trend_speed_rel_per_min": 0.0,
+      "trend_max_duty_rel_per_min": 0.0,
+      "patches": 0,
+      "patch_speed": [
+        1.0,
+        1.0
+      ],
+      "patch_turn": [
+        1.0,
+        1.0
+      ],
+      "patch_size_cm": [
+        20.0,
+        40.0
+      ],
+      "breakaway_duty": 0.0,
+      "seed": 41
+    },
+    "floor_patches": [],
+    "pose_error_cm": null,
+    "camera": {
+      "profile": "harsh",
+      "device": "cuda",
+      "drawn": {
+        "exposure_s": 0.102,
+        "sub_samples": 4,
+        "focus_sigma": 1.632,
+        "haze": 0.111,
+        "target_rel": 0.664,
+        "ae_tau_s": 0.555,
+        "ae_hunt": 0.25,
+        "start_gain": 0.204,
+        "awb_drift": 0.08,
+        "start_magenta": 0.6,
+        "vignette": 0.264,
+        "magenta_corner": 0.264,
+        "sheen_lights": 4,
+        "sheen_amp": 99.651,
+        "sheen_width": 0.172,
+        "sheen_dist": 50.74,
+        "creases": 8,
+        "crease_amp": 42.974,
+        "static_shadows": 10,
+        "shadow_dark": 0.332,
+        "walkers": 3,
+        "own_shadow": 0.655,
+        "read_noise": 3.105,
+        "shot_noise": 1.0,
+        "flare": 1.0,
+        "background": 1
+      }
+    },
+    "wall_s": 47.324941399972886,
+    "vehicle_name": "random:41"
+  },
+  {
+    "outcome": "lap_complete",
+    "verified_lap": true,
+    "progress_cm": 654.6883639640633,
+    "lap_cm": 655.088363964073,
+    "simulated_s": 94.01333333333615,
+    "proper_corners": 4,
+    "corners": [
+      {
+        "corner": "ES",
+        "start_s": 0.02,
+        "end_s": 12.185333333333244,
+        "turn_deg": 91.31213941749738,
+        "proper": true
+      },
+      {
+        "corner": "WS",
+        "start_s": 22.209333333333436,
+        "end_s": 35.709333333333944,
+        "turn_deg": 90.14486914846609,
+        "proper": true
+      },
+      {
+        "corner": "WN",
+        "start_s": 45.80933333333433,
+        "end_s": 59.30933333333484,
+        "turn_deg": 90.32987962708354,
+        "proper": true
+      },
+      {
+        "corner": "EN",
+        "start_s": 69.33333333333522,
+        "end_s": 82.97733333333574,
+        "turn_deg": 90.14343540880057,
+        "proper": true
+      }
+    ],
+    "corner_plan": [
+      [
+        "ES",
+        36.691284783066884
+      ],
+      [
+        "WS",
+        200.45557571115134
+      ],
+      [
+        "WN",
+        364.73278825294517
+      ],
+      [
+        "EN",
+        528.4970791810027
+      ]
+    ],
+    "min_margin_cm": 0.912849005733321,
+    "outside_s": 0.0,
+    "zero_output_s": 0.06933333333333333,
+    "clean_lap": true,
+    "worst_first_corner_cm": 0.0,
+    "worst_after_first_corner_cm": 0.0,
+    "episodes": [],
+    "unrecovered_episodes": 0,
+    "controller": "cnnA5b",
+    "controller_source": "truth-pose teacher 18cm pursuit; simulation only",
+    "direction": "cw",
+    "effects": [
+      "realcam_harsh"
+    ],
+    "seed": 41,
+    "timing": {
+      "name": "cnn_pi",
+      "latencies_s": null,
+      "max_latency_s": 0.036,
+      "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+      "controller_period_s": 0.2
+    },
+    "vehicle": {
+      "start_duty_left": 0.32868783359291065,
+      "start_duty_right": 0.31578944232474915,
+      "max_duty": 0.5470886739438248,
+      "cm_s_per_duty_left": 17.221215008040918,
+      "cm_s_per_duty_right": 16.970433380406785,
+      "turn_eff_left": 0.9865922934002158,
+      "turn_eff_right": 0.8686268360946942,
+      "drift_rad_s": 0.01716385831661723,
+      "actuation_delay_s": 0.01921704490133188,
+      "time_constant_s": 0.11259648447389178,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "frames": 2610,
+    "variation": {
+      "name": "fixed",
+      "wander_tau_s": 8.0,
+      "wander_turn_eff": 0.0,
+      "wander_speed_rel": 0.0,
+      "wander_start_duty": 0.0,
+      "wander_max_duty": 0.0,
+      "wander_delay_s": 0.0,
+      "trend_speed_rel_per_min": 0.0,
+      "trend_max_duty_rel_per_min": 0.0,
+      "patches": 0,
+      "patch_speed": [
+        1.0,
+        1.0
+      ],
+      "patch_turn": [
+        1.0,
+        1.0
+      ],
+      "patch_size_cm": [
+        20.0,
+        40.0
+      ],
+      "breakaway_duty": 0.0,
+      "seed": 41
+    },
+    "floor_patches": [],
+    "pose_error_cm": null,
+    "camera": {
+      "profile": "harsh",
+      "device": "cuda",
+      "drawn": {
+        "exposure_s": 0.102,
+        "sub_samples": 4,
+        "focus_sigma": 1.632,
+        "haze": 0.111,
+        "target_rel": 0.664,
+        "ae_tau_s": 0.555,
+        "ae_hunt": 0.25,
+        "start_gain": 0.204,
+        "awb_drift": 0.08,
+        "start_magenta": 0.6,
+        "vignette": 0.264,
+        "magenta_corner": 0.264,
+        "sheen_lights": 4,
+        "sheen_amp": 99.651,
+        "sheen_width": 0.172,
+        "sheen_dist": 50.74,
+        "creases": 8,
+        "crease_amp": 42.974,
+        "static_shadows": 10,
+        "shadow_dark": 0.332,
+        "walkers": 3,
+        "own_shadow": 0.655,
+        "read_noise": 3.105,
+        "shot_noise": 1.0,
+        "flare": 1.0,
+        "background": 1
+      }
+    },
+    "wall_s": 54.02085609990172,
+    "vehicle_name": "random:42"
+  },
+  {
+    "outcome": "lap_complete",
+    "verified_lap": true,
+    "progress_cm": 667.9883639640325,
+    "lap_cm": 655.0883639640593,
+    "simulated_s": 97.21733333333627,
+    "proper_corners": 4,
+    "corners": [
+      {
+        "corner": "EN",
+        "start_s": 11.933333333333247,
+        "end_s": 25.79333333333357,
+        "turn_deg": -90.58224778951578,
+        "proper": true
+      },
+      {
+        "corner": "WN",
+        "start_s": 35.81733333333395,
+        "end_s": 49.84133333333448,
+        "turn_deg": -90.48223305091261,
+        "proper": true
+      },
+      {
+        "corner": "WS",
+        "start_s": 59.93733333333486,
+        "end_s": 73.11333333333536,
+        "turn_deg": -88.60339453454999,
+        "proper": true
+      },
+      {
+        "corner": "ES",
+        "start_s": 83.14133333333574,
+        "end_s": 97.21733333333627,
+        "turn_deg": -90.47594393276245,
+        "proper": true
+      }
+    ],
+    "corner_plan": [
+      [
+        "EN",
+        131.09128478308574
+      ],
+      [
+        "WN",
+        294.85557571116703
+      ],
+      [
+        "WS",
+        459.1327882529277
+      ],
+      [
+        "ES",
+        622.897079180993
+      ]
+    ],
+    "min_margin_cm": 0.2318868367349154,
+    "outside_s": 0.0,
+    "zero_output_s": 0.06933333333333333,
+    "clean_lap": true,
+    "worst_first_corner_cm": 0.0,
+    "worst_after_first_corner_cm": 0.0,
+    "episodes": [],
+    "unrecovered_episodes": 0,
+    "controller": "cnnA5b",
+    "controller_source": "truth-pose teacher 18cm pursuit; simulation only",
+    "direction": "ccw",
+    "effects": [
+      "realcam_harsh"
+    ],
+    "seed": 41,
+    "timing": {
+      "name": "cnn_pi",
+      "latencies_s": null,
+      "max_latency_s": 0.036,
+      "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+      "controller_period_s": 0.2
+    },
+    "vehicle": {
+      "start_duty_left": 0.32868783359291065,
+      "start_duty_right": 0.31578944232474915,
+      "max_duty": 0.5470886739438248,
+      "cm_s_per_duty_left": 17.221215008040918,
+      "cm_s_per_duty_right": 16.970433380406785,
+      "turn_eff_left": 0.9865922934002158,
+      "turn_eff_right": 0.8686268360946942,
+      "drift_rad_s": 0.01716385831661723,
+      "actuation_delay_s": 0.01921704490133188,
+      "time_constant_s": 0.11259648447389178,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "frames": 2699,
+    "variation": {
+      "name": "fixed",
+      "wander_tau_s": 8.0,
+      "wander_turn_eff": 0.0,
+      "wander_speed_rel": 0.0,
+      "wander_start_duty": 0.0,
+      "wander_max_duty": 0.0,
+      "wander_delay_s": 0.0,
+      "trend_speed_rel_per_min": 0.0,
+      "trend_max_duty_rel_per_min": 0.0,
+      "patches": 0,
+      "patch_speed": [
+        1.0,
+        1.0
+      ],
+      "patch_turn": [
+        1.0,
+        1.0
+      ],
+      "patch_size_cm": [
+        20.0,
+        40.0
+      ],
+      "breakaway_duty": 0.0,
+      "seed": 41
+    },
+    "floor_patches": [],
+    "pose_error_cm": null,
+    "camera": {
+      "profile": "harsh",
+      "device": "cuda",
+      "drawn": {
+        "exposure_s": 0.102,
+        "sub_samples": 4,
+        "focus_sigma": 1.632,
+        "haze": 0.111,
+        "target_rel": 0.664,
+        "ae_tau_s": 0.555,
+        "ae_hunt": 0.25,
+        "start_gain": 0.204,
+        "awb_drift": 0.08,
+        "start_magenta": 0.6,
+        "vignette": 0.264,
+        "magenta_corner": 0.264,
+        "sheen_lights": 4,
+        "sheen_amp": 99.651,
+        "sheen_width": 0.172,
+        "sheen_dist": 50.74,
+        "creases": 8,
+        "crease_amp": 42.974,
+        "static_shadows": 10,
+        "shadow_dark": 0.332,
+        "walkers": 3,
+        "own_shadow": 0.655,
+        "read_noise": 3.105,
+        "shot_noise": 1.0,
+        "flare": 1.0,
+        "background": 1
+      }
+    },
+    "wall_s": 41.78050259989686,
+    "vehicle_name": "random:42"
+  }
+]
