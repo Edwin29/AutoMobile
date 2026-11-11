@@ -9,11 +9,13 @@ if __name__ == '__main__':
     ap=argparse.ArgumentParser()
     ap.add_argument('--cnn-mixer', choices=['v4'], default='v4')
     ap.add_argument('--out', required=True)
+    ap.add_argument('--vehicles', default='field_estimate,weak_left_turn,sluggish,unequal_sides')
+    ap.add_argument('--directions', default='cw,ccw')
     args=ap.parse_args()
     HybridCNN.CNN_MIXER=args.cnn_mixer
     rows=[]
-    for vehicle in ['field_estimate','weak_left_turn','sluggish','unequal_sides']:
-        for direction in ['cw','ccw']:
+    for vehicle in args.vehicles.split(','):
+        for direction in args.directions.split(','):
             dst=Path(args.out)/(vehicle+'_'+direction)
             if (dst/'summary.json').exists():
                 r=json.loads((dst/'summary.json').read_text())

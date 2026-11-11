@@ -58,7 +58,7 @@ def vehicle_from_args(vehicle, overrides):
     return replace(p, **(overrides or {}))
 
 
-def run(controller, params, effects, direction, timing, seed, seconds, out, video=False, variation="fixed"):
+def run(controller, params, effects, direction, timing, seed, seconds, out, video=False, variation="fixed", variant=0):
     from cnn_finetune.teacher import Teacher
     cv2.setNumThreads(1)
     out = Path(out)
@@ -77,7 +77,8 @@ def run(controller, params, effects, direction, timing, seed, seconds, out, vide
     trigger = scorer.first_corner_progress - (30.0 if "seam" in effects else 4.0)
     if "trigger_cm" in dist.p:                 # e.g. white-out while already turning
         trigger = scorer.first_corner_progress + dist.p["trigger_cm"]
-    ctrl = Teacher(direction)
+    ctrl = Teacher(direction, variant=variant)
+    ctrl.sim_params = params
     ctrl.source = 'truth-pose teacher 18cm pursuit; simulation only'
     ctrl.raw_camera = True
     t, last_pwm, history = 0.0, np.zeros(2), [(0.0, truth0.copy())]
@@ -159,14 +160,18 @@ if __name__ == '__main__':
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', required=True)
+    ap.add_argument('--variant', type=int, default=0)
+    ap.add_argument('--vehicles', default='field_estimate,weak_left_turn,sluggish,unequal_sides')
+    ap.add_argument('--directions', default='cw,ccw')
+    ap.add_argument('--effects', default='realcam')
     a = ap.parse_args()
     summaries = []
     root = Path(a.out)
-    for vehicle in ['field_estimate', 'weak_left_turn', 'sluggish', 'unequal_sides', 'random:41', 'random:42', 'random:43']:
-        for effect in ['realcam', 'realcam_harsh']:
-            for direction in ['cw', 'ccw']:
+    for vehicle in a.vehicles.split(','):
+        for effect in a.effects.split(','):
+            for direction in a.directions.split(','):
                 name = vehicle.replace(':','_')+'_'+effect+'_'+direction
-                result = run('cnnA5b', vehicle_from_args(vehicle, None), [effect], direction, 'own', 41, 200, root/name)
+                result = run('cnnA5b', vehicle_from_args(vehicle, None), [effect], direction, 'own', 41, 200, root/name, variant=a.variant)
                 result['vehicle_name'] = vehicle
                 summaries.append(result)
                 print(json.dumps(dict(name=name, verified=result['verified_lap'], margin=result['min_margin_cm'], outcome=result['outcome'])), flush=True)

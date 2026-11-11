@@ -1,0 +1,506 @@
+[
+  {
+    "variant": 1,
+    "all_laps": true,
+    "worst_margin": -3.571093436167928,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.3587985553408544,
+        "outside_s": 3.0600000000000027
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.8610614240159862,
+        "outside_s": 3.800000000000357
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.6277979464779975,
+        "outside_s": 2.144000000000002
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -3.571093436167928,
+        "outside_s": 10.804000000001245
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.5611101073058933,
+        "outside_s": 2.952000000000002
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.9976300948670058,
+        "outside_s": 3.7440000000005287
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -2.192284169321482,
+        "outside_s": 8.79999999999987
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.2754247163431387,
+        "outside_s": 2.628000000000391
+      }
+    ]
+  },
+  {
+    "variant": 2,
+    "all_laps": true,
+    "worst_margin": -3.762445932490351,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.2535483999375998,
+        "outside_s": 1.9440000000000068
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.7639992111105585,
+        "outside_s": 2.6800000000001885
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.1759013262434621,
+        "outside_s": 0.5760000000000004
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -3.762445932490351,
+        "outside_s": 10.192000000001197
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.3959293954960827,
+        "outside_s": 3.6880000000000703
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.9902043781154646,
+        "outside_s": 4.176000000000619
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.753150633138958,
+        "outside_s": 4.912000000000103
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.3699736680713954,
+        "outside_s": 2.088000000000311
+      }
+    ]
+  },
+  {
+    "variant": 3,
+    "all_laps": true,
+    "worst_margin": -3.762445932490351,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.2535483999375998,
+        "outside_s": 1.9440000000000068
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.7639992111105585,
+        "outside_s": 2.6800000000001885
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.1759013262434621,
+        "outside_s": 0.5760000000000004
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -3.762445932490351,
+        "outside_s": 10.192000000001197
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.3959293954960827,
+        "outside_s": 3.6880000000000703
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.9902043781154646,
+        "outside_s": 4.176000000000619
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.753150633138958,
+        "outside_s": 4.912000000000103
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.3699736680713954,
+        "outside_s": 2.088000000000311
+      }
+    ]
+  },
+  {
+    "variant": 4,
+    "all_laps": true,
+    "worst_margin": -3.4088991451201025,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.5885682663713538,
+        "outside_s": 2.3760000000000017
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.692013077260114,
+        "outside_s": 2.716000000000201
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.7895051343183894,
+        "outside_s": 1.7840000000000016
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -3.4088991451201025,
+        "outside_s": 8.24400000000097
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.7190076022818914,
+        "outside_s": 2.5560000000000023
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.7358925147647142,
+        "outside_s": 2.896000000000434
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.8764099727975037,
+        "outside_s": 3.0760000000000023
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.1839698899023006,
+        "outside_s": 2.320000000000348
+      }
+    ]
+  },
+  {
+    "variant": 5,
+    "all_laps": true,
+    "worst_margin": -4.716845403914476,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -2.0470900625846298,
+        "outside_s": 9.127999999999872
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -2.399826833094778,
+        "outside_s": 9.920000000001004
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.650848667602304,
+        "outside_s": 3.1120000000000023
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -4.716845403914476,
+        "outside_s": 20.86400000000167
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.8176243342881406,
+        "outside_s": 8.33199999999989
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -2.344495360633985,
+        "outside_s": 9.428000000001173
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -3.3716460120209177,
+        "outside_s": 21.151999999999667
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.3656612526256424,
+        "outside_s": 4.62400000000057
+      }
+    ]
+  },
+  {
+    "variant": 6,
+    "all_laps": true,
+    "worst_margin": -2.8079516074786994,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.0674164930641155,
+        "outside_s": 1.7640000000000067
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.4406769162832234,
+        "outside_s": 2.360000000000171
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.7717993851223497,
+        "outside_s": 1.3520000000000012
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -2.8079516074786994,
+        "outside_s": 5.416000000000646
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.2022570018299064,
+        "outside_s": 3.348000000000067
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.716384527397409,
+        "outside_s": 3.8880000000005785
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.5420935005872707,
+        "outside_s": 4.644000000000105
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.0871974717397421,
+        "outside_s": 1.8160000000002732
+      }
+    ]
+  },
+  {
+    "variant": 7,
+    "all_laps": true,
+    "worst_margin": -2.7310293336271485,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.6771821838569849,
+        "outside_s": 1.2400000000000029
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.0668463708955471,
+        "outside_s": 1.9440000000001545
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.29663097631875246,
+        "outside_s": 0.7920000000000006
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -2.7310293336271485,
+        "outside_s": 5.180000000000628
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.7797147985329502,
+        "outside_s": 2.716000000000059
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.4274485277997826,
+        "outside_s": 3.5640000000005303
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -1.1471344112828206,
+        "outside_s": 4.212000000000112
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -0.7106924028229145,
+        "outside_s": 1.3840000000002088
+      }
+    ]
+  },
+  {
+    "variant": 8,
+    "all_laps": true,
+    "worst_margin": -2.6709880461163635,
+    "cases": [
+      {
+        "vehicle": "field_estimate",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.27854295465490964,
+        "outside_s": 0.7560000000000006
+      },
+      {
+        "vehicle": "field_estimate",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -0.6899559041498122,
+        "outside_s": 1.424000000000131
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": 0.02937414311549702,
+        "outside_s": 0.0
+      },
+      {
+        "vehicle": "weak_left_turn",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -2.6709880461163635,
+        "outside_s": 5.092000000000613
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.4692764365500679,
+        "outside_s": 2.052000000000055
+      },
+      {
+        "vehicle": "sluggish",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -1.2314844671399072,
+        "outside_s": 3.2920000000004928
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "cw",
+        "verified_lap": true,
+        "min_margin_cm": -0.7730357229732121,
+        "outside_s": 3.6920000000001116
+      },
+      {
+        "vehicle": "unequal_sides",
+        "direction": "ccw",
+        "verified_lap": true,
+        "min_margin_cm": -0.3599791279686997,
+        "outside_s": 0.9000000000001339
+      }
+    ]
+  }
+]
