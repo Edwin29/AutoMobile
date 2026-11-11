@@ -47,6 +47,11 @@ SCENARIOS = {
 }
 
 
+def params_name(p):
+    from .vehicle import PRESETS
+    return next((k for k, v in PRESETS.items() if v == p), "custom car")
+
+
 def heading_vec(yaw):
     return np.array([math.sin(yaw), math.cos(yaw)])
 
@@ -219,6 +224,62 @@ def _next_junction(j, exit_arm, track):
     raise RuntimeError("no junction found")
 
 
+class Film:
+    """Video for people: top-down map (truth body, map belief, trail, stop lines) next to
+    the camera frame the controller saw, with the mission state. Every `every`-th frame
+    at 30 fps (every=3 -> about 3x real time)."""
+
+    def __init__(self, path, renderer, rim, every=3):
+        self.tex = cv2.flip(renderer.base_texture, 0)           # rows = +y: flip so north is up
+        self.ppcm, self.origin, self.n = renderer.ppcm, renderer.origin, self.tex.shape[0]
+        self.rim, self.every, self.k, self.trail = rim, every, 0, []
+        self.size = 540
+        self.w = cv2.VideoWriter(str(path), cv2.VideoWriter_fourcc(*"mp4v"), 30, (self.size + 720, self.size))
+
+    def px(self, xy):
+        xy = np.asarray(xy, float)
+        x = (xy[..., 0] - self.origin) * self.ppcm
+        y = self.n - 1 - (xy[..., 1] - self.origin) * self.ppcm
+        return np.stack([x, y], -1)
+
+    def frame(self, t, truth, est, image, info, margin, held, lines, title):
+        self.trail.append(truth[:2].copy())
+        self.k += 1
+        if self.k % self.every:
+            return
+        top = self.tex.copy()
+        tr = self.px(np.array(self.trail)).astype(np.int32)
+        if len(tr) > 1:
+            cv2.polylines(top, [tr], False, (255, 255, 255), 2, cv2.LINE_AA)
+        for xy in lines:
+            cv2.circle(top, tuple(self.px(xy).astype(int)), 10, (60, 60, 255), 3, cv2.LINE_AA)
+        body = self.px(to_world(self.rim, truth)).astype(np.int32)
+        cv2.fillPoly(top, [body], (0, 200, 255) if margin >= 0 else (40, 40, 230))
+        if est is not None:
+            e = np.asarray(est, float)
+            tip = self.px(e[:2] + 9 * heading_vec(e[2]))
+            cv2.arrowedLine(top, tuple(self.px(e[:2]).astype(int)), tuple(tip.astype(int)), (255, 120, 0), 3,
+                            cv2.LINE_AA, tipLength=0.4)
+        top = cv2.resize(top, (self.size, self.size), interpolation=cv2.INTER_AREA)
+        cam = cv2.resize(image, (720, 540))
+        canvas = np.hstack([top, cam])
+        m = info.get("mission") or {}
+        rows = [title,
+                f"t {t:5.1f} s   margin {margin:+5.2f} cm   {'HELD (orchestrator stop)' if held else ''}",
+                f"mode {info.get('reason', '')}   phase {info.get('phase') or '-'} {info.get('sub') or ''}",
+                f"last junction: {m.get('last') or '-'}   queue: {m.get('queue') or []}"]
+        for i, r in enumerate(rows):
+            for col, th in (((0, 0, 0), 4), ((255, 255, 255), 1)):
+                cv2.putText(canvas, r, (self.size + 12, 30 + 28 * i), cv2.FONT_HERSHEY_SIMPLEX, 0.7, col, th, cv2.LINE_AA)
+        legend = "body: yellow inside / red over a line   blue arrow: map belief   white: path"
+        for col, th in (((0, 0, 0), 4), ((255, 255, 255), 1)):
+            cv2.putText(canvas, legend, (10, self.size - 12), cv2.FONT_HERSHEY_SIMPLEX, 0.45, col, th, cv2.LINE_AA)
+        self.w.write(canvas)
+
+    def close(self):
+        self.w.release()
+
+
 def run(controller, params, effects, direction, scenario, timing, seed, seconds, out, variation="fixed", video=False):
     from .controllers import CONTROLLERS
     cv2.setNumThreads(1)
@@ -262,7 +323,8 @@ def run(controller, params, effects, direction, scenario, timing, seed, seconds,
                 del history[:200]
 
     capture, seq, wall, realcam = CAMERA_PERIOD_S, 0, time.perf_counter(), None
-    writer = cv2.VideoWriter(str(out / "view.mp4"), cv2.VideoWriter_fourcc(*"mp4v"), 15, (640, 480)) if video else None
+    title = f"{scenario}  {params_name(params)}  {'+'.join(effects) or 'sim render'}  seed {seed}"
+    writer = Film(out / "film.mp4", renderer, car.footprint()) if video else None
     with (out / "steps.jsonl").open("w", encoding="utf-8") as log:
         while capture < seconds:
             advance_to(capture)
@@ -292,11 +354,13 @@ def run(controller, params, effects, direction, scenario, timing, seed, seconds,
             log.write(json.dumps(dict(t=done, pwm=last_pwm.tolist(), truth=car.pose.tolist(), flags=flags,
                                       **info), default=float) + "\n")
             if writer:
-                writer.write(image)
+                m = float(track.clearance(to_world(car.footprint(), car.pose)).min())
+                lines = [l["xy"] for l in scorer.line_checks]
+                writer.frame(done, car.pose.copy(), info.get("est"), image, info, m, held(), lines, title)
             capture = max(capture + CAMERA_PERIOD_S, done)
             seq += 1
     if writer:
-        writer.release()
+        writer.close()
     s = scorer.summary(scorer.end or "time_limit")
     got = [(p["junction"], p["came_from"], p["exit_arm"]) for p in s["passages"]]
     want = [tuple(x) for x in expected_passages(scenario, direction, track)] if direction == "cw" else None
