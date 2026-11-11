@@ -12,6 +12,7 @@ from drive_v4.core import MotorModel, load_config
 
 
 class Teacher:
+    curvature_cap = 0.055
     def __init__(self, direction, lookahead=18.0, variant=0):
         route = np.asarray(Camera().route)
         self.route = route if direction == 'cw' else route[::-1]
@@ -51,6 +52,7 @@ class Teacher:
             arc = sum(np.linalg.norm(r[(i+q+1)%len(r)]-r[(i+q)%len(r)]) for q in range(-6,6))
             ff = wrap(np.arctan2(*tangent1)-np.arctan2(*tangent0))/max(arc,1e-6)
             lateral = float(((r[i]-pose[:2]) @ axes(heading).T)[0])
+            lateral += getattr(self, 'corner_bias', 0.0)*np.clip(ff/0.04,-1,1)
             k = ff + 0.10*wrap(heading-pose[2]) + 0.006*lateral
         mean = 0.36 if self.variant >= 3 and abs(k)>0.03 else 0.43
         if self.variant >= 6:
@@ -60,7 +62,7 @@ class Teacher:
             k *= gain/actual
             if self.variant >= 7:
                 k += (0.003 if self.variant == 7 else 0.006)*np.sign(k) if abs(k)>0.02 else 0
-        return float(np.clip(k, -0.055, 0.055)), mean
+        return float(np.clip(k, -self.curvature_cap, self.curvature_cap)), mean
 
     def team_pwm(self, label):
         linear, angular = label
