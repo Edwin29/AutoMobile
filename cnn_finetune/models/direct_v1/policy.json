@@ -1,0 +1,11 @@
+{
+  "selected_run": 2,
+  "selection": "minimum worst validation MAE ratio across all/corner/recovery",
+  "sha256": "2491133ecd0735574b43a8b65855f42ca10f5347c4dda9f7587de8ef3fa4cec6",
+  "output": [
+    "mean_duty/0.66",
+    "left_positive_curvature/0.095"
+  ],
+  "curvature_cap": 0.085,
+  "required_mixer": "direct"
+}
