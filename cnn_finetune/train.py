@@ -29,7 +29,7 @@ def evaluate(model,files,baseline=False):
     return {k:dict(count=counts[k],mae=(sums[k]/max(counts[k],1)).tolist(),mean=float(sums[k].sum()/max(2*counts[k],1))) for k in sums}
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--data',required=True);ap.add_argument('--out',required=True);ap.add_argument('--epochs',type=int,default=6);ap.add_argument('--lr',type=float,default=3e-5);a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--data',required=True);ap.add_argument('--out',required=True);ap.add_argument('--epochs',type=int,default=6);ap.add_argument('--lr',type=float,default=3e-5);ap.add_argument('--corner-weight',type=float,default=1.0);a=ap.parse_args()
     torch.set_num_threads(2);torch.manual_seed(20261111);np.random.seed(20261111);random.seed(20261111)
     files=sorted(Path(a.data).glob('seed_*.npz'));validation_seeds={104,109,118,123};test_seeds={106,111,126,129};train=[p for p in files if int(p.stem.split('_')[1]) not in validation_seeds|test_seeds];val=[p for p in files if int(p.stem.split('_')[1]) in validation_seeds];test=[p for p in files if int(p.stem.split('_')[1]) in test_seeds]
     out=Path(a.out);out.mkdir(parents=True,exist_ok=False)
@@ -44,7 +44,7 @@ if __name__=='__main__':
                 ids=order[start:start+64];xb=torch.from_numpy(x[ids]).cuda().float()/255;yb=torch.from_numpy(y[ids]).cuda()
                 flip=torch.rand(len(ids),device='cuda')<.5;xb[flip]=xb[flip].flip(-1);yb[flip,1]*=-1
                 xb[:,0]*=torch.empty(len(ids),1,1,device='cuda').uniform_(.85,1.15);xb.clamp_(0,1)
-                pred=model(xb);loss=torch.nn.functional.smooth_l1_loss(pred,yb,beta=.1)
+                pred=model(xb);per_sample=torch.nn.functional.smooth_l1_loss(pred,yb,beta=.1,reduction='none').mean(dim=1);weights=torch.where(yb[:,1].abs()>.02/.095,a.corner_weight,1.0);loss=(per_sample*weights).mean()
                 optimizer.zero_grad();loss.backward();optimizer.step();losses.append(loss.item())
         metrics=evaluate(model,val);row=dict(epoch=epoch+1,loss=float(np.mean(losses)),validation=metrics);history.append(row);print(json.dumps(row),flush=True)
         if metrics['all']['mean']<best:best=metrics['all']['mean'];torch.save(model.cpu().state_dict(),out/'best.pt');model.cuda()
