@@ -325,7 +325,8 @@ def main():
     ap.add_argument("--stop-lead", type=float, help="stop this many seconds of travel early at junction stop points (default 0.12)")
     ap.add_argument("--creep-duty", type=float, help="split turn's short straight move duty (default 0.36)")
     ap.add_argument("--sim-alias-at", type=float, help="--sim test: at this time put the map one road behind")
-    ap.add_argument("--cnn-mixer", choices=["team", "v4", "dither"], default="team",
+    ap.add_argument("--cnn-model", help="another policy.onnx (same input / output shape as A5b)")
+    ap.add_argument("--cnn-mixer", choices=["team", "v4", "dither", "direct"], default="team",
                     help="CNN command -> wheels: the team mixer (default) or the v4 allocator (keeps the "
                          "CNN's curvature when the inner wheel would fall below the start duty)")
     ap.add_argument("--turn-duty", type=float, help="override the slow mean duty used near junctions (default 0.34)")
@@ -383,6 +384,9 @@ def main():
         ctrl.PIVOT_DUTY = float(args.pivot_duty)
     if hasattr(ctrl, "CNN_MIXER"):
         ctrl.CNN_MIXER = args.cnn_mixer
+    if args.cnn_model and hasattr(ctrl, "cnn"):
+        ctrl.cnn.net = cv2.dnn.readNetFromONNX(np.frombuffer(Path(args.cnn_model).read_bytes(), np.uint8))
+        ctrl.cnn.source = f"policy {args.cnn_model}"
     if args.stop_lead is not None:
         ctrl.STOP_LEAD_S = float(args.stop_lead)
     if args.creep_duty is not None:
@@ -396,7 +400,7 @@ def main():
         mode=mode, controller=args.controller, source=getattr(ctrl, "source", None), direction=args.direction,
         start_hint=hint.tolist(), args=vars(args), pivot_duty=getattr(ctrl, "PIVOT_DUTY", None),
         turn_duty=getattr(ctrl, "TURN_DUTY", None), stop_lead_s=getattr(ctrl, "STOP_LEAD_S", None),
-        cnn_mixer=getattr(ctrl, "CNN_MIXER", None),
+        cnn_mixer=getattr(ctrl, "CNN_MIXER", None), cnn_model=args.cnn_model,
         creep_duty=getattr(ctrl, "CREEP_DUTY", None),
         stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
 
