@@ -324,6 +324,9 @@ def main():
     ap.add_argument("--pivot-duty", type=float, help="override the pivot wheel duty (default 0.40)")
     ap.add_argument("--stop-lead", type=float, help="stop this many seconds of travel early at junction stop points (default 0.12)")
     ap.add_argument("--creep-duty", type=float, help="split turn's short straight move duty (default 0.36)")
+    ap.add_argument("--cnn-mixer", choices=["team", "v4"], default="team",
+                    help="CNN command -> wheels: the team mixer (default) or the v4 allocator (keeps the "
+                         "CNN's curvature when the inner wheel would fall below the start duty)")
     ap.add_argument("--turn-duty", type=float, help="override the slow mean duty used near junctions (default 0.34)")
     ap.add_argument("--inline-map", action="store_true", help="v4 map in the control loop (default: own process)")
     ap.add_argument("--script", help="scripted signs / lights from the car's map pose: a preset name "
@@ -377,6 +380,8 @@ def main():
         ctrl.use_map_process(hint)
     if args.pivot_duty is not None:
         ctrl.PIVOT_DUTY = float(args.pivot_duty)
+    if hasattr(ctrl, "CNN_MIXER"):
+        ctrl.CNN_MIXER = args.cnn_mixer
     if args.stop_lead is not None:
         ctrl.STOP_LEAD_S = float(args.stop_lead)
     if args.creep_duty is not None:
@@ -390,6 +395,7 @@ def main():
         mode=mode, controller=args.controller, source=getattr(ctrl, "source", None), direction=args.direction,
         start_hint=hint.tolist(), args=vars(args), pivot_duty=getattr(ctrl, "PIVOT_DUTY", None),
         turn_duty=getattr(ctrl, "TURN_DUTY", None), stop_lead_s=getattr(ctrl, "STOP_LEAD_S", None),
+        cnn_mixer=getattr(ctrl, "CNN_MIXER", None),
         creep_duty=getattr(ctrl, "CREEP_DUTY", None),
         stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
 

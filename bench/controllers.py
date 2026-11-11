@@ -161,6 +161,8 @@ class HybridCNN:
     """
     raw_camera = True
     MAP_EVERY = 3            # 30 fps camera -> map at 10 Hz
+    CNN_MIXER = "team"       # "team": the CNN's own duty mixer; "v4": through the v4 allocator
+    CNN_TOP = 0.66           # the team mixer's max duty (keep its speed range)
     MAP_LATENCY_S = 0.070    # v4 sensor->result median on the Pi (live 2026-11-10)
     FLAT_STD = 8.0           # grey-level std of the floor half below this = no picture ...
     FLAT_WHITE, FLAT_BLACK = 200.0, 35.0   # ... if also white-out / black-out (road V ~74)
@@ -184,10 +186,35 @@ class HybridCNN:
         # zero; orchestrator stop / watchdog: zero; clipping), not the proposal: the runner
         # sets defer_apply and calls on_applied() after each write (GPT review 2026-11-11).
         self.defer_apply = False
+        # "v4": re-map the CNN's wheel command through the v4 allocator (field 2026-11-11: in
+        # 54-59 % of corner frames the team mixer asked the inner wheel for less than the
+        # 0.30 start duty, so it stopped and started; the allocator keeps the CNN's curvature
+        # by raising both wheels or dithering the inner wheel between 0 and the floor).
+        from drive_v4.core import MotorModel
+        self.cnn_alloc = MotorModel(dict(self.cfg["motor"]))
         # The departure guard's clearance grid is built lazily on first use: ~0.6 s on the
         # Pi, which landed in the middle of a junction approach. Build it now.
         self.driver.track.clearance_fast(np.zeros((1, 2)))
         self.source = f"CNN A5b + v4 map on demand ({VENDOR_V4.name}), map every {self.MAP_EVERY} frames"
+
+    def _remap_cnn(self, pwm):
+        """Same curvature and mean duty as the team mixer's command, realised by the v4
+        allocator: identical while the inner wheel is above the floor; below it the ratio
+        is kept by raising both wheels (outer capped at CNN_TOP), or the inner wheel is
+        dithered between 0 and the floor so the AVERAGE curvature matches."""
+        m, a = self.driver.motor, self.cnn_alloc
+        p = np.asarray(pwm, float)
+        mean = float(np.mean(p))
+        if mean < 0.05:                          # (near) stop: nothing to re-map
+            return p
+        c = m.c
+        speed = p * c["cm_s_per_duty"]           # intended wheel speeds, no start dead band
+        v = float(speed.mean())
+        raw = float(speed[0] - speed[1]) / c["track_cm"]
+        k = raw * m.yaw_gain(raw) / max(v, 1e-6)
+        a.gain_left, a.gain_right, a.floor_raise = m.gain_left, m.gain_right, m.floor_raise
+        out, _ = a.mix(mean, k, self.CNN_TOP)
+        return np.asarray(out, float)
 
     def on_applied(self, t, pwm):
         """The runner reports the PWM that was actually written at time t."""
@@ -224,6 +251,9 @@ class HybridCNN:
         t0 = time.perf_counter()
         d, cm = self.driver, self.cfg["motor"]
         pwm_cnn, cinfo = self.cnn.step(image, capture_s, done_s)
+        pwm_team = np.asarray(pwm_cnn, float)
+        if self.CNN_MIXER == "v4":
+            pwm_cnn = self._remap_cnn(pwm_team)
         t1 = time.perf_counter()
         map_ms = 0.0
         if self.worker is not None:                           # Pi: map in its own process
@@ -284,6 +314,7 @@ class HybridCNN:
         est = d.map.pose_at(done_s)
         return out, dict(reason=mode, w_map=w, push=push, flat=flat, linear=cinfo.get("linear"),
                          angular=cinfo.get("angular"), cnn_pwm=np.asarray(pwm_cnn).tolist(),
+                         cnn_pwm_team=pwm_team.tolist(), cnn_mixer=self.CNN_MIXER,
                          est=[float(v) for v in est], ms=(time.perf_counter() - t0) * 1e3,
                          ms_cnn_path=(time.perf_counter() - t0) * 1e3 - map_ms, ms_cnn=(t1 - t0) * 1e3, ms_map=map_ms,
                          ms_map_worker=self.worker_ms,
