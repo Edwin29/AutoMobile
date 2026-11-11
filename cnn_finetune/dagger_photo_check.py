@@ -9,10 +9,10 @@ from .teacher import Teacher,MotorModel
 from .model import A5B_ONNX,preprocess_bgr
 
 def infer(net,image):net.setInput(preprocess_bgr(image)[None]);return net.forward()[0]
-def nominal(motor,mean,k):
+def nominal(motor,mean,k,adapter=None,source_pwm=None):
     values=[];duties=[]
     for _ in range(256):
-        p=motor.mix(mean,k,.66)[0] if mean>=.05 else np.zeros(2)
+        p=adapter._remap_cnn(source_pwm) if adapter is not None else (motor.mix(mean,k,.66)[0] if mean>=.05 else np.zeros(2))
         values.append(motor.velocity(p));duties.append(np.mean(p))
     v,w=np.mean(values,axis=0)
     return float(np.mean(duties)),float(w/v) if v>1e-6 else 0.
@@ -23,12 +23,12 @@ if __name__=='__main__':
     cv2.setNumThreads(1);base=cv2.dnn.readNetFromONNX(np.frombuffer(A5B_ONNX.read_bytes(),np.uint8));new=cv2.dnn.readNetFromONNX(np.frombuffer(Path(a.model).read_bytes(),np.uint8));teacher=Teacher('cw');summaries=[];total=0
     for folder in sorted(root.iterdir()):
         if not folder.is_dir():continue
-        rows=[];bm=MotorModel(dict(teacher.motor.c));nm=MotorModel(dict(teacher.motor.c));manifest=[]
+        rows=[];bm=MotorModel(dict(teacher.motor.c));nm=MotorModel(dict(teacher.motor.c));manifest=[];teacher.adapter.driver.motor=bm;teacher.adapter.cnn_alloc=bm
         for p in sorted(folder.glob('*.jpg'),key=lambda p:int(p.stem)):
             data=p.read_bytes();image=cv2.imdecode(np.frombuffer(data,np.uint8),cv2.IMREAD_COLOR);assert image is not None
             b=infer(base,image);n=infer(new,image);assert np.isfinite(b).all() and np.isfinite(n).all()
             pwm=teacher.team_pwm(b);mean=float(pwm.mean());raw=(pwm[0]-pwm[1])/13;k=raw*bm.yaw_gain(raw)/max(mean,1e-6)
-            bd,bk=nominal(bm,mean,k);nd,nk=nominal(nm,.66*float(np.clip(n[0],0,1)),float(np.clip(-n[1]*.095,-.085,.085)))
+            bd,bk=nominal(bm,mean,k,teacher.adapter,pwm);nd,nk=nominal(nm,.66*float(np.clip(n[0],0,1)),float(np.clip(-n[1]*.095,-.085,.085)))
             rows.append(dict(frame=int(p.stem),baseline_mean=bd,baseline_k=bk,new_mean=nd,new_k=nk,new_raw0=float(n[0]),new_raw1=float(n[1])))
             manifest.append(dict(name=p.name,sha256=hashlib.sha256(data).hexdigest()))
         total+=len(rows);x=np.array([r['frame'] for r in rows]);b=np.array([[r['baseline_mean'],r['baseline_k']] for r in rows]);n=np.array([[r['new_mean'],r['new_k']] for r in rows]);corner=np.abs(b[:,1])>.02
