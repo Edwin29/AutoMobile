@@ -6,16 +6,19 @@ from types import SimpleNamespace
 import numpy as np
 from scipy.optimize import least_squares
 from bench.controllers import TeamCNN, HybridCNN, VENDOR_CNN, VENDOR_V4
-from bench.world import Camera, axes
+from bench.world import Camera, axes, advance, wrap
 sys.path.insert(0, str(VENDOR_V4))
 from drive_v4.core import MotorModel, load_config
 
 
 class Teacher:
-    def __init__(self, direction, lookahead=18.0):
+    def __init__(self, direction, lookahead=18.0, variant=0):
         route = np.asarray(Camera().route)
         self.route = route if direction == 'cw' else route[::-1]
         self.lookahead = lookahead
+        self.variant = variant
+        self.last_pwm = np.zeros(2)
+        self.previous_pose = None
         self.motor = MotorModel(dict(load_config()['motor']))
         self.team = TeamCNN.__new__(TeamCNN)
         self.team.mix = json.loads((VENDOR_CNN / 'configs/real_car.json').read_text(encoding='utf-8'))['duty_mixer']
@@ -24,6 +27,10 @@ class Teacher:
         self.adapter.cnn_alloc = MotorModel(dict(self.motor.c))
 
     def target(self, pose):
+        pose = np.array(pose, float).copy()
+        if self.variant >= 1:
+            v, w = self.motor.velocity(self.last_pwm)
+            pose = advance(pose, v, w, 0.19)
         r = self.route
         i = int(np.argmin(np.sum((r - pose[:2])**2, axis=1)))
         distance = 0.0
@@ -34,7 +41,26 @@ class Teacher:
             j = nxt
         delta = (r[j] - pose[:2]) @ axes(pose[2]).T
         k = float(2 * delta[0] / max(np.dot(delta, delta), 1e-9))
-        return float(np.clip(k, -0.055, 0.055)), 0.43
+        if self.variant >= 2 and self.variant not in (4,5):
+            # Tangent/curvature feedforward and pose-error feedback.
+            prev, nxt = r[(i-3)%len(r)], r[(i+3)%len(r)]
+            heading = np.arctan2(*(nxt-prev))
+            j0, j1 = (i-6)%len(r), (i+6)%len(r)
+            tangent0 = r[(j0+2)%len(r)]-r[(j0-2)%len(r)]
+            tangent1 = r[(j1+2)%len(r)]-r[(j1-2)%len(r)]
+            arc = sum(np.linalg.norm(r[(i+q+1)%len(r)]-r[(i+q)%len(r)]) for q in range(-6,6))
+            ff = wrap(np.arctan2(*tangent1)-np.arctan2(*tangent0))/max(arc,1e-6)
+            lateral = float(((r[i]-pose[:2]) @ axes(heading).T)[0])
+            k = ff + 0.10*wrap(heading-pose[2]) + 0.006*lateral
+        mean = 0.36 if self.variant >= 3 and abs(k)>0.03 else 0.43
+        if self.variant >= 6:
+            gain = self.motor.yaw_gain(k)
+            params = getattr(self, 'sim_params', None)
+            actual = (params.turn_eff_left if k < 0 else params.turn_eff_right) if params else 0.6
+            k *= gain/actual
+            if self.variant >= 7:
+                k += (0.003 if self.variant == 7 else 0.006)*np.sign(k) if abs(k)>0.02 else 0
+        return float(np.clip(k, -0.055, 0.055)), mean
 
     def team_pwm(self, label):
         linear, angular = label
@@ -66,6 +92,7 @@ class Teacher:
         k, mean = self.target(pose)
         label = self.inverse(k, mean)
         pwm = self.adapter._remap_cnn(self.team_pwm(label))
+        self.last_pwm = pwm.copy()
         return pwm, dict(k=k, requested_mean=mean, used_mean=float(self.team_pwm(label).mean()), label=label.tolist())
 
 
