@@ -40,5 +40,5 @@ if __name__=='__main__':
         for j,label in enumerate(['Mean duty','Curvature (1/cm; right +)']):ax[j].plot(x,b[:,j],label='A5b + v4',alpha=.8);ax[j].plot(x,n[:,j],label='direct v2',alpha=.8);ax[j].set_ylabel(label);ax[j].grid(alpha=.2);ax[j].legend()
         ax[1].set_xlabel('Saved frame number (gaps are not uniform)');fig.suptitle(folder.name+' — offline nominal outputs, no ground truth');fig.tight_layout();fig.savefig(out/(folder.name+'_dagger.png'),dpi=130);plt.close(fig)
     assert total==1072
-    result=dict(total=total,runs=summaries,note='Already-upright saved images, no extra rotation. Per-frame held command averaged over 256 allocator steps. No ground truth; corner proxy uses A5b |k|>0.02. Differences across saved frames are not per-second rates.')
+    result=dict(total=total,runs=summaries,model_sha256=hashlib.sha256(Path(a.model).read_bytes()).hexdigest(),baseline_sha256=hashlib.sha256(A5B_ONNX.read_bytes()).hexdigest(),note='Already-upright saved images, no extra rotation. Per-frame held command averaged over 256 allocator steps. No ground truth; corner proxy uses A5b |k|>0.02. Differences across saved frames are not per-second rates.')
     (out/'DAGGER_PHOTO_CHECK.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result),flush=True)

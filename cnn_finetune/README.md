@@ -1,4 +1,4 @@
-> 현재 상태: direct 출력으로 3단계까지 완료했습니다. [최종 결과](results/DIRECT_FINAL_REPORT.md), [결정 기록](results/DECISIONS.md), [실행 안내](DIRECT_PIPELINE.md)를 먼저 읽으세요. 아래는 최초 계획을 보존한 내용이며 출력 정의는 HANDOFF.md 3-3이 우선합니다.
+> 현재 상태: 승인된 4단계 DAgger와 6단계 로컬 실차 사진 점검을 완료했습니다. [DAgger 최종 보고](results/DAGGER_REPORT.md), [결정 기록](results/DECISIONS.md), [선정 모델](models/direct_v2/policy.json)을 먼저 읽으세요. seed 41 기본 8조건 합격이며 harsh 침범과 실차 사진 출력 변화는 보고서에 별도 기록했습니다. Pi 배포·실차 시험은 하지 않았습니다. 아래는 최초 계획을 보존한 내용이며 현재 실행 정의와 범위는 HANDOFF.md 3-3·3-4가 우선합니다.
 
 # A5b 미세조정 계획 (A안) — 2026-11-11
 

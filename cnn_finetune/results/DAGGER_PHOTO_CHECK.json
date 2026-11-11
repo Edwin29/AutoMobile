@@ -1,0 +1,65 @@
+{
+  "total": 1072,
+  "runs": [
+    {
+      "run": "drive_hyb2m_20261111_164621",
+      "count": 289,
+      "corner_proxy_count": 67,
+      "mean_abs_difference": [
+        0.024509589540799317,
+        0.007043274944827721
+      ],
+      "corner_k_difference": 0.017784868876102172,
+      "baseline_jump_p95": [
+        0.025183950518656635,
+        0.010126676499159395
+      ],
+      "new_jump_p95": [
+        0.04001156369700857,
+        0.012458880331551092
+      ],
+      "new_min": [
+        0.325292311399938,
+        -0.08199228500113513
+      ],
+      "new_max": [
+        0.4741406250000002,
+        0.031315548121929354
+      ],
+      "negative_raw_speed": 0,
+      "new_large_k_jumps": 1
+    },
+    {
+      "run": "drive_hyb2m_20261111_174902",
+      "count": 783,
+      "corner_proxy_count": 170,
+      "mean_abs_difference": [
+        0.022538854010073786,
+        0.00678533962880485
+      ],
+      "corner_k_difference": 0.01689825685553371,
+      "baseline_jump_p95": [
+        0.008530964943122922,
+        0.003179924516707483
+      ],
+      "new_jump_p95": [
+        0.014908112525939866,
+        0.0048592448949660895
+      ],
+      "new_min": [
+        0.35578125000000005,
+        -0.0828762541806026
+      ],
+      "new_max": [
+        0.47824218750000025,
+        0.0373900148294611
+      ],
+      "negative_raw_speed": 0,
+      "new_large_k_jumps": 0
+    }
+  ],
+  "note": "Already-upright saved images, no extra rotation. Per-frame held command averaged over 256 allocator steps. No ground truth; corner proxy uses A5b |k|>0.02. Differences across saved frames are not per-second rates.",
+  "model_sha256": "73bcc52551ff7c8f97a4b8a08db72364292eca59c16c0bbe0dc2959cbf7333f4",
+  "baseline_sha256": "1fcc3274b8875b78d9e730923d14217417e8204c906ede3d0c056e0e75f3990e",
+  "frozen_model_commit": "9d1a926"
+}

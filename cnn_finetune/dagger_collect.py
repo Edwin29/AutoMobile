@@ -1,4 +1,4 @@
-"""Seed-separated direct teacher data with DART and junction exclusions."""
+"""Seed-separated DAgger data with mixed execution, teacher labels, and no DART."""
 import argparse,json
 from pathlib import Path
 import cv2,numpy as np
