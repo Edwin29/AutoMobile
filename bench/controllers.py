@@ -161,7 +161,8 @@ class HybridCNN:
     """
     raw_camera = True
     MAP_EVERY = 3            # 30 fps camera -> map at 10 Hz
-    CNN_MIXER = "team"       # "team": the CNN's own duty mixer; "v4": through the v4 allocator
+    CNN_MIXER = "team"       # "team": the CNN's own duty mixer; "v4": through the v4 allocator;
+                             # "dither": outer wheel as the CNN asked, inner wheel 0 / floor alternately
     CNN_TOP = 0.66           # the team mixer's max duty (keep its speed range)
     MAP_LATENCY_S = 0.070    # v4 sensor->result median on the Pi (live 2026-11-10)
     FLAT_STD = 8.0           # grey-level std of the floor half below this = no picture ...
@@ -216,6 +217,35 @@ class HybridCNN:
         out, _ = a.mix(mean, k, self.CNN_TOP)
         return np.asarray(out, float)
 
+    def _dither_cnn(self, pwm):
+        """Keep the outer wheel exactly as the CNN asked (same corner speed as the team
+        mixer; field 2026-11-11: with "v4" both wheels went up in corners and the car came
+        out of them less parallel). An inner wheel asked below the start floor alternates
+        between 0 and the floor so the AVERAGE curvature is the CNN's."""
+        m = self.driver.motor
+        p = np.asarray(pwm, float).copy()
+        floor = m.floor
+        if float(np.mean(p)) < 0.05 or p.min() >= floor or p.max() < floor:
+            return p
+        o, i = (0, 1) if p[0] >= p[1] else (1, 0)
+        c = m.c
+        speed = p * c["cm_s_per_duty"]                    # intended, no start dead band
+        v = float(speed.mean())
+        raw = float(speed[0] - speed[1]) / c["track_cm"]
+        k = abs(raw * m.yaw_gain(raw) / max(v, 1e-6))
+        hi, lo = p.copy(), p.copy()
+        hi[i], lo[i] = floor, 0.0
+        v_f, w_f = m.velocity(hi)
+        v_z, w_z = m.velocity(lo)
+        w_f, w_z = abs(w_f), abs(w_z)
+        denom = (w_z - w_f) - k * (v_z - v_f)
+        f = float(np.clip((k * v_f - w_f) / denom, 0.0, 1.0)) if abs(denom) > 1e-9 else 1.0
+        self._dither = getattr(self, "_dither", 0.0) + f
+        if self._dither >= 0.5:
+            self._dither -= 1.0
+            return lo
+        return hi
+
     def on_applied(self, t, pwm):
         """The runner reports the PWM that was actually written at time t."""
         self.driver.applied(t, np.asarray(pwm, float))
@@ -254,6 +284,8 @@ class HybridCNN:
         pwm_team = np.asarray(pwm_cnn, float)
         if self.CNN_MIXER == "v4":
             pwm_cnn = self._remap_cnn(pwm_team)
+        elif self.CNN_MIXER == "dither":
+            pwm_cnn = self._dither_cnn(pwm_team)
         t1 = time.perf_counter()
         map_ms = 0.0
         if self.worker is not None:                           # Pi: map in its own process

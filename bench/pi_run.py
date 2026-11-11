@@ -324,7 +324,8 @@ def main():
     ap.add_argument("--pivot-duty", type=float, help="override the pivot wheel duty (default 0.40)")
     ap.add_argument("--stop-lead", type=float, help="stop this many seconds of travel early at junction stop points (default 0.12)")
     ap.add_argument("--creep-duty", type=float, help="split turn's short straight move duty (default 0.36)")
-    ap.add_argument("--cnn-mixer", choices=["team", "v4"], default="team",
+    ap.add_argument("--sim-alias-at", type=float, help="--sim test: at this time put the map one road behind")
+    ap.add_argument("--cnn-mixer", choices=["team", "v4", "dither"], default="team",
                     help="CNN command -> wheels: the team mixer (default) or the v4 allocator (keeps the "
                          "CNN's curvature when the inner wheel would fall below the start duty)")
     ap.add_argument("--turn-duty", type=float, help="override the slow mean duty used near junctions (default 0.34)")
@@ -451,6 +452,11 @@ def main():
                     stop.set("max_seconds")
                     break
                 upright = cv2.rotate(image, cv2.ROTATE_180)
+                if rig is not None and args.sim_alias_at is not None and capture >= args.sim_alias_at \
+                        and hasattr(ctrl, "_rotate_map"):
+                    ctrl._rotate_map(-1 if args.direction == "ccw" else 1)       # one road behind
+                    events.send(t=capture, type="sim_alias_injected")
+                    args.sim_alias_at = None
                 now = clock()
                 if motors is not None and defer:               # watchdog zeroed the motors meanwhile
                     for t_trip in motors.drain_trips():
@@ -549,6 +555,7 @@ def main():
                                                                not_fired=[{k: v for k, v in e.items() if k != "done"}
                                                                           for e in script.events if not e["done"]]),
                        direction_changes=getattr(ctrl, "direction_changes", None),
+                       corners=getattr(ctrl, "corners", None), side_fixes=getattr(ctrl, "side_fixes", None),
                        frames_saved=getattr(saver, "saved", 0), frames_dropped=getattr(saver, "dropped", 0),
                        decisions=getattr(ctrl, "decisions", None),
                        policy_log=getattr(getattr(ctrl, "policy", None), "log", None),

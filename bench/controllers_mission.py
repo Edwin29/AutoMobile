@@ -34,6 +34,15 @@ class HybridMission(HybridJunction):
     ARRIVE_LAT_CM, ARRIVE_HEAD_DEG, ARRIVE_SXY = 9.0, 35.0, 2.0
     LEAVE_CM = 40.0          # movement done once the car is this far out along the exit arm
     INNER_ROUTE_CM = 110.0
+    # Which outer road the car is on, counted from corners (field 2026-11-11 17:52: the map
+    # lost the car at a corner and relocalized one road behind; the track looks the same
+    # on every side, so it stayed a quarter lap off and every junction was the wrong one).
+    # A corner = the applied commands turn >= CORNER_DEG the lap way within CORNER_WINDOW_S;
+    # one per CORNER_BLOCK_S (a 90 deg corner crossed the threshold twice). On the five
+    # field runs this found every corner once, nothing else. If the map sits on another
+    # road for SIDE_FIX_S, its pose is rotated about the track centre to the counted road.
+    SIDES_CCW = ("E", "N", "W", "S")
+    CORNER_DEG, CORNER_WINDOW_S, CORNER_BLOCK_S, SIDE_FIX_S = 45.0, 5.0, 8.0, 3.0
 
     def __init__(self, direction, start_hint, timing):
         super().__init__(direction, start_hint, timing)              # no route: inactive until a junction
@@ -53,6 +62,9 @@ class HybridMission(HybridJunction):
         self.lap_dir = direction
         self.visit, self.decision, self.decisions, self.plan_cache = None, None, [], {}
         self.direction_changes = []
+        self.side = self._side_of(np.asarray(start_hint, float)[:2])     # None: not on the outer loop
+        self.turn_hist, self.corner_block, self.side_bad_since = [], -1e9, None
+        self.corners, self.side_fixes = [], []
         self.start_route = self._inner_start_route(np.asarray(start_hint, float))
         if self.start_route is not None:      # started on an inner road (field 16:47: the outer
             self._set_route(self.start_route)  # route made the map relocalize onto the outer road)
@@ -127,6 +139,54 @@ class HybridMission(HybridJunction):
             cw = np.array([0.0, -1.0]) if x > 0 else np.array([0.0, 1.0])
         return "cw" if float(cw @ a) > 0 else "ccw"
 
+    @staticmethod
+    def _side_of(xy):
+        x, y = float(xy[0]), float(xy[1])
+        if abs(x) > 60 and abs(y) > 60:
+            return None                                   # a corner: no side
+        if abs(x) > 70:
+            return "E" if x > 0 else "W"
+        if abs(y) > 70:
+            return "N" if y > 0 else "S"
+        return None                                       # inside: inner roads
+
+    def _rotate_map(self, q):
+        """Rotate the map's belief by q quarter turns counter-clockwise about the track
+        centre (the track is the same on every side up to a few cm)."""
+        from .map_worker import rotate_estimator
+        rotate_estimator(self.driver.map.est, q)
+        if self.worker is not None:
+            self.worker.send(("rotate", int(q)))
+
+    def _track_side(self, done_s, pose):
+        """Corner counting on the outer loop and the map side check."""
+        dt = 0.0 if getattr(self, "_side_t", None) is None else done_s - self._side_t
+        self._side_t = done_s
+        if self.side is None or self.active or self.intr.held:
+            self.turn_hist = []
+            return
+        om = self._signed_velocity(self.last_out)[1]
+        self.turn_hist.append((done_s, om * dt))
+        self.turn_hist = [h for h in self.turn_hist if h[0] > done_s - self.CORNER_WINDOW_S]
+        sgn = 1.0 if self.lap_dir == "cw" else -1.0       # bench yaw: + = clockwise
+        if done_s > self.corner_block and sgn * sum(h[1] for h in self.turn_hist) >= math.radians(self.CORNER_DEG):
+            i = self.SIDES_CCW.index(self.side)
+            self.side = self.SIDES_CCW[(i + (1 if self.lap_dir == "ccw" else -1)) % 4]
+            self.corners.append(dict(t=done_s, side=self.side))
+            self.turn_hist, self.corner_block, self.side_bad_since = [], done_s + self.CORNER_BLOCK_S, None
+            return
+        ms = self._side_of(pose[:2])
+        if ms is None or ms == self.side:
+            self.side_bad_since = None
+            return
+        self.side_bad_since = done_s if self.side_bad_since is None else self.side_bad_since
+        if done_s - self.side_bad_since >= self.SIDE_FIX_S:
+            q = (self.SIDES_CCW.index(self.side) - self.SIDES_CCW.index(ms)) % 4
+            self._rotate_map(q)
+            self.side_fixes.append(dict(t=done_s, map_side=ms, counted_side=self.side, quarter_turns_ccw=q,
+                                        pose_before=[float(v) for v in pose]))
+            self.side_bad_since = None
+
     def use_map_process(self, pose):
         super().use_map_process(pose)
         if self.start_route is not None:
@@ -136,6 +196,8 @@ class HybridMission(HybridJunction):
         """Route for the road after the junction: the outer loop again, or an inner road line."""
         d = self.driver
         on_outer = j != "center" and self.policy.kind(j, exit_arm) == "outer_T"   # not the T's inner arm
+        self.side = {"east": "E", "north": "N", "west": "W", "south": "S"}.get(j) if on_outer else None
+        self.turn_hist, self.side_bad_since = [], None
         if on_outer:
             new_dir = self._lap_dir_of(self.junctions[j]["xy"], np.asarray(self.ARMS[exit_arm]))
             if new_dir != self.lap_dir:
@@ -195,12 +257,14 @@ class HybridMission(HybridJunction):
             if rel @ np.asarray(self.ARMS[ex]) >= self.LEAVE_CM:
                 self.active = False
                 self._road_after(j, ex)
+        self._track_side(done_s, np.asarray(d.map.pose_at(done_s), float))
         info.update(mission=self._state())
         return out, info
 
     def _state(self):
         dec = self.decision
-        return dict(active=self.active, visit=self.visit, held=self.intr.held, lap=self.lap_dir,
+        return dict(active=self.active, visit=self.visit, held=self.intr.held, lap=self.lap_dir, side=self.side,
+                    side_fixes=len(self.side_fixes),
                     last=None if dec is None else f"{dec.junction}:{dec.came_from}->{dec.move}({dec.source})",
                     queue=[c["move"] for c in self.policy.queue])
 

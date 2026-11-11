@@ -36,6 +36,21 @@ def restore(d, s):
         setattr(d.motor, k, v)
 
 
+def rotate_estimator(est, q):
+    """Rotate every hypothesis by q quarter turns counter-clockwise about (0, 0):
+    (x, y) -> R (x, y), bench yaw (clockwise from +y) -> yaw - q*90 deg, covariance R P R^T."""
+    import math as _m
+    a = q * _m.pi / 2
+    c, s = _m.cos(a), _m.sin(a)
+    R3 = np.array([[c, -s, 0.0], [s, c, 0.0], [0.0, 0.0, 1.0]])
+    for h in est.hypotheses:
+        m = np.asarray(h.mean, float).copy()
+        m[:2] = R3[:2, :2] @ m[:2]
+        m[2] = (m[2] - a + _m.pi) % (2 * _m.pi) - _m.pi
+        h.mean = m
+        h.P = R3 @ np.asarray(h.P, float) @ R3.T
+
+
 def set_route(d, pts, outer):
     if pts is None:
         d.route = d.map.route = outer[0]
@@ -71,6 +86,8 @@ def _worker(vendor, direction, pose, inq, outq):
             d.body_cmds.append((float(t), v, om))
         elif kind == "route":
             set_route(d, msg[1], outer)
+        elif kind == "rotate":                      # the main loop's corner count moved the car a road
+            rotate_estimator(d.map.est, msg[1])
         elif kind == "route_outer":                 # back on the loop, possibly the other way round
             if msg[1] not in outers:
                 from drive_v4.route import with_lane_offsets
