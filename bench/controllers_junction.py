@@ -76,6 +76,15 @@ class HybridJunction(HybridCNN):
         return float(speed.mean()), float(raw * m.yaw_gain(raw)), float(raw)
 
     def _apply(self, done, pwm):
+        if self.defer_apply:              # the runner reports the real output via on_applied()
+            return
+        self._apply_now(done, pwm)
+
+    def on_applied(self, t, pwm):
+        self.last_out = np.asarray(pwm, float).copy()
+        self._apply_now(t, pwm)
+
+    def _apply_now(self, done, pwm):
         d = self.driver
         if np.all(np.asarray(pwm) >= 0):
             d.applied(done, pwm)

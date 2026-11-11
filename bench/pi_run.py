@@ -8,8 +8,12 @@ stand-in (--sim) that uses the bench renderer and vehicle model instead of camer
 
 Orchestrator commands (same Pi; UDP JSON or plain words to 127.0.0.1:<--cmd-port>, default 8765):
     {"cmd": "direction", "move": "right"}   or   right / left / straight
-    {"cmd": "stop"}                          or   stop      (motors zeroed at once by the receiver)
-    {"cmd": "resume"}                        or   resume
+    {"cmd": "stop", "reason": "stop_sign"}   or   stop      (motors zeroed at once by the receiver)
+    {"cmd": "resume", "reason": "stop_sign"} or   resume    (releases only that reason's hold;
+                                                             the car moves when no hold is left)
+    {"cmd": "resume_all"}                    or   resume_all
+    optional "command_id": a repeated id is ignored (UDP re-sends)
+    plain words use reason "orchestrator"
     {"cmd": "quit"}                          or   quit      (ends the run, motors zero)
   python -m bench.pi_cmd stop     sends one from a terminal.
 Events go to 127.0.0.1:<--event-port> (default 8766) as JSON lines (junction decisions,
@@ -37,24 +41,28 @@ import cv2
 import numpy as np
 
 WORDS = {"left": ("direction", "left"), "right": ("direction", "right"), "straight": ("direction", "straight"),
-         "stop": ("stop", None), "resume": ("resume", None), "quit": ("quit", None)}
+         "stop": ("stop", None), "resume": ("resume", None), "resume_all": ("resume_all", None),
+         "quit": ("quit", None)}
 
 
 def parse_command(raw):
+    """-> dict(kind, arg, reason, command_id) or None."""
     text = raw.decode("utf-8", "replace").strip()
     try:
         m = json.loads(text)
-        if isinstance(m, dict):
-            cmd = m.get("cmd")
-            if cmd == "direction" and m.get("move") in ("left", "right", "straight"):
-                return ("direction", m["move"])
-            if cmd in ("stop", "resume", "quit"):
-                return (cmd, None)
-            if cmd in ("left", "right", "straight"):
-                return ("direction", cmd)
     except json.JSONDecodeError:
-        pass
-    return WORDS.get(text.lower())
+        m = None
+    if isinstance(m, dict):
+        cmd, reason, cid = m.get("cmd"), str(m.get("reason") or "orchestrator"), m.get("command_id")
+        if cmd == "direction" and m.get("move") in ("left", "right", "straight"):
+            return dict(kind="direction", arg=m["move"], reason=reason, command_id=cid)
+        if cmd in ("left", "right", "straight"):
+            return dict(kind="direction", arg=cmd, reason=reason, command_id=cid)
+        if cmd in ("stop", "resume", "resume_all", "quit"):
+            return dict(kind=cmd, arg=None, reason=reason, command_id=cid)
+        return None
+    w = WORDS.get(text.lower())
+    return None if w is None else dict(kind=w[0], arg=w[1], reason="orchestrator", command_id=None)
 
 
 class StopFlag:
@@ -81,6 +89,7 @@ class Motors:
         self.cap, self.stop, self.watchdog_s = cap, stop, watchdog_s
         self.lock, self.held = threading.Lock(), False
         self.last_write = time.monotonic()
+        self.clock, self.trips, self.tripped = None, [], False   # watchdog zero writes (boot time)
         self.done = threading.Event()
         self.thread = threading.Thread(target=self._guard, daemon=True)
         self.thread.start()
@@ -92,6 +101,9 @@ class Motors:
             with self.lock:
                 if self.stop.event.is_set() or time.monotonic() - self.last_write > self.watchdog_s:
                     self.m.set(0.0, 0.0)
+                    if not self.tripped and self.clock is not None:   # the controller must know
+                        self.trips.append(self.clock())
+                    self.tripped = True
 
     def hold(self, on):
         with self.lock:
@@ -107,8 +119,13 @@ class Motors:
                 return [0.0, 0.0]
             p = np.clip(np.asarray(pwm, float), -self.cap, self.cap)
             self.m.set(float(p[0]), float(p[1]))
-            self.last_write = time.monotonic()
+            self.last_write, self.tripped = time.monotonic(), False
             return p.tolist()
+
+    def drain_trips(self):
+        with self.lock:
+            out, self.trips = self.trips, []
+            return out
 
     def close(self):
         self.done.set()
@@ -130,7 +147,7 @@ class CommandChannel:
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.bind(("127.0.0.1", port))
         self.sock.settimeout(0.2)
-        self.alive = True
+        self.alive, self.seen = True, set()
         threading.Thread(target=self._loop, daemon=True).start()
 
     def _loop(self):
@@ -144,7 +161,11 @@ class CommandChannel:
             c = parse_command(raw)
             if c is None:
                 continue
-            if c[0] == "stop" and self.motors is not None:
+            if c["command_id"] is not None:
+                if c["command_id"] in self.seen:          # UDP re-send of a command already taken
+                    continue
+                self.seen.add(c["command_id"])
+            if c["kind"] == "stop" and self.motors is not None:
                 self.motors.hold(True)
             self.q.put((self.clock(), c))
 
@@ -159,6 +180,34 @@ class CommandChannel:
     def close(self):
         self.alive = False
         self.sock.close()
+
+
+class FrameSaver:
+    """JPEG writing off the control loop (GPT review: inline saving slowed the loop).
+    A full queue drops the frame and counts it instead of waiting."""
+
+    def __init__(self, depth=8):
+        self.q, self.dropped, self.saved = queue.Queue(maxsize=depth), 0, 0
+        self.t = threading.Thread(target=self._run, daemon=True)
+        self.t.start()
+
+    def put(self, path, image):
+        try:
+            self.q.put_nowait((path, image))
+        except queue.Full:
+            self.dropped += 1
+
+    def _run(self):
+        while True:
+            item = self.q.get()
+            if item is None:
+                return
+            cv2.imwrite(str(item[0]), item[1], [cv2.IMWRITE_JPEG_QUALITY, 85])
+            self.saved += 1
+
+    def close(self):
+        self.q.put(None)
+        self.t.join(timeout=5)
 
 
 class Events:
@@ -310,6 +359,11 @@ def main():
         hint = rig.hint
     print("preparing controller (motors untouched)...", flush=True)
     ctrl = CONTROLLERS[args.controller](args.direction, hint, timing_profile("cnn_pi"))
+    # The controller's motion model must integrate the PWM really written (dry run: zero;
+    # stop / watchdog: zero; clipping), not its proposal (GPT review 2026-11-11).
+    defer = hasattr(ctrl, "on_applied")
+    if defer:
+        ctrl.defer_apply = True
     if not args.inline_map and hasattr(ctrl, "use_map_process"):
         print("starting the map process...", flush=True)
         ctrl.use_map_process(hint)
@@ -331,7 +385,7 @@ def main():
         creep_duty=getattr(ctrl, "CREEP_DUTY", None),
         stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
 
-    camera = motors = channel = None
+    camera = motors = channel = saver = None
     started, count, decisions_sent = False, 0, 0
     lat_est = 0.03
     try:
@@ -349,8 +403,11 @@ def main():
             time.sleep(1.0)
             origin = time.clock_gettime(time.CLOCK_BOOTTIME) - 0.1
             clock = lambda: time.clock_gettime(time.CLOCK_BOOTTIME) - origin
+            if motors is not None:
+                motors.clock = clock
         channel = CommandChannel(args.cmd_port, motors, clock)
         print(f"{mode.upper()} - commands on udp 127.0.0.1:{args.cmd_port}, stop with Ctrl+C / board button", flush=True)
+        saver = FrameSaver()
         with (out / "steps.jsonl").open("w", buffering=1) as log:
             events = Events(args.event_port, log)
             t_start = None
@@ -374,22 +431,33 @@ def main():
                     break
                 upright = cv2.rotate(image, cv2.ROTATE_180)
                 now = clock()
-                for t_cmd, (kind, arg) in channel.drain():
+                if motors is not None and defer:               # watchdog zeroed the motors meanwhile
+                    for t_trip in motors.drain_trips():
+                        ctrl.on_applied(t_trip, np.zeros(2))
+                        events.send(t=now, type="watchdog_zero", at=t_trip)
+                for t_cmd, c in channel.drain():
+                    kind, arg, reason = c["kind"], c["arg"], c["reason"]
+                    ack = dict(cmd=kind, reason=reason, command_id=c["command_id"], received=t_cmd)
                     if kind == "quit":
                         stop.set("quit_command")
                     elif not has_api:
-                        events.send(t=now, type="ignored", cmd=kind, why="controller has no orchestrator API")
+                        events.send(t=now, type="ignored", why="controller has no orchestrator API", **ack)
                     elif kind == "direction":
                         ctrl.push_direction(now, arg)
-                        events.send(t=now, type="ack", cmd="direction", move=arg, received=t_cmd)
+                        events.send(t=now, type="ack", move=arg, **ack)
                     elif kind == "stop":
-                        ctrl.stop(now)
-                        events.send(t=now, type="ack", cmd="stop", received=t_cmd)
-                    elif kind == "resume":
-                        ctrl.resume(now)
-                        if motors is not None:
+                        if motors is not None and defer:       # the receiver already wrote zero at t_cmd
+                            ctrl.on_applied(t_cmd, np.zeros(2))
+                        ctrl.stop(now, reason)
+                        events.send(t=now, type="ack", holds=sorted(ctrl.intr.holds), **ack)
+                    elif kind in ("resume", "resume_all"):
+                        if kind == "resume":
+                            ctrl.resume(now, reason)
+                        else:
+                            ctrl.resume_all(now)
+                        if motors is not None and not ctrl.intr.held:   # moves only when no hold is left
                             motors.hold(False)
-                        events.send(t=now, type="ack", cmd="resume", received=t_cmd)
+                        events.send(t=now, type="ack", holds=sorted(ctrl.intr.holds), **ack)
                 if stop.event.is_set():
                     break
                 tic = time.perf_counter()
@@ -403,9 +471,11 @@ def main():
                     applied = rig.write(pwm, done_est)
                     write_at = done_est
                 else:
-                    applied = motors.write(pwm) if motors else [0.0, 0.0]
+                    applied = motors.write(pwm) if motors else [0.0, 0.0]   # dry: nothing moves
                     write_at = clock()
                     lat_est = 0.8 * lat_est + 0.2 * (write_at - now)
+                if defer:                                      # the motion model gets the real output
+                    ctrl.on_applied(write_at, applied)
                 if has_api and args.stop_after_junctions and len(ctrl.decisions) >= args.stop_after_junctions                         and not ctrl.active and ctrl.visit is None:
                     stop.set("junctions_done")
                 if has_api:
@@ -419,7 +489,7 @@ def main():
                     rec["truth"] = rig.car.pose.tolist()
                 log.write(json.dumps(rec, default=float) + "\n")
                 if args.save_every and count % args.save_every == 0:
-                    cv2.imwrite(str(out / f"{count:05d}.jpg"), upright, [cv2.IMWRITE_JPEG_QUALITY, 85])
+                    saver.put(out / f"{count:05d}.jpg", upright)
                 if count % 15 == 0:
                     m = info.get("mission") or {}
                     print(json.dumps({"f": count, "t": round(capture, 1), "mode": info.get("reason"),
@@ -439,11 +509,14 @@ def main():
             ctrl.worker.close()
         if channel:
             channel.close()
+        if saver is not None:
+            saver.close()
         if started:
             camera.stop()
         if camera is not None:
             camera.close()
         summary = dict(output=str(out), stop_reason=stop.reason or "loop_exit", frames=count, mode=mode,
+                       frames_saved=getattr(saver, "saved", 0), frames_dropped=getattr(saver, "dropped", 0),
                        decisions=getattr(ctrl, "decisions", None),
                        policy_log=getattr(getattr(ctrl, "policy", None), "log", None),
                        interrupts=getattr(getattr(ctrl, "intr", None), "log", None))

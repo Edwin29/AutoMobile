@@ -180,10 +180,18 @@ class HybridCNN:
         self.flat_since = None
         self.last_cnn = np.zeros(2)
         self.worker, self.last_submit, self.worker_ms = None, -10, None
+        # On the car the motion model must integrate what the motors really got (dry run:
+        # zero; orchestrator stop / watchdog: zero; clipping), not the proposal: the runner
+        # sets defer_apply and calls on_applied() after each write (GPT review 2026-11-11).
+        self.defer_apply = False
         # The departure guard's clearance grid is built lazily on first use: ~0.6 s on the
         # Pi, which landed in the middle of a junction approach. Build it now.
         self.driver.track.clearance_fast(np.zeros((1, 2)))
         self.source = f"CNN A5b + v4 map on demand ({VENDOR_V4.name}), map every {self.MAP_EVERY} frames"
+
+    def on_applied(self, t, pwm):
+        """The runner reports the PWM that was actually written at time t."""
+        self.driver.applied(t, np.asarray(pwm, float))
 
     def use_map_process(self, pose):
         """Pi: run the v4 map in a separate process (bench/map_worker.py). Every applied
@@ -271,7 +279,8 @@ class HybridCNN:
                         mode = "cnn+guard"
             out, mode = self._xcheck(out, pwm_cnn, pose, adv, w, mode)
         diag = self._diag(pwm_cnn, done_s)
-        d.applied(done_s, out)
+        if not self.defer_apply:          # bench: the command is applied as proposed
+            d.applied(done_s, out)
         est = d.map.pose_at(done_s)
         return out, dict(reason=mode, w_map=w, push=push, flat=flat, linear=cinfo.get("linear"),
                          angular=cinfo.get("angular"), cnn_pwm=np.asarray(pwm_cnn).tolist(),

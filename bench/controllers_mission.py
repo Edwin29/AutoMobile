@@ -55,11 +55,14 @@ class HybridMission(HybridJunction):
     def push_direction(self, t, move):
         self.policy.push(t, move)
 
-    def stop(self, t):
-        self.intr.stop(t)
+    def stop(self, t, reason="orchestrator"):
+        self.intr.stop(t, reason)
 
-    def resume(self, t):
-        self.intr.resume(t)
+    def resume(self, t, reason="orchestrator"):
+        self.intr.resume(t, reason)
+
+    def resume_all(self, t):
+        self.intr.resume_all(t)
 
     # --- helpers --------------------------------------------------------------------
     def _plans(self, j, arm, move):

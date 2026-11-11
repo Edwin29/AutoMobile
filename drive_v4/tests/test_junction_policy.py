@@ -65,6 +65,20 @@ class Policy(unittest.TestCase):
         self.assertFalse(i.held)
         self.assertAlmostEqual(i.log[-1]["held_s"], 3.0)
 
+    def test_holds_are_released_per_reason(self):
+        i = Interrupt()
+        i.stop(1.0, "stop_sign")
+        i.stop(2.0, "red_light")                       # red light arrives during the STOP
+        i.resume(4.0, "stop_sign")                     # the STOP's 3 s are over
+        self.assertTrue(i.held)                        # the red light still holds the car
+        i.resume(5.0, "stop_sign")                     # a late duplicate resume changes nothing
+        self.assertTrue(i.held)
+        self.assertEqual(i.log[-1]["event"], "resume_ignored")
+        i.resume(6.0, "red_light")
+        self.assertFalse(i.held)
+        i.stop(7.0, "a"); i.stop(7.0, "b"); i.resume_all(8.0)
+        self.assertFalse(i.held)
+
 
 if __name__ == "__main__":
     unittest.main()

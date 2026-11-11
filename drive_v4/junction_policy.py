@@ -111,18 +111,37 @@ class JunctionPolicy:
 
 @dataclass
 class Interrupt:
-    """Stop / resume from the orchestrator. While held the driver sends zero output and
-    freezes its own phase timers; on resume it continues where it was."""
-    held: bool = False
-    since: float = None
+    """Stop / resume from the orchestrator, one hold per reason (e.g. "stop_sign",
+    "red_light"): resuming one reason does not release another (GPT review 2026-11-11:
+    a STOP sign's resume must not release a red light that came in meanwhile). While any
+    hold is active the driver sends zero output and freezes its own phase timers; when the
+    last one is released it continues where it was."""
+    holds: dict = field(default_factory=dict)          # reason -> time the hold started
     log: list = field(default_factory=list)
 
+    @property
+    def held(self):
+        return bool(self.holds)
+
+    @property
+    def since(self):
+        return min(self.holds.values()) if self.holds else None
+
     def stop(self, t, reason="orchestrator"):
-        if not self.held:
-            self.held, self.since = True, float(t)
-            self.log.append(dict(t=float(t), event="stop", reason=reason))
+        if reason not in self.holds:                    # a repeated stop keeps the first time
+            self.holds[reason] = float(t)
+            self.log.append(dict(t=float(t), event="stop", reason=reason, active=sorted(self.holds)))
 
     def resume(self, t, reason="orchestrator"):
-        if self.held:
-            self.log.append(dict(t=float(t), event="resume", reason=reason, held_s=float(t) - self.since))
-            self.held, self.since = False, None
+        if reason in self.holds:
+            began = self.holds.pop(reason)
+            self.log.append(dict(t=float(t), event="resume", reason=reason, held_s=float(t) - began,
+                                 still_held=sorted(self.holds)))
+        else:
+            self.log.append(dict(t=float(t), event="resume_ignored", reason=reason, why="no such hold",
+                                 still_held=sorted(self.holds)))
+
+    def resume_all(self, t, reason="operator"):
+        for r in list(self.holds):
+            self.resume(t, r)
+        self.log.append(dict(t=float(t), event="resume_all", reason=reason))
