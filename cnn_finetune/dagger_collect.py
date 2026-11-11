@@ -44,7 +44,7 @@ def collect(seed,out,model,iteration,count=1000):
             tangent=teacher.route[(ri+1)%len(teacher.route)]-teacher.route[ri]
             error=abs(wrap(car.pose[2]-np.arctan2(*tangent)))
         if car is None or t-episode>(12 if corner_only else 120) or margin < -3 or error > np.pi/3:
-            corner_only=not inner and episode_count%4!=3
+            corner_only=not inner
             episode_count+=1
             route=teacher.route;eligible=np.flatnonzero((np.abs(route[:,0])>65)&(np.abs(route[:,1])>65)) if corner_only else np.arange(len(route));i=int(rng.choice(eligible));delta=route[(i+1)%len(route)]-route[i]
             pose=np.r_[route[i]+rng.normal(0,.5,2),np.arctan2(*delta)+rng.normal(0,.03)]

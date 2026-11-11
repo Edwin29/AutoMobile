@@ -39,21 +39,22 @@ if __name__=='__main__':
     note(f"seed42 direct_v1 개발 점수 {baseline['score']}. 이 시드로만 모델을 선정한다.");push('Record DAgger development baseline')
     previous=baseline['score']
     for iteration in [1,2,3]:
-        resource();data=ROOT/'data'/f'dagger_{iteration}_v1';data.mkdir(parents=True,exist_ok=False)
+        resource();data=ROOT/'data'/f'dagger_{iteration}_v2';data.mkdir(parents=True,exist_ok=False)
         seeds=list(range(200+20*iteration,212+20*iteration));assert not set(seeds)&{41,42,104,109,118,123,106,111,126,129}
-        note(f'DAgger 반복 {iteration}: beta={ {1:.5,2:.25,3:0}[iteration]}, 새 seed {seeds[0]}..{seeds[-1]}, 12000장. 제어36ms, 0.5초 정책 구간, DART 없음, 코너 에피소드 3/4.')
+        note(f'DAgger 반복 {iteration}: beta={ {1:.5,2:.25,3:0}[iteration]}, 새 seed {seeds[0]}..{seeds[-1]}, 12000장. 제어36ms, 0.5초 정책 구간, DART 없음, 외곽은 코너 시작 에피소드, 전체 에피소드 중 코너 시작 비율을 검사한다.')
         def collect(seed):call([PY,'-m','cnn_finetune.dagger_collect','--seed',str(seed),'--out',str(data),'--model',str(current_onnx),'--iteration',str(iteration)],data/f'seed_{seed}.log')
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(collect,seeds))
         audit=[]
         for p in data.glob('seed_*.json'):
             meta=json.loads(p.read_text());assert len(meta)==1000 and min(m['margin'] for m in meta)>=-3 and min(m['junction_distance'] for m in meta)>=35
-            audit.append(dict(seed=meta[0]['seed'],n=len(meta),student=sum(m['policy']=='student' for m in meta),inner=sum(m['road']=='inner' for m in meta),negative_margin=sum(m['margin']<0 for m in meta)))
+            audit.append(dict(seed=meta[0]['seed'],n=len(meta),student=sum(m['policy']=='student' for m in meta),inner=sum(m['road']=='inner' for m in meta),negative_margin=sum(m['margin']<0 for m in meta),episodes=len({m['episode'] for m in meta}),corner_episodes=sum({m['episode']:m['corner_episode'] for m in meta}.values())))
         assert len(audit)==12
+        assert sum(r["corner_episodes"] for r in audit)>=sum(r["episodes"] for r in audit)/2
         datasets.append(data);candidates=[]
         for retry in [False,True]:
             if retry and (tuple(candidates[0]['development']['score'])>tuple(previous) or retries>=2):break
             if retry:retries+=1;note(f'반복 {iteration} 개발점수 미개선: 수정 {retries}/2, 동일 데이터 보존, 8epoch/학생 프레임 가중치2로 재학습.')
-            name=f'dagger_i{iteration}'+('_retry' if retry else '');out=ROOT/'checkpoints'/name
+            name=f'dagger_i{iteration}_v2'+('_retry' if retry else '');out=ROOT/'checkpoints'/name
             args=[PY,'-m','cnn_finetune.dagger_train','--data',str(ROOT/'data/v1'),'--extra',*[str(d) for d in datasets],'--initial',str(current_pt),'--out',str(out),'--epochs','8' if retry else '6','--student-weight','2' if retry else '1']
             call(args,ROOT/'logs'/f'{name}_train.log');resource();development=dev(out/'policy.onnx',name+'_dev')
             candidates.append(dict(name=name,checkpoint=str(out),development=development,metrics=json.loads((out/'metrics.json').read_text())))
