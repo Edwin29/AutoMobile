@@ -61,6 +61,8 @@ class HybridJunction(HybridCNN):
     def _set_route(self, pts):
         rt = self.Route("junction", np.asarray(pts, float))
         d = self.driver
+        if getattr(self, "worker", None) is not None:
+            self.worker.send(("route", np.asarray(pts, float)))
         self.route = d.route = d.map.route = rt
         d.map._curvature_at = lambda s: np.interp(np.clip(s, 0, rt.s[-1]), rt.s, rt.curvature)
 
@@ -82,6 +84,8 @@ class HybridJunction(HybridCNN):
         d.map.command(done, v, om)
         d.raw_cmds.append((float(done), raw))
         d.body_cmds.append((float(done), v, om))
+        if getattr(self, "worker", None) is not None:
+            self.worker.send(("signed", float(done), v, om, raw, np.asarray(pwm, float).copy()))
 
     # --- choice of the turn -----------------------------------------------------------
     def _choose(self):
@@ -146,8 +150,11 @@ class HybridJunction(HybridCNN):
 
     def step(self, image, capture_s, done_s):
         from drive_v3.geometry import wrap as wrap3
+        import time as _t
         d = self.driver
+        tic = _t.perf_counter()
         out, info = super().step(image, capture_s, done_s)     # hyb2 command; feeds the map worker
+        info["ms_hyb2"] = (_t.perf_counter() - tic) * 1e3
         dt = 1 / 30 if self.last_done is None else done_s - self.last_done
         self.last_done = done_s
         self.alpha = float(np.exp(-dt / 0.075))

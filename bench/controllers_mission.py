@@ -47,6 +47,8 @@ class HybridMission(HybridJunction):
         self.visit, self.decision, self.decisions, self.plan_cache = None, None, [], {}
         from .vehicle import PRESETS, Vehicle
         self.rim = Vehicle(PRESETS["field_estimate"], np.zeros(3)).footprint()    # measured body (all presets)
+        from .junction import load_plan_cache                # load before driving, not at the first junction
+        self.plan_cache = {k: v[:2] for k, v in (load_plan_cache() or {}).items()}
         self.source = self.source + " + mission (junction policy, stop/resume interrupt)"
 
     # --- orchestrator API -----------------------------------------------------------
@@ -61,8 +63,12 @@ class HybridMission(HybridJunction):
 
     # --- helpers --------------------------------------------------------------------
     def _plans(self, j, arm, move):
-        from .junction import make_route, turn_plans
+        """Precomputed (bench/world/junction_plans.pkl, python -m bench.junction --build-plans);
+        computing on the fly costs seconds per junction (too slow while driving on the Pi)."""
+        from .junction import load_plan_cache, make_route, turn_plans
         key = (j, arm, move)
+        if not self.plan_cache:
+            self.plan_cache = {k: v[:2] for k, v in (load_plan_cache() or {}).items()}
         if key not in self.plan_cache:
             route, _ = make_route(j, arm, move, self.rim)
             self.plan_cache[key] = (route, turn_plans(j, arm, move, self.rim))
@@ -89,6 +95,8 @@ class HybridMission(HybridJunction):
         if on_outer:
             d.route = d.map.route = self.outer_route
             d.map._curvature_at = self.outer_curv
+            if self.worker is not None:
+                self.worker.send(("route", None))
         else:
             c, a = np.asarray(self.junctions[j]["xy"], float), np.asarray(self.ARMS[exit_arm])
             self._set_route(c + np.arange(0.0, self.INNER_ROUTE_CM, 1.0)[:, None] * a)
@@ -110,6 +118,8 @@ class HybridMission(HybridJunction):
             info.update(reason="interrupt_stop", phase=getattr(self, "phase", None) if self.active else None,
                         sub=getattr(self, "sub", None) if self.active else None, mission=self._state())
             return z, info
+        import time as _t
+        tic = _t.perf_counter()
         pose = np.asarray(d.map.pose_at(done_s), float)
         _, sxy = d.map.weight()
         if self.visit is not None and not self.active:
@@ -126,7 +136,9 @@ class HybridMission(HybridJunction):
                 if dec.move != "straight":
                     route, plans = self._plans(dec.junction, dec.came_from, dec.move)
                     self.begin(route, plans)
+        ms_pre = (_t.perf_counter() - tic) * 1e3
         out, info = super().step(image, capture_s, done_s)
+        info["ms_mission_pre"] = ms_pre
         if self.active and self.phase == "EXIT":
             j, ex = self.decision.junction, self.decision.exit_arm
             rel = np.asarray(d.map.pose_at(done_s)[:2]) - np.asarray(self.junctions[j]["xy"], float)

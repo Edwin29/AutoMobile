@@ -158,6 +158,42 @@ def turn_plans(junction, came_from, exit_kind, rim, track=None):
     return dict(arcs=arcs, pivot=pivot_plan(junction, came_from, exit_kind, rim, track), exit=exit_kind)
 
 
+PLAN_CACHE = Path(__file__).resolve().parent / "world" / "junction_plans.pkl"
+
+
+def build_plan_cache(path=PLAN_CACHE, rim=None):
+    """Every movement's default route + turn plans, computed once (the Pi would need
+    seconds per junction). Keyed by the track file hash and the body outline."""
+    import hashlib
+    import pickle
+    track = Track()
+    rim = Vehicle(PRESETS["field_estimate"], np.zeros(3)).footprint() if rim is None else rim
+    plans = {}
+    for jn, j in track.data["junctions"].items():
+        for cf in j["arms"]:
+            for ex in ("straight", "left", "right"):
+                try:
+                    route, gen = make_route(jn, cf, ex, rim, track)
+                except ValueError:
+                    continue
+                plans[(jn, cf, ex)] = (route, turn_plans(jn, cf, ex, rim, track), gen)
+                print(jn, cf, ex, "done", flush=True)
+    meta = dict(track_sha256=hashlib.sha256((Path(__file__).resolve().parent / "world" / "track.json").read_bytes()).hexdigest(),
+                rim_sha256=hashlib.sha256(np.ascontiguousarray(rim).tobytes()).hexdigest())
+    Path(path).write_bytes(pickle.dumps(dict(meta=meta, plans=plans)))
+    return path
+
+
+def load_plan_cache(path=PLAN_CACHE):
+    import hashlib
+    import pickle
+    if not Path(path).exists():
+        return None
+    d = pickle.loads(Path(path).read_bytes())
+    track_hash = hashlib.sha256((Path(__file__).resolve().parent / "world" / "track.json").read_bytes()).hexdigest()
+    return d["plans"] if d["meta"]["track_sha256"] == track_hash else None
+
+
 class JunctionScorer:
     """Truth only. Ends on a clear exit through an arm (correct / wrong), a severe
     departure (> 12 cm over a line, or the whole body off the road), or 5 s of zero output."""
@@ -322,10 +358,14 @@ def main():
     ap.add_argument("--seconds", type=float, default=40.0)
     ap.add_argument("--video", action="store_true")
     ap.add_argument("--radius", type=float, help="fix the turn radius (cm) instead of sweeping it")
+    ap.add_argument("--build-plans", action="store_true", help="precompute every movement into bench/world/junction_plans.pkl")
     ap.add_argument("--routes", action="store_true", help="only print every movement's generated route")
     ap.add_argument("--out")
     a = ap.parse_args()
     params = vehicle_from_args(a.vehicle, a.vehicle_json)
+    if a.build_plans:
+        print(build_plan_cache())
+        return
     if a.routes:
         rim, track = Vehicle(params, np.zeros(3)).footprint(), Track()
         for jn, j in track.data["junctions"].items():

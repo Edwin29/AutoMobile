@@ -179,7 +179,24 @@ class HybridCNN:
         self.rec = None            # latest usable map record
         self.flat_since = None
         self.last_cnn = np.zeros(2)
+        self.worker, self.last_submit, self.worker_ms = None, -10, None
+        # The departure guard's clearance grid is built lazily on first use: ~0.6 s on the
+        # Pi, which landed in the middle of a junction approach. Build it now.
+        self.driver.track.clearance_fast(np.zeros((1, 2)))
         self.source = f"CNN A5b + v4 map on demand ({VENDOR_V4.name}), map every {self.MAP_EVERY} frames"
+
+    def use_map_process(self, pose):
+        """Pi: run the v4 map in a separate process (bench/map_worker.py). Every applied
+        command and route change is mirrored to it."""
+        from .map_worker import MapWorker
+        d = self.driver
+        self.worker = MapWorker(VENDOR_V4, d.direction, pose)
+        orig = d.applied
+
+        def applied(t, pwm):
+            orig(t, pwm)
+            self.worker.send(("applied", float(t), np.asarray(pwm, float).copy()))
+        d.applied = applied
 
     def _map_now(self, done):
         while self.pending and self.pending[0][0] <= done + 1e-9:
@@ -201,7 +218,16 @@ class HybridCNN:
         pwm_cnn, cinfo = self.cnn.step(image, capture_s, done_s)
         t1 = time.perf_counter()
         map_ms = 0.0
-        if self.n % self.MAP_EVERY == 0:                      # the map worker takes this frame
+        if self.worker is not None:                           # Pi: map in its own process
+            res = self.worker.poll()
+            if res is not None:
+                from .map_worker import restore
+                restore(d, res["snap"])
+                self.rec, self.worker_ms = res["rec"], res["ms"]
+            if not self.worker.busy and self.n - self.last_submit >= self.MAP_EVERY:
+                self.worker.submit(image, capture_s)
+                self.last_submit = self.n
+        elif self.n % self.MAP_EVERY == 0:                    # bench: the map worker takes this frame
             tm = time.perf_counter()
             ready = capture_s + self.MAP_LATENCY_S
             _, rec = d.step(image, capture_s, ready, rotate180=False, rectified=False)
@@ -251,6 +277,7 @@ class HybridCNN:
                          angular=cinfo.get("angular"), cnn_pwm=np.asarray(pwm_cnn).tolist(),
                          est=[float(v) for v in est], ms=(time.perf_counter() - t0) * 1e3,
                          ms_cnn_path=(time.perf_counter() - t0) * 1e3 - map_ms, ms_cnn=(t1 - t0) * 1e3, ms_map=map_ms,
+                         ms_map_worker=self.worker_ms,
                          **diag)
 
     def _add_curvature(self, out, dk):
