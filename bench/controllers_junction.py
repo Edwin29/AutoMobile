@@ -43,13 +43,19 @@ class HybridJunction(HybridCNN):
         from drive_v3.map_model import Route
         from drive_v4.core import MotorModel
         self.Route = Route
-        self.plans = plans
-        self.choice = None
-        self._set_route(np.asarray(route, float))
         self.actuator = MotorModel(dict(self.cfg["motor"]))
-        self.phase, self.sub, self.exit_count, self.corr, self.last_done = "APPROACH", None, 0, 0.0, None
-        self.tp, self.disagree, self.hold_since, self.sub_since, self.last_out = None, 0, None, None, np.zeros(2)
-        self.alpha = 0.0
+        self.last_done, self.last_out, self.alpha = None, np.zeros(2), 0.0
+        self.active = False
+        if route is not None:
+            self.begin(route, plans)
+
+    def begin(self, route, plans):
+        """Start one junction movement (scene mode: at construction; mission mode: when the
+        car reaches a junction)."""
+        self.plans, self.choice, self.active = plans, None, True
+        self._set_route(np.asarray(route, float))
+        self.phase, self.sub, self.exit_count, self.corr = "APPROACH", None, 0, 0.0
+        self.tp, self.disagree, self.hold_since, self.sub_since = None, 0, None, None
         self.source = self.source + ", junction route (ability-chosen arc / pivot, gated pose, reversible exit)"
 
     def _set_route(self, pts):
@@ -145,6 +151,15 @@ class HybridJunction(HybridCNN):
         dt = 1 / 30 if self.last_done is None else done_s - self.last_done
         self.last_done = done_s
         self.alpha = float(np.exp(-dt / 0.075))
+        if not self.active:
+            self.last_out = np.asarray(out, float).copy()
+            info.update(phase=None, sub=None)
+            return np.asarray(out, float), info
+        return self._movement(out, info, done_s, dt)
+
+    def _movement(self, out, info, done_s, dt):
+        from drive_v3.geometry import wrap as wrap3
+        d = self.driver
         _, sxy = d.map.weight()
         if self.phase == "APPROACH":
             pose, gated = np.asarray(d.map.pose_at(done_s), float), False

@@ -1,0 +1,461 @@
+{
+  "outcome": "severe_departure",
+  "min_margin_cm": -12.036576621164372,
+  "outside_s": 25.396000000000516,
+  "simulated_s": 150.5333333333383,
+  "travel_cm": 919.9712529539534,
+  "episodes": [
+    {
+      "start_s": 43.037333333334225,
+      "xy": [
+        -90.12721626668925,
+        0.48145018338651063
+      ],
+      "min_cm": -2.8775510305932244,
+      "end_s": 46.709333333334364,
+      "recovered": true
+    },
+    {
+      "start_s": 48.94133333333445,
+      "xy": [
+        -67.47093936510421,
+        1.2439469124742255
+      ],
+      "min_cm": -0.6775480578128956,
+      "end_s": 51.36933333333454,
+      "recovered": true
+    },
+    {
+      "start_s": 78.51333333333557,
+      "xy": [
+        1.6703489454345126,
+        -82.0228744192241
+      ],
+      "min_cm": -2.0566679880485452,
+      "end_s": 81.88133333333569,
+      "recovered": true
+    },
+    {
+      "start_s": 92.03333333333607,
+      "xy": [
+        -67.95612510469132,
+        -86.9362838660904
+      ],
+      "min_cm": -3.213977925727775,
+      "end_s": 106.82933333333663,
+      "recovered": true
+    },
+    {
+      "start_s": 143.22533333333803,
+      "xy": [
+        74.82592673818117,
+        86.62597680350926
+      ],
+      "min_cm": -0.2128869450313715,
+      "end_s": 144.59333333333808,
+      "recovered": true
+    },
+    {
+      "start_s": 145.3293333333381,
+      "xy": [
+        83.64733471774214,
+        79.83081492476782
+      ],
+      "min_cm": -12.036576621164372,
+      "end_s": 150.5333333333383,
+      "recovered": false
+    }
+  ],
+  "passages": [
+    {
+      "junction": "south",
+      "came_from": "E",
+      "t": 14.829333333333214,
+      "exit_arm": "W",
+      "t_out": 22.121333333333432
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 39.077333333334074,
+      "exit_arm": "E",
+      "t_out": 50.469333333334504
+    },
+    {
+      "junction": "center",
+      "came_from": "W",
+      "t": 59.52533333333485,
+      "exit_arm": "S",
+      "t_out": 71.15333333333528
+    },
+    {
+      "junction": "south",
+      "came_from": "N",
+      "t": 75.88533333333547,
+      "exit_arm": "W",
+      "t_out": 86.63333333333587
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 104.68533333333656,
+      "exit_arm": "N",
+      "t_out": 111.99333333333684
+    },
+    {
+      "junction": "north",
+      "came_from": "W",
+      "t": 129.3093333333375,
+      "exit_arm": "E",
+      "t_out": 136.61733333333777
+    }
+  ],
+  "clean": false,
+  "stop_lines": [
+    {
+      "kind": "crosswalk",
+      "xy": [
+        -30.0,
+        0.0
+      ],
+      "min_ahead_cm": 1.6686986042578704
+    }
+  ],
+  "controller": "hyb2m",
+  "scenario": "inner_loop_west",
+  "events": [
+    {
+      "kind": "direction",
+      "move": "right",
+      "junction": "west",
+      "arm": "S",
+      "at_cm": 60
+    },
+    {
+      "kind": "red_light",
+      "arm": "W",
+      "trigger_cm": 4,
+      "hold_s": 4.0
+    }
+  ],
+  "orchestrator_calls": [
+    {
+      "t": 33.72933333333387,
+      "method": "push_direction",
+      "arg": "right"
+    },
+    {
+      "t": 51.94533333333456,
+      "method": "stop",
+      "arg": null
+    },
+    {
+      "t": 55.94133333333471,
+      "method": "resume",
+      "arg": null
+    }
+  ],
+  "expected_passages": [
+    [
+      "south",
+      "E",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "E"
+    ],
+    [
+      "center",
+      "W",
+      "S"
+    ],
+    [
+      "south",
+      "N",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "N"
+    ],
+    [
+      "north",
+      "W",
+      "E"
+    ],
+    [
+      "east",
+      "N",
+      "S"
+    ]
+  ],
+  "route_correct": false,
+  "decisions": [
+    {
+      "t": 12.59733333333324,
+      "junction": "south",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 37.149333333334,
+      "junction": "west",
+      "came_from": "S",
+      "move": "right",
+      "exit_arm": "E",
+      "source": "command",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 58.2813333333348,
+      "junction": "center",
+      "came_from": "W",
+      "move": "right",
+      "exit_arm": "S",
+      "source": "rule",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 74.44533333333541,
+      "junction": "south",
+      "came_from": "N",
+      "move": "right",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 96.00933333333623,
+      "junction": "west",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 127.36533333333742,
+      "junction": "north",
+      "came_from": "W",
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 12.59733333333324,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 33.72933333333387,
+      "event": "command_queued",
+      "move": "right",
+      "source": "sign"
+    },
+    {
+      "t": 37.149333333334,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "E",
+      "source": "command",
+      "note": "",
+      "command": {
+        "t": 33.72933333333387,
+        "move": "right",
+        "source": "sign"
+      }
+    },
+    {
+      "t": 58.2813333333348,
+      "event": "junction_decision",
+      "junction": "center",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "S",
+      "source": "rule",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 74.44533333333541,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "N",
+      "options": [
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 96.00933333333623,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 127.36533333333742,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "direction": "cw",
+  "effects": [
+    "realcam_harsh"
+  ],
+  "seed": 41,
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 15.2,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0,
+    "pivot_slide_cm_per_rad": 0.0
+  },
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 41
+  },
+  "frames": 4180,
+  "wall_s": 318.69448469998315,
+  "camera": {
+    "profile": "harsh",
+    "drawn": {
+      "exposure_s": 0.102,
+      "sub_samples": 4,
+      "focus_sigma": 1.632,
+      "haze": 0.111,
+      "target_rel": 0.664,
+      "ae_tau_s": 0.555,
+      "ae_hunt": 0.25,
+      "start_gain": 0.204,
+      "awb_drift": 0.08,
+      "start_magenta": 0.6,
+      "vignette": 0.264,
+      "magenta_corner": 0.264,
+      "sheen_lights": 4,
+      "sheen_amp": 99.651,
+      "sheen_width": 0.172,
+      "sheen_dist": 50.74,
+      "creases": 8,
+      "crease_amp": 42.974,
+      "static_shadows": 10,
+      "shadow_dark": 0.332,
+      "walkers": 3,
+      "own_shadow": 0.655,
+      "read_noise": 3.105,
+      "shot_noise": 1.0,
+      "flare": 1.0,
+      "background": 1
+    }
+  }
+}

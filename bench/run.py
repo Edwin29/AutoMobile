@@ -47,7 +47,7 @@ def timing_profile(name):
 
 
 OWN = {"v4": "v4_pi", "v3r": "v3r_laptop", "cnnC5b": "cnn_pi", "cnnA5b": "cnn_pi", "cnnB": "cnn_pi",
-       "cnnC": "cnn_pi", "cnnA": "cnn_pi", "hyb2": "cnn_pi", "hyb3": "cnn_pi", "hyb2j": "cnn_pi"}   # hyb2/3: map on another core, CNN path only
+       "cnnC": "cnn_pi", "cnnA": "cnn_pi", "hyb2": "cnn_pi", "hyb3": "cnn_pi", "hyb2j": "cnn_pi", "hyb2m": "cnn_pi"}   # hyb2/3: map on another core, CNN path only
 
 
 def vehicle_from_args(vehicle, overrides):

@@ -1,0 +1,9 @@
+('center', 'harsh') 7 worst p50 -0.27 min -12.08
+('center', 'other') 3 worst p50 -0.17 min -0.25
+('east_T', 'harsh') 2 worst p50 -6.80 min -12.03
+('outer_corner', 'harsh') 12 worst p50 -3.57 min -12.04
+('outer_road', 'harsh') 1 worst p50 -0.01 min -0.01
+('south_T', 'harsh') 8 worst p50 -3.00 min -7.80
+('south_T', 'other') 23 worst p50 -0.33 min -2.21
+('west_T', 'harsh') 6 worst p50 -1.23 min -3.15
+('west_T', 'other') 5 worst p50 -1.55 min -2.00

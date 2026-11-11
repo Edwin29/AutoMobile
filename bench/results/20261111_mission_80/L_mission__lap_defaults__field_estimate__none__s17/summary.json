@@ -1,0 +1,232 @@
+{
+  "outcome": "mission_complete",
+  "min_margin_cm": 2.019747878002775,
+  "outside_s": 0.0,
+  "simulated_s": 89.06133333333597,
+  "travel_cm": 635.6762091186041,
+  "episodes": [],
+  "passages": [
+    {
+      "junction": "south",
+      "came_from": "E",
+      "t": 13.40933333333323,
+      "exit_arm": "W",
+      "t_out": 20.44533333333337
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 35.98133333333396,
+      "exit_arm": "N",
+      "t_out": 43.00133333333422
+    },
+    {
+      "junction": "north",
+      "came_from": "W",
+      "t": 58.74933333333482,
+      "exit_arm": "E",
+      "t_out": 65.78933333333508
+    },
+    {
+      "junction": "east",
+      "came_from": "N",
+      "t": 81.55733333333568,
+      "exit_arm": "S",
+      "t_out": 88.59333333333595
+    }
+  ],
+  "clean": true,
+  "stop_lines": [],
+  "controller": "hyb2m",
+  "scenario": "lap_defaults",
+  "events": [],
+  "orchestrator_calls": [],
+  "expected_passages": [
+    [
+      "south",
+      "E",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "N"
+    ],
+    [
+      "north",
+      "W",
+      "E"
+    ],
+    [
+      "east",
+      "N",
+      "S"
+    ]
+  ],
+  "route_correct": true,
+  "decisions": [
+    {
+      "t": 11.841333333333248,
+      "junction": "south",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 34.413333333333895,
+      "junction": "west",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 57.20133333333476,
+      "junction": "north",
+      "came_from": "W",
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 79.98933333333562,
+      "junction": "east",
+      "came_from": "N",
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 11.841333333333248,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 34.413333333333895,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 57.20133333333476,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 79.98933333333562,
+      "event": "junction_decision",
+      "junction": "east",
+      "came_from": "N",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "direction": "cw",
+  "effects": [],
+  "seed": 17,
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.8,
+    "cm_s_per_duty_right": 16.8,
+    "turn_eff_left": 0.6,
+    "turn_eff_right": 0.6,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0,
+    "pivot_slide_cm_per_rad": 0.0
+  },
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "frames": 2472,
+  "wall_s": 97.31874420004897,
+  "camera": null
+}

@@ -1,0 +1,236 @@
+{
+  "outcome": "mission_complete",
+  "min_margin_cm": 0.4191294461593529,
+  "outside_s": 0.0,
+  "simulated_s": 93.65333333333614,
+  "travel_cm": 641.0628017739851,
+  "episodes": [],
+  "passages": [
+    {
+      "junction": "south",
+      "came_from": "E",
+      "t": 14.109333333333222,
+      "exit_arm": "W",
+      "t_out": 21.417333333333406
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 37.797333333334024,
+      "exit_arm": "N",
+      "t_out": 45.1773333333343
+    },
+    {
+      "junction": "north",
+      "came_from": "W",
+      "t": 61.72133333333493,
+      "exit_arm": "E",
+      "t_out": 69.04533333333521
+    },
+    {
+      "junction": "east",
+      "came_from": "N",
+      "t": 85.80533333333584,
+      "exit_arm": "S",
+      "t_out": 93.12933333333612
+    }
+  ],
+  "clean": true,
+  "stop_lines": [],
+  "controller": "hyb2m",
+  "scenario": "lap_defaults",
+  "events": [],
+  "orchestrator_calls": [],
+  "expected_passages": [
+    [
+      "south",
+      "E",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "N"
+    ],
+    [
+      "north",
+      "W",
+      "E"
+    ],
+    [
+      "east",
+      "N",
+      "S"
+    ]
+  ],
+  "route_correct": true,
+  "decisions": [
+    {
+      "t": 13.569333333333228,
+      "junction": "south",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 36.06933333333396,
+      "junction": "west",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 59.90133333333486,
+      "junction": "north",
+      "came_from": "W",
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 13.569333333333228,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 36.06933333333396,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 59.90133333333486,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "direction": "cw",
+  "effects": [
+    "realcam_harsh"
+  ],
+  "seed": 41,
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.5,
+    "turn_eff_right": 0.7,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0,
+    "pivot_slide_cm_per_rad": 0.0
+  },
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 41
+  },
+  "frames": 2600,
+  "wall_s": 176.6370071999263,
+  "camera": {
+    "profile": "harsh",
+    "drawn": {
+      "exposure_s": 0.102,
+      "sub_samples": 4,
+      "focus_sigma": 1.632,
+      "haze": 0.111,
+      "target_rel": 0.664,
+      "ae_tau_s": 0.555,
+      "ae_hunt": 0.25,
+      "start_gain": 0.204,
+      "awb_drift": 0.08,
+      "start_magenta": 0.6,
+      "vignette": 0.264,
+      "magenta_corner": 0.264,
+      "sheen_lights": 4,
+      "sheen_amp": 99.651,
+      "sheen_width": 0.172,
+      "sheen_dist": 50.74,
+      "creases": 8,
+      "crease_amp": 42.974,
+      "static_shadows": 10,
+      "shadow_dark": 0.332,
+      "walkers": 3,
+      "own_shadow": 0.655,
+      "read_noise": 3.105,
+      "shot_noise": 1.0,
+      "flare": 1.0,
+      "background": 1
+    }
+  }
+}

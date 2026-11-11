@@ -1,0 +1,54 @@
+scenario         camera     n done route clean min p50   worst stop-line margin (min ahead cm)
+lap_defaults     sim        4    4     4     4    2.02    1.82 
+lap_defaults     realcam    8    8     8     8    1.84    1.44 
+lap_defaults     harsh      4    3     3     3    0.43  -12.01 
+lap_defaults     ALL       16   15    15    15    1.83  -12.01 
+inner_loop       sim        4    4     4     2   -0.51   -1.54 min 1.64 p50 1.70 n=4
+inner_loop       realcam    8    8     8     2   -0.14   -2.21 min 1.52 p50 1.65 n=8
+inner_loop       harsh      4    2     3     0   -7.75  -12.08 min 1.50 p50 1.66 n=4
+inner_loop       ALL       16   14    15     4   -0.82  -12.08 min 1.50 p50 1.67 n=16
+inner_loop_west  sim        4    4     4     1   -0.62   -1.55 min 1.50 p50 1.70 n=4
+inner_loop_west  realcam    8    8     8     0   -1.31   -2.14 min 1.54 p50 1.72 n=8
+inner_loop_west  harsh      4    3     3     0   -6.49  -12.04 min 1.54 p50 1.68 n=4
+inner_loop_west  ALL       16   15    15     1   -1.63  -12.04 min 1.50 p50 1.70 n=16
+stop_sign        sim        4    4     4     4    2.02    1.66 min 17.54 p50 17.60 n=4
+stop_sign        realcam    8    8     8     8    1.84    1.05 min 17.57 p50 17.70 n=8
+stop_sign        harsh      4    4     4     0   -4.84   -5.79 min 17.53 p50 17.61 n=4
+stop_sign        ALL       16   16    16    12    1.83   -5.79 min 17.53 p50 17.67 n=16
+wrong_sign       sim        4    4     4     4    2.02    1.82 
+wrong_sign       realcam    8    8     8     8    1.84    1.44 
+wrong_sign       harsh      4    3     3     3    0.43  -12.01 
+wrong_sign       ALL       16   15    15    15    1.83  -12.01 
+ALL              sim       20   20    20    15    1.82   -1.55 min 1.50 p50 1.78 n=12
+ALL              realcam   40   40    40    26    1.50   -2.21 min 1.52 p50 1.78 n=24
+ALL              harsh     20   15    16     6   -3.68  -12.08 min 1.50 p50 1.75 n=12
+ALL              ALL       80   75    76    47    0.43  -12.08 min 1.50 p50 1.78 n=48
+
+  inner_loop__field_estimate__realcam_harsh__s41             mission_complete  route=True  m= -2.11 t= 56.6 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__field_pivot_slip__none__s17                    mission_complete  route=True  m= -1.36 t= 54.6 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__field_pivot_slip__realcam_harsh__s41           mission_complete  route=True  m= -3.46 t= 56.1 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__unequal_sides__none__s17                       mission_complete  route=True  m= -1.54 t= 57.3 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__unequal_sides__realcam__s41                    mission_complete  route=True  m= -2.21 t= 58.5 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__unequal_sides__realcam__s43                    mission_complete  route=True  m= -1.91 t= 58.0 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__unequal_sides__realcam_harsh__s41              severe_departure  route=True  m=-12.03 t= 60.5 ['south:E->N', 'center:S->E', 'east:W->S']
+  inner_loop__weak_left_turn__realcam_harsh__s41             severe_departure  route=False m=-12.08 t= 46.0 ['south:E->N', 'center:S->E']
+  inner_loop_west__field_estimate__realcam__s41              mission_complete  route=True  m= -0.82 t=150.5 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__field_estimate__realcam__s43              mission_complete  route=True  m= -0.65 t=151.8 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__field_estimate__realcam_harsh__s41        mission_complete  route=True  m= -5.18 t=150.6 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__field_pivot_slip__none__s17               mission_complete  route=True  m= -1.15 t=149.8 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__field_pivot_slip__realcam__s41            mission_complete  route=True  m= -2.14 t=149.8 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__field_pivot_slip__realcam__s43            mission_complete  route=True  m= -1.99 t=150.2 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__field_pivot_slip__realcam_harsh__s41      mission_complete  route=True  m= -7.80 t=150.1 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__unequal_sides__none__s17                  mission_complete  route=True  m= -1.55 t=159.8 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__unequal_sides__realcam__s41               mission_complete  route=True  m= -1.70 t=162.1 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__unequal_sides__realcam__s43               mission_complete  route=True  m= -2.00 t=162.0 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__unequal_sides__realcam_harsh__s41         severe_departure  route=False m=-12.04 t=150.5 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E']
+  inner_loop_west__weak_left_turn__realcam__s41              mission_complete  route=True  m= -0.93 t=155.4 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__weak_left_turn__realcam__s43              mission_complete  route=True  m= -0.51 t=155.4 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  inner_loop_west__weak_left_turn__realcam_harsh__s41        mission_complete  route=True  m= -2.55 t=154.8 ['south:E->W', 'west:S->E', 'center:W->S', 'south:N->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  lap_defaults__unequal_sides__realcam_harsh__s41            severe_departure  route=False m=-12.01 t= 85.8 ['south:E->W', 'west:S->N', 'north:W->E']
+  stop_sign__field_estimate__realcam_harsh__s41              mission_complete  route=True  m= -5.79 t= 93.4 ['south:E->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  stop_sign__field_pivot_slip__realcam_harsh__s41            mission_complete  route=True  m= -5.79 t= 93.4 ['south:E->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  stop_sign__unequal_sides__realcam_harsh__s41               mission_complete  route=True  m= -3.24 t=100.0 ['south:E->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  stop_sign__weak_left_turn__realcam_harsh__s41              mission_complete  route=True  m= -3.89 t= 97.1 ['south:E->W', 'west:S->N', 'north:W->E', 'east:N->S']
+  wrong_sign__unequal_sides__realcam_harsh__s41              severe_departure  route=False m=-12.01 t= 85.8 ['south:E->W', 'west:S->N', 'north:W->E']

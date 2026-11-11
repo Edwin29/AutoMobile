@@ -1,0 +1,414 @@
+{
+  "outcome": "mission_complete",
+  "min_margin_cm": -0.07970427298453586,
+  "outside_s": 0.3080000000000428,
+  "simulated_s": 153.1613333333384,
+  "travel_cm": 961.6633970138482,
+  "episodes": [
+    {
+      "start_s": 77.52533333333552,
+      "xy": [
+        -1.1865354891440048,
+        -80.24128118623878
+      ],
+      "min_cm": -0.07970427298453586,
+      "end_s": 78.83733333333558,
+      "recovered": true
+    }
+  ],
+  "passages": [
+    {
+      "junction": "south",
+      "came_from": "E",
+      "t": 13.877333333333224,
+      "exit_arm": "W",
+      "t_out": 21.2733333333334
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 37.34933333333401,
+      "exit_arm": "E",
+      "t_out": 47.55333333333439
+    },
+    {
+      "junction": "center",
+      "came_from": "W",
+      "t": 56.589333333334736,
+      "exit_arm": "S",
+      "t_out": 66.97733333333512
+    },
+    {
+      "junction": "south",
+      "came_from": "N",
+      "t": 71.7653333333353,
+      "exit_arm": "W",
+      "t_out": 81.70133333333568
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 97.79333333333629,
+      "exit_arm": "N",
+      "t_out": 105.17333333333657
+    },
+    {
+      "junction": "north",
+      "came_from": "W",
+      "t": 121.51733333333719,
+      "exit_arm": "E",
+      "t_out": 128.91333333333748
+    },
+    {
+      "junction": "east",
+      "came_from": "N",
+      "t": 145.2773333333381,
+      "exit_arm": "S",
+      "t_out": 152.65733333333839
+    }
+  ],
+  "clean": false,
+  "stop_lines": [
+    {
+      "kind": "crosswalk",
+      "xy": [
+        -30.0,
+        0.0
+      ],
+      "min_ahead_cm": 1.819421050719232
+    }
+  ],
+  "controller": "hyb2m",
+  "scenario": "inner_loop_west",
+  "events": [
+    {
+      "kind": "direction",
+      "move": "right",
+      "junction": "west",
+      "arm": "S",
+      "at_cm": 60
+    },
+    {
+      "kind": "red_light",
+      "arm": "W",
+      "trigger_cm": 4,
+      "hold_s": 4.0
+    }
+  ],
+  "orchestrator_calls": [
+    {
+      "t": 32.10933333333381,
+      "method": "push_direction",
+      "arg": "right"
+    },
+    {
+      "t": 48.95733333333445,
+      "method": "stop",
+      "arg": null
+    },
+    {
+      "t": 52.9533333333346,
+      "method": "resume",
+      "arg": null
+    }
+  ],
+  "expected_passages": [
+    [
+      "south",
+      "E",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "E"
+    ],
+    [
+      "center",
+      "W",
+      "S"
+    ],
+    [
+      "south",
+      "N",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "N"
+    ],
+    [
+      "north",
+      "W",
+      "E"
+    ],
+    [
+      "east",
+      "N",
+      "S"
+    ]
+  ],
+  "route_correct": true,
+  "decisions": [
+    {
+      "t": 12.165333333333244,
+      "junction": "south",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 35.67333333333394,
+      "junction": "west",
+      "came_from": "S",
+      "move": "right",
+      "exit_arm": "E",
+      "source": "command",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 55.11333333333468,
+      "junction": "center",
+      "came_from": "W",
+      "move": "right",
+      "exit_arm": "S",
+      "source": "rule",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 70.59333333333527,
+      "junction": "south",
+      "came_from": "N",
+      "move": "right",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 96.08133333333623,
+      "junction": "west",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 119.84133333333713,
+      "junction": "north",
+      "came_from": "W",
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 143.56533333333803,
+      "junction": "east",
+      "came_from": "N",
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 12.165333333333244,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 32.10933333333381,
+      "event": "command_queued",
+      "move": "right",
+      "source": "sign"
+    },
+    {
+      "t": 35.67333333333394,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "E",
+      "source": "command",
+      "note": "",
+      "command": {
+        "t": 32.10933333333381,
+        "move": "right",
+        "source": "sign"
+      }
+    },
+    {
+      "t": 55.11333333333468,
+      "event": "junction_decision",
+      "junction": "center",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "S",
+      "source": "rule",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 70.59333333333527,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "N",
+      "options": [
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 96.08133333333623,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 119.84133333333713,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 143.56533333333803,
+      "event": "junction_decision",
+      "junction": "east",
+      "came_from": "N",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "direction": "cw",
+  "effects": [],
+  "seed": 17,
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.5,
+    "turn_eff_right": 0.7,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0,
+    "pivot_slide_cm_per_rad": 0.0
+  },
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 17
+  },
+  "frames": 4253,
+  "wall_s": 198.57490170001984,
+  "camera": null
+}

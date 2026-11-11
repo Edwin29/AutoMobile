@@ -1,0 +1,496 @@
+{
+  "outcome": "mission_complete",
+  "min_margin_cm": -2.5453958811468596,
+  "outside_s": 9.143999999998833,
+  "simulated_s": 154.76133333333846,
+  "travel_cm": 978.66581721975,
+  "episodes": [
+    {
+      "start_s": 42.029333333334186,
+      "xy": [
+        -88.68100012424374,
+        0.8857836612953028
+      ],
+      "min_cm": -1.2369502717732814,
+      "end_s": 44.333333333334274,
+      "recovered": true
+    },
+    {
+      "start_s": 61.82933333333494,
+      "xy": [
+        1.9409549072276646,
+        -0.9396120723744723
+      ],
+      "min_cm": -0.23547220039952954,
+      "end_s": 63.141333333334984,
+      "recovered": true
+    },
+    {
+      "start_s": 63.28533333333499,
+      "xy": [
+        1.9411109448686001,
+        -0.939662535571982
+      ],
+      "min_cm": -0.23547603828509622,
+      "end_s": 64.60133333333503,
+      "recovered": true
+    },
+    {
+      "start_s": 75.68933333333545,
+      "xy": [
+        -1.3764279528568288,
+        -82.3481028512837
+      ],
+      "min_cm": -2.5453958811468596,
+      "end_s": 78.65733333333557,
+      "recovered": true
+    },
+    {
+      "start_s": 137.82533333333782,
+      "xy": [
+        81.66090124111254,
+        79.76259301779795
+      ],
+      "min_cm": -1.4422973468528113,
+      "end_s": 143.47733333333804,
+      "recovered": true
+    },
+    {
+      "start_s": 143.60133333333803,
+      "xy": [
+        91.60862588164653,
+        44.752134062525656
+      ],
+      "min_cm": -0.013049479181475476,
+      "end_s": 145.2413333333381,
+      "recovered": true
+    }
+  ],
+  "passages": [
+    {
+      "junction": "south",
+      "came_from": "E",
+      "t": 14.109333333333222,
+      "exit_arm": "W",
+      "t_out": 21.417333333333406
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 37.797333333334024,
+      "exit_arm": "E",
+      "t_out": 48.72533333333444
+    },
+    {
+      "junction": "center",
+      "came_from": "W",
+      "t": 57.72533333333478,
+      "exit_arm": "S",
+      "t_out": 68.30933333333518
+    },
+    {
+      "junction": "south",
+      "came_from": "N",
+      "t": 73.00533333333536,
+      "exit_arm": "W",
+      "t_out": 82.60133333333572
+    },
+    {
+      "junction": "west",
+      "came_from": "S",
+      "t": 98.98133333333634,
+      "exit_arm": "N",
+      "t_out": 106.32533333333662
+    },
+    {
+      "junction": "north",
+      "came_from": "W",
+      "t": 122.81333333333724,
+      "exit_arm": "E",
+      "t_out": 130.13733333333752
+    },
+    {
+      "junction": "east",
+      "came_from": "N",
+      "t": 146.86133333333817,
+      "exit_arm": "S",
+      "t_out": 154.25733333333844
+    }
+  ],
+  "clean": false,
+  "stop_lines": [
+    {
+      "kind": "crosswalk",
+      "xy": [
+        -30.0,
+        0.0
+      ],
+      "min_ahead_cm": 1.6911268378989557
+    }
+  ],
+  "controller": "hyb2m",
+  "scenario": "inner_loop_west",
+  "events": [
+    {
+      "kind": "direction",
+      "move": "right",
+      "junction": "west",
+      "arm": "S",
+      "at_cm": 60
+    },
+    {
+      "kind": "red_light",
+      "arm": "W",
+      "trigger_cm": 4,
+      "hold_s": 4.0
+    }
+  ],
+  "orchestrator_calls": [
+    {
+      "t": 32.541333333333824,
+      "method": "push_direction",
+      "arg": "right"
+    },
+    {
+      "t": 50.14533333333449,
+      "method": "stop",
+      "arg": null
+    },
+    {
+      "t": 54.14133333333464,
+      "method": "resume",
+      "arg": null
+    }
+  ],
+  "expected_passages": [
+    [
+      "south",
+      "E",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "E"
+    ],
+    [
+      "center",
+      "W",
+      "S"
+    ],
+    [
+      "south",
+      "N",
+      "W"
+    ],
+    [
+      "west",
+      "S",
+      "N"
+    ],
+    [
+      "north",
+      "W",
+      "E"
+    ],
+    [
+      "east",
+      "N",
+      "S"
+    ]
+  ],
+  "route_correct": true,
+  "decisions": [
+    {
+      "t": 13.569333333333228,
+      "junction": "south",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 36.06933333333396,
+      "junction": "west",
+      "came_from": "S",
+      "move": "right",
+      "exit_arm": "E",
+      "source": "command",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 56.66133333333474,
+      "junction": "center",
+      "came_from": "W",
+      "move": "right",
+      "exit_arm": "S",
+      "source": "rule",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 71.67333333333531,
+      "junction": "south",
+      "came_from": "N",
+      "move": "right",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 97.08933333333627,
+      "junction": "west",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 121.06533333333718,
+      "junction": "north",
+      "came_from": "W",
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 145.1133333333381,
+      "junction": "east",
+      "came_from": "N",
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 13.569333333333228,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 32.541333333333824,
+      "event": "command_queued",
+      "move": "right",
+      "source": "sign"
+    },
+    {
+      "t": 36.06933333333396,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "E",
+      "source": "command",
+      "note": "",
+      "command": {
+        "t": 32.541333333333824,
+        "move": "right",
+        "source": "sign"
+      }
+    },
+    {
+      "t": 56.66133333333474,
+      "event": "junction_decision",
+      "junction": "center",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "S",
+      "source": "rule",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 71.67333333333531,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "N",
+      "options": [
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 97.08933333333627,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 121.06533333333718,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 145.1133333333381,
+      "event": "junction_decision",
+      "junction": "east",
+      "came_from": "N",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "direction": "cw",
+  "effects": [
+    "realcam_harsh"
+  ],
+  "seed": 41,
+  "vehicle": {
+    "start_duty_left": 0.3,
+    "start_duty_right": 0.3,
+    "max_duty": 1.0,
+    "cm_s_per_duty_left": 16.0,
+    "cm_s_per_duty_right": 16.0,
+    "turn_eff_left": 0.5,
+    "turn_eff_right": 0.7,
+    "drift_rad_s": 0.0,
+    "actuation_delay_s": 0.05,
+    "time_constant_s": 0.1,
+    "track_cm": 13.0,
+    "front_cm": 14.5,
+    "rear_cm": 10.0,
+    "half_width_cm": 8.0,
+    "pivot_slide_cm_per_rad": 0.0
+  },
+  "variation": {
+    "name": "fixed",
+    "wander_tau_s": 8.0,
+    "wander_turn_eff": 0.0,
+    "wander_speed_rel": 0.0,
+    "wander_start_duty": 0.0,
+    "wander_max_duty": 0.0,
+    "wander_delay_s": 0.0,
+    "trend_speed_rel_per_min": 0.0,
+    "trend_max_duty_rel_per_min": 0.0,
+    "patches": 0,
+    "patch_speed": [
+      1.0,
+      1.0
+    ],
+    "patch_turn": [
+      1.0,
+      1.0
+    ],
+    "patch_size_cm": [
+      20.0,
+      40.0
+    ],
+    "breakaway_duty": 0.0,
+    "seed": 41
+  },
+  "frames": 4297,
+  "wall_s": 313.9548528001178,
+  "camera": {
+    "profile": "harsh",
+    "drawn": {
+      "exposure_s": 0.102,
+      "sub_samples": 4,
+      "focus_sigma": 1.632,
+      "haze": 0.111,
+      "target_rel": 0.664,
+      "ae_tau_s": 0.555,
+      "ae_hunt": 0.25,
+      "start_gain": 0.204,
+      "awb_drift": 0.08,
+      "start_magenta": 0.6,
+      "vignette": 0.264,
+      "magenta_corner": 0.264,
+      "sheen_lights": 4,
+      "sheen_amp": 99.651,
+      "sheen_width": 0.172,
+      "sheen_dist": 50.74,
+      "creases": 8,
+      "crease_amp": 42.974,
+      "static_shadows": 10,
+      "shadow_dark": 0.332,
+      "walkers": 3,
+      "own_shadow": 0.655,
+      "read_noise": 3.105,
+      "shot_noise": 1.0,
+      "flare": 1.0,
+      "background": 1
+    }
+  }
+}

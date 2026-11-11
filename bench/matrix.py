@@ -144,6 +144,12 @@ def specs():
         for arm in ("N", "E", "S", "W"):
             s.append(dict(group="K_junction", controller="hyb2j", vehicle=v, effects=fx, direction="right", timing="own",
                           seed=sd, variation=var, scene=dict(junction="center", came_from=arm, exit="right")))
+    # Whole runs with junctions + scripted orchestrator (bench/mission.py), cw.
+    for sc in ("lap_defaults", "inner_loop", "inner_loop_west", "stop_sign", "wrong_sign"):
+        for v in ("field_estimate", "weak_left_turn", "unequal_sides", "field_pivot_slip"):
+            for fx, sd in (([], 17), (["realcam"], 41), (["realcam"], 43), (["realcam_harsh"], 41)):
+                s.append(dict(group="L_mission", controller="hyb2m", vehicle=v, effects=fx, direction="cw",
+                              timing="own", seed=sd, variation="fixed", mission=sc))
     for x in s:
         x.setdefault("variation", "fixed")
         x["slug"] = f"{x['group']}__{x['controller']}_{x['timing']}__{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['direction']}"
@@ -153,6 +159,8 @@ def specs():
             sc = x["scene"]
             x["slug"] = (f"K_junction__{x['controller']}__{sc['junction']}_{sc['came_from']}_{sc['exit']}__"
                          f"{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['variation']}__s{x['seed']}")
+        if x["group"] == "L_mission":
+            x["slug"] = (f"L_mission__{x['mission']}__{x['vehicle']}__{'+'.join(x['effects']) or 'none'}__s{x['seed']}")
         if x["group"] == "J_xcheck":
             x["slug"] += f"__s{x['seed']}"
     return s
@@ -165,7 +173,11 @@ def run_one(spec, out):
     if dst.exists():
         import shutil
         shutil.rmtree(dst)
-    if "scene" in spec:
+    if "mission" in spec:
+        cmd = [sys.executable, "-m", "bench.mission", "--controller", spec["controller"], "--vehicle", spec["vehicle"],
+               "--effects", ",".join(spec["effects"]), "--scenario", spec["mission"], "--direction", spec["direction"],
+               "--timing", spec["timing"], "--seed", str(spec["seed"]), "--variation", spec["variation"], "--out", str(dst)]
+    elif "scene" in spec:
         sc = spec["scene"]
         cmd = [sys.executable, "-m", "bench.junction", "--controller", spec["controller"], "--vehicle", spec["vehicle"],
                "--effects", ",".join(spec["effects"]), "--junction", sc["junction"], "--came-from", sc["came_from"],

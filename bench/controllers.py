@@ -363,3 +363,4 @@ CONTROLLERS["hyb3"] = HybridXCheck
 
 # Junction movement controller (hyb2j) lives in its own module.
 from .controllers_junction import HybridJunction  # noqa: E402,F401  (registers "hyb2j")
+from .controllers_mission import HybridMission  # noqa: E402,F401  (registers "hyb2m")
