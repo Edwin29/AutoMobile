@@ -1,0 +1,26 @@
+[
+  {
+    "iteration": 1,
+    "count": 12000,
+    "student": 6078,
+    "negative_margin": 291,
+    "recovery": 3038,
+    "inner": 1200
+  },
+  {
+    "iteration": 2,
+    "count": 12000,
+    "student": 9011,
+    "negative_margin": 722,
+    "recovery": 3258,
+    "inner": 1200
+  },
+  {
+    "iteration": 3,
+    "count": 12000,
+    "student": 12000,
+    "negative_margin": 156,
+    "recovery": 4212,
+    "inner": 1200
+  }
+]
