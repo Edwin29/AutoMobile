@@ -6,6 +6,15 @@
 
 ## 현재 상태
 
+- **11월 11일: CNN 우선 주행과 교차로·미션, 첫 실차 통합 시험.**
+  - [작업 기록](docs/DRIVE_V4_BENCH_20261111.md), [발표용 설계 개요](docs/DESIGN_OVERVIEW_20261111.md), [실차 시험 절차](docs/FIELD_PLAN_20261111.md), [실차 결과](drive_v4/field_runs/hyb2m_20261111/README.md), [CNN 미세조정 계획](cnn_finetune/README.md)
+  - **주행 구조 hyb2m:** 팀 CNN A5b가 차선을 따라가고, v4 지도는 별도 프로세스에서 위치를 추정한다.
+    - 교차로 도착은 지도로 스스로 감지하고, 오케스트레이터 방향 명령(큐) 또는 기본값을 따른다. 교차로에서는 제자리 회전이나 나눠 돌기로 돈다.
+    - 정지·재개 인터럽트를 받는다(사유별).
+  - **실차 결과(시뮬레이터 결과와 구분):** 외곽 시계·반시계 주행, 반시계 시나리오(남쪽 삼거리 진입 → 빨간불 정지 → 사거리 우회전 → 합류 → 두 바퀴째)를 통과했다.
+    - 시계 방향 시나리오는 실패했다. 회전 완료 판정이 지도 좌우 치우침 때문에 취소된 것이 원인이었고, 수정했으나 실차에서는 아직 재시험하지 않았다.
+    - 지도가 한 변 어긋나는 문제를 발견했다. 코너 세기로 바로잡는 기능을 넣었고, 이 역시 실차 재시험 전이다.
+  - **실행:** Pi에서 `./run_mission.sh`, 명령은 `./send.sh`. 시나리오 자동 실행은 `--script`.
 - **11월 10일 현장 후속:** [실차 시험·실험 모드·지도 수정 기록](docs/DRIVE_V3_FIELD_20261110.md). v3 실차 모터 시험을 수행했지만 완주하지 못했다. 이후 만든 `local_corridor` 모드는 전역 정합을 우회한 **별도 국소 주행 실험판**이며, 합의한 지도 형상·구간 추적·미션 통합의 완성판이 아니다. [당시 Pi 실행 어댑터](field_experiments/20261110/README.md)도 보존한다.
 - [세 번째 주행 구조 설계](docs/DRIVE_V3_DESIGN_20261110.md)와 [drive_v3](drive_v3/README.md): 여섯 파트를 연결한 v0.2 오프라인 통합 실험판. 사진/영상 재생·합성 카메라 폐루프·미션/제어 시험을 제공한다. 실차 배포·완주 검증은 별개이며 [통합 검증 기록](drive_v3/VALIDATION_V02.md)에 한계를 기록한다.
 - [실차 조건을 반영한 22개 환경 간섭 시험](research/real_stress_20261109/README.md): 시각 특징 오염과 누적 위치 오차가 서로 다른 정지 경로를 만드는 것을 재현했다. 실제 마지막 네 프레임과 96장 버퍼의 후보 탐색 결과도 포함한다.
@@ -31,6 +40,10 @@
 
 | 경로 | 내용 |
 |---|---|
+| bench | 공통 시뮬레이터(실차 기록 기반 카메라 효과 포함), 비교 시험 묶음, hyb2·hyb2j·hyb2m 주행 코드, Pi 실행기(`pi_run.py`, `pi_cmd.py`, `pi_script.py`, `map_worker.py`) |
+| drive_v4 | 지도 정합 주행기 v4, 교차로 판단 규칙(`junction_policy.py`), 실차 기록(`field_runs/`) |
+| cnn_finetune | A5b 미세조정 계획(진행 예정) |
+| run_mission.sh, send.sh | Pi의 `~/hybrid_mission`에서 쓰는 실행·명령 스크립트 |
 | junction_logic/review_video, review_20261104, visibility_review/source | 팀원 코드와 당시 분석용 소스 스냅샷, 도면·렌더러 |
 | map_localization/outer_driver | 지도 위치 보정·경로 추종·예측계수·출력 보상·Pi 실험판 |
 | map_localization/c_drive_test, ideal_drive, corner_diagnosis | 기존 C안과 기준점 대조 |
