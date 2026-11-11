@@ -1,0 +1,357 @@
+{
+  "base": "3d51ada",
+  "files": {
+    "cnn_finetune\\baseline.py": "37d37ddd8156c571044208995e264de106cb6daf91b17f27c62852f7fc271c11",
+    "cnn_finetune\\convert_check.py": "258e09dab68a5ccbc0cc2a6734421bf8bc56892fe0e9ed78833e0456bdde0669",
+    "cnn_finetune\\model.py": "29f2357cf6082a4b139dc96cba65b91bd3a2de23e3d0683e8f1f305ae379b163",
+    "cnn_finetune\\teacher.py": "727cfe227ab7047c01c0f2359921053d38715ae5d3c74ea4788a1acea6c314f0",
+    "cnn_finetune\\teacher_run.py": "9a9d7abd9948d9ff98eada6d4ee2d6a494a367e12ee269cfa8ad587d678298a7",
+    "cnn_finetune\\teacher_trial.py": "68448890ba5fe78bf4be33d568a8d584376b0c16c917aa7ecd0e5159bc41c923",
+    "cnn_finetune\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "inverse": {
+    "ok": true,
+    "samples": [
+      {
+        "requested_k": -0.085,
+        "clipped_normal": true,
+        "k": -0.055,
+        "requested_mean": 0.43,
+        "label": [
+          0.5073469920396712,
+          0.6842402888337901
+        ],
+        "pre_k": -0.05500000000000001,
+        "pre_mean": 0.4210632911392405,
+        "team_pwm": [
+          0.182126582278481,
+          0.66
+        ],
+        "actual_k": -0.05500479570305004,
+        "actual_mean": 0.42105,
+        "passed": true
+      },
+      {
+        "requested_k": -0.06,
+        "clipped_normal": true,
+        "k": -0.055,
+        "requested_mean": 0.43,
+        "label": [
+          0.5073469920396712,
+          0.6842402888337901
+        ],
+        "pre_k": -0.05500000000000001,
+        "pre_mean": 0.4210632911392405,
+        "team_pwm": [
+          0.182126582278481,
+          0.66
+        ],
+        "actual_k": -0.05500479570305004,
+        "actual_mean": 0.42105,
+        "passed": true
+      },
+      {
+        "requested_k": -0.04,
+        "clipped_normal": false,
+        "k": -0.04,
+        "requested_mean": 0.43,
+        "label": [
+          0.5257731958762886,
+          0.5081910580192368
+        ],
+        "pre_k": -0.04000000000000001,
+        "pre_mean": 0.43,
+        "team_pwm": [
+          0.2525396825396825,
+          0.6074603174603175
+        ],
+        "actual_k": -0.03998271391529816,
+        "actual_mean": 0.46724999999999994,
+        "passed": true
+      },
+      {
+        "requested_k": -0.02,
+        "clipped_normal": false,
+        "k": -0.02,
+        "requested_mean": 0.43,
+        "label": [
+          0.5257731958762886,
+          0.2540955290096184
+        ],
+        "pre_k": -0.020000000000000007,
+        "pre_mean": 0.42999999999999994,
+        "team_pwm": [
+          0.3412698412698412,
+          0.5187301587301587
+        ],
+        "actual_k": -0.020000000000000014,
+        "actual_mean": 0.4299999999999998,
+        "passed": true
+      },
+      {
+        "requested_k": 0,
+        "clipped_normal": false,
+        "k": 0.0,
+        "requested_mean": 0.43,
+        "label": [
+          0.5257731958762886,
+          0.0
+        ],
+        "pre_k": 0.0,
+        "pre_mean": 0.43,
+        "team_pwm": [
+          0.43,
+          0.43
+        ],
+        "actual_k": 0.0,
+        "actual_mean": 0.42999999999999994,
+        "passed": true
+      },
+      {
+        "requested_k": 0.02,
+        "clipped_normal": false,
+        "k": 0.02,
+        "requested_mean": 0.43,
+        "label": [
+          0.5257731958762886,
+          -0.2581938439936444
+        ],
+        "pre_k": 0.019999999999999997,
+        "pre_mean": 0.43,
+        "team_pwm": [
+          0.5201612903225806,
+          0.33983870967741936
+        ],
+        "actual_k": 0.02,
+        "actual_mean": 0.43000000000000005,
+        "passed": true
+      },
+      {
+        "requested_k": 0.04,
+        "clipped_normal": false,
+        "k": 0.04,
+        "requested_mean": 0.43,
+        "label": [
+          0.5257731958762886,
+          -0.516387687987289
+        ],
+        "pre_k": 0.04000000000000001,
+        "pre_mean": 0.43,
+        "team_pwm": [
+          0.6103225806451613,
+          0.24967741935483867
+        ],
+        "actual_k": 0.039999999999999994,
+        "actual_mean": 0.465,
+        "passed": true
+      },
+      {
+        "requested_k": 0.06,
+        "clipped_normal": true,
+        "k": 0.055,
+        "requested_mean": 0.43,
+        "label": [
+          0.5023070635694887,
+          -0.6912401894868212
+        ],
+        "pre_k": 0.05500000000000001,
+        "pre_mean": 0.418618925831202,
+        "team_pwm": [
+          0.66,
+          0.17723785166240405
+        ],
+        "actual_k": 0.054988837747705535,
+        "actual_mean": 0.41864999999999997,
+        "passed": true
+      },
+      {
+        "requested_k": 0.085,
+        "clipped_normal": true,
+        "k": 0.055,
+        "requested_mean": 0.43,
+        "label": [
+          0.5023070635694887,
+          -0.6912401894868212
+        ],
+        "pre_k": 0.05500000000000001,
+        "pre_mean": 0.418618925831202,
+        "team_pwm": [
+          0.66,
+          0.17723785166240405
+        ],
+        "actual_k": 0.054988837747705535,
+        "actual_mean": 0.41864999999999997,
+        "passed": true
+      }
+    ],
+    "note": "Actual TeamCNN side conversion and HybridCNN remap, 1000-frame dither averages"
+  },
+  "camera_verification": [
+    {
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "progress_cm": 654.7883639640501,
+      "lap_cm": 655.088363964073,
+      "simulated_s": 90.26933333333601,
+      "proper_corners": 4,
+      "corners": [
+        {
+          "corner": "ES",
+          "start_s": 0.02,
+          "end_s": 11.337333333333254,
+          "turn_deg": 90.65001272015795,
+          "proper": true
+        },
+        {
+          "corner": "WS",
+          "start_s": 21.54533333333341,
+          "end_s": 33.873333333333875,
+          "turn_deg": 88.70031164111862,
+          "proper": true
+        },
+        {
+          "corner": "WN",
+          "start_s": 44.15333333333427,
+          "end_s": 56.501333333334735,
+          "turn_deg": 88.65032169073257,
+          "proper": true
+        },
+        {
+          "corner": "EN",
+          "start_s": 66.68933333333511,
+          "end_s": 79.03733333333558,
+          "turn_deg": 88.75654461149584,
+          "proper": true
+        }
+      ],
+      "corner_plan": [
+        [
+          "ES",
+          36.691284783066884
+        ],
+        [
+          "WS",
+          200.45557571115134
+        ],
+        [
+          "WN",
+          364.73278825294517
+        ],
+        [
+          "EN",
+          528.4970791810027
+        ]
+      ],
+      "min_margin_cm": -0.27854295465490964,
+      "outside_s": 0.7560000000000006,
+      "zero_output_s": 0.06933333333333333,
+      "clean_lap": false,
+      "worst_first_corner_cm": -0.27854295465490964,
+      "worst_after_first_corner_cm": 0.0,
+      "episodes": [
+        {
+          "start_s": 5.885333333333315,
+          "start_progress_cm": 41.361243632759795,
+          "min_cm": -0.27854295465490964,
+          "end_s": 7.649333333333295,
+          "recovered": true
+        }
+      ],
+      "unrecovered_episodes": 0,
+      "controller": "cnnA5b",
+      "controller_source": "truth-pose teacher 18cm pursuit; simulation only",
+      "direction": "cw",
+      "effects": [
+        "realcam"
+      ],
+      "seed": 41,
+      "timing": {
+        "name": "cnn_pi",
+        "latencies_s": null,
+        "max_latency_s": 0.036,
+        "source": "team CNN measured on the Pi (track-digital-twin README, p50 34-38 ms)",
+        "controller_period_s": 0.2
+      },
+      "vehicle": {
+        "start_duty_left": 0.3,
+        "start_duty_right": 0.3,
+        "max_duty": 1.0,
+        "cm_s_per_duty_left": 16.8,
+        "cm_s_per_duty_right": 16.8,
+        "turn_eff_left": 0.6,
+        "turn_eff_right": 0.6,
+        "drift_rad_s": 0.0,
+        "actuation_delay_s": 0.05,
+        "time_constant_s": 0.1,
+        "track_cm": 13.0,
+        "front_cm": 14.5,
+        "rear_cm": 10.0,
+        "half_width_cm": 8.0,
+        "pivot_slide_cm_per_rad": 0.0
+      },
+      "frames": 2506,
+      "variation": {
+        "name": "fixed",
+        "wander_tau_s": 8.0,
+        "wander_turn_eff": 0.0,
+        "wander_speed_rel": 0.0,
+        "wander_start_duty": 0.0,
+        "wander_max_duty": 0.0,
+        "wander_delay_s": 0.0,
+        "trend_speed_rel_per_min": 0.0,
+        "trend_max_duty_rel_per_min": 0.0,
+        "patches": 0,
+        "patch_speed": [
+          1.0,
+          1.0
+        ],
+        "patch_turn": [
+          1.0,
+          1.0
+        ],
+        "patch_size_cm": [
+          20.0,
+          40.0
+        ],
+        "breakaway_duty": 0.0,
+        "seed": 41
+      },
+      "floor_patches": [],
+      "pose_error_cm": null,
+      "camera": {
+        "profile": "typical",
+        "device": "cuda",
+        "drawn": {
+          "exposure_s": 0.062,
+          "sub_samples": 3,
+          "focus_sigma": 1.02,
+          "haze": 0.019,
+          "target_rel": 0.904,
+          "ae_tau_s": 0.208,
+          "ae_hunt": 0.0,
+          "start_gain": 0.905,
+          "awb_drift": 0.03,
+          "start_magenta": 0.0,
+          "vignette": 0.09,
+          "magenta_corner": 0.156,
+          "sheen_lights": 2,
+          "sheen_amp": 50.917,
+          "sheen_width": 0.184,
+          "sheen_dist": 48.055,
+          "creases": 4,
+          "crease_amp": 24.43,
+          "static_shadows": 0,
+          "shadow_dark": 0.576,
+          "walkers": 0,
+          "own_shadow": 0.886,
+          "read_noise": 1.553,
+          "shot_noise": 0.4,
+          "flare": 0.0,
+          "background": 1
+        }
+      },
+      "wall_s": 14.187044099904597,
+      "vehicle_name": "field_estimate"
+    }
+  ]
+}
