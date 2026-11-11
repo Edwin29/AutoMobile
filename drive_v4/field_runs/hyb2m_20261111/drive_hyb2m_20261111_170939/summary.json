@@ -1,0 +1,321 @@
+{
+  "output": "/home/pi/hybrid_mission/pi_runs/drive_hyb2m_20261111_170939",
+  "stop_reason": "board_button",
+  "frames": 5247,
+  "mode": "drive",
+  "script": {
+    "spec": "inner_loop",
+    "fired": [
+      {
+        "t": 58.98848042899954,
+        "event": "direction",
+        "spec": {
+          "kind": "direction",
+          "junction": "south",
+          "arm": "W",
+          "move": "left",
+          "at_cm": 60.0
+        }
+      },
+      {
+        "t": 73.64213542299967,
+        "event": "red_light",
+        "spec": {
+          "kind": "red_light",
+          "arm": "S",
+          "hold_s": 4.0,
+          "trigger_cm": 4.0
+        }
+      }
+    ],
+    "not_fired": []
+  },
+  "direction_changes": [],
+  "frames_saved": 1749,
+  "frames_dropped": 0,
+  "decisions": [
+    {
+      "t": 1.2490478483785075,
+      "junction": "east",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    },
+    {
+      "t": 23.76010764056835,
+      "junction": "north",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    },
+    {
+      "t": 42.776879751548705,
+      "junction": "west",
+      "came_from": "N",
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    },
+    {
+      "t": 62.726107620808804,
+      "junction": "south",
+      "came_from": "W",
+      "move": "left",
+      "exit_arm": "N",
+      "source": "command",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    },
+    {
+      "t": 79.54461354503287,
+      "junction": "center",
+      "came_from": "S",
+      "move": "right",
+      "exit_arm": "E",
+      "source": "rule",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 92.66576487775535,
+      "junction": "east",
+      "came_from": "W",
+      "move": "left",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "left",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 117.61221953371819,
+      "junction": "north",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    },
+    {
+      "t": 137.06143895222405,
+      "junction": "west",
+      "came_from": "N",
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    },
+    {
+      "t": 156.34484948649967,
+      "junction": "south",
+      "came_from": "W",
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 1.2490478483785075,
+      "event": "junction_decision",
+      "junction": "east",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 23.76010764056835,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 42.776879751548705,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "N",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 58.98848042899954,
+      "event": "command_queued",
+      "move": "left",
+      "source": "sign"
+    },
+    {
+      "t": 62.726107620808804,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "left",
+      "exit_arm": "N",
+      "source": "command",
+      "note": "",
+      "command": {
+        "t": 58.98848042899954,
+        "move": "left",
+        "source": "sign"
+      }
+    },
+    {
+      "t": 79.54461354503287,
+      "event": "junction_decision",
+      "junction": "center",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "move": "right",
+      "exit_arm": "E",
+      "source": "rule",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 92.66576487775535,
+      "event": "junction_decision",
+      "junction": "east",
+      "came_from": "W",
+      "options": [
+        "left",
+        "right"
+      ],
+      "move": "left",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 117.61221953371819,
+      "event": "junction_decision",
+      "junction": "north",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 137.06143895222405,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "N",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "straight",
+      "exit_arm": "S",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 156.34484948649967,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "W",
+      "options": [
+        "straight",
+        "left"
+      ],
+      "move": "straight",
+      "exit_arm": "E",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "interrupts": [
+    {
+      "t": 73.64213542299967,
+      "event": "stop",
+      "reason": "red_light",
+      "active": [
+        "red_light"
+      ]
+    },
+    {
+      "t": 77.67252767299988,
+      "event": "resume",
+      "reason": "red_light",
+      "held_s": 4.0303922500002045,
+      "still_held": []
+    }
+  ]
+}

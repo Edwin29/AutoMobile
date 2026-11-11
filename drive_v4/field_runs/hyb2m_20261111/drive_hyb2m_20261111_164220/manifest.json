@@ -1,0 +1,40 @@
+{
+  "mode": "drive",
+  "controller": "hyb2m",
+  "source": "CNN A5b + v4 map on demand (v4_65c68a6613a0), map every 3 frames + mission (junction policy, stop/resume interrupt)",
+  "direction": "cw",
+  "start_hint": [
+    87.25,
+    -46.0,
+    3.141592653589793
+  ],
+  "args": {
+    "controller": "hyb2m",
+    "direction": "cw",
+    "pose": null,
+    "start": null,
+    "stop_after_junctions": null,
+    "drive": true,
+    "sim": false,
+    "scenario": "lap_defaults",
+    "vehicle": "field_estimate",
+    "effects": "",
+    "seed": 17,
+    "pivot_duty": null,
+    "stop_lead": null,
+    "creep_duty": null,
+    "turn_duty": null,
+    "inline_map": false,
+    "max_seconds": 600.0,
+    "save_every": 3,
+    "cmd_port": 8765,
+    "event_port": 8766,
+    "probe_dir": "/home/pi/straight30",
+    "out": "/home/pi/hybrid_mission/pi_runs"
+  },
+  "pivot_duty": 0.4,
+  "turn_duty": 0.34,
+  "stop_lead_s": 0.12,
+  "creep_duty": 0.36,
+  "stop_policy": "ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"
+}

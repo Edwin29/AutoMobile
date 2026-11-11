@@ -1,0 +1,69 @@
+{
+  "output": "/home/pi/hybrid_mission/pi_runs/drive_hyb2m_20261111_163801",
+  "stop_reason": "board_button",
+  "frames": 2495,
+  "mode": "drive",
+  "frames_saved": 832,
+  "frames_dropped": 0,
+  "decisions": [
+    {
+      "t": 8.773631344924562,
+      "junction": "south",
+      "came_from": "E",
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    },
+    {
+      "t": 45.841757198305906,
+      "junction": "west",
+      "came_from": "S",
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "note": ""
+    }
+  ],
+  "policy_log": [
+    {
+      "t": 8.773631344924562,
+      "event": "junction_decision",
+      "junction": "south",
+      "came_from": "E",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "W",
+      "source": "default",
+      "note": "",
+      "command": null
+    },
+    {
+      "t": 45.841757198305906,
+      "event": "junction_decision",
+      "junction": "west",
+      "came_from": "S",
+      "options": [
+        "straight",
+        "right"
+      ],
+      "move": "straight",
+      "exit_arm": "N",
+      "source": "default",
+      "note": "",
+      "command": null
+    }
+  ],
+  "interrupts": []
+}

@@ -1,0 +1,31 @@
+{
+  "output": "/home/pi/hybrid_mission/pi_runs/drive_hyb2m_20261111_170833",
+  "stop_reason": "ctrl_c",
+  "frames": 1051,
+  "mode": "drive",
+  "script": {
+    "spec": "inner_loop",
+    "fired": [],
+    "not_fired": [
+      {
+        "kind": "direction",
+        "junction": "south",
+        "arm": "W",
+        "move": "left",
+        "at_cm": 60.0
+      },
+      {
+        "kind": "red_light",
+        "arm": "S",
+        "hold_s": 4.0,
+        "trigger_cm": 4.0
+      }
+    ]
+  },
+  "direction_changes": [],
+  "frames_saved": 351,
+  "frames_dropped": 0,
+  "decisions": [],
+  "policy_log": [],
+  "interrupts": []
+}
