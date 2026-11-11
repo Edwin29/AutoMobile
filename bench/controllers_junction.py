@@ -35,7 +35,8 @@ class HybridJunction(HybridCNN):
     ARC_FACTOR, ARC_MIN_MARGIN = 1.25, 0.5
     TURN_DUTY = 0.34
     PIVOT_DUTY, PIVOT_DONE_DEG, SETTLE_S, PIVOT_MIN_MARGIN = 0.40, 5.0, 0.3, 0.5
-    STOP_LEAD_S = 0.25        # stop this much travel time before P (latency + motor lag)
+    STOP_LEAD_S = 0.12        # stop this much travel time early (0.25 stopped 0.9-1.3 cm short in the bench)
+    CREEP_DUTY = 0.36         # split turn's short straight move (start duty 0.30)
     GATE_CM, GATE_DEG, GATE_FRAMES = 5.0, 15.0, 15
 
     def __init__(self, direction, start_hint, timing, route=None, plans=None):
@@ -56,7 +57,7 @@ class HybridJunction(HybridCNN):
         self._set_route(np.asarray(route, float))
         self.phase, self.sub, self.exit_count, self.corr = "APPROACH", None, 0, 0.0
         self.tp, self.disagree, self.hold_since, self.sub_since = None, 0, None, None
-        self.source = self.source + ", junction route (ability-chosen arc / pivot, gated pose, reversible exit)"
+        self.source = self.source + ", junction route (pivot / split pivot / arc, gated pose, reversible exit)"
 
     def _set_route(self, pts):
         rt = self.Route("junction", np.asarray(pts, float))
@@ -95,20 +96,31 @@ class HybridJunction(HybridCNN):
         sign = 1.0 if self.plans["exit"] == "right" else -1.0
         r_min = m.c["track_cm"] / (2 * m.yaw_gain(sign))
         ok = [a for a in self.plans["arcs"] if a[0] >= self.ARC_FACTOR * r_min and a[1] >= self.ARC_MIN_MARGIN]
-        pv = self.plans["pivot"]
-        # Pivot first wherever it fits (course TA: "go straight in, turn 90 deg, go out" is
-        # fine; field: pivoting works on the car, with some wheel slip / body slide).
-        if pv["margin_cm"] >= self.PIVOT_MIN_MARGIN or not ok or pv["margin_cm"] >= max(a[1] for a in ok):
-            ok = []
+        # In-place methods first (course TA: "go straight in, turn 90 deg, go out" is fine;
+        # field: pivoting works on the car, with some wheel slip / body slide). The one-step
+        # pivot wins ties (simplest); the split turn (part, creep, rest) where it has clearly
+        # more room (the south / north T merges); an arc only where neither fits.
+        opts = [("pivot", self.plans["pivot"]["margin_cm"] + 0.2)]
+        if self.plans.get("split") is not None:
+            opts.append(("split", self.plans["split"]["margin_cm"]))
         if ok:
             r, margin, pts = min(ok, key=lambda a: a[0])
+            opts.append(("arc", margin - 0.2))
+        kind = max(opts, key=lambda o: o[1])[0]
+        if kind == "arc":
             self._set_route(pts)
             self.choice = dict(kind="arc", radius_cm=r, margin_cm=margin, r_min_cm=r_min)
+            return
+        ip = self.ip = self.plans[kind]
+        if kind == "pivot":
+            self.steps = [("rotate", ip["h_out"])]
         else:
-            pv = self.plans["pivot"]
-            self._set_route(pv["pts_in"])
-            self.choice = dict(kind="pivot", P=pv["P"], margin_cm=pv["margin_cm"], r_min_cm=r_min)
-            self.sub = "IN"
+            self.steps = [("rotate", ip["h_mid"]), ("creep", np.asarray(ip["P2"]), ip["h_mid"], ip["creep_cm"]),
+                          ("rotate", ip["h_out"])]
+        self._set_route(ip["pts_in"])
+        self.choice = dict(kind=kind, P=ip["P"], margin_cm=ip["margin_cm"], r_min_cm=r_min,
+                           **({"first_turn_deg": ip["first_turn_deg"], "creep_cm": ip["creep_cm"]} if kind == "split" else {}))
+        self.sub, self.step_i = "IN", 0
 
     # --- pose with jump gate ------------------------------------------------------------
     def _gated_pose(self, done, dt, sxy):
@@ -190,32 +202,43 @@ class HybridJunction(HybridCNN):
             if hold and done_s - self.hold_since <= self.HOLD_MAX_S:
                 out, reason = np.zeros(2), "traverse_hold_no_fix"
             elif self.sub == "IN":
-                # pivot plan: the CNN keeps the lane (it does so better than the map in harsh
-                # light: map lateral error 4-14 cm there); the map only says where to stop
+                # in-place plans: the CNN keeps the lane (it does so better than the map in
+                # harsh light: map lateral error 4-14 cm there); the map only says where to stop
                 P = np.asarray(self.choice["P"])
                 d_in = rt.points[-1] - rt.points[0]
                 d_in = d_in / np.linalg.norm(d_in)
                 v_now = self._signed_velocity(self.last_out)[0]
                 if (P - pose[:2]) @ d_in <= 0.5 + max(v_now, 0.0) * self.STOP_LEAD_S:
-                    self.sub, self.sub_since, out, reason = "SETTLE_IN", done_s, np.zeros(2), "pivot_settle"
+                    self.sub, self.sub_since, out, reason = "SETTLE", done_s, np.zeros(2), "pivot_settle"
                 else:
                     reason = "pivot_in_cnn"                         # out = hyb2 (CNN) command
-            elif self.sub in ("SETTLE_IN", "SETTLE_OUT"):
+            elif self.sub == "SETTLE":
                 out, reason = np.zeros(2), "pivot_settle"
                 if done_s - self.sub_since >= self.SETTLE_S:
-                    if self.sub == "SETTLE_IN":
-                        self.sub = "ROTATE"
+                    if self.step_i < len(self.steps):
+                        self.sub = self.steps[self.step_i][0].upper()          # ROTATE / CREEP
                     else:                                           # facing the exit road: CNN again
                         self.sub = "OUT"
-                        self._set_route(self.plans["pivot"]["pts_out"])
+                        self._set_route(self.ip["pts_out"])
                         self.phase = "EXIT"
             elif self.sub == "ROTATE":
-                err = float(wrap3(self.plans["pivot"]["h_out"] - pose[2]))
+                err = float(wrap3(self.steps[self.step_i][1] - pose[2]))
                 if abs(err) <= np.radians(self.PIVOT_DONE_DEG):
-                    self.sub, self.sub_since, out, reason = "SETTLE_OUT", done_s, np.zeros(2), "pivot_settle"
+                    self.step_i += 1
+                    self.sub, self.sub_since, out, reason = "SETTLE", done_s, np.zeros(2), "pivot_settle"
                 else:
                     s = 1.0 if err > 0 else -1.0                      # + = clockwise = right
                     out, reason = self.PIVOT_DUTY * np.array([s, -s]), "pivot_rotate"
+            elif self.sub == "CREEP":                                 # split turn: short straight move
+                _, P2, h, creep = self.steps[self.step_i]
+                sgn = 1.0 if creep > 0 else -1.0
+                u = np.array([np.sin(h), np.cos(h)])
+                left = sgn * float((P2 - pose[:2]) @ u)
+                if left <= 0.5 + abs(self._signed_velocity(self.last_out)[0]) * self.STOP_LEAD_S:
+                    self.step_i += 1
+                    self.sub, self.sub_since, out, reason = "SETTLE", done_s, np.zeros(2), "pivot_settle"
+                else:
+                    out, reason = sgn * self.CREEP_DUTY * np.ones(2), "split_creep"
             else:                                                     # arc, or the pivot OUT segment
                 out = self._pursue(pose, arc, info, None)
                 reason = "pivot_out" if self.sub == "OUT" else "traverse"

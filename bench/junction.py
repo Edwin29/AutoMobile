@@ -144,6 +144,57 @@ def pivot_plan(junction, came_from, exit_kind, rim, track=None):
                 pts_in=p_in, pts_out=p_out)
 
 
+SPLIT_OUT_CM = 8
+
+
+def split_plan(junction, came_from, exit_kind, rim, track=None):
+    """Turn in two parts: drive in to P1 (the CNN brings the car in on the lane centre),
+    rotate in place by part of the 90 deg, creep `creep_cm` along that heading (negative =
+    reverse) to P2, rotate the rest, drive out. For junctions where one 90 deg pivot does
+    not fit (its ~33 cm swept circle vs the 24 cm south / 26 cm north outer road) or
+    leaves little margin. Searched: P1 along the incoming road, the first rotation's
+    share (30-60 deg) and the creep, for the largest whole-body margin over every part;
+    the drive out is checked over its first SPLIT_OUT_CM (the CNN re-centres the car)."""
+    track = track or Track()
+    c, d_in, d_out, exit_arm = movement(junction, came_from, exit_kind, track)
+    h_in, h_out = heading_of(d_in), heading_of(d_out)
+    turn = wrap(h_out - h_in)
+    clear = lambda p, h: float(track.clearance(to_world(rim, [p[0], p[1], h])).min())
+    best = None
+    for a in np.arange(-12.0, 4.1, 1.0):           # P1 along the incoming road (+ = further in)
+        P1 = c + a * d_in
+        start = c - ENTRY_CM * d_in
+        m_in = route_clearance(np.linspace(start, P1, int(np.linalg.norm(P1 - start)) + 1), rim, track)
+        if best is not None and m_in <= best[0]:
+            continue
+        for share in (1 / 3, 0.4, 0.5, 0.6, 2 / 3):
+            h_mid = h_in + share * turn
+            u_mid = np.array([math.sin(h_mid), math.cos(h_mid)])
+            m1 = min(clear(P1, h) for h in h_in + np.linspace(0, share, 16) * turn)
+            if best is not None and min(m1, m_in) <= best[0]:
+                continue
+            for creep in np.arange(-6.0, 16.1, 2.0):
+                if creep == 0:
+                    continue
+                P2 = P1 + creep * u_mid
+                m_c = min(clear(P1 + f * creep * u_mid, h_mid) for f in np.linspace(0, 1, max(2, int(abs(creep)) + 1)))
+                if best is not None and m_c <= best[0]:
+                    continue
+                m2 = min(clear(P2, h) for h in h_mid + np.linspace(0, 1 - share, 16) * turn)
+                end = P2 + (EXIT_CM - (P2 - c) @ d_out) * d_out
+                p_out = np.linspace(P2, end, int(np.linalg.norm(end - P2)) + 1)
+                m_out = route_clearance(p_out[:SPLIT_OUT_CM], rim, track)
+                score = min(m1, m_in, m_c, m2, m_out)
+                if best is None or score > best[0]:
+                    best = (score, P1, P2, creep, h_mid, p_out, dict(rotate1=m1, drive_in=m_in, creep=m_c,
+                                                                     rotate2=m2, drive_out=m_out), share)
+    score, P1, P2, creep, h_mid, p_out, parts, share = best
+    start = c - ENTRY_CM * d_in
+    p_in = np.linspace(start, P1, int(np.linalg.norm(P1 - start)) + 1)
+    return dict(P=P1.tolist(), P2=P2.tolist(), creep_cm=float(creep), first_turn_deg=float(np.degrees(share * turn)),
+                margin_cm=score, parts_cm=parts, h_in=h_in, h_mid=float(h_mid), h_out=h_out, pts_in=p_in, pts_out=p_out)
+
+
 def turn_plans(junction, came_from, exit_kind, rim, track=None):
     """Everything a controller may choose from for one movement: the best arc per radius
     (offsets swept) and the pivot plan. The choice needs the car's turning ability, which
@@ -155,7 +206,8 @@ def turn_plans(junction, came_from, exit_kind, rim, track=None):
     for r in np.arange(6.0, 30.1, 2.0):
         pts, g = make_route(junction, came_from, exit_kind, rim, track, radius=r)
         arcs.append((float(r), g["nominal_min_margin_cm"], pts))
-    return dict(arcs=arcs, pivot=pivot_plan(junction, came_from, exit_kind, rim, track), exit=exit_kind)
+    return dict(arcs=arcs, pivot=pivot_plan(junction, came_from, exit_kind, rim, track),
+                split=split_plan(junction, came_from, exit_kind, rim, track), exit=exit_kind)
 
 
 PLAN_CACHE = Path(__file__).resolve().parent / "world" / "junction_plans.pkl"

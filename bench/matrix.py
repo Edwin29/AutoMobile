@@ -150,14 +150,21 @@ def specs():
             for fx, sd in (([], 17), (["realcam"], 41), (["realcam"], 43), (["realcam_harsh"], 41)):
                 s.append(dict(group="L_mission", controller="hyb2m", vehicle=v, effects=fx, direction="cw",
                               timing="own", seed=sd, variation="fixed", mission=sc))
+    # Split pivot (2026-11-11): the narrow T merges, the crossroad and two T entries.
+    for j, cf, ex in (("south", "N", "right"), ("north", "S", "right"), ("south", "E", "right"), ("east", "S", "left"),
+                      ("center", "N", "right"), ("center", "E", "right"), ("center", "S", "right"), ("center", "W", "right")):
+        for v in ("field_estimate", "field_pivot_slip", "weak_left_turn"):
+            for fx, sd in (([], 17), (["realcam"], 41)):
+                s.append(dict(group="K2_split", controller="hyb2j", vehicle=v, effects=fx, direction=ex, timing="own",
+                              seed=sd, variation="fixed", scene=dict(junction=j, came_from=cf, exit=ex)))
     for x in s:
         x.setdefault("variation", "fixed")
         x["slug"] = f"{x['group']}__{x['controller']}_{x['timing']}__{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['direction']}"
         if x["variation"] != "fixed":
             x["slug"] += f"__{x['variation']}"
-        if x["group"] == "K_junction":
+        if x["group"] in ("K_junction", "K2_split"):
             sc = x["scene"]
-            x["slug"] = (f"K_junction__{x['controller']}__{sc['junction']}_{sc['came_from']}_{sc['exit']}__"
+            x["slug"] = (f"{x['group']}__{x['controller']}__{sc['junction']}_{sc['came_from']}_{sc['exit']}__"
                          f"{x['vehicle'].replace(':', '')}__{'+'.join(x['effects']) or 'none'}__{x['variation']}__s{x['seed']}")
         if x["group"] == "L_mission":
             x["slug"] = (f"L_mission__{x['mission']}__{x['vehicle']}__{'+'.join(x['effects']) or 'none'}__s{x['seed']}")

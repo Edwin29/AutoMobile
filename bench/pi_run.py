@@ -273,6 +273,8 @@ def main():
     ap.add_argument("--effects", default="", help="--sim: camera effects, e.g. realcam")
     ap.add_argument("--seed", type=int, default=17)
     ap.add_argument("--pivot-duty", type=float, help="override the pivot wheel duty (default 0.40)")
+    ap.add_argument("--stop-lead", type=float, help="stop this many seconds of travel early at junction stop points (default 0.12)")
+    ap.add_argument("--creep-duty", type=float, help="split turn's short straight move duty (default 0.36)")
     ap.add_argument("--turn-duty", type=float, help="override the slow mean duty used near junctions (default 0.34)")
     ap.add_argument("--inline-map", action="store_true", help="v4 map in the control loop (default: own process)")
     ap.add_argument("--max-seconds", type=float, default=600.0)
@@ -313,6 +315,10 @@ def main():
         ctrl.use_map_process(hint)
     if args.pivot_duty is not None:
         ctrl.PIVOT_DUTY = float(args.pivot_duty)
+    if args.stop_lead is not None:
+        ctrl.STOP_LEAD_S = float(args.stop_lead)
+    if args.creep_duty is not None:
+        ctrl.CREEP_DUTY = float(args.creep_duty)
     if args.turn_duty is not None:
         ctrl.TURN_DUTY = float(args.turn_duty)
     has_api = hasattr(ctrl, "push_direction")
@@ -321,7 +327,8 @@ def main():
     (out / "manifest.json").write_text(json.dumps(dict(
         mode=mode, controller=args.controller, source=getattr(ctrl, "source", None), direction=args.direction,
         start_hint=hint.tolist(), args=vars(args), pivot_duty=getattr(ctrl, "PIVOT_DUTY", None),
-        turn_duty=getattr(ctrl, "TURN_DUTY", None),
+        turn_duty=getattr(ctrl, "TURN_DUTY", None), stop_lead_s=getattr(ctrl, "STOP_LEAD_S", None),
+        creep_duty=getattr(ctrl, "CREEP_DUTY", None),
         stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
 
     camera = motors = channel = None
