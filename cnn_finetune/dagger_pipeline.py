@@ -17,7 +17,7 @@ def push(message):
     for cmd in [['git','add','cnn_finetune'],['git','commit','-m',message],['git','push','origin','cnn-finetune']]:subprocess.run(cmd,cwd=REPO,check=True)
 def dev(onnx,name):
     out=ROOT/'runs'/name
-    call([PY,'-m','cnn_finetune.evaluate','--arms','new','--seed','42','--dev','--onnx',str(onnx),'--out',str(out)],ROOT/'logs'/f'{name}.log')
+    if not (out/'matrix.json').exists():call([PY,'-m','cnn_finetune.evaluate','--arms','new','--seed','42','--dev','--onnx',str(onnx),'--out',str(out)],ROOT/'logs'/f'{name}.log')
     rows=json.loads((out/'matrix.json').read_text());events=[]
     for r in rows:r['extra']=extra(r['path'],r['direction']);events+=r['extra']['post_corner_recovery_s']
     score=[sum(r['summary']['verified_lap'] and r['summary']['min_margin_cm']>=0 for r in rows),min(r['summary']['min_margin_cm'] for r in rows),-float(np.median(events)) if events else -1e9]
@@ -39,7 +39,7 @@ if __name__=='__main__':
     note(f"seed42 direct_v1 개발 점수 {baseline['score']}. 이 시드로만 모델을 선정한다.");push('Record DAgger development baseline')
     previous=baseline['score']
     for iteration in [1,2,3]:
-        resource();data=ROOT/'data'/f'dagger_{iteration}';data.mkdir(parents=True,exist_ok=False)
+        resource();data=ROOT/'data'/f'dagger_{iteration}_v1';data.mkdir(parents=True,exist_ok=False)
         seeds=list(range(200+20*iteration,212+20*iteration));assert not set(seeds)&{41,42,104,109,118,123,106,111,126,129}
         note(f'DAgger 반복 {iteration}: beta={ {1:.5,2:.25,3:0}[iteration]}, 새 seed {seeds[0]}..{seeds[-1]}, 12000장. 제어36ms, 0.5초 정책 구간, DART 없음, 코너 에피소드 3/4.')
         def collect(seed):call([PY,'-m','cnn_finetune.dagger_collect','--seed',str(seed),'--out',str(data),'--model',str(current_onnx),'--iteration',str(iteration)],data/f'seed_{seed}.log')

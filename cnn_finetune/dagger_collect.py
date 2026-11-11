@@ -69,7 +69,7 @@ def collect(seed,out,model,iteration,count=1000):
         if distance>=35 and margin>=-3:
             X.append(np.rint(preprocess_bgr(image)*255).astype(np.uint8));Y.append(info['label'])
             meta.append(dict(t=t,episode=episode_count,corner_episode=corner_only,applied_pwm=applied.tolist(),seed=seed,pose=car.pose.tolist(),k=info['k'],mean=info['used_mean'],
-                             recovery=error>np.radians(5),iteration=iteration,policy=policy,beta=beta,margin=margin,junction_distance=distance,profile=profile,
+                             recovery=bool(error>np.radians(5)),iteration=iteration,policy=policy,beta=beta,margin=margin,junction_distance=distance,profile=profile,
                              direction=direction,road='inner' if inner else 'outer',vehicle=params.to_dict()))
         car.command(t+.036,pwm)
         for dt in [.02,.016]:
