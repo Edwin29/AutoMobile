@@ -54,6 +54,7 @@ def _worker(vendor, direction, pose, inq, outq):
     from drive_v4.core import Driver, load_config
     d = Driver(load_config(), direction=direction, pose=np.asarray(pose, float), clock="bench")
     outer = (d.route, d.map._curvature_at)
+    outers = {direction: d.route}
     outq.put(("ready", None))
     while True:
         msg = inq.get()
@@ -70,6 +71,12 @@ def _worker(vendor, direction, pose, inq, outq):
             d.body_cmds.append((float(t), v, om))
         elif kind == "route":
             set_route(d, msg[1], outer)
+        elif kind == "route_outer":                 # back on the loop, possibly the other way round
+            if msg[1] not in outers:
+                from drive_v4.route import with_lane_offsets
+                outers[msg[1]] = with_lane_offsets(d.track, d.track.outer_route(msg[1]))
+            d.route = d.map.route = outers[msg[1]]
+            d.map._curvature_at = outer[1]
         elif kind == "frame":
             _, image, capture = msg
             tic = time.perf_counter()

@@ -44,7 +44,18 @@ class HybridMission(HybridJunction):
         self.policy, self.intr = jp.JunctionPolicy(self.junctions, direction), jp.Interrupt()
         d = self.driver
         self.outer_route, self.outer_curv = d.route, d.map._curvature_at
+        # Both lap directions: a merge can turn the car the other way round the loop
+        # (e.g. cw, then 'left' at a T merge = ccw from then on). The map's outer route and
+        # the next merge default must follow the way the car really goes (field 2026-11-11).
+        from drive_v4.route import with_lane_offsets
+        other = "ccw" if direction == "cw" else "cw"
+        self.outer_routes = {direction: d.route, other: with_lane_offsets(d.track, d.track.outer_route(other))}
+        self.lap_dir = direction
         self.visit, self.decision, self.decisions, self.plan_cache = None, None, [], {}
+        self.direction_changes = []
+        self.start_route = self._inner_start_route(np.asarray(start_hint, float))
+        if self.start_route is not None:      # started on an inner road (field 16:47: the outer
+            self._set_route(self.start_route)  # route made the map relocalize onto the outer road)
         from .vehicle import PRESETS, Vehicle
         self.rim = Vehicle(PRESETS["field_estimate"], np.zeros(3)).footprint()    # measured body (all presets)
         from .junction import load_plan_cache                # load before driving, not at the first junction
@@ -91,15 +102,51 @@ class HybridMission(HybridJunction):
                     return j, arm
         return None
 
+    @staticmethod
+    def _inner_start_route(pose):
+        """Centre line of the inner road the start pose is on (None if on the outer loop)."""
+        x, y, yaw = pose
+        a = np.array([math.sin(yaw), math.cos(yaw)])
+        if abs(x) < 9.25 and abs(y) < 73.0 and abs(a[1]) > 0.7:          # inner vertical road
+            p0, a = np.array([0.0, y]), np.array([0.0, math.copysign(1.0, a[1])])
+        elif abs(y) < 10.5 and abs(x) < 74.0 and abs(a[0]) > 0.7:        # inner horizontal road
+            p0, a = np.array([x, 0.0]), np.array([math.copysign(1.0, a[0]), 0.0])
+        else:
+            return None
+        return p0 + np.arange(-20.0, 130.0, 1.0)[:, None] * a
+
+    @staticmethod
+    def _lap_dir_of(xy, a):
+        """cw or ccw for travelling along the outer road at xy in direction a (map frame,
+        north up: cw goes east on the north road, south on the east road, west on the
+        south road, north on the west road)."""
+        x, y = xy
+        if abs(y) >= abs(x):
+            cw = np.array([1.0, 0.0]) if y > 0 else np.array([-1.0, 0.0])
+        else:
+            cw = np.array([0.0, -1.0]) if x > 0 else np.array([0.0, 1.0])
+        return "cw" if float(cw @ a) > 0 else "ccw"
+
+    def use_map_process(self, pose):
+        super().use_map_process(pose)
+        if self.start_route is not None:
+            self.worker.send(("route", np.asarray(self.start_route, float)))
+
     def _road_after(self, j, exit_arm):
         """Route for the road after the junction: the outer loop again, or an inner road line."""
         d = self.driver
         on_outer = j != "center" and self.policy.kind(j, exit_arm) == "outer_T"   # not the T's inner arm
         if on_outer:
-            d.route = d.map.route = self.outer_route
+            new_dir = self._lap_dir_of(self.junctions[j]["xy"], np.asarray(self.ARMS[exit_arm]))
+            if new_dir != self.lap_dir:
+                self.direction_changes.append(dict(t=self.last_done, junction=j, exit_arm=exit_arm,
+                                                   old=self.lap_dir, new=new_dir))
+                self.lap_dir = new_dir
+                self.policy.lap_direction = new_dir                  # merge defaults follow it
+            d.route = d.map.route = self.outer_routes[new_dir]
             d.map._curvature_at = self.outer_curv
             if self.worker is not None:
-                self.worker.send(("route", None))
+                self.worker.send(("route_outer", new_dir))
         else:
             c, a = np.asarray(self.junctions[j]["xy"], float), np.asarray(self.ARMS[exit_arm])
             self._set_route(c + np.arange(0.0, self.INNER_ROUTE_CM, 1.0)[:, None] * a)
@@ -153,7 +200,7 @@ class HybridMission(HybridJunction):
 
     def _state(self):
         dec = self.decision
-        return dict(active=self.active, visit=self.visit, held=self.intr.held,
+        return dict(active=self.active, visit=self.visit, held=self.intr.held, lap=self.lap_dir,
                     last=None if dec is None else f"{dec.junction}:{dec.came_from}->{dec.move}({dec.source})",
                     queue=[c["move"] for c in self.policy.queue])
 

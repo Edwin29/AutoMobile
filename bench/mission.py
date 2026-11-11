@@ -93,7 +93,8 @@ class Orchestrator:
                     cw = np.array([x0, y0], float)
                     if abs(cw @ np.array([arm[1], -arm[0]])) < 1 and cw @ arm > 0:        # the crosswalk on that arm
                         ahead = float((cw - front) @ h) - 3.0                            # near edge (stripes +-3 cm)
-                        if 0 < ahead <= e["trigger_cm"] and h @ -arm > 0.8:
+                        across = abs(float((cw - front) @ np.array([h[1], -h[0]])))      # same road, not beside it
+                        if 0 < ahead <= e["trigger_cm"] and across < 12 and h @ -arm > 0.8:
                             e["done"], e["edge_xy"] = True, (cw + 3.0 * arm).tolist()
                             self.pending.append((t + VISION_DELAY_S, "stop", None))
                             self.pending.append((t + VISION_DELAY_S + e["hold_s"], "resume", None))

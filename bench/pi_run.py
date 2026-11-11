@@ -326,6 +326,9 @@ def main():
     ap.add_argument("--creep-duty", type=float, help="split turn's short straight move duty (default 0.36)")
     ap.add_argument("--turn-duty", type=float, help="override the slow mean duty used near junctions (default 0.34)")
     ap.add_argument("--inline-map", action="store_true", help="v4 map in the control loop (default: own process)")
+    ap.add_argument("--script", help="scripted signs / lights from the car's map pose: a preset name "
+                                     "(see --list-scripts) or tokens, e.g. \"dir:south:E:right, red:S:4\"")
+    ap.add_argument("--list-scripts", action="store_true", help="show script presets and pink line indices")
     ap.add_argument("--max-seconds", type=float, default=600.0)
     ap.add_argument("--save-every", type=int, default=3, help="save every Nth upright frame (0 = none)")
     ap.add_argument("--cmd-port", type=int, default=8765)
@@ -333,6 +336,11 @@ def main():
     ap.add_argument("--probe-dir", default="/home/pi/straight30")
     ap.add_argument("--out", default=str(Path(__file__).resolve().parent.parent / "pi_runs"))
     args = ap.parse_args()
+    if args.list_scripts:
+        from .pi_script import describe
+        from .world import Track as _Track
+        print(describe(_Track().data))
+        return
     if args.drive and args.sim:
         ap.error("--drive and --sim are exclusive")
     os.environ.setdefault("BENCH_CNN_SPEED", "1.0")
@@ -386,6 +394,13 @@ def main():
         stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
 
     camera = motors = channel = saver = None
+    last_est = last_sxy = None
+    script = None
+    if args.script is not None:
+        from .pi_script import ScriptOrchestrator, parse
+        from .world import Track as _Track
+        script = ScriptOrchestrator(parse(args.script, args.direction), _Track().data)
+        print("script:", [{k: v for k, v in e.items() if k != "done"} for e in script.events], flush=True)
     started, count, decisions_sent = False, 0, 0
     lat_est = 0.03
     try:
@@ -435,9 +450,16 @@ def main():
                     for t_trip in motors.drain_trips():
                         ctrl.on_applied(t_trip, np.zeros(2))
                         events.send(t=now, type="watchdog_zero", at=t_trip)
-                for t_cmd, c in channel.drain():
+                incoming = channel.drain()
+                if script is not None:                          # scripted signs / lights from the map pose
+                    for kind, arg, reason in script.tick(now, last_est, last_sxy):
+                        if kind == "stop" and motors is not None:
+                            motors.hold(True)
+                        incoming.append((now, dict(kind=kind, arg=arg, reason=reason, command_id=None, source="script")))
+                for t_cmd, c in incoming:
                     kind, arg, reason = c["kind"], c["arg"], c["reason"]
-                    ack = dict(cmd=kind, reason=reason, command_id=c["command_id"], received=t_cmd)
+                    ack = dict(cmd=kind, reason=reason, command_id=c["command_id"], received=t_cmd,
+                               source=c.get("source", "udp"))
                     if kind == "quit":
                         stop.set("quit_command")
                     elif not has_api:
@@ -482,6 +504,7 @@ def main():
                     for dec in ctrl.decisions[decisions_sent:]:
                         events.send(t=write_at, type="junction_decision", decision=dec)
                     decisions_sent = len(ctrl.decisions)
+                last_est, last_sxy = info.get("est"), info.get("sxy")
                 rec = dict(index=count, capture=capture, write=write_at, step_ms=step_ms,
                            sensor_to_write_ms=(write_at - capture) * 1e3, pwm=np.asarray(pwm).tolist(),
                            applied=applied, **info)
@@ -516,6 +539,10 @@ def main():
         if camera is not None:
             camera.close()
         summary = dict(output=str(out), stop_reason=stop.reason or "loop_exit", frames=count, mode=mode,
+                       script=None if script is None else dict(spec=args.script, fired=script.log,
+                                                               not_fired=[{k: v for k, v in e.items() if k != "done"}
+                                                                          for e in script.events if not e["done"]]),
+                       direction_changes=getattr(ctrl, "direction_changes", None),
                        frames_saved=getattr(saver, "saved", 0), frames_dropped=getattr(saver, "dropped", 0),
                        decisions=getattr(ctrl, "decisions", None),
                        policy_log=getattr(getattr(ctrl, "policy", None), "log", None),
