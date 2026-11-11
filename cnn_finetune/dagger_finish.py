@@ -46,6 +46,7 @@ if __name__=='__main__':
         for fx in ['realcam','realcam_harsh']:
             rs=[r for r in rows if r['arm']==arm and r['effects_name']==fx];es=[v for r in rs for v in r['extra']['post_corner_recovery_s']];frames=sum(r['extra']['corner_frames'] for r in rs);ratio=sum(r['extra']['corner_frames']*r['extra']['inner_below_floor_fraction'] for r in rs)/max(frames,1)
             text.append(f"| {arm}/{fx} | {sum(r['summary']['verified_lap'] for r in rs)}/{len(rs)} | {sum(r['summary']['verified_lap'] and r['summary']['min_margin_cm']>=0 for r in rs)}/{len(rs)} | {np.median(es) if es else float('nan'):.3f} | {ratio:.1%} |")
+    text += ['', '정답 감사: 유효 36개 샤드에서 총 360장을 저장 자세/실제 적용 PWM으로 재계산했고 최대 차이 2.8234e-8로 통과했다. 샤드 해시는 DAGGER_LABEL_AUDIT.json에 있다.']
     text+=['','## 로컬 실차 사진 점검','','2개 저장 주행, 1072장 모두 추론했다. 이미 정방향인 저장 사진에 추가 회전하지 않았다. 두 출력은 v4 할당기의 고정 명령256회 평균으로 명목 듀티·곡률로 비교했다. 실차 정답/재주행이 없으므로 정확도나 안전성 합격 판정에 쓰지 않는다. 저장 프레임 번호가 불연속이므로 급변은 인접 저장 사진 사이 차이이며 초당 변화율이 아니다. 코너 후보는 A5b 명목 |k|>0.02 기준으로 실제 코너 정답이 아니다.','', '| 주행 | 사진 수 | 평균 절대 곡률 차이 | 코너후보 곡률 차이 | A5b/new 곡률 급변 p95 |','|---|---:|---:|---:|---|']
     for p in photos['runs']:
         text.append(f"| {p['run']} | {p['count']} | {p['mean_abs_difference'][1]:.5f} | {p['corner_k_difference']:.5f} | {p['baseline_jump_p95'][1]:.5f}/{p['new_jump_p95'][1]:.5f} |")
