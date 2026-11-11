@@ -31,7 +31,10 @@ class HybridJunction(HybridCNN):
     TRAVERSE_ARC_CM = 12.0
     EXIT_LEFT_CM, EXIT_HEADING_DEG = 18.0, 12.0
     SXY_EXIT, EXIT_FRAMES, SXY_HOLD, HOLD_MAX_S = 1.0, 3, 2.0, 1.0
-    BACK_HEADING_DEG, BACK_LATERAL_CM = 25.0, 6.0
+    # Exit revocation (arc turns only): field 2026-11-11 17:23 (cw, south T right pivot) the
+    # map put the car 6.4 cm off the exit line (its lateral bias is several cm) and took the
+    # drive back from the CNN; the pursuit then circled near the short route's end.
+    BACK_HEADING_DEG, BACK_LATERAL_CM = 40.0, 12.0
     ARC_FACTOR, ARC_MIN_MARGIN = 1.25, 0.5
     TURN_DUTY = 0.34
     PIVOT_DUTY, PIVOT_DONE_DEG, SETTLE_S, PIVOT_MIN_MARGIN = 0.40, 5.0, 0.3, 0.5
@@ -155,7 +158,12 @@ class HybridJunction(HybridCNN):
     def _pursue(self, pose, arc, info, mean):
         from drive_v3.geometry import to_body
         d, rt = self.driver, self.route
-        q = to_body(rt.sample(arc + self.LOOKAHEAD_CM), pose)[0]
+        target_s = arc + self.LOOKAHEAD_CM
+        target = rt.sample(target_s)
+        if target_s > rt.s[-1]:                 # past the open route's end: continue its last direction
+            u = rt.points[-1] - rt.points[-2]   # (a clipped target near the car made it circle)
+            target = target + (target_s - rt.s[-1]) * u / max(float(np.linalg.norm(u)), 1e-9)
+        q = to_body(target, pose)[0]
         k_route = float(2 * q[0] / max(float(q @ q), 1.0))
         v, om = d.motor.velocity(np.asarray(info["cnn_pwm"], float))
         k_cnn = om / max(v, 0.1)
@@ -261,7 +269,8 @@ class HybridJunction(HybridCNN):
                 reason += "+pose_gated"
         if was_traverse:
             self._apply(done_s, out)                                  # tell the map what was really sent
-        elif self.phase == "EXIT":
+        elif self.phase == "EXIT" and (self.choice or {}).get("kind") not in ("pivot", "split"):
+            # in-place turns hand the lane to the CNN for good: no revocation from the map
             head_err = abs(float(wrap3(pose[2] - rt.heading[i])))
             lateral = float(np.linalg.norm(rt.points[i] - pose[:2]))
             if sxy < self.SXY_EXIT and arc < rt.s[-1] - 5 and (
