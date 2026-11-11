@@ -10934,5 +10934,7 @@
       "winner": "dagger_i3_v2"
     }
   ],
-  "retries_used": 2
+  "retries_used": 2,
+  "selected": "dagger_i1_v2",
+  "selected_checkpoint": "D:\\autodrive_cnn\\checkpoints\\dagger_i1_v2"
 }

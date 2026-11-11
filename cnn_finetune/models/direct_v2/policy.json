@@ -1,0 +1,18 @@
+{
+  "selected": "dagger_i1_v2",
+  "development_seed": 42,
+  "development_score": [
+    8,
+    1.673575710701325,
+    -1.51200000000002
+  ],
+  "output": [
+    "mean_duty/0.66",
+    "left_positive_curvature/0.095"
+  ],
+  "curvature_cap": 0.085,
+  "required_mixer": "direct",
+  "preprocess": "rgb_bottom_half_yuv_blur3_200x66_chw_div255",
+  "sha256": "73bcc52551ff7c8f97a4b8a08db72364292eca59c16c0bbe0dc2959cbf7333f4",
+  "source_checkpoint": "D:\\autodrive_cnn\\checkpoints\\dagger_i1_v2"
+}
