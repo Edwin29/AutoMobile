@@ -161,7 +161,15 @@ class HybridCNN:
     """
     raw_camera = True
     MAP_EVERY = 3            # 30 fps camera -> map at 10 Hz
-    CNN_MIXER = "team"       # "team": the CNN's own duty mixer; "v4": through the v4 allocator;
+    # Env overrides so bench.run / bench.matrix can select them without new CLI options.
+    CNN_MIXER = __import__("os").environ.get("BENCH_CNN_MIXER", "team")
+    CNN_ONNX = __import__("os").environ.get("BENCH_CNN_ONNX")    # another policy.onnx, same I/O shape
+    # "direct" (cnn_finetune, 2026-11-11): the network's two outputs ARE [mean duty / DIRECT_DUTY,
+    # curvature / DIRECT_K] (angular + = left, as the team's), sent straight to the v4 allocator.
+    # The team mixer can express at most ~0.0554/cm in one command, then jumps to 0.095 (inner
+    # wheel 0); a teacher capped at 0.055 could not hold the outer corners.
+    DIRECT_DUTY, DIRECT_K, DIRECT_K_CAP = 0.66, 0.095, 0.085
+                             # "team": the CNN's own duty mixer; "v4": through the v4 allocator;
                              # "dither": outer wheel as the CNN asked, inner wheel 0 / floor alternately
     CNN_TOP = 0.66           # the team mixer's max duty (keep its speed range)
     MAP_LATENCY_S = 0.070    # v4 sensor->result median on the Pi (live 2026-11-10)
@@ -174,6 +182,10 @@ class HybridCNN:
         sys.path.insert(0, str(VENDOR_V4))
         from drive_v4.core import Driver, load_config
         self.cnn = CONTROLLERS["cnnA5b"](direction, start_hint, timing)
+        if self.CNN_ONNX:                  # same preprocessing, another network file
+            import cv2 as _cv2
+            self.cnn.net = _cv2.dnn.readNetFromONNX(np.frombuffer(Path(self.CNN_ONNX).read_bytes(), np.uint8))
+            self.cnn.source = f"policy {self.CNN_ONNX}"
         self.cnn.speed_scale = 1.0     # as in all hyb2 results; independent of BENCH_CNN_SPEED
         self.driver = Driver(load_config(), direction=direction, pose=np.asarray(start_hint, float), clock="bench")
         self.cfg = self.driver.cfg
@@ -213,6 +225,19 @@ class HybridCNN:
         v = float(speed.mean())
         raw = float(speed[0] - speed[1]) / c["track_cm"]
         k = raw * m.yaw_gain(raw) / max(v, 1e-6)
+        a.gain_left, a.gain_right, a.floor_raise = m.gain_left, m.gain_right, m.floor_raise
+        out, _ = a.mix(mean, k, self.CNN_TOP)
+        return np.asarray(out, float)
+
+    def _direct_cnn(self, cinfo):
+        """Outputs as [mean duty, curvature] (see DIRECT_*), realised by the v4 allocator."""
+        m, a = self.driver.motor, self.cnn_alloc
+        lin = float(cinfo.get("linear") or 0.0) / max(self.cnn.speed_scale, 1e-6)    # raw network output
+        ang = float(cinfo.get("angular") or 0.0) / max(self.cnn.speed_scale, 1e-6)
+        mean = self.DIRECT_DUTY * float(np.clip(lin, 0.0, 1.0))
+        if mean < 0.05:
+            return np.zeros(2)
+        k = float(np.clip(-ang * self.DIRECT_K, -self.DIRECT_K_CAP, self.DIRECT_K_CAP))   # bench: + = right
         a.gain_left, a.gain_right, a.floor_raise = m.gain_left, m.gain_right, m.floor_raise
         out, _ = a.mix(mean, k, self.CNN_TOP)
         return np.asarray(out, float)
@@ -284,6 +309,8 @@ class HybridCNN:
         pwm_team = np.asarray(pwm_cnn, float)
         if self.CNN_MIXER == "v4":
             pwm_cnn = self._remap_cnn(pwm_team)
+        elif self.CNN_MIXER == "direct":
+            pwm_cnn = self._direct_cnn(cinfo)
         elif self.CNN_MIXER == "dither":
             pwm_cnn = self._dither_cnn(pwm_team)
         t1 = time.perf_counter()
