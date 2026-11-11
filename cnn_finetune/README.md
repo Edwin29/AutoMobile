@@ -1,3 +1,5 @@
+> 현재 상태: direct 출력으로 3단계까지 완료했습니다. [최종 결과](results/DIRECT_FINAL_REPORT.md), [결정 기록](results/DECISIONS.md), [실행 안내](DIRECT_PIPELINE.md)를 먼저 읽으세요. 아래는 최초 계획을 보존한 내용이며 출력 정의는 HANDOFF.md 3-3이 우선합니다.
+
 # A5b 미세조정 계획 (A안) — 2026-11-11
 
 팀 CNN A5b를 우리 시뮬레이터(bench)에서 추가 학습해 코너링과 안정성을 보강한다. **계획 문서이며 아직 구현 전이다.** 진행하면서 이 폴더에 코드와 결과를 추가한다.
