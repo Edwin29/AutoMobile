@@ -1,0 +1,1639 @@
+{
+  "summary": {
+    "warm": {
+      "mean_right_minus_left": 0.1915557620426019,
+      "mean_ordered_fraction": 1.0
+    },
+    "bc": {
+      "mean_right_minus_left": 0.15231165827976334,
+      "mean_ordered_fraction": 1.0
+    },
+    "outcome": {
+      "mean_right_minus_left": 0.19028506179650626,
+      "mean_ordered_fraction": 1.0
+    }
+  },
+  "episodes": [
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.1846897006034851,
+      "max_abs_difference": 0.18874529004096985,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.14740365743637085,
+      "max_abs_difference": 0.15159671008586884,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.18463361263275146,
+      "max_abs_difference": 0.1935364007949829,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.18445168435573578,
+      "max_abs_difference": 0.18864132463932037,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.14718806743621826,
+      "max_abs_difference": 0.15059120953083038,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.18480941653251648,
+      "max_abs_difference": 0.19409875571727753,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.1915392428636551,
+      "max_abs_difference": 0.19619086384773254,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.16249436140060425,
+      "max_abs_difference": 0.16653749346733093,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.21136556565761566,
+      "max_abs_difference": 0.22239558398723602,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.19142605364322662,
+      "max_abs_difference": 0.19485339522361755,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.15217408537864685,
+      "max_abs_difference": 0.16056649386882782,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.19592592120170593,
+      "max_abs_difference": 0.211469367146492,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.19116289913654327,
+      "max_abs_difference": 0.19476763904094696,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.1520295888185501,
+      "max_abs_difference": 0.16012628376483917,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.19600600004196167,
+      "max_abs_difference": 0.21157300472259521,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.19011889398097992,
+      "max_abs_difference": 0.1960255354642868,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.1634300947189331,
+      "max_abs_difference": 0.16766677796840668,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.23457108438014984,
+      "max_abs_difference": 0.2530819773674011,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.183591827750206,
+      "max_abs_difference": 0.18796347081661224,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1465596854686737,
+      "max_abs_difference": 0.15203098952770233,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.18476855754852295,
+      "max_abs_difference": 0.19281350076198578,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.1834878772497177,
+      "max_abs_difference": 0.18736563622951508,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.14634115993976593,
+      "max_abs_difference": 0.1515980064868927,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.18459774553775787,
+      "max_abs_difference": 0.19263485074043274,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.19079826772212982,
+      "max_abs_difference": 0.1957356035709381,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.1617010533809662,
+      "max_abs_difference": 0.16701330244541168,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.2110106348991394,
+      "max_abs_difference": 0.2197505384683609,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.19117729365825653,
+      "max_abs_difference": 0.19451838731765747,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.15162289142608643,
+      "max_abs_difference": 0.16032154858112335,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.19610966742038727,
+      "max_abs_difference": 0.21179722249507904,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.19085702300071716,
+      "max_abs_difference": 0.19457562267780304,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.15146677196025848,
+      "max_abs_difference": 0.1601114124059677,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.19640770554542542,
+      "max_abs_difference": 0.21175606548786163,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.18948252499103546,
+      "max_abs_difference": 0.19619405269622803,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.1625714898109436,
+      "max_abs_difference": 0.16622266173362732,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.2353246808052063,
+      "max_abs_difference": 0.25326085090637207,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.18489356338977814,
+      "max_abs_difference": 0.1891794204711914,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.14746873080730438,
+      "max_abs_difference": 0.15142837166786194,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.18430955708026886,
+      "max_abs_difference": 0.19320590794086456,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.1847769320011139,
+      "max_abs_difference": 0.1884562075138092,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.14725519716739655,
+      "max_abs_difference": 0.15047231316566467,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.18469610810279846,
+      "max_abs_difference": 0.1939540058374405,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.1918497383594513,
+      "max_abs_difference": 0.19600382447242737,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.16260604560375214,
+      "max_abs_difference": 0.16644486784934998,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.21121203899383545,
+      "max_abs_difference": 0.22231703996658325,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.19195136427879333,
+      "max_abs_difference": 0.19532115757465363,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.15220299363136292,
+      "max_abs_difference": 0.16058127582073212,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 62,
+      "mean_right_minus_left": 0.19568417966365814,
+      "max_abs_difference": 0.21116027235984802,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.19168630242347717,
+      "max_abs_difference": 0.19479647278785706,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.15204839408397675,
+      "max_abs_difference": 0.16035307943820953,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 62,
+      "mean_right_minus_left": 0.1956787109375,
+      "max_abs_difference": 0.2111886888742447,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.19078019261360168,
+      "max_abs_difference": 0.1965850442647934,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.16365957260131836,
+      "max_abs_difference": 0.1677355170249939,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 62,
+      "mean_right_minus_left": 0.2341770976781845,
+      "max_abs_difference": 0.25282955169677734,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.18627524375915527,
+      "max_abs_difference": 0.18985989689826965,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.14375707507133484,
+      "max_abs_difference": 0.15001767873764038,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1697804182767868,
+      "max_abs_difference": 0.1732281744480133,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.186355322599411,
+      "max_abs_difference": 0.18973186612129211,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.14377671480178833,
+      "max_abs_difference": 0.14866703748703003,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.16994494199752808,
+      "max_abs_difference": 0.1722596436738968,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.19901005923748016,
+      "max_abs_difference": 0.20467031002044678,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.16082634031772614,
+      "max_abs_difference": 0.16988025605678558,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.1917693316936493,
+      "max_abs_difference": 0.19724172353744507,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1932082325220108,
+      "max_abs_difference": 0.19795683026313782,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1472124457359314,
+      "max_abs_difference": 0.15494945645332336,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1734875589609146,
+      "max_abs_difference": 0.1785811483860016,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.19325245916843414,
+      "max_abs_difference": 0.19828517735004425,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.14708876609802246,
+      "max_abs_difference": 0.15448793768882751,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.17332042753696442,
+      "max_abs_difference": 0.17813412845134735,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.20771968364715576,
+      "max_abs_difference": 0.21118073165416718,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.16342100501060486,
+      "max_abs_difference": 0.17022189497947693,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.20108966529369354,
+      "max_abs_difference": 0.20911367237567902,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1853383481502533,
+      "max_abs_difference": 0.18811200559139252,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.14294008910655975,
+      "max_abs_difference": 0.15090186893939972,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1686059683561325,
+      "max_abs_difference": 0.17343837022781372,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.18531659245491028,
+      "max_abs_difference": 0.18829557299613953,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.14311690628528595,
+      "max_abs_difference": 0.14895983040332794,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.16898733377456665,
+      "max_abs_difference": 0.17202094197273254,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.19814243912696838,
+      "max_abs_difference": 0.2038438469171524,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.16019371151924133,
+      "max_abs_difference": 0.16988041996955872,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.1907433420419693,
+      "max_abs_difference": 0.19587989151477814,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1929376870393753,
+      "max_abs_difference": 0.1978757679462433,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.14613346755504608,
+      "max_abs_difference": 0.1530848741531372,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.17175960540771484,
+      "max_abs_difference": 0.17633460462093353,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.1931835114955902,
+      "max_abs_difference": 0.19792360067367554,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.1461990475654602,
+      "max_abs_difference": 0.15380510687828064,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.1716710329055786,
+      "max_abs_difference": 0.17708660662174225,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.20800767838954926,
+      "max_abs_difference": 0.21126332879066467,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.16295112669467926,
+      "max_abs_difference": 0.17094233632087708,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.19978231191635132,
+      "max_abs_difference": 0.21122142672538757,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.18658439815044403,
+      "max_abs_difference": 0.19083110988140106,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.1437157839536667,
+      "max_abs_difference": 0.15006688237190247,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.16958987712860107,
+      "max_abs_difference": 0.17305541038513184,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.18668007850646973,
+      "max_abs_difference": 0.18950194120407104,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.14370249211788177,
+      "max_abs_difference": 0.14858108758926392,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 63,
+      "mean_right_minus_left": 0.16976086795330048,
+      "max_abs_difference": 0.17188607156276703,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.19936156272888184,
+      "max_abs_difference": 0.2043287605047226,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.16087567806243896,
+      "max_abs_difference": 0.16973577439785004,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 63,
+      "mean_right_minus_left": 0.19165465235710144,
+      "max_abs_difference": 0.19745302200317383,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.19372127950191498,
+      "max_abs_difference": 0.19878661632537842,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.14687895774841309,
+      "max_abs_difference": 0.15456777811050415,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "frames": 63,
+      "mean_right_minus_left": 0.17310017347335815,
+      "max_abs_difference": 0.1781672090291977,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.19386500120162964,
+      "max_abs_difference": 0.19867923855781555,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.14682266116142273,
+      "max_abs_difference": 0.154267817735672,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "frames": 64,
+      "mean_right_minus_left": 0.17304468154907227,
+      "max_abs_difference": 0.17795827984809875,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "warm",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.20832647383213043,
+      "max_abs_difference": 0.21148478984832764,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.1633835881948471,
+      "max_abs_difference": 0.1700807362794876,
+      "ordered_fraction": 1.0
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "condition": "mild_light",
+      "frames": 64,
+      "mean_right_minus_left": 0.2008817493915558,
+      "max_abs_difference": 0.20906859636306763,
+      "ordered_fraction": 1.0
+    }
+  ],
+  "scope": "Teacher-forced approach 20-30cm before center. Same images and prior PWM; only instruction changed from episode start. Not counterfactual driving success."
+}

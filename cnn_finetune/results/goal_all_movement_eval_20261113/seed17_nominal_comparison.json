@@ -1,0 +1,9 @@
+{
+  "n": 84,
+  "initial_poses_exact": true,
+  "gains": 12,
+  "losses": 8,
+  "adopted": false,
+  "reason": "Severe departures0->21 outweigh clean-count23->27; failed safety gate",
+  "final_exam_used": false
+}

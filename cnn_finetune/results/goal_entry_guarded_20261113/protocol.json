@@ -1,0 +1,224 @@
+{
+  "source_sha256": "7872398a4df0dbc8c570f7473d4cc7fe252f525dfbcfccd2938b0353c6ca3b8d",
+  "parent_protocol_sha256": "ce38f3b4ca83e3651eab396a2726f6cbb39842943a94686ebf2cd4498874271e",
+  "parent_source_sha256": "2114fd8110a3653e45b2746f751061f3d255ecaf5a062a23b5a68a2c76f0f692",
+  "dependencies": {
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_E_right\\reference.npz": "b3879da1e2ac23a970147e6abc8969a3d8956a56814b1e1530aa6518610d4f35",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_N_right\\reference.npz": "f5bd8acdc5b35e082454b9ef177a94917b5d99d14246a9052ec21b003f50c65d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_S_right\\reference.npz": "cecd307dc607d34fab51405d461c1d9ed0b387e37ce069a90de6ec9b8e8670c5",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_W_right\\reference.npz": "9d7a3c23974ab518e3a4dab7f54adbad2e3b4adec067f288d8900907feb466ad",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_N_right\\reference.npz": "ffd8adf10588fbf68a2a7c4dac70586a46158c1813310a5ea444425e3135f6af",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_S_left\\reference.npz": "d5ccf54aab32aa1cad947528f4300d9fadd01b6a4c8df391b16580273d28eac9",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_left\\reference.npz": "8ec961dbe6ebd0dca9bd047b88bf9bf615375a47fc9fc93605118a5a7171f300",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_right\\reference.npz": "e446846159350e3cef20680d7af89aa4b3fa906f42f2e1066f9a835b3d0ad379",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_E_left\\reference.npz": "35598e4bc4bb55726de9c0d76d439a63c889fc902ff8e60de918920d366a718d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_S_left\\reference.npz": "3b321f3efa03115ed8da06e177c7e6eb7ec4a460ea1ee62e591adc2a24444a4c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_S_right\\reference.npz": "cf6b08707f5e56fb3cba489e05f6686b5de9c2bffb9a4fe8fa174025dde25c9c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_W_right\\reference.npz": "f29b49abec3b67fd7b68fd5579739c6dcb5466294201006336dd98d4436f785c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_E_right\\reference.npz": "38719d42796cc6f63a3ac3576cc93099e3741e4173735c41d12ae4af4efd8e33",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_N_left\\reference.npz": "1c61359b890d08de1704ef3ad7aebe26a0f629e376310eb885e0f0eee09579b7",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_N_right\\reference.npz": "3f5cdf7b31961bf836ea559ba804027fbb5ecf4e7b2a5957a9f5fe6d9a929c73",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_W_left\\reference.npz": "3c07ec90b0908d222f2f97908653480ab88032de0a44c8d78c144ce442ec7c67",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_E_left\\reference.npz": "ef8b89455cc9f5170033c06937379802c3a7139368c7f356082eb54ad9b1c597",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_E_right\\reference.npz": "79f040adca9f67394b8d7fa39841b24ea252d15b74973126608ef421744383bd",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_N_left\\reference.npz": "6815af25cd4eb0bc36cb34e2362d192b7d1a3464f5a4ba25648478f260677757",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_S_right\\reference.npz": "b1eda74e6840ea5a1110a988792b9ec8520fe7717f24db882e75d47d6238844d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_center_E_right.npz": "7193f039fe06990e9bc5d52722bc0af4a991819b368281ce8402220b832c69ab",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_center_N_right.npz": "14d86f1f4f085bfe6c8d10bf94d7719a571d9a4954236712a98d0a33b35ed177",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_center_S_right.npz": "1221a6dabe1c232762b6e9c6bf16aca9139f84e5b4ea1cc6797613f13d1bab04",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_center_W_right.npz": "24bbe25a65f9349bc1b681ad43857d190faec34f6b599120a3c2a17e2d788bd9",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_east_N_right.npz": "a940dd59296e7e5d926d48a5ccab7331e32ec846632fb3eec23df8f7c10b4670",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_east_N_straight.npz": "245b15fbcb216cb24f2f4038ea6fc1b2c46563a1be8431add33060549dc18148",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_east_S_left.npz": "80dcded8f171a7a88250a021374f4a67247a2307bf13f2f01b2c96bb0f24541f",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_east_S_straight.npz": "d5e55730a52c62db036ef0a0d020fb297e15c1f1a6c9a445b73e9f7bc2a10a88",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_east_W_left.npz": "29a98663e8c4890c808f97089df8d0553cfc4dfb7c9f1122b85df7c78fd8747c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_east_W_right.npz": "ac3f2807e15afed31276b9eb4c3b66867573a1e3dfeb6c4113801101f78a79ea",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_north_E_left.npz": "957a3fdcc17a52c353ad04ba7fa7693dd6506b3f12ce1f9cb3aa715c3fd679f6",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_north_E_straight.npz": "969b11617521572f92856241e625d688fc08a054326221215602076cd738dfc8",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_north_S_left.npz": "cda81a684736510093bda0a5fd1542090a19b128b544d30b800ea8cd15a276cd",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_north_S_right.npz": "96deefd6be9755f1a38a4d45071484de336c57efe101d6669a10cc2bd38eb24b",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_north_W_right.npz": "424190fd1492675f9dc11ad1b0fecb461a91fa4d759167596954465089db9336",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_north_W_straight.npz": "221a5788c22d56fdb4c1cbf3d783da37b3887afdb8fbc3c670176fb395cff49d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_south_E_right.npz": "90e20b9bd2b513838e5c9610157c13524ee13fb360704ab0b855c0332c514070",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_south_E_straight.npz": "858383046707735230014c993cce6ad61ff7c833e844d82281deb5711c0fa1b9",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_south_N_left.npz": "cad3a08ae28db840b04be4cdebdc37e94c847c77d6ee8a441f7e9ad61eb8e019",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_south_N_right.npz": "c405b5bccc8e87ef9b6378cdc0f05d00d600fde96bd983f683c08ee22dd9fc13",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_south_W_left.npz": "825c8da898a96f6456d761ced302045e017fed21ceefb96ab794fbc585010417",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_south_W_straight.npz": "2306e748e2045e70f3b391b92bd4d5c093818c626bc3ccf66fbdcadedeff466d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_west_E_left.npz": "89d07dd9bb5ac5bd5732d5f78706907c2ffc518f5067ccd1168eaa8ef2dd03ee",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_west_E_right.npz": "1bb079dc57189763a547e01412124d8c3fe3a51f97d28de0dcb97834b015597a",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_west_N_left.npz": "00d3338d64855b13edee338da60b2268fa517909064317ec7f7e89c90ad62016",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_west_N_straight.npz": "c5a7e03ef5b93c7438cbc0f6107819fa62e6a8653b1fcb30487b56f783f975c1",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_west_S_right.npz": "572468fb7e9e562f14a18d6cb69a45bbbb6ee36b2497996f5da257a49184eacb",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_validation_20261113\\baseline_reference_west_S_straight.npz": "3dee38b3c7bfb26dab166708328e8236ff0071c9d6a5c9372e17338a224658ed",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\disturb.py": "c5e2e90c03226df1c5e91d226da759356d56206d5d23a0f60b06e0cfc0ebd7ad",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\junction.py": "3e7bf344cf1054f0034e8a2d3ac054ccc9c7384bf1c9c5ffc7f0ae3d410f8604",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\realcam.py": "adbaa6a97b1c8627b9af481aad7bec12c9a5efbd48b94f92dbf2c2a70af990de",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\run.py": "6457ef9da143c89c9871ef5b660533a841819a6f91c329328015886dec33a18c",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\score.py": "716e72c2c8bfa050f81c34357db2dffab4bede6dd8c18d6d23ad9c85fb2c1aa7",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\vehicle.py": "03c071317a9c0a7f23b844cb6bf7458aa40723fbaeb8f2f574afa2a1ead99fd5",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world.py": "c367e1abdcb5f6cdb45588223ae28b119ad16b17ebec6997ccffe09d0d416cd9",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_clearance_paths.py": "8c4eefd08829a250eb9182e50ad3c7c574b55cbc557014d7e8663c9473ec43a3",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_clearance_validation.py": "a1d73c5c2f5fba09e75a2841ca01baee468fab983f130ac3dd1318474a167b88",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_continuous_clearance.py": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_development.py": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_exit_reference_probe.py": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_coverage.py": "df9dcc5d9cf3869279d39539388e59a5c44935ad829fbe25b28715b414e872fa",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_probe.py": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_validation.py": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_cornering.py": "09ebf8dd902064fb6113b8b1912f6e25146a3bb9e700b95a565f0155cb4d9e9a",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_feasibility.py": "ec4a0db679d6c5355f0e2ced161c9df703a3ce64c358654f82f00c0cad5239c9",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_learning.py": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_stage02.py": "f0f00d5bd9b7caae9cd5b236cecce709e3a8a0cad4ca72f19dcb9d4c447d4892",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\model.py": "29f2357cf6082a4b139dc96cba65b91bd3a2de23e3d0683e8f1f305ae379b163",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\results\\goal_clearance_paths_20261113\\geometry.json": "220a6c6c9e5f172f8df7a138439cf0d753b5736971634712701c404d3b8146cc"
+  },
+  "module_hashes": {
+    "goal_entry_forecast": "95e42edb5abafb66235dc72bb0aef9392b20c085f4eaacd7ac545581b0758cc2",
+    "goal_entry_robust": "4310d88ebf5354579a22703fe65db0f4b444e73bcafdfe3bde9adb99364eae70",
+    "goal_entry_recovery_search": "f65b936c22320663173ea9f26c2d690449d34bfaebc1fa6296959de91a0a1ced",
+    "goal_phase_disturbance": "d16bd2756afc951e4ca4ff2a50475870ee39c7888bc1b1d4b78361d6bc431f11",
+    "goal_boundary_teacher_v2": "447581b32bce9e0cdf8bc61f80b470b7ff994f88729c1cbb57e2750f1ae22efa"
+  },
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "seeds": [
+    6601,
+    6602
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "phases": [
+    "none",
+    "entry",
+    "middle",
+    "exit"
+  ],
+  "change": "If selected nonzero proposal is predicted unsafe in any duration or not moving in all durations, keep baseline command; never execute risk-minimizing unsafe fallback",
+  "development_root_derivation": {
+    "n": 240,
+    "clean": 173,
+    "clean_moving": 172,
+    "gains": 26,
+    "losses": 0
+  },
+  "provenance": "Rule derived exclusively from6501-6504 root results. Prospective6601/6602 reactive results were still running and not inspected when this rule was frozen.",
+  "checks": [
+    {
+      "root": 0,
+      "accepted": false,
+      "future_event_mutation_invariant": true
+    },
+    {
+      "root": 7,
+      "accepted": true,
+      "future_event_mutation_invariant": true
+    }
+  ],
+  "final_exam_used": false,
+  "new_training": false,
+  "scope": "offline teacher only, same causal trigger and14-command commitment; model safety remains approximate"
+}

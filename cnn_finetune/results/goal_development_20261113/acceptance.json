@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "status": "thresholds_locked_full_mission_manifest_pending",
+  "scope": "bench-only development; not physical deployment",
+  "thresholds": {
+    "normal_clean_mission": 0.99,
+    "mild_compound_clean_mission": 0.95,
+    "harsh_feasible_clean_mission": 0.8,
+    "mild_each_required_movement": 0.9,
+    "normal_mild_wrong_exit_count": 0,
+    "normal_mild_severe_count": 0,
+    "normal_mild_nonpivot_nonstop_turn_fraction": 0.95,
+    "min_training_initializations": 3,
+    "min_final_missions_per_condition": 100
+  },
+  "student_inputs": [
+    "camera history",
+    "previous sent PWM",
+    "direction command"
+  ],
+  "forbidden_student_inputs": [
+    "truth pose",
+    "truth velocity",
+    "junction ID",
+    "route progress",
+    "simulator parameters"
+  ],
+  "final_reserved_seed_range": [
+    900000,
+    999999
+  ],
+  "final_runs_executed": 0,
+  "safeguards": [
+    "No final seed used for training or selection",
+    "No removal of hard cases after observing candidate results",
+    "Freeze route manifest, feasible harsh envelope and time limits before final exam",
+    "Report full mission and each required movement, not four-movement pilot as completion",
+    "Report confidence intervals and training seed variation",
+    "Do not replace existing driving model or deploy to Pi"
+  ],
+  "smoothness_gate": "paired angular acceleration lower than legacy; no safety or travel-time regression; mandatory stops excluded",
+  "user_decision_gate": "Report before changing acceptance targets or fundamentally changing task/model input contract"
+}

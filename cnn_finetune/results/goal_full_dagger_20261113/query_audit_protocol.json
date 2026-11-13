@@ -1,0 +1,13 @@
+{
+  "roots_s": [
+    3.0,
+    5.0,
+    8.0,
+    12.0,
+    16.0
+  ],
+  "episodes": 72,
+  "source_sha256": "c4db8c42c96bdacd7f0d00c5e84383a9e4480b98677d1252b25ee28a10caff13",
+  "scope": "Offline teacher continuation from acting-student states; same realized future disturbances. Not a student success score.",
+  "parity_required": "full physics replay from saved proposed actions must match source episode"
+}

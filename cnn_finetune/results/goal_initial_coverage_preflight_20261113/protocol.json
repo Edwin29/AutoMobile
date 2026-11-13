@@ -1,0 +1,290 @@
+{
+  "source_sha256": "e2e2bea02d9cb47f351a0b82b43c3257c03ab99e41c4d978cf859f1a3f393d08",
+  "parent_protocol_sha256": "6c3551e42444e94bee449791653540804122d216939eed8c1856c93027efe948",
+  "bins": {
+    "negative_edge": [
+      [
+        -1.0,
+        -0.85
+      ],
+      [
+        -0.5,
+        0.5
+      ]
+    ],
+    "positive_edge": [
+      [
+        0.85,
+        1.0
+      ],
+      [
+        -0.5,
+        0.5
+      ]
+    ],
+    "negative_yaw": [
+      [
+        -0.2,
+        0.2
+      ],
+      [
+        -3.0,
+        -2.0
+      ]
+    ],
+    "positive_yaw": [
+      [
+        -0.2,
+        0.2
+      ],
+      [
+        2.0,
+        3.0
+      ]
+    ],
+    "negative_lateral_negative_yaw": [
+      [
+        -0.7,
+        -0.3
+      ],
+      [
+        -1.5,
+        -0.5
+      ]
+    ],
+    "negative_lateral_positive_yaw": [
+      [
+        -0.7,
+        -0.3
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "positive_lateral_negative_yaw": [
+      [
+        0.3,
+        0.7
+      ],
+      [
+        -1.5,
+        -0.5
+      ]
+    ],
+    "positive_lateral_positive_yaw": [
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ]
+  },
+  "selected": {
+    "positive_lateral_negative_yaw": {
+      "seed": 10001,
+      "lateral_draw_cm": 0.42961284632292984,
+      "along_draw_cm": 0.5178809324863898,
+      "yaw_draw_deg": -0.9690908915374052
+    },
+    "positive_edge": {
+      "seed": 10032,
+      "lateral_draw_cm": 0.9500907509211203,
+      "along_draw_cm": -1.8576251690393506,
+      "yaw_draw_deg": -0.43318179919090927
+    },
+    "negative_edge": {
+      "seed": 10035,
+      "lateral_draw_cm": -0.9388818147249727,
+      "along_draw_cm": -0.10935005359062533,
+      "yaw_draw_deg": -0.1859900411337545
+    },
+    "positive_yaw": {
+      "seed": 10037,
+      "lateral_draw_cm": 0.00905883456866885,
+      "along_draw_cm": -1.5429914530182889,
+      "yaw_draw_deg": 2.0207921432082685
+    },
+    "negative_yaw": {
+      "seed": 10053,
+      "lateral_draw_cm": -0.16373509621138216,
+      "along_draw_cm": 1.4846526175020558,
+      "yaw_draw_deg": -2.7204890912609834
+    },
+    "negative_lateral_positive_yaw": {
+      "seed": 10058,
+      "lateral_draw_cm": -0.5332172925876628,
+      "along_draw_cm": -1.7545556256070114,
+      "yaw_draw_deg": 0.74160109042269
+    },
+    "negative_lateral_negative_yaw": {
+      "seed": 10063,
+      "lateral_draw_cm": -0.5549798588667152,
+      "along_draw_cm": -1.5354624333917495,
+      "yaw_draw_deg": -0.5210374854440385
+    },
+    "positive_lateral_positive_yaw": {
+      "seed": 10068,
+      "lateral_draw_cm": 0.6688209431522356,
+      "along_draw_cm": -0.25785001899989,
+      "yaw_draw_deg": 0.9636597352856304
+    }
+  },
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "condition": "normal",
+  "expected": 672,
+  "selection": "First seed10001..11000 satisfying each initial-pose bin, before any teacher outcomes. All28moves x3cars retained; same legal-start projection as frozen earlier code, report every projection.",
+  "purpose": "Check whether expanded training starts cover both lateral signs and yaw signs before expensive visual rendering; not changing evaluation starts or goal criteria",
+  "gate": "Research source gate only: each movement needs at least one clean example with lateral<-.3, lateral>.3, yaw<-.5, yaw>.5. Report uncovered edge bins even when this coarse gate passes.",
+  "scope": "Privileged teacher normal-physics preflight; no visual model, illumination, compound disturbance or final acceptance evidence",
+  "final_exam_used": false
+}

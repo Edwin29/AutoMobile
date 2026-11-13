@@ -1,0 +1,36 @@
+{
+  "hashes": {
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_hidden_response_experiment.py": "cded1c5a57ba6d84031d7f0c0ac9561197745eed7ac848354a8d52ea26a98c1b",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_image_response.py": "484ff929d13f9ac3e7371742f52f6b56acc3fd0cfe9c6b618a0329479a60ac62",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world.py": "c367e1abdcb5f6cdb45588223ae28b119ad16b17ebec6997ccffe09d0d416cd9",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\vehicle.py": "03c071317a9c0a7f23b844cb6bf7458aa40723fbaeb8f2f574afa2a1ead99fd5",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\realcam.py": "adbaa6a97b1c8627b9af481aad7bec12c9a5efbd48b94f92dbf2c2a70af990de",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world\\camera_track.npz": "b569cb986d57a9be955f2035244323721b6a0d17d807bdfc6047be7145f7668a",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world\\track.json": "7063f64a93146548e1e0e1bc0621978bc8f869ee27bb8a3e594205e0d9309d7c",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\results\\goal_path_following_pilot_20261113\\vision_normal.json": "f065f0586ee309838edbc42b6bc090a0e13ede194dd985540a2dde557d726b56"
+  },
+  "purpose": "Image+actual PWM only response identification, before any large training or adaptive closed-loop control",
+  "boundaries": "Observer accepts raw images, capture timestamps, fixed camera calibration. Fitter accepts image increments and applied PWM timestamps only. Labels/physics isolated in scorer files.",
+  "natural_replay": "24 existing vision runs, first12s re-rendered15Hz from saved physics. No map estimates or pose labels used in identification. Exploratory existing development seeds22001/22002.",
+  "fresh_probe": "6 hidden configurations x2new seeds24001/24002 x typical/harsh_light=24; extra nominal/sluggish x2seeds shove=4. 12s fixed open-loop PWM excitation; diagnostic only, not a safe driving maneuver.",
+  "hidden": [
+    "nominal",
+    "low_gain",
+    "delay_only",
+    "lag_only",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "camera": "known fixed planar calibration; 15Hz; unknown actual exposure, fixed28ms midpoint approximation;70ms processing availability",
+  "fit": "72 delay/lag candidates; robust regularized fit of forward and yaw coefficients; snapshots at2,4,6s. Six-second snapshot frozen for later scored interval.",
+  "prediction": "6.2-12s held-time forced-response validation using subsequently issued actual PWM; no future PWM in parameter fitting. Not a future-command-free trajectory forecast.",
+  "metrics": "visual increment fidelity; accepted coverage; delay/tau/gain errors and plausible sets; frozen response RMSE in forward cm/s, yaw rad/s and sqrt(mean(v_error^2+(13*w_error)^2)); before first sustained turn time",
+  "decision_gate": {
+    "normal_probe": "At least10/12 individual combined RMSE improvements; >=25% median reduction; <=10% nominal regression; >=90% visual interval coverage. Delay+lag sum absolute error<=.075s in at least10/12.",
+    "natural": "At least20% median sluggish improvement, no >10% median nominal regression; all fit cutoffs before corner entry needed for before-turn claim.",
+    "nuisance": "Report all lighting/shove regressions and false effective-lag changes>.1s or gain changes>15%; no automatic adoption even if identification gate passes."
+  },
+  "current_goal": "paused",
+  "new_training": false,
+  "final_exam_used": false
+}

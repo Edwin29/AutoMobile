@@ -1,0 +1,170 @@
+[
+  {
+    "name": "natural_00",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_00",
+    "visual_frame_fraction": 0.5277777777777778,
+    "usable_intervals": 17,
+    "seconds": 6.6491965999885
+  },
+  {
+    "name": "natural_01",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_01",
+    "visual_frame_fraction": 0.55,
+    "usable_intervals": 24,
+    "seconds": 6.448279700009152
+  },
+  {
+    "name": "natural_02",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_02",
+    "visual_frame_fraction": 0.5166666666666667,
+    "usable_intervals": 20,
+    "seconds": 6.740516899997601
+  },
+  {
+    "name": "natural_03",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_03",
+    "visual_frame_fraction": 0.5111111111111111,
+    "usable_intervals": 14,
+    "seconds": 6.774189099989599
+  },
+  {
+    "name": "natural_04",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_04",
+    "visual_frame_fraction": 0.5833333333333334,
+    "usable_intervals": 17,
+    "seconds": 6.915566000010585
+  },
+  {
+    "name": "natural_05",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_05",
+    "visual_frame_fraction": 0.6166666666666667,
+    "usable_intervals": 20,
+    "seconds": 7.181410800010781
+  },
+  {
+    "name": "natural_06",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_06",
+    "visual_frame_fraction": 0.8722222222222222,
+    "usable_intervals": 41,
+    "seconds": 7.802437300008023
+  },
+  {
+    "name": "natural_07",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_07",
+    "visual_frame_fraction": 0.8555555555555555,
+    "usable_intervals": 48,
+    "seconds": 7.481836299994029
+  },
+  {
+    "name": "natural_08",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_08",
+    "visual_frame_fraction": 0.8333333333333334,
+    "usable_intervals": 47,
+    "seconds": 7.297430400009034
+  },
+  {
+    "name": "natural_09",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_09",
+    "visual_frame_fraction": 0.2388888888888889,
+    "usable_intervals": 9,
+    "seconds": 7.6941821000073105
+  },
+  {
+    "name": "natural_10",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_10",
+    "visual_frame_fraction": 0.23333333333333334,
+    "usable_intervals": 10,
+    "seconds": 7.296628800002509
+  },
+  {
+    "name": "natural_11",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_11",
+    "visual_frame_fraction": 0.2611111111111111,
+    "usable_intervals": 9,
+    "seconds": 7.18716490000952
+  },
+  {
+    "name": "natural_12",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_12",
+    "visual_frame_fraction": 0.5611111111111111,
+    "usable_intervals": 16,
+    "seconds": 6.415914700002759
+  },
+  {
+    "name": "natural_13",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_13",
+    "visual_frame_fraction": 0.6388888888888888,
+    "usable_intervals": 19,
+    "seconds": 7.09085779999441
+  },
+  {
+    "name": "natural_14",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_14",
+    "visual_frame_fraction": 0.6444444444444445,
+    "usable_intervals": 15,
+    "seconds": 6.2678000000014435
+  },
+  {
+    "name": "natural_15",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_15",
+    "visual_frame_fraction": 0.5722222222222222,
+    "usable_intervals": 21,
+    "seconds": 7.199528400000418
+  },
+  {
+    "name": "natural_16",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_16",
+    "visual_frame_fraction": 0.6388888888888888,
+    "usable_intervals": 17,
+    "seconds": 7.146255499988911
+  },
+  {
+    "name": "natural_17",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_17",
+    "visual_frame_fraction": 0.5888888888888889,
+    "usable_intervals": 16,
+    "seconds": 7.171939800013206
+  },
+  {
+    "name": "natural_18",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_18",
+    "visual_frame_fraction": 0.8833333333333333,
+    "usable_intervals": 40,
+    "seconds": 7.282896000004257
+  },
+  {
+    "name": "natural_19",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_19",
+    "visual_frame_fraction": 0.8611111111111112,
+    "usable_intervals": 47,
+    "seconds": 7.377398199998424
+  },
+  {
+    "name": "natural_20",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_20",
+    "visual_frame_fraction": 0.8777777777777778,
+    "usable_intervals": 45,
+    "seconds": 7.4147417999920435
+  },
+  {
+    "name": "natural_21",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_21",
+    "visual_frame_fraction": 0.18888888888888888,
+    "usable_intervals": 7,
+    "seconds": 6.83944049999991
+  },
+  {
+    "name": "natural_22",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_22",
+    "visual_frame_fraction": 0.17777777777777778,
+    "usable_intervals": 8,
+    "seconds": 7.453353299992159
+  },
+  {
+    "name": "natural_23",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\natural_23",
+    "visual_frame_fraction": 0.2111111111111111,
+    "usable_intervals": 8,
+    "seconds": 7.438550600010785
+  }
+]

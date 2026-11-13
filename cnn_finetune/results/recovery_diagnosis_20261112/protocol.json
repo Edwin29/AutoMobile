@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "name": "bright_sluggish_cw",
+      "condition": "mild_combined_bright_sluggish",
+      "seed": 613,
+      "direction": "cw",
+      "start": 94.0
+    },
+    {
+      "name": "bright_sluggish_ccw",
+      "condition": "mild_combined_bright_sluggish",
+      "seed": 613,
+      "direction": "ccw",
+      "start": 57.0
+    },
+    {
+      "name": "mild_combined_ccw",
+      "condition": "mild_combined",
+      "seed": 601,
+      "direction": "ccw",
+      "start": 87.0
+    }
+  ],
+  "modes": [
+    "student",
+    "teacher",
+    "teacher_burst",
+    "hold",
+    "slow",
+    "left",
+    "right"
+  ],
+  "burst_s": 0.72,
+  "horizon_s": 15.0,
+  "description": "Exact replay prefix, constant initial action candidates for .72s then frozen student continuation; teacher has truth pose but same allocator and guard.",
+  "commit": "d2392b774ffae642c0cb7eeace061a660dc0ff01",
+  "hashes": {
+    "cnn_finetune\\recovery_diagnosis.py": "d45e717486d98347a50cdec30d673475bf480a39b14c27fb1e8cd42bcc881044",
+    "cnn_finetune\\models\\direct_v2\\policy.onnx": "73bcc52551ff7c8f97a4b8a08db72364292eca59c16c0bbe0dc2959cbf7333f4",
+    "bench\\run.py": "6457ef9da143c89c9871ef5b660533a841819a6f91c329328015886dec33a18c",
+    "bench\\controllers.py": "35406a2a0af2c18fb9e10e2477be218c2855028f4831dbc108685425723489cb",
+    "bench\\vehicle.py": "03c071317a9c0a7f23b844cb6bf7458aa40723fbaeb8f2f574afa2a1ead99fd5"
+  }
+}

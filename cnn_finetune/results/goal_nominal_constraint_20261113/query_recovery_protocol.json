@@ -1,0 +1,668 @@
+{
+  "source_sha256": "414481c694067ed2018c02f43a14de23d58df7d8cf620167b3ac41237ac1d720",
+  "cases": [
+    {
+      "episode": 3,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.040841978046609384,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.010541210659654965,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 5.109333333333324,
+      "seconds_to_incursion": 0.10799999999999876,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.9910680413806219,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -8.53935922463991,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 12.237333333333243,
+      "seconds_to_incursion": 0.21599999999999753,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.4021490914683241,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -9.926964704566863,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 16.181333333333207,
+      "seconds_to_incursion": 0.16400000000000503,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 10,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.956491082248121,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -8.359889311666835,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 12.257333333333243,
+      "seconds_to_incursion": 0.2359999999999971,
+      "next_push_s": 15.08057413544239,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 18,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.07699484337309137,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.015258320087450983,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 8.313333333333288,
+      "seconds_to_incursion": 0.2879999999999967,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.9724097090990682,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -6.761529746605597,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 12.401333333333241,
+      "seconds_to_incursion": 0.37999999999999545,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.4012118937414826,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -10.086848949551577,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 16.325333333333212,
+      "seconds_to_incursion": 0.3080000000000105,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 22,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.0766480652249673,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -6.982025775327184,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 12.417333333333241,
+      "seconds_to_incursion": 0.39599999999999547,
+      "next_push_s": 15.08057413544239,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 30,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.3821757046371097,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3889409004001152,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 6.173333333333312,
+      "seconds_to_incursion": 1.1719999999999864,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": false,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 31,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.32373071108555784,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.54010996982697,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 6.101333333333312,
+      "seconds_to_incursion": 1.0999999999999872,
+      "next_push_s": 7.114412139807693,
+      "before_next_push": true,
+      "within_1s": false,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 32,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.5746970662926909,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.20768958035355922,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 6.713333333333305,
+      "seconds_to_incursion": 1.7119999999999802,
+      "next_push_s": 7.114412139807693,
+      "before_next_push": true,
+      "within_1s": false,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.5953208136382493,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.497872362401809,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 8.225333333333289,
+      "seconds_to_incursion": 0.1999999999999975,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.19171080428169418,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -9.15899675088136,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 16.181333333333207,
+      "seconds_to_incursion": 0.16400000000000503,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.7239295021493,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3982779274264061,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 8.441333333333287,
+      "seconds_to_incursion": 0.41599999999999504,
+      "next_push_s": 15.08057413544239,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.10574368007680413,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -4.23419699218169,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 12.309333333333242,
+      "seconds_to_incursion": 0.2879999999999967,
+      "next_push_s": 15.08057413544239,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.15761666270001484,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -10.527456932825277,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 16.181333333333207,
+      "seconds_to_incursion": 0.16400000000000503,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 35,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.28358299377586604,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -6.700305953333341,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 12.309333333333242,
+      "seconds_to_incursion": 0.2879999999999967,
+      "next_push_s": 15.08057413544239,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 41,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.07529797303499919,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.0487420769267235,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 3.0773333333333355,
+      "seconds_to_incursion": 0.05600000000000005,
+      "next_push_s": 7.4558475573306895,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 42,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.4046084074313754,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.48456404979190637,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 5.705333333333317,
+      "seconds_to_incursion": 0.7039999999999917,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 43,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.13939654463156792,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.8455643018544912,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 5.45333333333332,
+      "seconds_to_incursion": 0.45199999999999463,
+      "next_push_s": 7.4558475573306895,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 45,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.20209665453720227,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5494288568972365,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 5.577333333333319,
+      "seconds_to_incursion": 0.5759999999999934,
+      "next_push_s": null,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 47,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.3724292228632322,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.22758926922545442,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 6.045333333333313,
+      "seconds_to_incursion": 1.043999999999988,
+      "next_push_s": 7.4558475573306895,
+      "before_next_push": true,
+      "within_1s": false,
+      "within_2s": true,
+      "active_push_at_root": false
+    },
+    {
+      "episode": 58,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.14619330259496444,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3767672081759841,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true,
+      "first_incursion_s": 5.993333333333314,
+      "seconds_to_incursion": 0.9919999999999884,
+      "next_push_s": 7.4558475573306895,
+      "before_next_push": true,
+      "within_1s": true,
+      "within_2s": true,
+      "active_push_at_root": false
+    }
+  ],
+  "actions": [
+    {
+      "speed_scale": 0.0,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": 0.25
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": 0.25
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.25
+    },
+    {
+      "speed_scale": 1.2,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 1.2,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 1.2,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 1.2,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 1.2,
+      "diff_offset": 0.25
+    }
+  ],
+  "intervention_frames": 10,
+  "intervention_s": 0.36,
+  "continuation": "same corrected teacher",
+  "selection": "development roots onroad at takeover, teacher incurs before next push or no push exists",
+  "use": "offline constructive feasibility only, future used to score branches; not online controller",
+  "limits": "finite action grid, correlated roots, no impossibility inference"
+}

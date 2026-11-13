@@ -1,0 +1,2282 @@
+[
+  {
+    "condition": "normal_field_estimate",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_field_estimate",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_field_estimate",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_field_estimate",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_field_estimate",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_field_estimate",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_weak_left_turn",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_weak_left_turn",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_weak_left_turn",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_weak_left_turn",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_weak_left_turn",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_weak_left_turn",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_sluggish",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_sluggish",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_sluggish",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_sluggish",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_sluggish",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_sluggish",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_unequal_sides",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_unequal_sides",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_unequal_sides",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_unequal_sides",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_unequal_sides",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "normal_unequal_sides",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_push",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_push",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_push",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_push",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_push",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_push",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_power",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      }
+    ]
+  },
+  {
+    "condition": "mild_power",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_power",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      }
+    ]
+  },
+  {
+    "condition": "mild_power",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      }
+    ]
+  },
+  {
+    "condition": "mild_power",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      }
+    ]
+  },
+  {
+    "condition": "mild_power",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "strong_light",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "strong_light",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "strong_light",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "strong_light",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "strong_light",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "strong_light",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_vehicle",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_vehicle",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_vehicle",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_vehicle",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_vehicle",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_vehicle",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 4
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_field_estimate",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_field_estimate",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_field_estimate",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 4
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_field_estimate",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_field_estimate",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_field_estimate",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_sluggish",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_sluggish",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 6
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_sluggish",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_sluggish",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_sluggish",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_sluggish",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.1524448889920222e-14,
+        "push_events_started": 4,
+        "power_events_started": 3
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_unequal_sides",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 6
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_unequal_sides",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 3.552713678800501e-14,
+        "push_events_started": 5,
+        "power_events_started": 6
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_unequal_sides",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 8.215650382226158e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_unequal_sides",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 2.123301534595612e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_unequal_sides",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "mild_combined_bright_unequal_sides",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0.0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 5.329070518200751e-15,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "camera_shadow",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_shadow",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_shadow",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_shadow",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_shadow",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_shadow",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_exposure",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_exposure",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_exposure",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_exposure",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_exposure",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_exposure",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_blur",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_blur",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_blur",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_blur",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_blur",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_blur",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_optics",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_optics",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_optics",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_optics",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_optics",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "camera_optics",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_camera",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_camera",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_camera",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_camera",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_camera",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_camera",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_vehicle",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_vehicle",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_vehicle",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_vehicle",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_vehicle",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_vehicle",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "harsh_combined",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0.0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 9.059419880941277e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "harsh_combined",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.1316282072803006e-14,
+        "push_events_started": 3,
+        "power_events_started": 4
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 9.059419880941277e-14,
+        "push_events_started": 5,
+        "power_events_started": 6
+      }
+    ]
+  },
+  {
+    "condition": "harsh_combined",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.9976021664879227e-15,
+        "push_events_started": 4,
+        "power_events_started": 5
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 6.217248937900877e-15,
+        "push_events_started": 3,
+        "power_events_started": 3
+      }
+    ]
+  },
+  {
+    "condition": "harsh_combined",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 4.440892098500626e-15,
+        "push_events_started": 1,
+        "power_events_started": 1
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 4.440892098500626e-15,
+        "push_events_started": 1,
+        "power_events_started": 1
+      }
+    ]
+  },
+  {
+    "condition": "harsh_combined",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 6.838973831690964e-14,
+        "push_events_started": 3,
+        "power_events_started": 3
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 1.5987211554602254e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "harsh_combined",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 2.6645352591003757e-15,
+        "push_events_started": 1,
+        "power_events_started": 1
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 1.5987211554602254e-14,
+        "push_events_started": 5,
+        "power_events_started": 5
+      }
+    ]
+  },
+  {
+    "condition": "whiteout_3s",
+    "seed": 601,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "whiteout_3s",
+    "seed": 601,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "whiteout_3s",
+    "seed": 607,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "whiteout_3s",
+    "seed": 607,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "whiteout_3s",
+    "seed": 613,
+    "direction": "cw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  },
+  {
+    "condition": "whiteout_3s",
+    "seed": 613,
+    "direction": "ccw",
+    "checks": [
+      {
+        "arm": "a5b_v4",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      },
+      {
+        "arm": "direct_v2",
+        "push_integral_error": 0,
+        "push_events_started": 0,
+        "power_events_started": 0
+      }
+    ]
+  }
+]

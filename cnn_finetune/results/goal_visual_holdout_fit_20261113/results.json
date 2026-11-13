@@ -1,0 +1,2384 @@
+{
+  "summary": {
+    "reference": {
+      "all": {
+        "n": 84,
+        "episode_macro_mae": 0.0617051688688142,
+        "early_3s_macro_mae": 0.07392395660281181
+      },
+      "teacher_clean": {
+        "n": 70,
+        "episode_macro_mae": 0.06798598638602665,
+        "early_3s_macro_mae": 0.08508379158696958
+      }
+    },
+    "seed_17": {
+      "all": {
+        "n": 84,
+        "episode_macro_mae": 0.02339607375186114,
+        "early_3s_macro_mae": 0.04512893629171664
+      },
+      "teacher_clean": {
+        "n": 70,
+        "episode_macro_mae": 0.023886790060039076,
+        "early_3s_macro_mae": 0.049319909206990684
+      }
+    }
+  },
+  "rows": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_N_right_field_estimate",
+      "frames": 588,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.016835574060678482,
+          "p95_frame_mae": 0.0335551343858242,
+          "early_3s_mae": 0.010968243703246117,
+          "turn_mae": 0.018444571644067764
+        },
+        "seed_17": {
+          "mae": 0.02490314655005932,
+          "p95_frame_mae": 0.06386680006980895,
+          "early_3s_mae": 0.0319109745323658,
+          "turn_mae": 0.03494476526975632
+        }
+      },
+      "sequence_sha256": "d2849b7243239a9488d80ee2b80343978bc61659bd223f75fb723f0046ac2e03",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_N_right_sluggish",
+      "frames": 596,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.016808681190013885,
+          "p95_frame_mae": 0.04088839516043663,
+          "early_3s_mae": 0.020170703530311584,
+          "turn_mae": 0.024728020653128624
+        },
+        "seed_17": {
+          "mae": 0.028133543208241463,
+          "p95_frame_mae": 0.05997869186103344,
+          "early_3s_mae": 0.021169118583202362,
+          "turn_mae": 0.047998927533626556
+        }
+      },
+      "sequence_sha256": "1167d937e017b00d8553ba097a81460aaad8b9fca2f606368a342e49a55c8464",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_N_right_unequal_sides",
+      "frames": 590,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.01678263209760189,
+          "p95_frame_mae": 0.04111755713820457,
+          "early_3s_mae": 0.015553376637399197,
+          "turn_mae": 0.02098371833562851
+        },
+        "seed_17": {
+          "mae": 0.02755119279026985,
+          "p95_frame_mae": 0.059160870313644406,
+          "early_3s_mae": 0.027058972045779228,
+          "turn_mae": 0.022460859268903732
+        }
+      },
+      "sequence_sha256": "ca1af35517de795f7c5ef88475db68bff23482d42c24ca3df703cad044f496e2",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_E_right_field_estimate",
+      "frames": 826,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08221320807933807,
+          "p95_frame_mae": 0.21291731297969818,
+          "early_3s_mae": 0.21821878850460052,
+          "turn_mae": 0.09752686321735382
+        },
+        "seed_17": {
+          "mae": 0.03397974744439125,
+          "p95_frame_mae": 0.12964897602796555,
+          "early_3s_mae": 0.14553052186965942,
+          "turn_mae": 0.03245905414223671
+        }
+      },
+      "sequence_sha256": "0543bf7a7c2e198dd8b32a68710d8316837076ca31e174818b781866586b767c",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_E_right_sluggish",
+      "frames": 833,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07631020992994308,
+          "p95_frame_mae": 0.20721467733383175,
+          "early_3s_mae": 0.21368086338043213,
+          "turn_mae": 0.1052168682217598
+        },
+        "seed_17": {
+          "mae": 0.03396596759557724,
+          "p95_frame_mae": 0.12532630264759062,
+          "early_3s_mae": 0.15013796091079712,
+          "turn_mae": 0.037716343998909
+        }
+      },
+      "sequence_sha256": "e5001bd629d71ae6dc7efb56d83d2e637ad284c1d9563f9a052048f6642daae6",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_E_right_unequal_sides",
+      "frames": 827,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0713827908039093,
+          "p95_frame_mae": 0.20789805650711055,
+          "early_3s_mae": 0.21273790299892426,
+          "turn_mae": 0.08193972706794739
+        },
+        "seed_17": {
+          "mae": 0.030326148495078087,
+          "p95_frame_mae": 0.12466097176074967,
+          "early_3s_mae": 0.14092408120632172,
+          "turn_mae": 0.02364320680499077
+        }
+      },
+      "sequence_sha256": "4f08b814bf5beb27209b5fda97b72215aafe02299187b2194b86d7820302b512",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_S_right_field_estimate",
+      "frames": 588,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.01727420836687088,
+          "p95_frame_mae": 0.03841345384716987,
+          "early_3s_mae": 0.01010075118392706,
+          "turn_mae": 0.020697584375739098
+        },
+        "seed_17": {
+          "mae": 0.023473644629120827,
+          "p95_frame_mae": 0.06689064130187033,
+          "early_3s_mae": 0.035608138889074326,
+          "turn_mae": 0.0347929373383522
+        }
+      },
+      "sequence_sha256": "a20dac4b08daaef08f157ef4f8afd3dd6b84d4db83cf7906e1b0f1976dc8f29d",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_S_right_sluggish",
+      "frames": 596,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.01986447535455227,
+          "p95_frame_mae": 0.051367555744946,
+          "early_3s_mae": 0.020155979320406914,
+          "turn_mae": 0.035526055842638016
+        },
+        "seed_17": {
+          "mae": 0.026182180270552635,
+          "p95_frame_mae": 0.06505526229739189,
+          "early_3s_mae": 0.024224333465099335,
+          "turn_mae": 0.052061256021261215
+        }
+      },
+      "sequence_sha256": "d8712550b6fd19b1ad063c97772215cc86057c1bab81b45f29c23c39f1d2fcb2",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_S_right_unequal_sides",
+      "frames": 590,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.01854381524026394,
+          "p95_frame_mae": 0.04934306964278219,
+          "early_3s_mae": 0.01764095574617386,
+          "turn_mae": 0.022359531372785568
+        },
+        "seed_17": {
+          "mae": 0.024431632831692696,
+          "p95_frame_mae": 0.053704037517309185,
+          "early_3s_mae": 0.028464006260037422,
+          "turn_mae": 0.023996014147996902
+        }
+      },
+      "sequence_sha256": "ce1f687f9193b1cbb4ee8f7de74d7167c186424118953fbc20e9868a086bab68",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_W_right_field_estimate",
+      "frames": 826,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07928787916898727,
+          "p95_frame_mae": 0.21220997348427773,
+          "early_3s_mae": 0.21768727898597717,
+          "turn_mae": 0.0964328721165657
+        },
+        "seed_17": {
+          "mae": 0.03438684344291687,
+          "p95_frame_mae": 0.1442456617951393,
+          "early_3s_mae": 0.15603885054588318,
+          "turn_mae": 0.03505032882094383
+        }
+      },
+      "sequence_sha256": "88adccdf3136450f70ad227c316238d73ad2f661664e2728a50fa6d9b18166d0",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_W_right_sluggish",
+      "frames": 833,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07361245900392532,
+          "p95_frame_mae": 0.2092195510864257,
+          "early_3s_mae": 0.2130558341741562,
+          "turn_mae": 0.10423290729522705
+        },
+        "seed_17": {
+          "mae": 0.0351763479411602,
+          "p95_frame_mae": 0.13857437968254088,
+          "early_3s_mae": 0.15997858345508575,
+          "turn_mae": 0.040561527013778687
+        }
+      },
+      "sequence_sha256": "61232615b35e80a20bb93fc59a388779d8e51d7846007ffaf6de1ef33f3b7558",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\center_W_right_unequal_sides",
+      "frames": 827,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06921964883804321,
+          "p95_frame_mae": 0.20719462782144538,
+          "early_3s_mae": 0.21220961213111877,
+          "turn_mae": 0.08202337473630905
+        },
+        "seed_17": {
+          "mae": 0.03177725896239281,
+          "p95_frame_mae": 0.1392082035541533,
+          "early_3s_mae": 0.15139132738113403,
+          "turn_mae": 0.026228317990899086
+        }
+      },
+      "sequence_sha256": "2c8a3ccfde7a0a67dd1a8ac7f248c07e67fd101a0c4fa6be294b61a3738a44dd",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_E_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06651993840932846,
+          "p95_frame_mae": 0.09999056607484817,
+          "early_3s_mae": 0.054504312574863434,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.0232175812125206,
+          "p95_frame_mae": 0.03701210170984268,
+          "early_3s_mae": 0.022902924567461014,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "eed0c53c71c47be372a822476207319cc0036b5009d5cf8a0f741f4d00243c27",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_E_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0824873149394989,
+          "p95_frame_mae": 0.1064079999923706,
+          "early_3s_mae": 0.07076489925384521,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.017002763226628304,
+          "p95_frame_mae": 0.03954015672206879,
+          "early_3s_mae": 0.023395270109176636,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "cef3098c8934dc4681f6548877666653def21c030c4a13a2f6f2096ef5669161",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_E_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08284290879964828,
+          "p95_frame_mae": 0.09691761583089828,
+          "early_3s_mae": 0.07364443689584732,
+          "turn_mae": 0.07031509280204773
+        },
+        "seed_17": {
+          "mae": 0.016504408791661263,
+          "p95_frame_mae": 0.026064477860927582,
+          "early_3s_mae": 0.018403083086013794,
+          "turn_mae": 0.05803180858492851
+        }
+      },
+      "sequence_sha256": "567f48c17add173f90d01c4ddde2cafa292794123f3d514828bf3d8acb81ef4c",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_E_left_field_estimate",
+      "frames": 510,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08705811202526093,
+          "p95_frame_mae": 0.33079308867454466,
+          "early_3s_mae": 0.0765565037727356,
+          "turn_mae": 0.21949900686740875
+        },
+        "seed_17": {
+          "mae": 0.02604006975889206,
+          "p95_frame_mae": 0.05305159389972685,
+          "early_3s_mae": 0.027934931218624115,
+          "turn_mae": 0.03663463145494461
+        }
+      },
+      "sequence_sha256": "862f3bb858c6c4400c9d2dca7f6b2af403b294ce69df1bd0bd4a63638ee9a155",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_E_left_sluggish",
+      "frames": 513,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.10453923046588898,
+          "p95_frame_mae": 0.3448685228824615,
+          "early_3s_mae": 0.07502203434705734,
+          "turn_mae": 0.22995327413082123
+        },
+        "seed_17": {
+          "mae": 0.03353118151426315,
+          "p95_frame_mae": 0.09348524808883667,
+          "early_3s_mae": 0.051444973796606064,
+          "turn_mae": 0.058800436556339264
+        }
+      },
+      "sequence_sha256": "e6f2c9b18b7c677082fd26b0d0cbf09d5f2338225a17f31f6c588507741ec498",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_E_left_unequal_sides",
+      "frames": 509,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.10125385224819183,
+          "p95_frame_mae": 0.3267611622810362,
+          "early_3s_mae": 0.09202983975410461,
+          "turn_mae": 0.21728864312171936
+        },
+        "seed_17": {
+          "mae": 0.02357187308371067,
+          "p95_frame_mae": 0.0624750941991806,
+          "early_3s_mae": 0.04524899274110794,
+          "turn_mae": 0.035769201815128326
+        }
+      },
+      "sequence_sha256": "119eafd331502741306257f834eea7ec673d19a22389f04400ba76ae1b53e602",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_S_left_field_estimate",
+      "frames": 584,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.05231325700879097,
+          "p95_frame_mae": 0.12168405689299108,
+          "early_3s_mae": 0.019225895404815674,
+          "turn_mae": 0.0970413014292717
+        },
+        "seed_17": {
+          "mae": 0.02108958177268505,
+          "p95_frame_mae": 0.03721914738416672,
+          "early_3s_mae": 0.018788021057844162,
+          "turn_mae": 0.017529338598251343
+        }
+      },
+      "sequence_sha256": "9b8a569c7880c2f3cb2e346af1dbea236f652da66a880bed5222ae90c6a10ae6",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_S_left_sluggish",
+      "frames": 591,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0522138811647892,
+          "p95_frame_mae": 0.12457923591136932,
+          "early_3s_mae": 0.019293317571282387,
+          "turn_mae": 0.09800276905298233
+        },
+        "seed_17": {
+          "mae": 0.018465140834450722,
+          "p95_frame_mae": 0.042618632316589355,
+          "early_3s_mae": 0.018874824047088623,
+          "turn_mae": 0.0160408616065979
+        }
+      },
+      "sequence_sha256": "143a3123aaf2e86089d59d17b04857e3adef3434a537f751b6e8e22a368a1161",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_S_left_unequal_sides",
+      "frames": 585,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.05791875720024109,
+          "p95_frame_mae": 0.11911872923374175,
+          "early_3s_mae": 0.03199527785181999,
+          "turn_mae": 0.09840958565473557
+        },
+        "seed_17": {
+          "mae": 0.01688401959836483,
+          "p95_frame_mae": 0.03413911461830138,
+          "early_3s_mae": 0.02010364830493927,
+          "turn_mae": 0.018623201176524162
+        }
+      },
+      "sequence_sha256": "f160ecc0a35349ff0c92da9e2ad604a652e17194c189bca814092a09485968da",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_S_right_field_estimate",
+      "frames": 581,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.018951481208205223,
+          "p95_frame_mae": 0.03523001819849014,
+          "early_3s_mae": 0.017539555206894875,
+          "turn_mae": 0.02203478291630745
+        },
+        "seed_17": {
+          "mae": 0.022680161520838737,
+          "p95_frame_mae": 0.040931761264801025,
+          "early_3s_mae": 0.021509991958737373,
+          "turn_mae": 0.029715320095419884
+        }
+      },
+      "sequence_sha256": "4a301183cf76ecf466343f65513c6301e9ef1c54d4c239f05526478c64b12ebd",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_S_right_sluggish",
+      "frames": 590,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.018775366246700287,
+          "p95_frame_mae": 0.04206658564507958,
+          "early_3s_mae": 0.012908101081848145,
+          "turn_mae": 0.023666078224778175
+        },
+        "seed_17": {
+          "mae": 0.022545423358678818,
+          "p95_frame_mae": 0.044517329894006245,
+          "early_3s_mae": 0.02056153491139412,
+          "turn_mae": 0.030832896009087563
+        }
+      },
+      "sequence_sha256": "a9d47eaf9c4438c4b3315d30c0d2b74165c410f6e2a803f2707034a3c2822336",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_S_right_unequal_sides",
+      "frames": 581,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.021410824730992317,
+          "p95_frame_mae": 0.04380091279745102,
+          "early_3s_mae": 0.021075576543807983,
+          "turn_mae": 0.02693498693406582
+        },
+        "seed_17": {
+          "mae": 0.015210461802780628,
+          "p95_frame_mae": 0.033062271773815155,
+          "early_3s_mae": 0.02631714567542076,
+          "turn_mae": 0.013896970078349113
+        }
+      },
+      "sequence_sha256": "1a8ceab00c69a740bc61d66b57ea4aafc5cc28c318852a61d5268cd72271874f",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_W_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0685148686170578,
+          "p95_frame_mae": 0.08474441058933735,
+          "early_3s_mae": 0.06068772077560425,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.014738691039383411,
+          "p95_frame_mae": 0.02920742034912109,
+          "early_3s_mae": 0.023316439241170883,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "f69115e0a28ab678ca7426ca93ad542fceee647e9e6f0761c099ebe27099b52b",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_W_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08557114750146866,
+          "p95_frame_mae": 0.10248782485723495,
+          "early_3s_mae": 0.07638933509588242,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.013571228832006454,
+          "p95_frame_mae": 0.029447466135025024,
+          "early_3s_mae": 0.021247869357466698,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "37caabdb2064a408577af1e0740544c3dd5f6673749c0e7d45d949846668c316",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_W_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08593234419822693,
+          "p95_frame_mae": 0.10353992655873298,
+          "early_3s_mae": 0.07368453592061996,
+          "turn_mae": 0.08311878889799118
+        },
+        "seed_17": {
+          "mae": 0.014014706946909428,
+          "p95_frame_mae": 0.025547215342521662,
+          "early_3s_mae": 0.023517601191997528,
+          "turn_mae": 0.07818999141454697
+        }
+      },
+      "sequence_sha256": "50e9a86762a1628151fd606184d6a3f8bf0a0fc5c2a9b4fdc2eab1fb9ae81643",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_W_right_field_estimate",
+      "frames": 510,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06387394666671753,
+          "p95_frame_mae": 0.11625802963972091,
+          "early_3s_mae": 0.09440025687217712,
+          "turn_mae": 0.051884595304727554
+        },
+        "seed_17": {
+          "mae": 0.026256287470459938,
+          "p95_frame_mae": 0.05918408110737799,
+          "early_3s_mae": 0.022931838408112526,
+          "turn_mae": 0.03439074009656906
+        }
+      },
+      "sequence_sha256": "d3285b5e8b9aed085d1bac517956d652c8ecf0043b147f331c290ef06643dbdc",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_W_right_sluggish",
+      "frames": 514,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07973818480968475,
+          "p95_frame_mae": 0.12862379550933836,
+          "early_3s_mae": 0.10079886764287949,
+          "turn_mae": 0.06880305707454681
+        },
+        "seed_17": {
+          "mae": 0.030120858922600746,
+          "p95_frame_mae": 0.09157422930002207,
+          "early_3s_mae": 0.028774933889508247,
+          "turn_mae": 0.0561845563352108
+        }
+      },
+      "sequence_sha256": "1a6d2df153a0a4bcecf36fb7675b59fa00d77c29835ec4d2304172bb804b03dc",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\north_W_right_unequal_sides",
+      "frames": 510,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07697027176618576,
+          "p95_frame_mae": 0.10505072884261607,
+          "early_3s_mae": 0.08780070394277573,
+          "turn_mae": 0.06929932534694672
+        },
+        "seed_17": {
+          "mae": 0.022120840847492218,
+          "p95_frame_mae": 0.05612619221210465,
+          "early_3s_mae": 0.02547520585358143,
+          "turn_mae": 0.031295523047447205
+        }
+      },
+      "sequence_sha256": "937d8ec837d6817350a6353e06046548a349f613ea2da8d2f1bdf14a4b744f59",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_N_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06525008380413055,
+          "p95_frame_mae": 0.07500466965138909,
+          "early_3s_mae": 0.07001955062150955,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.022453969344496727,
+          "p95_frame_mae": 0.04019697234034538,
+          "early_3s_mae": 0.03776561841368675,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "48407e7ed50f2f129de7d0acb1e36ee90a169088f1aa4037b49a2e8e591beab9",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_N_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08221431076526642,
+          "p95_frame_mae": 0.09300760924816132,
+          "early_3s_mae": 0.082350954413414,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.023697681725025177,
+          "p95_frame_mae": 0.04670920968055725,
+          "early_3s_mae": 0.04711522161960602,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "27f20d4fe401d29607c6e00b7af444bf6aedb9e7d08c36d29179f72a64094ff6",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_N_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08234333992004395,
+          "p95_frame_mae": 0.09231451153755187,
+          "early_3s_mae": 0.0784761905670166,
+          "turn_mae": 0.07994402199983597
+        },
+        "seed_17": {
+          "mae": 0.01646413840353489,
+          "p95_frame_mae": 0.025156632065773007,
+          "early_3s_mae": 0.033078379929065704,
+          "turn_mae": 0.1661127656698227
+        }
+      },
+      "sequence_sha256": "5d46d7c583ca436f12d11c133092d7facd89eb2e5ef30b406bbd7c903d62ec09",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_N_right_field_estimate",
+      "frames": 501,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06175651773810387,
+          "p95_frame_mae": 0.11895716935396194,
+          "early_3s_mae": 0.10697120428085327,
+          "turn_mae": 0.04853466525673866
+        },
+        "seed_17": {
+          "mae": 0.026072582229971886,
+          "p95_frame_mae": 0.07613170146942139,
+          "early_3s_mae": 0.04440527781844139,
+          "turn_mae": 0.030482156202197075
+        }
+      },
+      "sequence_sha256": "c6d56cf51955dc9fd3ac7dd824fcff5dc80dcaff4fcc7c486b5cb748b9a037be",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_N_right_sluggish",
+      "frames": 506,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07494203001260757,
+          "p95_frame_mae": 0.1159344557672739,
+          "early_3s_mae": 0.10960979014635086,
+          "turn_mae": 0.06123915687203407
+        },
+        "seed_17": {
+          "mae": 0.03211073577404022,
+          "p95_frame_mae": 0.09174394235014915,
+          "early_3s_mae": 0.05944643169641495,
+          "turn_mae": 0.034259527921676636
+        }
+      },
+      "sequence_sha256": "3b4bc2f712bc34ad68bcda96a74d44aadb22d011b6b8a7d62bff049a474ab115",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_N_right_unequal_sides",
+      "frames": 500,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07365957647562027,
+          "p95_frame_mae": 0.10967126302421083,
+          "early_3s_mae": 0.09753762930631638,
+          "turn_mae": 0.06788017600774765
+        },
+        "seed_17": {
+          "mae": 0.025449639186263084,
+          "p95_frame_mae": 0.0708896599709987,
+          "early_3s_mae": 0.044138528406620026,
+          "turn_mae": 0.02549062669277191
+        }
+      },
+      "sequence_sha256": "dd33717a71777d37757fb2696e4ebf032a6464f64d300ce82af60b5fd3b3f37c",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_S_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07046353071928024,
+          "p95_frame_mae": 0.11800351701676838,
+          "early_3s_mae": 0.05889204144477844,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.022932730615139008,
+          "p95_frame_mae": 0.04539041593670844,
+          "early_3s_mae": 0.03242115303874016,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "bb92a443e3bb6a4df2955f9a720a1542795396a1d89dbf1c849156d4ae6d61b6",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_S_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08628341555595398,
+          "p95_frame_mae": 0.1230614185333252,
+          "early_3s_mae": 0.07443496584892273,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.019475992769002914,
+          "p95_frame_mae": 0.048823028802871704,
+          "early_3s_mae": 0.03841550648212433,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "f6a3b138235e2d2d2a48d30a65a0b0fece0c5d1e7390c1b772604e19d14f6cfc",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_S_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0868784561753273,
+          "p95_frame_mae": 0.10997636243700981,
+          "early_3s_mae": 0.07816014438867569,
+          "turn_mae": 0.07378105074167252
+        },
+        "seed_17": {
+          "mae": 0.01707070879638195,
+          "p95_frame_mae": 0.034184995293617244,
+          "early_3s_mae": 0.030430899932980537,
+          "turn_mae": 0.05804342031478882
+        }
+      },
+      "sequence_sha256": "693e96ffcdcf5ae1ce79a4edf21404e4cc28fc56e34cb89c50f8e8dfc728f796",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_S_left_field_estimate",
+      "frames": 598,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06770500540733337,
+          "p95_frame_mae": 0.29123733043670635,
+          "early_3s_mae": 0.03474360331892967,
+          "turn_mae": 0.17461355030536652
+        },
+        "seed_17": {
+          "mae": 0.026308637112379074,
+          "p95_frame_mae": 0.0558164220303297,
+          "early_3s_mae": 0.037166789174079895,
+          "turn_mae": 0.027730703353881836
+        }
+      },
+      "sequence_sha256": "1ff513d9f59ff6eca45b46fa3ac96635f171ab1ae916a2fd122ccca4af758d91",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_S_left_sluggish",
+      "frames": 605,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06578361243009567,
+          "p95_frame_mae": 0.32185227274894673,
+          "early_3s_mae": 0.03171319141983986,
+          "turn_mae": 0.1842820942401886
+        },
+        "seed_17": {
+          "mae": 0.027887631207704544,
+          "p95_frame_mae": 0.06967537999153131,
+          "early_3s_mae": 0.04707573726773262,
+          "turn_mae": 0.03533424437046051
+        }
+      },
+      "sequence_sha256": "2aede1e60d2c2d8ecce09f4f7037ef104e8d412ba5f797f00fcafb049a5070aa",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_S_left_unequal_sides",
+      "frames": 599,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06675697863101959,
+          "p95_frame_mae": 0.2980719745159153,
+          "early_3s_mae": 0.046863850206136703,
+          "turn_mae": 0.1857575923204422
+        },
+        "seed_17": {
+          "mae": 0.02379121631383896,
+          "p95_frame_mae": 0.04837820082902909,
+          "early_3s_mae": 0.03814218193292618,
+          "turn_mae": 0.02571057714521885
+        }
+      },
+      "sequence_sha256": "7f10b74231674b5b21a36260a692f8281cc2da23ca1709f12751aa431e7a0f70",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_W_left_field_estimate",
+      "frames": 577,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.041138309985399246,
+          "p95_frame_mae": 0.07952089011669124,
+          "early_3s_mae": 0.015971636399626732,
+          "turn_mae": 0.0658344104886055
+        },
+        "seed_17": {
+          "mae": 0.01914471574127674,
+          "p95_frame_mae": 0.04230648279190063,
+          "early_3s_mae": 0.019402731209993362,
+          "turn_mae": 0.01774190366268158
+        }
+      },
+      "sequence_sha256": "39a87daccc794495faa8c632f70bd22d84cd13382d19fd6ea6fb7b7b5f922ab7",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_W_left_sluggish",
+      "frames": 584,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.03915541619062424,
+          "p95_frame_mae": 0.08967093378305444,
+          "early_3s_mae": 0.014889134094119072,
+          "turn_mae": 0.06473331898450851
+        },
+        "seed_17": {
+          "mae": 0.021540384739637375,
+          "p95_frame_mae": 0.049430116266012195,
+          "early_3s_mae": 0.02396024763584137,
+          "turn_mae": 0.021261822432279587
+        }
+      },
+      "sequence_sha256": "965393ce09b4b045e337886e587bb7fd38a0508466dd3ab83932b7cac5c5497a",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_W_left_unequal_sides",
+      "frames": 577,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.04546983912587166,
+          "p95_frame_mae": 0.08156074881553647,
+          "early_3s_mae": 0.021894143894314766,
+          "turn_mae": 0.06685800105333328
+        },
+        "seed_17": {
+          "mae": 0.01764843985438347,
+          "p95_frame_mae": 0.03189349472522734,
+          "early_3s_mae": 0.01825070194900036,
+          "turn_mae": 0.015279596671462059
+        }
+      },
+      "sequence_sha256": "a13611021bac060eae8801fcf557590c9c72dfbf53e001b5b8ad0d55e65d1828",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_W_right_field_estimate",
+      "frames": 578,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.026333296671509743,
+          "p95_frame_mae": 0.056938677653670305,
+          "early_3s_mae": 0.024252526462078094,
+          "turn_mae": 0.023669619113206863
+        },
+        "seed_17": {
+          "mae": 0.019878700375556946,
+          "p95_frame_mae": 0.036438255757093425,
+          "early_3s_mae": 0.016632311046123505,
+          "turn_mae": 0.02519506774842739
+        }
+      },
+      "sequence_sha256": "8263777642a20b0de5ee129debe29e68b9cf55a1e3a9df8f35daef4e0a1ae193",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_W_right_sluggish",
+      "frames": 584,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.025178631767630577,
+          "p95_frame_mae": 0.05570550318807365,
+          "early_3s_mae": 0.019529307261109352,
+          "turn_mae": 0.027350371703505516
+        },
+        "seed_17": {
+          "mae": 0.019109241664409637,
+          "p95_frame_mae": 0.04198703169822693,
+          "early_3s_mae": 0.01585962250828743,
+          "turn_mae": 0.0246098842471838
+        }
+      },
+      "sequence_sha256": "f107e2aaf4efc13af959e190ddae2fcdf8d5cd85d76c6c25ce6e266a7f5d74e8",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\east_W_right_unequal_sides",
+      "frames": 578,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0301643218845129,
+          "p95_frame_mae": 0.058251129463315,
+          "early_3s_mae": 0.015134136192500591,
+          "turn_mae": 0.0373980849981308
+        },
+        "seed_17": {
+          "mae": 0.013860877603292465,
+          "p95_frame_mae": 0.027368424646556377,
+          "early_3s_mae": 0.014378096908330917,
+          "turn_mae": 0.011576506309211254
+        }
+      },
+      "sequence_sha256": "228787799e578bf1ea36ceb0498562b3ae9a35c7369d02348f564eaeed4d653d",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_N_left_field_estimate",
+      "frames": 581,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.05826778709888458,
+          "p95_frame_mae": 0.20047158002853394,
+          "early_3s_mae": 0.019668616354465485,
+          "turn_mae": 0.14259223639965057
+        },
+        "seed_17": {
+          "mae": 0.018226202577352524,
+          "p95_frame_mae": 0.035236623138189316,
+          "early_3s_mae": 0.016678499057888985,
+          "turn_mae": 0.015025593340396881
+        }
+      },
+      "sequence_sha256": "ddc990f874aff2eb3038e56f206b1e63f27a0e28fc6077a0209d142eeaa0c404",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_N_left_sluggish",
+      "frames": 587,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.05782502517104149,
+          "p95_frame_mae": 0.21325019747018684,
+          "early_3s_mae": 0.017735783010721207,
+          "turn_mae": 0.14112524688243866
+        },
+        "seed_17": {
+          "mae": 0.018164264038205147,
+          "p95_frame_mae": 0.045439616590738204,
+          "early_3s_mae": 0.023133093491196632,
+          "turn_mae": 0.01872863620519638
+        }
+      },
+      "sequence_sha256": "3e395dd3ad8e620ba0b65c2862dc772ba2d029f5dac982b5df1250079d42f92e",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_N_left_unequal_sides",
+      "frames": 581,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.06337591260671616,
+          "p95_frame_mae": 0.19708269834518433,
+          "early_3s_mae": 0.02957409806549549,
+          "turn_mae": 0.14210106432437897
+        },
+        "seed_17": {
+          "mae": 0.017726294696331024,
+          "p95_frame_mae": 0.04055865854024887,
+          "early_3s_mae": 0.02155102789402008,
+          "turn_mae": 0.018376797437667847
+        }
+      },
+      "sequence_sha256": "31131805fc156d9af8afb03e729cb7e04dc122bc790efc03478c78c66ac7e7cb",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_N_right_field_estimate",
+      "frames": 584,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.02497091144323349,
+          "p95_frame_mae": 0.0694967675954104,
+          "early_3s_mae": 0.018273619934916496,
+          "turn_mae": 0.03394708037376404
+        },
+        "seed_17": {
+          "mae": 0.02084028162062168,
+          "p95_frame_mae": 0.03513838276267053,
+          "early_3s_mae": 0.019633209332823753,
+          "turn_mae": 0.023217052221298218
+        }
+      },
+      "sequence_sha256": "99dc0aadd3b7049460b41e995c678317735d58536e10ae000f1e781ccd55769b",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_N_right_sluggish",
+      "frames": 591,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.01726246438920498,
+          "p95_frame_mae": 0.04441748559474945,
+          "early_3s_mae": 0.010761991143226624,
+          "turn_mae": 0.020208807662129402
+        },
+        "seed_17": {
+          "mae": 0.020572785288095474,
+          "p95_frame_mae": 0.04577043280005455,
+          "early_3s_mae": 0.02269977517426014,
+          "turn_mae": 0.02483443357050419
+        }
+      },
+      "sequence_sha256": "15cf55bc94843d827112a101dedb69c0256842eda37fe0f745a481b14ac966c5",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_N_right_unequal_sides",
+      "frames": 583,
+      "teacher_clean": false,
+      "scores": {
+        "reference": {
+          "mae": 0.021532146260142326,
+          "p95_frame_mae": 0.053309088945388765,
+          "early_3s_mae": 0.01846088469028473,
+          "turn_mae": 0.03049524873495102
+        },
+        "seed_17": {
+          "mae": 0.017060061916708946,
+          "p95_frame_mae": 0.04127715826034544,
+          "early_3s_mae": 0.027552058920264244,
+          "turn_mae": 0.014188401401042938
+        }
+      },
+      "sequence_sha256": "6dd228a3a50e26fc2722f3f46d98cb224f18473b5f0d003ddf6f7283c9848228",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_E_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.05402514338493347,
+          "p95_frame_mae": 0.07089541144669055,
+          "early_3s_mae": 0.05835500359535217,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.016392327845096588,
+          "p95_frame_mae": 0.03640105724334717,
+          "early_3s_mae": 0.02151648700237274,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "55675c51a3214dd38916c1c77a18bdb4c04eb627155d393544f47d26a89f926b",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_E_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06995444744825363,
+          "p95_frame_mae": 0.08781488239765167,
+          "early_3s_mae": 0.0747242197394371,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.018312735483050346,
+          "p95_frame_mae": 0.04018382728099823,
+          "early_3s_mae": 0.03008074127137661,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "9f86a7f630f3fd5112364cb4145108ac84c5dde8f8ed7fad021e88f902a06bfb",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_E_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07029116898775101,
+          "p95_frame_mae": 0.08767546415328979,
+          "early_3s_mae": 0.07262933254241943,
+          "turn_mae": 0.11232849210500717
+        },
+        "seed_17": {
+          "mae": 0.021125609055161476,
+          "p95_frame_mae": 0.03348297476768493,
+          "early_3s_mae": 0.025952091440558434,
+          "turn_mae": 0.07317212969064713
+        }
+      },
+      "sequence_sha256": "e6b5f61b272607266541f5ea1f8050ce1ae4fa170c8ae5b4bdc2c733cac5f418",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_E_right_field_estimate",
+      "frames": 825,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.09745779633522034,
+          "p95_frame_mae": 0.20926187634468077,
+          "early_3s_mae": 0.19652238488197327,
+          "turn_mae": 0.16404490172863007
+        },
+        "seed_17": {
+          "mae": 0.03484901413321495,
+          "p95_frame_mae": 0.16838271617889394,
+          "early_3s_mae": 0.14998197555541992,
+          "turn_mae": 0.0396018922328949
+        }
+      },
+      "sequence_sha256": "fd2a6d4c44b7afaca0b77c2cbb580cf572ae6d8c9879f7e8a420d701c4b0e147",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_E_right_sluggish",
+      "frames": 828,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0890946313738823,
+          "p95_frame_mae": 0.20300064459443093,
+          "early_3s_mae": 0.1939992606639862,
+          "turn_mae": 0.15488013625144958
+        },
+        "seed_17": {
+          "mae": 0.034163471311330795,
+          "p95_frame_mae": 0.16193032711744304,
+          "early_3s_mae": 0.15300340950489044,
+          "turn_mae": 0.04677676409482956
+        }
+      },
+      "sequence_sha256": "374124ebeabcfef81c56053c7cfed0df13e4bf16f0c1fcb2f3e370a0498d30a6",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_E_right_unequal_sides",
+      "frames": 824,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08660731464624405,
+          "p95_frame_mae": 0.19718683809041973,
+          "early_3s_mae": 0.190724179148674,
+          "turn_mae": 0.14716002345085144
+        },
+        "seed_17": {
+          "mae": 0.030194178223609924,
+          "p95_frame_mae": 0.16418402791023232,
+          "early_3s_mae": 0.14736351370811462,
+          "turn_mae": 0.031075725331902504
+        }
+      },
+      "sequence_sha256": "73d8492292c9a67126fc99422104ab98f6c90de95c627f444d5094f405f8adae",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_W_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.05390406399965286,
+          "p95_frame_mae": 0.07430036216974258,
+          "early_3s_mae": 0.052424851804971695,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.019939035177230835,
+          "p95_frame_mae": 0.031942997872829434,
+          "early_3s_mae": 0.019810739904642105,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "d615863aa0579a9ce5a485ed435d0869f0fc6c6a093d7c1aaf4f4a133b651e65",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_W_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06929896771907806,
+          "p95_frame_mae": 0.08377988636493683,
+          "early_3s_mae": 0.06828798353672028,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.016573486849665642,
+          "p95_frame_mae": 0.03597480058670044,
+          "early_3s_mae": 0.031302910298109055,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "cdbaf366e6342477d479478ff4568d6cb4db89c4addfa1cfeaef499023632272",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_W_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0701744556427002,
+          "p95_frame_mae": 0.08489791601896286,
+          "early_3s_mae": 0.07153637707233429,
+          "turn_mae": 0.07321477681398392
+        },
+        "seed_17": {
+          "mae": 0.018480435013771057,
+          "p95_frame_mae": 0.03493065834045409,
+          "early_3s_mae": 0.02380008064210415,
+          "turn_mae": 0.049950238317251205
+        }
+      },
+      "sequence_sha256": "bfcb75fc906581ba30678c24030b8153f2b11096ce1a4c0685656519a77124f4",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_W_left_field_estimate",
+      "frames": 669,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.11089711636304855,
+          "p95_frame_mae": 0.30399335622787493,
+          "early_3s_mae": 0.21314384043216705,
+          "turn_mae": 0.23922930657863617
+        },
+        "seed_17": {
+          "mae": 0.039513856172561646,
+          "p95_frame_mae": 0.13579186201095583,
+          "early_3s_mae": 0.12773360311985016,
+          "turn_mae": 0.039792582392692566
+        }
+      },
+      "sequence_sha256": "655e022a150b8552c9d8252ee06bd8bc6077ba15a77106e36769cace2c095979",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_W_left_sluggish",
+      "frames": 675,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.11378341168165207,
+          "p95_frame_mae": 0.319368866086006,
+          "early_3s_mae": 0.2096351981163025,
+          "turn_mae": 0.24209249019622803
+        },
+        "seed_17": {
+          "mae": 0.04298662394285202,
+          "p95_frame_mae": 0.13724969476461404,
+          "early_3s_mae": 0.12392468005418777,
+          "turn_mae": 0.047291915863752365
+        }
+      },
+      "sequence_sha256": "dca82d5ee247ea20c8537a10dc2ac155be0e030250286f1e7f86cecdd6ad3d18",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\south_W_left_unequal_sides",
+      "frames": 669,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.11705997586250305,
+          "p95_frame_mae": 0.30840167403221175,
+          "early_3s_mae": 0.20778457820415497,
+          "turn_mae": 0.24749593436717987
+        },
+        "seed_17": {
+          "mae": 0.04221058636903763,
+          "p95_frame_mae": 0.13185826838016512,
+          "early_3s_mae": 0.12303787469863892,
+          "turn_mae": 0.04457569867372513
+        }
+      },
+      "sequence_sha256": "f7d0327218098949f39d0f2782c9a2eda1541f0d536531c09fd5255914e02935",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_N_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06698812544345856,
+          "p95_frame_mae": 0.09048988558351992,
+          "early_3s_mae": 0.05378509312868118,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.0210536178201437,
+          "p95_frame_mae": 0.03465272784233093,
+          "early_3s_mae": 0.020814446732401848,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "c7747a0ff58fab78f908a1e3f272269211357cd2937e827c054a7ff70c9e5b69",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_N_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08301723748445511,
+          "p95_frame_mae": 0.10108532011508942,
+          "early_3s_mae": 0.06984130293130875,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.017370719462633133,
+          "p95_frame_mae": 0.03725308179855347,
+          "early_3s_mae": 0.02787521295249462,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "a1c58bf80b87f2929267b3ce8c0007729c19978fffd9d24e574f6f6acfc7d4b8",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_N_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08362174779176712,
+          "p95_frame_mae": 0.09772823601961135,
+          "early_3s_mae": 0.07294096797704697,
+          "turn_mae": 0.07116340845823288
+        },
+        "seed_17": {
+          "mae": 0.015350616537034512,
+          "p95_frame_mae": 0.033108831942081425,
+          "early_3s_mae": 0.019734801724553108,
+          "turn_mae": 0.05816543474793434
+        }
+      },
+      "sequence_sha256": "19d4cc91e810143eb092b890d12c766d656e55a37d04874eb2e36bd8fe96b788",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_N_left_field_estimate",
+      "frames": 598,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06747319549322128,
+          "p95_frame_mae": 0.2682471662759778,
+          "early_3s_mae": 0.043316587805747986,
+          "turn_mae": 0.16864490509033203
+        },
+        "seed_17": {
+          "mae": 0.026640646159648895,
+          "p95_frame_mae": 0.04396564066410063,
+          "early_3s_mae": 0.024939261376857758,
+          "turn_mae": 0.024185379967093468
+        }
+      },
+      "sequence_sha256": "a328521fe6ac447c0886aa1b873d1e42cf8ae050999e5082e9f97a6601dacf5d",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_N_left_sluggish",
+      "frames": 605,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06436746567487717,
+          "p95_frame_mae": 0.2971419572830197,
+          "early_3s_mae": 0.039116036146879196,
+          "turn_mae": 0.17595581710338593
+        },
+        "seed_17": {
+          "mae": 0.027057169005274773,
+          "p95_frame_mae": 0.0650023519992828,
+          "early_3s_mae": 0.03708472475409508,
+          "turn_mae": 0.036009736359119415
+        }
+      },
+      "sequence_sha256": "0e23f1131273347a88258144c4d373e43dea238e372753f967fc4b400f93eb90",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_N_left_unequal_sides",
+      "frames": 599,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06765782833099365,
+          "p95_frame_mae": 0.27551309466362034,
+          "early_3s_mae": 0.05548294633626938,
+          "turn_mae": 0.17880934476852417
+        },
+        "seed_17": {
+          "mae": 0.0215647891163826,
+          "p95_frame_mae": 0.04324784874916077,
+          "early_3s_mae": 0.028158437460660934,
+          "turn_mae": 0.02500464953482151
+        }
+      },
+      "sequence_sha256": "ccb2e1efac055d8e7ab15d98f496d2a5dd649fbad5bf80007dd48f7437c5d85d",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_E_left_field_estimate",
+      "frames": 577,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.03782106935977936,
+          "p95_frame_mae": 0.09973069727420782,
+          "early_3s_mae": 0.0161044429987669,
+          "turn_mae": 0.06909313052892685
+        },
+        "seed_17": {
+          "mae": 0.021000999957323074,
+          "p95_frame_mae": 0.04176208674907682,
+          "early_3s_mae": 0.023984020575881004,
+          "turn_mae": 0.01686120592057705
+        }
+      },
+      "sequence_sha256": "e4c6efdb98f842efe9e445da49aac6cfa1fba5f2c5cc26fb4722b3cae3456903",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_E_left_sluggish",
+      "frames": 584,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.03633325546979904,
+          "p95_frame_mae": 0.11370959319174323,
+          "early_3s_mae": 0.013364013284444809,
+          "turn_mae": 0.06813184916973114
+        },
+        "seed_17": {
+          "mae": 0.021884290501475334,
+          "p95_frame_mae": 0.0488344393670559,
+          "early_3s_mae": 0.03224273398518562,
+          "turn_mae": 0.022766197100281715
+        }
+      },
+      "sequence_sha256": "bb7b14a6ee48a23c79fa0e9618e8b0b609a08c46a5e34268838fece76022a106",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_E_left_unequal_sides",
+      "frames": 577,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.04230140522122383,
+          "p95_frame_mae": 0.09084894806146611,
+          "early_3s_mae": 0.021263793110847473,
+          "turn_mae": 0.07004642486572266
+        },
+        "seed_17": {
+          "mae": 0.01755794696509838,
+          "p95_frame_mae": 0.036199966818094245,
+          "early_3s_mae": 0.027750281617045403,
+          "turn_mae": 0.01482250913977623
+        }
+      },
+      "sequence_sha256": "c66b1b1cfa3fd4c601d2ccdebbea2d468c7fe7c52bf1d2dba33510338150b942",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_E_right_field_estimate",
+      "frames": 578,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.029441431164741516,
+          "p95_frame_mae": 0.06567127741873263,
+          "early_3s_mae": 0.02479587122797966,
+          "turn_mae": 0.028270594775676727
+        },
+        "seed_17": {
+          "mae": 0.021036958321928978,
+          "p95_frame_mae": 0.0369781345129013,
+          "early_3s_mae": 0.015367393381893635,
+          "turn_mae": 0.028337273746728897
+        }
+      },
+      "sequence_sha256": "4405e82ba4518ddc3b11d01cf5873d17d582b4ea424652ee3ca79d5f35b4594d",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_E_right_sluggish",
+      "frames": 584,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.025309422984719276,
+          "p95_frame_mae": 0.06305903159081937,
+          "early_3s_mae": 0.01985214091837406,
+          "turn_mae": 0.025678832083940506
+        },
+        "seed_17": {
+          "mae": 0.022246086969971657,
+          "p95_frame_mae": 0.04091002866625786,
+          "early_3s_mae": 0.022654807195067406,
+          "turn_mae": 0.027644576504826546
+        }
+      },
+      "sequence_sha256": "cb9e81842c3c8f4bb4e28a60bf4a1d4496df7719836775d5ec0eed14651e731b",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_E_right_unequal_sides",
+      "frames": 578,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.026817919686436653,
+          "p95_frame_mae": 0.06045471131801605,
+          "early_3s_mae": 0.014954018406569958,
+          "turn_mae": 0.032050423324108124
+        },
+        "seed_17": {
+          "mae": 0.014790492132306099,
+          "p95_frame_mae": 0.03040315955877304,
+          "early_3s_mae": 0.01883677951991558,
+          "turn_mae": 0.013924362137913704
+        }
+      },
+      "sequence_sha256": "2cf4e8a529f4ddf467cf8a13a92943a8461c9f9df363c6cf0aa36d987dd3dc11",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_S_straight_field_estimate",
+      "frames": 478,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06729291379451752,
+          "p95_frame_mae": 0.08881575427949427,
+          "early_3s_mae": 0.08279403299093246,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.019711021333932877,
+          "p95_frame_mae": 0.03579941689968109,
+          "early_3s_mae": 0.03407178446650505,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "9ad01323b186f5facc3f383c6d578c52e47cc525db9caaf43ea77a6ae65a3ca2",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_S_straight_sluggish",
+      "frames": 481,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.08320944756269455,
+          "p95_frame_mae": 0.09631690382957458,
+          "early_3s_mae": 0.09559661149978638,
+          "turn_mae": null
+        },
+        "seed_17": {
+          "mae": 0.022538205608725548,
+          "p95_frame_mae": 0.04054175317287445,
+          "early_3s_mae": 0.043801337480545044,
+          "turn_mae": null
+        }
+      },
+      "sequence_sha256": "7732a098842f0c2a5d35be4e182cdbba8d89ca4831d319997fad060ea1676d55",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_S_straight_unequal_sides",
+      "frames": 475,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0831361785531044,
+          "p95_frame_mae": 0.09588486105203628,
+          "early_3s_mae": 0.08937381207942963,
+          "turn_mae": 0.08376195281744003
+        },
+        "seed_17": {
+          "mae": 0.015644758939743042,
+          "p95_frame_mae": 0.024371637403964974,
+          "early_3s_mae": 0.03017754666507244,
+          "turn_mae": 0.16163524985313416
+        }
+      },
+      "sequence_sha256": "0a45819d7042ebbd19eb67d1683fe46c5e3f8f5a8870f9956202579b18aa6991",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_S_right_field_estimate",
+      "frames": 501,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.06359013170003891,
+          "p95_frame_mae": 0.12544798851013184,
+          "early_3s_mae": 0.11901462823152542,
+          "turn_mae": 0.04134276136755943
+        },
+        "seed_17": {
+          "mae": 0.030564233660697937,
+          "p95_frame_mae": 0.0784035176038742,
+          "early_3s_mae": 0.043645795434713364,
+          "turn_mae": 0.03283406049013138
+        }
+      },
+      "sequence_sha256": "ccade59e0cc24ab553f4405af1a307f96e88c4fa481a8fea2adcf6dd9d9f55ae",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "preset": "sluggish",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_S_right_sluggish",
+      "frames": 506,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.0777726024389267,
+          "p95_frame_mae": 0.12716346234083176,
+          "early_3s_mae": 0.1221940815448761,
+          "turn_mae": 0.05807299539446831
+        },
+        "seed_17": {
+          "mae": 0.029285641387104988,
+          "p95_frame_mae": 0.09082246199250221,
+          "early_3s_mae": 0.05655582994222641,
+          "turn_mae": 0.033633068203926086
+        }
+      },
+      "sequence_sha256": "c786569b11eafc5a1ab335dd7d778f687ade5b9a3e669917a81a7d875ef3d66d",
+      "no_training_use": true,
+      "physics_exact": true
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_visual_holdout_fit_20261113\\west_S_right_unequal_sides",
+      "frames": 500,
+      "teacher_clean": true,
+      "scores": {
+        "reference": {
+          "mae": 0.07480212301015854,
+          "p95_frame_mae": 0.11449566669762133,
+          "early_3s_mae": 0.10963431000709534,
+          "turn_mae": 0.06245722249150276
+        },
+        "seed_17": {
+          "mae": 0.025889793410897255,
+          "p95_frame_mae": 0.07341701686382292,
+          "early_3s_mae": 0.043108146637678146,
+          "turn_mae": 0.02510804869234562
+        }
+      },
+      "sequence_sha256": "c5ea459d731f61ea57057ac3f74bda040bbac412c53973f00b2035150a5b6938",
+      "no_training_use": true,
+      "physics_exact": true
+    }
+  ],
+  "no_training_use": true,
+  "final_exam_used": false
+}

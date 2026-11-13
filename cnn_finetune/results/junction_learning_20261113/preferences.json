@@ -1,0 +1,219 @@
+[
+  {
+    "root": "east_W_left_2001_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\right",
+    "prefix": 166,
+    "gap": 136.3997608463486
+  },
+  {
+    "root": "east_W_left_2001_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\right",
+    "prefix": 166,
+    "gap": 136.6151404243205
+  },
+  {
+    "root": "east_W_left_2001_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\right",
+    "prefix": 277,
+    "gap": 2.008235220641751
+  },
+  {
+    "root": "east_W_left_2002_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\left",
+    "prefix": 166,
+    "gap": 3.8493597078859665
+  },
+  {
+    "root": "east_W_left_2002_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\left",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\right",
+    "prefix": 277,
+    "gap": 2.776407697464581
+  },
+  {
+    "root": "east_W_left_2002_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\left",
+    "prefix": 166,
+    "gap": 3.8825916525163784
+  },
+  {
+    "root": "east_W_left_2002_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\left",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\right",
+    "prefix": 277,
+    "gap": 2.425442025358187
+  },
+  {
+    "root": "east_W_right_2001_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\left",
+    "prefix": 166,
+    "gap": 4.026850839946629
+  },
+  {
+    "root": "east_W_right_2001_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\left",
+    "prefix": 277,
+    "gap": 4.612514090668288
+  },
+  {
+    "root": "east_W_right_2001_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\left",
+    "prefix": 166,
+    "gap": 0.6544544065702809
+  },
+  {
+    "root": "east_W_right_2001_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\left",
+    "prefix": 277,
+    "gap": 2.979903593746098
+  },
+  {
+    "root": "east_W_right_2002_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\left",
+    "prefix": 166,
+    "gap": 20.360068613833835
+  },
+  {
+    "root": "east_W_right_2002_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\right",
+    "prefix": 277,
+    "gap": 20.002158885785573
+  },
+  {
+    "root": "east_W_right_2002_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\left",
+    "prefix": 166,
+    "gap": 20.36872738069541
+  },
+  {
+    "root": "east_W_right_2002_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\left",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\right",
+    "prefix": 277,
+    "gap": 19.966750472236154
+  },
+  {
+    "root": "south_N_right_2001_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\teacher",
+    "prefix": 166,
+    "gap": 7.0082812967772234
+  },
+  {
+    "root": "south_N_right_2001_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\left",
+    "prefix": 277,
+    "gap": 4.198881624073326
+  },
+  {
+    "root": "south_N_right_2001_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\left",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\right",
+    "prefix": 166,
+    "gap": 3.3759776987108054
+  },
+  {
+    "root": "south_N_right_2001_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\left",
+    "prefix": 277,
+    "gap": 3.815005145154199
+  },
+  {
+    "root": "south_N_right_2002_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\teacher",
+    "prefix": 166,
+    "gap": 1.112348744329584
+  },
+  {
+    "root": "south_N_right_2002_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\right",
+    "prefix": 277,
+    "gap": 20.002380913457003
+  },
+  {
+    "root": "south_N_right_2002_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\right",
+    "prefix": 166,
+    "gap": 20.012938316226162
+  },
+  {
+    "root": "south_N_right_2002_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\teacher",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\right",
+    "prefix": 277,
+    "gap": 20.00002365734506
+  },
+  {
+    "root": "center_N_right_2001_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\left",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\student",
+    "prefix": 166,
+    "gap": 1.0573210326674847
+  },
+  {
+    "root": "center_N_right_2001_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\left",
+    "prefix": 277,
+    "gap": 4.851078022857184
+  },
+  {
+    "root": "center_N_right_2001_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\teacher",
+    "prefix": 166,
+    "gap": 9.19067427555709
+  },
+  {
+    "root": "center_N_right_2001_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\left",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\student",
+    "prefix": 277,
+    "gap": 149.0770987673017
+  },
+  {
+    "root": "center_N_right_2002_mild_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\teacher",
+    "prefix": 166,
+    "gap": 0.6228254706254596
+  },
+  {
+    "root": "center_N_right_2002_mild_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\right",
+    "prefix": 277,
+    "gap": 2.1776126868312526
+  },
+  {
+    "root": "center_N_right_2002_mild_light_6.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\right",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\left",
+    "prefix": 166,
+    "gap": 0.7110513148480705
+  },
+  {
+    "root": "center_N_right_2002_mild_light_10.0",
+    "winner": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\student",
+    "loser": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\right",
+    "prefix": 277,
+    "gap": 0.9827589275909596
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "actions": [
+    {
+      "action": "forward",
+      "pwm": [
+        0.4,
+        0.4
+      ],
+      "actual_v": 6.719999999999999,
+      "actual_omega": 0.0,
+      "map_v": 6.4,
+      "map_omega": 0.0
+    },
+    {
+      "action": "inner_stop",
+      "pwm": [
+        0.5,
+        0
+      ],
+      "actual_v": 4.199999999999998,
+      "actual_omega": 0.3876923076923075,
+      "map_v": 4.0,
+      "map_omega": 0.38153846153846155
+    },
+    {
+      "action": "reverse",
+      "pwm": [
+        -0.4,
+        -0.4
+      ],
+      "actual_v": -6.719999999999999,
+      "actual_omega": 0.0,
+      "map_v": -6.4,
+      "map_omega": 0.0
+    },
+    {
+      "action": "pivot_right",
+      "pwm": [
+        0.4,
+        -0.4
+      ],
+      "actual_v": 0.0,
+      "actual_omega": 0.6203076923076921,
+      "map_v": 0.0,
+      "map_omega": 0.6104615384615385
+    },
+    {
+      "action": "pivot_left",
+      "pwm": [
+        -0.4,
+        0.4
+      ],
+      "actual_v": 0.0,
+      "actual_omega": -0.6203076923076921,
+      "map_v": 0.0,
+      "map_omega": -0.6203076923076923
+    },
+    {
+      "action": "low_turn",
+      "pwm": [
+        0.35,
+        0.3
+      ],
+      "actual_v": 5.459999999999998,
+      "actual_omega": 0.03876923076923076,
+      "map_v": 5.199999999999999,
+      "map_omega": 0.03815384615384615
+    },
+    {
+      "action": "stop",
+      "pwm": [
+        0,
+        0
+      ],
+      "actual_v": 0.0,
+      "actual_omega": 0.0,
+      "map_v": 0.0,
+      "map_omega": 0.0
+    }
+  ],
+  "delay_stop_resume": true,
+  "signed_dither_mean": [
+    0.09999999999999964,
+    -0.14999999999999916
+  ],
+  "dither_calls": 600,
+  "metric_nonrecovery": true,
+  "mandatory_stop_mask": true,
+  "cache_body_hash": true
+}

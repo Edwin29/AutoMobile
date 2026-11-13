@@ -1,0 +1,92 @@
+{
+  "footprint_v1": {
+    "normal": {
+      "n": 8,
+      "clean": 6,
+      "stable": 6,
+      "pauses": 3,
+      "median_time_s": 29.023333333333696,
+      "median_angular_acceleration": 0.3358264541481879
+    },
+    "mild": {
+      "n": 8,
+      "clean": 2,
+      "stable": 7,
+      "pauses": 6,
+      "median_time_s": 30.57133333333375,
+      "median_angular_acceleration": 0.456942925787453
+    }
+  },
+  "projection": {
+    "normal": {
+      "n": 8,
+      "clean": 6,
+      "stable": 7,
+      "pauses": 1,
+      "median_time_s": 20.67933333333338,
+      "median_angular_acceleration": 0.2927492446379282
+    },
+    "mild": {
+      "n": 8,
+      "clean": 2,
+      "stable": 8,
+      "pauses": 3,
+      "median_time_s": 19.93333333333335,
+      "median_angular_acceleration": 0.39094603858344873
+    }
+  },
+  "projection_observed_push": {
+    "normal": {
+      "n": 8,
+      "clean": 6,
+      "stable": 7,
+      "pauses": 1,
+      "median_time_s": 20.67933333333338,
+      "median_angular_acceleration": 0.2927492446379282
+    },
+    "mild": {
+      "n": 8,
+      "clean": 2,
+      "stable": 8,
+      "pauses": 3,
+      "median_time_s": 19.93333333333335,
+      "median_angular_acceleration": 0.4022392703615818
+    }
+  },
+  "committed": {
+    "normal": {
+      "n": 8,
+      "clean": 8,
+      "stable": 8,
+      "pauses": 0,
+      "median_time_s": 20.113333333333358,
+      "median_angular_acceleration": 0.2927492446379282
+    },
+    "mild": {
+      "n": 8,
+      "clean": 2,
+      "stable": 8,
+      "pauses": 3,
+      "median_time_s": 19.303333333333327,
+      "median_angular_acceleration": 0.41854796743899825
+    }
+  },
+  "held_motion": {
+    "normal": {
+      "n": 8,
+      "clean": 8,
+      "stable": 8,
+      "pauses": 0,
+      "median_time_s": 20.113333333333358,
+      "median_angular_acceleration": 0.2927492446379282
+    },
+    "mild": {
+      "n": 8,
+      "clean": 2,
+      "stable": 8,
+      "pauses": 3,
+      "median_time_s": 19.277333333333324,
+      "median_angular_acceleration": 0.3748567966678915
+    }
+  }
+}

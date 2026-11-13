@@ -1,0 +1,56 @@
+{
+  "selected": {
+    "end_cm": 35.0,
+    "lateral_gain": 0.08,
+    "heading_gain": 1.3,
+    "speed_scale": 1.0
+  },
+  "selected_candidate": 5,
+  "reason": "24/24 normal and mild clean on selection; lower median angular acceleration and no time regression",
+  "seeds": [
+    5201,
+    5202,
+    5203,
+    5204,
+    5205,
+    5206,
+    5207,
+    5208
+  ],
+  "conditions": [
+    "normal",
+    "mild",
+    "harsh"
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "keys": [
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ]
+  ],
+  "initial_rule": "Keep original draw if legal; otherwise project only initial axle lateral offset to road center before either arm; report all projections",
+  "harsh": "Existing unmodified harsh envelope; feasibility diagnostic, not acceptance envelope certification",
+  "source_sha256": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd",
+  "reference_probe_source_sha256": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b"
+}

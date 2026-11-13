@@ -1,0 +1,11 @@
+{
+  "prior_source_files_unchanged": 314,
+  "frozen_local_protocol_source_unchanged": true,
+  "selected_checkpoint_unchanged": true,
+  "unit_tests_passed": 2,
+  "fast_teacher_parity": "exact physics and commands over 18 seconds",
+  "raw_files": 4680,
+  "raw_bytes": 1797508555,
+  "goal_complete": false,
+  "final_exam_used": false
+}

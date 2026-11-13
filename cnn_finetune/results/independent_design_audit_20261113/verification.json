@@ -1,0 +1,11 @@
+{
+  "local_links": 11,
+  "missing_links": [],
+  "original_training_source_unchanged": true,
+  "artifact_audit_source_matches": true,
+  "below_floor_fraction": 0.6933219836117734,
+  "lower95_all100": 0.9704869503929601,
+  "lower95_all299": 0.9900308532071007,
+  "new_training_updates": 0,
+  "new_simulator_rollouts": 0
+}

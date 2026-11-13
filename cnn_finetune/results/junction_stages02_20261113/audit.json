@@ -1,0 +1,6 @@
+{
+  "runs": 1296,
+  "wrong_exit_detections": [],
+  "allocator_once": true,
+  "note": "Recovery recomputed from saved physics against candidate path, including all failed runs."
+}

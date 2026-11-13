@@ -1,0 +1,115 @@
+{
+  "nominal_low_mix": {
+    "all": {
+      "n": 72,
+      "clean": 50,
+      "stable": 65,
+      "outcomes": {
+        "stable_exit": 65,
+        "unstable_exit": 1,
+        "severe_departure": 6
+      }
+    },
+    "normal": {
+      "n": 24,
+      "clean": 19,
+      "stable": 22,
+      "outcomes": {
+        "stable_exit": 22,
+        "unstable_exit": 1,
+        "severe_departure": 1
+      }
+    },
+    "mild": {
+      "n": 24,
+      "clean": 15,
+      "stable": 21,
+      "outcomes": {
+        "stable_exit": 21,
+        "severe_departure": 3
+      }
+    },
+    "mild_light": {
+      "n": 24,
+      "clean": 16,
+      "stable": 22,
+      "outcomes": {
+        "stable_exit": 22,
+        "severe_departure": 2
+      }
+    }
+  },
+  "nominal_constrained": {
+    "all": {
+      "n": 72,
+      "clean": 38,
+      "stable": 72,
+      "outcomes": {
+        "stable_exit": 72
+      }
+    },
+    "normal": {
+      "n": 24,
+      "clean": 17,
+      "stable": 24,
+      "outcomes": {
+        "stable_exit": 24
+      }
+    },
+    "mild": {
+      "n": 24,
+      "clean": 12,
+      "stable": 24,
+      "outcomes": {
+        "stable_exit": 24
+      }
+    },
+    "mild_light": {
+      "n": 24,
+      "clean": 9,
+      "stable": 24,
+      "outcomes": {
+        "stable_exit": 24
+      }
+    }
+  },
+  "converged_bc": {
+    "all": {
+      "n": 72,
+      "clean": 37,
+      "stable": 69,
+      "outcomes": {
+        "stable_exit": 69,
+        "severe_departure": 2,
+        "wrong_exit": 1
+      }
+    },
+    "normal": {
+      "n": 24,
+      "clean": 15,
+      "stable": 23,
+      "outcomes": {
+        "stable_exit": 23,
+        "severe_departure": 1
+      }
+    },
+    "mild": {
+      "n": 24,
+      "clean": 12,
+      "stable": 23,
+      "outcomes": {
+        "stable_exit": 23,
+        "severe_departure": 1
+      }
+    },
+    "mild_light": {
+      "n": 24,
+      "clean": 10,
+      "stable": 23,
+      "outcomes": {
+        "stable_exit": 23,
+        "wrong_exit": 1
+      }
+    }
+  }
+}

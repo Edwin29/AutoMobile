@@ -1,0 +1,522 @@
+[
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "old_clearance_cm": 1.2491487536490222,
+    "target_clearance_cm": 1.1242338782841201,
+    "dense_clearance_cm": 1.1532192763787155,
+    "grid_clearance_cm": 1.155239131139572,
+    "geometry_accepted": true,
+    "parameters": [
+      10.461169453199824,
+      20.297157989401672,
+      4.383457732376424,
+      7.438106785864651,
+      0.08565242307222709,
+      1.05045418052929
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_N_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.19785676095105537,
+    "min_radius_cm": 5.054161380148005,
+    "curvature_variation": 0.41749483152836886,
+    "curvature_derivative_energy": 0.01099564649167921
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "old_clearance_cm": 1.2142954751167796,
+    "target_clearance_cm": 1.0928659276051016,
+    "dense_clearance_cm": 1.1144325558816703,
+    "grid_clearance_cm": 1.1166401714929233,
+    "geometry_accepted": true,
+    "parameters": [
+      28.347096383047834,
+      6.1451908762308705,
+      8.992161018349744,
+      6.985989211944134,
+      0.4232777662907643,
+      0.11918211981933835
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_E_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.3078444066615554,
+    "min_radius_cm": 3.2483942483951043,
+    "curvature_variation": 0.6869956073120149,
+    "curvature_derivative_energy": 0.03348791789341836
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "old_clearance_cm": 1.2491487536490222,
+    "target_clearance_cm": 1.1242338782841201,
+    "dense_clearance_cm": 1.1532192763787155,
+    "grid_clearance_cm": 1.1552391311395667,
+    "geometry_accepted": true,
+    "parameters": [
+      10.461169453199824,
+      20.297157989401672,
+      4.383457732376424,
+      7.438106785864651,
+      0.08565242307222709,
+      1.05045418052929
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_S_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.19785676095105537,
+    "min_radius_cm": 5.054161380148005,
+    "curvature_variation": 0.41749483152836886,
+    "curvature_derivative_energy": 0.01099564649167921
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "old_clearance_cm": 1.2142954751167778,
+    "target_clearance_cm": 1.0928659276051,
+    "dense_clearance_cm": 1.1144325558816703,
+    "grid_clearance_cm": 1.1166401714929233,
+    "geometry_accepted": true,
+    "parameters": [
+      28.347096383047834,
+      6.1451908762308705,
+      8.992161018349744,
+      6.985989211944134,
+      0.4232777662907643,
+      0.11918211981933835
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_W_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.3078444066615554,
+    "min_radius_cm": 3.2483942483951043,
+    "curvature_variation": 0.6869956073120149,
+    "curvature_derivative_energy": 0.03348791789341836
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "old_clearance_cm": 1.2499246724075164,
+    "target_clearance_cm": 1.1249322051667647,
+    "dense_clearance_cm": 1.1559842393804587,
+    "grid_clearance_cm": 1.156254639917762,
+    "geometry_accepted": true,
+    "parameters": [
+      16.774016412201927,
+      7.115798235310789,
+      8.063863308460496,
+      2.562752024792422,
+      1.733299916301723,
+      -0.08972474653761542
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_E_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.20756029475165141,
+    "min_radius_cm": 4.817877143586219,
+    "curvature_variation": 0.46514295065639055,
+    "curvature_derivative_energy": 0.01362257092065975
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "old_clearance_cm": 1.2499242980507876,
+    "target_clearance_cm": 1.124931868245709,
+    "dense_clearance_cm": 1.14664418316333,
+    "grid_clearance_cm": 1.147262851488211,
+    "geometry_accepted": true,
+    "parameters": [
+      13.606865984283553,
+      23.5664057721343,
+      6.613833183414757,
+      4.861311875171884,
+      -0.10078003805452651,
+      0.9102008333615021
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_S_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.1129567260405104,
+    "min_radius_cm": 8.852947806236555,
+    "curvature_variation": 0.24935354832031606,
+    "curvature_derivative_energy": 0.0026393252152118376
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "old_clearance_cm": 1.2499877977574236,
+    "target_clearance_cm": 1.1249890179816813,
+    "dense_clearance_cm": 1.1455559415611933,
+    "grid_clearance_cm": 1.1456046029168387,
+    "geometry_accepted": true,
+    "parameters": [
+      13.130918423890162,
+      21.49185269518953,
+      3.9532398892824787,
+      8.616001279002218,
+      0.10172834220252414,
+      -0.24458266335290757
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_S_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.10716885941646961,
+    "min_radius_cm": 9.331068795963326,
+    "curvature_variation": 0.22160683941424425,
+    "curvature_derivative_energy": 0.002804285020073051
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "old_clearance_cm": 1.2499968465540832,
+    "target_clearance_cm": 1.124997161898675,
+    "dense_clearance_cm": 1.1429101865137792,
+    "grid_clearance_cm": 1.1444847679966195,
+    "geometry_accepted": true,
+    "parameters": [
+      19.19807468867586,
+      6.879124836746055,
+      3.368369159417639,
+      5.071995633392384,
+      -1.197117557614416,
+      0.08863247134222796
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_W_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.2065607938117697,
+    "min_radius_cm": 4.841189760876203,
+    "curvature_variation": 0.48756816687242566,
+    "curvature_derivative_energy": 0.013316049237812827
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "old_clearance_cm": 2.0107089744589786,
+    "target_clearance_cm": 1.8096380770130807,
+    "dense_clearance_cm": 1.8287685878566986,
+    "grid_clearance_cm": 1.8291693710265573,
+    "geometry_accepted": true,
+    "parameters": [
+      21.87551929213951,
+      10.202596050874993,
+      4.156323451178669,
+      6.6010771899035925,
+      -0.8518016695127082,
+      0.6551719407594203
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_N_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.1548945171053836,
+    "min_radius_cm": 6.456006440303131,
+    "curvature_variation": 0.3754761539931167,
+    "curvature_derivative_energy": 0.005404807450031192
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "old_clearance_cm": 2.127195705243224,
+    "target_clearance_cm": 1.9144761347189019,
+    "dense_clearance_cm": 1.936053415312747,
+    "grid_clearance_cm": 1.9377801141333695,
+    "geometry_accepted": true,
+    "parameters": [
+      23.14199068131284,
+      9.18757283262235,
+      4.8557302875643105,
+      6.15536456899231,
+      0.37583727920597587,
+      -0.5436602459070854
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_S_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.17875029784730426,
+    "min_radius_cm": 5.594396272582665,
+    "curvature_variation": 0.4050220016519845,
+    "curvature_derivative_energy": 0.007958248581992528
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "old_clearance_cm": 2.499995337167121,
+    "target_clearance_cm": 2.249995803450409,
+    "dense_clearance_cm": 2.272686930855002,
+    "grid_clearance_cm": 2.2727632074590502,
+    "geometry_accepted": true,
+    "parameters": [
+      14.12600215059075,
+      24.171851328735524,
+      6.478681844469067,
+      5.0744564551729425,
+      -0.22697705531897627,
+      -0.4399590254804544
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.12178247351988541,
+    "min_radius_cm": 8.211362202597352,
+    "curvature_variation": 0.25975013786122225,
+    "curvature_derivative_energy": 0.0031493463440480356
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "old_clearance_cm": 2.499702067929242,
+    "target_clearance_cm": 2.249731861136318,
+    "dense_clearance_cm": 2.269071422509823,
+    "grid_clearance_cm": 2.269817392250424,
+    "geometry_accepted": true,
+    "parameters": [
+      14.0929910969742,
+      24.98312427949458,
+      6.568290305776798,
+      5.000958802033989,
+      0.2252248245715922,
+      0.3117172879840382
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.12178563859927813,
+    "min_radius_cm": 8.211148798015396,
+    "curvature_variation": 0.2570033717029213,
+    "curvature_derivative_energy": 0.003202961767340441
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "old_clearance_cm": 1.2499105165349853,
+    "target_clearance_cm": 1.1249194648814869,
+    "dense_clearance_cm": 1.145971163707923,
+    "grid_clearance_cm": 1.1460859713211935,
+    "geometry_accepted": true,
+    "parameters": [
+      11.522600285858914,
+      26.489934188872606,
+      5.520126454440163,
+      4.722122329578675,
+      -0.10481353579628938,
+      -0.3336772133420949
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_N_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.16104653085478698,
+    "min_radius_cm": 6.2093855402677605,
+    "curvature_variation": 0.3337313270594249,
+    "curvature_derivative_energy": 0.007908568743419768
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "old_clearance_cm": 1.2499994028374086,
+    "target_clearance_cm": 1.124999462553668,
+    "dense_clearance_cm": 1.1444166018037834,
+    "grid_clearance_cm": 1.1459643708173388,
+    "geometry_accepted": true,
+    "parameters": [
+      11.682236197682041,
+      20.8804281366441,
+      5.008792080946661,
+      4.837884861723884,
+      0.09435515453618404,
+      1.2312535114621275
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_N_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.1629882954739518,
+    "min_radius_cm": 6.13540988996855,
+    "curvature_variation": 0.3523309875964237,
+    "curvature_derivative_energy": 0.007461410039769292
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "old_clearance_cm": 1.0756163373865473,
+    "target_clearance_cm": 0.9680547036478926,
+    "dense_clearance_cm": 0.9916200664133221,
+    "grid_clearance_cm": 0.991626886098123,
+    "geometry_accepted": true,
+    "parameters": [
+      25.706107737414712,
+      9.327286466967854,
+      12.67670246817867,
+      5.328583726693276,
+      0.742987853987267,
+      0.25837993358667877
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_E_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.4220854653380025,
+    "min_radius_cm": 2.369188427749362,
+    "curvature_variation": 0.8967110380200308,
+    "curvature_derivative_energy": 0.0975596213982804
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "old_clearance_cm": 1.077699457273269,
+    "target_clearance_cm": 0.9699295115459421,
+    "dense_clearance_cm": 0.9850954278507658,
+    "grid_clearance_cm": 0.9881718500278112,
+    "geometry_accepted": true,
+    "parameters": [
+      20.247501612804424,
+      6.929247029156837,
+      10.257348220244328,
+      2.927143132234221,
+      0.31161514763004794,
+      -0.2565607312574898
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_W_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.3754604654967574,
+    "min_radius_cm": 2.6633962611135056,
+    "curvature_variation": 0.7683998771734306,
+    "curvature_derivative_energy": 0.07515954763941457
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "old_clearance_cm": 2.127195705243224,
+    "target_clearance_cm": 1.9144761347189019,
+    "dense_clearance_cm": 1.936053415312747,
+    "grid_clearance_cm": 1.9377801141333801,
+    "geometry_accepted": true,
+    "parameters": [
+      23.14199068131284,
+      9.18757283262235,
+      4.8557302875643105,
+      6.15536456899231,
+      0.37583727920597587,
+      -0.5436602459070854
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_N_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.17875029784730426,
+    "min_radius_cm": 5.594396272582665,
+    "curvature_variation": 0.4050220016519845,
+    "curvature_derivative_energy": 0.007958248581992528
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "old_clearance_cm": 2.499995337167123,
+    "target_clearance_cm": 2.249995803450411,
+    "dense_clearance_cm": 2.272686930855002,
+    "grid_clearance_cm": 2.2727632074590502,
+    "geometry_accepted": true,
+    "parameters": [
+      14.12600215059075,
+      24.171851328735524,
+      6.478681844469067,
+      5.0744564551729425,
+      -0.22697705531897627,
+      -0.4399590254804544
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_E_left\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.12178247351988541,
+    "min_radius_cm": 8.211362202597352,
+    "curvature_variation": 0.25975013786122225,
+    "curvature_derivative_energy": 0.0031493463440480356
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "old_clearance_cm": 2.499702067929242,
+    "target_clearance_cm": 2.249731861136318,
+    "dense_clearance_cm": 2.2690714225098265,
+    "grid_clearance_cm": 2.2698173922504257,
+    "geometry_accepted": true,
+    "parameters": [
+      14.0929910969742,
+      24.98312427949458,
+      6.568290305776798,
+      5.000958802033989,
+      0.2252248245715922,
+      0.3117172879840382
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_E_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.12178563859927813,
+    "min_radius_cm": 8.211148798015396,
+    "curvature_variation": 0.2570033717029213,
+    "curvature_derivative_energy": 0.003202961767340441
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "old_clearance_cm": 2.0107089744589786,
+    "target_clearance_cm": 1.8096380770130807,
+    "dense_clearance_cm": 1.8287685878566986,
+    "grid_clearance_cm": 1.829169371026559,
+    "geometry_accepted": true,
+    "parameters": [
+      21.87551929213951,
+      10.202596050874993,
+      4.156323451178669,
+      6.6010771899035925,
+      -0.8518016695127082,
+      0.6551719407594203
+    ],
+    "evaluations": 3822,
+    "reference": "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_S_right\\reference.npz",
+    "max_abs_curvature_cm_inv": 0.1548945171053836,
+    "min_radius_cm": 6.456006440303131,
+    "curvature_variation": 0.3754761539931167,
+    "curvature_derivative_energy": 0.005404807450031192
+  }
+]

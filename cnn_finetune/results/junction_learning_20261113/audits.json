@@ -1,0 +1,19 @@
+{
+  "same_initial_parameters": true,
+  "same_training_sequences": true,
+  "same_optimizer_updates": true,
+  "seed_disjointness": true,
+  "max_previous_command_error": 2.9765420017646704e-08,
+  "max_latency_error": 1.366962099069724e-15,
+  "max_cached_feature_error": 6.556510925292969e-07,
+  "max_reference_replay_error": 1.1920928955078125e-07,
+  "train_sequence_frames_including_repeated_branch_prefixes": 82685,
+  "unit_tests_passed": 3,
+  "encoder_frozen": true,
+  "trainable_parameters": 190050,
+  "training_replicates": 1,
+  "audited_checkpoints": {
+    "bc": "d43f149af426d284b925c1f50e74c6ca2d87a1c52e8ddfd7ac53277eee1df142",
+    "outcome": "d204d4de987e6d83e26cdbda3abfabf089c488d9174b0e3bdc39b59e11f07765"
+  }
+}

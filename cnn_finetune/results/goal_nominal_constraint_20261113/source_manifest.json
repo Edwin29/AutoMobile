@@ -1,0 +1,27 @@
+[
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_nominal_constraint_20261113\\source_snapshot\\goal_full_dagger_train.py",
+    "bytes": 3905,
+    "sha256": "63807d35c82e1218089299897cbbc1a5219696e2e52dbf303a9d0dffb990e26c"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_nominal_constraint_20261113\\source_snapshot\\goal_nominal_constraint.py",
+    "bytes": 8440,
+    "sha256": "4900ab1b3186e13fab03e3706c2cf5c6a326da3c5c9d6db90b31366cf6ea7792"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_nominal_constraint_20261113\\source_snapshot\\goal_query_recovery_search.py",
+    "bytes": 5034,
+    "sha256": "414481c694067ed2018c02f43a14de23d58df7d8cf620167b3ac41237ac1d720"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_nominal_constraint_20261113\\source_snapshot\\junction_learning.py",
+    "bytes": 17720,
+    "sha256": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_nominal_constraint_20261113\\source_snapshot\\junction_learning_train.py",
+    "bytes": 5505,
+    "sha256": "aa3e42910c59d2f69101ced0ab806769008ad68865d519ee02951075cda44351"
+  }
+]

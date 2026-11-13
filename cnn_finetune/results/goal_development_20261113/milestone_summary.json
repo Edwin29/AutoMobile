@@ -1,0 +1,190 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "local_student_comparison": {
+    "teacher": {
+      "normal": {
+        "n": 24,
+        "clean": 24,
+        "stable": 24,
+        "wrong": 0,
+        "severe": 0
+      },
+      "mild": {
+        "n": 24,
+        "clean": 18,
+        "stable": 24,
+        "wrong": 0,
+        "severe": 0
+      },
+      "mild_light": {
+        "n": 24,
+        "clean": 18,
+        "stable": 24,
+        "wrong": 0,
+        "severe": 0
+      }
+    },
+    "warm": {
+      "normal": {
+        "n": 24,
+        "clean": 15,
+        "stable": 21,
+        "wrong": 0,
+        "severe": 0
+      },
+      "mild": {
+        "n": 24,
+        "clean": 4,
+        "stable": 16,
+        "wrong": 0,
+        "severe": 0
+      },
+      "mild_light": {
+        "n": 24,
+        "clean": 3,
+        "stable": 19,
+        "wrong": 5,
+        "severe": 0
+      }
+    },
+    "bc": {
+      "normal": {
+        "n": 24,
+        "clean": 1,
+        "stable": 19,
+        "wrong": 4,
+        "severe": 1
+      },
+      "mild": {
+        "n": 24,
+        "clean": 1,
+        "stable": 14,
+        "wrong": 4,
+        "severe": 1
+      },
+      "mild_light": {
+        "n": 24,
+        "clean": 1,
+        "stable": 14,
+        "wrong": 5,
+        "severe": 0
+      }
+    },
+    "outcome": {
+      "normal": {
+        "n": 24,
+        "clean": 13,
+        "stable": 22,
+        "wrong": 1,
+        "severe": 1
+      },
+      "mild": {
+        "n": 24,
+        "clean": 6,
+        "stable": 18,
+        "wrong": 0,
+        "severe": 2
+      },
+      "mild_light": {
+        "n": 24,
+        "clean": 8,
+        "stable": 19,
+        "wrong": 0,
+        "severe": 2
+      }
+    },
+    "converged_bc": {
+      "normal": {
+        "n": 24,
+        "clean": 15,
+        "stable": 23,
+        "wrong": 0,
+        "severe": 1
+      },
+      "mild": {
+        "n": 24,
+        "clean": 12,
+        "stable": 23,
+        "wrong": 0,
+        "severe": 1
+      },
+      "mild_light": {
+        "n": 24,
+        "clean": 10,
+        "stable": 23,
+        "wrong": 1,
+        "severe": 0
+      }
+    }
+  },
+  "teacher_validation": {
+    "original": {
+      "normal": {
+        "n": 96,
+        "stable": 96,
+        "clean": 90,
+        "projected_initial": 12,
+        "median_s": 20.14933333333336,
+        "median_alpha": 0.4391046862198187
+      },
+      "mild": {
+        "n": 96,
+        "stable": 96,
+        "clean": 68,
+        "projected_initial": 12,
+        "median_s": 20.50133333333337,
+        "median_alpha": 0.4151496713149796
+      },
+      "harsh": {
+        "n": 96,
+        "stable": 70,
+        "clean": 0,
+        "projected_initial": 12,
+        "median_s": 22.137333333333434,
+        "median_alpha": 0.4583218168701565
+      }
+    },
+    "centered": {
+      "normal": {
+        "n": 96,
+        "stable": 96,
+        "clean": 96,
+        "projected_initial": 12,
+        "median_s": 20.159333333333358,
+        "median_alpha": 0.4356577107868621
+      },
+      "mild": {
+        "n": 96,
+        "stable": 96,
+        "clean": 81,
+        "projected_initial": 12,
+        "median_s": 20.43733333333337,
+        "median_alpha": 0.42236456435848635
+      },
+      "harsh": {
+        "n": 96,
+        "stable": 61,
+        "clean": 3,
+        "projected_initial": 12,
+        "median_s": 21.453333333333408,
+        "median_alpha": 0.41257594421638655
+      }
+    }
+  },
+  "recovery_grid": {
+    "cases": 15,
+    "clean_branch_found": 2
+  },
+  "additional_training": {
+    "epochs": 60,
+    "updates": 1440,
+    "selected_epoch": 60,
+    "checkpoint": "D:\\autodrive_cnn\\runs\\goal_development_20261113\\convergence_probe\\best.pt"
+  },
+  "final_exam_used": false,
+  "all_required_movements_covered": false,
+  "full_mission_tested": false,
+  "three_initializations_tested": false,
+  "interpretation": "Development diagnostics only. Local scoring changed prospectively; not directly comparable to previous 1cm/5deg pilot."
+}

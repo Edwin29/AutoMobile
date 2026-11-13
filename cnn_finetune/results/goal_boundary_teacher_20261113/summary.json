@@ -1,0 +1,20 @@
+{
+  "normal": {
+    "n": 8,
+    "clean": 6,
+    "stable": 6,
+    "baseline_clean": 6,
+    "median_time_s": 29.023333333333696,
+    "baseline_median_time_s": 20.095333333333357,
+    "episodes_with_pauses": 3
+  },
+  "mild": {
+    "n": 8,
+    "clean": 2,
+    "stable": 7,
+    "baseline_clean": 2,
+    "median_time_s": 30.57133333333375,
+    "baseline_median_time_s": 19.177333333333323,
+    "episodes_with_pauses": 6
+  }
+}

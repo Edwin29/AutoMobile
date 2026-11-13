@@ -1,0 +1,102 @@
+{
+  "by_preset": {
+    "exact_capture_path": {
+      "field_estimate": {
+        "n": 8,
+        "clean": 8
+      },
+      "sluggish": {
+        "n": 8,
+        "clean": 8
+      },
+      "unequal_sides": {
+        "n": 8,
+        "clean": 8
+      }
+    },
+    "image_map_path": {
+      "field_estimate": {
+        "n": 8,
+        "clean": 8
+      },
+      "sluggish": {
+        "n": 8,
+        "clean": 5
+      },
+      "unequal_sides": {
+        "n": 8,
+        "clean": 8
+      }
+    }
+  },
+  "failures": [
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 25001,
+      "preset": "sluggish",
+      "first_incursion_s": 11.177333333333255,
+      "min_clearance_cm": -0.2166900231602238,
+      "max_lateral_error_before_cm": 0.9455237831443759,
+      "max_longitudinal_error_before_cm": 1.0862560524856033,
+      "max_heading_error_before_deg": 4.265123756114656,
+      "last_pre_incursion": {
+        "time": 11.157333333333256,
+        "lateral_error_cm": -0.1536689615968887,
+        "longitudinal_error_cm": 0.9084319914277525,
+        "target_w": 0.09841079847283235,
+        "map_status": "observed",
+        "sxy": 0.5795370393902407
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 25001,
+      "preset": "sluggish",
+      "first_incursion_s": 11.141333333333256,
+      "min_clearance_cm": -0.2436071358844174,
+      "max_lateral_error_before_cm": 0.945523783144376,
+      "max_longitudinal_error_before_cm": 1.125308278806095,
+      "max_heading_error_before_deg": 3.126907407015728,
+      "last_pre_incursion": {
+        "time": 11.121333333333256,
+        "lateral_error_cm": 0.036276663500817624,
+        "longitudinal_error_cm": 0.9932146937320844,
+        "target_w": -0.09807130595481978,
+        "map_status": "observed",
+        "sxy": 0.5757858500839365
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 25002,
+      "preset": "sluggish",
+      "first_incursion_s": 11.321333333333254,
+      "min_clearance_cm": -0.31645779768743054,
+      "max_lateral_error_before_cm": 0.36744426688020565,
+      "max_longitudinal_error_before_cm": 1.3180128869689764,
+      "max_heading_error_before_deg": 3.7731222076314426,
+      "last_pre_incursion": {
+        "time": 11.301333333333254,
+        "lateral_error_cm": 0.065337677313044,
+        "longitudinal_error_cm": 0.9830553014165975,
+        "target_w": -0.06378477518736694,
+        "map_status": "observed",
+        "sxy": 0.5910923668760459
+      }
+    }
+  ],
+  "conclusion": "3 image-arm incursions under sluggish response; upstream errors observed, individual cause not isolated",
+  "caution": "Exact arm uses capture-frame path with36ms age, image arm uses predicted-now pose. Not a single-factor observer ablation."
+}

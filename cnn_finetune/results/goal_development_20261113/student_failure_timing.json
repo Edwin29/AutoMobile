@@ -1,0 +1,457 @@
+[
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -0.1542887786920435,
+    "first_outside": 6.261333333333311
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -0.21178077344456625,
+    "first_outside": 6.009333333333314
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -0.9417335277918486,
+    "first_outside": 5.037333333333325
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -1.6014204682382687,
+    "first_outside": 3.581333333333336
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -3.0629766128441878,
+    "first_outside": 3.653333333333336
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -1.6809947053890841,
+    "first_outside": 4.281333333333333
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -0.3945266615695502,
+    "first_outside": 15.513333333333206
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -0.7016298258999853,
+    "first_outside": 15.461333333333206
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -0.23449480301059822,
+    "first_outside": 6.513333333333308
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 4101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -0.5919267501875431,
+    "first_outside": 4.625333333333329
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -1.7255912381685405,
+    "first_outside": 4.749333333333328
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -1.0076967990354593,
+    "first_outside": 7.541333333333296
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -0.9651015621978232,
+    "first_outside": 15.333333333333208
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -1.182132756818575,
+    "first_outside": 15.281333333333208
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -1.7993337117349526,
+    "first_outside": 4.445333333333331
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -1.7841600839859932,
+    "first_outside": 4.337333333333333
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -2.374138420927375,
+    "first_outside": 3.849333333333336
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -0.8138561096770545,
+    "first_outside": 7.613333333333295
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "severe_departure",
+    "min_margin": -12.098468566320747,
+    "first_outside": 10.221333333333266
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "severe_departure",
+    "min_margin": -12.064824015866037,
+    "first_outside": 10.005333333333269
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4101,
+    "preset": "unequal_sides",
+    "outcome": "wrong_exit",
+    "min_margin": -1.3711574866052914,
+    "first_outside": 15.317333333333208
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 4102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -0.29598420856281393,
+    "first_outside": 5.685333333333317
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 4102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -2.491342514249883,
+    "first_outside": 3.741333333333336
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -3.105728822852062,
+    "first_outside": 3.9933333333333363
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "min_margin": -1.4998216433250349,
+    "first_outside": 4.0853333333333355
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 4102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -1.249733080988733,
+    "first_outside": 4.677333333333329
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -1.9639518633817676,
+    "first_outside": 5.165333333333323
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -1.275584422107249,
+    "first_outside": 7.541333333333296
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "min_margin": -0.5814575567741151,
+    "first_outside": 15.909333333333201
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 4102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -1.2689884739978545,
+    "first_outside": 4.769333333333328
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 4102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -1.112793647704871,
+    "first_outside": 4.805333333333327
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 4102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -1.5513494729271837,
+    "first_outside": 4.445333333333331
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 4102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -0.5464367989768277,
+    "first_outside": 5.3253333333333215
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 4102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -1.3924307055057579,
+    "first_outside": 6.605333333333307
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 4102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "min_margin": -0.8532030273685738,
+    "first_outside": 7.685333333333294
+  }
+]

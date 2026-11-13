@@ -1,0 +1,24 @@
+{
+  "source_sha256": "2fb9246cc11472ee8eab344acd438a57b7e7fe4947f9f06552a437c6006501fb",
+  "checkpoint_sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+  "dependencies": {
+    "goal_mission_map.py": "0a10f6d0ea9f8fcaa793931b49a0d1abe57daa998c4cbc5901b57bd65ffe3317",
+    "goal_mission_direction.py": "b0272c6969581420169cb8b8df3dd06ea7a783a7af2088a99277a9f026df5f13"
+  },
+  "actual_command_feedback": true,
+  "required_interrupt_reasons_preserved": true,
+  "recurrent_state_preserved": true,
+  "missing_ack_rejected": true,
+  "actor_input_shape": [
+    1152,
+    4
+  ],
+  "real_checkpoint_inference": true,
+  "scope": "Four inference frames with actual image-map core and explicit actuator acknowledgments; not a closed-loop mission",
+  "remaining": [
+    "Full declared-route runner and scorer",
+    "Outer-corner and connected-sequence training",
+    "Dynamic instruction-transition validation",
+    "Latency and map localization failures under perturbations"
+  ]
+}

@@ -1,0 +1,1122 @@
+[
+  {
+    "root": "east_W_left_2001_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\student",
+        "cost": 0.14706017782340444,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\teacher",
+        "cost": 0.15763791626184856,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\left",
+        "cost": 3.1345903562401807,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\right",
+        "cost": 136.546821024172,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2001_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\student",
+        "cost": 20.017835414198867,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\teacher",
+        "cost": 20.019396951434683,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\left",
+        "cost": 20.021337741263963,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\right",
+        "cost": 20.071643754474092,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2001_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\student",
+        "cost": 20.174711552976174,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\teacher",
+        "cost": 0.16644443495505556,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\left",
+        "cost": 1.3197337035539356,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\right",
+        "cost": 136.78158485927554,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2001_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\student",
+        "cost": 20.01348063217816,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\teacher",
+        "cost": 20.024750792555185,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\left",
+        "cost": 20.02892475627915,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\right",
+        "cost": 22.021715852819913,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2002_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\student",
+        "cost": 12.031516612393089,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\teacher",
+        "cost": 10.223509967244846,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\left",
+        "cost": 13.630114030261112,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\right",
+        "cost": 9.780754322375145,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2002_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\student",
+        "cost": 21.437853579700164,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\teacher",
+        "cost": 21.248864771676534,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\left",
+        "cost": 21.206992935100494,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\right",
+        "cost": 23.983400632565075,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2002_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\student",
+        "cost": 11.926463580177067,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\teacher",
+        "cost": 9.899074582151362,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\left",
+        "cost": 13.56555020495079,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\right",
+        "cost": 9.682958552434412,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_left_2002_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\student",
+        "cost": 21.342345772477426,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\teacher",
+        "cost": 21.24472121427102,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\left",
+        "cost": 21.152202048359033,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\right",
+        "cost": 23.57764407371722,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2001_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\student",
+        "cost": 22.817821252070555,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\teacher",
+        "cost": 22.986469491641845,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\left",
+        "cost": 24.16523582581153,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\right",
+        "cost": 20.1383849858649,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2001_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\student",
+        "cost": 22.758887039147222,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\teacher",
+        "cost": 20.01778531014867,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\left",
+        "cost": 24.63029940081696,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\right",
+        "cost": 20.05008436930567,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2001_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\student",
+        "cost": 20.32533872611039,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\teacher",
+        "cost": 20.27740034230458,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\left",
+        "cost": 20.867198364348777,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\right",
+        "cost": 20.212743957778496,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2001_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\student",
+        "cost": 20.144656359107422,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\teacher",
+        "cost": 20.04850390397945,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\left",
+        "cost": 23.02564672119413,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\right",
+        "cost": 20.04574312744803,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2002_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\student",
+        "cost": 0.15152119084717064,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\teacher",
+        "cost": 0.019277289818399136,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\left",
+        "cost": 20.379345903652233,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\right",
+        "cost": 20.0221118377611,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2002_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\student",
+        "cost": 0.0038669824316704734,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\teacher",
+        "cost": 0.003192547697478384,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\left",
+        "cost": 0.09115944832856299,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\right",
+        "cost": 20.00535143348305,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2002_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\student",
+        "cost": 0.11262764390379883,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\teacher",
+        "cost": 0.03365621335815479,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\left",
+        "cost": 20.402383594053564,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\right",
+        "cost": 20.0249630301748,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "east_W_right_2002_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\student",
+        "cost": 20.003022868296892,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\teacher",
+        "cost": 20.002935368964597,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\left",
+        "cost": 0.03862073316820046,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\right",
+        "cost": 20.005371205404355,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2001_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\student",
+        "cost": 24.564685047709904,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\teacher",
+        "cost": 27.286209160296814,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\left",
+        "cost": 24.59519614483332,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\right",
+        "cost": 20.27792786351959,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2001_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\student",
+        "cost": 24.47453200902051,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\teacher",
+        "cost": 22.731568862810633,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\left",
+        "cost": 25.63193188521057,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\right",
+        "cost": 21.433050261137243,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2001_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\student",
+        "cost": 22.04484027408295,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\teacher",
+        "cost": 21.93611418684547,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\left",
+        "cost": 21.00282459363459,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\right",
+        "cost": 24.378802292345394,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2001_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\student",
+        "cost": 21.866119040410886,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\teacher",
+        "cost": 20.113278912180796,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\left",
+        "cost": 23.90206602285658,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\right",
+        "cost": 20.08706087770238,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2002_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\student",
+        "cost": 0.026661793393365503,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\teacher",
+        "cost": 1.1390105377229496,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\left",
+        "cost": 0.10012040051864703,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\right",
+        "cost": 0.03586981958797429,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2002_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\student",
+        "cost": 0.011782383840694317,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\teacher",
+        "cost": 0.00779039695422111,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\left",
+        "cost": 2.6521499652079563,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\right",
+        "cost": 20.010171310411224,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2002_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\student",
+        "cost": 0.03393951489806309,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\teacher",
+        "cost": 0.6093720754547411,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\left",
+        "cost": 0.10945555529157025,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\right",
+        "cost": 20.046877831124224,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "south_N_right_2002_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\student",
+        "cost": 0.006917051055360328,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\teacher",
+        "cost": 0.005048083427559299,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\left",
+        "cost": 2.683896059014873,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\right",
+        "cost": 20.00507174077262,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2001_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\student",
+        "cost": 24.59712380781313,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\teacher",
+        "cost": 24.285088696814096,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\left",
+        "cost": 23.539802775145645,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\right",
+        "cost": 24.066443021950793,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2001_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\student",
+        "cost": 24.58842396208515,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\teacher",
+        "cost": 21.875145925255765,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\left",
+        "cost": 24.970795203815438,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\right",
+        "cost": 20.119717180958254,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2001_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\student",
+        "cost": 25.29412422076484,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\teacher",
+        "cost": 34.48479849632193,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\left",
+        "cost": 30.546628707293248,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\right",
+        "cost": 25.87024829775123,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2001_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\student",
+        "cost": 179.89077207927423,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\teacher",
+        "cost": 140.42486477416455,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\left",
+        "cost": 30.813673311972536,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\right",
+        "cost": 179.79009791173044,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2002_mild_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\student",
+        "cost": 0.18019065287898536,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\teacher",
+        "cost": 0.7036575958667397,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\left",
+        "cost": 0.6616927144929218,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\right",
+        "cost": 0.08083212524128017,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2002_mild_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\student",
+        "cost": 2.099386342990616,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\teacher",
+        "cost": 2.97378774573364,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\left",
+        "cost": 2.112700065322129,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\right",
+        "cost": 4.2769990298218685,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2002_mild_light_6.0",
+    "prefix": 166,
+    "start_s": 6.009333333333314,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\student",
+        "cost": 0.2947011172532343,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\teacher",
+        "cost": 0.6954120470948025,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\left",
+        "cost": 0.8181175924149022,
+        "prefix": 166,
+        "end": 186
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\right",
+        "cost": 0.10706627756683176,
+        "prefix": 166,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "root": "center_N_right_2002_mild_light_10.0",
+    "prefix": 277,
+    "start_s": 10.005333333333269,
+    "candidates": [
+      {
+        "action": "student",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\student",
+        "cost": 2.392249380922433,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "teacher",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\teacher",
+        "cost": 2.7373963560560006,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "left",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\left",
+        "cost": 2.7296059580009167,
+        "prefix": 277,
+        "end": 297
+      },
+      {
+        "action": "right",
+        "path": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\right",
+        "cost": 3.375008308513393,
+        "prefix": 277,
+        "end": 297
+      }
+    ]
+  }
+]

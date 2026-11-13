@@ -1,0 +1,71 @@
+{
+  "hypothesis": "Entry drift starts at 3-6s, before old branch roots; full student-visited trajectories improve feedback recovery",
+  "train_seeds": [
+    6101,
+    6102
+  ],
+  "vehicles": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "keys": [
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ]
+  ],
+  "conditions": [
+    "normal",
+    "mild",
+    "mild_light"
+  ],
+  "teacher": {
+    "end_cm": 35.0,
+    "lateral_gain": 0.08,
+    "heading_gain": 1.3,
+    "speed_scale": 1.0
+  },
+  "teacher_limit": "Modified teacher is not certified: new-seed mild clean 81/96 and harsh not solved",
+  "initial_checkpoint": "D:\\autodrive_cnn\\runs\\goal_development_20261113\\convergence_probe\\best.pt",
+  "initial_sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+  "encoder_frozen": true,
+  "architecture_changed": false,
+  "sources": {
+    "common": "clean teacher episodes from new collection plus 60 old clean episodes relabeled with same corrected teacher",
+    "teacher_only": "second batch drawn from same teacher pool",
+    "full_dagger": "second batch from full acting-student episodes"
+  },
+  "actor_during_collection": "fixed initial checkpoint; no teacher intervention",
+  "query_mask": "margin at capture >=-3cm, distance to reference <=12cm, heading difference <=60deg; additionally existing done-margin mask",
+  "supervision": "These are oracle queries, not claims that every query leads to a clean recovery. Failure originals retained.",
+  "training": {
+    "updates": 1200,
+    "lr": 0.0001,
+    "min_lr": 1e-05,
+    "seed": 17,
+    "batch_episodes": 8,
+    "source_mix": "0.5 common teacher + 0.5 second source, each four episodes one per movement",
+    "objective": "equal-episode turn-weighted SmoothL1 beta .05; no preference term",
+    "selection": "use fixed final update 1200, no checkpoint selection by observed driving"
+  },
+  "evaluation": "same frozen local development matrix 4101/4102 x three vehicles x four movements x three conditions; NOT final exam",
+  "source_sha256": "f4ffc15c2ab0084c6d903c66ad8b164869f7563f38f7703b43c3edeb172ee12c",
+  "final_exam_used": false
+}

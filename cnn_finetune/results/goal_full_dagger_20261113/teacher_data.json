@@ -1,0 +1,3938 @@
+[
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.745333333333267,
+    "clean_stable": true,
+    "min_margin_cm": 0.9864897646041157,
+    "final_lateral_cm": 0.0009334522005275403,
+    "final_heading_deg": 0.06874484002010467,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.160090278905401,
+    "angular_accel_rms_rad_s2": 0.5892901872143864,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.745333333333342,
+    "frames": 547,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_normal_6101_field_estimate",
+    "supervised_frames": 547,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.501333333333296,
+    "clean_stable": true,
+    "min_margin_cm": 0.9647985958582979,
+    "final_lateral_cm": 0.41271009861323193,
+    "final_heading_deg": 1.5771222675052308,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.537181745303347,
+    "angular_accel_rms_rad_s2": 0.5184243907144765,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.0931402097517697,
+        "restricted_s": 3.0931402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 2.9801994384811987,
+        "restricted_s": 2.9801994384811987
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.105333333333355,
+    "frames": 557,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_6101_field_estimate",
+    "supervised_frames": 557,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.501333333333296,
+    "clean_stable": true,
+    "min_margin_cm": 0.9647985958582979,
+    "final_lateral_cm": 0.41271009861323193,
+    "final_heading_deg": 1.5771222675052308,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.537181745303347,
+    "angular_accel_rms_rad_s2": 0.5184243907144765,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.0931402097517697,
+        "restricted_s": 3.0931402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 2.9801994384811987,
+        "restricted_s": 2.9801994384811987
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.105333333333355,
+    "frames": 557,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_light_6101_field_estimate",
+    "supervised_frames": 557,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.673333333333265,
+    "clean_stable": true,
+    "min_margin_cm": 1.3115511802946713,
+    "final_lateral_cm": 0.002776712106779655,
+    "final_heading_deg": 0.05928339517525364,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.540562874448339,
+    "angular_accel_rms_rad_s2": 0.4552098987492204,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.65333333333334,
+    "frames": 544,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_normal_6101_field_estimate",
+    "supervised_frames": 544,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.773333333333305,
+    "clean_stable": true,
+    "min_margin_cm": 0.23145057128859392,
+    "final_lateral_cm": 0.515360584572818,
+    "final_heading_deg": 2.166557770633353,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.395561431697415,
+    "angular_accel_rms_rad_s2": 0.4640100426571833,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.1091402097517697,
+        "restricted_s": 3.1091402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2681994384812096,
+        "restricted_s": 3.2681994384812096
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.67333333333334,
+    "frames": 545,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_6101_field_estimate",
+    "supervised_frames": 545,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.773333333333305,
+    "clean_stable": true,
+    "min_margin_cm": 0.23145057128859392,
+    "final_lateral_cm": 0.515360584572818,
+    "final_heading_deg": 2.166557770633353,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.395561431697415,
+    "angular_accel_rms_rad_s2": 0.4640100426571833,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.1091402097517697,
+        "restricted_s": 3.1091402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2681994384812096,
+        "restricted_s": 3.2681994384812096
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.67333333333334,
+    "frames": 545,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_light_6101_field_estimate",
+    "supervised_frames": 545,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.809333333333306,
+    "clean_stable": true,
+    "min_margin_cm": 0.061533614416042326,
+    "final_lateral_cm": 0.0012673351217245,
+    "final_heading_deg": 0.05781959170240164,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 6.376680021221097,
+    "angular_accel_rms_rad_s2": 0.5136505149774261,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.825333333333383,
+    "frames": 577,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_normal_6101_field_estimate",
+    "supervised_frames": 577,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.681333333333303,
+    "clean_stable": true,
+    "min_margin_cm": 0.061048127862108004,
+    "final_lateral_cm": 0.36558334819048355,
+    "final_heading_deg": 1.4140513526058862,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 6.349489066999049,
+    "angular_accel_rms_rad_s2": 0.5171016133073958,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.5611402097517644,
+        "restricted_s": 3.5611402097517644
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.1601994384812055,
+        "restricted_s": 3.1601994384812055
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.645333333333376,
+    "frames": 572,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_6101_field_estimate",
+    "supervised_frames": 572,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.681333333333303,
+    "clean_stable": true,
+    "min_margin_cm": 0.061048127862108004,
+    "final_lateral_cm": 0.36558334819048355,
+    "final_heading_deg": 1.4140513526058862,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 6.349489066999049,
+    "angular_accel_rms_rad_s2": 0.5171016133073958,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.5611402097517644,
+        "restricted_s": 3.5611402097517644
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.1601994384812055,
+        "restricted_s": 3.1601994384812055
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.645333333333376,
+    "frames": 572,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_light_6101_field_estimate",
+    "supervised_frames": 572,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.005333333333315,
+    "clean_stable": true,
+    "min_margin_cm": 0.0615371983230375,
+    "final_lateral_cm": 0.00092584107011243,
+    "final_heading_deg": 0.012986012443245726,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 6.915275284493728,
+    "angular_accel_rms_rad_s2": 0.3947136708176918,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 21.077333333333392,
+    "frames": 584,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_normal_6101_field_estimate",
+    "supervised_frames": 584,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": false,
+    "min_margin_cm": -0.22552868864783093,
+    "final_lateral_cm": 0.3485324852176406,
+    "final_heading_deg": 1.6183567641295489,
+    "outside_s": 0.37999999999999545,
+    "accel_rms_cm_s2": 6.077341616582768,
+    "angular_accel_rms_rad_s2": 0.5161855112708192,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.669140209751763,
+        "restricted_s": 3.669140209751763
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3401994384812124,
+        "restricted_s": 3.3401994384812124
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.861333333333384,
+    "frames": 578,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_6101_field_estimate",
+    "supervised_frames": 578,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": false,
+    "min_margin_cm": -0.22552868864783093,
+    "final_lateral_cm": 0.3485324852176406,
+    "final_heading_deg": 1.6183567641295489,
+    "outside_s": 0.37999999999999545,
+    "accel_rms_cm_s2": 6.077341616582768,
+    "angular_accel_rms_rad_s2": 0.5161855112708192,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.669140209751763,
+        "restricted_s": 3.669140209751763
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3401994384812124,
+        "restricted_s": 3.3401994384812124
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.861333333333384,
+    "frames": 578,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_light_6101_field_estimate",
+    "supervised_frames": 578,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.981333333333275,
+    "clean_stable": true,
+    "min_margin_cm": 1.01067462165652,
+    "final_lateral_cm": 0.014409017185599282,
+    "final_heading_deg": 0.0921098548795509,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.6114860564179505,
+    "angular_accel_rms_rad_s2": 0.14682237106337737,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.977333333333352,
+    "frames": 553,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_normal_6101_sluggish",
+    "supervised_frames": 553,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.789333333333307,
+    "clean_stable": true,
+    "min_margin_cm": 0.9980144912904834,
+    "final_lateral_cm": 0.40285969255604925,
+    "final_heading_deg": 1.738171464015614,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3658573427975793,
+    "angular_accel_rms_rad_s2": 0.21727962639758183,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.3811402097517664,
+        "restricted_s": 3.3811402097517664
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2681994384812096,
+        "restricted_s": 3.2681994384812096
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.393333333333366,
+    "frames": 565,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_6101_sluggish",
+    "supervised_frames": 565,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.789333333333307,
+    "clean_stable": true,
+    "min_margin_cm": 0.9980144912904834,
+    "final_lateral_cm": 0.40285969255604925,
+    "final_heading_deg": 1.738171464015614,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3658573427975793,
+    "angular_accel_rms_rad_s2": 0.21727962639758183,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.3811402097517664,
+        "restricted_s": 3.3811402097517664
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2681994384812096,
+        "restricted_s": 3.2681994384812096
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.393333333333366,
+    "frames": 565,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_light_6101_sluggish",
+    "supervised_frames": 565,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.925333333333274,
+    "clean_stable": true,
+    "min_margin_cm": 1.3131500600992254,
+    "final_lateral_cm": 0.014753395929233193,
+    "final_heading_deg": 0.14697904503599724,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.290398955152281,
+    "angular_accel_rms_rad_s2": 0.19472710536904908,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.92533333333335,
+    "frames": 552,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_normal_6101_sluggish",
+    "supervised_frames": 552,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.14486596187061807,
+    "final_lateral_cm": 0.4774989339334752,
+    "final_heading_deg": 1.9996288801891784,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.4179204383883723,
+    "angular_accel_rms_rad_s2": 0.19559017189884703,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.541140209751765,
+        "restricted_s": 3.541140209751765
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3241994384812106,
+        "restricted_s": 3.3241994384812106
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.96133333333335,
+    "frames": 553,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_6101_sluggish",
+    "supervised_frames": 553,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.14486596187061807,
+    "final_lateral_cm": 0.4774989339334752,
+    "final_heading_deg": 1.9996288801891784,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.4179204383883723,
+    "angular_accel_rms_rad_s2": 0.19559017189884703,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.541140209751765,
+        "restricted_s": 3.541140209751765
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3241994384812106,
+        "restricted_s": 3.3241994384812106
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.96133333333335,
+    "frames": 553,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_light_6101_sluggish",
+    "supervised_frames": 553,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.041333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 0.06315006009923252,
+    "final_lateral_cm": 0.00804614775809398,
+    "final_heading_deg": 0.054169732532752375,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.8898272208205293,
+    "angular_accel_rms_rad_s2": 0.19652906698227463,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 21.057333333333393,
+    "frames": 583,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_normal_6101_sluggish",
+    "supervised_frames": 583,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.0628362907982023,
+    "final_lateral_cm": 0.3465335031833945,
+    "final_heading_deg": 1.5665555019365098,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.6294489840219826,
+    "angular_accel_rms_rad_s2": 0.23187208452865776,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 4.153140209751758,
+        "restricted_s": 4.153140209751758
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3241994384812106,
+        "restricted_s": 3.3241994384812106
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.841333333333385,
+    "frames": 577,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_6101_sluggish",
+    "supervised_frames": 577,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.0628362907982023,
+    "final_lateral_cm": 0.3465335031833945,
+    "final_heading_deg": 1.5665555019365098,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.6294489840219826,
+    "angular_accel_rms_rad_s2": 0.23187208452865776,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 4.153140209751758,
+        "restricted_s": 4.153140209751758
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3241994384812106,
+        "restricted_s": 3.3241994384812106
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.841333333333385,
+    "frames": 577,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_light_6101_sluggish",
+    "supervised_frames": 577,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.20533333333332,
+    "clean_stable": true,
+    "min_margin_cm": 0.06315006009923252,
+    "final_lateral_cm": 0.006582039175261157,
+    "final_heading_deg": 0.009377764373754299,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.7247891602792143,
+    "angular_accel_rms_rad_s2": 0.1999340515662441,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 21.2573333333334,
+    "frames": 589,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_normal_6101_sluggish",
+    "supervised_frames": 589,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.953333333333312,
+    "clean_stable": false,
+    "min_margin_cm": -0.15525117059457472,
+    "final_lateral_cm": 0.32294737023752307,
+    "final_heading_deg": 1.3652289918284488,
+    "outside_s": 0.23199999999999754,
+    "accel_rms_cm_s2": 2.702329901862857,
+    "angular_accel_rms_rad_s2": 0.23536822280353079,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 4.497140209751754,
+        "restricted_s": 4.497140209751754
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.288199438481209,
+        "restricted_s": 3.288199438481209
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 21.02133333333339,
+    "frames": 582,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_6101_sluggish",
+    "supervised_frames": 582,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.953333333333312,
+    "clean_stable": false,
+    "min_margin_cm": -0.15525117059457472,
+    "final_lateral_cm": 0.32294737023752307,
+    "final_heading_deg": 1.3652289918284488,
+    "outside_s": 0.23199999999999754,
+    "accel_rms_cm_s2": 2.702329901862857,
+    "angular_accel_rms_rad_s2": 0.23536822280353079,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 4.497140209751754,
+        "restricted_s": 4.497140209751754
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.288199438481209,
+        "restricted_s": 3.288199438481209
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 21.02133333333339,
+    "frames": 582,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_light_6101_sluggish",
+    "supervised_frames": 582,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.745333333333267,
+    "clean_stable": true,
+    "min_margin_cm": 0.9944467121691574,
+    "final_lateral_cm": 0.0006424091941426013,
+    "final_heading_deg": 0.1418728118961876,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.140091258089238,
+    "angular_accel_rms_rad_s2": 0.4448640375737002,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.745333333333342,
+    "frames": 547,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_normal_6101_unequal_sides",
+    "supervised_frames": 547,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.485333333333294,
+    "clean_stable": true,
+    "min_margin_cm": 0.9911575068786362,
+    "final_lateral_cm": 0.39604835834779806,
+    "final_heading_deg": 1.6608652629236662,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.652734121397935,
+    "angular_accel_rms_rad_s2": 0.4737253828501345,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.0931402097517697,
+        "restricted_s": 3.0931402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 2.964199438481197,
+        "restricted_s": 2.964199438481197
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.19333333333336,
+    "frames": 559,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_6101_unequal_sides",
+    "supervised_frames": 559,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.485333333333294,
+    "clean_stable": true,
+    "min_margin_cm": 0.9911575068786362,
+    "final_lateral_cm": 0.39604835834779806,
+    "final_heading_deg": 1.6608652629236662,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.652734121397935,
+    "angular_accel_rms_rad_s2": 0.4737253828501345,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.0931402097517697,
+        "restricted_s": 3.0931402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 2.964199438481197,
+        "restricted_s": 2.964199438481197
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.19333333333336,
+    "frames": 559,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_light_6101_unequal_sides",
+    "supervised_frames": 559,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.693333333333264,
+    "clean_stable": true,
+    "min_margin_cm": 1.3131500600992254,
+    "final_lateral_cm": 0.0004388889133934981,
+    "final_heading_deg": 0.03050837784900226,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.257164672679772,
+    "angular_accel_rms_rad_s2": 0.35843744960055646,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.67333333333334,
+    "frames": 545,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_normal_6101_unequal_sides",
+    "supervised_frames": 545,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.21480180799192716,
+    "final_lateral_cm": 0.5096459913283127,
+    "final_heading_deg": 2.119443553195282,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.48889686450731,
+    "angular_accel_rms_rad_s2": 0.43446868595622723,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.1091402097517697,
+        "restricted_s": 3.1091402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3401994384812124,
+        "restricted_s": 3.3401994384812124
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.797333333333345,
+    "frames": 548,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_6101_unequal_sides",
+    "supervised_frames": 548,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.845333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.21480180799192716,
+    "final_lateral_cm": 0.5096459913283127,
+    "final_heading_deg": 2.119443553195282,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.48889686450731,
+    "angular_accel_rms_rad_s2": 0.43446868595622723,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.1091402097517697,
+        "restricted_s": 3.1091402097517697
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.3401994384812124,
+        "restricted_s": 3.3401994384812124
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.797333333333345,
+    "frames": 548,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3131500600992325,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3131500600992325,
+      "initial_margin_cm": 1.3131500600992325,
+      "pose": [
+        41.33234440900932,
+        -0.6763974877430159,
+        1.6063562306971266
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_light_6101_unequal_sides",
+    "supervised_frames": 548,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.809333333333306,
+    "clean_stable": true,
+    "min_margin_cm": 0.06315006009923252,
+    "final_lateral_cm": 4.2305146976673313e-05,
+    "final_heading_deg": 0.14257069141872195,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.504080535201904,
+    "angular_accel_rms_rad_s2": 0.4433407547706587,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.825333333333383,
+    "frames": 577,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_normal_6101_unequal_sides",
+    "supervised_frames": 577,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.753333333333305,
+    "clean_stable": true,
+    "min_margin_cm": 0.06315006009923252,
+    "final_lateral_cm": 0.3411545780426337,
+    "final_heading_deg": 1.4238927584549246,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.418568864152475,
+    "angular_accel_rms_rad_s2": 0.48257470649049095,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.3091402097517673,
+        "restricted_s": 3.3091402097517673
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2321994384812083,
+        "restricted_s": 3.2321994384812083
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.645333333333376,
+    "frames": 572,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_6101_unequal_sides",
+    "supervised_frames": 572,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.753333333333305,
+    "clean_stable": true,
+    "min_margin_cm": 0.06315006009923252,
+    "final_lateral_cm": 0.3411545780426337,
+    "final_heading_deg": 1.4238927584549246,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.418568864152475,
+    "angular_accel_rms_rad_s2": 0.48257470649049095,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.3091402097517673,
+        "restricted_s": 3.3091402097517673
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2321994384812083,
+        "restricted_s": 3.2321994384812083
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.645333333333376,
+    "frames": 572,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        -39.33234440900932,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_light_6101_unequal_sides",
+    "supervised_frames": 572,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.005333333333315,
+    "clean_stable": true,
+    "min_margin_cm": 0.06315006009923252,
+    "final_lateral_cm": 0.0029025131150873123,
+    "final_heading_deg": 0.051111866190366964,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.272469138480456,
+    "angular_accel_rms_rad_s2": 0.4471368497907818,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 21.057333333333393,
+    "frames": 583,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_normal_6101_unequal_sides",
+    "supervised_frames": 583,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.789333333333307,
+    "clean_stable": false,
+    "min_margin_cm": -0.27611917501385363,
+    "final_lateral_cm": 0.3409383096967284,
+    "final_heading_deg": 1.5139594298841912,
+    "outside_s": 0.48399999999999466,
+    "accel_rms_cm_s2": 5.048120810713174,
+    "angular_accel_rms_rad_s2": 0.5316471829663986,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.685140209751763,
+        "restricted_s": 3.685140209751763
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2161994384812065,
+        "restricted_s": 3.2161994384812065
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.877333333333386,
+    "frames": 578,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_6101_unequal_sides",
+    "supervised_frames": 578,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.789333333333307,
+    "clean_stable": false,
+    "min_margin_cm": -0.27611917501385363,
+    "final_lateral_cm": 0.3409383096967284,
+    "final_heading_deg": 1.5139594298841912,
+    "outside_s": 0.48399999999999466,
+    "accel_rms_cm_s2": 5.048120810713174,
+    "angular_accel_rms_rad_s2": 0.5316471829663986,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.72419312358149,
+        "recovered": true,
+        "recovery_s": 3.685140209751763,
+        "restricted_s": 3.685140209751763
+      },
+      {
+        "event_end_s": 15.521133894852097,
+        "recovered": true,
+        "recovery_s": 3.2161994384812065,
+        "restricted_s": 3.2161994384812065
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6101,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.877333333333386,
+    "frames": 578,
+    "push_exposure_s": 1.0503407431835035,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.06315006009923252,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.06315006009923252,
+      "initial_margin_cm": 0.06315006009923252,
+      "pose": [
+        -0.6763974877430159,
+        45.91765559099068,
+        -3.106032749687563
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_light_6101_unequal_sides",
+    "supervised_frames": 578,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.261333333333248,
+    "clean_stable": true,
+    "min_margin_cm": 1.1131668370041439,
+    "final_lateral_cm": 0.002349447421480022,
+    "final_heading_deg": 0.055725334040694983,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.46155818599345,
+    "angular_accel_rms_rad_s2": 0.5645798245012252,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.241333333333323,
+    "frames": 533,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_normal_6102_field_estimate",
+    "supervised_frames": 533,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.753333333333305,
+    "clean_stable": true,
+    "min_margin_cm": 0.17851927269563106,
+    "final_lateral_cm": 0.5481389547161797,
+    "final_heading_deg": 2.3198175736504627,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.260939433115452,
+    "angular_accel_rms_rad_s2": 0.42070416603074917,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.4862704313598085,
+        "restricted_s": 3.4862704313598085
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.292923232404945,
+        "restricted_s": 3.292923232404945
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.601333333333336,
+    "frames": 543,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_6102_field_estimate",
+    "supervised_frames": 543,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.753333333333305,
+    "clean_stable": true,
+    "min_margin_cm": 0.17851927269563106,
+    "final_lateral_cm": 0.5481389547161797,
+    "final_heading_deg": 2.3198175736504627,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.260939433115452,
+    "angular_accel_rms_rad_s2": 0.42070416603074917,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.4862704313598085,
+        "restricted_s": 3.4862704313598085
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.292923232404945,
+        "restricted_s": 3.292923232404945
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.601333333333336,
+    "frames": 543,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_light_6102_field_estimate",
+    "supervised_frames": 543,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.241333333333248,
+    "clean_stable": true,
+    "min_margin_cm": 1.2897439911159339,
+    "final_lateral_cm": 0.002053554362234422,
+    "final_heading_deg": 0.05228250646355052,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.290267130052397,
+    "angular_accel_rms_rad_s2": 0.49984457803174387,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.241333333333323,
+    "frames": 533,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_normal_6102_field_estimate",
+    "supervised_frames": 533,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.061333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 1.4194758449742082,
+    "final_lateral_cm": 0.4873434201381315,
+    "final_heading_deg": 2.0703673587207674,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.543110885867352,
+    "angular_accel_rms_rad_s2": 0.4460006232052466,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.898270431359804,
+        "restricted_s": 3.898270431359804
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.5649232324049542,
+        "restricted_s": 3.5649232324049542
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.121333333333357,
+    "frames": 557,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_6102_field_estimate",
+    "supervised_frames": 557,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.061333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 1.4194758449742082,
+    "final_lateral_cm": 0.4873434201381315,
+    "final_heading_deg": 2.0703673587207674,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.543110885867352,
+    "angular_accel_rms_rad_s2": 0.4460006232052466,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.898270431359804,
+        "restricted_s": 3.898270431359804
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.5649232324049542,
+        "restricted_s": 3.5649232324049542
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.121333333333357,
+    "frames": 557,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_light_6102_field_estimate",
+    "supervised_frames": 557,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.35733333333329,
+    "clean_stable": true,
+    "min_margin_cm": 0.8979861136492033,
+    "final_lateral_cm": 0.0009391470144350933,
+    "final_heading_deg": 0.03401152853028295,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 6.876653370475224,
+    "angular_accel_rms_rad_s2": 0.4434922414536162,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.393333333333366,
+    "frames": 565,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_normal_6102_field_estimate",
+    "supervised_frames": 565,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.42133333333333,
+    "clean_stable": true,
+    "min_margin_cm": 0.6229158420752441,
+    "final_lateral_cm": 0.32014423623503774,
+    "final_heading_deg": 1.5118859587039168,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.713759781528767,
+    "angular_accel_rms_rad_s2": 0.5091981778653404,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.8622704313598044,
+        "restricted_s": 3.8622704313598044
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.7089232324049597,
+        "restricted_s": 3.7089232324049597
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 21.52533333333341,
+    "frames": 596,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_6102_field_estimate",
+    "supervised_frames": 596,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.42133333333333,
+    "clean_stable": true,
+    "min_margin_cm": 0.6229158420752441,
+    "final_lateral_cm": 0.32014423623503774,
+    "final_heading_deg": 1.5118859587039168,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.713759781528767,
+    "angular_accel_rms_rad_s2": 0.5091981778653404,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.8622704313598044,
+        "restricted_s": 3.8622704313598044
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.7089232324049597,
+        "restricted_s": 3.7089232324049597
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 21.52533333333341,
+    "frames": 596,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_light_6102_field_estimate",
+    "supervised_frames": 596,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.5733333333333,
+    "clean_stable": true,
+    "min_margin_cm": 0.8979861136492033,
+    "final_lateral_cm": 1.1064723673625142e-05,
+    "final_heading_deg": 0.009311061906568389,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.911809073560591,
+    "angular_accel_rms_rad_s2": 0.6139336582204464,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.625333333333376,
+    "frames": 571,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_normal_6102_field_estimate",
+    "supervised_frames": 571,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.761333333333344,
+    "clean_stable": false,
+    "min_margin_cm": -0.29888917167627227,
+    "final_lateral_cm": 0.2797560821291644,
+    "final_heading_deg": 1.163883010314757,
+    "outside_s": 0.5719999999999938,
+    "accel_rms_cm_s2": 6.020337649631622,
+    "angular_accel_rms_rad_s2": 0.44780127497451244,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.2942704313597995,
+        "restricted_s": 4.2942704313597995
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.528923232404953,
+        "restricted_s": 3.528923232404953
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 21.885333333333424,
+    "frames": 606,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_6102_field_estimate",
+    "supervised_frames": 606,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.761333333333344,
+    "clean_stable": false,
+    "min_margin_cm": -0.29888917167627227,
+    "final_lateral_cm": 0.2797560821291644,
+    "final_heading_deg": 1.163883010314757,
+    "outside_s": 0.5719999999999938,
+    "accel_rms_cm_s2": 6.020337649631622,
+    "angular_accel_rms_rad_s2": 0.44780127497451244,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.2942704313597995,
+        "restricted_s": 4.2942704313597995
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.528923232404953,
+        "restricted_s": 3.528923232404953
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 21.885333333333424,
+    "frames": 606,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_light_6102_field_estimate",
+    "supervised_frames": 606,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.513333333333257,
+    "clean_stable": true,
+    "min_margin_cm": 1.143741283105875,
+    "final_lateral_cm": 0.014301798971246171,
+    "final_heading_deg": 0.13570091614474208,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3507140274858114,
+    "angular_accel_rms_rad_s2": 0.19832970451932885,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.493333333333332,
+    "frames": 540,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_normal_6102_sluggish",
+    "supervised_frames": 540,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.041333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 0.09158532918128337,
+    "final_lateral_cm": 0.5860256162983717,
+    "final_heading_deg": 2.2937503602189655,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.229068968733543,
+    "angular_accel_rms_rad_s2": 0.1802524921698968,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.630270431359807,
+        "restricted_s": 3.630270431359807
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.5649232324049542,
+        "restricted_s": 3.5649232324049542
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.853333333333346,
+    "frames": 550,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_6102_sluggish",
+    "supervised_frames": 550,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.041333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 0.09158532918128337,
+    "final_lateral_cm": 0.5860256162983717,
+    "final_heading_deg": 2.2937503602189655,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.229068968733543,
+    "angular_accel_rms_rad_s2": 0.1802524921698968,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.630270431359807,
+        "restricted_s": 3.630270431359807
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.5649232324049542,
+        "restricted_s": 3.5649232324049542
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.853333333333346,
+    "frames": 550,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_light_6102_sluggish",
+    "supervised_frames": 550,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.457333333333256,
+    "clean_stable": true,
+    "min_margin_cm": 1.3444257995393656,
+    "final_lateral_cm": 0.01439471036418638,
+    "final_heading_deg": 0.11905169326436488,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.508659895037164,
+    "angular_accel_rms_rad_s2": 0.18228188490428654,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.45733333333333,
+    "frames": 539,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_normal_6102_sluggish",
+    "supervised_frames": 539,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.40133333333333,
+    "clean_stable": true,
+    "min_margin_cm": 1.409357991471822,
+    "final_lateral_cm": 0.5081499541110759,
+    "final_heading_deg": 2.1174398514949146,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2292536474295326,
+    "angular_accel_rms_rad_s2": 0.18401969281800012,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.186270431359801,
+        "restricted_s": 4.186270431359801
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.9049232324049683,
+        "restricted_s": 3.9049232324049683
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.409333333333368,
+    "frames": 565,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_6102_sluggish",
+    "supervised_frames": 565,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.40133333333333,
+    "clean_stable": true,
+    "min_margin_cm": 1.409357991471822,
+    "final_lateral_cm": 0.5081499541110759,
+    "final_heading_deg": 2.1174398514949146,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2292536474295326,
+    "angular_accel_rms_rad_s2": 0.18401969281800012,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.186270431359801,
+        "restricted_s": 4.186270431359801
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.9049232324049683,
+        "restricted_s": 3.9049232324049683
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.409333333333368,
+    "frames": 565,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_light_6102_sluggish",
+    "supervised_frames": 565,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.593333333333298,
+    "clean_stable": true,
+    "min_margin_cm": 0.8984040786572862,
+    "final_lateral_cm": 0.007395804269918926,
+    "final_heading_deg": 0.039145166753480454,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.8773636490637133,
+    "angular_accel_rms_rad_s2": 0.19918601055713492,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.609333333333375,
+    "frames": 571,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_normal_6102_sluggish",
+    "supervised_frames": 571,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.725333333333342,
+    "clean_stable": false,
+    "min_margin_cm": -0.028250332002206946,
+    "final_lateral_cm": 0.33045697224518733,
+    "final_heading_deg": 1.604706979443631,
+    "outside_s": 0.03599999999999959,
+    "accel_rms_cm_s2": 2.590568154777689,
+    "angular_accel_rms_rad_s2": 0.20818481715638576,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.9342704313598036,
+        "restricted_s": 3.9342704313598036
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 4.012923232404972,
+        "restricted_s": 4.012923232404972
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 21.83333333333342,
+    "frames": 605,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_6102_sluggish",
+    "supervised_frames": 605,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.725333333333342,
+    "clean_stable": false,
+    "min_margin_cm": -0.028250332002206946,
+    "final_lateral_cm": 0.33045697224518733,
+    "final_heading_deg": 1.604706979443631,
+    "outside_s": 0.03599999999999959,
+    "accel_rms_cm_s2": 2.590568154777689,
+    "angular_accel_rms_rad_s2": 0.20818481715638576,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.9342704313598036,
+        "restricted_s": 3.9342704313598036
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 4.012923232404972,
+        "restricted_s": 4.012923232404972
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 21.83333333333342,
+    "frames": 605,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_light_6102_sluggish",
+    "supervised_frames": 605,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.825333333333308,
+    "clean_stable": true,
+    "min_margin_cm": 0.8984040786572862,
+    "final_lateral_cm": 0.0051555820737137475,
+    "final_heading_deg": 0.021986774794534033,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.442791825517567,
+    "angular_accel_rms_rad_s2": 0.2258008149919317,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 20.877333333333386,
+    "frames": 578,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_normal_6102_sluggish",
+    "supervised_frames": 578,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 20.069333333333354,
+    "clean_stable": false,
+    "min_margin_cm": -0.49036094350095283,
+    "final_lateral_cm": 0.30525254588867484,
+    "final_heading_deg": 1.2346087866112996,
+    "outside_s": 1.0799999999999885,
+    "accel_rms_cm_s2": 2.5967426349858216,
+    "angular_accel_rms_rad_s2": 0.2138629623450769,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.2942704313597995,
+        "restricted_s": 4.2942704313597995
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.9409232324049697,
+        "restricted_s": 3.9409232324049697
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 22.229333333333436,
+    "frames": 616,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_6102_sluggish",
+    "supervised_frames": 616,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 20.069333333333354,
+    "clean_stable": false,
+    "min_margin_cm": -0.49036094350095283,
+    "final_lateral_cm": 0.30525254588867484,
+    "final_heading_deg": 1.2346087866112996,
+    "outside_s": 1.0799999999999885,
+    "accel_rms_cm_s2": 2.5967426349858216,
+    "angular_accel_rms_rad_s2": 0.2138629623450769,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.2942704313597995,
+        "restricted_s": 4.2942704313597995
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.9409232324049697,
+        "restricted_s": 3.9409232324049697
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 22.229333333333436,
+    "frames": 616,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_light_6102_sluggish",
+    "supervised_frames": 616,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.27733333333325,
+    "clean_stable": true,
+    "min_margin_cm": 1.1096831247471357,
+    "final_lateral_cm": 0.004074921610396132,
+    "final_heading_deg": 0.10220943559149313,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.527994930326629,
+    "angular_accel_rms_rad_s2": 0.4387803447180658,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.277333333333324,
+    "frames": 534,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_normal_6102_unequal_sides",
+    "supervised_frames": 534,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.809333333333306,
+    "clean_stable": true,
+    "min_margin_cm": 0.18016729031760192,
+    "final_lateral_cm": 0.5755661807802994,
+    "final_heading_deg": 2.2605814652981215,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.721194008641733,
+    "angular_accel_rms_rad_s2": 0.41287775412494565,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.466270431359809,
+        "restricted_s": 3.466270431359809
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.3289232324049465,
+        "restricted_s": 3.3289232324049465
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.637333333333338,
+    "frames": 544,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_6102_unequal_sides",
+    "supervised_frames": 544,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.809333333333306,
+    "clean_stable": true,
+    "min_margin_cm": 0.18016729031760192,
+    "final_lateral_cm": 0.5755661807802994,
+    "final_heading_deg": 2.2605814652981215,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.721194008641733,
+    "angular_accel_rms_rad_s2": 0.41287775412494565,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.466270431359809,
+        "restricted_s": 3.466270431359809
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.3289232324049465,
+        "restricted_s": 3.3289232324049465
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.637333333333338,
+    "frames": 544,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_left_mild_light_6102_unequal_sides",
+    "supervised_frames": 544,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.225333333333246,
+    "clean_stable": true,
+    "min_margin_cm": 1.2946164860693585,
+    "final_lateral_cm": 0.0034999421440176093,
+    "final_heading_deg": 0.08479020471948488,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.654531120733679,
+    "angular_accel_rms_rad_s2": 0.3547280625084801,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 19.221333333333323,
+    "frames": 532,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_normal_6102_unequal_sides",
+    "supervised_frames": 532,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.061333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 1.3726151861294085,
+    "final_lateral_cm": 0.47233737660674535,
+    "final_heading_deg": 2.170128102249454,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.519675726137962,
+    "angular_accel_rms_rad_s2": 0.4142871583709036,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.9342704313598036,
+        "restricted_s": 3.9342704313598036
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.5649232324049542,
+        "restricted_s": 3.5649232324049542
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.141333333333357,
+    "frames": 558,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_6102_unequal_sides",
+    "supervised_frames": 558,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.061333333333316,
+    "clean_stable": true,
+    "min_margin_cm": 1.3726151861294085,
+    "final_lateral_cm": 0.47233737660674535,
+    "final_heading_deg": 2.170128102249454,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.519675726137962,
+    "angular_accel_rms_rad_s2": 0.4142871583709036,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.9342704313598036,
+        "restricted_s": 3.9342704313598036
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.5649232324049542,
+        "restricted_s": 3.5649232324049542
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.141333333333357,
+    "frames": 558,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 2.1487353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 2.1487353905506126,
+      "initial_margin_cm": 2.1487353905506126,
+      "pose": [
+        43.68187488521839,
+        -0.27997686354602,
+        1.5757194289884762
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\east_W_right_mild_light_6102_unequal_sides",
+    "supervised_frames": 558,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.35733333333329,
+    "clean_stable": true,
+    "min_margin_cm": 0.8945148617677461,
+    "final_lateral_cm": 0.0005758163391220705,
+    "final_heading_deg": 0.11895139437370962,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.1614686740075,
+    "angular_accel_rms_rad_s2": 0.4844871400396045,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.393333333333366,
+    "frames": 565,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_normal_6102_unequal_sides",
+    "supervised_frames": 565,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.45733333333333,
+    "clean_stable": true,
+    "min_margin_cm": 0.7292650795190649,
+    "final_lateral_cm": 0.2955701729416944,
+    "final_heading_deg": 1.299173643411284,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.394794623678158,
+    "angular_accel_rms_rad_s2": 0.4682320898763147,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.9182704313598036,
+        "restricted_s": 3.9182704313598036
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.4929232324049515,
+        "restricted_s": 3.4929232324049515
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 21.52533333333341,
+    "frames": 596,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_6102_unequal_sides",
+    "supervised_frames": 596,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.45733333333333,
+    "clean_stable": true,
+    "min_margin_cm": 0.7292650795190649,
+    "final_lateral_cm": 0.2955701729416944,
+    "final_heading_deg": 1.299173643411284,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.394794623678158,
+    "angular_accel_rms_rad_s2": 0.4682320898763147,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 3.9182704313598036,
+        "restricted_s": 3.9182704313598036
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.4929232324049515,
+        "restricted_s": 3.4929232324049515
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 21.52533333333341,
+    "frames": 596,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        -41.68187488521839,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\south_N_right_mild_light_6102_unequal_sides",
+    "supervised_frames": 596,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.593333333333298,
+    "clean_stable": true,
+    "min_margin_cm": 0.8943641702502276,
+    "final_lateral_cm": 0.0026732428386130203,
+    "final_heading_deg": 0.0417181022451355,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.191668748702426,
+    "angular_accel_rms_rad_s2": 0.423628571729936,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 20.645333333333376,
+    "frames": 572,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_normal_6102_unequal_sides",
+    "supervised_frames": 572,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.853333333333346,
+    "clean_stable": false,
+    "min_margin_cm": -0.3310154572200972,
+    "final_lateral_cm": 0.23409720759399302,
+    "final_heading_deg": 1.1902385813203116,
+    "outside_s": 0.4639999999999951,
+    "accel_rms_cm_s2": 5.410208567455772,
+    "angular_accel_rms_rad_s2": 0.45738248267167275,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.314270431359799,
+        "restricted_s": 4.314270431359799
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.2769232324049433,
+        "restricted_s": 3.2769232324049433
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 21.977333333333426,
+    "frames": 609,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_6102_unequal_sides",
+    "supervised_frames": 609,
+    "source": "teacher"
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.853333333333346,
+    "clean_stable": false,
+    "min_margin_cm": -0.3310154572200972,
+    "final_lateral_cm": 0.23409720759399302,
+    "final_heading_deg": 1.1902385813203116,
+    "outside_s": 0.4639999999999951,
+    "accel_rms_cm_s2": 5.410208567455772,
+    "angular_accel_rms_rad_s2": 0.45738248267167275,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.799062901973445,
+        "recovered": true,
+        "recovery_s": 4.314270431359799,
+        "restricted_s": 4.314270431359799
+      },
+      {
+        "event_end_s": 15.496410100928362,
+        "recovered": true,
+        "recovery_s": 3.2769232324049433,
+        "restricted_s": 3.2769232324049433
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 6102,
+    "preset": "unequal_sides",
+    "outcome": "stable_exit",
+    "simulated_s": 21.977333333333426,
+    "frames": 609,
+    "push_exposure_s": 0.7098780775501226,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.8987353905506126,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.8987353905506126,
+      "initial_margin_cm": 0.8987353905506126,
+      "pose": [
+        -0.27997686354602,
+        43.56812511478161,
+        -3.1366695513962135
+      ]
+    },
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\data\\teacher\\center_N_right_mild_light_6102_unequal_sides",
+    "supervised_frames": 609,
+    "source": "teacher"
+  }
+]

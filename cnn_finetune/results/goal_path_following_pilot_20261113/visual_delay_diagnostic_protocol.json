@@ -1,0 +1,11 @@
+{
+  "source_sha256": "854b8fec9bf4a3004301c74263db648f606b545ae92e1fde19b8dcde35886d61",
+  "pilot_source_sha256": "bae802a109e4168bc7cf5997289f1efa649843aed932d17b6fb765252410af85",
+  "hypothesis": "The identified actuator anticipation error also contributes under image-map feedback",
+  "cases": "same8sluggish nominal cases, both training-independent development seeds, all4movements",
+  "change": "fixed controller prediction horizon .15->.40s; prior,nominal motion model,motor coefficients,gains,path,speed,allocator,observer unchanged",
+  "privileged_information": "0.40s equals known simulator sluggish delay+time_constant; not an online estimate",
+  "nominal_action_replay_max_error": 0.0,
+  "final_exam_used": false,
+  "new_training": false
+}

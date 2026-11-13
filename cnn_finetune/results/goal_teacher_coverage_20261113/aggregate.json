@@ -1,0 +1,34 @@
+{
+  "original": {
+    "normal": {
+      "n": 168,
+      "clean": 153,
+      "stable": 168,
+      "rejected": 0,
+      "projected": 0
+    },
+    "mild": {
+      "n": 168,
+      "clean": 87,
+      "stable": 152,
+      "rejected": 0,
+      "projected": 0
+    }
+  },
+  "centered": {
+    "normal": {
+      "n": 168,
+      "clean": 162,
+      "stable": 168,
+      "rejected": 0,
+      "projected": 0
+    },
+    "mild": {
+      "n": 168,
+      "clean": 82,
+      "stable": 152,
+      "rejected": 0,
+      "projected": 0
+    }
+  }
+}

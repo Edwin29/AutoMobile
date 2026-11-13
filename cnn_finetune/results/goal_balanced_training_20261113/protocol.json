@@ -1,0 +1,31 @@
+{
+  "source_sha256": "11f1d0790f1779233fe04d2e5874d49716473759430c8c6e3961dfcc6264f850",
+  "loss_source_sha256": "b98f157e27caad62297f1ea10897f918399edae43880a01a3c23390b131e70d0",
+  "old_data_sha256": "4d352d87f80a75ec97aefe18f0e49692756bd748c88456625a07aabf4ba5a449",
+  "new_collection_protocol_sha256": "d708c899b1d2dc611cdaeea5d734755f9205995af73cbdf8a91bb762d0cd9692",
+  "encoder_sha256": "e163bbdd809f99794f741ddc29af630cea6629e26611e9abbe47f401986eed11",
+  "old_seed17_initial_sha256": "13862d4a15abf7222e2db29ebdb853a9f4ec013d0ae913d3a17685eae23f2079",
+  "arms": [
+    "balanced",
+    "balanced_light"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "first_seed": 17,
+  "updates": 2400,
+  "model": "same frozenCNN features -> LayerNorm/128 -> GRU64 ->32 -> signedPWM2;190050trainable parameters",
+  "optimizer": "unchanged AdamW5e-4 weight_decay1e-4,cosine to5e-5,gradient clip1",
+  "loss": "unchanged equal-episode turn-weighted SmoothL1 beta.05,turnweight3 when abs(labelL-labelR)>.15",
+  "sampling": "7entire episodes,28moves visited once/4updates. Existing three physical/visual families normal,mild,mild_light sampled uniformly among nonempty pools; primary RNG221.",
+  "normal_pool": "eligible old normal + all new normal. Existing mild/mild_light pools unchanged.",
+  "lighting_ablation": "balanced_light replaces new normal sequence by its exact-physics normal_light partner with probability.5 using separate RNG224; balanced uses typical images. Identical physical sample order across arms verified.",
+  "expected_raw_episodes": 1848,
+  "expected_eligible": 1786,
+  "selection": "fixed final update2400; no driving-selected checkpoint; intermediates600/1200/1800diagnostic only",
+  "evaluation": "6902nominal fresh-development comparison first,6901regression separate; weak compound/strong-light and3initializations still required before goal completion",
+  "limitations": "Dataset expansion changes initial-pose and camera-seed coverage together. Lighting-pair comparison isolates that augmentation within the expanded data; no claim of new outcome loss.",
+  "final_exam_used": false
+}

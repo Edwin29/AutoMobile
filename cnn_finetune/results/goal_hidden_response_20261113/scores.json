@@ -1,0 +1,6496 @@
+[
+  {
+    "name": "natural_00",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": 9.393333333333276,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_E_left_22001_field_estimate_normal",
+    "visual_frame_fraction": 0.5277777777777778,
+    "usable_intervals": 17,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.6024391486234215,
+      "w_rmse_rad_s": 0.03672051252924454,
+      "combined_rmse": 0.7686428680625818
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.024229567859733677,
+      "w_rmse_rad_s": 0.0026778834079626748,
+      "combined_rmse": 0.04241439640089084
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.024229567859733677,
+      "w_rmse_rad_s": 0.0026778834079626748,
+      "combined_rmse": 0.04241439640089084
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.03167614963068117,
+      "w_rmse_rad_s": 0.0047200594374948975,
+      "combined_rmse": 0.06905449210749585
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.39333333333333326,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.1613333333333005,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.787806206751,
+        0.05766457005347665,
+        0.7818272741991167,
+        -0.0008084014880769013
+      ],
+      "loss": 0.0002705138224145691
+    }
+  },
+  {
+    "name": "natural_01",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_E_left_22001_sluggish_normal",
+    "visual_frame_fraction": 0.55,
+    "usable_intervals": 24,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.4260499573834257,
+      "w_rmse_rad_s": 0.021933583069487703,
+      "combined_rmse": 0.5126611311435584
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.3945579910588315,
+      "w_rmse_rad_s": 0.059988809940781505,
+      "combined_rmse": 0.8739846080276099
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.3945579910588315,
+      "w_rmse_rad_s": 0.059988809940781505,
+      "combined_rmse": 0.8739846080276099
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.022210910709004147,
+      "w_rmse_rad_s": 0.007523777909794653,
+      "combined_rmse": 0.10029928766742473
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.5013333333333332,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.665333333333295,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.038297413959913,
+        -0.06144752352445628,
+        0.7208865971720677,
+        0.0007701430892835268
+      ],
+      "loss": 0.00023212277981364175
+    }
+  },
+  {
+    "name": "natural_02",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_E_left_22001_unequal_sides_normal",
+    "visual_frame_fraction": 0.5166666666666667,
+    "usable_intervals": 20,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.8200625267789731,
+      "w_rmse_rad_s": 0.042155798158411355,
+      "combined_rmse": 0.9863236591667581
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.18364937392601266,
+      "w_rmse_rad_s": 0.016831385131257315,
+      "combined_rmse": 0.2856642020663779
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.18364937392601266,
+      "w_rmse_rad_s": 0.016831385131257315,
+      "combined_rmse": 0.2856642020663779
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.14693619158935328,
+      "w_rmse_rad_s": 0.00476414347447646,
+      "combined_rmse": 0.15945547357634093
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 1,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 1,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.39333333333333326,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.449333333333297,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.979890971435122,
+        -0.14140424536387153,
+        0.7314353956746936,
+        -0.0368692561661165
+      ],
+      "loss": 0.0005192658667769727
+    }
+  },
+  {
+    "name": "natural_03",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_W_right_22001_field_estimate_normal",
+    "visual_frame_fraction": 0.5111111111111111,
+    "usable_intervals": 14,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.8171398200818787,
+      "w_rmse_rad_s": 0.04732307440586464,
+      "combined_rmse": 1.0228335569877105
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.027232243080997524,
+      "w_rmse_rad_s": 0.0024910559376994396,
+      "combined_rmse": 0.04231194689381342
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.027232243080997524,
+      "w_rmse_rad_s": 0.0024910559376994396,
+      "combined_rmse": 0.04231194689381342
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.027240275512255604,
+      "w_rmse_rad_s": 0.0031150768857957575,
+      "combined_rmse": 0.04880531309939936
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.5013333333333332,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.305333333333299,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.794888800438436,
+        0.006879366812277656,
+        0.7798819219565098,
+        -0.00019631138855501717
+      ],
+      "loss": 0.0002458621778205343
+    }
+  },
+  {
+    "name": "natural_04",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_W_right_22001_sluggish_normal",
+    "visual_frame_fraction": 0.5833333333333334,
+    "usable_intervals": 17,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.2371576080505695,
+      "w_rmse_rad_s": 0.044065844449368986,
+      "combined_rmse": 1.3633498885122954
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.4139150558611717,
+      "w_rmse_rad_s": 0.08095343028675991,
+      "combined_rmse": 1.1308669481314875
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.4139150558611717,
+      "w_rmse_rad_s": 0.08095343028675991,
+      "combined_rmse": 1.1308669481314875
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.03339649858535389,
+      "w_rmse_rad_s": 0.0064063824999499,
+      "combined_rmse": 0.08972948025085631
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.5733333333333333,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.737333333333294,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.003990987222558,
+        0.075307971335442,
+        0.7291244193268238,
+        -0.0010229184070214999
+      ],
+      "loss": 0.00016771440272377833
+    }
+  },
+  {
+    "name": "natural_05",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": 9.105333333333279,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_W_right_22001_unequal_sides_normal",
+    "visual_frame_fraction": 0.6166666666666667,
+    "usable_intervals": 20,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.222419233933416,
+      "w_rmse_rad_s": 0.044159072250755584,
+      "combined_rmse": 1.350504639894428
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.36659850256067106,
+      "w_rmse_rad_s": 0.03406858682736199,
+      "combined_rmse": 0.5749325672647257
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.36659850256067106,
+      "w_rmse_rad_s": 0.03406858682736199,
+      "combined_rmse": 0.5749325672647257
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.1312993802066343,
+      "w_rmse_rad_s": 0.007637804401611751,
+      "combined_rmse": 0.16461567580187073
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.5013333333333332,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.485333333333297,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.955543287916896,
+        -0.20530463669473611,
+        0.7546713445748908,
+        -0.03694106101261567
+      ],
+      "loss": 0.00024770658737401774
+    }
+  },
+  {
+    "name": "natural_06",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\center_N_right_22001_field_estimate_normal",
+    "visual_frame_fraction": 0.8722222222222222,
+    "usable_intervals": 41,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.6423318406259193,
+      "w_rmse_rad_s": 0.04160430533528186,
+      "combined_rmse": 0.8397114820417677
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.02934535343480221,
+      "w_rmse_rad_s": 0.002771729921430467,
+      "combined_rmse": 0.046470313429178685
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.2798354435043592,
+      "w_rmse_rad_s": 0.05557184570510643,
+      "combined_rmse": 0.7747378597748246
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.027728137523427693,
+      "w_rmse_rad_s": 0.02973999693429972,
+      "combined_rmse": 0.38761300699761425
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.028298428308921847,
+      "w_rmse_rad_s": 0.022969494413933148,
+      "combined_rmse": 0.2999413407460091
+    },
+    "improvement": -15.67167278644536,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.025,
+        "tau": 0.35000000000000003,
+        "gain": 16.204588978906376,
+        "sum": 0.37500000000000006,
+        "sum_error": 0.22500000000000003,
+        "gain_rel_error": -0.03544113220795386,
+        "plausible_sum": [
+          0.30000000000000004,
+          0.5
+        ],
+        "plausible_delay": [
+          0.0,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 13,
+        "delay": 0.1,
+        "tau": 0.35000000000000003,
+        "gain": 17.069552288637006,
+        "sum": 0.45000000000000007,
+        "sum_error": 0.30000000000000004,
+        "gain_rel_error": 0.01604477908553603,
+        "plausible_sum": [
+          0.30000000000000004,
+          0.55
+        ],
+        "plausible_delay": [
+          0.0,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.413333333333298,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 8.277333333333289,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.825843293067045,
+        -0.04326337698225449,
+        0.7037756194390318,
+        0.0016796968882596087
+      ],
+      "loss": 0.0007941614022387627
+    }
+  },
+  {
+    "name": "natural_07",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\center_N_right_22001_sluggish_normal",
+    "visual_frame_fraction": 0.8555555555555555,
+    "usable_intervals": 48,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.5522341699559579,
+      "w_rmse_rad_s": 0.021641332157001016,
+      "combined_rmse": 0.6197687189504291
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.26839604589449323,
+      "w_rmse_rad_s": 0.06004451980529964,
+      "combined_rmse": 0.8254329979250186
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.15056343935050562,
+      "w_rmse_rad_s": 0.08017417573937767,
+      "combined_rmse": 1.0530831820168003
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.017883587006439754,
+      "w_rmse_rad_s": 0.010042830063962874,
+      "combined_rmse": 0.13177593982378374
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.017782303955452494,
+      "w_rmse_rad_s": 0.008406349983018674,
+      "combined_rmse": 0.11071985377617138
+    },
+    "improvement": -0.2757948672563988,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 13,
+        "delay": 0.17500000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 14.854087280327311,
+        "sum": 0.525,
+        "sum_error": 0.125,
+        "gain_rel_error": -0.07161954497954304,
+        "plausible_sum": [
+          0.45000000000000007,
+          0.55
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.30000000000000004,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 16,
+        "delay": 0.17500000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 15.34701346751945,
+        "sum": 0.525,
+        "sum_error": 0.125,
+        "gain_rel_error": -0.04081165828003441,
+        "plausible_sum": [
+          0.42500000000000004,
+          0.55
+        ],
+        "plausible_delay": [
+          0.1,
+          0.2
+        ],
+        "plausible_tau": [
+          0.25,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.953333333333291,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 8.925333333333281,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        15.971685742865004,
+        -0.014991423646786513,
+        0.7593790049225274,
+        0.0007748264424259811
+      ],
+      "loss": 0.00027396123831837396
+    }
+  },
+  {
+    "name": "natural_08",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\center_N_right_22001_unequal_sides_normal",
+    "visual_frame_fraction": 0.8333333333333334,
+    "usable_intervals": 47,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.6495519830223672,
+      "w_rmse_rad_s": 0.01594186626417388,
+      "combined_rmse": 0.6818122634169334
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.30918375135000636,
+      "w_rmse_rad_s": 0.028855264796984744,
+      "combined_rmse": 0.48611566308652987
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.24860495853999048,
+      "w_rmse_rad_s": 0.05497410199903716,
+      "combined_rmse": 0.7566690788727671
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.15105532592468535,
+      "w_rmse_rad_s": 0.015177756834957834,
+      "combined_rmse": 0.24849402129560455
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.1494727118932999,
+      "w_rmse_rad_s": 0.0066379009061383115,
+      "combined_rmse": 0.17259352162537483
+    },
+    "improvement": -0.5565618150799598,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 8,
+        "delay": 0.025,
+        "tau": 0.35000000000000003,
+        "gain": 13.225560614531913,
+        "sum": 0.37500000000000006,
+        "sum_error": 0.22500000000000003,
+        "gain_rel_error": -0.17340246159175543,
+        "plausible_sum": [
+          0.1,
+          0.525
+        ],
+        "plausible_delay": [
+          0.0,
+          0.17500000000000002
+        ],
+        "plausible_tau": [
+          0.05,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 4.0,
+        "n": 13,
+        "delay": 0.05,
+        "tau": 0.35000000000000003,
+        "gain": 14.427744553457444,
+        "sum": 0.4,
+        "sum_error": 0.25,
+        "gain_rel_error": -0.09826596540890975,
+        "plausible_sum": [
+          0.25,
+          0.55
+        ],
+        "plausible_delay": [
+          0.0,
+          0.2
+        ],
+        "plausible_tau": [
+          0.25,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 16,
+        "delay": 0.025,
+        "tau": 0.35000000000000003,
+        "gain": 14.842204840008213,
+        "sum": 0.37500000000000006,
+        "sum_error": 0.22500000000000003,
+        "gain_rel_error": -0.07236219749948669,
+        "plausible_sum": [
+          0.25,
+          0.55
+        ],
+        "plausible_delay": [
+          0.0,
+          0.2
+        ],
+        "plausible_tau": [
+          0.25,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.701333333333294,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 8.673333333333284,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.982901687940739,
+        -0.012918950992552372,
+        0.6995558788946752,
+        -0.035860459061796274
+      ],
+      "loss": 0.0009013038542697494
+    }
+  },
+  {
+    "name": "natural_09",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\east_W_right_22001_field_estimate_normal",
+    "visual_frame_fraction": 0.2388888888888889,
+    "usable_intervals": 9,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.9558630957347408,
+      "w_rmse_rad_s": 0.06896830738776277,
+      "combined_rmse": 1.310551140716099
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.03039014062595081,
+      "w_rmse_rad_s": 0.0034661924822131916,
+      "combined_rmse": 0.0543508004722932
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.35805378277809,
+      "w_rmse_rad_s": 0.00630252563499963,
+      "combined_rmse": 0.36730845420013214
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.031120552817604837,
+      "w_rmse_rad_s": 0.013861189117351859,
+      "combined_rmse": 0.18286304186717245
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.03051157517663212,
+      "w_rmse_rad_s": 0.0037882920310998687,
+      "combined_rmse": 0.05793359707836627
+    },
+    "improvement": -5.758105695009545,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 8,
+        "delay": 0.0,
+        "tau": 0.15000000000000002,
+        "gain": 15.244705499516083,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.09257705360023316,
+        "plausible_sum": [
+          0.1,
+          0.2
+        ],
+        "plausible_delay": [
+          0.0,
+          0.025
+        ],
+        "plausible_tau": [
+          0.1,
+          0.2
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.0,
+        "tau": 0.15000000000000002,
+        "gain": 15.244705499516083,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.09257705360023316,
+        "plausible_sum": [
+          0.1,
+          0.2
+        ],
+        "plausible_delay": [
+          0.0,
+          0.025
+        ],
+        "plausible_tau": [
+          0.1,
+          0.2
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 8,
+        "delay": 0.0,
+        "tau": 0.15000000000000002,
+        "gain": 15.244705499516083,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.09257705360023316,
+        "plausible_sum": [
+          0.1,
+          0.2
+        ],
+        "plausible_delay": [
+          0.0,
+          0.025
+        ],
+        "plausible_tau": [
+          0.1,
+          0.2
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 6.729333333333305,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 7.629333333333295,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.764860099377067,
+        -0.00490915617395143,
+        0.8150656771130506,
+        -0.00024714661779651675
+      ],
+      "loss": 0.0003363616182102901
+    }
+  },
+  {
+    "name": "natural_10",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": 9.06933333333328,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\east_W_right_22001_sluggish_normal",
+    "visual_frame_fraction": 0.23333333333333334,
+    "usable_intervals": 10,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.6966618671072475,
+      "w_rmse_rad_s": 0.020488938487598668,
+      "combined_rmse": 0.7458440738788972
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.24544836495765646,
+      "w_rmse_rad_s": 0.04763958094230556,
+      "combined_rmse": 0.6661797163596102
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.3953451508116726,
+      "w_rmse_rad_s": 0.01398254991906819,
+      "combined_rmse": 0.4351313203490812
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013171690923455692,
+      "w_rmse_rad_s": 0.022662402306912736,
+      "combined_rmse": 0.29490552771680034
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.014402533134866408,
+      "w_rmse_rad_s": 0.014562903678386592,
+      "combined_rmse": 0.18986480084515175
+    },
+    "improvement": 0.3468259245014401,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 9,
+        "delay": 0.1,
+        "tau": 0.35000000000000003,
+        "gain": 14.276814185624762,
+        "sum": 0.45000000000000007,
+        "sum_error": 0.050000000000000044,
+        "gain_rel_error": -0.1076991133984524,
+        "plausible_sum": [
+          0.4,
+          0.5
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.30000000000000004,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 9,
+        "delay": 0.1,
+        "tau": 0.35000000000000003,
+        "gain": 14.276814185624762,
+        "sum": 0.45000000000000007,
+        "sum_error": 0.050000000000000044,
+        "gain_rel_error": -0.1076991133984524,
+        "plausible_sum": [
+          0.4,
+          0.5
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.30000000000000004,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.269333333333299,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 8.20533333333329,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        15.962311821318565,
+        -0.007246066117363413,
+        0.7981239285072022,
+        0.0005001470848137308
+      ],
+      "loss": 0.00021920047795446793
+    }
+  },
+  {
+    "name": "natural_11",
+    "group": "natural",
+    "seed": 22001,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\east_W_right_22001_unequal_sides_normal",
+    "visual_frame_fraction": 0.2611111111111111,
+    "usable_intervals": 9,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.7959617989413078,
+      "w_rmse_rad_s": 0.02496806250593691,
+      "combined_rmse": 0.8595990262498241
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.30815908656470636,
+      "w_rmse_rad_s": 0.028142974843727298,
+      "combined_rmse": 0.4783456817183918
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.15922070963816895,
+      "w_rmse_rad_s": 0.04636794129815771,
+      "combined_rmse": 0.6234571878136066
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.13492498961313834,
+      "w_rmse_rad_s": 0.015275279095985984,
+      "combined_rmse": 0.24007962099872307
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.14335831601103843,
+      "w_rmse_rad_s": 0.004136291625335739,
+      "combined_rmse": 0.15311111093183527
+    },
+    "improvement": -0.303361170887801,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.0,
+        "tau": 0.25,
+        "gain": 15.001316922515837,
+        "sum": 0.25,
+        "sum_error": 0.09999999999999998,
+        "gain_rel_error": -0.06241769234276018,
+        "plausible_sum": [
+          0.1,
+          0.35000000000000003
+        ],
+        "plausible_delay": [
+          0.0,
+          0.05
+        ],
+        "plausible_tau": [
+          0.1,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 8,
+        "delay": 0.0,
+        "tau": 0.25,
+        "gain": 15.001316922515837,
+        "sum": 0.25,
+        "sum_error": 0.09999999999999998,
+        "gain_rel_error": -0.06241769234276018,
+        "plausible_sum": [
+          0.1,
+          0.35000000000000003
+        ],
+        "plausible_delay": [
+          0.0,
+          0.05
+        ],
+        "plausible_tau": [
+          0.1,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 6.9813333333333025,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 7.989333333333291,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.953428959971035,
+        0.004869454633037573,
+        0.6935609404237966,
+        -0.035064865981561055
+      ],
+      "loss": 0.0007069594882809693
+    }
+  },
+  {
+    "name": "natural_12",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_E_left_22002_field_estimate_normal",
+    "visual_frame_fraction": 0.5611111111111111,
+    "usable_intervals": 16,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.7531553465837966,
+      "w_rmse_rad_s": 0.05120425802102494,
+      "combined_rmse": 1.0051567175124998
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.0206279821415647,
+      "w_rmse_rad_s": 0.002438259246178858,
+      "combined_rmse": 0.0378184733278483
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.0206279821415647,
+      "w_rmse_rad_s": 0.002438259246178858,
+      "combined_rmse": 0.0378184733278483
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.019220624443918064,
+      "w_rmse_rad_s": 0.0024249360991729133,
+      "combined_rmse": 0.03692161498893702
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 0,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 0,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 1,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.2853333333333333,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 6.873333333333304,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.800726910554882,
+        -0.03429505405510965,
+        0.775645323103178,
+        0.00039480248777464303
+      ],
+      "loss": 0.0002705466805690036
+    }
+  },
+  {
+    "name": "natural_13",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": 11.013333333333257,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_E_left_22002_sluggish_normal",
+    "visual_frame_fraction": 0.6388888888888888,
+    "usable_intervals": 19,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.7185331868002888,
+      "w_rmse_rad_s": 0.041239559915626875,
+      "combined_rmse": 0.896497886543645
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.40257882753882507,
+      "w_rmse_rad_s": 0.08502743631586991,
+      "combined_rmse": 1.1763856021528267
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.40257882753882507,
+      "w_rmse_rad_s": 0.08502743631586991,
+      "combined_rmse": 1.1763856021528267
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.020190155384107945,
+      "w_rmse_rad_s": 0.007978561715423063,
+      "combined_rmse": 0.10566811688180162
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 2,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.2853333333333333,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.377333333333298,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        15.966355200685554,
+        0.0009428564876123803,
+        0.7528452947817753,
+        -0.00034883108076951653
+      ],
+      "loss": 8.148992493380478e-05
+    }
+  },
+  {
+    "name": "natural_14",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_E_left_22002_unequal_sides_normal",
+    "visual_frame_fraction": 0.6444444444444445,
+    "usable_intervals": 15,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.6012880186110632,
+      "w_rmse_rad_s": 0.06914806370929479,
+      "combined_rmse": 1.8363521354411299
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.20470086239149513,
+      "w_rmse_rad_s": 0.019197663676580493,
+      "combined_rmse": 0.32278079586900676
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.20470086239149513,
+      "w_rmse_rad_s": 0.019197663676580493,
+      "combined_rmse": 0.32278079586900676
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.13372467708370694,
+      "w_rmse_rad_s": 0.0031862040543072625,
+      "combined_rmse": 0.13999271313797837
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 0,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 0,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 0,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.2853333333333333,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.125333333333301,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.977895645694426,
+        -0.254567232114701,
+        0.7371943245722392,
+        -0.035640811196327414
+      ],
+      "loss": 0.0005255173966537939
+    }
+  },
+  {
+    "name": "natural_15",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_W_right_22002_field_estimate_normal",
+    "visual_frame_fraction": 0.5722222222222222,
+    "usable_intervals": 21,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.1402436762017512,
+      "w_rmse_rad_s": 0.05151833611477729,
+      "combined_rmse": 1.322386148100481
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.02788290729453772,
+      "w_rmse_rad_s": 0.003002055647984212,
+      "combined_rmse": 0.0479639621006559
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.02788290729453772,
+      "w_rmse_rad_s": 0.003002055647984212,
+      "combined_rmse": 0.0479639621006559
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.029046088132756845,
+      "w_rmse_rad_s": 0.00517330408529224,
+      "combined_rmse": 0.07325732002790036
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.24933333333333335,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.017333333333302,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.785012699617035,
+        0.02478833581647134,
+        0.7859728514617069,
+        -0.00038526991072148877
+      ],
+      "loss": 0.00018886444697797217
+    }
+  },
+  {
+    "name": "natural_16",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": 9.105333333333279,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_W_right_22002_sluggish_normal",
+    "visual_frame_fraction": 0.6388888888888888,
+    "usable_intervals": 17,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.8532529477766753,
+      "w_rmse_rad_s": 0.04828471163598788,
+      "combined_rmse": 1.0592683577511417
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.4034119095569512,
+      "w_rmse_rad_s": 0.08842504685693638,
+      "combined_rmse": 1.2182570725595936
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.4034119095569512,
+      "w_rmse_rad_s": 0.08842504685693638,
+      "combined_rmse": 1.2182570725595936
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.021880196879132553,
+      "w_rmse_rad_s": 0.0059316921557119795,
+      "combined_rmse": 0.08015611801205459
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.24933333333333335,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.485333333333297,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        15.97498516986734,
+        -0.027272447319860192,
+        0.7488095303389644,
+        0.0006143459341731212
+      ],
+      "loss": 0.0001459818571776694
+    }
+  },
+  {
+    "name": "natural_17",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\north_W_right_22002_unequal_sides_normal",
+    "visual_frame_fraction": 0.5888888888888889,
+    "usable_intervals": 16,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.9831647909077733,
+      "w_rmse_rad_s": 0.05228718040718158,
+      "combined_rmse": 1.1952616562010296
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.3710762460092214,
+      "w_rmse_rad_s": 0.03463577661222285,
+      "combined_rmse": 0.5834691397076378
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.3710762460092214,
+      "w_rmse_rad_s": 0.03463577661222285,
+      "combined_rmse": 0.5834691397076378
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.14206983655988953,
+      "w_rmse_rad_s": 0.003131222564571924,
+      "combined_rmse": 0.14778636003608445
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 3,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 0.24933333333333335,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": 7.269333333333299,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.97465345410836,
+        -0.19342153906647663,
+        0.73667893726481,
+        -0.03679161766409194
+      ],
+      "loss": 0.0004467447567180474
+    }
+  },
+  {
+    "name": "natural_18",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\center_N_right_22002_field_estimate_normal",
+    "visual_frame_fraction": 0.8833333333333333,
+    "usable_intervals": 40,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.8929064211394357,
+      "w_rmse_rad_s": 0.03440197045779849,
+      "combined_rmse": 0.9986453967625981
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.026840661976464644,
+      "w_rmse_rad_s": 0.003437477134109068,
+      "combined_rmse": 0.05212837254668679
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.0777053621349649,
+      "w_rmse_rad_s": 0.1138091096547309,
+      "combined_rmse": 1.4815575907579697
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.03119466881561381,
+      "w_rmse_rad_s": 0.003669921998977523,
+      "combined_rmse": 0.057002234222841744
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.038883487824119545,
+      "w_rmse_rad_s": 0.015421190821118235,
+      "combined_rmse": 0.2042115177384839
+    },
+    "improvement": -27.42132831657211,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 13,
+        "delay": 0.05,
+        "tau": 0.15000000000000002,
+        "gain": 16.87144515956408,
+        "sum": 0.2,
+        "sum_error": 0.04999999999999999,
+        "gain_rel_error": 0.004252688069290356,
+        "plausible_sum": [
+          0.15000000000000002,
+          0.30000000000000004
+        ],
+        "plausible_delay": [
+          0.0,
+          0.1
+        ],
+        "plausible_tau": [
+          0.1,
+          0.30000000000000004
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.053333333333302,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 7.953333333333291,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.843032405846312,
+        0.05509750249387606,
+        0.7728524964243195,
+        -0.0015129565623160372
+      ],
+      "loss": 0.0009483793643376156
+    }
+  },
+  {
+    "name": "natural_19",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\center_N_right_22002_sluggish_normal",
+    "visual_frame_fraction": 0.8611111111111112,
+    "usable_intervals": 47,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.4042989618950915,
+      "w_rmse_rad_s": 0.02583353854678874,
+      "combined_rmse": 0.525588689214134
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.25772975572841555,
+      "w_rmse_rad_s": 0.061683786181996325,
+      "combined_rmse": 0.8422891123165154
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.11196837675871063,
+      "w_rmse_rad_s": 0.26761746096514794,
+      "combined_rmse": 3.480828311230543
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.0220302458163878,
+      "w_rmse_rad_s": 0.006873491239676608,
+      "combined_rmse": 0.09203106409595319
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.021646001997469723,
+      "w_rmse_rad_s": 0.005777789349526957,
+      "combined_rmse": 0.0781680945986479
+    },
+    "improvement": -3.1325813907974593,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 11,
+        "delay": 0.15000000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 15.416122609690822,
+        "sum": 0.5,
+        "sum_error": 0.09999999999999998,
+        "gain_rel_error": -0.03649233689432363,
+        "plausible_sum": [
+          0.47500000000000003,
+          0.55
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.35000000000000003,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 15,
+        "delay": 0.17500000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 15.88454978424025,
+        "sum": 0.525,
+        "sum_error": 0.125,
+        "gain_rel_error": -0.00721563848498441,
+        "plausible_sum": [
+          0.47500000000000003,
+          0.55
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.30000000000000004,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.629333333333295,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 8.601333333333285,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        15.972556343958518,
+        0.0023751806983255677,
+        0.7518400349126781,
+        -0.00048082498021679193
+      ],
+      "loss": 0.0001562799941805357
+    }
+  },
+  {
+    "name": "natural_20",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\center_N_right_22002_unequal_sides_normal",
+    "visual_frame_fraction": 0.8777777777777778,
+    "usable_intervals": 45,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.38655543935606207,
+      "w_rmse_rad_s": 0.025404110260639698,
+      "combined_rmse": 0.508421516028314
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.29963051826180503,
+      "w_rmse_rad_s": 0.030048470955284963,
+      "combined_rmse": 0.49231122271860717
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.11984071138337171,
+      "w_rmse_rad_s": 0.040230352957611,
+      "combined_rmse": 0.5365492853892845
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.14310033188093038,
+      "w_rmse_rad_s": 0.01242955883733294,
+      "combined_rmse": 0.21584063482802388
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.1386421040020118,
+      "w_rmse_rad_s": 0.007003166352368356,
+      "combined_rmse": 0.16586176860918325
+    },
+    "improvement": -0.0898579204154415,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 9,
+        "delay": 0.025,
+        "tau": 0.1,
+        "gain": 14.352453969365964,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.10297162691462725,
+        "plausible_sum": [
+          0.1,
+          0.2
+        ],
+        "plausible_delay": [
+          0.0,
+          0.05
+        ],
+        "plausible_tau": [
+          0.1,
+          0.2
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 14,
+        "delay": 0.025,
+        "tau": 0.15000000000000002,
+        "gain": 15.353624477272723,
+        "sum": 0.17500000000000002,
+        "sum_error": 0.024999999999999994,
+        "gain_rel_error": -0.04039847017045484,
+        "plausible_sum": [
+          0.07500000000000001,
+          0.4
+        ],
+        "plausible_delay": [
+          0.0,
+          0.07500000000000001
+        ],
+        "plausible_tau": [
+          0.05,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": 7.413333333333298,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 8.349333333333288,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.9916125797968,
+        -0.029321588248007457,
+        0.7676712243787052,
+        -0.04222360154732938
+      ],
+      "loss": 0.0010602439902080978
+    }
+  },
+  {
+    "name": "natural_21",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "field_estimate",
+    "condition": "normal",
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\east_W_right_22002_field_estimate_normal",
+    "visual_frame_fraction": 0.18888888888888888,
+    "usable_intervals": 7,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.34967212468839304,
+      "w_rmse_rad_s": 0.020746323097947092,
+      "combined_rmse": 0.4415992205794309
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.03132344344022894,
+      "w_rmse_rad_s": 0.003266856335306388,
+      "combined_rmse": 0.05277106510463895
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.03132344344022894,
+      "w_rmse_rad_s": 0.003266856335306388,
+      "combined_rmse": 0.05277106510463895
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.031295312334632716,
+      "w_rmse_rad_s": 0.004798827660940986,
+      "combined_rmse": 0.06979437515661917
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 6.3693333333333095,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 7.341333333333298,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.7610862261328,
+        -0.0006369530816829946,
+        0.7851578512127098,
+        0.0011837316556831436
+      ],
+      "loss": 0.00031763808862572305
+    }
+  },
+  {
+    "name": "natural_22",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": 11.62533333333325,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\east_W_right_22002_sluggish_normal",
+    "visual_frame_fraction": 0.17777777777777778,
+    "usable_intervals": 8,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.46877731063503764,
+      "w_rmse_rad_s": 0.0176076459888946,
+      "combined_rmse": 0.5216772002923729
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.21600149339434033,
+      "w_rmse_rad_s": 0.049537493252242076,
+      "combined_rmse": 0.6792469597448172
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.21600149339434033,
+      "w_rmse_rad_s": 0.049537493252242076,
+      "combined_rmse": 0.6792469597448172
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.021628686313689267,
+      "w_rmse_rad_s": 0.017913506970299108,
+      "combined_rmse": 0.23387783301421133
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 6.945333333333303,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 7.917333333333292,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        15.952799946531757,
+        -0.0042357660329516295,
+        0.78159955246396,
+        0.0005417050429211502
+      ],
+      "loss": 0.00021341818546519796
+    }
+  },
+  {
+    "name": "natural_23",
+    "group": "natural",
+    "seed": 22002,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "turn_proxy_s": null,
+    "source": "D:\\autodrive_cnn\\runs\\goal_path_following_pilot_20261113\\vision\\east_W_right_22002_unequal_sides_normal",
+    "visual_frame_fraction": 0.2111111111111111,
+    "usable_intervals": 8,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.42910052995304404,
+      "w_rmse_rad_s": 0.04013217117799546,
+      "combined_rmse": 0.6755125249991382
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.30742640666260557,
+      "w_rmse_rad_s": 0.02985058516246384,
+      "combined_rmse": 0.4950754507658366
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.30742640666260557,
+      "w_rmse_rad_s": 0.02985058516246384,
+      "combined_rmse": 0.4950754507658366
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.13723961759490383,
+      "w_rmse_rad_s": 0.012032625160878387,
+      "combined_rmse": 0.2080942579071029
+    },
+    "oracle_same_visual_mask_control": null,
+    "improvement": 0.0,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      }
+    ],
+    "turn_entry_s": 6.729333333333305,
+    "fit_before_turn": true,
+    "posthoc_reference_10deg_s": 7.737333333333294,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        15.96183050247192,
+        0.002754233513970934,
+        0.7021483402658468,
+        -0.03412331604516201
+      ],
+      "loss": 0.0007169780326409568
+    }
+  },
+  {
+    "name": "probe_00",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "nominal",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7944444444444444,
+    "usable_intervals": 39,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.7951072671350541,
+      "w_rmse_rad_s": 0.016857726057920932,
+      "combined_rmse": 0.824756013046643
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.018618245526579032,
+      "w_rmse_rad_s": 0.0005268228267364738,
+      "combined_rmse": 0.019837936224018186
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.06677267591665258,
+      "w_rmse_rad_s": 0.004456006311390735,
+      "combined_rmse": 0.0883982632116681
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.018646965201211223,
+      "w_rmse_rad_s": 0.0005287990187863248,
+      "combined_rmse": 0.019873764394263797
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.018711223529479216,
+      "w_rmse_rad_s": 0.0005257306129747832,
+      "combined_rmse": 0.01992034759872229
+    },
+    "improvement": -3.456021141183152,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 14,
+        "delay": 0.1,
+        "tau": 0.05,
+        "gain": 16.7398009695048,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.003583275624714388,
+        "plausible_sum": [
+          0.125,
+          0.17500000000000002
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 24,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.959382823900274,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.009487072851206646,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.79829000222725,
+        0.024309282722699145,
+        0.7756119437824925,
+        1.2766081629434924e-05
+      ],
+      "loss": 0.00014090815750218314
+    }
+  },
+  {
+    "name": "probe_01",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "nominal",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.5555555555555556,
+    "usable_intervals": 28,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.6585759124895567,
+      "w_rmse_rad_s": 0.013378521302069669,
+      "combined_rmse": 0.6811539247176888
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.018618245526579032,
+      "w_rmse_rad_s": 0.0005268228267364738,
+      "combined_rmse": 0.019837936224018186
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.24453106996591312,
+      "w_rmse_rad_s": 0.01030440992484302,
+      "combined_rmse": 0.2788189559151954
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.018646965201211223,
+      "w_rmse_rad_s": 0.0005287990187863248,
+      "combined_rmse": 0.019873764394263797
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.018620892908708143,
+      "w_rmse_rad_s": 0.0005370853935236916,
+      "combined_rmse": 0.019886867887800874
+    },
+    "improvement": -13.054836791824329,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.07500000000000001,
+        "tau": 0.05,
+        "gain": 15.70492558285365,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.06518300102061614,
+        "plausible_sum": [
+          0.1,
+          0.25
+        ],
+        "plausible_delay": [
+          0.0,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.25
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 17,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.190067907208302,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.036305481713791554,
+        "plausible_sum": [
+          0.125,
+          0.2
+        ],
+        "plausible_delay": [
+          0.0,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.79829000222725,
+        0.024309282722699145,
+        0.7756119437824925,
+        1.2766081629434924e-05
+      ],
+      "loss": 0.00014090815750218314
+    }
+  },
+  {
+    "name": "probe_02",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "low_gain",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 13.5,
+      "cm_s_per_duty_right": 13.5,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.9166666666666666,
+    "usable_intervals": 45,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.8702453772611348,
+      "w_rmse_rad_s": 0.02228044720383151,
+      "combined_rmse": 0.9171813964583206
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.316965849946003,
+      "w_rmse_rad_s": 0.012892623590698246,
+      "combined_rmse": 1.3275881087519914
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.16194763945486387,
+      "w_rmse_rad_s": 0.013060073299406779,
+      "combined_rmse": 0.23463292584378675
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01497689539942045,
+      "w_rmse_rad_s": 0.0009304737213487752,
+      "combined_rmse": 0.019251608849640833
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.014989668388812232,
+      "w_rmse_rad_s": 0.0010506922448366436,
+      "combined_rmse": 0.02027950731858084
+    },
+    "improvement": 0.8232637635897815,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.24444444444444446,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 14,
+        "delay": 0.05,
+        "tau": 0.2,
+        "gain": 13.533643963049439,
+        "sum": 0.25,
+        "sum_error": 0.09999999999999998,
+        "gain_rel_error": 0.0024921454110695684,
+        "plausible_sum": [
+          0.175,
+          0.37500000000000006
+        ],
+        "plausible_delay": [
+          0.0,
+          0.125
+        ],
+        "plausible_tau": [
+          0.05,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 23,
+        "delay": 0.07500000000000001,
+        "tau": 0.1,
+        "gain": 13.471107488618864,
+        "sum": 0.17500000000000002,
+        "sum_error": 0.024999999999999994,
+        "gain_rel_error": -0.0021401860282322938,
+        "plausible_sum": [
+          0.125,
+          0.22500000000000003
+        ],
+        "plausible_delay": [
+          0.025,
+          0.2
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        13.499230273489056,
+        0.01967006945735535,
+        0.6325354735799439,
+        5.78766137103064e-05
+      ],
+      "loss": 0.00010281549423355517
+    }
+  },
+  {
+    "name": "probe_03",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "low_gain",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 13.5,
+      "cm_s_per_duty_right": 13.5,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.75,
+    "usable_intervals": 31,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.5605906332356758,
+      "w_rmse_rad_s": 0.027818007554726056,
+      "combined_rmse": 1.6019433028456804
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.316965849946003,
+      "w_rmse_rad_s": 0.012892623590698246,
+      "combined_rmse": 1.3275881087519914
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.6573114343068256,
+      "w_rmse_rad_s": 0.008687285736064181,
+      "combined_rmse": 0.6669427047544941
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01497689539942045,
+      "w_rmse_rad_s": 0.0009304737213487752,
+      "combined_rmse": 0.019251608849640833
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.015921335943895342,
+      "w_rmse_rad_s": 0.00489210728657356,
+      "combined_rmse": 0.0655600301563679
+    },
+    "improvement": 0.4976282927229151,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.24444444444444446,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 11.419384541799614,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.15411966357039897,
+        "plausible_sum": [
+          0.1,
+          0.225
+        ],
+        "plausible_delay": [
+          0.0,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.2
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 10,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 11.839055782291496,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.12303290501544473,
+        "plausible_sum": [
+          0.1,
+          0.2
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        13.499230273489056,
+        0.01967006945735535,
+        0.6325354735799439,
+        5.78766137103064e-05
+      ],
+      "loss": 0.00010281549423355517
+    }
+  },
+  {
+    "name": "probe_04",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "delay_only",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8277777777777777,
+    "usable_intervals": 38,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.279433732270488,
+      "w_rmse_rad_s": 0.02238264549345319,
+      "combined_rmse": 1.312103948523461
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.6478198758290408,
+      "w_rmse_rad_s": 0.01851270059910104,
+      "combined_rmse": 0.6910790733526189
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.17696254190762956,
+      "w_rmse_rad_s": 0.004811747260995545,
+      "combined_rmse": 0.1876927897292129
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01807394545685257,
+      "w_rmse_rad_s": 0.0005267260220539686,
+      "combined_rmse": 0.01932756879349983
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.01808903920466567,
+      "w_rmse_rad_s": 0.0005367530232756082,
+      "combined_rmse": 0.019388215051911614
+    },
+    "improvement": 0.7284062027538145,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.09999999999999998,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 11,
+        "delay": 0.1,
+        "tau": 0.15000000000000002,
+        "gain": 16.881057718715237,
+        "sum": 0.25,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0048248642092403315,
+        "plausible_sum": [
+          0.2,
+          0.4
+        ],
+        "plausible_delay": [
+          0.0,
+          0.2
+        ],
+        "plausible_tau": [
+          0.0,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 21,
+        "delay": 0.17500000000000002,
+        "tau": 0.05,
+        "gain": 16.71301780376403,
+        "sum": 0.22500000000000003,
+        "sum_error": -0.024999999999999967,
+        "gain_rel_error": -0.005177511680712676,
+        "plausible_sum": [
+          0.2,
+          0.25
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.1,
+      "coefficients": [
+        16.803437128822424,
+        0.02932663180629085,
+        0.7762085257392963,
+        2.0771635746215435e-05
+      ],
+      "loss": 0.00014433675465353441
+    }
+  },
+  {
+    "name": "probe_05",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "delay_only",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.55,
+    "usable_intervals": 25,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.5484843330492454,
+      "w_rmse_rad_s": 0.014299972030418532,
+      "combined_rmse": 0.5791318834362624
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.6478198758290408,
+      "w_rmse_rad_s": 0.01851270059910104,
+      "combined_rmse": 0.6910790733526189
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.21701762521100534,
+      "w_rmse_rad_s": 0.011932724371771156,
+      "combined_rmse": 0.2667593383554625
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01807394545685257,
+      "w_rmse_rad_s": 0.0005267260220539686,
+      "combined_rmse": 0.01932756879349983
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.018576964995975345,
+      "w_rmse_rad_s": 0.000553625770692436,
+      "combined_rmse": 0.0199224090145603
+    },
+    "improvement": 0.6139959251531986,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.09999999999999998,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.09999999999999998,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 14,
+        "delay": 0.2,
+        "tau": 0.05,
+        "gain": 16.310165884218616,
+        "sum": 0.25,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.029156792606034765,
+        "plausible_sum": [
+          0.22500000000000003,
+          0.275
+        ],
+        "plausible_delay": [
+          0.15000000000000002,
+          0.2
+        ],
+        "plausible_tau": [
+          0.05,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.1,
+      "coefficients": [
+        16.803437128822424,
+        0.02932663180629085,
+        0.7762085257392963,
+        2.0771635746215435e-05
+      ],
+      "loss": 0.00014433675465353441
+    }
+  },
+  {
+    "name": "probe_06",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "lag_only",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8388888888888889,
+    "usable_intervals": 42,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.1133220416974958,
+      "w_rmse_rad_s": 0.02522133542231286,
+      "combined_rmse": 1.1605987816861667
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.7306219831066237,
+      "w_rmse_rad_s": 0.02085254265019645,
+      "combined_rmse": 0.7792910269020054
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.14238538752435365,
+      "w_rmse_rad_s": 0.0033229341301243684,
+      "combined_rmse": 0.1487940798515248
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01336271713726161,
+      "w_rmse_rad_s": 0.00038065268518910195,
+      "combined_rmse": 0.014249551297139429
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013420186682714904,
+      "w_rmse_rad_s": 0.0003769422314281316,
+      "combined_rmse": 0.01428684188142599
+    },
+    "improvement": 0.8090648105585907,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.14999999999999997,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 15,
+        "delay": 0.05,
+        "tau": 0.25,
+        "gain": 16.60748734815773,
+        "sum": 0.3,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.011459086419182807,
+        "plausible_sum": [
+          0.25,
+          0.4
+        ],
+        "plausible_delay": [
+          0.0,
+          0.1
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 25,
+        "delay": 0.07500000000000001,
+        "tau": 0.2,
+        "gain": 16.65590288247639,
+        "sum": 0.275,
+        "sum_error": -0.024999999999999967,
+        "gain_rel_error": -0.008577209376405381,
+        "plausible_sum": [
+          0.25,
+          0.325
+        ],
+        "plausible_delay": [
+          0.025,
+          0.1
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.25
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.25,
+      "coefficients": [
+        16.797791434391165,
+        0.01773073103652141,
+        0.7757463628189513,
+        1.627581816570679e-05
+      ],
+      "loss": 6.838359388065525e-05
+    }
+  },
+  {
+    "name": "probe_07",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "lag_only",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.5833333333333334,
+    "usable_intervals": 27,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.7147370678556528,
+      "w_rmse_rad_s": 0.013397289515147119,
+      "combined_rmse": 0.7356510321344607
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.7306219831066237,
+      "w_rmse_rad_s": 0.02085254265019645,
+      "combined_rmse": 0.7792910269020054
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.3666776330169745,
+      "w_rmse_rad_s": 0.014910675534429312,
+      "combined_rmse": 0.41476012337476814
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01336271713726161,
+      "w_rmse_rad_s": 0.00038065268518910195,
+      "combined_rmse": 0.014249551297139429
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.01331905637567503,
+      "w_rmse_rad_s": 0.00040394895182406504,
+      "combined_rmse": 0.014316905966314413
+    },
+    "improvement": 0.4677724892796391,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.14999999999999997,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.14999999999999997,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 15,
+        "delay": 0.125,
+        "tau": 0.15000000000000002,
+        "gain": 16.029308239992396,
+        "sum": 0.275,
+        "sum_error": -0.024999999999999967,
+        "gain_rel_error": -0.0458745095242622,
+        "plausible_sum": [
+          0.225,
+          0.375
+        ],
+        "plausible_delay": [
+          0.07500000000000001,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.1,
+          0.25
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.25,
+      "coefficients": [
+        16.797791434391165,
+        0.01773073103652141,
+        0.7757463628189513,
+        1.627581816570679e-05
+      ],
+      "loss": 6.838359388065525e-05
+    }
+  },
+  {
+    "name": "probe_08",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8388888888888889,
+    "usable_intervals": 39,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.228574928177922,
+      "w_rmse_rad_s": 0.021150195513193554,
+      "combined_rmse": 1.2589659464493124
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.2868400893769067,
+      "w_rmse_rad_s": 0.035355916433923704,
+      "combined_rmse": 1.3664605063340558
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.030673455176751133,
+      "w_rmse_rad_s": 0.008389423747821182,
+      "combined_rmse": 0.11329382887494656
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013459028978211973,
+      "w_rmse_rad_s": 0.0005025808861864022,
+      "combined_rmse": 0.014961041290845177
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013425216449636585,
+      "w_rmse_rad_s": 0.0006468764458216344,
+      "combined_rmse": 0.015841538458446356
+    },
+    "improvement": 0.9170895694754534,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 11,
+        "delay": 0.2,
+        "tau": 0.2,
+        "gain": 15.486838885626721,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.03207256964832994,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.525
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 21,
+        "delay": 0.15000000000000002,
+        "tau": 0.25,
+        "gain": 15.94417783954324,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.003488885028547495,
+        "plausible_sum": [
+          0.375,
+          0.4750000000000001
+        ],
+        "plausible_delay": [
+          0.1,
+          0.2
+        ],
+        "plausible_tau": [
+          0.2,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.004230459958265,
+        0.01996648650428774,
+        0.742618866617805,
+        4.580137643039203e-05
+      ],
+      "loss": 6.0635030214361156e-05
+    }
+  },
+  {
+    "name": "probe_09",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "sluggish",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7055555555555556,
+    "usable_intervals": 35,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 2.0316702295172275,
+      "w_rmse_rad_s": 0.01894850669696049,
+      "combined_rmse": 2.0465489682947116
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.2868400893769067,
+      "w_rmse_rad_s": 0.035355916433923704,
+      "combined_rmse": 1.3664605063340558
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.43571490705313953,
+      "w_rmse_rad_s": 0.007993238864480414,
+      "combined_rmse": 0.44793437671535125
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013459028978211973,
+      "w_rmse_rad_s": 0.0005025808861864022,
+      "combined_rmse": 0.014961041290845177
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013758944885890403,
+      "w_rmse_rad_s": 0.0009017820455613628,
+      "combined_rmse": 0.018075984048558324
+    },
+    "improvement": 0.672193689726847,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 8,
+        "delay": 0.17500000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 16.253539544981624,
+        "sum": 0.525,
+        "sum_error": 0.125,
+        "gain_rel_error": 0.015846221561351514,
+        "plausible_sum": [
+          0.42500000000000004,
+          0.55
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.25,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 4.0,
+        "n": 9,
+        "delay": 0.17500000000000002,
+        "tau": 0.30000000000000004,
+        "gain": 15.372278049973186,
+        "sum": 0.4750000000000001,
+        "sum_error": 0.07500000000000007,
+        "gain_rel_error": -0.039232621876675866,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.55
+        ],
+        "plausible_delay": [
+          0.1,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 16,
+        "delay": 0.2,
+        "tau": 0.2,
+        "gain": 14.94822675949352,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.06573582753165497,
+        "plausible_sum": [
+          0.30000000000000004,
+          0.525
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.1,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.004230459958265,
+        0.01996648650428774,
+        0.742618866617805,
+        4.580137643039203e-05
+      ],
+      "loss": 6.0635030214361156e-05
+    }
+  },
+  {
+    "name": "probe_10",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7388888888888889,
+    "usable_intervals": 40,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.5611295027791485,
+      "w_rmse_rad_s": 0.028511544780596643,
+      "combined_rmse": 0.6724937191419063
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.32175694029380164,
+      "w_rmse_rad_s": 0.029683354285378438,
+      "combined_rmse": 0.5024277916108123
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.09909076724396419,
+      "w_rmse_rad_s": 0.004882821437728823,
+      "combined_rmse": 0.11767866795036071
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.032874177527386014,
+      "w_rmse_rad_s": 0.000571053695291235,
+      "combined_rmse": 0.03370197087223783
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.03289044714984214,
+      "w_rmse_rad_s": 0.0005732024105767301,
+      "combined_rmse": 0.033724002184001435
+    },
+    "improvement": 0.7657799390971662,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 15,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 16.125366619157194,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": 0.007835413697324656,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 25,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.213421263672124,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.013338828979507777,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.001790519894254,
+        -0.13862144629429754,
+        0.7407824756201901,
+        -0.03679674732963905
+      ],
+      "loss": 0.0001892434777868123
+    }
+  },
+  {
+    "name": "probe_11",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "unequal_sides",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.5944444444444444,
+    "usable_intervals": 27,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.9452835639813423,
+      "w_rmse_rad_s": 0.034950969017512094,
+      "combined_rmse": 1.048811892615988
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.32175694029380164,
+      "w_rmse_rad_s": 0.029683354285378438,
+      "combined_rmse": 0.5024277916108123
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.24894609992132072,
+      "w_rmse_rad_s": 0.007817712486064759,
+      "combined_rmse": 0.26889193161014113
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.032874177527386014,
+      "w_rmse_rad_s": 0.000571053695291235,
+      "combined_rmse": 0.03370197087223783
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.03713375072567583,
+      "w_rmse_rad_s": 0.000946181061676052,
+      "combined_rmse": 0.03911795171792367
+    },
+    "improvement": 0.46481477318748987,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 5,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 13,
+        "delay": 0.1,
+        "tau": 0.05,
+        "gain": 15.624834206582005,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.023447862088624705,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.001790519894254,
+        -0.13862144629429754,
+        0.7407824756201901,
+        -0.03679674732963905
+      ],
+      "loss": 0.0001892434777868123
+    }
+  },
+  {
+    "name": "probe_12",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "nominal",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7166666666666667,
+    "usable_intervals": 29,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.2308750838777769,
+      "w_rmse_rad_s": 0.037250770715030454,
+      "combined_rmse": 1.3227098088390747
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.018618245526587703,
+      "w_rmse_rad_s": 0.0005268228267364612,
+      "combined_rmse": 0.01983793622402627
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.17291708946550594,
+      "w_rmse_rad_s": 0.0068724136260836935,
+      "combined_rmse": 0.19463350559020032
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01864696520121925,
+      "w_rmse_rad_s": 0.0005287990187863603,
+      "combined_rmse": 0.01987376439427149
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.01893107754600907,
+      "w_rmse_rad_s": 0.0005361316540276427,
+      "combined_rmse": 0.020173313448195094
+    },
+    "improvement": -8.811177099887756,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 16.20320029828601,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.035523791768689916,
+        "plausible_sum": [
+          0.125,
+          0.125
+        ],
+        "plausible_delay": [
+          0.07500000000000001,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.05
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 17,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.369557287362994,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.025621590037917086,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.798290002227244,
+        0.024309282722739103,
+        0.7756119437824963,
+        1.2766081629386804e-05
+      ],
+      "loss": 0.0001409081575022236
+    }
+  },
+  {
+    "name": "probe_13",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "nominal",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.75,
+    "usable_intervals": 38,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.684531185132183,
+      "w_rmse_rad_s": 0.01958085868732764,
+      "combined_rmse": 0.7303281714203307
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.018618245526587703,
+      "w_rmse_rad_s": 0.0005268228267364612,
+      "combined_rmse": 0.01983793622402627
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.02367294788293523,
+      "w_rmse_rad_s": 0.0063135013248388615,
+      "combined_rmse": 0.08542130289849001
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01864696520121925,
+      "w_rmse_rad_s": 0.0005287990187863603,
+      "combined_rmse": 0.01987376439427149
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.01869244250051872,
+      "w_rmse_rad_s": 0.0005287098772423165,
+      "combined_rmse": 0.019916040653975745
+    },
+    "improvement": -3.305957128495751,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 13,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.65750309330624,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.008481958731771488,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 23,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.835123767617294,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.00209070045341031,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.025,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.798290002227244,
+        0.024309282722739103,
+        0.7756119437824963,
+        1.2766081629386804e-05
+      ],
+      "loss": 0.0001409081575022236
+    }
+  },
+  {
+    "name": "probe_14",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "low_gain",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 13.5,
+      "cm_s_per_duty_right": 13.5,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.9111111111111111,
+    "usable_intervals": 42,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.8866044235669527,
+      "w_rmse_rad_s": 0.023194054033784835,
+      "combined_rmse": 0.9364738885707004
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.3169658499460017,
+      "w_rmse_rad_s": 0.012892623590698246,
+      "combined_rmse": 1.3275881087519903
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.3518453622423543,
+      "w_rmse_rad_s": 0.007057974368723033,
+      "combined_rmse": 0.3636122856855743
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.014976895399428323,
+      "w_rmse_rad_s": 0.0009304737213486922,
+      "combined_rmse": 0.019251608849646277
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.015275270628102341,
+      "w_rmse_rad_s": 0.001359916487435275,
+      "combined_rmse": 0.023364030150739797
+    },
+    "improvement": 0.7261106187314446,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.24444444444444446,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 14,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 12.24083684115099,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.09327134509992663,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 20,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 12.685254226430525,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.0603515387829241,
+        "plausible_sum": [
+          0.1,
+          0.17500000000000002
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        13.499230273489069,
+        0.019670069457238322,
+        0.6325354735799428,
+        5.787661371030063e-05
+      ],
+      "loss": 0.00010281549423344688
+    }
+  },
+  {
+    "name": "probe_15",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "low_gain",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 13.5,
+      "cm_s_per_duty_right": 13.5,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8944444444444445,
+    "usable_intervals": 49,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.6855470089783725,
+      "w_rmse_rad_s": 0.01921576537911347,
+      "combined_rmse": 0.7296418398967816
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.3169658499460017,
+      "w_rmse_rad_s": 0.012892623590698246,
+      "combined_rmse": 1.3275881087519903
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.06596453985217753,
+      "w_rmse_rad_s": 0.005932475795424222,
+      "combined_rmse": 0.10148473771758118
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.014976895399428323,
+      "w_rmse_rad_s": 0.0009304737213486922,
+      "combined_rmse": 0.019251608849646277
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.015126881986049693,
+      "w_rmse_rad_s": 0.0009453751087578719,
+      "combined_rmse": 0.01949009032528168
+    },
+    "improvement": 0.9235570603197232,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.24444444444444446,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 16,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 13.649460560456097,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": 0.01107115262637759,
+        "plausible_sum": [
+          0.125,
+          0.2
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 25,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 13.660864068230254,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.011915856905944766,
+        "plausible_sum": [
+          0.1,
+          0.2
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        13.499230273489069,
+        0.019670069457238322,
+        0.6325354735799428,
+        5.787661371030063e-05
+      ],
+      "loss": 0.00010281549423344688
+    }
+  },
+  {
+    "name": "probe_16",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "delay_only",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7055555555555556,
+    "usable_intervals": 27,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.1721287864396608,
+      "w_rmse_rad_s": 0.02507701785730694,
+      "combined_rmse": 1.216619371603364
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.6478198758290359,
+      "w_rmse_rad_s": 0.018512700599101047,
+      "combined_rmse": 0.6910790733526143
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.16703260721318058,
+      "w_rmse_rad_s": 0.004952415771481186,
+      "combined_rmse": 0.1790107739382569
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01807394545685454,
+      "w_rmse_rad_s": 0.0005267260220540253,
+      "combined_rmse": 0.019327568793501934
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.01807120144815197,
+      "w_rmse_rad_s": 0.0005576663805051801,
+      "combined_rmse": 0.019471156478712847
+    },
+    "improvement": 0.740969187404523,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.09999999999999998,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.07500000000000001,
+        "tau": 0.2,
+        "gain": 16.700813461814104,
+        "sum": 0.275,
+        "sum_error": 0.025000000000000022,
+        "gain_rel_error": -0.005903960606303382,
+        "plausible_sum": [
+          0.25,
+          0.325
+        ],
+        "plausible_delay": [
+          0.05,
+          0.1
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.25
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 16,
+        "delay": 0.15000000000000002,
+        "tau": 0.1,
+        "gain": 16.385855078671018,
+        "sum": 0.25,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.0246514834124395,
+        "plausible_sum": [
+          0.225,
+          0.275
+        ],
+        "plausible_delay": [
+          0.1,
+          0.17500000000000002
+        ],
+        "plausible_tau": [
+          0.05,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.1,
+      "coefficients": [
+        16.80343712882244,
+        0.029326631806259208,
+        0.7762085257392992,
+        2.0771635746232017e-05
+      ],
+      "loss": 0.0001443367546534366
+    }
+  },
+  {
+    "name": "probe_17",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "delay_only",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7722222222222223,
+    "usable_intervals": 36,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.9148567787628761,
+      "w_rmse_rad_s": 0.024506817414224048,
+      "combined_rmse": 0.9687422972649701
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.6478198758290359,
+      "w_rmse_rad_s": 0.018512700599101047,
+      "combined_rmse": 0.6910790733526143
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.04322331884990729,
+      "w_rmse_rad_s": 0.0035398226101400524,
+      "combined_rmse": 0.06313385341639996
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01807394545685454,
+      "w_rmse_rad_s": 0.0005267260220540253,
+      "combined_rmse": 0.019327568793501934
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.018074176804954302,
+      "w_rmse_rad_s": 0.0005226431059492811,
+      "combined_rmse": 0.019309044515820162
+    },
+    "improvement": 0.9086445301980853,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.09999999999999998,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 12,
+        "delay": 0.07500000000000001,
+        "tau": 0.25,
+        "gain": 17.19248156854049,
+        "sum": 0.325,
+        "sum_error": 0.07500000000000001,
+        "gain_rel_error": 0.023361998127410022,
+        "plausible_sum": [
+          0.275,
+          0.4
+        ],
+        "plausible_delay": [
+          0.025,
+          0.125
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 22,
+        "delay": 0.15000000000000002,
+        "tau": 0.1,
+        "gain": 16.899771499936364,
+        "sum": 0.25,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.005938779758116741,
+        "plausible_sum": [
+          0.225,
+          0.275
+        ],
+        "plausible_delay": [
+          0.1,
+          0.17500000000000002
+        ],
+        "plausible_tau": [
+          0.05,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.1,
+      "coefficients": [
+        16.80343712882244,
+        0.029326631806259208,
+        0.7762085257392992,
+        2.0771635746232017e-05
+      ],
+      "loss": 0.0001443367546534366
+    }
+  },
+  {
+    "name": "probe_18",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "lag_only",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7444444444444445,
+    "usable_intervals": 28,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.9334938123271675,
+      "w_rmse_rad_s": 0.029094444854464177,
+      "combined_rmse": 1.007207502736118
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.7306219831066182,
+      "w_rmse_rad_s": 0.02085254265019645,
+      "combined_rmse": 0.7792910269019999
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.32355084902643716,
+      "w_rmse_rad_s": 0.008014320322497253,
+      "combined_rmse": 0.3399116189759736
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013362717137267008,
+      "w_rmse_rad_s": 0.00038065268518911556,
+      "combined_rmse": 0.014249551297144551
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013769459046048179,
+      "w_rmse_rad_s": 0.0004115594028840952,
+      "combined_rmse": 0.014772386924126005
+    },
+    "improvement": 0.5638194111803634,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 4,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.14999999999999997,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.14999999999999997,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 6.0,
+        "n": 15,
+        "delay": 0.05,
+        "tau": 0.2,
+        "gain": 16.06599951798818,
+        "sum": 0.25,
+        "sum_error": -0.04999999999999999,
+        "gain_rel_error": -0.043690504881656045,
+        "plausible_sum": [
+          0.22500000000000003,
+          0.25
+        ],
+        "plausible_delay": [
+          0.05,
+          0.07500000000000001
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.2
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.25,
+      "coefficients": [
+        16.797791434391165,
+        0.017730731036510107,
+        0.7757463628189546,
+        1.627581816552193e-05
+      ],
+      "loss": 6.838359388059813e-05
+    }
+  },
+  {
+    "name": "probe_19",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "lag_only",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7611111111111111,
+    "usable_intervals": 36,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.9621180519690449,
+      "w_rmse_rad_s": 0.03958428756446538,
+      "combined_rmse": 1.0910911601879985
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.7306219831066182,
+      "w_rmse_rad_s": 0.02085254265019645,
+      "combined_rmse": 0.7792910269019999
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.05600580648229627,
+      "w_rmse_rad_s": 0.005547149361453409,
+      "combined_rmse": 0.09130677258670655
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013362717137267008,
+      "w_rmse_rad_s": 0.00038065268518911556,
+      "combined_rmse": 0.014249551297144551
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013424386919563455,
+      "w_rmse_rad_s": 0.0003763242605196129,
+      "combined_rmse": 0.014288034698885234
+    },
+    "improvement": 0.8828335378764872,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.14999999999999997,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 13,
+        "delay": 0.0,
+        "tau": 0.35000000000000003,
+        "gain": 17.36518847264791,
+        "sum": 0.35000000000000003,
+        "sum_error": 0.050000000000000044,
+        "gain_rel_error": 0.03364217099094713,
+        "plausible_sum": [
+          0.25,
+          0.37500000000000006
+        ],
+        "plausible_delay": [
+          0.0,
+          0.07500000000000001
+        ],
+        "plausible_tau": [
+          0.2,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 23,
+        "delay": 0.05,
+        "tau": 0.25,
+        "gain": 16.938984588267132,
+        "sum": 0.3,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.008272892158757816,
+        "plausible_sum": [
+          0.25,
+          0.32500000000000007
+        ],
+        "plausible_delay": [
+          0.0,
+          0.07500000000000001
+        ],
+        "plausible_tau": [
+          0.2,
+          0.30000000000000004
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.25,
+      "coefficients": [
+        16.797791434391165,
+        0.017730731036510107,
+        0.7757463628189546,
+        1.627581816552193e-05
+      ],
+      "loss": 6.838359388059813e-05
+    }
+  },
+  {
+    "name": "probe_20",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "sluggish",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8333333333333334,
+    "usable_intervals": 38,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.183058236415586,
+      "w_rmse_rad_s": 0.028965098477545418,
+      "combined_rmse": 1.2415369071796885
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.2868400893769123,
+      "w_rmse_rad_s": 0.03535591643392363,
+      "combined_rmse": 1.3664605063340607
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.22942801282003758,
+      "w_rmse_rad_s": 0.007979238626483994,
+      "combined_rmse": 0.25178790113390387
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013459028978207025,
+      "w_rmse_rad_s": 0.0005025808861865911,
+      "combined_rmse": 0.014961041290841798
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013688198790170355,
+      "w_rmse_rad_s": 0.0008795648220760982,
+      "combined_rmse": 0.017835665919800313
+    },
+    "improvement": 0.8157371545194524,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 9,
+        "delay": 0.2,
+        "tau": 0.2,
+        "gain": 15.29971768889672,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.04376764444395498,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.4750000000000001
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.30000000000000004
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 19,
+        "delay": 0.17500000000000002,
+        "tau": 0.2,
+        "gain": 15.441256516336338,
+        "sum": 0.375,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.03492146772897886,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.42500000000000004
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.25
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.004230459958297,
+        0.019966486504417583,
+        0.7426188666178083,
+        4.5801376430842176e-05
+      ],
+      "loss": 6.06350302143376e-05
+    }
+  },
+  {
+    "name": "probe_21",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "sluggish",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8333333333333334,
+    "usable_intervals": 42,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.163867032902568,
+      "w_rmse_rad_s": 0.018925944844777106,
+      "combined_rmse": 1.1895885065410823
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.2868400893769123,
+      "w_rmse_rad_s": 0.03535591643392363,
+      "combined_rmse": 1.3664605063340607
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.15614524309994401,
+      "w_rmse_rad_s": 0.005034596078712113,
+      "combined_rmse": 0.1693074321757554
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.013459028978207025,
+      "w_rmse_rad_s": 0.0005025808861865911,
+      "combined_rmse": 0.014961041290841798
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013463598460059328,
+      "w_rmse_rad_s": 0.0005542959167830521,
+      "combined_rmse": 0.015270648751836037
+    },
+    "improvement": 0.8760978225196034,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 8,
+        "delay": 0.17500000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 16.481661954936484,
+        "sum": 0.525,
+        "sum_error": 0.125,
+        "gain_rel_error": 0.030103872183530278,
+        "plausible_sum": [
+          0.45,
+          0.55
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.25,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 4.0,
+        "n": 16,
+        "delay": 0.15000000000000002,
+        "tau": 0.35000000000000003,
+        "gain": 16.311593995502026,
+        "sum": 0.5,
+        "sum_error": 0.09999999999999998,
+        "gain_rel_error": 0.01947462471887662,
+        "plausible_sum": [
+          0.42500000000000004,
+          0.55
+        ],
+        "plausible_delay": [
+          0.1,
+          0.2
+        ],
+        "plausible_tau": [
+          0.25,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 26,
+        "delay": 0.17500000000000002,
+        "tau": 0.25,
+        "gain": 16.082035702638102,
+        "sum": 0.42500000000000004,
+        "sum_error": 0.025000000000000022,
+        "gain_rel_error": 0.005127231414881361,
+        "plausible_sum": [
+          0.375,
+          0.5
+        ],
+        "plausible_delay": [
+          0.1,
+          0.2
+        ],
+        "plausible_tau": [
+          0.2,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.004230459958297,
+        0.019966486504417583,
+        0.7426188666178083,
+        4.5801376430842176e-05
+      ],
+      "loss": 6.06350302143376e-05
+    }
+  },
+  {
+    "name": "probe_22",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "unequal_sides",
+    "condition": "normal",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.6888888888888889,
+    "usable_intervals": 30,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.0869046155266056,
+      "w_rmse_rad_s": 0.02184625753628698,
+      "combined_rmse": 1.1233959270456695
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.32175694029379914,
+      "w_rmse_rad_s": 0.029683354285378383,
+      "combined_rmse": 0.5024277916108102
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.2304024720606448,
+      "w_rmse_rad_s": 0.005162421420703355,
+      "combined_rmse": 0.23997760244233324
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.032874177527381046,
+      "w_rmse_rad_s": 0.0005710536952903669,
+      "combined_rmse": 0.03370197087223051
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.03554704605957355,
+      "w_rmse_rad_s": 0.0007523740320920014,
+      "combined_rmse": 0.036868112959379425
+    },
+    "improvement": 0.5223639964800667,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 8,
+        "delay": 0.025,
+        "tau": 0.2,
+        "gain": 15.88273194316841,
+        "sum": 0.225,
+        "sum_error": 0.07499999999999998,
+        "gain_rel_error": -0.007329253551974335,
+        "plausible_sum": [
+          0.125,
+          0.30000000000000004
+        ],
+        "plausible_delay": [
+          0.0,
+          0.07500000000000001
+        ],
+        "plausible_tau": [
+          0.05,
+          0.30000000000000004
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 4.0,
+        "n": 10,
+        "delay": 0.07500000000000001,
+        "tau": 0.05,
+        "gain": 15.135497818053743,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.054031386371641066,
+        "plausible_sum": [
+          0.125,
+          0.2
+        ],
+        "plausible_delay": [
+          0.0,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.2
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 18,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 15.427448090527989,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.035784494342000706,
+        "plausible_sum": [
+          0.125,
+          0.17500000000000002
+        ],
+        "plausible_delay": [
+          0.0,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.001790519894236,
+        -0.1386214462943463,
+        0.7407824756201931,
+        -0.03679674732963892
+      ],
+      "loss": 0.00018924347778671863
+    }
+  },
+  {
+    "name": "probe_23",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "unequal_sides",
+    "condition": "light",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 15.2,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7055555555555556,
+    "usable_intervals": 34,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.4996522650036055,
+      "w_rmse_rad_s": 0.02465625672755051,
+      "combined_rmse": 0.5936267549697771
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.32175694029379914,
+      "w_rmse_rad_s": 0.029683354285378383,
+      "combined_rmse": 0.5024277916108102
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.29401544296081544,
+      "w_rmse_rad_s": 0.010060257248734794,
+      "combined_rmse": 0.32179086970943777
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.032874177527381046,
+      "w_rmse_rad_s": 0.0005710536952903669,
+      "combined_rmse": 0.03370197087223051
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.03347315704536144,
+      "w_rmse_rad_s": 0.0005627076380656437,
+      "combined_rmse": 0.03426316365000251
+    },
+    "improvement": 0.35952812507094967,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 12,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 16.365084220635186,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": 0.02281776378969913,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 22,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 16.280946767682423,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": 0.017559172980151416,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.001790519894236,
+        -0.1386214462943463,
+        0.7407824756201931,
+        -0.03679674732963892
+      ],
+      "loss": 0.00018924347778671863
+    }
+  },
+  {
+    "name": "probe_24",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "nominal",
+    "condition": "shove",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7222222222222222,
+    "usable_intervals": 37,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 1.142956521220666,
+      "w_rmse_rad_s": 0.021724119444082046,
+      "combined_rmse": 1.1773304651586793
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.018618245526590946,
+      "w_rmse_rad_s": 0.0005268228267364606,
+      "combined_rmse": 0.01983793622402931
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.05132928613131179,
+      "w_rmse_rad_s": 0.004035071400636565,
+      "combined_rmse": 0.07339155277647293
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.018789905780636284,
+      "w_rmse_rad_s": 0.003711987800532308,
+      "combined_rmse": 0.05178500544689557
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.018718033387211265,
+      "w_rmse_rad_s": 0.0005255697252192815,
+      "combined_rmse": 0.01992602698683535
+    },
+    "improvement": -2.6995558382517206,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 14,
+        "delay": 0.1,
+        "tau": 0.05,
+        "gain": 16.7398009695048,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.003583275624714388,
+        "plausible_sum": [
+          0.125,
+          0.17500000000000002
+        ],
+        "plausible_delay": [
+          0.025,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.15000000000000002
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 23,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.915531002919774,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.006876845411891264,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.15000000000000002
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.806210647537714,
+        -0.012898027257381588,
+        0.7345171542723627,
+        0.001725877424610283
+      ],
+      "loss": 0.017955999404969104
+    }
+  },
+  {
+    "name": "probe_25",
+    "group": "probe",
+    "seed": 24001,
+    "vehicle": "sluggish",
+    "condition": "shove",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.8055555555555556,
+    "usable_intervals": 38,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.799414463163287,
+      "w_rmse_rad_s": 0.01944488218760642,
+      "combined_rmse": 0.8384288674840809
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.2868400893769139,
+      "w_rmse_rad_s": 0.03535591643392363,
+      "combined_rmse": 1.366460506334062
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.027097873622694432,
+      "w_rmse_rad_s": 0.011293313571890225,
+      "combined_rmse": 0.1492929139880901
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.014341589182869076,
+      "w_rmse_rad_s": 0.002733599182087807,
+      "combined_rmse": 0.03832159415805621
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013433248631360618,
+      "w_rmse_rad_s": 0.0006424985721767886,
+      "combined_rmse": 0.015818220979903798
+    },
+    "improvement": 0.89074480140768,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 11,
+        "delay": 0.2,
+        "tau": 0.2,
+        "gain": 15.486838885626721,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.03207256964832994,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.525
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 20,
+        "delay": 0.15000000000000002,
+        "tau": 0.25,
+        "gain": 15.971694911726685,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.0017690680170822093,
+        "plausible_sum": [
+          0.375,
+          0.5
+        ],
+        "plausible_delay": [
+          0.1,
+          0.2
+        ],
+        "plausible_tau": [
+          0.2,
+          0.35000000000000003
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.014391584271223,
+        -0.005973885578193627,
+        0.7066592085760891,
+        0.0017971151836500272
+      ],
+      "loss": 0.017972284782169085
+    }
+  },
+  {
+    "name": "probe_26",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "nominal",
+    "condition": "shove",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.8,
+      "cm_s_per_duty_right": 16.8,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.05,
+      "time_constant_s": 0.1,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7,
+    "usable_intervals": 26,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.934523966683721,
+      "w_rmse_rad_s": 0.05518807765852311,
+      "combined_rmse": 1.1781605943376197
+    },
+    "nominal": {
+      "v_rmse_cm_s": 0.018618245526595665,
+      "w_rmse_rad_s": 0.0005268228267364593,
+      "combined_rmse": 0.019837936224033736
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.18577087736168496,
+      "w_rmse_rad_s": 0.005170508323031335,
+      "combined_rmse": 0.19755731141510005
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01878990578064081,
+      "w_rmse_rad_s": 0.0037119878005319722,
+      "combined_rmse": 0.051785005446893156
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.018967790247363964,
+      "w_rmse_rad_s": 0.000535483437057739,
+      "combined_rmse": 0.020204864545162664
+    },
+    "improvement": -8.958561676176709,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 6,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": 0.0,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 8,
+        "delay": 0.125,
+        "tau": 0.0,
+        "gain": 16.20320029828601,
+        "sum": 0.125,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.035523791768689916,
+        "plausible_sum": [
+          0.125,
+          0.125
+        ],
+        "plausible_delay": [
+          0.07500000000000001,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.05
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 16,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.33716144093861,
+        "sum": 0.15000000000000002,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.027549914229844763,
+        "plausible_sum": [
+          0.125,
+          0.15000000000000002
+        ],
+        "plausible_delay": [
+          0.05,
+          0.125
+        ],
+        "plausible_tau": [
+          0.0,
+          0.1
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.05,
+      "tau": 0.1,
+      "coefficients": [
+        16.806210647537707,
+        -0.012898027257316109,
+        0.7345171542723667,
+        0.0017258774246102183
+      ],
+      "loss": 0.01795599940496927
+    }
+  },
+  {
+    "name": "probe_27",
+    "group": "probe",
+    "seed": 24002,
+    "vehicle": "sluggish",
+    "condition": "shove",
+    "parameters": {
+      "start_duty_left": 0.3,
+      "start_duty_right": 0.3,
+      "max_duty": 1.0,
+      "cm_s_per_duty_left": 16.0,
+      "cm_s_per_duty_right": 16.0,
+      "turn_eff_left": 0.6,
+      "turn_eff_right": 0.6,
+      "drift_rad_s": 0.0,
+      "actuation_delay_s": 0.15,
+      "time_constant_s": 0.25,
+      "track_cm": 13.0,
+      "front_cm": 14.5,
+      "rear_cm": 10.0,
+      "half_width_cm": 8.0,
+      "pivot_slide_cm_per_rad": 0.0
+    },
+    "visual_frame_fraction": 0.7833333333333333,
+    "usable_intervals": 33,
+    "visual_measurement_errors": {
+      "v_rmse_cm_s": 0.7590901423685398,
+      "w_rmse_rad_s": 0.03109972454790623,
+      "combined_rmse": 0.8600426958916595
+    },
+    "nominal": {
+      "v_rmse_cm_s": 1.286840089376913,
+      "w_rmse_rad_s": 0.03535591643392371,
+      "combined_rmse": 1.3664605063340616
+    },
+    "fitted": {
+      "v_rmse_cm_s": 0.2788126370150346,
+      "w_rmse_rad_s": 0.005695903698909599,
+      "combined_rmse": 0.28847774170872015
+    },
+    "oracle_observation_control": {
+      "v_rmse_cm_s": 0.01434158918287518,
+      "w_rmse_rad_s": 0.0027335991820871468,
+      "combined_rmse": 0.03832159415805054
+    },
+    "oracle_same_visual_mask_control": {
+      "v_rmse_cm_s": 0.013764470659957069,
+      "w_rmse_rad_s": 0.000885886772829373,
+      "combined_rmse": 0.017946895854189713
+    },
+    "improvement": 0.7888868793708148,
+    "fits": [
+      {
+        "cutoff": 2.0,
+        "n": 7,
+        "delay": 0.05,
+        "tau": 0.1,
+        "gain": 16.8,
+        "sum": 0.15000000000000002,
+        "sum_error": -0.25,
+        "gain_rel_error": 0.050000000000000044,
+        "plausible_sum": null,
+        "plausible_delay": null,
+        "plausible_tau": null,
+        "insufficient": true
+      },
+      {
+        "cutoff": 4.0,
+        "n": 9,
+        "delay": 0.2,
+        "tau": 0.2,
+        "gain": 15.29971768889672,
+        "sum": 0.4,
+        "sum_error": 0.0,
+        "gain_rel_error": -0.04376764444395498,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.4750000000000001
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.30000000000000004
+        ],
+        "insufficient": false
+      },
+      {
+        "cutoff": 6.0,
+        "n": 18,
+        "delay": 0.17500000000000002,
+        "tau": 0.2,
+        "gain": 15.295097252046764,
+        "sum": 0.375,
+        "sum_error": -0.025000000000000022,
+        "gain_rel_error": -0.044056421747077246,
+        "plausible_sum": [
+          0.35000000000000003,
+          0.42500000000000004
+        ],
+        "plausible_delay": [
+          0.125,
+          0.2
+        ],
+        "plausible_tau": [
+          0.15000000000000002,
+          0.25
+        ],
+        "insufficient": false
+      }
+    ],
+    "turn_entry_s": null,
+    "fit_before_turn": false,
+    "posthoc_reference_10deg_s": null,
+    "oracle_best": {
+      "delay": 0.15000000000000002,
+      "tau": 0.25,
+      "coefficients": [
+        16.01439158427125,
+        -0.00597388557806546,
+        0.7066592085760958,
+        0.0017971151836502896
+      ],
+      "loss": 0.01797228478216911
+    }
+  }
+]

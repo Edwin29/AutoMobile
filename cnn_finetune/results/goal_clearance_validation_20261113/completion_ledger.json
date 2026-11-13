@@ -1,0 +1,51 @@
+{
+  "goal_complete": false,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "requirements": [
+    {
+      "requirement": "full mission normal>=99%, weak>=95%, feasible harsh>=80%",
+      "status": "unproven",
+      "evidence": "No final full-mission student evaluation; local student baseline and development candidates below gates"
+    },
+    {
+      "requirement": "zero wrong exit/severe departure normal and weak",
+      "status": "partial_local_only",
+      "evidence": "Nominal-constrained student72/72 stable local exit but only38/72 clean; not full mission or held-out exam"
+    },
+    {
+      "requirement": "each required movement weak>=90%",
+      "status": "not_met",
+      "evidence": "Students remain four-movement development candidates; newest all28 teacher mild544/672 but13/28 movements below90%; phase-entry147/240"
+    },
+    {
+      "requirement": "smooth turns>=95%, safer/smoother and no time regression vs legacy",
+      "status": "unproven",
+      "evidence": "New teacher has no measured pauses but both-clean turns slower and angular acceleration higher than prior smooth teacher; actual legacy full-mission comparison still missing"
+    },
+    {
+      "requirement": "three training initializations",
+      "status": "missing",
+      "evidence": "Only initialization seed17 in current controlled comparisons"
+    },
+    {
+      "requirement": "independent final samples>=100 per condition plus sufficient movement samples",
+      "status": "missing",
+      "evidence": "Final9xxxxx seeds remain untouched; current168 normal teacher cases cross only two development seeds"
+    },
+    {
+      "requirement": "actor only video history, prior commands and direction",
+      "status": "preserved_in_current_student",
+      "evidence": "No student changes this phase; privileged predictor is offline teacher only"
+    },
+    {
+      "requirement": "no hardware deployment or motor trial",
+      "status": "preserved",
+      "evidence": "Local artifacts only"
+    }
+  ],
+  "latest_teacher_only_diagnostic": "goal_clearance_validation_20261113/REPORT.md"
+}

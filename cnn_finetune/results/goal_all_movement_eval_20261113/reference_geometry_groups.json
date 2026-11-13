@@ -1,0 +1,29 @@
+{
+  "groups": {
+    "crossroad_turn": {
+      "n": 12,
+      "clean": 1,
+      "wrong_exit": 1
+    },
+    "outer_T_straight": {
+      "n": 24,
+      "clean": 12,
+      "wrong_exit": 12
+    },
+    "outer_T_turn": {
+      "n": 24,
+      "clean": 0,
+      "wrong_exit": 12
+    },
+    "inner_T_turn": {
+      "n": 24,
+      "clean": 10,
+      "wrong_exit": 0
+    }
+  },
+  "source_sha256": "b10861ec9d8e1987b044137a1ba004b0675f7ae0404d9655b8108185169a812c",
+  "reference_sha256": "f0299fd672fddc4ababab15a176dfb6d690b289d6c4d7b6e5d2adb1b6a8675de",
+  "teacher_sha256": "2806779dc18835f6045febb217c090b6045e3210fb9d6a1b4ffc9ffd31862567",
+  "inference": "Outer-T turns were absent from the original four-movement training set and fail24/24 here. This supports testing coverage expansion, not a causal proof that coverage is the sole error source.",
+  "scope": "one development seed,three vehicle settings; not24 independent environment seeds"
+}

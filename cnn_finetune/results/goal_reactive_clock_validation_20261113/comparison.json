@@ -1,0 +1,1348 @@
+{
+  "results_sha256": "9a22cda584c495667c6e902077e1ce22a9cb5af283d2204c5381a806d19022ce",
+  "source_sha256": "558c978ac559c1c873584a147521d75ad88f00d05240bcaecb1bf3c34babdf13",
+  "paired": {
+    "normal": {
+      "n": 672,
+      "gains": 0,
+      "losses": 0,
+      "both_clean": 654,
+      "both_clean_median_time_delta_s": 0.0,
+      "both_clean_median_angular_acceleration_delta": 0.0
+    },
+    "mild": {
+      "n": 672,
+      "gains": 27,
+      "losses": 0,
+      "both_clean": 534,
+      "both_clean_median_time_delta_s": 0.0,
+      "both_clean_median_angular_acceleration_delta": 0.0
+    }
+  },
+  "coverage": [
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 18,
+      "candidate": 18
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 10,
+      "candidate": 16
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 10,
+      "candidate": 16
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 18,
+      "candidate": 18
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 19,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 0,
+      "candidate": 0
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 18,
+      "candidate": 20
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 0,
+      "candidate": 1
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 17,
+      "candidate": 20
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 19,
+      "candidate": 20
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 10,
+      "candidate": 15
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 21,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 20,
+      "candidate": 21
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "mild",
+      "n": 24,
+      "baseline": 24,
+      "candidate": 24
+    }
+  ],
+  "stable_regressions": [
+    {
+      "baseline": {
+        "key": [
+          "north",
+          "W",
+          "right"
+        ],
+        "seed": 6702,
+        "preset": "field_estimate",
+        "condition": "mild",
+        "arm": "baseline",
+        "outcome": "stable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\baseline\\north_W_right_6702_field_estimate_mild",
+        "first_incursion_s": 7.829333333333293,
+        "minimum_clearance_cm": -0.2817618649740439,
+        "minimum_clearance_s": 16.80933333333323,
+        "exit_forward_cm": 55.08945918013063,
+        "exit_lateral_cm": -0.536783187436321,
+        "exit_heading_deg": 1.9148762797492505,
+        "exit_clearance_cm": 0.3835374759913268,
+        "exit_contiguous_good_s": 1.0080000000000382,
+        "translation_pause_s": 0.0
+      },
+      "candidate": {
+        "key": [
+          "north",
+          "W",
+          "right"
+        ],
+        "seed": 6702,
+        "preset": "field_estimate",
+        "condition": "mild",
+        "arm": "hold035",
+        "outcome": "unstable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_W_right_6702_field_estimate_mild",
+        "first_incursion_s": 7.865333333333292,
+        "minimum_clearance_cm": -0.26155993591423154,
+        "minimum_clearance_s": 16.397333333333215,
+        "exit_forward_cm": 55.05511235888721,
+        "exit_lateral_cm": -0.5776812697206958,
+        "exit_heading_deg": 1.9838296494622223,
+        "exit_clearance_cm": 0.33093922238971274,
+        "exit_contiguous_good_s": 0.7560000000000286,
+        "translation_pause_s": 0.0
+      }
+    },
+    {
+      "baseline": {
+        "key": [
+          "north",
+          "W",
+          "right"
+        ],
+        "seed": 6702,
+        "preset": "sluggish",
+        "condition": "mild",
+        "arm": "baseline",
+        "outcome": "stable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\baseline\\north_W_right_6702_sluggish_mild",
+        "first_incursion_s": 7.865333333333292,
+        "minimum_clearance_cm": -0.2574450774983994,
+        "minimum_clearance_s": 16.397333333333215,
+        "exit_forward_cm": 55.06517474354325,
+        "exit_lateral_cm": -0.5316175611694723,
+        "exit_heading_deg": 1.9001634577040236,
+        "exit_clearance_cm": 0.3912011710791852,
+        "exit_contiguous_good_s": 1.080000000000041,
+        "translation_pause_s": 0.0
+      },
+      "candidate": {
+        "key": [
+          "north",
+          "W",
+          "right"
+        ],
+        "seed": 6702,
+        "preset": "sluggish",
+        "condition": "mild",
+        "arm": "hold035",
+        "outcome": "unstable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_W_right_6702_sluggish_mild",
+        "first_incursion_s": 7.881333333333292,
+        "minimum_clearance_cm": -0.2630953557585549,
+        "minimum_clearance_s": 17.981333333333275,
+        "exit_forward_cm": 55.09981391981585,
+        "exit_lateral_cm": -0.7865039054410032,
+        "exit_heading_deg": 2.6163484140417097,
+        "exit_clearance_cm": 0.01535514825262041,
+        "exit_contiguous_good_s": 0.036000000000001364,
+        "translation_pause_s": 0.0
+      }
+    },
+    {
+      "baseline": {
+        "key": [
+          "west",
+          "S",
+          "right"
+        ],
+        "seed": 6703,
+        "preset": "field_estimate",
+        "condition": "mild",
+        "arm": "baseline",
+        "outcome": "stable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\baseline\\west_S_right_6703_field_estimate_mild",
+        "first_incursion_s": 16.413333333333217,
+        "minimum_clearance_cm": -0.17022516460888504,
+        "minimum_clearance_s": 16.73733333333323,
+        "exit_forward_cm": 55.10480692014309,
+        "exit_lateral_cm": 1.063153772285788,
+        "exit_heading_deg": -3.7527150380520475,
+        "exit_clearance_cm": 0.7994955039723273,
+        "exit_contiguous_good_s": 1.1000000000000405,
+        "translation_pause_s": 0.0
+      },
+      "candidate": {
+        "key": [
+          "west",
+          "S",
+          "right"
+        ],
+        "seed": 6703,
+        "preset": "field_estimate",
+        "condition": "mild",
+        "arm": "hold035",
+        "outcome": "unstable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\west_S_right_6703_field_estimate_mild",
+        "first_incursion_s": 16.469333333333218,
+        "minimum_clearance_cm": -0.12464481913916714,
+        "minimum_clearance_s": 16.75733333333323,
+        "exit_forward_cm": 55.10467510226094,
+        "exit_lateral_cm": 1.1572621705071675,
+        "exit_heading_deg": -4.38566089489142,
+        "exit_clearance_cm": 0.6014674737904251,
+        "exit_contiguous_good_s": 0.9000000000000341,
+        "translation_pause_s": 0.0
+      }
+    },
+    {
+      "baseline": {
+        "key": [
+          "west",
+          "S",
+          "right"
+        ],
+        "seed": 6703,
+        "preset": "sluggish",
+        "condition": "mild",
+        "arm": "baseline",
+        "outcome": "stable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\baseline\\west_S_right_6703_sluggish_mild",
+        "first_incursion_s": 16.54133333333322,
+        "minimum_clearance_cm": -0.22387074312216093,
+        "minimum_clearance_s": 17.02533333333324,
+        "exit_forward_cm": 55.04060117273014,
+        "exit_lateral_cm": 1.1342410502467235,
+        "exit_heading_deg": -4.237762794247603,
+        "exit_clearance_cm": 0.6486760636754791,
+        "exit_contiguous_good_s": 1.0080000000000382,
+        "translation_pause_s": 0.0
+      },
+      "candidate": {
+        "key": [
+          "west",
+          "S",
+          "right"
+        ],
+        "seed": 6703,
+        "preset": "sluggish",
+        "condition": "mild",
+        "arm": "hold035",
+        "outcome": "unstable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\west_S_right_6703_sluggish_mild",
+        "first_incursion_s": 16.937333333333235,
+        "minimum_clearance_cm": -0.127104017534716,
+        "minimum_clearance_s": 17.241333333333248,
+        "exit_forward_cm": 55.01487459594034,
+        "exit_lateral_cm": 1.3452588469970248,
+        "exit_heading_deg": -4.514375977332696,
+        "exit_clearance_cm": 0.39246794311308086,
+        "exit_contiguous_good_s": 0.7200000000000273,
+        "translation_pause_s": 0.0
+      }
+    },
+    {
+      "baseline": {
+        "key": [
+          "west",
+          "S",
+          "right"
+        ],
+        "seed": 6703,
+        "preset": "unequal_sides",
+        "condition": "mild",
+        "arm": "baseline",
+        "outcome": "stable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\baseline\\west_S_right_6703_unequal_sides_mild",
+        "first_incursion_s": 16.449333333333218,
+        "minimum_clearance_cm": -0.16443858715974002,
+        "minimum_clearance_s": 16.79333333333323,
+        "exit_forward_cm": 55.0889229668216,
+        "exit_lateral_cm": 1.0920750589592343,
+        "exit_heading_deg": -3.8887284722095448,
+        "exit_clearance_cm": 0.7481536257932717,
+        "exit_contiguous_good_s": 1.0440000000000396,
+        "translation_pause_s": 0.0
+      },
+      "candidate": {
+        "key": [
+          "west",
+          "S",
+          "right"
+        ],
+        "seed": 6703,
+        "preset": "unequal_sides",
+        "condition": "mild",
+        "arm": "hold035",
+        "outcome": "unstable_exit",
+        "continuous_clean": false,
+        "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\west_S_right_6703_unequal_sides_mild",
+        "first_incursion_s": 16.75733333333323,
+        "minimum_clearance_cm": -0.05337896072960646,
+        "minimum_clearance_s": 17.08133333333324,
+        "exit_forward_cm": 55.085110532060206,
+        "exit_lateral_cm": 1.2496252617207144,
+        "exit_heading_deg": -4.4577845581639055,
+        "exit_clearance_cm": 0.4973302914636175,
+        "exit_contiguous_good_s": 0.8840000000000323,
+        "translation_pause_s": 0.0
+      }
+    }
+  ],
+  "pauses": [
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6701,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_E_right_6701_unequal_sides_mild",
+      "first_incursion_s": 8.549333333333285,
+      "minimum_clearance_cm": -0.827797584404415,
+      "minimum_clearance_s": 9.609333333333273,
+      "exit_forward_cm": 55.03433511761756,
+      "exit_lateral_cm": -0.1184337065183628,
+      "exit_heading_deg": 0.26447689628119786,
+      "exit_clearance_cm": 1.0854917604511272,
+      "exit_contiguous_good_s": 3.688000000000141,
+      "translation_pause_s": 0.30000000000000004
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6701,
+      "preset": "unequal_sides",
+      "condition": "mild",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_W_right_6701_unequal_sides_mild",
+      "first_incursion_s": 8.549333333333285,
+      "minimum_clearance_cm": -0.8277975844043386,
+      "minimum_clearance_s": 9.609333333333273,
+      "exit_forward_cm": 55.034335117617545,
+      "exit_lateral_cm": -0.11843370651832337,
+      "exit_heading_deg": 0.26447689628107063,
+      "exit_clearance_cm": 1.0854917604511858,
+      "exit_contiguous_good_s": 3.688000000000141,
+      "translation_pause_s": 0.30000000000000004
+    }
+  ],
+  "normal_failures": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_N_right_6703_field_estimate_normal",
+      "first_incursion_s": 0.24933333333333335,
+      "minimum_clearance_cm": -0.05140471704632077,
+      "minimum_clearance_s": 0.5573333333333332,
+      "exit_forward_cm": 55.076906613936615,
+      "exit_lateral_cm": -0.0007981303089981185,
+      "exit_heading_deg": -0.046987597545888035,
+      "exit_clearance_cm": 2.4920821067580174,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "sluggish",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_N_right_6703_sluggish_normal",
+      "first_incursion_s": 0.42933333333333323,
+      "minimum_clearance_cm": -0.030067444403874433,
+      "minimum_clearance_s": 0.8453333333333335,
+      "exit_forward_cm": 55.00770397022709,
+      "exit_lateral_cm": -0.00115781991444887,
+      "exit_heading_deg": -0.10340423835730014,
+      "exit_clearance_cm": 2.483030380993439,
+      "exit_contiguous_good_s": 3.044000000000114,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_N_right_6703_unequal_sides_normal",
+      "first_incursion_s": 0.3773333333333333,
+      "minimum_clearance_cm": -0.04314764536515625,
+      "minimum_clearance_s": 0.6093333333333333,
+      "exit_forward_cm": 55.06492607999923,
+      "exit_lateral_cm": 0.0003848706912402616,
+      "exit_heading_deg": -0.09708248908563102,
+      "exit_clearance_cm": 2.482682530696593,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_S_right_6703_field_estimate_normal",
+      "first_incursion_s": 0.24933333333333335,
+      "minimum_clearance_cm": -0.05140471704631899,
+      "minimum_clearance_s": 0.5573333333333332,
+      "exit_forward_cm": 55.07690661393659,
+      "exit_lateral_cm": -0.0007981303085917855,
+      "exit_heading_deg": -0.046987597545328254,
+      "exit_clearance_cm": 2.492082106758506,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "sluggish",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_S_right_6703_sluggish_normal",
+      "first_incursion_s": 0.42933333333333323,
+      "minimum_clearance_cm": -0.030067444403872656,
+      "minimum_clearance_s": 0.8453333333333335,
+      "exit_forward_cm": 55.00770397022707,
+      "exit_lateral_cm": -0.00115781991437021,
+      "exit_heading_deg": -0.10340423835704571,
+      "exit_clearance_cm": 2.4830303809935526,
+      "exit_contiguous_good_s": 3.044000000000114,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\center_S_right_6703_unequal_sides_normal",
+      "first_incursion_s": 0.3773333333333333,
+      "minimum_clearance_cm": -0.043147645365154474,
+      "minimum_clearance_s": 0.6093333333333333,
+      "exit_forward_cm": 55.0649260799992,
+      "exit_lateral_cm": 0.00038487069140360954,
+      "exit_heading_deg": -0.09708248908484225,
+      "exit_clearance_cm": 2.4826825306965663,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6703,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_S_left_6703_field_estimate_normal",
+      "first_incursion_s": 0.24933333333333335,
+      "minimum_clearance_cm": -0.03178613469829017,
+      "minimum_clearance_s": 0.5733333333333333,
+      "exit_forward_cm": 55.03516403163813,
+      "exit_lateral_cm": 0.0004942701817043371,
+      "exit_heading_deg": -0.014936420177227202,
+      "exit_clearance_cm": 4.945262841839934,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6703,
+      "preset": "sluggish",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_S_left_6703_sluggish_normal",
+      "first_incursion_s": 0.42933333333333323,
+      "minimum_clearance_cm": -0.030067444403872656,
+      "minimum_clearance_s": 0.8453333333333335,
+      "exit_forward_cm": 55.07171721100108,
+      "exit_lateral_cm": 0.014776326634518,
+      "exit_heading_deg": -0.09680897393028794,
+      "exit_clearance_cm": 4.948544683872779,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6703,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_S_left_6703_unequal_sides_normal",
+      "first_incursion_s": 0.3773333333333333,
+      "minimum_clearance_cm": -0.04135115449331295,
+      "minimum_clearance_s": 0.5933333333333333,
+      "exit_forward_cm": 55.03542988429174,
+      "exit_lateral_cm": 0.0006736048217419466,
+      "exit_heading_deg": -0.011222746170541883,
+      "exit_clearance_cm": 4.944162289171629,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_S_right_6703_field_estimate_normal",
+      "first_incursion_s": 0.24933333333333335,
+      "minimum_clearance_cm": -0.05140471704631899,
+      "minimum_clearance_s": 0.5573333333333332,
+      "exit_forward_cm": 55.00194043111273,
+      "exit_lateral_cm": -0.0008548641196313156,
+      "exit_heading_deg": 0.053806377823365774,
+      "exit_clearance_cm": 4.956512408769083,
+      "exit_contiguous_good_s": 3.004000000000115,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "sluggish",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_S_right_6703_sluggish_normal",
+      "first_incursion_s": 0.42933333333333323,
+      "minimum_clearance_cm": -0.030067444403872656,
+      "minimum_clearance_s": 0.8453333333333335,
+      "exit_forward_cm": 55.024890027231926,
+      "exit_lateral_cm": -0.01189644971353232,
+      "exit_heading_deg": 0.05445613818106396,
+      "exit_clearance_cm": 4.94417675854357,
+      "exit_contiguous_good_s": 3.004000000000115,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\north_S_right_6703_unequal_sides_normal",
+      "first_incursion_s": 0.3773333333333333,
+      "minimum_clearance_cm": -0.05670504136735666,
+      "minimum_clearance_s": 0.5933333333333333,
+      "exit_forward_cm": 55.056976436324305,
+      "exit_lateral_cm": 0.000256297526476601,
+      "exit_heading_deg": 0.011151809826671322,
+      "exit_clearance_cm": 4.9436672388989535,
+      "exit_contiguous_good_s": 3.004000000000115,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6703,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\south_N_left_6703_field_estimate_normal",
+      "first_incursion_s": 0.24933333333333335,
+      "minimum_clearance_cm": -0.031786134698291946,
+      "minimum_clearance_s": 0.5733333333333333,
+      "exit_forward_cm": 55.07507662798022,
+      "exit_lateral_cm": 0.00021306129239917482,
+      "exit_heading_deg": 0.05119258949497406,
+      "exit_clearance_cm": 3.928940510384365,
+      "exit_contiguous_good_s": 3.0400000000001164,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6703,
+      "preset": "sluggish",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\south_N_left_6703_sluggish_normal",
+      "first_incursion_s": 0.42933333333333323,
+      "minimum_clearance_cm": -0.030067444403874433,
+      "minimum_clearance_s": 0.8453333333333335,
+      "exit_forward_cm": 55.02557369735228,
+      "exit_lateral_cm": 0.005356820002987206,
+      "exit_heading_deg": -0.04321824467966381,
+      "exit_clearance_cm": 3.9499400443310613,
+      "exit_contiguous_good_s": 3.0240000000001146,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6703,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\south_N_left_6703_unequal_sides_normal",
+      "first_incursion_s": 0.3773333333333333,
+      "minimum_clearance_cm": -0.041351154493314723,
+      "minimum_clearance_s": 0.5933333333333333,
+      "exit_forward_cm": 55.09804920471351,
+      "exit_lateral_cm": 0.0001095957088779187,
+      "exit_heading_deg": -0.0495909904558251,
+      "exit_clearance_cm": 3.9521142638665303,
+      "exit_contiguous_good_s": 3.0240000000001146,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "field_estimate",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\south_N_right_6703_field_estimate_normal",
+      "first_incursion_s": 0.24933333333333335,
+      "minimum_clearance_cm": -0.05140471704632077,
+      "minimum_clearance_s": 0.5573333333333332,
+      "exit_forward_cm": 55.04625224224963,
+      "exit_lateral_cm": 0.0010256334936258327,
+      "exit_heading_deg": 0.003972584067271679,
+      "exit_clearance_cm": 3.9454425389788916,
+      "exit_contiguous_good_s": 3.0760000000001178,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "sluggish",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\south_N_right_6703_sluggish_normal",
+      "first_incursion_s": 0.42933333333333323,
+      "minimum_clearance_cm": -0.030067444403874433,
+      "minimum_clearance_s": 0.8453333333333335,
+      "exit_forward_cm": 55.00723441139971,
+      "exit_lateral_cm": -3.637301341541388e-05,
+      "exit_heading_deg": -0.07193281490070483,
+      "exit_clearance_cm": 3.928295065071584,
+      "exit_contiguous_good_s": 3.060000000000116,
+      "translation_pause_s": 0.0
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6703,
+      "preset": "unequal_sides",
+      "condition": "normal",
+      "arm": "hold035",
+      "outcome": "stable_exit",
+      "continuous_clean": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_reactive_clock_validation_20261113\\hold035\\south_N_right_6703_unequal_sides_normal",
+      "first_incursion_s": 0.3773333333333333,
+      "minimum_clearance_cm": -0.04314764536515625,
+      "minimum_clearance_s": 0.6093333333333333,
+      "exit_forward_cm": 55.013100523371506,
+      "exit_lateral_cm": -0.0016686596856061442,
+      "exit_heading_deg": -0.015481710778622938,
+      "exit_clearance_cm": 3.9400742658883843,
+      "exit_contiguous_good_s": 3.0760000000001178,
+      "translation_pause_s": 0.0
+    }
+  ],
+  "data_decision": "Research demonstrations only: retain all episodes and admit only complete clean stable episodes; failures and pauses are not accepted labels. No teacher/student adoption.",
+  "limits": "Local privileged teacher, no imagery/illumination/full missions or learned-policy evidence. Eight seeds shared across movements; do not treat2688rollouts as2688independent environmental seeds."
+}

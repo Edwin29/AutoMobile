@@ -1,0 +1,645 @@
+{
+  "runs": 21,
+  "cases": 3,
+  "rows": [
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "student",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__student",
+      "outcome": "severe_departure",
+      "verified_lap": false,
+      "global_min_margin_cm": -12.04773399955646,
+      "window_min_margin_cm": -12.04773399955646,
+      "window_end_margin_cm": -12.04773399955646,
+      "window_outside_s": 1.8560000000000656,
+      "observed_s": 4.333333333336313,
+      "local_progress_cm": 25.499999999996135,
+      "cost": {
+        "total": 130.5814177211759,
+        "components": {
+          "failure": 100.0,
+          "unrecovered": 20.0,
+          "outside": 8.348444444442501,
+          "clearance": 1.6586827925928864,
+          "progress": 0.5742904841405228
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "teacher",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__teacher",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -0.2965049065241949,
+      "window_min_margin_cm": -0.2965049065241949,
+      "window_end_margin_cm": 2.5444587378799497,
+      "window_outside_s": 0.43200000000001637,
+      "observed_s": 9.605333333336517,
+      "local_progress_cm": 59.300000000002,
+      "cost": {
+        "total": 0.3226248080346493,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.2880000000000109,
+          "clearance": 0.0346248080346384,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "teacher_burst",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__teacher_burst",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -1.4604558991365746,
+      "window_min_margin_cm": -1.4604558991365746,
+      "window_end_margin_cm": 3.0860542104949644,
+      "window_outside_s": 1.1720000000000397,
+      "observed_s": 9.481333333336508,
+      "local_progress_cm": 59.400000000001455,
+      "cost": {
+        "total": 0.9267536896081386,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.7813333333333597,
+          "clearance": 0.14542035627477892,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "hold",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__hold",
+      "outcome": "severe_departure",
+      "verified_lap": false,
+      "global_min_margin_cm": -12.133365747765211,
+      "window_min_margin_cm": -12.133365747765211,
+      "window_end_margin_cm": -12.133365747765211,
+      "window_outside_s": 1.872000000000071,
+      "observed_s": 4.349333333336318,
+      "local_progress_cm": 25.499999999996135,
+      "cost": {
+        "total": 130.58067919001556,
+        "components": {
+          "failure": 100.0,
+          "unrecovered": 20.0,
+          "outside": 8.348444444442501,
+          "clearance": 1.6579442614325424,
+          "progress": 0.5742904841405228
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "slow",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__slow",
+      "outcome": "severe_departure",
+      "verified_lap": false,
+      "global_min_margin_cm": -12.144340964755713,
+      "window_min_margin_cm": -12.144340964755713,
+      "window_end_margin_cm": -12.144340964755713,
+      "window_outside_s": 1.872000000000071,
+      "observed_s": 4.441333333336317,
+      "local_progress_cm": 25.499999999995225,
+      "cost": {
+        "total": 130.50645356906733,
+        "components": {
+          "failure": 100.0,
+          "unrecovered": 20.0,
+          "outside": 8.28711111110917,
+          "clearance": 1.6450519738176232,
+          "progress": 0.5742904841405378
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "left",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__left",
+      "outcome": "time_limit",
+      "verified_lap": false,
+      "global_min_margin_cm": -11.730969174062935,
+      "window_min_margin_cm": -11.730969174062935,
+      "window_end_margin_cm": -9.246256741666159,
+      "window_outside_s": 12.630666666663757,
+      "observed_s": 15.0,
+      "local_progress_cm": 105.13577144940211,
+      "cost": {
+        "total": 30.094509924853842,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 20.0,
+          "outside": 8.420444444442504,
+          "clearance": 1.6740654804113382,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_cw",
+      "mode": "right",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_cw__right",
+      "outcome": "severe_departure",
+      "verified_lap": false,
+      "global_min_margin_cm": -12.05060223420223,
+      "window_min_margin_cm": -12.05060223420223,
+      "window_end_margin_cm": -12.05060223420223,
+      "window_outside_s": 2.160000000000082,
+      "observed_s": 4.853333333336337,
+      "local_progress_cm": 25.09999999999559,
+      "cost": {
+        "total": 130.41607126216093,
+        "components": {
+          "failure": 100.0,
+          "unrecovered": 20.0,
+          "outside": 8.204444444442496,
+          "clearance": 1.630658537250682,
+          "progress": 0.5809682804677403
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728",
+      "initial_action": [
+        0.6194117665290833,
+        -0.08109711110591888
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "student",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__student",
+      "outcome": "severe_departure",
+      "verified_lap": false,
+      "global_min_margin_cm": -12.020254181526049,
+      "window_min_margin_cm": -12.020254181526049,
+      "window_end_margin_cm": -12.020254181526049,
+      "window_outside_s": 11.792000000000442,
+      "observed_s": 13.79333333333527,
+      "local_progress_cm": 105.53443080815458,
+      "cost": {
+        "total": 130.38956201156293,
+        "components": {
+          "failure": 100.0,
+          "unrecovered": 20.0,
+          "outside": 8.665777777776782,
+          "clearance": 1.723784233786148,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "teacher",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__teacher",
+      "outcome": "time_limit",
+      "verified_lap": false,
+      "global_min_margin_cm": 0.9914601455338143,
+      "window_min_margin_cm": 0.9914601455338143,
+      "window_end_margin_cm": 1.137536319638766,
+      "window_outside_s": 0,
+      "observed_s": 15.0,
+      "local_progress_cm": 101.16392491520588,
+      "cost": {
+        "total": 1.4478245201900447e-05,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.0,
+          "clearance": 1.4478245201900447e-05,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "teacher_burst",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__teacher_burst",
+      "outcome": "time_limit",
+      "verified_lap": false,
+      "global_min_margin_cm": -0.1027619640551869,
+      "window_min_margin_cm": -0.1027619640551869,
+      "window_end_margin_cm": 1.2649018063486714,
+      "window_outside_s": 0.21600000000000819,
+      "observed_s": 15.0,
+      "local_progress_cm": 100.4686171595066,
+      "cost": {
+        "total": 0.1727751410555835,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.14400000000000546,
+          "clearance": 0.02877514105557805,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "hold",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__hold",
+      "outcome": "time_limit",
+      "verified_lap": false,
+      "global_min_margin_cm": -11.9554130470366,
+      "window_min_margin_cm": -11.9554130470366,
+      "window_end_margin_cm": -5.284162167822771,
+      "window_outside_s": 12.998666666665173,
+      "observed_s": 15.0,
+      "local_progress_cm": 114.67276131160361,
+      "cost": {
+        "total": 30.39013563090367,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 20.0,
+          "outside": 8.665777777776782,
+          "clearance": 1.7243578531268893,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "slow",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__slow",
+      "outcome": "severe_departure",
+      "verified_lap": false,
+      "global_min_margin_cm": -12.046316315907426,
+      "window_min_margin_cm": -12.046316315907426,
+      "window_end_margin_cm": -12.046316315907426,
+      "window_outside_s": 11.644000000000439,
+      "observed_s": 13.773333333335273,
+      "local_progress_cm": 102.85252946475208,
+      "cost": {
+        "total": 130.28765022738344,
+        "components": {
+          "failure": 100.0,
+          "unrecovered": 20.0,
+          "outside": 8.580444444443442,
+          "clearance": 1.7072057829400045,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "left",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__left",
+      "outcome": "time_limit",
+      "verified_lap": false,
+      "global_min_margin_cm": -11.957535246544708,
+      "window_min_margin_cm": -11.957535246544708,
+      "window_end_margin_cm": -5.444556280318267,
+      "window_outside_s": 12.962666666665172,
+      "observed_s": 15.0,
+      "local_progress_cm": 115.17209099098909,
+      "cost": {
+        "total": 30.359434489734095,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 20.0,
+          "outside": 8.641777777776781,
+          "clearance": 1.717656711957314,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "mode": "right",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\bright_sluggish_ccw__right",
+      "outcome": "time_limit",
+      "verified_lap": false,
+      "global_min_margin_cm": -2.4580597085769753,
+      "window_min_margin_cm": -2.4580597085769753,
+      "window_end_margin_cm": 2.4932328382325473,
+      "window_outside_s": 4.5880000000001715,
+      "observed_s": 15.0,
+      "local_progress_cm": 98.48202357180048,
+      "cost": {
+        "total": 3.446465398518764,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 3.058666666666781,
+          "clearance": 0.387798731851983,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82",
+      "initial_action": [
+        0.6274583339691162,
+        0.0655517429113388
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "student",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__student",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -1.0859550399133013,
+      "window_min_margin_cm": -1.0859550399133013,
+      "window_end_margin_cm": 3.003598731725532,
+      "window_outside_s": 1.1520000000000437,
+      "observed_s": 11.621333333336324,
+      "local_progress_cm": 77.27209099100901,
+      "cost": {
+        "total": 0.8675297388179837,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.7680000000000291,
+          "clearance": 0.09952973881795457,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "teacher",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__teacher",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -0.8106829509401194,
+      "window_min_margin_cm": -0.8106829509401194,
+      "window_end_margin_cm": 2.864910504954679,
+      "window_outside_s": 2.2320000000000846,
+      "observed_s": 11.873333333336333,
+      "local_progress_cm": 77.27209099100833,
+      "cost": {
+        "total": 1.679693973532019,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 1.4880000000000564,
+          "clearance": 0.19169397353196266,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "teacher_burst",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__teacher_burst",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -1.6158477835314358,
+      "window_min_margin_cm": -1.6158477835314358,
+      "window_end_margin_cm": 3.1340951205772285,
+      "window_outside_s": 1.4400000000000546,
+      "observed_s": 11.621333333336324,
+      "local_progress_cm": 77.27209099100878,
+      "cost": {
+        "total": 1.1006458485360715,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.9600000000000364,
+          "clearance": 0.1406458485360351,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "hold",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__hold",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -1.1203883418642704,
+      "window_min_margin_cm": -1.1203883418642704,
+      "window_end_margin_cm": 3.002254385476604,
+      "window_outside_s": 1.1520000000000437,
+      "observed_s": 11.63733333333633,
+      "local_progress_cm": 77.17209099101024,
+      "cost": {
+        "total": 0.869889218480012,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.7680000000000291,
+          "clearance": 0.10188921847998295,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "slow",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__slow",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -1.114740064484124,
+      "window_min_margin_cm": -1.114740064484124,
+      "window_end_margin_cm": 2.9828985603281097,
+      "window_outside_s": 1.1720000000000397,
+      "observed_s": 11.693333333336327,
+      "local_progress_cm": 77.27209099100935,
+      "cost": {
+        "total": 0.8841580491026747,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.7813333333333597,
+          "clearance": 0.10282471576931494,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "left",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__left",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": 0.07565652613956786,
+      "window_min_margin_cm": 0.07565652613956786,
+      "window_end_margin_cm": 2.9690293864086215,
+      "window_outside_s": 0,
+      "observed_s": 11.349333333336318,
+      "local_progress_cm": 77.1720909910091,
+      "cost": {
+        "total": 0.042903747709365045,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.0,
+          "clearance": 0.042903747709365045,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    },
+    {
+      "case": "mild_combined_ccw",
+      "mode": "right",
+      "path": "D:\\autodrive_cnn\\runs\\recovery_diagnosis_20261112\\mild_combined_ccw__right",
+      "outcome": "lap_complete",
+      "verified_lap": true,
+      "global_min_margin_cm": -1.5617575594943105,
+      "window_min_margin_cm": -1.5617575594943105,
+      "window_end_margin_cm": 3.0264059323260426,
+      "window_outside_s": 1.4200000000000585,
+      "observed_s": 11.621333333336324,
+      "local_progress_cm": 77.27209099101049,
+      "cost": {
+        "total": 1.0837483735724582,
+        "components": {
+          "failure": 0.0,
+          "unrecovered": 0.0,
+          "outside": 0.9466666666667057,
+          "clearance": 0.13708170690575253,
+          "progress": 0.0
+        }
+      },
+      "frames": 20,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f",
+      "initial_action": [
+        0.6225669384002686,
+        0.06582577526569366
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "case": "bright_sluggish_cw",
+      "baseline_frames_matched": 2730,
+      "prefix_sha256": "2d5482d726a6183bab7a964cf57912f8a2c4aca2057b6fd72712e99e3f4c6728"
+    },
+    {
+      "case": "bright_sluggish_ccw",
+      "baseline_frames_matched": 1965,
+      "prefix_sha256": "3e4f8ac3d2a07ed255d6e6b125ed2eb97a48b5f079e93cab994282eaccf2da82"
+    },
+    {
+      "case": "mild_combined_ccw",
+      "baseline_frames_matched": 2738,
+      "prefix_sha256": "7c49f50969ba2691b0c8d9df14226a18056956723409caa45816189c5127bb5f"
+    }
+  ],
+  "preference_pairs": 39,
+  "protocol": "15s fixed-horizon outcome; .72s intervention then frozen-student continuation; full teacher excluded from preferences",
+  "cost_config": {
+    "failure": 100.0,
+    "unrecovered": 20.0,
+    "outside": 10.0,
+    "clearance": 2.0,
+    "progress": 1.0,
+    "safe_margin_cm": 1.0,
+    "risk_width_cm": 3.0,
+    "target_speed_cm_s": 4.0
+  },
+  "warning": "Three selected failure cases: debugging data, not held-out training validation"
+}

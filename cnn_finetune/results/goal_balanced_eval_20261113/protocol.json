@@ -1,0 +1,189 @@
+{
+  "source_sha256": "45d972f19bac869b69211ac0297c9c96ce15cbacd5e3724beaf112d711476fd2",
+  "training_protocol_sha256": "47b26b2882f2ff6d1203a847a6f090d84f3b94bc147c7a753163a530eeddc051",
+  "parent_scene_protocol_sha256": "6c3551e42444e94bee449791653540804122d216939eed8c1856c93027efe948",
+  "old_evaluation_source_sha256": "fa359dc45a7e31867b6f36b67d5b648245a229700c3019115be29aa8c7fb333d",
+  "control_checkpoints": {
+    "reference": {
+      "path": "D:\\autodrive_cnn\\runs\\goal_development_20261113\\convergence_probe\\best.pt",
+      "sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3"
+    },
+    "unbalanced": {
+      "path": "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\models\\seed_17\\update_2400.pt",
+      "sha256": "766bcf816829a8721c35633b84b3f7bd2411b5452ec81e36fd0699976cbfb631"
+    }
+  },
+  "arms": [
+    "reference",
+    "unbalanced",
+    "balanced",
+    "balanced_light"
+  ],
+  "training_seeds": [
+    17,
+    29,
+    43
+  ],
+  "evaluation_seeds": [
+    6901,
+    6902
+  ],
+  "conditions": [
+    "normal",
+    "mild",
+    "mild_light"
+  ],
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "n_per_condition_seed": 84,
+  "order": "6902normal fresh-development comparison first;6901normal is diagnosed regression set. Compound conditions and other initializations after prototype safety diagnosis.",
+  "scoring": "unchanged stable55cm exit,valid start,continuous full-body margin>=0 at every physics sample; report severe/wrong exit as separate safety gates",
+  "reuse": "For controls6901normal only, import earlier84frozen results after checkpoint and evaluator-source hash verification; do not rerun or alter them.",
+  "scope": "Local visual development; not actual A5b+v4 legacy comparison or full missions. No final seeds.",
+  "final_exam_used": false
+}

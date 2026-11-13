@@ -1,0 +1,13 @@
+{
+  "frozen_source_and_dependencies_exact": true,
+  "hashed_files": 84,
+  "paired_diagnostic_initials_events_exact": true,
+  "new_training_updates": 0,
+  "final_exam_used": false,
+  "normal_pilot_episodes": 72,
+  "privileged_teacher_diagnostic_episodes": 24,
+  "parameter_diagnostic_episodes": 16,
+  "visual_delay_diagnostic_episodes": 8,
+  "total_simulated_episodes": 120,
+  "expansion_gate_passed": false
+}

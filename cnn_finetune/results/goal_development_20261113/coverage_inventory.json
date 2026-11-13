@@ -1,0 +1,352 @@
+{
+  "required_movement_count": 28,
+  "pilot_evaluated_count": 4,
+  "straight_count": 8,
+  "held_turn_references": 6,
+  "required_movements": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": true,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": false,
+      "reference_status": "held",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": false,
+      "reference_status": "held",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": false,
+      "reference_status": "held",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": false,
+      "reference_status": "held",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": true,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": true,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "held",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": true,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "exit_arm": "W",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "held",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "exit_arm": "S",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "exit_arm": "N",
+      "pilot_student_evaluated": false,
+      "reference_status": "straight_reference_from_stage02",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "exit_arm": "E",
+      "pilot_student_evaluated": false,
+      "reference_status": "accepted_dev",
+      "cnn_direction_encoding_needed": "[0,0] straight; [1,0] left; [0,1] right",
+      "acceptance_passed": false
+    }
+  ],
+  "full_mission_manifest_frozen": false,
+  "scope_notes": [
+    "Full goal includes all required transitions, outer connecting curves, direction queue/default rules and interrupt behavior.",
+    "Current two-bit direction interface can encode straight as [0,0], but old pilot code maps every non-left case to right. Expansion requires explicit encoding and training.",
+    "Existing mission controller detects junction arrival from estimated map pose; neural-only integration must not substitute simulator truth for this detection.",
+    "Truth-driven scripted sign/interrupt delivery in bench is an external-input simulator, not proof of sign recognition. Keep this distinction.",
+    "Do not count completion of four local movements as full-mission acceptance."
+  ]
+}

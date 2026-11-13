@@ -1,0 +1,32 @@
+[
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\source_snapshot\\goal_development.py",
+    "bytes": 10135,
+    "sha256": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\source_snapshot\\goal_exit_reference_probe.py",
+    "bytes": 4025,
+    "sha256": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\source_snapshot\\goal_teacher_coverage.py",
+    "bytes": 7717,
+    "sha256": "df9dcc5d9cf3869279d39539388e59a5c44935ad829fbe25b28715b414e872fa"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\source_snapshot\\goal_teacher_probe.py",
+    "bytes": 5562,
+    "sha256": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\source_snapshot\\goal_teacher_validation.py",
+    "bytes": 3890,
+    "sha256": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\source_snapshot\\junction_learning.py",
+    "bytes": 17720,
+    "sha256": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0"
+  }
+]

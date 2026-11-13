@@ -1,0 +1,50 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "stage": "data_source_and_cnn_scope_diagnostics_complete",
+  "new_training": true,
+  "training_initializations": 1,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "actor_input_contract_changed": false,
+  "acceptance_changed": false,
+  "deployed_model_changed": false,
+  "incumbent_reference_checkpoint": "D:/autodrive_cnn/runs/goal_development_20261113/convergence_probe/best.pt",
+  "incumbent_reference_clean": 37,
+  "incumbent_reference_n": 72,
+  "new_models_adopted": false,
+  "latest_reports": [
+    "cnn_finetune/results/goal_full_dagger_20261113/REPORT.md",
+    "cnn_finetune/results/goal_cnn_tail_20261113/REPORT.md"
+  ],
+  "completed_current_comparison": {
+    "trained_models": 4,
+    "updates_per_model": 1200,
+    "development_rollouts": 288,
+    "teacher_collection": 72,
+    "student_collection": 72,
+    "teacher_query_branches": 359,
+    "exact_student_physics_replays": 72
+  },
+  "findings": [
+    "Teacher-only data gives 38/72 clean with frozen CNN and 40/72 with tail tuning, but wrong exits and severe departures regress against incumbent",
+    "50 percent full student-query source gives 14/72 frozen and 10/72 tail, despite better fitting of student labels",
+    "Student-source fitting degrades nominal teacher entry fitting; CNN-tail tuning alone does not fix it",
+    "Only 225/298 onroad-root teacher continuations remain clean; queries are not certified safe",
+    "Four local movements, one training initialization, repeatedly used development seeds; not completion"
+  ],
+  "next": [
+    "Nominal-preserving recovery learning and source interference diagnosis",
+    "Boundary-aware offline teacher quality and physically recoverable harsh envelope",
+    "All 28 required movements and full missions",
+    "Three training initializations and independent final exam"
+  ],
+  "user_decision_boundaries": [
+    "Acceptance thresholds",
+    "Actor input contract",
+    "Fundamental architecture or scope transition"
+  ]
+}

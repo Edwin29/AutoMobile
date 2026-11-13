@@ -1,0 +1,74 @@
+{
+  "keys": [
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ]
+  ],
+  "seeds": [
+    25001,
+    25002
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "condition": "normal",
+  "n": 24,
+  "hashes": {
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_N_right\\reference.npz": "f5bd8acdc5b35e082454b9ef177a94917b5d99d14246a9052ec21b003f50c65d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_right\\reference.npz": "e446846159350e3cef20680d7af89aa4b3fa906f42f2e1066f9a835b3d0ad379",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_E_left\\reference.npz": "35598e4bc4bb55726de9c0d76d439a63c889fc902ff8e60de918920d366a718d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_W_right\\reference.npz": "f29b49abec3b67fd7b68fd5579739c6dcb5466294201006336dd98d4436f785c",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\disturb.py": "c5e2e90c03226df1c5e91d226da759356d56206d5d23a0f60b06e0cfc0ebd7ad",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\junction.py": "3e7bf344cf1054f0034e8a2d3ac054ccc9c7384bf1c9c5ffc7f0ae3d410f8604",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\realcam.py": "adbaa6a97b1c8627b9af481aad7bec12c9a5efbd48b94f92dbf2c2a70af990de",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\run.py": "6457ef9da143c89c9871ef5b660533a841819a6f91c329328015886dec33a18c",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\score.py": "716e72c2c8bfa050f81c34357db2dffab4bede6dd8c18d6d23ad9c85fb2c1aa7",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\vehicle.py": "03c071317a9c0a7f23b844cb6bf7458aa40723fbaeb8f2f574afa2a1ead99fd5",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world.py": "c367e1abdcb5f6cdb45588223ae28b119ad16b17ebec6997ccffe09d0d416cd9",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_clearance_paths.py": "8c4eefd08829a250eb9182e50ad3c7c574b55cbc557014d7e8663c9473ec43a3",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_continuous_clearance.py": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_development.py": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_exit_reference_probe.py": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_coverage.py": "df9dcc5d9cf3869279d39539388e59a5c44935ad829fbe25b28715b414e872fa",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_probe.py": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_validation.py": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_cornering.py": "09ebf8dd902064fb6113b8b1912f6e25146a3bb9e700b95a565f0155cb4d9e9a",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_feasibility.py": "ec4a0db679d6c5355f0e2ced161c9df703a3ce64c358654f82f00c0cad5239c9",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_learning.py": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_stage02.py": "f0f00d5bd9b7caae9cd5b236cecce709e3a8a0cad4ca72f19dcb9d4c447d4892",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\model.py": "29f2357cf6082a4b139dc96cba65b91bd3a2de23e3d0683e8f1f305ae379b163",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\results\\goal_clearance_paths_20261113\\geometry.json": "220a6c6c9e5f172f8df7a138439cf0d753b5736971634712701c404d3b8146cc",
+    "D:\\Projects\\AutoMobile\\repo\\hyb4\\__init__.py": "6f0e90f799e94803d6c264b81758d774e4c897854634ebef0f3d99a05229a73d",
+    "D:\\Projects\\AutoMobile\\repo\\hyb4\\control.py": "68b2161becd98fce15306b81ad1d5b0acd524b6403538fac105d22908d3b07c7",
+    "D:\\Projects\\AutoMobile\\repo\\hyb4\\pilot.py": "c7d15c6ccdc1cacd68d507f0bcf1ca2ca2d336d30e4ba43f02bef5477533722f",
+    "D:\\Projects\\AutoMobile\\repo\\hyb4\\test_control.py": "b0dd7200e2f80c20ecc71ee8fd80b4cdf1b619cf10254189142d4105716f0702"
+  },
+  "scope": "Oracle capture-frame local paths; prerequisite only, no trained CNN or image-based control claim",
+  "gate": ">=22/24 continuous-clean,24/24 stable,0wrong/severe,0 unnecessary pauses; otherwise hold training and image expansion",
+  "model": "fixed nominal gain16.8 track13 efficiency.6 delay.05 tau.10;275ms preview; no true response inputs",
+  "packet": "48 points at 0.5cm spacing,nearest reference arc-2..+21.5cm; true capture pose transforms labels;36ms latency",
+  "allocation": "signed floor.36,integrated-duty pulse density,dt.036s; no legacy pivot/split",
+  "final_exam_used": false,
+  "new_training": false
+}

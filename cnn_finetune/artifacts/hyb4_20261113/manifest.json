@@ -1,0 +1,1781 @@
+{
+  "scope": "48 latest hyb4 prerequisite rollouts,20 smooth references,84 original protocol inputs; original bytes retained",
+  "files": [
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_field_estimate/complete.json",
+      "bytes": 1527,
+      "sha256": "dba81d6524ee751b7c370ebe8d58b9de2fae1c8a4daf08619ec81cb0a7f5aa36"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_field_estimate/physics.npz",
+      "bytes": 68803,
+      "sha256": "5401244f1fb1de65981f00392deb91446e5c5cdd76ab377c93781584030a139b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_field_estimate/records.json",
+      "bytes": 320054,
+      "sha256": "b61cafea006404d8f7e98fd047a76edbaa0fafff1389034f478a88dedd64eded"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_sluggish/complete.json",
+      "bytes": 1514,
+      "sha256": "e4068a43815a6ae8cb6a3c338d9565b5ed2440d67ed615882637bdaae6b14bff"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_sluggish/physics.npz",
+      "bytes": 72819,
+      "sha256": "c9f4b2047ee254e0fd08431ca53f2e6f4996f0792b286cb8bf439c16ba7c21d0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_sluggish/records.json",
+      "bytes": 341134,
+      "sha256": "5cea9e26f9b0e32885cfe7eaf6c5e85b5a7c967e1a31b3a6899084802b37a8ac"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_unequal_sides/complete.json",
+      "bytes": 1522,
+      "sha256": "addef0c284aa72550b2d83a60a43280fc577a3370531aa81a3099ac241afecb8"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_unequal_sides/physics.npz",
+      "bytes": 73685,
+      "sha256": "a2266b53a8c6f294e2f3149f6cede2ba9202fe87f24fcb513b64e6c928d6c22b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25001_unequal_sides/records.json",
+      "bytes": 342911,
+      "sha256": "76c95c1cf7409e4c14f8f528722520150795b44221360e8811455e72cfc8eda6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_field_estimate/complete.json",
+      "bytes": 1546,
+      "sha256": "8b9f48c88d2924edb2a0053be809d0f575c39a97944e864d948e40f6d398588e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_field_estimate/physics.npz",
+      "bytes": 69739,
+      "sha256": "945820fd76f8c7d96849a252b911801146a583b14c4f5bc2c2f1a77959644a62"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_field_estimate/records.json",
+      "bytes": 324037,
+      "sha256": "228e6c1e4dfad3801fbb14d757c16e31b4cd84997b5f0a3b2a83b37b86e93079"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_sluggish/complete.json",
+      "bytes": 1535,
+      "sha256": "05f72252aa0c0c2368b040928e15bf4629dd2a4bebc9807cd95f7d1a6f4045f7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_sluggish/physics.npz",
+      "bytes": 73861,
+      "sha256": "969676d256b4232f95a1ac9357f2b016d0f4a24ecc6970d1ae866f8fdfcb3849"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_sluggish/records.json",
+      "bytes": 345731,
+      "sha256": "e5229f7839d38fb09dec069be8ebabfcc15bc7ee6acf356aaf7464f5ca4537aa"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_unequal_sides/complete.json",
+      "bytes": 1542,
+      "sha256": "aea08a5896aa88bb6cb1963cd58e97f6f6caf56a7c46371951a49bc7778adfdf"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_unequal_sides/physics.npz",
+      "bytes": 74506,
+      "sha256": "d20e2b455d07e785246bf0b6876c31a11c6f1af711082d1fb4566a383316971a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/center_N_right_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/center_N_right_25002_unequal_sides/records.json",
+      "bytes": 346744,
+      "sha256": "0df7f7fc71e3769667f54d49a3596864d1a726d62b2de5390a96ad08706be8aa"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_field_estimate/complete.json",
+      "bytes": 1531,
+      "sha256": "51c51d02d7d1d8b75d8b81c7f2f06a4a0236219d85f9ffe4ebf96c555c9ca762"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_field_estimate/physics.npz",
+      "bytes": 66587,
+      "sha256": "b4423fb12ee7ae5546cd7439d12a6c270649c1b9f4a208fe4c444d677f787e11"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_field_estimate/records.json",
+      "bytes": 313673,
+      "sha256": "7a2670e54de6fd2fe77a0d4c1e2026453740315adde32c16826215ba43692558"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_sluggish/complete.json",
+      "bytes": 1519,
+      "sha256": "3ff05b3247d7843211a1c6d91cd901a976dff326726bf596ea868b57262cc361"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_sluggish/physics.npz",
+      "bytes": 70425,
+      "sha256": "13039d16945d3644bac85f41a074f9ff061abfdc2d6b93e5c160c6f78ee2b7cc"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_sluggish/records.json",
+      "bytes": 334256,
+      "sha256": "afb5c1b2b3f763d29eb5f46a2da2c7958987c11550abaa944940f2ed0a9b67e1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_unequal_sides/complete.json",
+      "bytes": 1527,
+      "sha256": "7806b20d390bb1cdc338a75b6f559d690f6b45c91e0c168b1c2bb00525ae8da2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_unequal_sides/physics.npz",
+      "bytes": 71211,
+      "sha256": "9c7a72ddd0cbf0a5a4f11491ca25266c868c97def8110e2684ee7dd136f54a0a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25001_unequal_sides/records.json",
+      "bytes": 335654,
+      "sha256": "6e477db20a8769ba864019558580cc07849ac3a8a0bc86c60dfd838384fbd15e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_field_estimate/complete.json",
+      "bytes": 1533,
+      "sha256": "f168b9d7678f4b22877c1763e3688aa926747ff2274543c34dee543700443096"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_field_estimate/physics.npz",
+      "bytes": 67224,
+      "sha256": "6d983710f72b7c148c966a1c7d1169bd3fb8d23f6ae0e225b3153df106886da3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_field_estimate/records.json",
+      "bytes": 317852,
+      "sha256": "09a19a82369df16cfdb9a552f3e145e33bb8f3e993be2eec9fa5587dabb2a15a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_sluggish/complete.json",
+      "bytes": 1520,
+      "sha256": "738d2cb20459a1730764f6ecf7b77e2e9b323cca265a1216a7015df99cc812c7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_sluggish/physics.npz",
+      "bytes": 71097,
+      "sha256": "a11bc3b0b48cc2d4d3dc715071680feac8794fe87361584459ed9c69d40902a1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_sluggish/records.json",
+      "bytes": 338573,
+      "sha256": "30f600dfd54d8163d7c4264a5f3d7a6d870c1a28dc8317aa42095a7b4f7df15c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_unequal_sides/complete.json",
+      "bytes": 1532,
+      "sha256": "c0dd24a77fc2926f880563a5e3c3e9155d84390db8eecd05e9a228939159fa80"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_unequal_sides/physics.npz",
+      "bytes": 71943,
+      "sha256": "cffb038616199d98a7417ebbc6cae90646dde45f07eaf7ccbd80381197529cc7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/east_W_right_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/east_W_right_25002_unequal_sides/records.json",
+      "bytes": 340184,
+      "sha256": "43f42fdcdbae8e84fb1afb590fe18363e7f7ea67660a64d9c03df7fceced47c6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_field_estimate/complete.json",
+      "bytes": 1531,
+      "sha256": "b7a254a21257328ec8b43572cbb6c49baada2ce555b5a225d3e0cc62ae41ef35"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_field_estimate/physics.npz",
+      "bytes": 58496,
+      "sha256": "995a0422a92d3914d1a964d3a5b046de2c71f661e1b9ef472cff1d5eac0435b8"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_field_estimate/records.json",
+      "bytes": 281683,
+      "sha256": "b34586539b63272de80e2a9e281c76b519638ab349859d5acfe1612e068e2787"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_sluggish/complete.json",
+      "bytes": 1524,
+      "sha256": "f948f2c8b7230e16619bb1cdb7e852f8a8d722636099562bba7aa7e3e0e8e70d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_sluggish/physics.npz",
+      "bytes": 62502,
+      "sha256": "92c446155d89a7ab5d05a9c668a86b46124c4f0b8371cc5ee9c831d379cac4be"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_sluggish/records.json",
+      "bytes": 300514,
+      "sha256": "2c87565b8eb36a225cce1b70f4b930c3efee1a3c90db7241bf9aafc32b222b7e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_unequal_sides/complete.json",
+      "bytes": 1527,
+      "sha256": "730c989ffb159204d912d6e974f145bfaf6de86fa30e070794b5f5972f1faec4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_unequal_sides/physics.npz",
+      "bytes": 60558,
+      "sha256": "af31f0a743286ab59d22dd75a945db4ffe16f4ee634afed6e2c5d43687359e15"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25001_unequal_sides/records.json",
+      "bytes": 289538,
+      "sha256": "d3faacb4b45e474f6e0f957a560f26eb30cb2e24201952c439a123ebeaa75470"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_field_estimate/complete.json",
+      "bytes": 1533,
+      "sha256": "94fb2228ce4a91628b09d65646b8b25584b21be9ffc12a074a9fa4d8b3a918f1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_field_estimate/physics.npz",
+      "bytes": 59405,
+      "sha256": "16674088d10d531e4d6c385df56abd515ac6bff23588272b97024748b0029a40"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_field_estimate/records.json",
+      "bytes": 285252,
+      "sha256": "3de1acf8c96ced1fc85816fb7ac1142bf5daa6afa071d59ba1c81d7501f67fd9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_sluggish/complete.json",
+      "bytes": 1524,
+      "sha256": "b8b2fd465e3b0bdab769aaead2a25f8daa9ca8e3014a4ffafd5dc1a00e56681b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_sluggish/physics.npz",
+      "bytes": 63406,
+      "sha256": "0ec51407727596f4ec692db2837479d0e1a7a8f5781d579ce097f75b4ca25c11"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_sluggish/records.json",
+      "bytes": 305031,
+      "sha256": "305b8cfbbd15f1595544192ba51bf8823d75de1ec3a2cf203087de63346c90ed"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_unequal_sides/complete.json",
+      "bytes": 1528,
+      "sha256": "a2601511873cec33505d5c2b2d7a5fb13c3fd03b12d509ab8ffd8f6429d57fe9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_unequal_sides/physics.npz",
+      "bytes": 61264,
+      "sha256": "bd51c1ed3c6a17977b05424b3aeadb8da8b475fc0e40cc5fad6ca2c2579fb037"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_E_left_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_E_left_25002_unequal_sides/records.json",
+      "bytes": 292694,
+      "sha256": "4cfceb9a618bb5465e8fcd831b2f7c8841ec06cf94c14f7b510d865849f8c24d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_field_estimate/complete.json",
+      "bytes": 1533,
+      "sha256": "2ce6e33cd351e0c612982ab5d070a7a767e0e43483740ee42a7028706df5629b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_field_estimate/physics.npz",
+      "bytes": 58438,
+      "sha256": "00e12eb6d083f927d2952e9439341b185078f9bf404cf70a4447f3b9b13a65cf"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_field_estimate/records.json",
+      "bytes": 280890,
+      "sha256": "47f4daa4608a79a5aa3f4584757bd40b63c20a1a6f3b8433acfaa904f1c1e275"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_sluggish/complete.json",
+      "bytes": 1524,
+      "sha256": "4bce1f478133520d27f5ea407ef7c42154974ef1a38cb5f81181f8fa22033f89"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_sluggish/physics.npz",
+      "bytes": 62848,
+      "sha256": "e1664ce313dfd6476c7579183914e5f0bf727c79968e2411fb546ed5a8d301c3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_sluggish/records.json",
+      "bytes": 300985,
+      "sha256": "523fb35dbc3e0b07709d7905742e24fbbb53f717256e497f7beab278150da9c1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_unequal_sides/complete.json",
+      "bytes": 1532,
+      "sha256": "fdc1a55f458b27e754df8c207b92c2ddd4f0374becc2504dd3568ae7ce89832f"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_unequal_sides/physics.npz",
+      "bytes": 62978,
+      "sha256": "be2492a78205e2f19ba8dc549808cd1c7f55f029adab1fd8b14ca554b35048fe"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25001_unequal_sides/records.json",
+      "bytes": 301804,
+      "sha256": "99cabfe7817caa41f45d58267d272362ea04d6e80f494ac67377c7503236d36a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_field_estimate/complete.json",
+      "bytes": 1536,
+      "sha256": "f09968c7c9874a0537677462ed11b5e5a45775b84551618bc8a49f03a3548fa3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_field_estimate/physics.npz",
+      "bytes": 59330,
+      "sha256": "10e3bbd3815c64dd4a5cd870b7c8b2e868c03a1d55ebe5d76913a3b827839ac0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_field_estimate/records.json",
+      "bytes": 285203,
+      "sha256": "9d388332301afa98bf0ba1ff18489e4bef8eaa53e3115ea96b45e4c036793520"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_sluggish/complete.json",
+      "bytes": 1527,
+      "sha256": "df29a6b5df335b9a57f3e6ad7dc2e1bab94385b2edaad0669e77e8641f2bb54b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_sluggish/physics.npz",
+      "bytes": 63071,
+      "sha256": "f95a5a6c4ed8808a41668f6d63c2e1785fa9cb752e932e028b72567317862ef0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_sluggish/records.json",
+      "bytes": 303396,
+      "sha256": "8b8c4c433be94078a80bd3b33d0cfe0e08f0d1e75a6359fa9eb505343ead6195"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_unequal_sides/complete.json",
+      "bytes": 1532,
+      "sha256": "5cf2a94e875af70162023e571883e538ebdf8ce6b02c8dcea51819bb6b9db9a7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_unequal_sides/physics.npz",
+      "bytes": 63424,
+      "sha256": "ba71de6ec8ad9d0854f21bbea58e104d5eeb9c4d51b283a689b1e8bc16960230"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/oracle/north_W_right_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_prerequisite_20261113/north_W_right_25002_unequal_sides/records.json",
+      "bytes": 304475,
+      "sha256": "bff847cd449fb4b5971b48b9f963f110bbbebfe6fa797c71ec6b9cbf8a63178c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_field_estimate/complete.json",
+      "bytes": 1765,
+      "sha256": "36f68e1cdfd8482bf8be3189a385b0f5c90dae9234a81e2e35e990bf4c7c8669"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_field_estimate/physics.npz",
+      "bytes": 69040,
+      "sha256": "44c15243cd4719cc70d14dd2ab4670649975788dc31517e487ff2ced6ef834f5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_field_estimate/records.json",
+      "bytes": 492858,
+      "sha256": "3e3c3730cb09cc0f0a1099e3e17b15ae22dc12d6b8658c734db25a7231eb8831"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_sluggish/complete.json",
+      "bytes": 1758,
+      "sha256": "3b9edc1dc283fb9eb88e808820496cb0f506a594b8509728337855aa837fc0bf"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_sluggish/physics.npz",
+      "bytes": 73092,
+      "sha256": "423d970e20508c8a0441cdc504e6472040e69abb402c4997d955ea0fab622d5d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_sluggish/records.json",
+      "bytes": 526095,
+      "sha256": "efe4bae7fc110da275647b5088bbff43a45ce287748138e386275a7c608dd0f1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_unequal_sides/complete.json",
+      "bytes": 1765,
+      "sha256": "e0fafb40498963edbb68fe7574bd4de9fc076e0fade8b5ef99dbc4dd61d7167e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_unequal_sides/physics.npz",
+      "bytes": 73725,
+      "sha256": "a583b062b61ccaf6bf4893c732e2cd5b8a24c78c9601c28520befb0e08f8caf9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25001_unequal_sides/records.json",
+      "bytes": 526217,
+      "sha256": "db615eef3f4891ffe0c7b814b2b9227911cc503ca12f09be810df972f027a565"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_field_estimate/complete.json",
+      "bytes": 1785,
+      "sha256": "69d3f2f29d40768d57b2dae169c61677c2a7133006602640dbafaca22e868217"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_field_estimate/physics.npz",
+      "bytes": 69748,
+      "sha256": "1f6fe03ada19082a4a1aa309a36e127fb5847992fc15391c87256b2aa54b907a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_field_estimate/records.json",
+      "bytes": 498041,
+      "sha256": "b8fd525ee5f57c21645f91bd99004af32cabfa81c88c053e55fc38876c96b61e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_sluggish/complete.json",
+      "bytes": 1778,
+      "sha256": "c152ec46b1d650f88bd122e10434ae285d2b1f954f3fb608ce0564d88a4eef50"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_sluggish/physics.npz",
+      "bytes": 73899,
+      "sha256": "95327604f6f29e7f0534923fec337c7e979aa49c3b00cf943889c395dc090bb3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_sluggish/records.json",
+      "bytes": 530887,
+      "sha256": "9b236b52e766351d9c55171687ccecacd5cb4cdd5f25b7b4f70d22f2a375beb3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_unequal_sides/complete.json",
+      "bytes": 1785,
+      "sha256": "c1d7f5d998c57327b68b5f2c8347f88cc7cf5992bf77b23849bce68b5ebaa7df"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_unequal_sides/physics.npz",
+      "bytes": 74656,
+      "sha256": "0a827497332f78f0dd381486271eb1227d9075f75b4d07423d7b89f06926f609"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/center_N_right_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/center_N_right_25002_unequal_sides/records.json",
+      "bytes": 532537,
+      "sha256": "1302eda30c5c9f96fe1594b0ef3ef11b8f97075f7caa3b124a9e928b2f5977d0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_field_estimate/complete.json",
+      "bytes": 1767,
+      "sha256": "2c6350eb2432e86224b3e825267d9694326575ef30166274f8088a7d21aa0995"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_field_estimate/physics.npz",
+      "bytes": 66907,
+      "sha256": "65aeb47a74391d024414cf3fd7965d4587f177cf11d7a900d6742f11ebe05b8c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_field_estimate/records.json",
+      "bytes": 481653,
+      "sha256": "682dbb9e976b9e32ced7cb5960de546f5f7c5ad4b3a53af0ee99103972bcd79b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_sluggish/complete.json",
+      "bytes": 1761,
+      "sha256": "d301375759e338e69f8de97c026b36323681ccbc1c342b4187610c8141cedce4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_sluggish/physics.npz",
+      "bytes": 70662,
+      "sha256": "51a5a5e240496274c510feb5d95b75f961c2ff76bf40f10630bbaaf76e4756bc"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_sluggish/records.json",
+      "bytes": 512590,
+      "sha256": "e6fcd5ff7b17029198c2f26557c4f8ac58530a06433ed8301a3b33ab6b8411ab"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_unequal_sides/complete.json",
+      "bytes": 1771,
+      "sha256": "c22a4e7d12e360ac9f2251ab3fa19eb5adf8ffd9b9d70b18b6edc1d51c8858e2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_unequal_sides/physics.npz",
+      "bytes": 71559,
+      "sha256": "1057c80c017ae00b1a73965f68c4acd6a47564ccfe67e26540ed4bf0a41653a1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25001_unequal_sides/records.json",
+      "bytes": 515231,
+      "sha256": "3a548f8383910e4b73b84d8f46734d45b29317443fe3c1c1fdcfd15e8490fb1b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_field_estimate/complete.json",
+      "bytes": 1773,
+      "sha256": "05493f9a83a9237c0f254ee2925467f969159e27dcf27b7ba0bc4b1315670e80"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_field_estimate/physics.npz",
+      "bytes": 67773,
+      "sha256": "7a608e4d318e74c387ae68dc7571bdba603ae7c2afbae20829e8ee93bb273b85"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_field_estimate/records.json",
+      "bytes": 489478,
+      "sha256": "8d31e45e8c7435876fb3c1085dfdaf68eb1d7c204ddd5a3a5a7e428509ae7c1c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_sluggish/complete.json",
+      "bytes": 1764,
+      "sha256": "17d45b408e1379755176967e8cc3a9f45f20abecd19d7e15105f6eaea8b30958"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_sluggish/physics.npz",
+      "bytes": 71849,
+      "sha256": "c4576cb6eac4608d03d18d6ebab0f998d2326d31b7084639d000e71b23ecc7b0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_sluggish/records.json",
+      "bytes": 521660,
+      "sha256": "edf7114a6fec2622c513d75798f921e559485aa64b25d0af8838a36c0cd7c6f6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_unequal_sides/complete.json",
+      "bytes": 1771,
+      "sha256": "eb8b0b7c8079d722bfd24f1558513a0a4fff16b6016c12217cfe29bddac8bedd"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_unequal_sides/physics.npz",
+      "bytes": 72345,
+      "sha256": "6497029852d3726b833678abc2c9187a9e5fe9b30d115167f71f14be84ade53d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/east_W_right_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/east_W_right_25002_unequal_sides/records.json",
+      "bytes": 522141,
+      "sha256": "013fb5bf7215d9e1ba3bd713b7ce6c5c7c3aae5260ccf830e6effb2b254768aa"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_field_estimate/complete.json",
+      "bytes": 1775,
+      "sha256": "82e2700482edbd6ef1d30d02d6910160f704913b0fdf6b84b8d0829ce97013e4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_field_estimate/physics.npz",
+      "bytes": 58656,
+      "sha256": "7cede8dc870601c0e44afc7d78e5b162fe9b9580636a425b83abca8d0c57442b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_field_estimate/records.json",
+      "bytes": 429512,
+      "sha256": "125b167e6ef9faf185fffed1e1a55475a170de20b0010fdc3f645de12d9b5272"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_sluggish/complete.json",
+      "bytes": 1797,
+      "sha256": "6f095301f1cb46392570f379089928ab06f089da9d7a8313b0f742c158d3c46e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_sluggish/physics.npz",
+      "bytes": 62781,
+      "sha256": "7b34d69d6467c12f92e162b0b41c691a380720d2ec40b8777d44aa2b8a953d91"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_sluggish/records.json",
+      "bytes": 459094,
+      "sha256": "630af02d0c36c9292a77afc3ba58eb4186836fa715d6f1f6674a76180542e907"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_unequal_sides/complete.json",
+      "bytes": 1770,
+      "sha256": "82ab422e97cd4ad32dd36ded67085cb377e55d90ffe7489f5daedfbee0931d09"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_unequal_sides/physics.npz",
+      "bytes": 60729,
+      "sha256": "36f6a001e8ee2b8f3b11df749274223a31cd4a41188a358fd6b1c8ecb47c7fbd"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25001_unequal_sides/records.json",
+      "bytes": 441596,
+      "sha256": "d03fbbdb63bf9f9d34a8b96cf14d04f6bc9d069c74000810cb5b2f185e67fcc2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_field_estimate/complete.json",
+      "bytes": 1778,
+      "sha256": "780ed6d0eeebbc76913a7d90f403802736e44807aa2fa4f98167621babcdc7b7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_field_estimate/physics.npz",
+      "bytes": 59966,
+      "sha256": "e75453b4a586efc8dba22ab3722c462fd717b85565a72d6041349a239ddcdfe9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_field_estimate/records.json",
+      "bytes": 438794,
+      "sha256": "c812b2fd035ee17ccb07c93080fe89661507f1748afafa744b1e5d1db3f1ecf7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_sluggish/complete.json",
+      "bytes": 1761,
+      "sha256": "2ee3d0b32c0f67c6f77c526fe42f2e54cbc10eba7057bba55745db94f7f26dd6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_sluggish/physics.npz",
+      "bytes": 64087,
+      "sha256": "acb206a41299ac40766f0275e8f92a82f946205a9e538873828a16e472f8544c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_sluggish/records.json",
+      "bytes": 468934,
+      "sha256": "2602b7a1704b79afd52fd02e71faaaa8dd020d24ecbb57678b6d23f5fd81ce3e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_unequal_sides/complete.json",
+      "bytes": 1773,
+      "sha256": "0aee54ea00ef4a9595094f0b7a2a6e27aefdee2a135d198571dd5f587416a384"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_unequal_sides/physics.npz",
+      "bytes": 61974,
+      "sha256": "9d30dee402947a20f601f2e203884618511a556b7f52ad2127056798ebf3032c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_E_left_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_E_left_25002_unequal_sides/records.json",
+      "bytes": 450656,
+      "sha256": "61c1d66628752cbd7d551a25da57f59b393ae0bb5f6bb43df1e6c98acafd6d71"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_field_estimate/complete.json",
+      "bytes": 1775,
+      "sha256": "4cb386c32fb6784a2e1f42a96be8aa2b45a680ca9fe8200fd971a481d17db2ee"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_field_estimate/physics.npz",
+      "bytes": 58369,
+      "sha256": "9b80ba3c906b5e1ecbb629408ecd66b9b8de47cf0d5337be6f9b5f1610a30094"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_field_estimate/records.json",
+      "bytes": 428604,
+      "sha256": "8d9e2457a374d8a9b664656770d90cd38650be9630559851f0037c4f81c525f5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_sluggish/complete.json",
+      "bytes": 1801,
+      "sha256": "9ba86bea50e90a40c4bd90f25ae3628fd5007c1f6354a4a872cd279f232c34e8"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_sluggish/physics.npz",
+      "bytes": 62997,
+      "sha256": "fd78531d595d7d50197d052c0f5dced3636296465f4a30b4a6585801d2c1a6be"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_sluggish/records.json",
+      "bytes": 459251,
+      "sha256": "45eaa5f8510a217f5d76baa33f3175725d07c6f81f58e71fe2ccc0b46a4d7561"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_unequal_sides/complete.json",
+      "bytes": 1770,
+      "sha256": "68e6486fc680805981e1e5fa03a90682be28f8f44f3d81ae7a3ed8ae60c91b50"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_unequal_sides/physics.npz",
+      "bytes": 62736,
+      "sha256": "dd731cd4acd5307f36f707d51e388e8d43a28325989f50b37674ad2b6126ef24"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25001_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25001_unequal_sides/records.json",
+      "bytes": 457113,
+      "sha256": "8c206d4dc4d29be54ef83c50967d55a4b8b0db5eee6ab9c748d5701537d147a6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_field_estimate/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_field_estimate/complete.json",
+      "bytes": 1780,
+      "sha256": "8674e3007940af04fb2cac3df757094ec1b307bb3e186c863f838330fb9c8cb1"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_field_estimate/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_field_estimate/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_field_estimate/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_field_estimate/physics.npz",
+      "bytes": 59381,
+      "sha256": "d1a5f091df249cc1ddd6cd89575d02f80548565211b04decd07578df49e841a9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_field_estimate/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_field_estimate/records.json",
+      "bytes": 435624,
+      "sha256": "6e466f9f4c0eb14f7abb4f664222fc5c13f7c8f72ec17a1a72e79170998dc772"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_sluggish/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_sluggish/complete.json",
+      "bytes": 1801,
+      "sha256": "5bbde678ed4ae4a807a466ffdd5395742d150ac4b3dd584b41f942cf9c7e7948"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_sluggish/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_sluggish/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_sluggish/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_sluggish/physics.npz",
+      "bytes": 63418,
+      "sha256": "12a01dcb8a919a138dcd9c1443fdfebe8cbdf1173aaa2a7fa7638c1124be0a42"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_sluggish/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_sluggish/records.json",
+      "bytes": 463475,
+      "sha256": "062fff0d24161029de68abe9a3fb048502d850228bc2b1903921300a20d47b1a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_unequal_sides/complete.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_unequal_sides/complete.json",
+      "bytes": 1774,
+      "sha256": "0ec7ad274b38c58f7d0d062af47590050468314a514a71d8773ed51705c0e41b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_unequal_sides/events.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_unequal_sides/events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_unequal_sides/physics.npz",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_unequal_sides/physics.npz",
+      "bytes": 63661,
+      "sha256": "a9bca11cc65674f0d893c086f294d88ab884fc64c1bca07b335ae0fa6ee7c12e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/vision/north_W_right_25002_unequal_sides/records.json",
+      "source_path": "D:/autodrive_cnn/runs/hyb4_image_prerequisite_20261113/north_W_right_25002_unequal_sides/records.json",
+      "bytes": 463490,
+      "sha256": "c19717babc21dc1b2ef65eb45a5955233469194509d941589b0a9bcfd14bddf5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/center_N_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/center_N_right/reference.npz",
+      "bytes": 14367,
+      "sha256": "f5bd8acdc5b35e082454b9ef177a94917b5d99d14246a9052ec21b003f50c65d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/center_E_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/center_E_right/reference.npz",
+      "bytes": 15353,
+      "sha256": "b3879da1e2ac23a970147e6abc8969a3d8956a56814b1e1530aa6518610d4f35"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/center_S_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/center_S_right/reference.npz",
+      "bytes": 14641,
+      "sha256": "cecd307dc607d34fab51405d461c1d9ed0b387e37ce069a90de6ec9b8e8670c5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/center_W_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/center_W_right/reference.npz",
+      "bytes": 15092,
+      "sha256": "9d7a3c23974ab518e3a4dab7f54adbad2e3b4adec067f288d8900907feb466ad"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/north_E_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/north_E_left/reference.npz",
+      "bytes": 14697,
+      "sha256": "35598e4bc4bb55726de9c0d76d439a63c889fc902ff8e60de918920d366a718d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/north_S_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/north_S_left/reference.npz",
+      "bytes": 14413,
+      "sha256": "3b321f3efa03115ed8da06e177c7e6eb7ec4a460ea1ee62e591adc2a24444a4c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/north_S_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/north_S_right/reference.npz",
+      "bytes": 14254,
+      "sha256": "cf6b08707f5e56fb3cba489e05f6686b5de9c2bffb9a4fe8fa174025dde25c9c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/north_W_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/north_W_right/reference.npz",
+      "bytes": 14657,
+      "sha256": "f29b49abec3b67fd7b68fd5579739c6dcb5466294201006336dd98d4436f785c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/east_N_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/east_N_right/reference.npz",
+      "bytes": 14381,
+      "sha256": "ffd8adf10588fbf68a2a7c4dac70586a46158c1813310a5ea444425e3135f6af"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/east_S_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/east_S_left/reference.npz",
+      "bytes": 14649,
+      "sha256": "d5ccf54aab32aa1cad947528f4300d9fadd01b6a4c8df391b16580273d28eac9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/east_W_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/east_W_left/reference.npz",
+      "bytes": 14162,
+      "sha256": "8ec961dbe6ebd0dca9bd047b88bf9bf615375a47fc9fc93605118a5a7171f300"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/east_W_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/east_W_right/reference.npz",
+      "bytes": 14101,
+      "sha256": "e446846159350e3cef20680d7af89aa4b3fa906f42f2e1066f9a835b3d0ad379"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/south_N_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/south_N_left/reference.npz",
+      "bytes": 14120,
+      "sha256": "1c61359b890d08de1704ef3ad7aebe26a0f629e376310eb885e0f0eee09579b7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/south_N_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/south_N_right/reference.npz",
+      "bytes": 14045,
+      "sha256": "3f5cdf7b31961bf836ea559ba804027fbb5ecf4e7b2a5957a9f5fe6d9a929c73"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/south_E_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/south_E_right/reference.npz",
+      "bytes": 14752,
+      "sha256": "38719d42796cc6f63a3ac3576cc93099e3741e4173735c41d12ae4af4efd8e33"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/south_W_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/south_W_left/reference.npz",
+      "bytes": 14744,
+      "sha256": "3c07ec90b0908d222f2f97908653480ab88032de0a44c8d78c144ce442ec7c67"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/west_N_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/west_N_left/reference.npz",
+      "bytes": 14561,
+      "sha256": "6815af25cd4eb0bc36cb34e2362d192b7d1a3464f5a4ba25648478f260677757"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/west_E_left/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/west_E_left/reference.npz",
+      "bytes": 14076,
+      "sha256": "ef8b89455cc9f5170033c06937379802c3a7139368c7f356082eb54ad9b1c597"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/west_E_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/west_E_right/reference.npz",
+      "bytes": 14201,
+      "sha256": "79f040adca9f67394b8d7fa39841b24ea252d15b74973126608ef421744383bd"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/references/west_S_right/reference.npz",
+      "source_path": "D:/autodrive_cnn/runs/goal_clearance_paths_20261113/paths/west_S_right/reference.npz",
+      "bytes": 14606,
+      "sha256": "b1eda74e6840ea5a1110a988792b9ec8520fe7717f24db882e75d47d6238844d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/__init__.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/__init__.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/__init__.py",
+      "bytes": 104,
+      "sha256": "015ac0ed2d790fd31e248f1f8677c91ae4768013a66c2b5c6f99aa93133e80e3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/__main__.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/__main__.py",
+      "bytes": 882,
+      "sha256": "dbfc3bbe67779da4be2bad24f802f3eadb1712aca97a0c747cee5dff06a792c9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/actuation.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/actuation.py",
+      "bytes": 2300,
+      "sha256": "149d1c880be5db0b76ff16039db840826b8a731bbc46e56b6cd222059a77632a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/boundary_evidence.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/boundary_evidence.py",
+      "bytes": 3854,
+      "sha256": "ea1a7a133e5df42458605d5120874b510dc069a25be21760369111af75e1b749"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/build_map.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/build_map.py",
+      "bytes": 2370,
+      "sha256": "4e409a35b102446886c4f0ba20f5193110e1298d3d7c66899d36ff24481c57d2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/camera.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/camera.py",
+      "bytes": 3961,
+      "sha256": "cbc7b68e43a8128e64fbd9aa5e710fc4b8d61c7d2fb9e23ef268821fee1437e5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/config/camera_legacy_track.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/config/camera_legacy_track.json",
+      "bytes": 442,
+      "sha256": "c5ed313f83e64f9d9d3b36125bcdf1e4ca16300db68d1af730f13713444f9252"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/config/map.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/config/map.json",
+      "bytes": 1984,
+      "sha256": "ddfb445ff1df8204ae996a66a66119b8b0e3142f59f37df31089fd3ab3de5976"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/config/observation.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/config/observation.json",
+      "bytes": 2403,
+      "sha256": "eae8eb27c7a9e9f167b88c678fefcac09aa593013b42127c6ee33c856beabfe0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/config/runtime.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/config/runtime.json",
+      "bytes": 5012,
+      "sha256": "3ec69b1b89b19cc6fe726ab584d65116bbf3e3ab8a07aa465a02de53aa43316d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/context.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/context.py",
+      "bytes": 3819,
+      "sha256": "daa7a9240222b943996f69a5427186506c8ef440105d5d12e905dd101d020a59"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/contracts.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/contracts.py",
+      "bytes": 2746,
+      "sha256": "b7ac22a91c24ba9adf57a9cdaa3cdc2e61c876d89229db02adc88f0ceab7923a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/control.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/control.py",
+      "bytes": 7302,
+      "sha256": "831042f0916c9e727a1120c663bd33f623f69b86f99b4e2330163fb2ae496db2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/estimation.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/estimation.py",
+      "bytes": 16987,
+      "sha256": "0e09d78467670c38e647a577d777d6597a231a9897aacb5950863b2f31c816f4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/features.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/features.py",
+      "bytes": 9478,
+      "sha256": "386aebd945f6bc990d6ae566b4e1e22f4ad11d8ad3f8e51a1159e1c47f43eef6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/fragments.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/fragments.py",
+      "bytes": 6885,
+      "sha256": "c1b12923288f52e01c27a4ba4d25e1d0efc823cc078e88c455c008379bc342f9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/geometry.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/geometry.py",
+      "bytes": 1904,
+      "sha256": "73493e92158c5ea2fe4dfdbc30cd7aa10d3efdc8a59a7d14af478396dc3c2af5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/local_corridor.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/local_corridor.py",
+      "bytes": 5672,
+      "sha256": "27501df3aab89379e357fd904d1a44c6ce31307cfcdf5c7e555fb6ed4efa860a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/map_model.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/map_model.py",
+      "bytes": 9364,
+      "sha256": "325e399b9d773f6318b108d8248046188dc6e2939309e644019f044042280708"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/mission.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/mission.py",
+      "bytes": 8616,
+      "sha256": "ab446712285eb5291b3a1ee8a5760e6d8f4c81d281ff2728b6b78b506bcf78a4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/observation.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/observation.py",
+      "bytes": 8369,
+      "sha256": "25645f45acd4f0ab4be132c31766e0ef3fbcac0a55467299bddde8db6bafe868"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/path_acceptance.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/path_acceptance.py",
+      "bytes": 4270,
+      "sha256": "c249cbc9258d05b2788cac1b8cd0c7ef7fd6a98760e8b0c834637b2d998703c2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/planning.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/planning.py",
+      "bytes": 12600,
+      "sha256": "f43582db833d515d4222a688fbe287173fe9b888eb960ea8dab6f9bc1670de17"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/provenance.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/provenance.py",
+      "bytes": 550,
+      "sha256": "3a60f83410a90f2ae04bdfb940140d81493e25775cc7460ad0793dcf9615a985"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/replay.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/replay.py",
+      "bytes": 9938,
+      "sha256": "d11d66a39ac41be564b7c973af10891842188d632fd1f76ddc6fa1a44662b179"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/replay_planner.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/replay_planner.py",
+      "bytes": 2618,
+      "sha256": "05edd967e1d3135e2156edc73f2990ff79545f7939cb30ab40a908c4f9257d26"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/replay_stationary.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/replay_stationary.py",
+      "bytes": 3447,
+      "sha256": "ca2c7884777fef69f98d47ec338a2f42408850fe71f04d2c7c324f5dd9239e0b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/review_saved.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/review_saved.py",
+      "bytes": 3501,
+      "sha256": "f797732c9e2de5be0034562ba2d0c898faa8a8ae5b38d4d3c20c15af65097ff7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/runtime.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/runtime.py",
+      "bytes": 9528,
+      "sha256": "b9d55131fd84d5b7cc4bfcddcbec09ba2e15ed007c5c9aab1cfd36e2cd10430d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/settings.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/settings.py",
+      "bytes": 450,
+      "sha256": "b24003a41fdf59aebfe388106d7b76f8724ac5df16f378e017034beb7d14f41c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/shadow.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/shadow.py",
+      "bytes": 3813,
+      "sha256": "54eccb4e7095c5bde2259347c5ca6135ee56812d17d1d9fdfd55e00e72d197bf"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/simulation.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/simulation.py",
+      "bytes": 9890,
+      "sha256": "4cfa3b919a9d90cf0d4d77f2d70ce33d98e9f823e34c9b70f4b9b1d35e498541"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/start_region.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/start_region.py",
+      "bytes": 1601,
+      "sha256": "2aa7ab0f5a44fccbee6469349576a9c026315e86288f8833d3492f3c1d9fd4b4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/validate_matrix.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/validate_matrix.py",
+      "bytes": 1149,
+      "sha256": "cb5721666614f0a8fa3b28615a06eac9322ae1de33bc16a3c3b5faea1c1253ef"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v3/visual_motion.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v3/visual_motion.py",
+      "bytes": 3148,
+      "sha256": "83f872fed16714984e1779d633665de939702060c99f144bd0c06f1d9d9f498c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/__init__.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/build_map.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/build_map.py",
+      "bytes": 4869,
+      "sha256": "d41674d016f89bb682462c002f5dc4635e578090dc8022dc6a04bd49a3eb00c4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/compare_v3r.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/compare_v3r.py",
+      "bytes": 7221,
+      "sha256": "7ca33983b7a333ffdb163c0e9b3a691a20b4506d02902aa174b8515a46090a5f"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/config.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/config.json",
+      "bytes": 6710,
+      "sha256": "3878ba79bb16b579bc5d6cb61af9545f22109a90e21faec030c5aa110cade891"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/config/lane_geometry_outer_ccw_2d51a01e753d83bc.npz",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/config/lane_geometry_outer_ccw_2d51a01e753d83bc.npz",
+      "bytes": 21468,
+      "sha256": "36bd51681449469c04bf115437f7f32674c1a9222fbab1f92a6cb027fa27f723"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/config/lane_geometry_outer_cw_9d736a4966f07eb2.npz",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/config/lane_geometry_outer_cw_9d736a4966f07eb2.npz",
+      "bytes": 21468,
+      "sha256": "62f7c111d690d270fee5b7abb6e9f2e7106e542aea0c6e3fd22c822987ffcd3d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/config/map_v4.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/config/map_v4.json",
+      "bytes": 3711,
+      "sha256": "7063f64a93146548e1e0e1bc0621978bc8f869ee27bb8a3e594205e0d9309d7c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/core.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/core.py",
+      "bytes": 46134,
+      "sha256": "e18e0023849e6a67be29c5b8b6aaf924a89b3c538ba080a8bfee4435fa000c05"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_195808/manifest.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_195808/manifest.json",
+      "bytes": 2928,
+      "sha256": "e49a42465241ce17d0de33334efc7f87f60bcf9a49aba4ee10bebc671734f2ef"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_195808/summary.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_195808/summary.json",
+      "bytes": 184,
+      "sha256": "ea9a6fbaad065763c969b94538e601ecad98d182c53751aeacc5c97881d19266"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_200105/manifest.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_200105/manifest.json",
+      "bytes": 2928,
+      "sha256": "e49a42465241ce17d0de33334efc7f87f60bcf9a49aba4ee10bebc671734f2ef"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_200105/summary.json",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/field_runs/live_20261110_200105/summary.json",
+      "bytes": 184,
+      "sha256": "c3e880ac6e617220cd0a9616441977bf1a2a148e7dfffd622a0e44f3dae7f664"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/replay.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/replay.py",
+      "bytes": 3187,
+      "sha256": "db91a6441453d10c11a5221d3afcfd496e2353c5fce9d44f10b0215058b6bfeb"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/route.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/route.py",
+      "bytes": 2478,
+      "sha256": "49fd1c2b8db92cad5a1dc3e25f81845d24d1cb276deb65a0e54b342bb23fb0e4"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/run_pi.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/run_pi.py",
+      "bytes": 9099,
+      "sha256": "19f4070e23d5861972387309a559441bf6143fdad1ebc4b943c2cc72cf3e3cd6"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/drive_v4/sim.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/drive_v4/sim.py",
+      "bytes": 14332,
+      "sha256": "ec3d0f08c9165bd68cb25cd1f63217706c616397aab3412baa5f2b16a18600fa"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/_vendor/v4_65c68a6613a0/map_localization/outer_driver/track.npz",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/_vendor/v4_65c68a6613a0/map_localization/outer_driver/track.npz",
+      "bytes": 855822,
+      "sha256": "b569cb986d57a9be955f2035244323721b6a0d17d807bdfc6047be7145f7668a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/controllers.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/controllers.py",
+      "bytes": 26389,
+      "sha256": "35406a2a0af2c18fb9e10e2477be218c2855028f4831dbc108685425723489cb"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/controllers_junction.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/controllers_junction.py",
+      "bytes": 15737,
+      "sha256": "a599edae74cdf0e650af3f62cce3ac8aab253e66cef5910fa000073a3c16dd7b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/controllers_mission.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/controllers_mission.py",
+      "bytes": 14845,
+      "sha256": "f602f0f401ab21535022e3643127ddc547edec409a9bf529cfae30410e99ad3e"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/disturb.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/disturb.py",
+      "bytes": 6497,
+      "sha256": "c5e2e90c03226df1c5e91d226da759356d56206d5d23a0f60b06e0cfc0ebd7ad"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/junction.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/junction.py",
+      "bytes": 24405,
+      "sha256": "3e7bf344cf1054f0034e8a2d3ac054ccc9c7384bf1c9c5ffc7f0ae3d410f8604"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/map_worker.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/map_worker.py",
+      "bytes": 5925,
+      "sha256": "ddc28d0318e6ceac324797f611803a98e9a24e5f1507422a2e45fbf9576d6f2b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/realcam.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/realcam.py",
+      "bytes": 20507,
+      "sha256": "adbaa6a97b1c8627b9af481aad7bec12c9a5efbd48b94f92dbf2c2a70af990de"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/run.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/run.py",
+      "bytes": 9525,
+      "sha256": "6457ef9da143c89c9871ef5b660533a841819a6f91c329328015886dec33a18c"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/score.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/score.py",
+      "bytes": 7165,
+      "sha256": "716e72c2c8bfa050f81c34357db2dffab4bede6dd8c18d6d23ad9c85fb2c1aa7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/vehicle.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/vehicle.py",
+      "bytes": 12210,
+      "sha256": "03c071317a9c0a7f23b844cb6bf7458aa40723fbaeb8f2f574afa2a1ead99fd5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/bench/world.py",
+      "source_path": "D:/Projects/AutoMobile/repo/bench/world.py",
+      "bytes": 8819,
+      "sha256": "c367e1abdcb5f6cdb45588223ae28b119ad16b17ebec6997ccffe09d0d416cd9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/__init__.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_clearance_paths.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_clearance_paths.py",
+      "bytes": 8321,
+      "sha256": "8c4eefd08829a250eb9182e50ad3c7c574b55cbc557014d7e8663c9473ec43a3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_continuous_clearance.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_continuous_clearance.py",
+      "bytes": 6704,
+      "sha256": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_development.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_development.py",
+      "bytes": 10135,
+      "sha256": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_exit_reference_probe.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_exit_reference_probe.py",
+      "bytes": 4025,
+      "sha256": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_mission_map.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_mission_map.py",
+      "bytes": 7123,
+      "sha256": "0a10f6d0ea9f8fcaa793931b49a0d1abe57daa998c4cbc5901b57bd65ffe3317"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_teacher_coverage.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_teacher_coverage.py",
+      "bytes": 7717,
+      "sha256": "df9dcc5d9cf3869279d39539388e59a5c44935ad829fbe25b28715b414e872fa"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_teacher_probe.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_teacher_probe.py",
+      "bytes": 5562,
+      "sha256": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/goal_teacher_validation.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/goal_teacher_validation.py",
+      "bytes": 3890,
+      "sha256": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/junction_cornering.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/junction_cornering.py",
+      "bytes": 14548,
+      "sha256": "09ebf8dd902064fb6113b8b1912f6e25146a3bb9e700b95a565f0155cb4d9e9a"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/junction_feasibility.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/junction_feasibility.py",
+      "bytes": 12047,
+      "sha256": "ec4a0db679d6c5355f0e2ced161c9df703a3ce64c358654f82f00c0cad5239c9"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/junction_learning.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/junction_learning.py",
+      "bytes": 17720,
+      "sha256": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/junction_stage02.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/junction_stage02.py",
+      "bytes": 12791,
+      "sha256": "f0f00d5bd9b7caae9cd5b236cecce709e3a8a0cad4ca72f19dcb9d4c447d4892"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/model.py",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/model.py",
+      "bytes": 3088,
+      "sha256": "29f2357cf6082a4b139dc96cba65b91bd3a2de23e3d0683e8f1f305ae379b163"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/cnn_finetune/results/goal_clearance_paths_20261113/geometry.json",
+      "source_path": "D:/Projects/AutoMobile/repo/cnn_finetune/results/goal_clearance_paths_20261113/geometry.json",
+      "bytes": 16370,
+      "sha256": "220a6c6c9e5f172f8df7a138439cf0d753b5736971634712701c404d3b8146cc"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/hyb4/__init__.py",
+      "source_path": "D:/Projects/AutoMobile/repo/hyb4/__init__.py",
+      "bytes": 77,
+      "sha256": "6f0e90f799e94803d6c264b81758d774e4c897854634ebef0f3d99a05229a73d"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/hyb4/control.py",
+      "source_path": "D:/Projects/AutoMobile/repo/hyb4/control.py",
+      "bytes": 6144,
+      "sha256": "68b2161becd98fce15306b81ad1d5b0acd524b6403538fac105d22908d3b07c7"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/hyb4/image_pilot.py",
+      "source_path": "D:/Projects/AutoMobile/repo/hyb4/image_pilot.py",
+      "bytes": 7612,
+      "sha256": "fa2a0412cba31f71f02131e27d506ede977c7ef9f725acaa7a6cf9145ed1eeaf"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/hyb4/pilot.py",
+      "source_path": "D:/Projects/AutoMobile/repo/hyb4/pilot.py",
+      "bytes": 6547,
+      "sha256": "c7d15c6ccdc1cacd68d507f0bcf1ca2ca2d336d30e4ba43f02bef5477533722f"
+    },
+    {
+      "repository_path": "cnn_finetune/artifacts/hyb4_20261113/protocol_inputs/hyb4/test_control.py",
+      "source_path": "D:/Projects/AutoMobile/repo/hyb4/test_control.py",
+      "bytes": 3708,
+      "sha256": "b0dd7200e2f80c20ecc71ee8fd80b4cdf1b619cf10254189142d4105716f0702"
+    }
+  ]
+}

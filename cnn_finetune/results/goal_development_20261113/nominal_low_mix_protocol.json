@@ -1,0 +1,43 @@
+{
+  "checkpoint": "D:\\autodrive_cnn\\runs\\goal_nominal_constraint_20261113\\models\\low_mix\\update_1200.pt",
+  "checkpoint_sha256": "3695ff4ba7a08e25ef66b38443e136360b49cee7b2388c0cc5ab11da83555ec6",
+  "seeds": [
+    4101,
+    4102
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "keys": [
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ]
+  ],
+  "conditions": [
+    "normal",
+    "mild",
+    "mild_light"
+  ],
+  "metric_protocol_sha256": "313c2be169540765d510ab3af88832a2f62f99a3ea9bd69e26696539f3df0f88",
+  "source_sha256": "f48386309ce6844701d76d6a208eb911426f8ccdaa2445ba823f4a43ea330d2f",
+  "purpose": "development comparison; no final exam or model selection on final data"
+}

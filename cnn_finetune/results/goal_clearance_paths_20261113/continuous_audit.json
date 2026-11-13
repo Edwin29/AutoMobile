@@ -1,0 +1,9415 @@
+{
+  "rows": [
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22718189893161878,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22717028079247648,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22923986949973596,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.07977680057554082,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22683661773511865,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22682565478076988,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.10858799802601382,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.619542667274084,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.12621647888424903,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.5273068321179419,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.09752489419229704,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.5513707964300618,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0384951128224937,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.4705153434374889,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0488412210391225,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.37503780538951936,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.054542613729046,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.4444588197055186,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.069730783578251,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.8018265166205278,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9608827211585798,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.5483705037863746,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.0762639722700023,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.7523560358618475,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22718189893162055,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22717028079247825,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22923986949973774,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.07977680057553371,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22683661773512753,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22682565478077166,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.1085879980260156,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.6195426672738868,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.12621647888423304,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.5273068321178371,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.09752489419228105,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.551370796430037,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0384951128224174,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.4705153434375777,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0488412210389821,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.37503780538950693,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.054542613729021,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.4444588197054724,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0697307835782084,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.8018265166206042,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9608827211586437,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.5483705037862734,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.0762639722699614,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.7523560358618973,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.600657101533102,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4826329216800733,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.619061951287989,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.7173339829948553,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482232,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.717792681881166,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108065,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.7577242926661363,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0734189874430893,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.1973058615360959,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0306193719394,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.316738340334222,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1421399364180242,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.2116437095208976,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9959780538836256,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.60321271885954,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0885897637599449,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.8460477293594604,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9921902592879075,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.7058650796630737,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22718189893162055,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22717028079247825,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.2291493323425513,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22910806925510308,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22662912130331314,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22661855208248127,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.05770076108250599,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.04470518450724903,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.08170140850429242,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.06566614235786439,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.06651609448982754,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.0409846756674348,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22718189893162055,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22717028079247825,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22925027071292448,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22920504877001768,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22686045578924485,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.2268494476011771,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.11151995738101839,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.08128347324420204,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.13160806787784374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.102420983623972,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.09785886202073435,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.08375696290096357,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5786543379625186,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4521304642654513,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.619782577669909,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5046627900424596,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4245781028544826,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105107923,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.5430221469730014,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.134333646322034,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.1970027436392883,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0660273136414915,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.3260294776746804,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1179898859607107,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.2228197879610008,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.1109819070436213,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.9340478357698974,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.8600053521840376,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.8888255719913012,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1169976434656341,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.8380357160692107,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5786543379625044,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4503069671899205,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.619782577669895,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.504662790042488,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4245781028545395,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.5430221469729872,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8095610208731063,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.05385935211523574,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.7392131241030544,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.17905091244047355,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.8230969191665576,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.0004083117347484233,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.766023507093518,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.40703220433833565,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.7671692013044407,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.37764914065211563,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.8270216557840975,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.42058317141596113,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.6279127884651956,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.5257657362794372,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.640410042191064,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9324530649074205,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.952935853829638,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9881021804677825,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.886196018321586,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.4116922106406502,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8760476252112976,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.37533064664271265,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.9163283062168475,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.3872677833178031,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.887014902244573,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.37335672523185437,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8992494605496724,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.25009845784459905,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.893157645770982,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.39807757032186863,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4771818989316188,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4771702807924783,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4790556204543126,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4790180327836246,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4764143516349826,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4764041899495925,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.2791953440165784,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.261675001910561,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.3052859823835394,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.289907267529582,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.2779052627568621,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.2498190001678644,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4771818989316188,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4771702807924783,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4792949470640355,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4792479728869807,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4769628478183048,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.476951645337163,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.3759935297573325,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.3545695816629362,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.3872744603812102,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.3778293678655622,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.3780473765245826,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.350126170909327,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22718189893161878,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22717028079247648,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22915852070492448,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.2291168972456905,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22665017941651477,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22663957023696568,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.057700761082509544,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.04470518450724903,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.08212802440510814,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.06838248343795605,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.06705500649292695,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.04873269869032448,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22718189893161878,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22717028079247648,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22924457740356985,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22919957875558694,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22684740755550692,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.226836424127006,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.10708516942339408,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.06818009263704994,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.12648930814219383,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.09433231087127858,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.09752489419229704,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.06878191433332681,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.5786543379625044,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4521304642654371,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.6197825776699375,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.5046627900425023,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.8510174495482232,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4245781028544826,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.8623297105108065,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.543022146973101,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9657548021523219,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.37343715443455494,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9235570019954871,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.45251714188022873,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9774197865534582,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.42469710591653786,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9602987316712408,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.6882675380216412,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9123826837284739,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.27524506307634233,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9847268693888722,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.6507783017004911,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.627912788465153,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4913864060782203,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.6404100421911068,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.725981803252834,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.7319785158072722,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.8623297105107923,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.7681831998160948,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9842395655951393,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.146711713488191,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9890739784306195,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.2905678566487602,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.951720508602472,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.0819842659087193,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9271512819105325,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.6376770759548194,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9741339962944746,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.7952948705176333,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9551944323249444,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.65562603747059,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.4953040321658904,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4275643113690535,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.4967673878363854,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9324530649073335,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.8371019999848315,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9881021804677115,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8861960183216127,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.44601220411237463,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8760476252113687,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.4002440421944371,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.9163283062168457,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.4370522573511142,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.887014902244644,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.37335672523219543,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.899249460549708,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.2500984578441603,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.8931576457709731,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.39807757032176205,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.477181898931624,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4771702807924818,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4790556204543144,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.47901803278363,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4764143516349915,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4764041899496014,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.2791953440165784,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.2616750019105325,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.3052859823835359,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.2899072675295962,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.2779052627568603,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.2498190001678573,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.477181898931624,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4771702807924818,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4792949470640355,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4792479728869825,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4769628478183137,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4769516453371718,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.3759935297573378,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.3545695816629326,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.3872744603812048,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.3778293678655622,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.378047376524604,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.3501261709093288,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.4322999182646186,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.428204745816359,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.5006060889644175,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5046627900425165,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4245781028545252,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.543022146973044,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8095610208730655,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.10432547015480331,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.7392131241030455,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.1617689761247849,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.823096919166554,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.06673742445924447,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.7660235070935322,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.4070322043384049,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.767169201304446,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.3776491406520943,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.8270216557840744,
+      "false_clean": false
+    },
+    {
+      "arm": "same_mode",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.4205831714159274,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.1651752843174972,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.08075831846471,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.1132384469680332,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.03292941107770808,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.0492249353640162,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.023776140207097285,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.0772050150890689,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.03781276542505907,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.0763739521476694,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0384951128224937,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.4705153434374889,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0488412210391225,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.37503780538951936,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.054542613729046,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.4444588197055186,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.069730783578251,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.8018265166205278,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9608827211585798,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.5483705037863746,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.0762639722700023,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.7523560358618475,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.1651752843175593,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.080758318464703,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.1132384469680154,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.0329294110777365,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.0492249353639291,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.023776140207083074,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.0772050150890333,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.0378127654250946,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.0763739521475522,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0384951128224174,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.4705153434375777,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0488412210389821,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.37503780538950693,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.054542613729021,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.4444588197054724,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.0697307835782084,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.8018265166206042,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9608827211586437,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.5483705037862734,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.0762639722699614,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.7523560358618973,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.600657101533102,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4826329216800733,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.619061951287989,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.7173339829948553,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482232,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.717792681881166,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108065,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.7577242926661363,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.1113510884699895,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.244255487742322,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0759351411744458,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.2180903641447696,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.085761557513143,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.2355750303702102,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.1282685298146493,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.7635628690831844,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.1270774487411988,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.9334982894663124,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1129937566042472,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.8041975655925775,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.3387984854759178,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.2578866008105223,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.2493201704738652,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.052332379722720646,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.1203390170324745,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.03678255258908969,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.103446623400675,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.0556985210953318,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.1228403116249286,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.0456894299937147,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.0781089861298856,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22983388179824793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.0959055854693762,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.03279910278700804,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.951343906491207,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.00694949257647437,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.1086940358942776,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.0378127654250946,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.9332461715121241,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5786543379625186,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4521304642654513,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.619782577669909,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5046627900424596,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4245781028544826,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105107923,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.5430221469730014,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.075853672974814,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.8825156539794872,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.0367557577468371,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.1210551743782897,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.117845893206912,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.9439261597950104,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.1356263827135624,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.7950192194070702,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9748313974687886,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.9379803287965469,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1436305064457883,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.8185272355114179,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5786543379625044,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4503069671899205,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.619782577669895,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.504662790042488,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4245781028545395,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.5430221469729872,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8260724213049766,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.47883884730148907,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8350107791523733,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22399896607879022,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.8197293193187356,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.46900617154985014,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.7832988597192543,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.05456989997293782,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8390743390257356,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.011640195780667995,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.793168699196526,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.06952850946070832,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.6279127884651956,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.5257657362794372,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.640410042191064,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9324530649074205,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.952935853829638,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9881021804677825,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8823662282711524,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.42388711961391223,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.9342437350596189,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.2714327782157593,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.9409531851968893,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.40018500816514013,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.889089147991541,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.7420685143582091,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8604306698020725,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.5226277109916069,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.9011737138921063,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.6204674543227746,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4798338817982462,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.10860620886925076,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4798338817982462,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.09938055556441938,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4798338817982462,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.19327360038290564,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.1870346254750341,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.05571844718876129,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.2126236649119981,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.12390289207142402,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1912463863162905,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.05751552447574326,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4798338817982462,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.20845911284087748,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4798338817982462,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.16644822329047138,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4798338817982462,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.18481385914499526,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.2220307262323793,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22202777810063878,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.2549763069362836,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.055954075115787205,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.2237532095132035,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.1722430016434391,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.3884161734567684,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.2543749193402967,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.3072943009256281,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.052332379722706435,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.2328889602323088,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.03678255258909857,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.2482630447841672,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.04341320956714512,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.209984046782143,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.1413371143032087,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.0755063047115527,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.22983388179824615,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.1148778733890836,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.027885037529244983,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.9989878082808765,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.017771265580826423,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.0416997352714237,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.03781276542505907,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.0255742963097703,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.5786543379625044,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4521304642654371,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.6197825776699375,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.5046627900425023,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.8510174495482232,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4245781028544826,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.8623297105108065,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.543022146973101,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9657548021523219,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.37343715443455494,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9235570019954871,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.45251714188022873,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9774197865534582,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.42469710591653786,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9602987316712408,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.6882675380216412,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9123826837284739,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.27524506307634233,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9847268693888722,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.6507783017004911,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.627912788465153,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4913864060782203,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.6404100421911068,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.842332049740307,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.725981803252834,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.7319785158072722,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.8623297105107923,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.7681831998160948,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9842395655951393,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -1.146711713488191,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9890739784306195,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -1.2905678566487602,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.951720508602472,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -1.0819842659087193,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.9271512819105325,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.6376770759548194,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.9741339962944746,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.7952948705176333,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.9551944323249444,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.65562603747059,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.4953040321658904,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4275643113690535,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.4967673878363854,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.9324530649073335,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.8371019999848315,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.9881021804677115,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8823662282711062,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.06192131340861806,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.9342437350596118,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.20338263531054324,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.9409531851968893,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.02558738410518302,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.889089147991541,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.7420685143583956,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.860430669801893,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.522627710991669,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.90117371389195,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.6204674543227231,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4798338817982515,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.10860620886914063,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4798338817982515,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": false,
+      "min_margin": -0.09938055556451708,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4798338817982515,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.19327360038297314,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.1870346254749933,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.05571844718901353,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.2126236649120585,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.12390289207132987,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.1912463863162994,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.05751552447587649,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.4798338817982515,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22585932618832416,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.4798338817982515,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.18872456335786403,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.4798338817982515,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.21478153241244513,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.2220307262323864,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.22202777810055885,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.2549763069362925,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.05595407511583339,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.2237532095132124,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.17224300164331652,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.4322999182646186,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.428204745816359,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.9798338817982426,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.5006060889644175,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 3.8423320497402926,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 2.5046627900425165,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 3.8510174495482374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 2.4245781028545252,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 3.8623297105108207,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 2.543022146973044,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.8260724213049642,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 0.5291106525046132,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8350107791524248,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.4027045608201103,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.8197293193187374,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 0.4979509587262214,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "field_estimate",
+      "old_clean": true,
+      "min_margin": 1.7832988597192205,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "field_estimate",
+      "old_clean": false,
+      "min_margin": -0.05456989997291117,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 1.8390743390257125,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "sluggish",
+      "old_clean": true,
+      "min_margin": 0.01164019578064135,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "normal",
+      "preset": "unequal_sides",
+      "old_clean": true,
+      "min_margin": 1.7931686991965918,
+      "false_clean": false
+    },
+    {
+      "arm": "planned",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "condition": "mild",
+      "preset": "unequal_sides",
+      "old_clean": false,
+      "min_margin": -0.06952850946069766,
+      "false_clean": false
+    }
+  ],
+  "n": 672,
+  "false_clean": 0,
+  "limitations": "Continuous footprint at sampled physics timestamps; no continuous-time proof"
+}

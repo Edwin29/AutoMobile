@@ -1,0 +1,51 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "stage": "causal_boundary_teacher_and_normal_coverage_validated_weak_unresolved",
+  "new_training": false,
+  "training_initializations": 1,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "actor_input_contract_changed": false,
+  "acceptance_changed": false,
+  "deployed_model_changed": false,
+  "incumbent_reference_checkpoint": "D:/autodrive_cnn/runs/goal_development_20261113/convergence_probe/best.pt",
+  "incumbent_reference_clean": 37,
+  "incumbent_reference_n": 72,
+  "new_models_adopted": false,
+  "latest_reports": [
+    "cnn_finetune/results/goal_boundary_commit_20261113/REPORT.md"
+  ],
+  "completed_current_comparison": {
+    "teacher_pilot_candidates": 5,
+    "pilot_rollouts": 80,
+    "new_seed_normal_teacher_rollouts": 336,
+    "response_window_exact_replays": 86,
+    "shadow_forecast_episodes": 8,
+    "continuous_footprint_audited_rollouts": 416,
+    "neural_training_runs": 0
+  },
+  "findings": [
+    "Maintaining valid safe plans removes repeated pausing in selected initial alignment cases: normal clean6/8 to8/8, pauses0/8; weak clean remains2/8",
+    "All28 movement normal validation seeds6301/6302: baseline168/168 and committed168/168; zero guard interventions, so no evidence of broad intervention gain",
+    "Observed residual improves 36ms prediction error but weak closed-loop success remains unchanged",
+    "No prior teacher post-shove failure occurred before a newly observed command could affect wheels; timing alone cannot certify infeasibility",
+    "Continuous footprint collision audit found no false-clean result among416 checked rollouts",
+    "Reference clearance versus corner radius tradeoff remains; finite correction grid cannot find safe plans before5/6 remaining weak failures"
+  ],
+  "next": [
+    "Joint footprint clearance, curvature and speed planning with broader recovery trajectories; preserve cornering goals instead of reverting to legacy pivots",
+    "Model mismatch and safety reserve during initial alignment and ongoing shove; no weak/harsh case removal without feasibility evidence",
+    "Verify teacher improvements on all28 movements before rebuilding full student data",
+    "Full mission integration,three independent training initializations,held-out final exam; harsh feasibility envelope unresolved"
+  ],
+  "user_decision_boundaries": [
+    "Acceptance thresholds",
+    "Actor input contract",
+    "Fundamental architecture or scope transition"
+  ],
+  "previous_goal_turn_classification": "progress"
+}

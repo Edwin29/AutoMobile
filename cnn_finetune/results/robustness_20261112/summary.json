@@ -1,0 +1,1399 @@
+{
+  "completed": 240,
+  "expected": 240,
+  "missing": [],
+  "overall": {
+    "a5b_v4": {
+      "n": 120,
+      "laps": 101,
+      "clean": 78,
+      "outcomes": {
+        "lap_complete": 101,
+        "severe_departure": 19
+      },
+      "median_margin_cm": 0.9724314388092523,
+      "worst_margin_cm": -12.12403965278964,
+      "sub_mm_intrusion_runs": 2,
+      "mean_outside_s": 1.950866666666751,
+      "successful_lap_recovery_event_median_s": 1.440000000000019,
+      "successful_lap_recovery_events": 404,
+      "unrecovered_heading_at_end": 3,
+      "unrecovered_departures": 19,
+      "median_corner_low_pwm_fraction": 0.3526315789473684
+    },
+    "direct_v2": {
+      "n": 120,
+      "laps": 112,
+      "clean": 85,
+      "outcomes": {
+        "lap_complete": 112,
+        "severe_departure": 8
+      },
+      "median_margin_cm": 1.3712145528076718,
+      "worst_margin_cm": -12.118715557567974,
+      "sub_mm_intrusion_runs": 1,
+      "mean_outside_s": 1.5719666666667647,
+      "successful_lap_recovery_event_median_s": 1.476000000000056,
+      "successful_lap_recovery_events": 448,
+      "unrecovered_heading_at_end": 0,
+      "unrecovered_departures": 8,
+      "median_corner_low_pwm_fraction": 0.1912578815579087
+    }
+  },
+  "paired": {
+    "n": 120,
+    "clean_wins": 17,
+    "clean_losses": 10,
+    "lap_wins": 14,
+    "lap_losses": 3,
+    "margin_delta_median_cm": 0.43260061590811816,
+    "margin_regressions_over_0_5cm": 17,
+    "paired_success_recovery_delta_median_s": 0.07199999999998719,
+    "paired_success_recovery_n": 98
+  },
+  "groups": {
+    "normal": {
+      "a5b_v4": {
+        "n": 24,
+        "laps": 24,
+        "clean": 20,
+        "outcomes": {
+          "lap_complete": 24
+        },
+        "median_margin_cm": 1.4464044401467522,
+        "worst_margin_cm": -3.9018183176806644,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 1.94850000000005,
+        "successful_lap_recovery_event_median_s": 1.5120000000000573,
+        "successful_lap_recovery_events": 96,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3619864088992554
+      },
+      "direct_v2": {
+        "n": 24,
+        "laps": 24,
+        "clean": 24,
+        "outcomes": {
+          "lap_complete": 24
+        },
+        "median_margin_cm": 1.985699338660206,
+        "worst_margin_cm": 0.41568748633929964,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4580000000000553,
+        "successful_lap_recovery_events": 96,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.21082444431001687
+      },
+      "paired": {
+        "n": 24,
+        "clean_wins": 4,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.58737328674097,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": -0.03599999999998449,
+        "paired_success_recovery_n": 24
+      }
+    },
+    "single": {
+      "a5b_v4": {
+        "n": 24,
+        "laps": 24,
+        "clean": 22,
+        "outcomes": {
+          "lap_complete": 24
+        },
+        "median_margin_cm": 1.5020486470269443,
+        "worst_margin_cm": -2.3864637674053597,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.13800000000002055,
+        "successful_lap_recovery_event_median_s": 1.3680000000000518,
+        "successful_lap_recovery_events": 96,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.35473027920845757
+      },
+      "direct_v2": {
+        "n": 24,
+        "laps": 24,
+        "clean": 23,
+        "outcomes": {
+          "lap_complete": 24
+        },
+        "median_margin_cm": 1.6458784998861784,
+        "worst_margin_cm": -0.718806767086182,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.02549999999999876,
+        "successful_lap_recovery_event_median_s": 1.5120000000000573,
+        "successful_lap_recovery_events": 96,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.19025000380755114
+      },
+      "paired": {
+        "n": 24,
+        "clean_wins": 2,
+        "clean_losses": 1,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.19561101273594872,
+        "margin_regressions_over_0_5cm": 4,
+        "paired_success_recovery_delta_median_s": 0.13500000000002066,
+        "paired_success_recovery_n": 24
+      }
+    },
+    "combined": {
+      "a5b_v4": {
+        "n": 24,
+        "laps": 23,
+        "clean": 13,
+        "outcomes": {
+          "lap_complete": 23,
+          "severe_departure": 1
+        },
+        "median_margin_cm": 0.12700911392556335,
+        "worst_margin_cm": -12.000827040777082,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 2.2568333333334527,
+        "successful_lap_recovery_event_median_s": 1.5660000000000203,
+        "successful_lap_recovery_events": 92,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.34067796610169493
+      },
+      "direct_v2": {
+        "n": 24,
+        "laps": 22,
+        "clean": 12,
+        "outcomes": {
+          "lap_complete": 22,
+          "severe_departure": 2
+        },
+        "median_margin_cm": 0.005091886649378985,
+        "worst_margin_cm": -12.04773399955646,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 1.1911666666667975,
+        "successful_lap_recovery_event_median_s": 1.818000000000069,
+        "successful_lap_recovery_events": 88,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 2,
+        "median_corner_low_pwm_fraction": 0.11322682045821594
+      },
+      "paired": {
+        "n": 24,
+        "clean_wins": 5,
+        "clean_losses": 6,
+        "lap_wins": 1,
+        "lap_losses": 2,
+        "margin_delta_median_cm": -0.03504615807670408,
+        "margin_regressions_over_0_5cm": 8,
+        "paired_success_recovery_delta_median_s": 0.3240000000000123,
+        "paired_success_recovery_n": 21
+      }
+    },
+    "camera_factor": {
+      "a5b_v4": {
+        "n": 24,
+        "laps": 18,
+        "clean": 15,
+        "outcomes": {
+          "severe_departure": 6,
+          "lap_complete": 18
+        },
+        "median_margin_cm": 0.9746961061212964,
+        "worst_margin_cm": -12.080007439776246,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 1.6275000000001627,
+        "successful_lap_recovery_event_median_s": 1.3680000000000518,
+        "successful_lap_recovery_events": 72,
+        "unrecovered_heading_at_end": 2,
+        "unrecovered_departures": 6,
+        "median_corner_low_pwm_fraction": 0.3442166271968092
+      },
+      "direct_v2": {
+        "n": 24,
+        "laps": 23,
+        "clean": 19,
+        "outcomes": {
+          "severe_departure": 1,
+          "lap_complete": 23
+        },
+        "median_margin_cm": 1.7826732255938271,
+        "worst_margin_cm": -12.061749119786356,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.3833333333333824,
+        "successful_lap_recovery_event_median_s": 1.3320000000000505,
+        "successful_lap_recovery_events": 92,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.2049344209852847
+      },
+      "paired": {
+        "n": 24,
+        "clean_wins": 5,
+        "clean_losses": 1,
+        "lap_wins": 5,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.586710176725731,
+        "margin_regressions_over_0_5cm": 1,
+        "paired_success_recovery_delta_median_s": 0.018000000000002236,
+        "paired_success_recovery_n": 18
+      }
+    },
+    "harsh": {
+      "a5b_v4": {
+        "n": 24,
+        "laps": 12,
+        "clean": 8,
+        "outcomes": {
+          "severe_departure": 12,
+          "lap_complete": 12
+        },
+        "median_margin_cm": -8.27293856077522,
+        "worst_margin_cm": -12.12403965278964,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 3.783500000000068,
+        "successful_lap_recovery_event_median_s": 1.476000000000056,
+        "successful_lap_recovery_events": 48,
+        "unrecovered_heading_at_end": 1,
+        "unrecovered_departures": 12,
+        "median_corner_low_pwm_fraction": 0.24828406785285978
+      },
+      "direct_v2": {
+        "n": 24,
+        "laps": 19,
+        "clean": 7,
+        "outcomes": {
+          "lap_complete": 19,
+          "severe_departure": 5
+        },
+        "median_margin_cm": -1.1766322472155277,
+        "worst_margin_cm": -12.118715557567974,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 6.259833333333645,
+        "successful_lap_recovery_event_median_s": 1.2780000000000484,
+        "successful_lap_recovery_events": 76,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 5,
+        "median_corner_low_pwm_fraction": 0.1909575879041528
+      },
+      "paired": {
+        "n": 24,
+        "clean_wins": 1,
+        "clean_losses": 2,
+        "lap_wins": 8,
+        "lap_losses": 1,
+        "margin_delta_median_cm": 0.2471864832842794,
+        "margin_regressions_over_0_5cm": 4,
+        "paired_success_recovery_delta_median_s": 0.018000000000000682,
+        "paired_success_recovery_n": 11
+      }
+    }
+  },
+  "conditions": {
+    "normal_field_estimate": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.6067928066254709,
+        "worst_margin_cm": 1.2864391864318065,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.3320000000000505,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3561984826357088
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 2.164369404530035,
+        "worst_margin_cm": 1.5843548808514356,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4400000000000546,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.20040327222360443
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.46852628313695455,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": 0.045000000000001705,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "normal_weak_left_turn": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.5379751025162136,
+        "worst_margin_cm": 1.355710235986777,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.476000000000056,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3682749361885504
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.9499735122238384,
+        "worst_margin_cm": 1.8001365472406832,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.5660000000000593,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.2121238222472226
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.5139407914197065,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": -0.07200000000001894,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "normal_sluggish": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 5,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.493193553403792,
+        "worst_margin_cm": -1.433565191387828,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.31800000000001594,
+        "successful_lap_recovery_event_median_s": 1.6200000000000614,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.4167366808342394
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.8371107596738243,
+        "worst_margin_cm": 1.435502984390535,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4940000000000566,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.24505934505934507
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.5895538230313964,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": -0.0720000000000014,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "normal_unequal_sides": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 3,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.25611606821294153,
+        "worst_margin_cm": -3.9018183176806644,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 7.476000000000185,
+        "successful_lap_recovery_event_median_s": 1.530000000000058,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3467493009402425
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 2.10649791959446,
+        "worst_margin_cm": 0.41568748633929964,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4580000000000553,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.20843958712811173
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 3,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 2.1037633464488277,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": -0.15299999999998137,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "mild_push": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 5,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.5027636864074907,
+        "worst_margin_cm": -0.24991165040912477,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.07200000000001071,
+        "successful_lap_recovery_event_median_s": 1.2600000000000167,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.35645550183764585
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.1327371999731497,
+        "worst_margin_cm": 0.22704225835427394,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4400000000000546,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.20440133437518784
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.2293501811273444,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": 0.17100000000000648,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "mild_power": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.7152288060623562,
+        "worst_margin_cm": 1.365431522960165,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.3860000000000525,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.35848945864545523
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 2.0481322060771117,
+        "worst_margin_cm": 1.7262616164942628,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4940000000000566,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.20239584298465055
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.26488197431457294,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": 0.10800000000001964,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "strong_light": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 5,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.666063176537742,
+        "worst_margin_cm": -2.3864637674053597,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.4800000000000715,
+        "successful_lap_recovery_event_median_s": 1.4040000000000532,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3496544747129282
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 5,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.2025940278356657,
+        "worst_margin_cm": -0.718806767086182,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.10199999999999504,
+        "successful_lap_recovery_event_median_s": 1.3680000000000518,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.18382157643934066
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 1,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.2982605838986805,
+        "margin_regressions_over_0_5cm": 2,
+        "paired_success_recovery_delta_median_s": 0.04500000000000193,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "mild_vehicle": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.4901022151277559,
+        "worst_margin_cm": 0.9548556248664539,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.3680000000000518,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.345421842913942
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.4327372789110253,
+        "worst_margin_cm": 0.4793773304872637,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.9440000000000737,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.10930675883018459
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": -0.09669635275650457,
+        "margin_regressions_over_0_5cm": 2,
+        "paired_success_recovery_delta_median_s": 0.5129999999999915,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "mild_combined": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 5,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.44505103901212095,
+        "worst_margin_cm": -0.38738222894926366,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.36866666666664855,
+        "successful_lap_recovery_event_median_s": 1.3500000000000174,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3381590522549997
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 4,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.3236239373797538,
+        "worst_margin_cm": -1.0859550399133013,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.44733333333339936,
+        "successful_lap_recovery_event_median_s": 2.1060000000000283,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.10608695652173913
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 2,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": -0.19652142317008892,
+        "margin_regressions_over_0_5cm": 2,
+        "paired_success_recovery_delta_median_s": 0.4769999999999901,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "mild_combined_bright_field_estimate": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 3,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.10924497472687023,
+        "worst_margin_cm": -1.4867100713455699,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.8046666666666281,
+        "successful_lap_recovery_event_median_s": 1.3680000000000518,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.3298166305098714
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 3,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.2196046067689288,
+        "worst_margin_cm": -0.914447390163204,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 0.2873333333333771,
+        "successful_lap_recovery_event_median_s": 1.8540000000000703,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.10228738563071846
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 1,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.43841194784723303,
+        "margin_regressions_over_0_5cm": 1,
+        "paired_success_recovery_delta_median_s": 0.5040000000000315,
+        "paired_success_recovery_n": 6
+      }
+    },
+    "mild_combined_bright_sluggish": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 4,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 0.5832121430987982,
+        "worst_margin_cm": -2.792665339084401,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 2.114666666666888,
+        "successful_lap_recovery_event_median_s": 1.638000000000023,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.39994972347913527
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 4,
+        "clean": 2,
+        "outcomes": {
+          "lap_complete": 4,
+          "severe_departure": 2
+        },
+        "median_margin_cm": -1.6964657723031582,
+        "worst_margin_cm": -12.04773399955646,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 3.342666666666979,
+        "successful_lap_recovery_event_median_s": 1.2960000000000491,
+        "successful_lap_recovery_events": 16,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 2,
+        "median_corner_low_pwm_fraction": 0.13846789079957253
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 2,
+        "lap_wins": 0,
+        "lap_losses": 2,
+        "margin_delta_median_cm": -0.8752467051998432,
+        "margin_regressions_over_0_5cm": 4,
+        "paired_success_recovery_delta_median_s": -0.14400000000003255,
+        "paired_success_recovery_n": 4
+      }
+    },
+    "mild_combined_bright_unequal_sides": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 5,
+        "clean": 1,
+        "outcomes": {
+          "lap_complete": 5,
+          "severe_departure": 1
+        },
+        "median_margin_cm": -1.3890515711790172,
+        "worst_margin_cm": -12.000827040777082,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 5.739333333333646,
+        "successful_lap_recovery_event_median_s": 1.7820000000000675,
+        "successful_lap_recovery_events": 20,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.3205521472392638
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 3,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": -0.16524990689680585,
+        "worst_margin_cm": -1.3613050709890686,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.6873333333334352,
+        "successful_lap_recovery_event_median_s": 1.6560000000000628,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.10505635926438689
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 3,
+        "clean_losses": 1,
+        "lap_wins": 1,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 1.5266081263287665,
+        "margin_regressions_over_0_5cm": 1,
+        "paired_success_recovery_delta_median_s": 0.18000000000000682,
+        "paired_success_recovery_n": 5
+      }
+    },
+    "camera_shadow": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 4,
+        "clean": 1,
+        "outcomes": {
+          "severe_departure": 2,
+          "lap_complete": 4
+        },
+        "median_margin_cm": -6.565231064265674,
+        "worst_margin_cm": -12.080007439776246,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 4.052666666667069,
+        "successful_lap_recovery_event_median_s": 1.3320000000000505,
+        "successful_lap_recovery_events": 16,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 2,
+        "median_corner_low_pwm_fraction": 0.3224956063268893
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 5,
+        "clean": 3,
+        "outcomes": {
+          "severe_departure": 1,
+          "lap_complete": 5
+        },
+        "median_margin_cm": -0.19857958082128668,
+        "worst_margin_cm": -12.061749119786356,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 1.3086666666668292,
+        "successful_lap_recovery_event_median_s": 1.260000000000017,
+        "successful_lap_recovery_events": 20,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.19725083081344869
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 2,
+        "clean_losses": 0,
+        "lap_wins": 1,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 1.3810684861973375,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": -0.0990000000000042,
+        "paired_success_recovery_n": 4
+      }
+    },
+    "camera_exposure": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 5,
+        "clean": 5,
+        "outcomes": {
+          "lap_complete": 5,
+          "severe_departure": 1
+        },
+        "median_margin_cm": 1.386039107025809,
+        "worst_margin_cm": -12.06336649727099,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.5280000000000786,
+        "successful_lap_recovery_event_median_s": 1.3860000000000525,
+        "successful_lap_recovery_events": 20,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.3543859649122807
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 2.0063781083467873,
+        "worst_margin_cm": 1.7260263687045025,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.530000000000058,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.21819105691056911
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 0,
+        "lap_wins": 1,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.6849226018730823,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": 0.036000000000001364,
+        "paired_success_recovery_n": 5
+      }
+    },
+    "camera_blur": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 5,
+        "clean": 5,
+        "outcomes": {
+          "severe_departure": 1,
+          "lap_complete": 5
+        },
+        "median_margin_cm": 1.7673986542936042,
+        "worst_margin_cm": -12.037192225648639,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.48000000000002413,
+        "successful_lap_recovery_event_median_s": 1.242000000000016,
+        "successful_lap_recovery_events": 20,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.3602634115001606
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 2.1904886451206167,
+        "worst_margin_cm": 1.3955476540662062,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.3860000000000525,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.1982086992005078
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 0,
+        "lap_wins": 1,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.4002546735054615,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": 0.12600000000000477,
+        "paired_success_recovery_n": 5
+      }
+    },
+    "camera_optics": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 4,
+        "clean": 4,
+        "outcomes": {
+          "lap_complete": 4,
+          "severe_departure": 2
+        },
+        "median_margin_cm": 0.5282761744592808,
+        "worst_margin_cm": -12.025110204523799,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 1.4493333333334768,
+        "successful_lap_recovery_event_median_s": 1.4940000000000566,
+        "successful_lap_recovery_events": 16,
+        "unrecovered_heading_at_end": 2,
+        "unrecovered_departures": 2,
+        "median_corner_low_pwm_fraction": 0.3510882822028333
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 4,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.484631331076299,
+        "worst_margin_cm": -0.40811870649230286,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.22466666666670057,
+        "successful_lap_recovery_event_median_s": 1.2060000000000457,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.20051429481684885
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 1,
+        "lap_wins": 2,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.5556829461218875,
+        "margin_regressions_over_0_5cm": 1,
+        "paired_success_recovery_delta_median_s": -0.14400000000000546,
+        "paired_success_recovery_n": 4
+      }
+    },
+    "harsh_camera": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 0,
+        "clean": 0,
+        "outcomes": {
+          "severe_departure": 6
+        },
+        "median_margin_cm": -12.049222479862696,
+        "worst_margin_cm": -12.08742830112967,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 3.9013333333333704,
+        "successful_lap_recovery_event_median_s": null,
+        "successful_lap_recovery_events": 0,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 6,
+        "median_corner_low_pwm_fraction": 0.0
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 4,
+        "clean": 0,
+        "outcomes": {
+          "lap_complete": 4,
+          "severe_departure": 2
+        },
+        "median_margin_cm": -1.0549536659447512,
+        "worst_margin_cm": -12.087538995331869,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 8.124666666667244,
+        "successful_lap_recovery_event_median_s": 0.6660000000000097,
+        "successful_lap_recovery_events": 16,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 2,
+        "median_corner_low_pwm_fraction": 0.15996597729270995
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 4,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 10.980332679263192,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": null,
+        "paired_success_recovery_n": 0
+      }
+    },
+    "harsh_vehicle": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 5,
+        "clean": 2,
+        "outcomes": {
+          "lap_complete": 5,
+          "severe_departure": 1
+        },
+        "median_margin_cm": -0.19386707163647543,
+        "worst_margin_cm": -12.062735094778276,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 1.0073333333334562,
+        "successful_lap_recovery_event_median_s": 1.9440000000000737,
+        "successful_lap_recovery_events": 20,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 1,
+        "median_corner_low_pwm_fraction": 0.397049969897652
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 1,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": -1.1766322472155277,
+        "worst_margin_cm": -2.5074192685456183,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 2.2346666666667314,
+        "successful_lap_recovery_event_median_s": 1.7280000000000229,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.2419187592984987
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 1,
+        "clean_losses": 2,
+        "lap_wins": 1,
+        "lap_losses": 0,
+        "margin_delta_median_cm": -0.3387364299909681,
+        "margin_regressions_over_0_5cm": 3,
+        "paired_success_recovery_delta_median_s": -0.6300000000000239,
+        "paired_success_recovery_n": 5
+      }
+    },
+    "harsh_combined": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 1,
+        "clean": 0,
+        "outcomes": {
+          "severe_departure": 5,
+          "lap_complete": 1
+        },
+        "median_margin_cm": -12.067762843961187,
+        "worst_margin_cm": -12.12403965278964,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 10.225333333333445,
+        "successful_lap_recovery_event_median_s": 1.7100000000000444,
+        "successful_lap_recovery_events": 4,
+        "unrecovered_heading_at_end": 1,
+        "unrecovered_departures": 5,
+        "median_corner_low_pwm_fraction": 0.1329355066039237
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 3,
+        "clean": 0,
+        "outcomes": {
+          "severe_departure": 3,
+          "lap_complete": 3
+        },
+        "median_margin_cm": -8.522741742954416,
+        "worst_margin_cm": -12.118715557567974,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 14.680000000000602,
+        "successful_lap_recovery_event_median_s": 1.2600000000000477,
+        "successful_lap_recovery_events": 12,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 3,
+        "median_corner_low_pwm_fraction": 0.05210390399513899
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 3,
+        "lap_losses": 1,
+        "margin_delta_median_cm": 3.5132544545049775,
+        "margin_regressions_over_0_5cm": 1,
+        "paired_success_recovery_delta_median_s": null,
+        "paired_success_recovery_n": 0
+      }
+    },
+    "whiteout_3s": {
+      "a5b_v4": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.566067281199821,
+        "worst_margin_cm": 0.5407067576151832,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.3680000000000518,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.4059875536221376
+      },
+      "direct_v2": {
+        "n": 6,
+        "laps": 6,
+        "clean": 6,
+        "outcomes": {
+          "lap_complete": 6
+        },
+        "median_margin_cm": 1.7371478204229245,
+        "worst_margin_cm": 1.4047660965983226,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 0.0,
+        "successful_lap_recovery_event_median_s": 1.4040000000000532,
+        "successful_lap_recovery_events": 24,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 0,
+        "median_corner_low_pwm_fraction": 0.26393571271620053
+      },
+      "paired": {
+        "n": 6,
+        "clean_wins": 0,
+        "clean_losses": 0,
+        "lap_wins": 0,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.2471864832842794,
+        "margin_regressions_over_0_5cm": 0,
+        "paired_success_recovery_delta_median_s": 0.04499999999998616,
+        "paired_success_recovery_n": 6
+      }
+    }
+  },
+  "seeds": {
+    "601": {
+      "a5b_v4": {
+        "n": 40,
+        "laps": 33,
+        "clean": 22,
+        "outcomes": {
+          "lap_complete": 33,
+          "severe_departure": 7
+        },
+        "median_margin_cm": 0.10480118544777817,
+        "worst_margin_cm": -12.12403965278964,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 2.5797000000001007,
+        "successful_lap_recovery_event_median_s": 1.4940000000000566,
+        "successful_lap_recovery_events": 132,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 7,
+        "median_corner_low_pwm_fraction": 0.36409275784617257
+      },
+      "direct_v2": {
+        "n": 40,
+        "laps": 37,
+        "clean": 27,
+        "outcomes": {
+          "lap_complete": 37,
+          "severe_departure": 3
+        },
+        "median_margin_cm": 1.2128550086939285,
+        "worst_margin_cm": -12.118715557567974,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 2.0777000000001644,
+        "successful_lap_recovery_event_median_s": 1.5120000000000573,
+        "successful_lap_recovery_events": 148,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 3,
+        "median_corner_low_pwm_fraction": 0.1947691891566989
+      },
+      "paired": {
+        "n": 40,
+        "clean_wins": 8,
+        "clean_losses": 3,
+        "lap_wins": 4,
+        "lap_losses": 0,
+        "margin_delta_median_cm": 0.5034106201921871,
+        "margin_regressions_over_0_5cm": 5,
+        "paired_success_recovery_delta_median_s": -0.018000000000032212,
+        "paired_success_recovery_n": 33
+      }
+    },
+    "607": {
+      "a5b_v4": {
+        "n": 40,
+        "laps": 34,
+        "clean": 26,
+        "outcomes": {
+          "lap_complete": 34,
+          "severe_departure": 6
+        },
+        "median_margin_cm": 0.8228595094637967,
+        "worst_margin_cm": -12.085302346731545,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 1.904200000000128,
+        "successful_lap_recovery_event_median_s": 1.3320000000000505,
+        "successful_lap_recovery_events": 136,
+        "unrecovered_heading_at_end": 2,
+        "unrecovered_departures": 6,
+        "median_corner_low_pwm_fraction": 0.3432842033856496
+      },
+      "direct_v2": {
+        "n": 40,
+        "laps": 37,
+        "clean": 31,
+        "outcomes": {
+          "lap_complete": 37,
+          "severe_departure": 3
+        },
+        "median_margin_cm": 1.1005547452532083,
+        "worst_margin_cm": -12.065059282029253,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 1.126900000000066,
+        "successful_lap_recovery_event_median_s": 1.4400000000000546,
+        "successful_lap_recovery_events": 148,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 3,
+        "median_corner_low_pwm_fraction": 0.1884920634920635
+      },
+      "paired": {
+        "n": 40,
+        "clean_wins": 7,
+        "clean_losses": 2,
+        "lap_wins": 4,
+        "lap_losses": 1,
+        "margin_delta_median_cm": 0.3717430212348116,
+        "margin_regressions_over_0_5cm": 4,
+        "paired_success_recovery_delta_median_s": 0.10800000000000409,
+        "paired_success_recovery_n": 33
+      }
+    },
+    "613": {
+      "a5b_v4": {
+        "n": 40,
+        "laps": 34,
+        "clean": 30,
+        "outcomes": {
+          "lap_complete": 34,
+          "severe_departure": 6
+        },
+        "median_margin_cm": 1.426317170589435,
+        "worst_margin_cm": -12.088810045396457,
+        "sub_mm_intrusion_runs": 0,
+        "mean_outside_s": 1.3687000000000231,
+        "successful_lap_recovery_event_median_s": 1.4400000000000546,
+        "successful_lap_recovery_events": 136,
+        "unrecovered_heading_at_end": 1,
+        "unrecovered_departures": 6,
+        "median_corner_low_pwm_fraction": 0.3526315789473684
+      },
+      "direct_v2": {
+        "n": 40,
+        "laps": 38,
+        "clean": 27,
+        "outcomes": {
+          "lap_complete": 38,
+          "severe_departure": 2
+        },
+        "median_margin_cm": 1.4851307399382083,
+        "worst_margin_cm": -12.04773399955646,
+        "sub_mm_intrusion_runs": 1,
+        "mean_outside_s": 1.5113000000000631,
+        "successful_lap_recovery_event_median_s": 1.5120000000000555,
+        "successful_lap_recovery_events": 152,
+        "unrecovered_heading_at_end": 0,
+        "unrecovered_departures": 2,
+        "median_corner_low_pwm_fraction": 0.19104475343241384
+      },
+      "paired": {
+        "n": 40,
+        "clean_wins": 2,
+        "clean_losses": 5,
+        "lap_wins": 6,
+        "lap_losses": 2,
+        "margin_delta_median_cm": 0.32230508359216703,
+        "margin_regressions_over_0_5cm": 8,
+        "paired_success_recovery_delta_median_s": 0.09000000000001718,
+        "paired_success_recovery_n": 32
+      }
+    }
+  }
+}

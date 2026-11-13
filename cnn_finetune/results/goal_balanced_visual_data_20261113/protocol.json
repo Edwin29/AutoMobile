@@ -1,0 +1,281 @@
+{
+  "source_sha256": "7baf29d83dad6cce253717565fbe20595dc9531481c58afebda271a70bde7d84",
+  "parent_protocol_sha256": "6c3551e42444e94bee449791653540804122d216939eed8c1856c93027efe948",
+  "preflight_sha256": "c19a799d34853310967a2a95f9bd3093dfd4b8a6d37358548f994c9812a5181c",
+  "selected": {
+    "positive_lateral_negative_yaw": {
+      "seed": 10001,
+      "lateral_draw_cm": 0.42961284632292984,
+      "along_draw_cm": 0.5178809324863898,
+      "yaw_draw_deg": -0.9690908915374052
+    },
+    "positive_edge": {
+      "seed": 10032,
+      "lateral_draw_cm": 0.9500907509211203,
+      "along_draw_cm": -1.8576251690393506,
+      "yaw_draw_deg": -0.43318179919090927
+    },
+    "negative_edge": {
+      "seed": 10035,
+      "lateral_draw_cm": -0.9388818147249727,
+      "along_draw_cm": -0.10935005359062533,
+      "yaw_draw_deg": -0.1859900411337545
+    },
+    "positive_yaw": {
+      "seed": 10037,
+      "lateral_draw_cm": 0.00905883456866885,
+      "along_draw_cm": -1.5429914530182889,
+      "yaw_draw_deg": 2.0207921432082685
+    },
+    "negative_yaw": {
+      "seed": 10053,
+      "lateral_draw_cm": -0.16373509621138216,
+      "along_draw_cm": 1.4846526175020558,
+      "yaw_draw_deg": -2.7204890912609834
+    },
+    "negative_lateral_positive_yaw": {
+      "seed": 10058,
+      "lateral_draw_cm": -0.5332172925876628,
+      "along_draw_cm": -1.7545556256070114,
+      "yaw_draw_deg": 0.74160109042269
+    },
+    "negative_lateral_negative_yaw": {
+      "seed": 10063,
+      "lateral_draw_cm": -0.5549798588667152,
+      "along_draw_cm": -1.5354624333917495,
+      "yaw_draw_deg": -0.5210374854440385
+    },
+    "positive_lateral_positive_yaw": {
+      "seed": 10068,
+      "lateral_draw_cm": 0.6688209431522356,
+      "along_draw_cm": -0.25785001899989,
+      "yaw_draw_deg": 0.9636597352856304
+    }
+  },
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "conditions": [
+    "normal",
+    "normal_light"
+  ],
+  "expected": 1344,
+  "groups": "selected seed insertion order alternating between worker0/1;672episodes per worker",
+  "checks": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "physics_exact": true,
+      "commands_exact": true,
+      "feature_relation": "exact"
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal_light",
+      "physics_exact": true,
+      "commands_exact": true,
+      "feature_relation": "changed_by_light"
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "physics_exact": true,
+      "commands_exact": true,
+      "feature_relation": "exact"
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal_light",
+      "physics_exact": true,
+      "commands_exact": true,
+      "feature_relation": "changed_by_light"
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "physics_exact": true,
+      "commands_exact": true,
+      "feature_relation": "exact"
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal_light",
+      "physics_exact": true,
+      "commands_exact": true,
+      "feature_relation": "changed_by_light"
+    }
+  ],
+  "eligibility": "stable exit,initial valid,all physics samples continuous full-body clearance>=0,zero translation pause",
+  "scope": "Training data only: normal and strong-light-only, complementing old mild/mild_light data; not replacing compound-disturbance evaluation",
+  "input_contract": "unchanged image history,previous sentPWM,direction; original model architecture and reference files unchanged",
+  "no_final_exam": true,
+  "no_dev6901_or6902_in_training": true
+}

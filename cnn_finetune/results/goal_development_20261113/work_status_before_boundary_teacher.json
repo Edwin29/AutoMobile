@@ -1,0 +1,50 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "stage": "nominal_preservation_and_full_teacher_coverage_audited",
+  "new_training": true,
+  "training_initializations": 1,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "actor_input_contract_changed": false,
+  "acceptance_changed": false,
+  "deployed_model_changed": false,
+  "incumbent_reference_checkpoint": "D:/autodrive_cnn/runs/goal_development_20261113/convergence_probe/best.pt",
+  "incumbent_reference_clean": 37,
+  "incumbent_reference_n": 72,
+  "new_models_adopted": false,
+  "latest_reports": [
+    "cnn_finetune/results/goal_nominal_constraint_20261113/REPORT.md",
+    "cnn_finetune/results/goal_teacher_coverage_20261113/REPORT.md"
+  ],
+  "completed_current_comparison": {
+    "trained_models": 2,
+    "updates_per_model": 1200,
+    "student_development_rollouts": 144,
+    "offline_recovery_branches": 460,
+    "all_movement_teacher_rollouts": 672,
+    "required_movements_in_teacher_audit": 28
+  },
+  "findings": [
+    "10 percent recovery mixing gives 50/72 clean but six severe departures; not adopted",
+    "Nominal-output constraint gives 38/72 clean and 72/72 stable exit with no severe departure or wrong exit on this development matrix; not completion",
+    "Full teacher coverage: original normal153/168 mild87/168, centered normal162/168 mild82/168; blanket teacher replacement unsupported",
+    "Centered teacher weak turn-only clean34/120; majority of weak failures soon after shove",
+    "Finite offline action grid found clean alternatives for3/23 queried states; no impossibility claim for others"
+  ],
+  "next": [
+    "Boundary-aware short-horizon offline teacher using full footprint and current command delay, without future disturbance access",
+    "Validate teacher normal and weak compound performance on all28 required movements, including initial alignment and stop/smoothness tradeoffs",
+    "Rebuild verified recovery data and compare nominal-preserving model learning",
+    "Full mission integration,three independent training initializations,held-out final exam; harsh feasibility envelope remains unresolved"
+  ],
+  "user_decision_boundaries": [
+    "Acceptance thresholds",
+    "Actor input contract",
+    "Fundamental architecture or scope transition"
+  ],
+  "previous_goal_turn_classification": "progress"
+}

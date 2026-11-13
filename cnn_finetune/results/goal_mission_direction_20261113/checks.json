@@ -1,0 +1,172 @@
+{
+  "source_sha256": "d1224d629c707e563d450ab9bb496be43b343c1e38f162c6848d352840627df6",
+  "policy_sha256": "b917fb53f8f0e68e4d4d91272202ba1bd9a4fa4d01d5697104b88366a08dd141",
+  "route_contract_sha256": "e45b9a9a5b27406e0222bd56d18cae5778b002c761f4e047a41a2dfc49efc05e",
+  "map_sha256": "7063f64a93146548e1e0e1bc0621978bc8f869ee27bb8a3e594205e0d9309d7c",
+  "routes": [
+    {
+      "route_index": 0,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 1,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 2,
+      "passages": 3,
+      "exact": true
+    },
+    {
+      "route_index": 3,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 4,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 5,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 6,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 7,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 8,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 9,
+      "passages": 3,
+      "exact": true
+    },
+    {
+      "route_index": 10,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 11,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 12,
+      "passages": 3,
+      "exact": true
+    },
+    {
+      "route_index": 13,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 14,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 15,
+      "passages": 7,
+      "exact": true
+    },
+    {
+      "route_index": 16,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 17,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 18,
+      "passages": 9,
+      "exact": true
+    },
+    {
+      "route_index": 19,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 20,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 21,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 22,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 23,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 24,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 25,
+      "passages": 9,
+      "exact": true
+    },
+    {
+      "route_index": 26,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 27,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 28,
+      "passages": 9,
+      "exact": true
+    },
+    {
+      "route_index": 29,
+      "passages": 4,
+      "exact": true
+    },
+    {
+      "route_index": 30,
+      "passages": 5,
+      "exact": true
+    },
+    {
+      "route_index": 31,
+      "passages": 5,
+      "exact": true
+    }
+  ],
+  "policy_edge_checks": 4,
+  "finite_pose_and_uncertainty_gates": true,
+  "duplicate_visit_guard": true,
+  "scope": "Pure direction state machine supplied synthetic map estimates; not perception, actuation, full-mission driving, or final acceptance"
+}

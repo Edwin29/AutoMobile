@@ -1,0 +1,26 @@
+[
+  {
+    "arm": "bc",
+    "epoch": 4,
+    "checkpoint": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\models\\bc\\epoch_4.pt",
+    "sha256": "d43f149af426d284b925c1f50e74c6ca2d87a1c52e8ddfd7ac53277eee1df142",
+    "development_rank": [
+      5,
+      1,
+      0,
+      -1.8073446819295997
+    ]
+  },
+  {
+    "arm": "outcome",
+    "epoch": 8,
+    "checkpoint": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\models\\outcome\\epoch_8.pt",
+    "sha256": "d204d4de987e6d83e26cdbda3abfabf089c488d9174b0e3bdc39b59e11f07765",
+    "development_rank": [
+      5,
+      4,
+      -2,
+      -1.7932048969870524
+    ]
+  }
+]

@@ -1,0 +1,753 @@
+{
+  "source_sha256": "109b2098e26ec1bccfc6c9de905c5fb2df3fbe3f8e038af1d7a277851c3f69a4",
+  "sampling_seed": 8170,
+  "summary": [
+    {
+      "model": "initial",
+      "batches": 24,
+      "median_cosine": 0.10315263457596302,
+      "opposing_batches": 10,
+      "median_student_teacher_norm_ratio": 2.1401792519926297,
+      "equal_mix_increases_teacher_first_order": 2
+    },
+    {
+      "model": "teacher_only",
+      "batches": 24,
+      "median_cosine": -0.12990518286824226,
+      "opposing_batches": 15,
+      "median_student_teacher_norm_ratio": 3.606361338273655,
+      "equal_mix_increases_teacher_first_order": 7
+    },
+    {
+      "model": "full_dagger",
+      "batches": 24,
+      "median_cosine": 0.10731327906250954,
+      "opposing_batches": 10,
+      "median_student_teacher_norm_ratio": 1.1971170831721931,
+      "equal_mix_increases_teacher_first_order": 2
+    }
+  ],
+  "rows": [
+    {
+      "model": "initial",
+      "batch": 0,
+      "teacher_loss": 0.011002570390701294,
+      "student_loss": 0.2029607892036438,
+      "teacher_gradient_norm": 0.34972891211509705,
+      "student_gradient_norm": 0.5582668781280518,
+      "cosine": 0.2943249046802521,
+      "first_order_teacher_change_sign": -0.08988745510578156
+    },
+    {
+      "model": "initial",
+      "batch": 1,
+      "teacher_loss": 0.008406952023506165,
+      "student_loss": 0.049875810742378235,
+      "teacher_gradient_norm": 0.17128323018550873,
+      "student_gradient_norm": 0.4147753119468689,
+      "cosine": -0.0034017551224678755,
+      "first_order_teacher_change_sign": -0.014548134990036488
+    },
+    {
+      "model": "initial",
+      "batch": 2,
+      "teacher_loss": 0.010895846411585808,
+      "student_loss": 0.07350142300128937,
+      "teacher_gradient_norm": 0.2684032618999481,
+      "student_gradient_norm": 0.7920975089073181,
+      "cosine": 0.23962034285068512,
+      "first_order_teacher_change_sign": -0.061491988599300385
+    },
+    {
+      "model": "initial",
+      "batch": 3,
+      "teacher_loss": 0.009801454842090607,
+      "student_loss": 0.09928290545940399,
+      "teacher_gradient_norm": 0.24053898453712463,
+      "student_gradient_norm": 1.2834947109222412,
+      "cosine": 0.04541753605008125,
+      "first_order_teacher_change_sign": -0.035940393805503845
+    },
+    {
+      "model": "initial",
+      "batch": 4,
+      "teacher_loss": 0.006335788406431675,
+      "student_loss": 0.15590834617614746,
+      "teacher_gradient_norm": 0.21754933893680573,
+      "student_gradient_norm": 0.6949908137321472,
+      "cosine": 0.2521958351135254,
+      "first_order_teacher_change_sign": -0.0427292063832283
+    },
+    {
+      "model": "initial",
+      "batch": 5,
+      "teacher_loss": 0.008676164783537388,
+      "student_loss": 0.044632717967033386,
+      "teacher_gradient_norm": 0.20748616755008698,
+      "student_gradient_norm": 0.5700255036354065,
+      "cosine": -0.2618423104286194,
+      "first_order_teacher_change_sign": -0.0060408953577280045
+    },
+    {
+      "model": "initial",
+      "batch": 6,
+      "teacher_loss": 0.005846505053341389,
+      "student_loss": 0.16500696539878845,
+      "teacher_gradient_norm": 0.2628456950187683,
+      "student_gradient_norm": 0.6599259376525879,
+      "cosine": 0.4457726776599884,
+      "first_order_teacher_change_sign": -0.07320550084114075
+    },
+    {
+      "model": "initial",
+      "batch": 7,
+      "teacher_loss": 0.009351145476102829,
+      "student_loss": 0.13575151562690735,
+      "teacher_gradient_norm": 0.2735651731491089,
+      "student_gradient_norm": 0.33975374698638916,
+      "cosine": 0.16887642443180084,
+      "first_order_teacher_change_sign": -0.04526704549789429
+    },
+    {
+      "model": "initial",
+      "batch": 8,
+      "teacher_loss": 0.010991091839969158,
+      "student_loss": 0.05110076814889908,
+      "teacher_gradient_norm": 0.34183448553085327,
+      "student_gradient_norm": 0.5862800478935242,
+      "cosine": 0.42866069078445435,
+      "first_order_teacher_change_sign": -0.10137949883937836
+    },
+    {
+      "model": "initial",
+      "batch": 9,
+      "teacher_loss": 0.009360925294458866,
+      "student_loss": 0.1482112556695938,
+      "teacher_gradient_norm": 0.23163147270679474,
+      "student_gradient_norm": 0.4082770347595215,
+      "cosine": 0.03150888904929161,
+      "first_order_teacher_change_sign": -0.028316466137766838
+    },
+    {
+      "model": "initial",
+      "batch": 10,
+      "teacher_loss": 0.008773379027843475,
+      "student_loss": 0.13537095487117767,
+      "teacher_gradient_norm": 0.43727874755859375,
+      "student_gradient_norm": 0.40908533334732056,
+      "cosine": 0.24077489972114563,
+      "first_order_teacher_change_sign": -0.11714179813861847
+    },
+    {
+      "model": "initial",
+      "batch": 11,
+      "teacher_loss": 0.01020762138068676,
+      "student_loss": 0.18002545833587646,
+      "teacher_gradient_norm": 0.23985883593559265,
+      "student_gradient_norm": 0.6442318558692932,
+      "cosine": -0.11440885066986084,
+      "first_order_teacher_change_sign": -0.019926633685827255
+    },
+    {
+      "model": "initial",
+      "batch": 12,
+      "teacher_loss": 0.009300675243139267,
+      "student_loss": 0.06273547559976578,
+      "teacher_gradient_norm": 0.3791559934616089,
+      "student_gradient_norm": 0.4118947684764862,
+      "cosine": -0.1198854073882103,
+      "first_order_teacher_change_sign": -0.06251823902130127
+    },
+    {
+      "model": "initial",
+      "batch": 13,
+      "teacher_loss": 0.007609033957123756,
+      "student_loss": 0.06708367168903351,
+      "teacher_gradient_norm": 0.30534300208091736,
+      "student_gradient_norm": 0.6151742339134216,
+      "cosine": -0.04553622379899025,
+      "first_order_teacher_change_sign": -0.04234043508768082
+    },
+    {
+      "model": "initial",
+      "batch": 14,
+      "teacher_loss": 0.009168006479740143,
+      "student_loss": 0.034304212778806686,
+      "teacher_gradient_norm": 0.3531568944454193,
+      "student_gradient_norm": 0.6893070340156555,
+      "cosine": 0.3260308802127838,
+      "first_order_teacher_change_sign": -0.10204331576824188
+    },
+    {
+      "model": "initial",
+      "batch": 15,
+      "teacher_loss": 0.010329114273190498,
+      "student_loss": 0.159928098320961,
+      "teacher_gradient_norm": 0.4497491717338562,
+      "student_gradient_norm": 0.9147828221321106,
+      "cosine": -0.7136019468307495,
+      "first_order_teacher_change_sign": 0.0456588938832283
+    },
+    {
+      "model": "initial",
+      "batch": 16,
+      "teacher_loss": 0.00873359851539135,
+      "student_loss": 0.07857713103294373,
+      "teacher_gradient_norm": 0.3593409061431885,
+      "student_gradient_norm": 0.7351428270339966,
+      "cosine": -0.007913798093795776,
+      "first_order_teacher_change_sign": -0.06351764500141144
+    },
+    {
+      "model": "initial",
+      "batch": 17,
+      "teacher_loss": 0.00656446348875761,
+      "student_loss": 0.04380084574222565,
+      "teacher_gradient_norm": 0.24089005589485168,
+      "student_gradient_norm": 0.5937461853027344,
+      "cosine": 0.1608877331018448,
+      "first_order_teacher_change_sign": -0.040519699454307556
+    },
+    {
+      "model": "initial",
+      "batch": 18,
+      "teacher_loss": 0.00971401296555996,
+      "student_loss": 0.15145865082740784,
+      "teacher_gradient_norm": 0.21012571454048157,
+      "student_gradient_norm": 0.6202762722969055,
+      "cosine": -0.39596763253211975,
+      "first_order_teacher_change_sign": 0.003728010691702366
+    },
+    {
+      "model": "initial",
+      "batch": 19,
+      "teacher_loss": 0.00578989926725626,
+      "student_loss": 0.08124762773513794,
+      "teacher_gradient_norm": 0.2467019408941269,
+      "student_gradient_norm": 0.5368826389312744,
+      "cosine": 0.24271728098392487,
+      "first_order_teacher_change_sign": -0.046504873782396317
+    },
+    {
+      "model": "initial",
+      "batch": 20,
+      "teacher_loss": 0.01274297945201397,
+      "student_loss": 0.15728344023227692,
+      "teacher_gradient_norm": 0.23941318690776825,
+      "student_gradient_norm": 0.6510312557220459,
+      "cosine": -0.11908521503210068,
+      "first_order_teacher_change_sign": -0.019378703087568283
+    },
+    {
+      "model": "initial",
+      "batch": 21,
+      "teacher_loss": 0.013339155353605747,
+      "student_loss": 0.12498863786458969,
+      "teacher_gradient_norm": 0.4159747064113617,
+      "student_gradient_norm": 0.5869905948638916,
+      "cosine": 0.6889577507972717,
+      "first_order_teacher_change_sign": -0.17063000798225403
+    },
+    {
+      "model": "initial",
+      "batch": 22,
+      "teacher_loss": 0.008736716583371162,
+      "student_loss": 0.07648570835590363,
+      "teacher_gradient_norm": 0.19496026635169983,
+      "student_gradient_norm": 0.41981974244117737,
+      "cosine": -0.3295336067676544,
+      "first_order_teacher_change_sign": -0.005518891382962465
+    },
+    {
+      "model": "initial",
+      "batch": 23,
+      "teacher_loss": 0.011023157276213169,
+      "student_loss": 0.08950020372867584,
+      "teacher_gradient_norm": 0.33103305101394653,
+      "student_gradient_norm": 0.7041066288948059,
+      "cosine": 0.39296087622642517,
+      "first_order_teacher_change_sign": -0.10058760643005371
+    },
+    {
+      "model": "teacher_only",
+      "batch": 0,
+      "teacher_loss": 0.0039281961508095264,
+      "student_loss": 0.19597479701042175,
+      "teacher_gradient_norm": 0.15102091431617737,
+      "student_gradient_norm": 0.5736422538757324,
+      "cosine": -0.2147449553012848,
+      "first_order_teacher_change_sign": -0.0021017699036747217
+    },
+    {
+      "model": "teacher_only",
+      "batch": 1,
+      "teacher_loss": 0.003354276530444622,
+      "student_loss": 0.0420989952981472,
+      "teacher_gradient_norm": 0.10194751620292664,
+      "student_gradient_norm": 0.4122210443019867,
+      "cosine": 0.019068794324994087,
+      "first_order_teacher_change_sign": -0.005597330164164305
+    },
+    {
+      "model": "teacher_only",
+      "batch": 2,
+      "teacher_loss": 0.003663213923573494,
+      "student_loss": 0.0681532546877861,
+      "teacher_gradient_norm": 0.1539272964000702,
+      "student_gradient_norm": 0.7932512760162354,
+      "cosine": 0.5711309909820557,
+      "first_order_teacher_change_sign": -0.04671521857380867
+    },
+    {
+      "model": "teacher_only",
+      "batch": 3,
+      "teacher_loss": 0.00316074350848794,
+      "student_loss": 0.09312304854393005,
+      "teacher_gradient_norm": 0.16997216641902924,
+      "student_gradient_norm": 1.350915551185608,
+      "cosine": 0.32415640354156494,
+      "first_order_teacher_change_sign": -0.05166134610772133
+    },
+    {
+      "model": "teacher_only",
+      "batch": 4,
+      "teacher_loss": 0.002573154866695404,
+      "student_loss": 0.1424793303012848,
+      "teacher_gradient_norm": 0.3203258812427521,
+      "student_gradient_norm": 0.6899454593658447,
+      "cosine": -0.6778178811073303,
+      "first_order_teacher_change_sign": 0.023597048595547676
+    },
+    {
+      "model": "teacher_only",
+      "batch": 5,
+      "teacher_loss": 0.0027289176359772682,
+      "student_loss": 0.03456474840641022,
+      "teacher_gradient_norm": 0.1392749696969986,
+      "student_gradient_norm": 0.4755256175994873,
+      "cosine": -0.6882712841033936,
+      "first_order_teacher_change_sign": 0.013092936016619205
+    },
+    {
+      "model": "teacher_only",
+      "batch": 6,
+      "teacher_loss": 0.002516605891287327,
+      "student_loss": 0.1563781052827835,
+      "teacher_gradient_norm": 0.15962497889995575,
+      "student_gradient_norm": 0.6205556392669678,
+      "cosine": -0.19978339970111847,
+      "first_order_teacher_change_sign": -0.002845175564289093
+    },
+    {
+      "model": "teacher_only",
+      "batch": 7,
+      "teacher_loss": 0.0027584058698266745,
+      "student_loss": 0.1310606151819229,
+      "teacher_gradient_norm": 0.08495613932609558,
+      "student_gradient_norm": 0.3951846957206726,
+      "cosine": -0.07270673662424088,
+      "first_order_teacher_change_sign": -0.002388268243521452
+    },
+    {
+      "model": "teacher_only",
+      "batch": 8,
+      "teacher_loss": 0.003455262165516615,
+      "student_loss": 0.04298977553844452,
+      "teacher_gradient_norm": 0.22703762352466583,
+      "student_gradient_norm": 0.7527565956115723,
+      "cosine": 0.7205241918563843,
+      "first_order_teacher_change_sign": -0.08734329789876938
+    },
+    {
+      "model": "teacher_only",
+      "batch": 9,
+      "teacher_loss": 0.002795945852994919,
+      "student_loss": 0.14458051323890686,
+      "teacher_gradient_norm": 0.18347042798995972,
+      "student_gradient_norm": 0.43222761154174805,
+      "cosine": 0.25732338428497314,
+      "first_order_teacher_change_sign": -0.027033694088459015
+    },
+    {
+      "model": "teacher_only",
+      "batch": 10,
+      "teacher_loss": 0.0035698125138878822,
+      "student_loss": 0.12937983870506287,
+      "teacher_gradient_norm": 0.152195543050766,
+      "student_gradient_norm": 0.4220758378505707,
+      "cosine": 0.19540460407733917,
+      "first_order_teacher_change_sign": -0.017857946455478668
+    },
+    {
+      "model": "teacher_only",
+      "batch": 11,
+      "teacher_loss": 0.0041417512111365795,
+      "student_loss": 0.17896735668182373,
+      "teacher_gradient_norm": 0.14191149175167084,
+      "student_gradient_norm": 0.664655864238739,
+      "cosine": -0.18710362911224365,
+      "first_order_teacher_change_sign": -0.0012454134412109852
+    },
+    {
+      "model": "teacher_only",
+      "batch": 12,
+      "teacher_loss": 0.0029952209442853928,
+      "student_loss": 0.05314283445477486,
+      "teacher_gradient_norm": 0.15952841937541962,
+      "student_gradient_norm": 0.3999517858028412,
+      "cosine": -0.35390040278434753,
+      "first_order_teacher_change_sign": -0.001434585079550743
+    },
+    {
+      "model": "teacher_only",
+      "batch": 13,
+      "teacher_loss": 0.003602095413953066,
+      "student_loss": 0.05751124024391174,
+      "teacher_gradient_norm": 0.3727364242076874,
+      "student_gradient_norm": 0.6577171683311462,
+      "cosine": 0.1374230831861496,
+      "first_order_teacher_change_sign": -0.0863112136721611
+    },
+    {
+      "model": "teacher_only",
+      "batch": 14,
+      "teacher_loss": 0.003178807208314538,
+      "student_loss": 0.026086432859301567,
+      "teacher_gradient_norm": 0.17880436778068542,
+      "student_gradient_norm": 0.43096569180488586,
+      "cosine": -0.5084377527236938,
+      "first_order_teacher_change_sign": 0.0036042388528585434
+    },
+    {
+      "model": "teacher_only",
+      "batch": 15,
+      "teacher_loss": 0.004875176586210728,
+      "student_loss": 0.15217171609401703,
+      "teacher_gradient_norm": 0.34704485535621643,
+      "student_gradient_norm": 0.9061119556427002,
+      "cosine": -0.6241519451141357,
+      "first_order_teacher_change_sign": 0.03791581094264984
+    },
+    {
+      "model": "teacher_only",
+      "batch": 16,
+      "teacher_loss": 0.002722689416259527,
+      "student_loss": 0.07532526552677155,
+      "teacher_gradient_norm": 0.2005857229232788,
+      "student_gradient_norm": 0.7775353193283081,
+      "cosine": 0.012710480019450188,
+      "first_order_teacher_change_sign": -0.021108495071530342
+    },
+    {
+      "model": "teacher_only",
+      "batch": 17,
+      "teacher_loss": 0.002548233140259981,
+      "student_loss": 0.03213806077837944,
+      "teacher_gradient_norm": 0.1215149313211441,
+      "student_gradient_norm": 0.5987759828567505,
+      "cosine": -0.2693988084793091,
+      "first_order_teacher_change_sign": 0.0024178207386285067
+    },
+    {
+      "model": "teacher_only",
+      "batch": 18,
+      "teacher_loss": 0.002655175281688571,
+      "student_loss": 0.14706051349639893,
+      "teacher_gradient_norm": 0.10194344073534012,
+      "student_gradient_norm": 0.628447949886322,
+      "cosine": -0.22177214920520782,
+      "first_order_teacher_change_sign": 0.001907811500132084
+    },
+    {
+      "model": "teacher_only",
+      "batch": 19,
+      "teacher_loss": 0.0027358049992471933,
+      "student_loss": 0.06826489418745041,
+      "teacher_gradient_norm": 0.1586810052394867,
+      "student_gradient_norm": 0.43567922711372375,
+      "cosine": -0.05771564692258835,
+      "first_order_teacher_change_sign": -0.010594774037599564
+    },
+    {
+      "model": "teacher_only",
+      "batch": 20,
+      "teacher_loss": 0.004130513407289982,
+      "student_loss": 0.15592941641807556,
+      "teacher_gradient_norm": 0.17736469209194183,
+      "student_gradient_norm": 0.6835675239562988,
+      "cosine": -0.380359023809433,
+      "first_order_teacher_change_sign": 0.0073283882811665535
+    },
+    {
+      "model": "teacher_only",
+      "batch": 21,
+      "teacher_loss": 0.004135426599532366,
+      "student_loss": 0.12135069817304611,
+      "teacher_gradient_norm": 0.2375158816576004,
+      "student_gradient_norm": 0.3568754196166992,
+      "cosine": 0.3989633321762085,
+      "first_order_teacher_change_sign": -0.045115675777196884
+    },
+    {
+      "model": "teacher_only",
+      "batch": 22,
+      "teacher_loss": 0.002616394776850939,
+      "student_loss": 0.06921300292015076,
+      "teacher_gradient_norm": 0.1406501978635788,
+      "student_gradient_norm": 0.32386064529418945,
+      "cosine": -0.2318190485239029,
+      "first_order_teacher_change_sign": -0.004611438140273094
+    },
+    {
+      "model": "teacher_only",
+      "batch": 23,
+      "teacher_loss": 0.002649810165166855,
+      "student_loss": 0.08041128516197205,
+      "teacher_gradient_norm": 0.1603674441576004,
+      "student_gradient_norm": 0.7400515079498291,
+      "cosine": -0.04221592843532562,
+      "first_order_teacher_change_sign": -0.010353762656450272
+    },
+    {
+      "model": "full_dagger",
+      "batch": 0,
+      "teacher_loss": 0.014389486983418465,
+      "student_loss": 0.06595490872859955,
+      "teacher_gradient_norm": 0.44158369302749634,
+      "student_gradient_norm": 0.7261034846305847,
+      "cosine": 0.5122788548469543,
+      "first_order_teacher_change_sign": -0.17962545156478882
+    },
+    {
+      "model": "full_dagger",
+      "batch": 1,
+      "teacher_loss": 0.011365934275090694,
+      "student_loss": 0.01713208481669426,
+      "teacher_gradient_norm": 0.4741901755332947,
+      "student_gradient_norm": 0.35437506437301636,
+      "cosine": 0.09221635013818741,
+      "first_order_teacher_change_sign": -0.12017624080181122
+    },
+    {
+      "model": "full_dagger",
+      "batch": 2,
+      "teacher_loss": 0.019578717648983,
+      "student_loss": 0.031064115464687347,
+      "teacher_gradient_norm": 0.398770809173584,
+      "student_gradient_norm": 0.6427026391029358,
+      "cosine": -0.6653598546981812,
+      "first_order_teacher_change_sign": 0.005753807723522186
+    },
+    {
+      "model": "full_dagger",
+      "batch": 3,
+      "teacher_loss": 0.010696953162550926,
+      "student_loss": 0.043012797832489014,
+      "teacher_gradient_norm": 0.2426830530166626,
+      "student_gradient_norm": 0.8478085994720459,
+      "cosine": -0.01707463525235653,
+      "first_order_teacher_change_sign": -0.027690988034009933
+    },
+    {
+      "model": "full_dagger",
+      "batch": 4,
+      "teacher_loss": 0.015170685946941376,
+      "student_loss": 0.042953770607709885,
+      "teacher_gradient_norm": 0.5754566788673401,
+      "student_gradient_norm": 0.8425759077072144,
+      "cosine": -0.7719365954399109,
+      "first_order_teacher_change_sign": 0.021567700430750847
+    },
+    {
+      "model": "full_dagger",
+      "batch": 5,
+      "teacher_loss": 0.010629890486598015,
+      "student_loss": 0.019685033708810806,
+      "teacher_gradient_norm": 0.31004318594932556,
+      "student_gradient_norm": 0.6832522749900818,
+      "cosine": 0.5288496613502502,
+      "first_order_teacher_change_sign": -0.10407853126525879
+    },
+    {
+      "model": "full_dagger",
+      "batch": 6,
+      "teacher_loss": 0.01232754997909069,
+      "student_loss": 0.04252549260854721,
+      "teacher_gradient_norm": 0.3160284459590912,
+      "student_gradient_norm": 0.5731005668640137,
+      "cosine": -0.20188333094120026,
+      "first_order_teacher_change_sign": -0.03165483474731445
+    },
+    {
+      "model": "full_dagger",
+      "batch": 7,
+      "teacher_loss": 0.018831059336662292,
+      "student_loss": 0.03186611831188202,
+      "teacher_gradient_norm": 0.5809041857719421,
+      "student_gradient_norm": 0.4606185853481293,
+      "cosine": 0.4014446437358856,
+      "first_order_teacher_change_sign": -0.2224331498146057
+    },
+    {
+      "model": "full_dagger",
+      "batch": 8,
+      "teacher_loss": 0.016541486606001854,
+      "student_loss": 0.016150321811437607,
+      "teacher_gradient_norm": 0.41650331020355225,
+      "student_gradient_norm": 0.31282463669776917,
+      "cosine": 0.34922564029693604,
+      "first_order_teacher_change_sign": -0.10948823392391205
+    },
+    {
+      "model": "full_dagger",
+      "batch": 9,
+      "teacher_loss": 0.01318087987601757,
+      "student_loss": 0.03871985152363777,
+      "teacher_gradient_norm": 0.33662012219429016,
+      "student_gradient_norm": 0.5006845593452454,
+      "cosine": 0.0034308326430618763,
+      "first_order_teacher_change_sign": -0.056945666670799255
+    },
+    {
+      "model": "full_dagger",
+      "batch": 10,
+      "teacher_loss": 0.01578817144036293,
+      "student_loss": 0.02722148597240448,
+      "teacher_gradient_norm": 0.511173665523529,
+      "student_gradient_norm": 0.42888563871383667,
+      "cosine": -0.13070076704025269,
+      "first_order_teacher_change_sign": -0.11632218956947327
+    },
+    {
+      "model": "full_dagger",
+      "batch": 11,
+      "teacher_loss": 0.020064741373062134,
+      "student_loss": 0.06417911499738693,
+      "teacher_gradient_norm": 1.0233933925628662,
+      "student_gradient_norm": 0.5343133807182312,
+      "cosine": 0.4058924913406372,
+      "first_order_teacher_change_sign": -0.6346405744552612
+    },
+    {
+      "model": "full_dagger",
+      "batch": 12,
+      "teacher_loss": 0.01994037814438343,
+      "student_loss": 0.020865511149168015,
+      "teacher_gradient_norm": 0.5022423267364502,
+      "student_gradient_norm": 0.2104811668395996,
+      "cosine": 0.33926495909690857,
+      "first_order_teacher_change_sign": -0.14405597746372223
+    },
+    {
+      "model": "full_dagger",
+      "batch": 13,
+      "teacher_loss": 0.015306352637708187,
+      "student_loss": 0.017306674271821976,
+      "teacher_gradient_norm": 0.3016575276851654,
+      "student_gradient_norm": 0.3929770290851593,
+      "cosine": -0.23954716324806213,
+      "first_order_teacher_change_sign": -0.0313001349568367
+    },
+    {
+      "model": "full_dagger",
+      "batch": 14,
+      "teacher_loss": 0.016992468386888504,
+      "student_loss": 0.013540748506784439,
+      "teacher_gradient_norm": 0.29030558466911316,
+      "student_gradient_norm": 0.4479987323284149,
+      "cosine": -0.2596171796321869,
+      "first_order_teacher_change_sign": -0.025256212800741196
+    },
+    {
+      "model": "full_dagger",
+      "batch": 15,
+      "teacher_loss": 0.01515890471637249,
+      "student_loss": 0.04319047927856445,
+      "teacher_gradient_norm": 0.5669499039649963,
+      "student_gradient_norm": 0.6812318563461304,
+      "cosine": 0.2732032239437103,
+      "first_order_teacher_change_sign": -0.21347494423389435
+    },
+    {
+      "model": "full_dagger",
+      "batch": 16,
+      "teacher_loss": 0.018772125244140625,
+      "student_loss": 0.02902080863714218,
+      "teacher_gradient_norm": 0.3933483958244324,
+      "student_gradient_norm": 0.5212335586547852,
+      "cosine": -0.5408077836036682,
+      "first_order_teacher_change_sign": -0.0219215527176857
+    },
+    {
+      "model": "full_dagger",
+      "batch": 17,
+      "teacher_loss": 0.010549817234277725,
+      "student_loss": 0.02322663925588131,
+      "teacher_gradient_norm": 0.35162386298179626,
+      "student_gradient_norm": 0.9827963709831238,
+      "cosine": 0.3964460492134094,
+      "first_order_teacher_change_sign": -0.13032051920890808
+    },
+    {
+      "model": "full_dagger",
+      "batch": 18,
+      "teacher_loss": 0.01184556819498539,
+      "student_loss": 0.03466079756617546,
+      "teacher_gradient_norm": 0.39345860481262207,
+      "student_gradient_norm": 0.4592668414115906,
+      "cosine": 0.12241020798683167,
+      "first_order_teacher_change_sign": -0.08846475929021835
+    },
+    {
+      "model": "full_dagger",
+      "batch": 19,
+      "teacher_loss": 0.015951376408338547,
+      "student_loss": 0.033983733505010605,
+      "teacher_gradient_norm": 0.869513213634491,
+      "student_gradient_norm": 0.5015889406204224,
+      "cosine": 0.5702866315841675,
+      "first_order_teacher_change_sign": -0.5023885369300842
+    },
+    {
+      "model": "full_dagger",
+      "batch": 20,
+      "teacher_loss": 0.016054093837738037,
+      "student_loss": 0.057281456887722015,
+      "teacher_gradient_norm": 0.5096665620803833,
+      "student_gradient_norm": 0.6078593730926514,
+      "cosine": 0.2253672331571579,
+      "first_order_teacher_change_sign": -0.16479003429412842
+    },
+    {
+      "model": "full_dagger",
+      "batch": 21,
+      "teacher_loss": 0.020118866115808487,
+      "student_loss": 0.03518732264637947,
+      "teacher_gradient_norm": 0.9617166519165039,
+      "student_gradient_norm": 0.31002044677734375,
+      "cosine": -0.34369319677352905,
+      "first_order_teacher_change_sign": -0.41121309995651245
+    },
+    {
+      "model": "full_dagger",
+      "batch": 22,
+      "teacher_loss": 0.01804770901799202,
+      "student_loss": 0.03498215973377228,
+      "teacher_gradient_norm": 0.9634888172149658,
+      "student_gradient_norm": 0.3182308077812195,
+      "cosine": 0.5125328898429871,
+      "first_order_teacher_change_sign": -0.5427296757698059
+    },
+    {
+      "model": "full_dagger",
+      "batch": 23,
+      "teacher_loss": 0.019576307386159897,
+      "student_loss": 0.03611478954553604,
+      "teacher_gradient_norm": 0.6329151391983032,
+      "student_gradient_norm": 0.6496674418449402,
+      "cosine": -0.520966649055481,
+      "first_order_teacher_change_sign": -0.09318408370018005
+    }
+  ],
+  "interpretation": "Raw gradients at fixed checkpoints, not actual AdamW steps or proof of closed-loop causality. Same 24 balanced source batches for each model."
+}

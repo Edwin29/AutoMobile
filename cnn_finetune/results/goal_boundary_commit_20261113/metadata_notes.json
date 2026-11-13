@@ -1,0 +1,9 @@
+{
+  "issue": "Inherited observed_push flag is unused by CommittedTeacher.teacher and HeldMotionTeacher.teacher. Some all-normal/held-motion result metadata says false despite causal residual computation.",
+  "authoritative_behavior": "Both teacher methods always call observed_residual; guard.json records the residual. Normal residual is zero. No trajectories or frozen outcomes changed.",
+  "affected": [
+    "goal_boundary_commit_20261113/all_normal",
+    "goal_boundary_hold_20261113"
+  ],
+  "future_fix": "Canonical implementation should report motion predictor type directly, not inherited unused constructor flag."
+}

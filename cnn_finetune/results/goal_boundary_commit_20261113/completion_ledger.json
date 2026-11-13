@@ -1,0 +1,50 @@
+{
+  "goal_complete": false,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "requirements": [
+    {
+      "requirement": "full mission normal>=99%, weak>=95%, feasible harsh>=80%",
+      "status": "unproven",
+      "evidence": "No final full-mission student evaluation; local student baseline and development candidates below gates"
+    },
+    {
+      "requirement": "zero wrong exit/severe departure normal and weak",
+      "status": "partial_local_only",
+      "evidence": "Nominal-constrained student72/72 stable local exit but only38/72 clean; not full mission or held-out exam"
+    },
+    {
+      "requirement": "each required movement weak>=90%",
+      "status": "not_met",
+      "evidence": "Students trained/evaluated on4 movements; full28 teacher weak82/168 previously"
+    },
+    {
+      "requirement": "smooth turns>=95%, safer/smoother and no time regression vs legacy",
+      "status": "unproven",
+      "evidence": "Teacher normal pilot pause issue fixed; weak pilots still fail; no final paired legacy full-mission comparison"
+    },
+    {
+      "requirement": "three training initializations",
+      "status": "missing",
+      "evidence": "Only initialization seed17 in current controlled comparisons"
+    },
+    {
+      "requirement": "independent final samples>=100 per condition plus sufficient movement samples",
+      "status": "missing",
+      "evidence": "Final9xxxxx seeds remain untouched; current168 normal teacher cases cross only two development seeds"
+    },
+    {
+      "requirement": "actor only video history, prior commands and direction",
+      "status": "preserved_in_current_student",
+      "evidence": "No student changes this phase; privileged predictor is offline teacher only"
+    },
+    {
+      "requirement": "no hardware deployment or motor trial",
+      "status": "preserved",
+      "evidence": "Local artifacts only"
+    }
+  ]
+}

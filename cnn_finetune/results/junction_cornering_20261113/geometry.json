@@ -1,0 +1,1394 @@
+[
+  {
+    "key": [
+      "center",
+      "N",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4995714091890946,
+    "parameters": [
+      29.904722573533196,
+      24.113192270093013,
+      12.037275971757808,
+      7.04436150327179,
+      -0.3086378180957996,
+      -1.4079901625139217
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.5817303836912959,
+      "min_radius_cm": 1.719009403728627,
+      "curvature_variation": 1.541269735839327,
+      "curvature_derivative_energy": 0.2953489734781433
+    },
+    "max_abs_curvature_cm_inv": 0.06431744773981814,
+    "min_radius_cm": 15.547880631788695,
+    "curvature_variation": 0.1939116711445418,
+    "curvature_derivative_energy": 0.0005804397445808894
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.99411820977544,
+    "parameters": [
+      11.763458479262985,
+      20.321820786523467,
+      5.4241843767440585,
+      5.652066713019276,
+      -0.2520246700273634,
+      -1.2082361009938183
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.5817303836912959,
+      "min_radius_cm": 1.719009403728627,
+      "curvature_variation": 1.541269735839327,
+      "curvature_derivative_energy": 0.2953489734781433
+    },
+    "max_abs_curvature_cm_inv": 0.1663720629383412,
+    "min_radius_cm": 6.01062451434895,
+    "curvature_variation": 0.36170677940023316,
+    "curvature_derivative_energy": 0.006699286619208541
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5022835757318997,
+    "parameters": [
+      28.654222488042063,
+      28.98111801686096,
+      12.389302132074633,
+      11.326812936275786,
+      0.28789064896374006,
+      1.0591506983573273
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6240404944162785,
+      "min_radius_cm": 1.6024601110788337,
+      "curvature_variation": 1.5337341099066244,
+      "curvature_derivative_energy": 0.3864326928108406
+    },
+    "max_abs_curvature_cm_inv": 0.08778717712296287,
+    "min_radius_cm": 11.391185282097716,
+    "curvature_variation": 0.23651849082346696,
+    "curvature_derivative_energy": 0.0009882109808101666
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.0112854521457315,
+    "parameters": [
+      11.71989719733363,
+      21.726886217784113,
+      5.4989227342128135,
+      6.398706775083039,
+      0.2331957786703689,
+      1.179963512044702
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6240404944162785,
+      "min_radius_cm": 1.6024601110788337,
+      "curvature_variation": 1.5337341099066244,
+      "curvature_derivative_energy": 0.3864326928108406
+    },
+    "max_abs_curvature_cm_inv": 0.16966142350594743,
+    "min_radius_cm": 5.894091770159793,
+    "curvature_variation": 0.3696834372311595,
+    "curvature_derivative_energy": 0.0069999171127213084
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.48820336408526366,
+    "parameters": [
+      23.7364413685105,
+      10.234365088304429,
+      5.4283208525038775,
+      8.268036248282336,
+      0.37287144115892623,
+      -0.750212668237463
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6019436903319084,
+      "min_radius_cm": 1.66128496080523,
+      "curvature_variation": 1.2701335454094158,
+      "curvature_derivative_energy": 0.2601879498545846
+    },
+    "max_abs_curvature_cm_inv": 0.18738187134243758,
+    "min_radius_cm": 5.336695555636302,
+    "curvature_variation": 0.4510431401403522,
+    "curvature_derivative_energy": 0.00821062985191732
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9920476434046073,
+    "parameters": [
+      21.39453419568742,
+      6.0779458418430075,
+      5.3209795942311064,
+      6.209757376522331,
+      0.4876479253267112,
+      -0.25099157848291176
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6019436903319084,
+      "min_radius_cm": 1.66128496080523,
+      "curvature_variation": 1.2701335454094158,
+      "curvature_derivative_energy": 0.2601879498545846
+    },
+    "max_abs_curvature_cm_inv": 0.2712274324939179,
+    "min_radius_cm": 3.6869426916188663,
+    "curvature_variation": 0.6205973214652721,
+    "curvature_derivative_energy": 0.02379294776539375
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.49501765391365815,
+    "parameters": [
+      11.462722462321679,
+      24.392450173760253,
+      5.346316689570614,
+      11.23727264344655,
+      -1.5774620722828967,
+      0.5514666690212011
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6264102071837339,
+      "min_radius_cm": 1.5963979969226263,
+      "curvature_variation": 1.3343895723695938,
+      "curvature_derivative_energy": 0.3070990611976683
+    },
+    "max_abs_curvature_cm_inv": 0.20858850257042333,
+    "min_radius_cm": 4.79412809276188,
+    "curvature_variation": 0.46308191953516964,
+    "curvature_derivative_energy": 0.012228481770756913
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.0142051494104187,
+    "parameters": [
+      6.025292356874379,
+      6.068977184884199,
+      2.9543304060678457,
+      2.0791016685062758,
+      -1.5405825136431774,
+      0.23599593763482485
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6264102071837339,
+      "min_radius_cm": 1.5963979969226263,
+      "curvature_variation": 1.3343895723695938,
+      "curvature_derivative_energy": 0.3070990611976683
+    },
+    "max_abs_curvature_cm_inv": 0.32276967471591766,
+    "min_radius_cm": 3.098184489853762,
+    "curvature_variation": 0.6724091308830803,
+    "curvature_derivative_energy": 0.04472322995405531
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4995714091890946,
+    "parameters": [
+      29.904722573533196,
+      24.113192270093013,
+      12.037275971757808,
+      7.04436150327179,
+      -0.3086378180957996,
+      -1.4079901625139217
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.5817303836912958,
+      "min_radius_cm": 1.7190094037286272,
+      "curvature_variation": 1.5412697358393301,
+      "curvature_derivative_energy": 0.2953489734781435
+    },
+    "max_abs_curvature_cm_inv": 0.06431744773981814,
+    "min_radius_cm": 15.547880631788695,
+    "curvature_variation": 0.1939116711445418,
+    "curvature_derivative_energy": 0.0005804397445808894
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.99411820977544,
+    "parameters": [
+      11.763458479262985,
+      20.321820786523467,
+      5.4241843767440585,
+      5.652066713019276,
+      -0.2520246700273634,
+      -1.2082361009938183
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.5817303836912958,
+      "min_radius_cm": 1.7190094037286272,
+      "curvature_variation": 1.5412697358393301,
+      "curvature_derivative_energy": 0.2953489734781435
+    },
+    "max_abs_curvature_cm_inv": 0.1663720629383412,
+    "min_radius_cm": 6.01062451434895,
+    "curvature_variation": 0.36170677940023316,
+    "curvature_derivative_energy": 0.006699286619208541
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5022835757318997,
+    "parameters": [
+      28.654222488042063,
+      28.98111801686096,
+      12.389302132074633,
+      11.326812936275786,
+      0.28789064896374006,
+      1.0591506983573273
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6240404944162772,
+      "min_radius_cm": 1.6024601110788372,
+      "curvature_variation": 1.5337341099066146,
+      "curvature_derivative_energy": 0.3864326928108397
+    },
+    "max_abs_curvature_cm_inv": 0.08778717712296287,
+    "min_radius_cm": 11.391185282097716,
+    "curvature_variation": 0.23651849082346696,
+    "curvature_derivative_energy": 0.0009882109808101666
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.0112854521457244,
+    "parameters": [
+      11.71989719733363,
+      21.726886217784113,
+      5.4989227342128135,
+      6.398706775083039,
+      0.2331957786703689,
+      1.179963512044702
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6240404944162772,
+      "min_radius_cm": 1.6024601110788372,
+      "curvature_variation": 1.5337341099066146,
+      "curvature_derivative_energy": 0.3864326928108397
+    },
+    "max_abs_curvature_cm_inv": 0.16966142350594743,
+    "min_radius_cm": 5.894091770159793,
+    "curvature_variation": 0.3696834372311595,
+    "curvature_derivative_energy": 0.0069999171127213084
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.48820336408526543,
+    "parameters": [
+      23.7364413685105,
+      10.234365088304429,
+      5.4283208525038775,
+      8.268036248282336,
+      0.37287144115892623,
+      -0.750212668237463
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6019436903319071,
+      "min_radius_cm": 1.6612849608052338,
+      "curvature_variation": 1.2701335454094012,
+      "curvature_derivative_energy": 0.26018794985458443
+    },
+    "max_abs_curvature_cm_inv": 0.18738187134243758,
+    "min_radius_cm": 5.336695555636302,
+    "curvature_variation": 0.4510431401403522,
+    "curvature_derivative_energy": 0.00821062985191732
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9920476434046037,
+    "parameters": [
+      21.39453419568742,
+      6.0779458418430075,
+      5.3209795942311064,
+      6.209757376522331,
+      0.4876479253267112,
+      -0.25099157848291176
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6019436903319071,
+      "min_radius_cm": 1.6612849608052338,
+      "curvature_variation": 1.2701335454094012,
+      "curvature_derivative_energy": 0.26018794985458443
+    },
+    "max_abs_curvature_cm_inv": 0.2712274324939179,
+    "min_radius_cm": 3.6869426916188663,
+    "curvature_variation": 0.6205973214652721,
+    "curvature_derivative_energy": 0.02379294776539375
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.49501765391365815,
+    "parameters": [
+      11.462722462321679,
+      24.392450173760253,
+      5.346316689570614,
+      11.23727264344655,
+      -1.5774620722828967,
+      0.5514666690212011
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6264102071837341,
+      "min_radius_cm": 1.5963979969226256,
+      "curvature_variation": 1.3343895723695962,
+      "curvature_derivative_energy": 0.3070990611976689
+    },
+    "max_abs_curvature_cm_inv": 0.20858850257042333,
+    "min_radius_cm": 4.79412809276188,
+    "curvature_variation": 0.46308191953516964,
+    "curvature_derivative_energy": 0.012228481770756913
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.0142051494104187,
+    "parameters": [
+      6.025292356874379,
+      6.068977184884199,
+      2.9543304060678457,
+      2.0791016685062758,
+      -1.5405825136431774,
+      0.23599593763482485
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6264102071837341,
+      "min_radius_cm": 1.5963979969226256,
+      "curvature_variation": 1.3343895723695962,
+      "curvature_derivative_energy": 0.3070990611976689
+    },
+    "max_abs_curvature_cm_inv": 0.32276967471591766,
+    "min_radius_cm": 3.098184489853762,
+    "curvature_variation": 0.6724091308830803,
+    "curvature_derivative_energy": 0.04472322995405531
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4974424226424432,
+    "parameters": [
+      15.52301439898591,
+      10.137849144852947,
+      5.872646845691293,
+      3.3679280487774776,
+      1.75211408604991,
+      -0.7525575773575561
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.46697532140333475,
+      "min_radius_cm": 2.1414407874806782,
+      "curvature_variation": 0.9781571393237916,
+      "curvature_derivative_energy": 0.13469985878168844
+    },
+    "max_abs_curvature_cm_inv": 0.11164632374084481,
+    "min_radius_cm": 8.95685559984237,
+    "curvature_variation": 0.2783249916547486,
+    "curvature_derivative_energy": 0.0036354275751849284
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.0070656530090947,
+    "parameters": [
+      24.440064578817466,
+      8.248642942732499,
+      7.569405135556106,
+      5.480980583117941,
+      1.946204611058195,
+      -0.24219953247280102
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.46697532140333475,
+      "min_radius_cm": 2.1414407874806782,
+      "curvature_variation": 0.9781571393237916,
+      "curvature_derivative_energy": 0.13469985878168844
+    },
+    "max_abs_curvature_cm_inv": 0.17786689533517583,
+    "min_radius_cm": 5.622181677571763,
+    "curvature_variation": 0.46530826471812503,
+    "curvature_derivative_energy": 0.008766399235497928
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5001320027353557,
+    "parameters": [
+      29.956989185424852,
+      29.514312767047578,
+      8.73702026076262,
+      11.367853270769926,
+      -0.3278002435285694,
+      0.523776855464388
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6727573133816345,
+      "min_radius_cm": 1.486420110356691,
+      "curvature_variation": 1.3865327833979175,
+      "curvature_derivative_energy": 0.6317332529159834
+    },
+    "max_abs_curvature_cm_inv": 0.04989568048372492,
+    "min_radius_cm": 20.041815049023775,
+    "curvature_variation": 0.15184242468825299,
+    "curvature_derivative_energy": 0.0003809264812534959
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.011958778062164,
+    "parameters": [
+      15.022032085882074,
+      22.09133787052373,
+      6.119416868165977,
+      6.651827414444786,
+      -0.23112625921112318,
+      0.6511209119588712
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6727573133816345,
+      "min_radius_cm": 1.486420110356691,
+      "curvature_variation": 1.3865327833979175,
+      "curvature_derivative_energy": 0.6317332529159834
+    },
+    "max_abs_curvature_cm_inv": 0.09712342388372947,
+    "min_radius_cm": 10.296177379384217,
+    "curvature_variation": 0.21406485376735915,
+    "curvature_derivative_energy": 0.0017126618591024646
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.49912538148779717,
+    "parameters": [
+      29.985845992409445,
+      29.05195333520886,
+      10.189067906667011,
+      9.876691758134088,
+      0.32754074121998666,
+      -0.763626908333364
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.3152281851661388,
+      "min_radius_cm": 3.172305165139205,
+      "curvature_variation": 0.6939377427789446,
+      "curvature_derivative_energy": 0.0718117279205488
+    },
+    "max_abs_curvature_cm_inv": 0.0474915172876709,
+    "min_radius_cm": 21.056391901372383,
+    "curvature_variation": 0.15468956462802932,
+    "curvature_derivative_energy": 0.0003973836824014447
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9962319085939342,
+    "parameters": [
+      15.259533656702125,
+      22.646532435512743,
+      7.989926380417237,
+      2.4548737576626936,
+      0.23723067295781064,
+      -1.2810121389297424
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.3152281851661388,
+      "min_radius_cm": 3.172305165139205,
+      "curvature_variation": 0.6939377427789446,
+      "curvature_derivative_energy": 0.0718117279205488
+    },
+    "max_abs_curvature_cm_inv": 0.09733488846380334,
+    "min_radius_cm": 10.273808454322907,
+    "curvature_variation": 0.22996254261342614,
+    "curvature_derivative_energy": 0.0020468128832805584
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5016584891135665,
+    "parameters": [
+      16.405790585238787,
+      12.241672821070726,
+      6.2600822295013945,
+      4.754268705354113,
+      -1.8695505162736858,
+      0.7483415108864357
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6137406111514228,
+      "min_radius_cm": 1.6293528272863125,
+      "curvature_variation": 1.2580616178924158,
+      "curvature_derivative_energy": 0.30694302895997366
+    },
+    "max_abs_curvature_cm_inv": 0.116353196600669,
+    "min_radius_cm": 8.594521072180411,
+    "curvature_variation": 0.29472999324700555,
+    "curvature_derivative_energy": 0.002498240847750753
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.0009589906410028,
+    "parameters": [
+      28.68822744107213,
+      8.143238231416749,
+      4.686444506466978,
+      6.901989836501057,
+      -0.3665396034867281,
+      0.2497870037524561
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6137406111514228,
+      "min_radius_cm": 1.6293528272863125,
+      "curvature_variation": 1.2580616178924158,
+      "curvature_derivative_energy": 0.30694302895997366
+    },
+    "max_abs_curvature_cm_inv": 0.18056007210232813,
+    "min_radius_cm": 5.538322998859203,
+    "curvature_variation": 0.442687081321877,
+    "curvature_derivative_energy": 0.00868945602447643
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4983807788817316,
+    "parameters": [
+      29.976683050366255,
+      29.97143816163174,
+      8.640803823183743,
+      9.598959984845393,
+      -0.001262853543418041,
+      0.8072345308619928
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6110133176616124,
+      "min_radius_cm": 1.6366255384204471,
+      "curvature_variation": 1.3505018962683266,
+      "curvature_derivative_energy": 0.2802617641277371
+    },
+    "max_abs_curvature_cm_inv": 0.03979705922116787,
+    "min_radius_cm": 25.127484783300385,
+    "curvature_variation": 0.1122084228861101,
+    "curvature_derivative_energy": 0.0004033775788453327
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.999953538542087,
+    "parameters": [
+      29.36929419765452,
+      29.97215881312228,
+      10.01295840460531,
+      8.941045756376383,
+      -0.061326357356679795,
+      1.087948950368614
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6110133176616124,
+      "min_radius_cm": 1.6366255384204471,
+      "curvature_variation": 1.3505018962683266,
+      "curvature_derivative_energy": 0.2802617641277371
+    },
+    "max_abs_curvature_cm_inv": 0.04715036184713556,
+    "min_radius_cm": 21.208744977229717,
+    "curvature_variation": 0.14012952467557144,
+    "curvature_derivative_energy": 0.00039052722706487287
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4993500908615829,
+    "parameters": [
+      29.93856783681543,
+      29.99768164144973,
+      8.635099628439123,
+      9.695868860700555,
+      0.0006805532557567773,
+      -0.7996175874979796
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6190005025305996,
+      "min_radius_cm": 1.6155075737609215,
+      "curvature_variation": 1.2616998906325507,
+      "curvature_derivative_energy": 0.31189731140123483
+    },
+    "max_abs_curvature_cm_inv": 0.03996496746777095,
+    "min_radius_cm": 25.021914525676333,
+    "curvature_variation": 0.11155426356847936,
+    "curvature_derivative_energy": 0.000394674227878802
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9944458012611292,
+    "parameters": [
+      29.86103012128234,
+      29.93975925888607,
+      10.279253206432431,
+      8.908504787764036,
+      0.05689530084599159,
+      -1.0994473382991368
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6190005025305996,
+      "min_radius_cm": 1.6155075737609215,
+      "curvature_variation": 1.2616998906325507,
+      "curvature_derivative_energy": 0.31189731140123483
+    },
+    "max_abs_curvature_cm_inv": 0.046638009099971144,
+    "min_radius_cm": 21.441738601157798,
+    "curvature_variation": 0.13935813622337956,
+    "curvature_derivative_energy": 0.00037844976582406334
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 1.2116723379684444,
+    "parameters": [
+      29.95677030944775,
+      29.991447064442525,
+      9.206982173988997,
+      9.254538217597677,
+      0.0015415169852794897,
+      9.7176755992745e-05
+    ],
+    "evaluations": 2772,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.3164767508406632,
+      "min_radius_cm": 3.1597897707925813,
+      "curvature_variation": 0.6966572047836799,
+      "curvature_derivative_energy": 0.0947448101473819
+    },
+    "max_abs_curvature_cm_inv": 0.03918249829892948,
+    "min_radius_cm": 25.521598760008658,
+    "curvature_variation": 0.08136942365329654,
+    "curvature_derivative_energy": 0.0003394641727818226
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.214773991007867,
+    "parameters": [
+      29.996094954431914,
+      29.993763276917313,
+      9.225541250899507,
+      9.206649138268073,
+      -0.0021777154196511717,
+      0.0076925582253233316
+    ],
+    "evaluations": 2898,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.3164767508406632,
+      "min_radius_cm": 3.1597897707925813,
+      "curvature_variation": 0.6966572047836799,
+      "curvature_derivative_energy": 0.0947448101473819
+    },
+    "max_abs_curvature_cm_inv": 0.03911894904790654,
+    "min_radius_cm": 25.56305893533495,
+    "curvature_variation": 0.08189239835928575,
+    "curvature_derivative_energy": 0.00034270713934290726
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 1.2131709834258544,
+    "parameters": [
+      29.983671130812475,
+      29.983039857449455,
+      9.234050275107407,
+      9.229472451843918,
+      -0.0016726763182834947,
+      -0.0034356018518337805
+    ],
+    "evaluations": 2646,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.42117132697617343,
+      "min_radius_cm": 2.374330672459505,
+      "curvature_variation": 0.9022481197677414,
+      "curvature_derivative_energy": 0.1938130127120075
+    },
+    "max_abs_curvature_cm_inv": 0.03916122961362109,
+    "min_radius_cm": 25.535459684651453,
+    "curvature_variation": 0.08150156000608702,
+    "curvature_derivative_energy": 0.00033951966156557157
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.2078130619793583,
+    "parameters": [
+      29.976276808928745,
+      29.967294611539856,
+      9.193450402902908,
+      9.180089923624132,
+      -0.0002840291824868224,
+      -0.003404975793062759
+    ],
+    "evaluations": 2814,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.42117132697617343,
+      "min_radius_cm": 2.374330672459505,
+      "curvature_variation": 0.9022481197677414,
+      "curvature_derivative_energy": 0.1938130127120075
+    },
+    "max_abs_curvature_cm_inv": 0.03911923925939424,
+    "min_radius_cm": 25.562869292246173,
+    "curvature_variation": 0.0818699368490793,
+    "curvature_derivative_energy": 0.0003476922175287473
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5028216729376922,
+    "parameters": [
+      29.923144100251985,
+      28.587465584164633,
+      9.760854538771262,
+      10.389540519830014,
+      -0.31565699192830876,
+      0.21623159201637465
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.5124187409315955,
+      "min_radius_cm": 1.9515289354600196,
+      "curvature_variation": 1.1344224663159557,
+      "curvature_derivative_energy": 0.32577833447029847
+    },
+    "max_abs_curvature_cm_inv": 0.05142754748414378,
+    "min_radius_cm": 19.444831591635232,
+    "curvature_variation": 0.14206717963929122,
+    "curvature_derivative_energy": 0.000366641980833998
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9985734854251902,
+    "parameters": [
+      13.988572970494403,
+      28.06841115411175,
+      5.399033478047739,
+      11.17506268778184,
+      -0.25142651457480936,
+      -0.9271181873252421
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.5124187409315955,
+      "min_radius_cm": 1.9515289354600196,
+      "curvature_variation": 1.1344224663159557,
+      "curvature_derivative_energy": 0.32577833447029847
+    },
+    "max_abs_curvature_cm_inv": 0.1417076309249577,
+    "min_radius_cm": 7.0567829937793345,
+    "curvature_variation": 0.3189353627256843,
+    "curvature_derivative_energy": 0.0042409263781870805
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5126122270718625,
+    "parameters": [
+      29.960437044277864,
+      27.84177835610624,
+      12.019999917544627,
+      8.785555691401058,
+      0.3142307490703815,
+      -0.2686665605956857
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6685439995478255,
+      "min_radius_cm": 1.4957878623940342,
+      "curvature_variation": 1.3690250563564368,
+      "curvature_derivative_energy": 0.6494819355088672
+    },
+    "max_abs_curvature_cm_inv": 0.056189612001217186,
+    "min_radius_cm": 17.79688387914723,
+    "curvature_variation": 0.1528587155223079,
+    "curvature_derivative_energy": 0.0003925332012503774
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9971178175439377,
+    "parameters": [
+      13.424149661309299,
+      27.606938574589208,
+      6.520531112951261,
+      6.647540100821275,
+      0.252176479522487,
+      0.4271974298268737
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6685439995478255,
+      "min_radius_cm": 1.4957878623940342,
+      "curvature_variation": 1.3690250563564368,
+      "curvature_derivative_energy": 0.6494819355088672
+    },
+    "max_abs_curvature_cm_inv": 0.13192129709741307,
+    "min_radius_cm": 7.5802771955886845,
+    "curvature_variation": 0.2828350318654688,
+    "curvature_derivative_energy": 0.003808838247476494
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4929668593617329,
+    "parameters": [
+      18.31668959615731,
+      9.690644303791927,
+      3.512858047970016,
+      5.985993365271507,
+      -1.3941135720003635,
+      0.7414896511787337
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.7653680582836861,
+      "min_radius_cm": 1.306560927356269,
+      "curvature_variation": 1.6587633217248345,
+      "curvature_derivative_energy": 0.6144154893589208
+    },
+    "max_abs_curvature_cm_inv": 0.15339168329686306,
+    "min_radius_cm": 6.519258270767347,
+    "curvature_variation": 0.36869122091128465,
+    "curvature_derivative_energy": 0.005390417491268568
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9742372130313086,
+    "parameters": [
+      11.107072778045223,
+      7.773274364072847,
+      5.747745007391721,
+      2.8118084677108666,
+      0.15376486906484788,
+      0.2721752613442745
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.7653680582836861,
+      "min_radius_cm": 1.306560927356269,
+      "curvature_variation": 1.6587633217248345,
+      "curvature_derivative_energy": 0.6144154893589208
+    },
+    "max_abs_curvature_cm_inv": 0.3715691589083248,
+    "min_radius_cm": 2.69128902661893,
+    "curvature_variation": 0.7580966793815038,
+    "curvature_derivative_energy": 0.06987926300517092
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.5070840971966248,
+    "parameters": [
+      25.651025635883737,
+      16.686662394559548,
+      11.57640593627454,
+      8.765076349786396,
+      1.425260912144382,
+      -0.6609222144088707
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.7255475647412558,
+      "min_radius_cm": 1.3782693907278418,
+      "curvature_variation": 1.5337165246425741,
+      "curvature_derivative_energy": 0.5207824417499654
+    },
+    "max_abs_curvature_cm_inv": 0.1687929780072819,
+    "min_radius_cm": 5.924417068800451,
+    "curvature_variation": 0.43541027237847657,
+    "curvature_derivative_energy": 0.006905219766386752
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9696562020460036,
+    "parameters": [
+      22.94732291388329,
+      6.952156987827534,
+      10.857319191480368,
+      3.4447703192204924,
+      0.12385138003815666,
+      -0.280735057431299
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.7255475647412558,
+      "min_radius_cm": 1.3782693907278418,
+      "curvature_variation": 1.5337165246425741,
+      "curvature_derivative_energy": 0.5207824417499654
+    },
+    "max_abs_curvature_cm_inv": 0.3660404925345945,
+    "min_radius_cm": 2.731938188247001,
+    "curvature_variation": 0.7407703060070727,
+    "curvature_derivative_energy": 0.06761622384118489
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4993500908615829,
+    "parameters": [
+      29.93856783681543,
+      29.99768164144973,
+      8.635099628439123,
+      9.695868860700555,
+      0.0006805532557567773,
+      -0.7996175874979796
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6190005025306,
+      "min_radius_cm": 1.6155075737609201,
+      "curvature_variation": 1.2616998906325605,
+      "curvature_derivative_energy": 0.31189731140123556
+    },
+    "max_abs_curvature_cm_inv": 0.03996496746777095,
+    "min_radius_cm": 25.021914525676333,
+    "curvature_variation": 0.11155426356847936,
+    "curvature_derivative_energy": 0.000394674227878802
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9944458012611292,
+    "parameters": [
+      29.86103012128234,
+      29.93975925888607,
+      10.279253206432431,
+      8.908504787764036,
+      0.05689530084599159,
+      -1.0994473382991368
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6190005025306,
+      "min_radius_cm": 1.6155075737609201,
+      "curvature_variation": 1.2616998906325605,
+      "curvature_derivative_energy": 0.31189731140123556
+    },
+    "max_abs_curvature_cm_inv": 0.046638009099971144,
+    "min_radius_cm": 21.441738601157798,
+    "curvature_variation": 0.13935813622337956,
+    "curvature_derivative_energy": 0.00037844976582406334
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 1.2116723379684444,
+    "parameters": [
+      29.95677030944775,
+      29.991447064442525,
+      9.206982173988997,
+      9.254538217597677,
+      0.0015415169852794897,
+      9.7176755992745e-05
+    ],
+    "evaluations": 2772,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.3164767508406636,
+      "min_radius_cm": 3.159789770792577,
+      "curvature_variation": 0.6966572047836745,
+      "curvature_derivative_energy": 0.09474481014738151
+    },
+    "max_abs_curvature_cm_inv": 0.03918249829892948,
+    "min_radius_cm": 25.521598760008658,
+    "curvature_variation": 0.08136942365329654,
+    "curvature_derivative_energy": 0.0003394641727818226
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.214773991007867,
+    "parameters": [
+      29.996094954431914,
+      29.993763276917313,
+      9.225541250899507,
+      9.206649138268073,
+      -0.0021777154196511717,
+      0.0076925582253233316
+    ],
+    "evaluations": 2898,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.3164767508406636,
+      "min_radius_cm": 3.159789770792577,
+      "curvature_variation": 0.6966572047836745,
+      "curvature_derivative_energy": 0.09474481014738151
+    },
+    "max_abs_curvature_cm_inv": 0.03911894904790654,
+    "min_radius_cm": 25.56305893533495,
+    "curvature_variation": 0.08189239835928575,
+    "curvature_derivative_energy": 0.00034270713934290726
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 1.2131709834258544,
+    "parameters": [
+      29.983671130812475,
+      29.983039857449455,
+      9.234050275107407,
+      9.229472451843918,
+      -0.0016726763182834947,
+      -0.0034356018518337805
+    ],
+    "evaluations": 2646,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.42117132697617343,
+      "min_radius_cm": 2.374330672459505,
+      "curvature_variation": 0.9022481197677474,
+      "curvature_derivative_energy": 0.193813012712008
+    },
+    "max_abs_curvature_cm_inv": 0.03916122961362109,
+    "min_radius_cm": 25.535459684651453,
+    "curvature_variation": 0.08150156000608702,
+    "curvature_derivative_energy": 0.00033951966156557157
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 1.2078130619793583,
+    "parameters": [
+      29.976276808928745,
+      29.967294611539856,
+      9.193450402902908,
+      9.180089923624132,
+      -0.0002840291824868224,
+      -0.003404975793062759
+    ],
+    "evaluations": 2814,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.42117132697617343,
+      "min_radius_cm": 2.374330672459505,
+      "curvature_variation": 0.9022481197677474,
+      "curvature_derivative_energy": 0.193813012712008
+    },
+    "max_abs_curvature_cm_inv": 0.03911923925939424,
+    "min_radius_cm": 25.562869292246173,
+    "curvature_variation": 0.0818699368490793,
+    "curvature_derivative_energy": 0.0003476922175287473
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "candidate": "wide",
+    "clearance_target_cm": 0.5,
+    "static_min_margin_cm": 0.4983807788817316,
+    "parameters": [
+      29.976683050366255,
+      29.97143816163174,
+      8.640803823183743,
+      9.598959984845393,
+      -0.001262853543418041,
+      0.8072345308619928
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6110133176616106,
+      "min_radius_cm": 1.6366255384204518,
+      "curvature_variation": 1.3505018962683273,
+      "curvature_derivative_energy": 0.28026176412773646
+    },
+    "max_abs_curvature_cm_inv": 0.03979705922116787,
+    "min_radius_cm": 25.127484783300385,
+    "curvature_variation": 0.1122084228861101,
+    "curvature_derivative_energy": 0.0004033775788453327
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "candidate": "reserve",
+    "clearance_target_cm": 1.0,
+    "static_min_margin_cm": 0.9999535385420941,
+    "parameters": [
+      29.36929419765452,
+      29.97215881312228,
+      10.01295840460531,
+      8.941045756376383,
+      -0.061326357356679795,
+      1.087948950368614
+    ],
+    "evaluations": 2982,
+    "old_shape": {
+      "max_abs_curvature_cm_inv": 0.6110133176616106,
+      "min_radius_cm": 1.6366255384204518,
+      "curvature_variation": 1.3505018962683273,
+      "curvature_derivative_energy": 0.28026176412773646
+    },
+    "max_abs_curvature_cm_inv": 0.04715036184713556,
+    "min_radius_cm": 21.208744977229717,
+    "curvature_variation": 0.14012952467557144,
+    "curvature_derivative_energy": 0.00039052722706487287
+  }
+]

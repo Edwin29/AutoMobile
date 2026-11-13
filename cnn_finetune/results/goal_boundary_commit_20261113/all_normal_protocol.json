@@ -1,0 +1,19 @@
+{
+  "purpose": "New-seed normal teacher validation across every required movement; not final model exam",
+  "seeds": [
+    6301,
+    6302
+  ],
+  "conditions": [
+    "normal"
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "variant": "centered reference with committed safety plan",
+  "source_sha256": "07468a936d197e66c89d0a390981a68cb99ed041750028b23e044b232a051b48",
+  "selection": "candidate fixed before these new development seeds; retain all cases; compare same-case centered teacher",
+  "final_exam_used": false
+}

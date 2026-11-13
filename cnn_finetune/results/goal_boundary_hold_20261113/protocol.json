@@ -1,0 +1,40 @@
+{
+  "source_sha256": "3cedc60254b4f7c696d8d7738cdd5fe94b2344468cea9b7fb96534d132a50a36",
+  "hypothesis": "Observed shove must not immediately decay during the command response delay",
+  "change": "hold current world-motion residual for .036+nominal actuator delay, then decay with tau .2s",
+  "unchanged": "committed plan priority, nominal plant, objective, actions, reference, timing, scoring",
+  "keys": [
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ]
+  ],
+  "seed": 6202,
+  "presets": [
+    "field_estimate",
+    "sluggish"
+  ],
+  "conditions": [
+    "normal",
+    "mild"
+  ],
+  "future_information": false,
+  "final_exam_used": false,
+  "selection": "fixed single candidate, all16 paired development cases"
+}

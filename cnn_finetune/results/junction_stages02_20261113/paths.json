@@ -1,0 +1,1034 @@
+[
+  {
+    "key": [
+      "center",
+      "N",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 1.25,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "center",
+      "came_from": "N",
+      "exit": "straight",
+      "exit_arm": "S",
+      "nominal_min_margin_cm": 1.25
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      7.6562509673977,
+      10.784114020988326,
+      1.616999567589759,
+      7.592177066126148,
+      -5.401806638882789e-06,
+      -0.8783345628062609
+    ],
+    "static_min_margin_cm": 1.2499954278088836,
+    "evaluations": 1584,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.75 cm",
+      "junction": "center",
+      "came_from": "N",
+      "exit": "left",
+      "exit_arm": "E",
+      "radius_cm": 6.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 0.9954553163084636
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.25,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      6.501569452981016,
+      17.11069348539311,
+      1.6308456850047435,
+      10.440082843144541,
+      0.0010652620966808968,
+      0.6511252725911869
+    ],
+    "static_min_margin_cm": 1.249150112842102,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.75 cm",
+      "junction": "center",
+      "came_from": "N",
+      "exit": "right",
+      "exit_arm": "W",
+      "radius_cm": 6.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 0.9954553163084547
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.25,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 2.5,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "center",
+      "came_from": "E",
+      "exit": "straight",
+      "exit_arm": "W",
+      "nominal_min_margin_cm": 2.5
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      22.67861122033626,
+      5.211654841249391,
+      10.589732395043141,
+      5.36418311151579,
+      0.7729092998112361,
+      0.0007689696675292623
+    ],
+    "static_min_margin_cm": 1.249268326014203,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.25 cm",
+      "junction": "center",
+      "came_from": "E",
+      "exit": "left",
+      "exit_arm": "S",
+      "radius_cm": 6.0,
+      "offset_in_cm": 2.0,
+      "offset_out_cm": 0.0,
+      "nominal_min_margin_cm": 0.5
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.1032012189515985,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      13.174897151020021,
+      15.95587409954306,
+      7.220708794999563,
+      10.9187941436999,
+      -1.2611271243434368,
+      -0.010300935189100358
+    ],
+    "static_min_margin_cm": 1.2142954751167778,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.25 cm",
+      "junction": "center",
+      "came_from": "E",
+      "exit": "right",
+      "exit_arm": "N",
+      "radius_cm": 6.0,
+      "offset_in_cm": -2.0,
+      "offset_out_cm": 0.0,
+      "nominal_min_margin_cm": 0.5
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.1032012189515985,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 1.25,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "center",
+      "came_from": "S",
+      "exit": "straight",
+      "exit_arm": "N",
+      "nominal_min_margin_cm": 1.25
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      7.6562509673977,
+      10.784114020988326,
+      1.616999567589759,
+      7.592177066126148,
+      -5.401806638882789e-06,
+      -0.8783345628062609
+    ],
+    "static_min_margin_cm": 1.2499954278088836,
+    "evaluations": 1584,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.75 cm",
+      "junction": "center",
+      "came_from": "S",
+      "exit": "left",
+      "exit_arm": "W",
+      "radius_cm": 6.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 0.9954553163084547
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.25,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      6.501569452981016,
+      17.11069348539311,
+      1.6308456850047435,
+      10.440082843144541,
+      0.0010652620966808968,
+      0.6511252725911869
+    ],
+    "static_min_margin_cm": 1.249150112842102,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.75 cm",
+      "junction": "center",
+      "came_from": "S",
+      "exit": "right",
+      "exit_arm": "E",
+      "radius_cm": 6.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 0.9954553163084547
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.25,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 2.5,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "center",
+      "came_from": "W",
+      "exit": "straight",
+      "exit_arm": "E",
+      "nominal_min_margin_cm": 2.5
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      22.67861122033626,
+      5.211654841249391,
+      10.589732395043141,
+      5.36418311151579,
+      0.7729092998112361,
+      0.0007689696675292623
+    ],
+    "static_min_margin_cm": 1.249268326014203,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.25 cm",
+      "junction": "center",
+      "came_from": "W",
+      "exit": "left",
+      "exit_arm": "N",
+      "radius_cm": 6.0,
+      "offset_in_cm": 2.0,
+      "offset_out_cm": 0.0,
+      "nominal_min_margin_cm": 0.5
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.1032012189515985,
+    "mission_allowed": false
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      13.174897151020021,
+      15.95587409954306,
+      7.220708794999563,
+      10.9187941436999,
+      -1.2611271243434368,
+      -0.010300935189100358
+    ],
+    "static_min_margin_cm": 1.2142954751167778,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.25 cm",
+      "junction": "center",
+      "came_from": "W",
+      "exit": "right",
+      "exit_arm": "S",
+      "radius_cm": 6.0,
+      "offset_in_cm": -2.0,
+      "offset_out_cm": 0.0,
+      "nominal_min_margin_cm": 0.5
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.1032012189515985,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 4.944374440053082,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "north",
+      "came_from": "E",
+      "exit": "straight",
+      "exit_arm": "W",
+      "nominal_min_margin_cm": 5.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      21.849920661266278,
+      8.626152157234056,
+      10.89648016792226,
+      4.753346482805033,
+      -0.9537632194950891,
+      7.647233024110633e-05
+    ],
+    "static_min_margin_cm": 1.249924674408149,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.68 cm",
+      "junction": "north",
+      "came_from": "E",
+      "exit": "left",
+      "exit_arm": "S",
+      "radius_cm": 6.0,
+      "offset_in_cm": 1.0,
+      "offset_out_cm": 0.0,
+      "nominal_min_margin_cm": 0.9344153225235914
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.0717967697245,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      5.999999579556784,
+      21.037669081295906,
+      1.615024989064727,
+      3.539760115120613,
+      -0.00011418985744016119,
+      -0.8352145976014405
+    ],
+    "static_min_margin_cm": 1.24992445760995,
+    "evaluations": 1152,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "north",
+      "came_from": "S",
+      "exit": "left",
+      "exit_arm": "W",
+      "radius_cm": 9.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": -2.0,
+      "nominal_min_margin_cm": 1.25
+    },
+    "legacy_pivot_margin_cm": 0.4414874012584278,
+    "legacy_split_margin_cm": 1.25,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      8.41895904362407,
+      20.08062706169047,
+      3.0666997035147663,
+      1.9279196574527155,
+      -1.6256995477137437e-05,
+      0.9533348726473787
+    ],
+    "static_min_margin_cm": 1.24998780597992,
+    "evaluations": 1080,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "north",
+      "came_from": "S",
+      "exit": "right",
+      "exit_arm": "E",
+      "radius_cm": 9.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": 2.0,
+      "nominal_min_margin_cm": 1.25
+    },
+    "legacy_pivot_margin_cm": 0.4414874012584278,
+    "legacy_split_margin_cm": 1.25,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 4.944374440053082,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "north",
+      "came_from": "W",
+      "exit": "straight",
+      "exit_arm": "E",
+      "nominal_min_margin_cm": 5.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      10.783987836233793,
+      6.337784829652042,
+      6.023665668133867,
+      2.7976469783794125,
+      0.11209001034685695,
+      3.522452577175983e-06
+    ],
+    "static_min_margin_cm": 1.249996847970145,
+    "evaluations": 1620,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.68 cm",
+      "junction": "north",
+      "came_from": "W",
+      "exit": "right",
+      "exit_arm": "S",
+      "radius_cm": 6.0,
+      "offset_in_cm": -1.0,
+      "offset_out_cm": 0.0,
+      "nominal_min_margin_cm": 0.9344153225235914
+    },
+    "legacy_pivot_margin_cm": 1.25,
+    "legacy_split_margin_cm": 1.0717967697245,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 4.5927876705680255,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "east",
+      "came_from": "N",
+      "exit": "straight",
+      "exit_arm": "S",
+      "nominal_min_margin_cm": 5.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      18.566453935402052,
+      16.723615326803927,
+      10.023654393521163,
+      10.209409222492608,
+      1.98402486656552,
+      0.004492581384337502
+    ],
+    "static_min_margin_cm": 2.0107089744589786,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "east",
+      "came_from": "N",
+      "exit": "right",
+      "exit_arm": "W",
+      "radius_cm": 12.0,
+      "offset_in_cm": -1.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 1.0830204405722696
+    },
+    "legacy_pivot_margin_cm": 2.28849226559179,
+    "legacy_split_margin_cm": 1.071796769724486,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 4.862842041917553,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "east",
+      "came_from": "S",
+      "exit": "straight",
+      "exit_arm": "N",
+      "nominal_min_margin_cm": 5.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      9.513116099413653,
+      5.458831332769567,
+      4.410562771846765,
+      2.314538221427975,
+      -1.0146220486423556,
+      -0.07095767900177696
+    ],
+    "static_min_margin_cm": 2.127195705243224,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "east",
+      "came_from": "S",
+      "exit": "left",
+      "exit_arm": "W",
+      "radius_cm": 12.0,
+      "offset_in_cm": 1.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 1.0830204405722696
+    },
+    "legacy_pivot_margin_cm": 2.28849226559179,
+    "legacy_split_margin_cm": 1.071796769724486,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      9.302061630825499,
+      22.638013438480463,
+      1.617006702043546,
+      8.993394812373044,
+      5.9357872466137e-06,
+      -1.8121590661235039
+    ],
+    "static_min_margin_cm": 2.4999953442832705,
+    "evaluations": 1296,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "east",
+      "came_from": "W",
+      "exit": "left",
+      "exit_arm": "N",
+      "radius_cm": 29.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 1.1829175292212142
+    },
+    "legacy_pivot_margin_cm": 0.4414874012584278,
+    "legacy_split_margin_cm": 1.821796769724486,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      9.425176558338492,
+      23.649373160018254,
+      1.9123515111767775,
+      6.168505090240652,
+      -0.00037656247718365066,
+      1.3913086563022428
+    ],
+    "static_min_margin_cm": 2.4997023682206176,
+    "evaluations": 900,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "east",
+      "came_from": "W",
+      "exit": "right",
+      "exit_arm": "S",
+      "radius_cm": 29.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 1.1829175292212142
+    },
+    "legacy_pivot_margin_cm": 0.4414874012584278,
+    "legacy_split_margin_cm": 1.821796769724486,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      7.411798395280588,
+      17.625508618575427,
+      1.8262333355664389,
+      2.1748633540445432,
+      -0.00011754740114811035,
+      -0.6697702739540419
+    ],
+    "static_min_margin_cm": 1.2499106465622845,
+    "evaluations": 1296,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.42 cm",
+      "junction": "south",
+      "came_from": "N",
+      "exit": "left",
+      "exit_arm": "E",
+      "radius_cm": 10.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": -2.0,
+      "nominal_min_margin_cm": 0.5610723734071641
+    },
+    "legacy_pivot_margin_cm": -0.5585125987415722,
+    "legacy_split_margin_cm": 0.8217967697244859,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      7.076598260150007,
+      23.615758335759047,
+      1.3430944212830642,
+      6.41690454709919,
+      -7.978230374128259e-07,
+      0.7302333352936485
+    ],
+    "static_min_margin_cm": 1.2499994040501292,
+    "evaluations": 1620,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.42 cm",
+      "junction": "south",
+      "came_from": "N",
+      "exit": "right",
+      "exit_arm": "W",
+      "radius_cm": 10.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": 2.0,
+      "nominal_min_margin_cm": 0.5610723734071694
+    },
+    "legacy_pivot_margin_cm": -0.5585125987415722,
+    "legacy_split_margin_cm": 0.8217967697244859,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 3.9463224785317728,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "south",
+      "came_from": "E",
+      "exit": "straight",
+      "exit_arm": "W",
+      "nominal_min_margin_cm": 4.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      12.705274819347936,
+      5.60724377973041,
+      7.247720650585276,
+      1.934882024167008,
+      0.8455928936530648,
+      0.08824389722839587
+    ],
+    "static_min_margin_cm": 1.0756163373865473,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.22 cm",
+      "junction": "south",
+      "came_from": "E",
+      "exit": "right",
+      "exit_arm": "N",
+      "radius_cm": 10.0,
+      "offset_in_cm": -1.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 0.25
+    },
+    "legacy_pivot_margin_cm": 1.194600661327513,
+    "legacy_split_margin_cm": 0.0717967697244859,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 3.9463224785317728,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "south",
+      "came_from": "W",
+      "exit": "straight",
+      "exit_arm": "E",
+      "nominal_min_margin_cm": 4.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      12.316535982146803,
+      5.464682260869354,
+      6.807994458605117,
+      2.0063262416749024,
+      -0.7389525648103645,
+      -0.09653661441241113
+    ],
+    "static_min_margin_cm": 1.077699457273269,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 0.22 cm",
+      "junction": "south",
+      "came_from": "W",
+      "exit": "left",
+      "exit_arm": "N",
+      "radius_cm": 10.0,
+      "offset_in_cm": 1.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 0.25
+    },
+    "legacy_pivot_margin_cm": 1.194600661327513,
+    "legacy_split_margin_cm": 0.0717967697244859,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 4.5927876705680255,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "west",
+      "came_from": "N",
+      "exit": "straight",
+      "exit_arm": "S",
+      "nominal_min_margin_cm": 5.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      9.513116099413653,
+      5.458831332769567,
+      4.410562771846765,
+      2.314538221427975,
+      -1.0146220486423556,
+      -0.07095767900177696
+    ],
+    "static_min_margin_cm": 2.127195705243224,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "west",
+      "came_from": "N",
+      "exit": "left",
+      "exit_arm": "E",
+      "radius_cm": 12.0,
+      "offset_in_cm": 1.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 1.0830204405722395
+    },
+    "legacy_pivot_margin_cm": 2.28849226559179,
+    "legacy_split_margin_cm": 1.0717967697245,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      9.302061630825499,
+      22.638013438480463,
+      1.617006702043546,
+      8.993394812373044,
+      5.9357872466137e-06,
+      -1.8121590661235039
+    ],
+    "static_min_margin_cm": 2.4999953442832705,
+    "evaluations": 1296,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "west",
+      "came_from": "E",
+      "exit": "left",
+      "exit_arm": "S",
+      "radius_cm": 29.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 1.1829175292212142
+    },
+    "legacy_pivot_margin_cm": 0.4414874012584278,
+    "legacy_split_margin_cm": 1.821796769724486,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      9.425176558338492,
+      23.649373160018254,
+      1.9123515111767775,
+      6.168505090240652,
+      -0.00037656247718365066,
+      1.3913086563022428
+    ],
+    "static_min_margin_cm": 2.4997023682206176,
+    "evaluations": 900,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "west",
+      "came_from": "E",
+      "exit": "right",
+      "exit_arm": "N",
+      "radius_cm": 29.0,
+      "offset_in_cm": 0.0,
+      "offset_out_cm": -1.0,
+      "nominal_min_margin_cm": 1.1829175292212142
+    },
+    "legacy_pivot_margin_cm": 0.4414874012584278,
+    "legacy_split_margin_cm": 1.821796769724486,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "straight"
+    ],
+    "kind": "straight",
+    "parameters": null,
+    "static_min_margin_cm": 4.862842041917553,
+    "evaluations": 0,
+    "legacy_arc": {
+      "method": "straight centre line",
+      "junction": "west",
+      "came_from": "S",
+      "exit": "straight",
+      "exit_arm": "N",
+      "nominal_min_margin_cm": 5.0
+    },
+    "legacy_pivot_margin_cm": null,
+    "legacy_split_margin_cm": null,
+    "mission_allowed": true
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "kind": "quintic_variable_curvature",
+    "parameters": [
+      18.566453935402052,
+      16.723615326803927,
+      10.023654393521163,
+      10.209409222492608,
+      1.98402486656552,
+      0.004492581384337502
+    ],
+    "static_min_margin_cm": 2.0107089744589786,
+    "evaluations": 1656,
+    "legacy_arc": {
+      "method": "offline tangent quarter-circle sweep (radius 6-30, offsets -2..2): largest radius with static margin >= 1.00 cm",
+      "junction": "west",
+      "came_from": "S",
+      "exit": "right",
+      "exit_arm": "E",
+      "radius_cm": 12.0,
+      "offset_in_cm": -1.0,
+      "offset_out_cm": 1.0,
+      "nominal_min_margin_cm": 1.0830204405722696
+    },
+    "legacy_pivot_margin_cm": 2.28849226559179,
+    "legacy_split_margin_cm": 1.071796769724486,
+    "mission_allowed": true
+  }
+]

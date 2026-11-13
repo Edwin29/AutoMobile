@@ -1,0 +1,54 @@
+{
+  "source_sha256": "447581b32bce9e0cdf8bc61f80b470b7ff994f88729c1cbb57e2750f1ae22efa",
+  "predictor_sha256": "b84130444846232e2fed01a0b3be4aa3f7065f405f38b5d5f866176ce07d4fbb",
+  "hypotheses": [
+    "minimal-change projection avoids unnecessary stationary alignment",
+    "shifted prior plan preserves available continuation",
+    "already observed shove extrapolation improves response without future event access"
+  ],
+  "arms": [
+    "plan",
+    "observed_push"
+  ],
+  "keys": [
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ]
+  ],
+  "seed": 6202,
+  "presets": [
+    "field_estimate",
+    "sluggish"
+  ],
+  "conditions": [
+    "normal",
+    "mild"
+  ],
+  "horizon_s": 0.72,
+  "trigger_margin_cm": 0.05,
+  "safe_levels_cm": [
+    0.05,
+    0
+  ],
+  "fallback_risk_weight": 1000.0,
+  "residual": "last observed pose increment minus wheel-based increment; exponential world residual decay tau .2s",
+  "purpose": "offline teacher, development-only; no global teacher replacement, no final exam",
+  "selection": "fixed 16 cases per arm; no case exclusions or checkpoint tuning"
+}

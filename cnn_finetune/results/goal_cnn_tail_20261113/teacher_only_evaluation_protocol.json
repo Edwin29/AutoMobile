@@ -1,0 +1,7 @@
+{
+  "checkpoint_sha256": "9b84d6253b81e6b0ad5e1f197879078cb34720fa288dcbfd95415841f782d89f",
+  "checkpoint_selection": "final update 1200, frozen before driving",
+  "source_sha256": "2e9373e0f9076630d6bafb2b8272421bdf02eee613ea1bd9811ee0033922e91b",
+  "full_encoder_loaded": true,
+  "final_exam_used": false
+}

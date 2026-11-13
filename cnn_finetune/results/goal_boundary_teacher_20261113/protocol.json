@@ -1,0 +1,125 @@
+{
+  "source_sha256": "b84130444846232e2fed01a0b3be4aa3f7065f405f38b5d5f866176ce07d4fbb",
+  "horizon_s": 0.72,
+  "intervention_s": 0.144,
+  "actions": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      -0.2
+    ],
+    [
+      0.0,
+      -0.1
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.1
+    ],
+    [
+      0.0,
+      0.2
+    ],
+    [
+      0.5,
+      -0.2
+    ],
+    [
+      0.5,
+      -0.1
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.1
+    ],
+    [
+      0.5,
+      0.2
+    ],
+    [
+      1.0,
+      -0.2
+    ],
+    [
+      1.0,
+      -0.1
+    ],
+    [
+      1.0,
+      0.1
+    ],
+    [
+      1.0,
+      0.2
+    ],
+    [
+      1.2,
+      -0.2
+    ],
+    [
+      1.2,
+      -0.1
+    ],
+    [
+      1.2,
+      0.0
+    ],
+    [
+      1.2,
+      0.1
+    ],
+    [
+      1.2,
+      0.2
+    ]
+  ],
+  "trigger_margin_cm": 0.3,
+  "safe_candidate_margin_cm": 0.0,
+  "fallback": "terminal alignment +100 mean hinge footprint risk",
+  "forecast": "nominal plant, current actual pose/wheel speed/pending PWM/allocator state; no future disturbances or random values",
+  "purpose": "offline teacher diagnostic only, not deployable actor or final exam",
+  "pilot_keys": [
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ]
+  ],
+  "pilot_seed": 6202,
+  "pilot_presets": [
+    "field_estimate",
+    "sluggish"
+  ],
+  "conditions": [
+    "normal",
+    "mild"
+  ],
+  "fixed_variant": "centered",
+  "selection": "single predefined candidate; retain every failure and compare with unchanged baseline"
+}

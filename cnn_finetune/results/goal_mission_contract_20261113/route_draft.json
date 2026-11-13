@@ -1,0 +1,3775 @@
+{
+  "source_sha256": "3e453476590ee588169596e77b875365eb93b44532e3439599b9c2bd1a3ed590",
+  "policy_sha256": "b917fb53f8f0e68e4d4d91272202ba1bd9a4fa4d01d5697104b88366a08dd141",
+  "inventory_sha256": "25108e6ae84327c5b374e6cff878357942bd8050b3d15df747b8b685c716935f",
+  "routes": [
+    {
+      "start_direction": "cw",
+      "target": [
+        "center",
+        "N",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "S"
+        ],
+        [
+          "center",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "center",
+        "E",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "W"
+        ],
+        [
+          "center",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "center",
+        "S",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "N"
+        ],
+        [
+          "center",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "W",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "center",
+        "W",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "south",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "E"
+        ],
+        [
+          "center",
+          "W",
+          "S"
+        ],
+        [
+          "south",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "north",
+        "S",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "W"
+        ],
+        [
+          "center",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "north",
+        "W",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "S"
+        ],
+        [
+          "center",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "east",
+        "N",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "W"
+        ],
+        [
+          "center",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "east",
+        "W",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "N"
+        ],
+        [
+          "center",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "W",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "south",
+        "N",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "south",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "E"
+        ],
+        [
+          "center",
+          "W",
+          "S"
+        ],
+        [
+          "south",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "south",
+        "E",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "N"
+        ],
+        [
+          "center",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "W",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "west",
+        "E",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "S"
+        ],
+        [
+          "center",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "cw",
+      "target": [
+        "west",
+        "S",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "south",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": "right",
+          "lap_before": "cw"
+        },
+        {
+          "junction": "center",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "south",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "west",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "north",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "cw"
+        },
+        {
+          "junction": "east",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "cw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "south",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "E"
+        ],
+        [
+          "center",
+          "W",
+          "S"
+        ],
+        [
+          "south",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "W",
+          "E"
+        ],
+        [
+          "east",
+          "N",
+          "S"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "center",
+        "N",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "left",
+          "exit_arm": "S",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "E",
+          "move": "left",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "S"
+        ],
+        [
+          "center",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "E",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "center",
+        "E",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "left",
+          "exit_arm": "W",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "S",
+          "move": "left",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "W"
+        ],
+        [
+          "center",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "S",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "center",
+        "S",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "left",
+          "exit_arm": "N",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "east",
+          "came_from": "W",
+          "move": "left",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "N"
+        ],
+        [
+          "center",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "W",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "center",
+        "W",
+        "right"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "left",
+          "exit_arm": "E",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "N",
+          "move": "left",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "E"
+        ],
+        [
+          "center",
+          "W",
+          "S"
+        ],
+        [
+          "south",
+          "N",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "north",
+        "E",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "left",
+          "exit_arm": "S",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "E",
+          "move": "left",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "S"
+        ],
+        [
+          "center",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "E",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "north",
+        "S",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "left",
+          "exit_arm": "W",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "S",
+          "move": "left",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "W"
+        ],
+        [
+          "center",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "S",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "east",
+        "S",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "left",
+          "exit_arm": "W",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "E",
+          "move": "right",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "S",
+          "move": "left",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "W"
+        ],
+        [
+          "center",
+          "E",
+          "N"
+        ],
+        [
+          "north",
+          "S",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "east",
+        "W",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "left",
+          "exit_arm": "N",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "east",
+          "came_from": "W",
+          "move": "left",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "N"
+        ],
+        [
+          "center",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "W",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "south",
+        "N",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "left",
+          "exit_arm": "E",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "N",
+          "move": "left",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "E"
+        ],
+        [
+          "center",
+          "W",
+          "S"
+        ],
+        [
+          "south",
+          "N",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "south",
+        "W",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "left",
+          "exit_arm": "N",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "S",
+          "move": "right",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "east",
+          "came_from": "W",
+          "move": "left",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "N"
+        ],
+        [
+          "center",
+          "S",
+          "E"
+        ],
+        [
+          "east",
+          "W",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "straight",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "west",
+        "N",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "straight",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "N",
+          "move": "left",
+          "exit_arm": "E",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "W",
+          "move": "right",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "N",
+          "move": "left",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "W"
+        ],
+        [
+          "west",
+          "N",
+          "E"
+        ],
+        [
+          "center",
+          "W",
+          "S"
+        ],
+        [
+          "south",
+          "N",
+          "E"
+        ]
+      ]
+    },
+    {
+      "start_direction": "ccw",
+      "target": [
+        "west",
+        "E",
+        "left"
+      ],
+      "steps": [
+        {
+          "junction": "east",
+          "came_from": "S",
+          "move": "straight",
+          "exit_arm": "N",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "north",
+          "came_from": "E",
+          "move": "left",
+          "exit_arm": "S",
+          "command": "left",
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "center",
+          "came_from": "N",
+          "move": "right",
+          "exit_arm": "W",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "west",
+          "came_from": "E",
+          "move": "left",
+          "exit_arm": "S",
+          "command": null,
+          "lap_before": "ccw"
+        },
+        {
+          "junction": "south",
+          "came_from": "W",
+          "move": "straight",
+          "exit_arm": "E",
+          "command": null,
+          "lap_before": "ccw"
+        }
+      ],
+      "expected_passages": [
+        [
+          "east",
+          "S",
+          "N"
+        ],
+        [
+          "north",
+          "E",
+          "S"
+        ],
+        [
+          "center",
+          "N",
+          "W"
+        ],
+        [
+          "west",
+          "E",
+          "S"
+        ],
+        [
+          "south",
+          "W",
+          "E"
+        ]
+      ]
+    }
+  ],
+  "unreachable_under_one_each_sign_rule": [
+    {
+      "direction": "cw",
+      "target": [
+        "north",
+        "E",
+        "straight"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "north",
+        "E",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "north",
+        "S",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "east",
+        "S",
+        "straight"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "east",
+        "S",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "east",
+        "W",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "south",
+        "N",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "south",
+        "W",
+        "straight"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "south",
+        "W",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "west",
+        "N",
+        "straight"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "west",
+        "N",
+        "left"
+      ]
+    },
+    {
+      "direction": "cw",
+      "target": [
+        "west",
+        "E",
+        "left"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "north",
+        "S",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "north",
+        "W",
+        "straight"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "north",
+        "W",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "east",
+        "N",
+        "straight"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "east",
+        "N",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "east",
+        "W",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "south",
+        "N",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "south",
+        "E",
+        "straight"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "south",
+        "E",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "west",
+        "E",
+        "right"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "west",
+        "S",
+        "straight"
+      ]
+    },
+    {
+      "direction": "ccw",
+      "target": [
+        "west",
+        "S",
+        "right"
+      ]
+    }
+  ],
+  "compact_suite": [
+    {
+      "route_index": 0,
+      "route": {
+        "start_direction": "cw",
+        "target": [
+          "center",
+          "N",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "south",
+            "came_from": "E",
+            "move": "straight",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "west",
+            "came_from": "S",
+            "move": "straight",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "north",
+            "came_from": "W",
+            "move": "right",
+            "exit_arm": "S",
+            "command": "right",
+            "lap_before": "cw"
+          },
+          {
+            "junction": "center",
+            "came_from": "N",
+            "move": "right",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "west",
+            "came_from": "E",
+            "move": "right",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "north",
+            "came_from": "W",
+            "move": "straight",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "east",
+            "came_from": "N",
+            "move": "straight",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "cw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "south",
+            "E",
+            "W"
+          ],
+          [
+            "west",
+            "S",
+            "N"
+          ],
+          [
+            "north",
+            "W",
+            "S"
+          ],
+          [
+            "center",
+            "N",
+            "W"
+          ],
+          [
+            "west",
+            "E",
+            "N"
+          ],
+          [
+            "north",
+            "W",
+            "E"
+          ],
+          [
+            "east",
+            "N",
+            "S"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 18,
+      "route": {
+        "start_direction": "ccw",
+        "target": [
+          "center",
+          "S",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "east",
+            "came_from": "S",
+            "move": "straight",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "north",
+            "came_from": "E",
+            "move": "straight",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "west",
+            "came_from": "N",
+            "move": "straight",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "south",
+            "came_from": "W",
+            "move": "left",
+            "exit_arm": "N",
+            "command": "left",
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "center",
+            "came_from": "S",
+            "move": "right",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "east",
+            "came_from": "W",
+            "move": "left",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "north",
+            "came_from": "E",
+            "move": "straight",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "west",
+            "came_from": "N",
+            "move": "straight",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "south",
+            "came_from": "W",
+            "move": "straight",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "ccw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "east",
+            "S",
+            "N"
+          ],
+          [
+            "north",
+            "E",
+            "W"
+          ],
+          [
+            "west",
+            "N",
+            "S"
+          ],
+          [
+            "south",
+            "W",
+            "N"
+          ],
+          [
+            "center",
+            "S",
+            "E"
+          ],
+          [
+            "east",
+            "W",
+            "N"
+          ],
+          [
+            "north",
+            "E",
+            "W"
+          ],
+          [
+            "west",
+            "N",
+            "S"
+          ],
+          [
+            "south",
+            "W",
+            "E"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 17,
+      "route": {
+        "start_direction": "ccw",
+        "target": [
+          "center",
+          "E",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "east",
+            "came_from": "S",
+            "move": "left",
+            "exit_arm": "W",
+            "command": "left",
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "center",
+            "came_from": "E",
+            "move": "right",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "north",
+            "came_from": "S",
+            "move": "left",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "west",
+            "came_from": "N",
+            "move": "straight",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "south",
+            "came_from": "W",
+            "move": "straight",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "ccw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "east",
+            "S",
+            "W"
+          ],
+          [
+            "center",
+            "E",
+            "N"
+          ],
+          [
+            "north",
+            "S",
+            "W"
+          ],
+          [
+            "west",
+            "N",
+            "S"
+          ],
+          [
+            "south",
+            "W",
+            "E"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 19,
+      "route": {
+        "start_direction": "ccw",
+        "target": [
+          "center",
+          "W",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "east",
+            "came_from": "S",
+            "move": "straight",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "north",
+            "came_from": "E",
+            "move": "straight",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "west",
+            "came_from": "N",
+            "move": "left",
+            "exit_arm": "E",
+            "command": "left",
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "center",
+            "came_from": "W",
+            "move": "right",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "south",
+            "came_from": "N",
+            "move": "left",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "ccw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "east",
+            "S",
+            "N"
+          ],
+          [
+            "north",
+            "E",
+            "W"
+          ],
+          [
+            "west",
+            "N",
+            "E"
+          ],
+          [
+            "center",
+            "W",
+            "S"
+          ],
+          [
+            "south",
+            "N",
+            "E"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 2,
+      "route": {
+        "start_direction": "cw",
+        "target": [
+          "center",
+          "S",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "south",
+            "came_from": "E",
+            "move": "right",
+            "exit_arm": "N",
+            "command": "right",
+            "lap_before": "cw"
+          },
+          {
+            "junction": "center",
+            "came_from": "S",
+            "move": "right",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "east",
+            "came_from": "W",
+            "move": "right",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "cw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "south",
+            "E",
+            "N"
+          ],
+          [
+            "center",
+            "S",
+            "E"
+          ],
+          [
+            "east",
+            "W",
+            "S"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 16,
+      "route": {
+        "start_direction": "ccw",
+        "target": [
+          "center",
+          "N",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "east",
+            "came_from": "S",
+            "move": "straight",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "north",
+            "came_from": "E",
+            "move": "left",
+            "exit_arm": "S",
+            "command": "left",
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "center",
+            "came_from": "N",
+            "move": "right",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "west",
+            "came_from": "E",
+            "move": "left",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "ccw"
+          },
+          {
+            "junction": "south",
+            "came_from": "W",
+            "move": "straight",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "ccw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "east",
+            "S",
+            "N"
+          ],
+          [
+            "north",
+            "E",
+            "S"
+          ],
+          [
+            "center",
+            "N",
+            "W"
+          ],
+          [
+            "west",
+            "E",
+            "S"
+          ],
+          [
+            "south",
+            "W",
+            "E"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 1,
+      "route": {
+        "start_direction": "cw",
+        "target": [
+          "center",
+          "E",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "south",
+            "came_from": "E",
+            "move": "straight",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "west",
+            "came_from": "S",
+            "move": "straight",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "north",
+            "came_from": "W",
+            "move": "straight",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "east",
+            "came_from": "N",
+            "move": "right",
+            "exit_arm": "W",
+            "command": "right",
+            "lap_before": "cw"
+          },
+          {
+            "junction": "center",
+            "came_from": "E",
+            "move": "right",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "north",
+            "came_from": "S",
+            "move": "right",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "east",
+            "came_from": "N",
+            "move": "straight",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "cw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "south",
+            "E",
+            "W"
+          ],
+          [
+            "west",
+            "S",
+            "N"
+          ],
+          [
+            "north",
+            "W",
+            "E"
+          ],
+          [
+            "east",
+            "N",
+            "W"
+          ],
+          [
+            "center",
+            "E",
+            "N"
+          ],
+          [
+            "north",
+            "S",
+            "E"
+          ],
+          [
+            "east",
+            "N",
+            "S"
+          ]
+        ]
+      }
+    },
+    {
+      "route_index": 3,
+      "route": {
+        "start_direction": "cw",
+        "target": [
+          "center",
+          "W",
+          "right"
+        ],
+        "steps": [
+          {
+            "junction": "south",
+            "came_from": "E",
+            "move": "straight",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "west",
+            "came_from": "S",
+            "move": "right",
+            "exit_arm": "E",
+            "command": "right",
+            "lap_before": "cw"
+          },
+          {
+            "junction": "center",
+            "came_from": "W",
+            "move": "right",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "south",
+            "came_from": "N",
+            "move": "right",
+            "exit_arm": "W",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "west",
+            "came_from": "S",
+            "move": "straight",
+            "exit_arm": "N",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "north",
+            "came_from": "W",
+            "move": "straight",
+            "exit_arm": "E",
+            "command": null,
+            "lap_before": "cw"
+          },
+          {
+            "junction": "east",
+            "came_from": "N",
+            "move": "straight",
+            "exit_arm": "S",
+            "command": null,
+            "lap_before": "cw"
+          }
+        ],
+        "expected_passages": [
+          [
+            "south",
+            "E",
+            "W"
+          ],
+          [
+            "west",
+            "S",
+            "E"
+          ],
+          [
+            "center",
+            "W",
+            "S"
+          ],
+          [
+            "south",
+            "N",
+            "W"
+          ],
+          [
+            "west",
+            "S",
+            "N"
+          ],
+          [
+            "north",
+            "W",
+            "E"
+          ],
+          [
+            "east",
+            "N",
+            "S"
+          ]
+        ]
+      }
+    }
+  ],
+  "required_movements": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "checks": {
+    "reciprocal_road_links": 16,
+    "policy_verified_routes": 32,
+    "scoring_gate_cases": 10
+  },
+  "final_manifest_frozen": false,
+  "final_exam_used": false,
+  "unresolved": [
+    "No runtime driving verification",
+    "No student full-mission adapter or vision-based junction arrival/command consumption integration",
+    "No final time budget, initial-pose distribution, disturbance schedule, harsh feasibility envelope or sample allocation frozen",
+    "Existing bench.mission return-after300cm termination must not terminate a declared route early or force an extra unintended lap",
+    "Scripted direction inputs are not validation of real sign recognition"
+  ]
+}

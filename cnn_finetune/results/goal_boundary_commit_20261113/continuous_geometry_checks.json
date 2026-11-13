@@ -1,0 +1,10 @@
+{
+  "source_sha256": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2",
+  "random_seed": 55173,
+  "poses": 500,
+  "dense_sampling_cm": 0.025,
+  "collision_signs_agree": true,
+  "near_boundary_distance_bound_passed": true,
+  "sparse_outline_missed_intrusion_detected": true,
+  "max_near_boundary_sampling_gap_cm": 6.636545137439498e-06
+}

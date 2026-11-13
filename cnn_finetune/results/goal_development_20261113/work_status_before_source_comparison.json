@@ -1,0 +1,39 @@
+{
+  "goal_status": "active",
+  "stage": "first_diagnostic_milestone_complete_goal_active",
+  "training_changed": false,
+  "complete": false,
+  "next": [
+    "local baseline and teacher-forced error diagnosis",
+    "matched light and recovery intervention probes",
+    "teacher feasibility and recovery labels",
+    "controlled representation/training comparison",
+    "all required movements and full mission integration",
+    "three initialization repeats and held-out exam"
+  ],
+  "critical_decisions": [],
+  "completed_diagnostics": {
+    "baseline_rollouts": 216,
+    "common_warmstart_rollouts": 72,
+    "gain_speed_probe": 576,
+    "exit_reference_probe": 336,
+    "unit_tests": 2,
+    "fast_teacher_exact_parity": true
+  },
+  "findings": [
+    "Gain/speed changes alone did not raise teacher mild clean beyond 18/24",
+    "Earlier outgoing centering plus lower lateral feedback reached 24/24 on selection; new seeds not yet evaluated",
+    "BC/outcome clean on crossed local development: 3/72 and 27/72; common warmstart 22/72",
+    "Teacher-forced action error alone does not predict closed-loop quality"
+  ],
+  "new_training": true,
+  "final_exam_used": false,
+  "goal_complete": false,
+  "latest_candidate": "D:\\autodrive_cnn\\runs\\goal_development_20261113\\convergence_probe\\best.pt",
+  "latest_candidate_clean": 37,
+  "latest_candidate_runs": 72,
+  "critical_findings": [
+    "Modified teacher improves mild but does not meet 95%; existing harsh remains unresolved and stable success regressed",
+    "Teacher-forced fit and local success alone are not completion; four-movement coverage only"
+  ]
+}

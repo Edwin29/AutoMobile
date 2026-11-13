@@ -1,0 +1,6217 @@
+{
+  "source_sha256": "08064479c0849aea40d3cee3a73d666d0db37944e3d27087f6377102a9dd0a61",
+  "summary": {
+    "baseline": {
+      "failed_entry_cases": 89,
+      "exact_replays": 89,
+      "before_push": 0,
+      "before_possible_response": 5,
+      "latency_range_s": [
+        0.10799999999999876,
+        0.2359999999999971
+      ]
+    },
+    "reserve": {
+      "failed_entry_cases": 93,
+      "exact_replays": 93,
+      "before_push": 0,
+      "before_possible_response": 6,
+      "latency_range_s": [
+        0.10799999999999876,
+        0.2359999999999971
+      ]
+    }
+  },
+  "rows": [
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.425333333333309,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1795318354703692,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.425333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.425333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.2090136084275613,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.405333333333309,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1942567399401192,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.405333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.405333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.245333333333311,
+      "first_incursion_s": 6.9813333333333025,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9140925628692091,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.245333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.245333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 7.289333333333299,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.713333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 0.9217935079082533,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.225333333333311,
+      "first_incursion_s": 6.945333333333303,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.909836987786349,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.225333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.225333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.261333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.29733333333331,
+      "first_command_s": 6.33333333333331,
+      "earliest_actuation_step_start_s": 6.389333333333309,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.902640773253216,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.261333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.261333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.497333333333308,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.8934056776403025,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.497333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.497333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.245333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9097471056657476,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.245333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.245333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.893333333333303,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0043234680637507,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.677333333333306,
+      "first_incursion_s": 7.1813333333333,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0323504779065846,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.677333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.677333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.893333333333303,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0165560937325928,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 9.665333333333272,
+      "first_incursion_s": 10.097333333333268,
+      "first_capture_s": 9.681333333333273,
+      "first_command_s": 9.717333333333272,
+      "earliest_actuation_step_start_s": 9.773333333333271,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.3081676014263746,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.665333333333272,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.665333333333272,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 9.91733333333327,
+      "first_incursion_s": 10.365333333333265,
+      "first_capture_s": 9.93333333333327,
+      "first_command_s": 9.96933333333327,
+      "earliest_actuation_step_start_s": 10.133333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.2976037499262052,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.91733333333327,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.91733333333327,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 9.681333333333273,
+      "first_incursion_s": 10.113333333333268,
+      "first_capture_s": 9.717333333333272,
+      "first_command_s": 9.753333333333272,
+      "earliest_actuation_step_start_s": 9.80933333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.3190332646494358,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.681333333333273,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.681333333333273,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 9.989333333333269,
+      "first_incursion_s": 10.385333333333264,
+      "first_capture_s": 10.005333333333269,
+      "first_command_s": 10.041333333333268,
+      "earliest_actuation_step_start_s": 10.097333333333268,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1522500222369505,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.989333333333269,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 9.989333333333269,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 10.329333333333265,
+      "first_incursion_s": 10.74533333333326,
+      "first_capture_s": 10.365333333333265,
+      "first_command_s": 10.401333333333264,
+      "earliest_actuation_step_start_s": 10.565333333333262,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.1497118537225148,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.329333333333265,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 10.329333333333265,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 10.005333333333269,
+      "first_incursion_s": 10.385333333333264,
+      "first_capture_s": 10.041333333333268,
+      "first_command_s": 10.077333333333268,
+      "earliest_actuation_step_start_s": 10.133333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1303113605330868,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.005333333333269,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 10.005333333333269,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.425333333333309,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1795318354703959,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.425333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.425333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.2090136084275542,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.405333333333309,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1942567399401032,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.405333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.405333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.245333333333311,
+      "first_incursion_s": 6.9813333333333025,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9140925628692163,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.245333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.245333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 7.289333333333299,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.713333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 0.9217935079082569,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.225333333333311,
+      "first_incursion_s": 6.945333333333303,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.9098369877863615,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.225333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.225333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.261333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.29733333333331,
+      "first_command_s": 6.33333333333331,
+      "earliest_actuation_step_start_s": 6.389333333333309,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.9026407732532569,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.261333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.261333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.497333333333308,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.8934056776401995,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.497333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.497333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.245333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9097471056657298,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.245333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.245333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.893333333333303,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.004323468063756,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.677333333333306,
+      "first_incursion_s": 7.1813333333333,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0323504779065296,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.677333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.677333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.893333333333303,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0165560937325058,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 9.665333333333272,
+      "first_incursion_s": 10.097333333333268,
+      "first_capture_s": 9.681333333333273,
+      "first_command_s": 9.717333333333272,
+      "earliest_actuation_step_start_s": 9.773333333333271,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.30816760142638,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.665333333333272,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.665333333333272,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 9.91733333333327,
+      "first_incursion_s": 10.365333333333265,
+      "first_capture_s": 9.93333333333327,
+      "first_command_s": 9.96933333333327,
+      "earliest_actuation_step_start_s": 10.133333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.2976037499262176,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.91733333333327,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.91733333333327,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 9.681333333333273,
+      "first_incursion_s": 10.113333333333268,
+      "first_capture_s": 9.717333333333272,
+      "first_command_s": 9.753333333333272,
+      "earliest_actuation_step_start_s": 9.80933333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.31903326464934,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.681333333333273,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.681333333333273,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 9.989333333333269,
+      "first_incursion_s": 10.385333333333264,
+      "first_capture_s": 10.005333333333269,
+      "first_command_s": 10.041333333333268,
+      "earliest_actuation_step_start_s": 10.097333333333268,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1522500222370322,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.989333333333269,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 9.989333333333269,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 10.329333333333265,
+      "first_incursion_s": 10.74533333333326,
+      "first_capture_s": 10.365333333333265,
+      "first_command_s": 10.401333333333264,
+      "earliest_actuation_step_start_s": 10.565333333333262,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.1497118537224011,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.329333333333265,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 10.329333333333265,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 10.005333333333269,
+      "first_incursion_s": 10.385333333333264,
+      "first_capture_s": 10.041333333333268,
+      "first_command_s": 10.077333333333268,
+      "earliest_actuation_step_start_s": 10.133333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.130311360533062,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.005333333333269,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 10.005333333333269,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 5.525333333333319,
+      "first_incursion_s": 6.3693333333333095,
+      "first_capture_s": 5.541333333333319,
+      "first_command_s": 5.577333333333319,
+      "earliest_actuation_step_start_s": 5.633333333333318,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 3.317478571023031,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.525333333333319,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 5.525333333333319,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 5.793333333333316,
+      "first_incursion_s": 6.693333333333306,
+      "first_capture_s": 5.829333333333316,
+      "first_command_s": 5.865333333333315,
+      "earliest_actuation_step_start_s": 6.009333333333314,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 3.390568987569452,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.793333333333316,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 5.793333333333316,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 5.541333333333319,
+      "first_incursion_s": 6.405333333333309,
+      "first_capture_s": 5.577333333333319,
+      "first_command_s": 5.613333333333318,
+      "earliest_actuation_step_start_s": 5.669333333333317,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 3.342731533504093,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.541333333333319,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 5.541333333333319,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 5.43333333333332,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 5.46933333333332,
+      "first_command_s": 5.505333333333319,
+      "earliest_actuation_step_start_s": 5.561333333333319,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 3.108818227530165,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.43333333333332,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 5.43333333333332,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 5.685333333333317,
+      "first_incursion_s": 7.1453333333333005,
+      "first_capture_s": 5.721333333333317,
+      "first_command_s": 5.7573333333333165,
+      "earliest_actuation_step_start_s": 5.901333333333315,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 3.1099195807684197,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.685333333333317,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 5.685333333333317,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 5.41733333333332,
+      "first_incursion_s": 6.873333333333304,
+      "first_capture_s": 5.43333333333332,
+      "first_command_s": 5.46933333333332,
+      "earliest_actuation_step_start_s": 5.525333333333319,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 3.1047795881680287,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.41733333333332,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 5.41733333333332,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 5.777333333333316,
+      "first_incursion_s": 9.393333333333276,
+      "first_capture_s": 5.793333333333316,
+      "first_command_s": 5.829333333333316,
+      "earliest_actuation_step_start_s": 5.885333333333315,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 3.221979140623361,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.777333333333316,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 5.777333333333316,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.009333333333314,
+      "first_incursion_s": 9.609333333333273,
+      "first_capture_s": 6.045333333333313,
+      "first_command_s": 6.081333333333313,
+      "earliest_actuation_step_start_s": 6.245333333333311,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 3.2884604821460357,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.009333333333314,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.009333333333314,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 5.777333333333316,
+      "first_incursion_s": 9.413333333333275,
+      "first_capture_s": 5.793333333333316,
+      "first_command_s": 5.829333333333316,
+      "earliest_actuation_step_start_s": 5.885333333333315,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 3.223617565288265,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.777333333333316,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 5.777333333333316,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.821333333333304,
+      "first_incursion_s": 7.089333333333301,
+      "first_capture_s": 6.837333333333304,
+      "first_command_s": 6.873333333333304,
+      "earliest_actuation_step_start_s": 6.929333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.7099563522591819,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.821333333333304,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.821333333333304,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.821333333333304,
+      "first_incursion_s": 7.089333333333301,
+      "first_capture_s": 6.837333333333304,
+      "first_command_s": 6.873333333333304,
+      "earliest_actuation_step_start_s": 6.929333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.6949056641838389,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.821333333333304,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.821333333333304,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.693333333333306,
+      "first_incursion_s": 7.037333333333302,
+      "first_capture_s": 6.729333333333305,
+      "first_command_s": 6.765333333333305,
+      "earliest_actuation_step_start_s": 6.821333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.5954942147961706,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.693333333333306,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.693333333333306,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.929333333333303,
+      "first_incursion_s": 7.253333333333299,
+      "first_capture_s": 6.945333333333303,
+      "first_command_s": 6.9813333333333025,
+      "earliest_actuation_step_start_s": 7.1453333333333005,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 0.6770495156108414,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.929333333333303,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.929333333333303,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.677333333333306,
+      "first_incursion_s": 7.001333333333302,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.785333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.630193908863637,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.677333333333306,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.677333333333306,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.785333333333305,
+      "first_incursion_s": 7.253333333333299,
+      "first_capture_s": 6.801333333333305,
+      "first_command_s": 6.837333333333304,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.7052951481304088,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.785333333333305,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.785333333333305,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 7.073333333333301,
+      "first_incursion_s": 7.505333333333296,
+      "first_capture_s": 7.089333333333301,
+      "first_command_s": 7.125333333333301,
+      "earliest_actuation_step_start_s": 7.289333333333299,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 0.7472483599637822,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.073333333333301,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 7.073333333333301,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.801333333333305,
+      "first_incursion_s": 7.253333333333299,
+      "first_capture_s": 6.837333333333304,
+      "first_command_s": 6.873333333333304,
+      "earliest_actuation_step_start_s": 6.929333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.7017059146423499,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.801333333333305,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.801333333333305,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.821333333333304,
+      "first_incursion_s": 7.001333333333302,
+      "first_capture_s": 6.837333333333304,
+      "first_command_s": 6.873333333333304,
+      "earliest_actuation_step_start_s": 6.929333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.509049174729995,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.821333333333304,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.821333333333304,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 7.109333333333301,
+      "first_incursion_s": 7.289333333333299,
+      "first_capture_s": 7.125333333333301,
+      "first_command_s": 7.1613333333333005,
+      "earliest_actuation_step_start_s": 7.305333333333299,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.534199029983645,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.109333333333301,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 7.109333333333301,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.857333333333304,
+      "first_incursion_s": 7.037333333333302,
+      "first_capture_s": 6.873333333333304,
+      "first_command_s": 6.909333333333303,
+      "earliest_actuation_step_start_s": 6.9653333333333025,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.5221194560853757,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.857333333333304,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.857333333333304,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.605333333333307,
+      "first_incursion_s": 7.037333333333302,
+      "first_capture_s": 6.621333333333307,
+      "first_command_s": 6.657333333333306,
+      "earliest_actuation_step_start_s": 6.713333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.7852140756062767,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.605333333333307,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.605333333333307,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.893333333333303,
+      "first_incursion_s": 7.305333333333299,
+      "first_capture_s": 6.909333333333303,
+      "first_command_s": 6.945333333333303,
+      "earliest_actuation_step_start_s": 7.089333333333301,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.7986035158530527,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.893333333333303,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.893333333333303,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 7.073333333333301,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.749333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.7920126198435575,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 5.41733333333332,
+      "first_incursion_s": 6.677333333333306,
+      "first_capture_s": 5.43333333333332,
+      "first_command_s": 5.46933333333332,
+      "earliest_actuation_step_start_s": 5.541333333333319,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12399999999999878,
+      "onset_margin_cm": 3.139029140704096,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.41733333333332,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 5.41733333333332,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 5.685333333333317,
+      "first_incursion_s": 6.945333333333303,
+      "first_capture_s": 5.721333333333317,
+      "first_command_s": 5.7573333333333165,
+      "earliest_actuation_step_start_s": 5.9213333333333145,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 3.193794224901083,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.685333333333317,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 5.685333333333317,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 5.41733333333332,
+      "first_incursion_s": 6.677333333333306,
+      "first_capture_s": 5.43333333333332,
+      "first_command_s": 5.46933333333332,
+      "earliest_actuation_step_start_s": 5.541333333333319,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12399999999999878,
+      "onset_margin_cm": 3.188709645836397,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.41733333333332,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 5.41733333333332,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.909333333333303,
+      "first_incursion_s": 7.2173333333333,
+      "first_capture_s": 6.945333333333303,
+      "first_command_s": 6.9813333333333025,
+      "earliest_actuation_step_start_s": 7.037333333333302,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.792694455997161,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.909333333333303,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.909333333333303,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 7.2173333333333,
+      "first_incursion_s": 7.521333333333296,
+      "first_capture_s": 7.2333333333333,
+      "first_command_s": 7.269333333333299,
+      "earliest_actuation_step_start_s": 7.413333333333298,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.834676371729726,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.2173333333333,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 7.2173333333333,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.929333333333303,
+      "first_incursion_s": 7.2333333333333,
+      "first_capture_s": 6.945333333333303,
+      "first_command_s": 6.9813333333333025,
+      "earliest_actuation_step_start_s": 7.037333333333302,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.7968123868749117,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.929333333333303,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.929333333333303,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.785333333333305,
+      "first_incursion_s": 6.909333333333303,
+      "first_capture_s": 6.801333333333305,
+      "first_command_s": 6.837333333333304,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.5241084026238543,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.785333333333305,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.785333333333305,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 7.073333333333301,
+      "first_incursion_s": 7.2173333333333,
+      "first_capture_s": 7.089333333333301,
+      "first_command_s": 7.125333333333301,
+      "earliest_actuation_step_start_s": 7.269333333333299,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.47986949532149836,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.073333333333301,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 7.073333333333301,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.785333333333305,
+      "first_incursion_s": 6.909333333333303,
+      "first_capture_s": 6.801333333333305,
+      "first_command_s": 6.837333333333304,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.5167921353695331,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.785333333333305,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.785333333333305,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.677333333333306,
+      "first_incursion_s": 6.929333333333303,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.785333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.4441368488423567,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.677333333333306,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.677333333333306,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.893333333333303,
+      "first_incursion_s": 7.1453333333333005,
+      "first_capture_s": 6.909333333333303,
+      "first_command_s": 6.945333333333303,
+      "earliest_actuation_step_start_s": 7.109333333333301,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 0.48370795273055833,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.893333333333303,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.893333333333303,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.909333333333303,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.749333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.46960122581667285,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.785333333333305,
+      "first_incursion_s": 7.1453333333333005,
+      "first_capture_s": 6.801333333333305,
+      "first_command_s": 6.837333333333304,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.5483304065793053,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.785333333333305,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.785333333333305,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 7.017333333333302,
+      "first_incursion_s": 7.361333333333298,
+      "first_capture_s": 7.053333333333302,
+      "first_command_s": 7.089333333333301,
+      "earliest_actuation_step_start_s": 7.253333333333299,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 0.6147956647537978,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.017333333333302,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 7.017333333333302,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.801333333333305,
+      "first_incursion_s": 7.1613333333333005,
+      "first_capture_s": 6.837333333333304,
+      "first_command_s": 6.873333333333304,
+      "earliest_actuation_step_start_s": 6.929333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.5534669224654625,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.801333333333305,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.801333333333305,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.425333333333309,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1393700333914207,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.425333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.425333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.657333333333306,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.873333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.1706249210750475,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.657333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.657333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.405333333333309,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.136952835634533,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.405333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.405333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.225333333333311,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.8758124864470869,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.225333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.225333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.497333333333308,
+      "first_incursion_s": 7.1453333333333005,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.713333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 0.8944896103938085,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.497333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.497333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.225333333333311,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.8646585426112985,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.225333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.225333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.261333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.29733333333331,
+      "first_command_s": 6.33333333333331,
+      "earliest_actuation_step_start_s": 6.389333333333309,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.8578003764685409,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.261333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.261333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.497333333333308,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.8634894676453246,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.497333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.497333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.245333333333311,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.8873668260933698,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.245333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.245333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.405333333333309,
+      "first_incursion_s": 6.873333333333304,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.9720683897362221,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.405333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.405333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.657333333333306,
+      "first_incursion_s": 7.125333333333301,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 0.9882763822461804,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.657333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.657333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.425333333333309,
+      "first_incursion_s": 6.909333333333303,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9480532543474727,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.425333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.425333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 7.053333333333302,
+      "first_incursion_s": 7.361333333333298,
+      "first_capture_s": 7.089333333333301,
+      "first_command_s": 7.125333333333301,
+      "earliest_actuation_step_start_s": 7.1813333333333,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.8026910534123193,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.053333333333302,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 7.053333333333302,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 7.341333333333298,
+      "first_incursion_s": 7.649333333333295,
+      "first_capture_s": 7.377333333333298,
+      "first_command_s": 7.413333333333298,
+      "earliest_actuation_step_start_s": 7.557333333333296,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.8439065595497226,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.341333333333298,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 7.341333333333298,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 7.073333333333301,
+      "first_incursion_s": 7.377333333333298,
+      "first_capture_s": 7.089333333333301,
+      "first_command_s": 7.125333333333301,
+      "earliest_actuation_step_start_s": 7.1813333333333,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.788628732269041,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 7.073333333333301,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 7.073333333333301,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.155223958234723,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.152088911200396,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1772026877311834,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0383745814053853,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.461333333333308,
+      "first_incursion_s": 7.2173333333333,
+      "first_capture_s": 6.477333333333308,
+      "first_command_s": 6.513333333333308,
+      "earliest_actuation_step_start_s": 6.677333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.055117915619153,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.461333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.461333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0690220140659683,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.605333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0855433765887987,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0448318210281435,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9928839904540414,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.163979691251301,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 7.109333333333301,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.857333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.1467606213880153,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1580362374698172,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 10.041333333333268,
+      "first_incursion_s": 10.277333333333265,
+      "first_capture_s": 10.077333333333268,
+      "first_command_s": 10.113333333333268,
+      "earliest_actuation_step_start_s": 10.169333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.6135069484899773,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.041333333333268,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 10.041333333333268,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 10.349333333333265,
+      "first_incursion_s": 10.581333333333262,
+      "first_capture_s": 10.365333333333265,
+      "first_command_s": 10.401333333333264,
+      "earliest_actuation_step_start_s": 10.545333333333263,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.6107425618995244,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.349333333333265,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 10.349333333333265,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 10.005333333333269,
+      "first_incursion_s": 10.241333333333266,
+      "first_capture_s": 10.041333333333268,
+      "first_command_s": 10.077333333333268,
+      "earliest_actuation_step_start_s": 10.133333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.5995032936271247,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.005333333333269,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 10.005333333333269,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 9.681333333333273,
+      "first_incursion_s": 11.769333333333249,
+      "first_capture_s": 9.717333333333272,
+      "first_command_s": 9.753333333333272,
+      "earliest_actuation_step_start_s": 9.80933333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.4323289132889272,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.681333333333273,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.681333333333273,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 9.95333333333327,
+      "first_incursion_s": 11.933333333333247,
+      "first_capture_s": 9.96933333333327,
+      "first_command_s": 10.005333333333269,
+      "earliest_actuation_step_start_s": 10.169333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.470481520058943,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.95333333333327,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.95333333333327,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 9.701333333333272,
+      "first_incursion_s": 11.753333333333249,
+      "first_capture_s": 9.717333333333272,
+      "first_command_s": 9.753333333333272,
+      "earliest_actuation_step_start_s": 9.80933333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.4676095288733642,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.701333333333272,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.701333333333272,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 9.80933333333327,
+      "first_incursion_s": 10.401333333333264,
+      "first_capture_s": 9.82533333333327,
+      "first_command_s": 9.86133333333327,
+      "earliest_actuation_step_start_s": 9.91733333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.332458305260353,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.80933333333327,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 9.80933333333327,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 10.005333333333269,
+      "first_incursion_s": 10.617333333333262,
+      "first_capture_s": 10.041333333333268,
+      "first_command_s": 10.077333333333268,
+      "earliest_actuation_step_start_s": 10.241333333333266,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.3433093183638753,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.005333333333269,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 10.005333333333269,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 9.80933333333327,
+      "first_incursion_s": 10.401333333333264,
+      "first_capture_s": 9.82533333333327,
+      "first_command_s": 9.86133333333327,
+      "earliest_actuation_step_start_s": 9.91733333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.2985293700962899,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.80933333333327,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 9.80933333333327,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1552239582346804,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.1520889112003996,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1772026877312012,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0383745814053835,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.461333333333308,
+      "first_incursion_s": 7.2173333333333,
+      "first_capture_s": 6.477333333333308,
+      "first_command_s": 6.513333333333308,
+      "earliest_actuation_step_start_s": 6.677333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0551179156191584,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.461333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.461333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0690220140659719,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.605333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.08554337658882,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0448318210281595,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9928839904540325,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.16397969125126,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 7.109333333333301,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.857333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.1467606213878963,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.158036237469723,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 10.041333333333268,
+      "first_incursion_s": 10.277333333333265,
+      "first_capture_s": 10.077333333333268,
+      "first_command_s": 10.113333333333268,
+      "earliest_actuation_step_start_s": 10.169333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.6135069484898779,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.041333333333268,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 10.041333333333268,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 10.349333333333265,
+      "first_incursion_s": 10.581333333333262,
+      "first_capture_s": 10.365333333333265,
+      "first_command_s": 10.401333333333264,
+      "earliest_actuation_step_start_s": 10.545333333333263,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.6107425618995528,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.349333333333265,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 10.349333333333265,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 10.005333333333269,
+      "first_incursion_s": 10.241333333333266,
+      "first_capture_s": 10.041333333333268,
+      "first_command_s": 10.077333333333268,
+      "earliest_actuation_step_start_s": 10.133333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.5995032936272189,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.005333333333269,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 10.005333333333269,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 9.681333333333273,
+      "first_incursion_s": 11.769333333333249,
+      "first_capture_s": 9.717333333333272,
+      "first_command_s": 9.753333333333272,
+      "earliest_actuation_step_start_s": 9.80933333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.4323289132889752,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.681333333333273,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.681333333333273,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 9.95333333333327,
+      "first_incursion_s": 11.933333333333247,
+      "first_capture_s": 9.96933333333327,
+      "first_command_s": 10.005333333333269,
+      "earliest_actuation_step_start_s": 10.169333333333267,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.4704815200588897,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.95333333333327,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.95333333333327,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 9.701333333333272,
+      "first_incursion_s": 11.753333333333249,
+      "first_capture_s": 9.717333333333272,
+      "first_command_s": 9.753333333333272,
+      "earliest_actuation_step_start_s": 9.80933333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.4676095288733553,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.701333333333272,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 9.701333333333272,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 9.80933333333327,
+      "first_incursion_s": 10.401333333333264,
+      "first_capture_s": 9.82533333333327,
+      "first_command_s": 9.86133333333327,
+      "earliest_actuation_step_start_s": 9.91733333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.332458305260447,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.80933333333327,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 9.80933333333327,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 10.005333333333269,
+      "first_incursion_s": 10.617333333333262,
+      "first_capture_s": 10.041333333333268,
+      "first_command_s": 10.077333333333268,
+      "earliest_actuation_step_start_s": 10.241333333333266,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.3433093183639446,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 10.005333333333269,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 10.005333333333269,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 9.80933333333327,
+      "first_incursion_s": 10.401333333333264,
+      "first_capture_s": 9.82533333333327,
+      "first_command_s": 9.86133333333327,
+      "earliest_actuation_step_start_s": 9.91733333333327,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.298529370096265,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 9.80933333333327,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 9.80933333333327,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 5.541333333333319,
+      "first_incursion_s": 8.08133333333329,
+      "first_capture_s": 5.577333333333319,
+      "first_command_s": 5.613333333333318,
+      "earliest_actuation_step_start_s": 5.669333333333317,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 3.329608151953849,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.541333333333319,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 5.541333333333319,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 5.721333333333317,
+      "first_incursion_s": 10.529333333333263,
+      "first_capture_s": 5.7573333333333165,
+      "first_command_s": 5.793333333333316,
+      "earliest_actuation_step_start_s": 5.957333333333314,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 3.104138411691679,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.721333333333317,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 5.721333333333317,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.9929718034811721,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.9770905160515468,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.0037272812863414,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.641333333333306,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.128237099087018,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 6.893333333333303,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.2148889640042349,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.641333333333306,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.133178305956207,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1561677371031855,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.657333333333306,
+      "first_incursion_s": 7.125333333333301,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.1770615600593288,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.657333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.657333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1622085330316168,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1724430453386017,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.223037461590227,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5333333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.1948349333759296,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0525962334990577,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 7.089333333333301,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.713333333333305,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.0437163832947771,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0531810275794662,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.189333333333312,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.012588005117605,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.189333333333312,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.189333333333312,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.009080760599332,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.225333333333311,
+      "first_incursion_s": 6.605333333333307,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.0382621889109913,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.225333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.225333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.093234254179345,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 7.089333333333301,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.857333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.1270501230848637,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.425333333333309,
+      "first_incursion_s": 6.893333333333303,
+      "first_capture_s": 6.441333333333309,
+      "first_command_s": 6.477333333333308,
+      "earliest_actuation_step_start_s": 6.5333333333333075,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.0840466281971306,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.425333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.425333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 5.633333333333318,
+      "first_incursion_s": 8.20533333333329,
+      "first_capture_s": 5.649333333333318,
+      "first_command_s": 5.685333333333317,
+      "earliest_actuation_step_start_s": 5.849333333333315,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 3.3317871079737387,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.633333333333318,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 5.633333333333318,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 5.381333333333321,
+      "first_incursion_s": 7.917333333333292,
+      "first_capture_s": 5.397333333333321,
+      "first_command_s": 5.43333333333332,
+      "earliest_actuation_step_start_s": 5.489333333333319,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 3.2878059826240076,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 5.381333333333321,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 5.381333333333321,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.9917262079463072,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 0.9834803988429659,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 0.9998568632878921,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.189333333333312,
+      "first_incursion_s": 6.641333333333306,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.2317267875585056,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.189333333333312,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.189333333333312,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.461333333333308,
+      "first_incursion_s": 7.037333333333302,
+      "first_capture_s": 6.477333333333308,
+      "first_command_s": 6.513333333333308,
+      "earliest_actuation_step_start_s": 6.677333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.2292327778418848,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.461333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.461333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.677333333333306,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.2030718426628155,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.245333333333311,
+      "first_incursion_s": 6.677333333333306,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1377253913121912,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.245333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.245333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 6.929333333333303,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.2103102523684743,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.641333333333306,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1055618153108995,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.785333333333305,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.151430887185839,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.657333333333306,
+      "first_incursion_s": 7.053333333333302,
+      "first_capture_s": 6.693333333333306,
+      "first_command_s": 6.729333333333305,
+      "earliest_actuation_step_start_s": 6.893333333333303,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.2359999999999971,
+      "onset_margin_cm": 1.165513028764206,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.657333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.657333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.801333333333305,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1524283908903694,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.188319283330614,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.837333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": true,
+      "response_latency_s": 0.19599999999999795,
+      "onset_margin_cm": 1.162732978155054,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.3693333333333095,
+      "first_incursion_s": 6.5493333333333075,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.188650758744851,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.3693333333333095,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.3693333333333095,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "field_estimate",
+      "push_start_s": 6.225333333333311,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.261333333333311,
+      "first_command_s": 6.29733333333331,
+      "earliest_actuation_step_start_s": 6.3533333333333095,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.064257191414539,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.225333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.225333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "sluggish",
+      "push_start_s": 6.461333333333308,
+      "first_incursion_s": 7.2173333333333,
+      "first_capture_s": 6.477333333333308,
+      "first_command_s": 6.513333333333308,
+      "earliest_actuation_step_start_s": 6.677333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0447747956058162,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.461333333333308,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.461333333333308,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6502,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.821333333333304,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.061966494884949,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.45948720014658173,
+          "lateral_cm": -1.5472676748878142,
+          "yaw_deg": -2.6068414267321467
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 2.3639421526126307,
+          "gain": 0.8907596963665556
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "field_estimate",
+      "push_start_s": 6.189333333333312,
+      "first_incursion_s": 6.569333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 1.0213224488167771,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.189333333333312,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.189333333333312,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "sluggish",
+      "push_start_s": 6.477333333333308,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.513333333333308,
+      "first_command_s": 6.5493333333333075,
+      "earliest_actuation_step_start_s": 6.693333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.0406903731180535,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.477333333333308,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.477333333333308,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6503,
+      "preset": "unequal_sides",
+      "push_start_s": 6.209333333333311,
+      "first_incursion_s": 6.585333333333307,
+      "first_capture_s": 6.225333333333311,
+      "first_command_s": 6.261333333333311,
+      "earliest_actuation_step_start_s": 6.31733333333331,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 0.9843791473704044,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.209333333333311,
+          "duration": 0.6103142268803752,
+          "lateral_cm": 1.3788697094097242,
+          "yaw_deg": -2.211926007805115
+        },
+        {
+          "kind": "power",
+          "t0": 6.209333333333311,
+          "duration": 3.7879983194255313,
+          "gain": 0.9139143851228692
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "field_estimate",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1534769871673696,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "sluggish",
+      "push_start_s": 6.641333333333306,
+      "first_incursion_s": 7.109333333333301,
+      "first_capture_s": 6.657333333333306,
+      "first_command_s": 6.693333333333306,
+      "earliest_actuation_step_start_s": 6.857333333333304,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.21599999999999753,
+      "onset_margin_cm": 1.1331167154590105,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.641333333333306,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.641333333333306,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6504,
+      "preset": "unequal_sides",
+      "push_start_s": 6.389333333333309,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.405333333333309,
+      "first_command_s": 6.441333333333309,
+      "earliest_actuation_step_start_s": 6.497333333333308,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 1.1497761526406673,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.389333333333309,
+          "duration": 0.5023721093407554,
+          "lateral_cm": -1.1013389359345687,
+          "yaw_deg": 2.794636719153533
+        },
+        {
+          "kind": "power",
+          "t0": 6.389333333333309,
+          "duration": 3.031803016646581,
+          "gain": 1.0752104003248515
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "field_estimate",
+      "push_start_s": 6.5333333333333075,
+      "first_incursion_s": 6.857333333333304,
+      "first_capture_s": 6.5493333333333075,
+      "first_command_s": 6.585333333333307,
+      "earliest_actuation_step_start_s": 6.641333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.10799999999999876,
+      "onset_margin_cm": 2.428982200780286,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.5333333333333075,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.5333333333333075,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    },
+    {
+      "arm": "reserve",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6501,
+      "preset": "unequal_sides",
+      "push_start_s": 6.513333333333308,
+      "first_incursion_s": 6.837333333333304,
+      "first_capture_s": 6.5493333333333075,
+      "first_command_s": 6.585333333333307,
+      "earliest_actuation_step_start_s": 6.641333333333306,
+      "before_push": false,
+      "incursion_before_possible_response": false,
+      "response_latency_s": 0.12799999999999834,
+      "onset_margin_cm": 2.410404007707518,
+      "events": [
+        {
+          "kind": "push",
+          "t0": 6.513333333333308,
+          "duration": 0.3149297009631145,
+          "lateral_cm": 1.998997352607726,
+          "yaw_deg": -2.963556659143893
+        },
+        {
+          "kind": "power",
+          "t0": 6.513333333333308,
+          "duration": 2.5942077834300727,
+          "gain": 0.9432174217113228
+        }
+      ]
+    }
+  ],
+  "interpretation": "Conditional impossibility of reactive correction from the realized onset state before any new command can affect wheels. Not proof of global infeasibility: different approach state/speed/preemptive control could change the result. Later failures are not automatically recoverable.",
+  "observer": "optimistic current truth-pose capture, no additional visual perception delay; diagnostic only, no actor input change"
+}

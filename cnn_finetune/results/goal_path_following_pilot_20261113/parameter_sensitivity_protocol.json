@@ -1,0 +1,11 @@
+{
+  "source_sha256": "2124b1948fa342f66c94698bacf66fd57e79922eab7e332b9d8fc2929a319764",
+  "cases": "all8sluggish nominal cases, including4baselineclean and4fail",
+  "interventions": [
+    "known_actuation_horizon",
+    "known_motor_gain"
+  ],
+  "scope": "true pose and privileged single parameter substitution, offline causal diagnostic only",
+  "unchanged": "same nominal motion history model, paths, gains1.3/.08, speed and initialstates",
+  "nominal_command_replay_max_error": 0.0
+}

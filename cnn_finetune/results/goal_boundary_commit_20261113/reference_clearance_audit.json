@@ -1,0 +1,222 @@
+[
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.249150112842102,
+    "centered_min_clearance_cm": 1.0103118785926952,
+    "old_min_radius_cm": 1.6024601110788337,
+    "centered_min_radius_cm": 5.909359471341697
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.2142954751167778,
+    "centered_min_clearance_cm": 1.0139412830041419,
+    "old_min_radius_cm": 1.5963979969226263,
+    "centered_min_radius_cm": 3.1278388363608967
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.249150112842102,
+    "centered_min_clearance_cm": 1.010311878592697,
+    "old_min_radius_cm": 1.6024601110788372,
+    "centered_min_radius_cm": 5.9093594713416735
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.2142954751167778,
+    "centered_min_clearance_cm": 1.0139412830041419,
+    "old_min_radius_cm": 1.5963979969226256,
+    "centered_min_radius_cm": 3.127838836360905
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "old_min_clearance_cm": 1.249924674408149,
+    "centered_min_clearance_cm": 0.49791851569725765,
+    "old_min_radius_cm": 2.1414407874806782,
+    "centered_min_radius_cm": 8.955864384241604
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "old_min_clearance_cm": 1.24992445760995,
+    "centered_min_clearance_cm": 0.5006044882599898,
+    "old_min_radius_cm": 1.486420110356691,
+    "centered_min_radius_cm": 20.006100062046112
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.24998780597992,
+    "centered_min_clearance_cm": 0.49969011651970874,
+    "old_min_radius_cm": 3.172305165139205,
+    "centered_min_radius_cm": 19.51454824996993
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.249996847970145,
+    "centered_min_clearance_cm": 0.5020066618670569,
+    "old_min_radius_cm": 1.6293528272863125,
+    "centered_min_radius_cm": 8.594670163928447
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "old_min_clearance_cm": 2.0107089744589786,
+    "centered_min_clearance_cm": 0.5937314497803712,
+    "old_min_radius_cm": 1.6366255384204471,
+    "centered_min_radius_cm": 21.152209393427587
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "old_min_clearance_cm": 2.127195705243224,
+    "centered_min_clearance_cm": 0.5921852655928532,
+    "old_min_radius_cm": 1.6155075737609215,
+    "centered_min_radius_cm": 21.392854644050917
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "old_min_clearance_cm": 2.4999953442832705,
+    "centered_min_clearance_cm": 1.2118339716594164,
+    "old_min_radius_cm": 3.1597897707925813,
+    "centered_min_radius_cm": 21.14585818748171
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "old_min_clearance_cm": 2.4997023682206176,
+    "centered_min_clearance_cm": 1.2079519020788467,
+    "old_min_radius_cm": 2.374330672459505,
+    "centered_min_radius_cm": 20.835892492270805
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "old_min_clearance_cm": 1.2499106465622845,
+    "centered_min_clearance_cm": 0.5028353213443566,
+    "old_min_radius_cm": 1.9515289354600196,
+    "centered_min_radius_cm": 19.37155508350865
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.2499994040501292,
+    "centered_min_clearance_cm": 0.9971283356408378,
+    "old_min_radius_cm": 1.4957878623940342,
+    "centered_min_radius_cm": 7.585455443859756
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "old_min_clearance_cm": 1.0756163373865473,
+    "centered_min_clearance_cm": 0.9712841142697712,
+    "old_min_radius_cm": 1.306560927356269,
+    "centered_min_radius_cm": 2.725505548023677
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "old_min_clearance_cm": 1.077699457273269,
+    "centered_min_clearance_cm": 0.9644127457575724,
+    "old_min_radius_cm": 1.3782693907278418,
+    "centered_min_radius_cm": 2.7746781264954405
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "old_min_clearance_cm": 2.127195705243224,
+    "centered_min_clearance_cm": 0.5921852655928568,
+    "old_min_radius_cm": 1.6155075737609201,
+    "centered_min_radius_cm": 21.392854644050814
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "old_min_clearance_cm": 2.4999953442832705,
+    "centered_min_clearance_cm": 1.2118339716594164,
+    "old_min_radius_cm": 3.159789770792577,
+    "centered_min_radius_cm": 21.145858187481515
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "old_min_clearance_cm": 2.4997023682206176,
+    "centered_min_clearance_cm": 1.2079519020788396,
+    "old_min_radius_cm": 2.374330672459505,
+    "centered_min_radius_cm": 20.835892492270755
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "old_min_clearance_cm": 2.0107089744589786,
+    "centered_min_clearance_cm": 0.5937314497803676,
+    "old_min_radius_cm": 1.6366255384204518,
+    "centered_min_radius_cm": 21.15220939342699
+  }
+]

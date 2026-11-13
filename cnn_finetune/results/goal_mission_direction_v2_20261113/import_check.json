@@ -1,0 +1,7 @@
+{
+  "source_sha256": "b0272c6969581420169cb8b8df3dd06ea7a783a7af2088a99277a9f026df5f13",
+  "loaded_core": "D:\\Projects\\AutoMobile\\repo\\bench\\_vendor\\v4_65c68a6613a0\\drive_v4\\core.py",
+  "loaded_core_sha256": "e18e0023849e6a67be29c5b8b6aaf924a89b3c538ba080a8bfee4435fa000c05",
+  "fresh_process_import_does_not_bind_drive_v4": true,
+  "pinned_core_loaded": true
+}

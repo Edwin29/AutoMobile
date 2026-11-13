@@ -1,0 +1,406 @@
+{
+  "groups": {
+    "natural/normal/all": {
+      "n": 24,
+      "median_nominal": 0.4892134429025685,
+      "median_fitted": 0.5792008534861818,
+      "median_improvement": 0.0,
+      "improved": 1,
+      "effective_sum_within_75ms": 14,
+      "median_visual_frame_fraction": 0.5777777777777777,
+      "median_usable_interval_fraction": 0.2833333333333333,
+      "median_oracle": 0.13588432648088106,
+      "before_turn": 12
+    },
+    "natural/normal/field_estimate": {
+      "n": 8,
+      "median_nominal": 0.04721713776491729,
+      "median_fitted": 0.05036751360264742,
+      "median_improvement": 0.0,
+      "improved": 0,
+      "effective_sum_within_75ms": 7,
+      "median_visual_frame_fraction": 0.5444444444444445,
+      "median_usable_interval_fraction": 0.275,
+      "median_oracle": 0.06942443363205751,
+      "before_turn": 4
+    },
+    "natural/normal/sluggish": {
+      "n": 8,
+      "median_nominal": 0.8581368601720627,
+      "median_fitted": 1.091975065074144,
+      "median_improvement": 0.0,
+      "improved": 1,
+      "effective_sum_within_75ms": 1,
+      "median_visual_frame_fraction": 0.6111111111111112,
+      "median_usable_interval_fraction": 0.3,
+      "median_oracle": 0.10298370227461318,
+      "before_turn": 4
+    },
+    "natural/normal/unequal_sides": {
+      "n": 8,
+      "median_nominal": 0.4892134429025685,
+      "median_fitted": 0.5557409263270051,
+      "median_improvement": 0.0,
+      "improved": 0,
+      "effective_sum_within_75ms": 6,
+      "median_visual_frame_fraction": 0.6027777777777779,
+      "median_usable_interval_fraction": 0.3,
+      "median_oracle": 0.18635496685448683,
+      "before_turn": 4
+    },
+    "probe/normal/all": {
+      "n": 12,
+      "median_nominal": 0.7351850501273094,
+      "median_fitted": 0.1911631476597066,
+      "median_improvement": 0.7346876950791688,
+      "improved": 10,
+      "effective_sum_within_75ms": 12,
+      "median_visual_frame_fraction": 0.8111111111111111,
+      "median_usable_interval_fraction": 0.6416666666666666,
+      "median_oracle": 0.019289588821573056,
+      "before_turn": 0
+    },
+    "probe/normal/delay_only": {
+      "n": 2,
+      "median_nominal": 0.6910790733526166,
+      "median_fitted": 0.1833517818337349,
+      "median_improvement": 0.7346876950791688,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.7666666666666666,
+      "median_usable_interval_fraction": 0.5416666666666666,
+      "median_oracle": 0.019327568793500883,
+      "before_turn": 0
+    },
+    "probe/normal/lag_only": {
+      "n": 2,
+      "median_nominal": 0.7792910269020026,
+      "median_fitted": 0.24435284941374918,
+      "median_improvement": 0.686442110869477,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.7916666666666667,
+      "median_usable_interval_fraction": 0.5833333333333333,
+      "median_oracle": 0.01424955129714199,
+      "before_turn": 0
+    },
+    "probe/normal/low_gain": {
+      "n": 2,
+      "median_nominal": 1.327588108751991,
+      "median_fitted": 0.2991226057646805,
+      "median_improvement": 0.774687191160613,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.9138888888888889,
+      "median_usable_interval_fraction": 0.725,
+      "median_oracle": 0.019251608849643553,
+      "before_turn": 0
+    },
+    "probe/normal/nominal": {
+      "n": 2,
+      "median_nominal": 0.01983793622402223,
+      "median_fitted": 0.1415158844009342,
+      "median_improvement": -6.133599120535454,
+      "improved": 0,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.7555555555555555,
+      "median_usable_interval_fraction": 0.5666666666666667,
+      "median_oracle": 0.01987376439426764,
+      "before_turn": 0
+    },
+    "probe/normal/sluggish": {
+      "n": 2,
+      "median_nominal": 1.3664605063340582,
+      "median_fitted": 0.1825408650044252,
+      "median_improvement": 0.8664133619974529,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.8361111111111111,
+      "median_usable_interval_fraction": 0.6416666666666666,
+      "median_oracle": 0.014961041290843488,
+      "before_turn": 0
+    },
+    "probe/normal/unequal_sides": {
+      "n": 2,
+      "median_nominal": 0.5024277916108113,
+      "median_fitted": 0.17882813519634697,
+      "median_improvement": 0.6440719677886164,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.7138888888888889,
+      "median_usable_interval_fraction": 0.5833333333333333,
+      "median_oracle": 0.03370197087223417,
+      "before_turn": 0
+    },
+    "probe/light/all": {
+      "n": 12,
+      "median_nominal": 0.7351850501273094,
+      "median_fitted": 0.2678256349828018,
+      "median_improvement": 0.5558121089380568,
+      "improved": 10,
+      "effective_sum_within_75ms": 12,
+      "median_visual_frame_fraction": 0.7277777777777779,
+      "median_usable_interval_fraction": 0.575,
+      "median_oracle": 0.019289588821573056,
+      "before_turn": 0
+    },
+    "probe/light/delay_only": {
+      "n": 2,
+      "median_nominal": 0.6910790733526166,
+      "median_fitted": 0.16494659588593125,
+      "median_improvement": 0.7613202276756419,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.6611111111111112,
+      "median_usable_interval_fraction": 0.5083333333333333,
+      "median_oracle": 0.019327568793500883,
+      "before_turn": 0
+    },
+    "probe/light/lag_only": {
+      "n": 2,
+      "median_nominal": 0.7792910269020026,
+      "median_fitted": 0.25303344798073735,
+      "median_improvement": 0.6753030135780631,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.6722222222222223,
+      "median_usable_interval_fraction": 0.525,
+      "median_oracle": 0.01424955129714199,
+      "before_turn": 0
+    },
+    "probe/light/low_gain": {
+      "n": 2,
+      "median_nominal": 1.327588108751991,
+      "median_fitted": 0.38421372123603764,
+      "median_improvement": 0.7105926765213191,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.8222222222222222,
+      "median_usable_interval_fraction": 0.6666666666666667,
+      "median_oracle": 0.019251608849643553,
+      "before_turn": 0
+    },
+    "probe/light/nominal": {
+      "n": 2,
+      "median_nominal": 0.01983793622402223,
+      "median_fitted": 0.1821201294068427,
+      "median_improvement": -8.18039696016004,
+      "improved": 0,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.6527777777777778,
+      "median_usable_interval_fraction": 0.55,
+      "median_oracle": 0.01987376439426764,
+      "before_turn": 0
+    },
+    "probe/light/sluggish": {
+      "n": 2,
+      "median_nominal": 1.3664605063340582,
+      "median_fitted": 0.30862090444555335,
+      "median_improvement": 0.7741457561232252,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.7694444444444445,
+      "median_usable_interval_fraction": 0.6416666666666666,
+      "median_oracle": 0.014961041290843488,
+      "before_turn": 0
+    },
+    "probe/light/unequal_sides": {
+      "n": 2,
+      "median_nominal": 0.5024277916108113,
+      "median_fitted": 0.2953414006597894,
+      "median_improvement": 0.41217144912921977,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.65,
+      "median_usable_interval_fraction": 0.5083333333333333,
+      "median_oracle": 0.03370197087223417,
+      "before_turn": 0
+    },
+    "probe/shove/all": {
+      "n": 4,
+      "median_nominal": 0.6931492212790477,
+      "median_fitted": 0.17342511270159508,
+      "median_improvement": -0.9553344794404529,
+      "improved": 2,
+      "effective_sum_within_75ms": 4,
+      "median_visual_frame_fraction": 0.7527777777777778,
+      "median_usable_interval_fraction": 0.5833333333333334,
+      "median_oracle": 0.04505329980247468,
+      "before_turn": 0
+    },
+    "probe/shove/nominal": {
+      "n": 2,
+      "median_nominal": 0.019837936224031523,
+      "median_fitted": 0.1354744320957865,
+      "median_improvement": -5.829058757214215,
+      "improved": 0,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.711111111111111,
+      "median_usable_interval_fraction": 0.525,
+      "median_oracle": 0.051785005446894364,
+      "before_turn": 0
+    },
+    "probe/shove/sluggish": {
+      "n": 2,
+      "median_nominal": 1.3664605063340618,
+      "median_fitted": 0.21888532784840514,
+      "median_improvement": 0.8398158403892474,
+      "improved": 2,
+      "effective_sum_within_75ms": 2,
+      "median_visual_frame_fraction": 0.7944444444444445,
+      "median_usable_interval_fraction": 0.5916666666666667,
+      "median_oracle": 0.038321594158053376,
+      "before_turn": 0
+    }
+  },
+  "nuisance": [
+    {
+      "name": "probe_01",
+      "condition": "light",
+      "vehicle": "nominal",
+      "seed": 24001,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.04536220006825975,
+      "false_change": false
+    },
+    {
+      "name": "probe_03",
+      "condition": "light",
+      "vehicle": "low_gain",
+      "seed": 24001,
+      "lag_shift_s": -0.05000000000000002,
+      "gain_rel_shift": -0.12115200681949989,
+      "false_change": false
+    },
+    {
+      "name": "probe_05",
+      "condition": "light",
+      "vehicle": "delay_only",
+      "seed": 24001,
+      "lag_shift_s": 0.024999999999999967,
+      "gain_rel_shift": -0.024104080081496893,
+      "false_change": false
+    },
+    {
+      "name": "probe_07",
+      "condition": "light",
+      "vehicle": "lag_only",
+      "seed": 24001,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.03761997454627519,
+      "false_change": false
+    },
+    {
+      "name": "probe_09",
+      "condition": "light",
+      "vehicle": "sluggish",
+      "seed": 24001,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.06246487527125144,
+      "false_change": false
+    },
+    {
+      "name": "probe_11",
+      "condition": "light",
+      "vehicle": "unequal_sides",
+      "seed": 24001,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.03630245877894456,
+      "false_change": false
+    },
+    {
+      "name": "probe_13",
+      "condition": "light",
+      "vehicle": "nominal",
+      "seed": 24002,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": 0.02844099397933686,
+      "false_change": false
+    },
+    {
+      "name": "probe_15",
+      "condition": "light",
+      "vehicle": "low_gain",
+      "seed": 24002,
+      "lag_shift_s": 0.025000000000000022,
+      "gain_rel_shift": 0.07690897039863698,
+      "false_change": false
+    },
+    {
+      "name": "probe_17",
+      "condition": "light",
+      "vehicle": "delay_only",
+      "seed": 24002,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": 0.03136341794785524,
+      "false_change": false
+    },
+    {
+      "name": "probe_19",
+      "condition": "light",
+      "vehicle": "lag_only",
+      "seed": 24002,
+      "lag_shift_s": 0.04999999999999999,
+      "gain_rel_shift": 0.05433742664448138,
+      "false_change": false
+    },
+    {
+      "name": "probe_21",
+      "condition": "light",
+      "vehicle": "sluggish",
+      "seed": 24002,
+      "lag_shift_s": 0.050000000000000044,
+      "gain_rel_shift": 0.04149786551527335,
+      "false_change": false
+    },
+    {
+      "name": "probe_23",
+      "condition": "light",
+      "vehicle": "unequal_sides",
+      "seed": 24002,
+      "lag_shift_s": -0.025000000000000022,
+      "gain_rel_shift": 0.055323386742001546,
+      "false_change": false
+    },
+    {
+      "name": "probe_24",
+      "condition": "shove",
+      "vehicle": "nominal",
+      "seed": 24001,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.0025856967459158,
+      "false_change": false
+    },
+    {
+      "name": "probe_25",
+      "condition": "shove",
+      "vehicle": "sluggish",
+      "seed": 24001,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": 0.0017258382627418634,
+      "false_change": false
+    },
+    {
+      "name": "probe_26",
+      "condition": "shove",
+      "vehicle": "nominal",
+      "seed": 24002,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.001979030089555023,
+      "false_change": false
+    },
+    {
+      "name": "probe_27",
+      "condition": "shove",
+      "vehicle": "sluggish",
+      "seed": 24002,
+      "lag_shift_s": 0.0,
+      "gain_rel_shift": -0.009465503285625898,
+      "false_change": false
+    }
+  ],
+  "normal_probe_gate": false,
+  "final_exam_used": false,
+  "new_training": false,
+  "closed_loop_adaptation_tested": false
+}

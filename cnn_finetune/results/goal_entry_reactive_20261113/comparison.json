@@ -1,0 +1,895 @@
+{
+  "source_sha256": "d71beac386988c7595d7e8bb6250ca10bd810eca5ed035fb9db4eac4a30e9ca2",
+  "summary": {
+    "baseline": {
+      "none": {
+        "n": 120,
+        "clean": 120,
+        "clean_moving": 112,
+        "exposed": 0,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "entry": {
+        "n": 120,
+        "clean": 78,
+        "clean_moving": 70,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "middle": {
+        "n": 120,
+        "clean": 117,
+        "clean_moving": 109,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "exit": {
+        "n": 120,
+        "clean": 83,
+        "clean_moving": 81,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      }
+    },
+    "hold035": {
+      "none": {
+        "n": 120,
+        "clean": 120,
+        "clean_moving": 112,
+        "exposed": 0,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "entry": {
+        "n": 120,
+        "clean": 108,
+        "clean_moving": 99,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "middle": {
+        "n": 120,
+        "clean": 117,
+        "clean_moving": 109,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "exit": {
+        "n": 120,
+        "clean": 100,
+        "clean_moving": 92,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      }
+    },
+    "robust": {
+      "none": {
+        "n": 120,
+        "clean": 120,
+        "clean_moving": 112,
+        "exposed": 0,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "entry": {
+        "n": 120,
+        "clean": 105,
+        "clean_moving": 97,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "middle": {
+        "n": 120,
+        "clean": 120,
+        "clean_moving": 112,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "exit": {
+        "n": 120,
+        "clean": 89,
+        "clean_moving": 84,
+        "exposed": 120,
+        "pauses": 7,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      }
+    },
+    "guarded": {
+      "none": {
+        "n": 120,
+        "clean": 120,
+        "clean_moving": 112,
+        "exposed": 0,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "entry": {
+        "n": 120,
+        "clean": 93,
+        "clean_moving": 85,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "middle": {
+        "n": 120,
+        "clean": 120,
+        "clean_moving": 112,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      },
+      "exit": {
+        "n": 120,
+        "clean": 83,
+        "clean_moving": 81,
+        "exposed": 120,
+        "pauses": 0,
+        "outcomes": {
+          "stable_exit": 120
+        }
+      }
+    }
+  },
+  "paired": {
+    "hold035": {
+      "none": {
+        "gains": 0,
+        "losses": 0,
+        "both_clean": 120,
+        "both_clean_intervened": 0,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.0,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.0,
+        "intervened_median_time_change_s": null,
+        "intervened_median_angular_accel_change": null
+      },
+      "entry": {
+        "gains": 30,
+        "losses": 0,
+        "both_clean": 78,
+        "both_clean_intervened": 47,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.27980000000000915,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.0373946393036768,
+        "intervened_median_time_change_s": -0.18000000000000682,
+        "intervened_median_angular_accel_change": 0.005302672106032025
+      },
+      "middle": {
+        "gains": 0,
+        "losses": 0,
+        "both_clean": 117,
+        "both_clean_intervened": 9,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.21600000000000819,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.0073855137316869825,
+        "intervened_median_time_change_s": 0.23200000000000998,
+        "intervened_median_angular_accel_change": 0.009645641252821385
+      },
+      "exit": {
+        "gains": 17,
+        "losses": 0,
+        "both_clean": 83,
+        "both_clean_intervened": 27,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.25200000000000955,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.09687565831388156,
+        "intervened_median_time_change_s": 0.18000000000000682,
+        "intervened_median_angular_accel_change": 0.06525385463413153
+      }
+    },
+    "robust": {
+      "none": {
+        "gains": 0,
+        "losses": 0,
+        "both_clean": 120,
+        "both_clean_intervened": 0,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.0,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.0,
+        "intervened_median_time_change_s": null,
+        "intervened_median_angular_accel_change": null
+      },
+      "entry": {
+        "gains": 28,
+        "losses": 1,
+        "both_clean": 77,
+        "both_clean_intervened": 57,
+        "median_time_change_s": -0.18000000000000682,
+        "p95_time_change_s": 0.1616000000000066,
+        "median_angular_accel_change": 0.16573169240142316,
+        "p95_angular_accel_change": 0.3267384806046493,
+        "intervened_median_time_change_s": -0.3240000000000123,
+        "intervened_median_angular_accel_change": 0.19086213179642153
+      },
+      "middle": {
+        "gains": 3,
+        "losses": 0,
+        "both_clean": 117,
+        "both_clean_intervened": 42,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.2880000000000109,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.34827017964178164,
+        "intervened_median_time_change_s": 0.21600000000000819,
+        "intervened_median_angular_accel_change": 0.2952522254969167
+      },
+      "exit": {
+        "gains": 9,
+        "losses": 3,
+        "both_clean": 80,
+        "both_clean_intervened": 57,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.5768000000000219,
+        "median_angular_accel_change": 0.15253322901098076,
+        "p95_angular_accel_change": 0.5024931630134529,
+        "intervened_median_time_change_s": 0.14400000000000546,
+        "intervened_median_angular_accel_change": 0.23054948385542545
+      }
+    },
+    "guarded": {
+      "none": {
+        "gains": 0,
+        "losses": 0,
+        "both_clean": 120,
+        "both_clean_intervened": 0,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.0,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.0,
+        "intervened_median_time_change_s": null,
+        "intervened_median_angular_accel_change": null
+      },
+      "entry": {
+        "gains": 15,
+        "losses": 0,
+        "both_clean": 78,
+        "both_clean_intervened": 52,
+        "median_time_change_s": -0.18000000000000682,
+        "p95_time_change_s": 0.14400000000000546,
+        "median_angular_accel_change": 0.14544402002928064,
+        "p95_angular_accel_change": 0.30742490602278627,
+        "intervened_median_time_change_s": -0.44200000000001616,
+        "intervened_median_angular_accel_change": 0.1899656059504352
+      },
+      "middle": {
+        "gains": 3,
+        "losses": 0,
+        "both_clean": 117,
+        "both_clean_intervened": 42,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.2880000000000109,
+        "median_angular_accel_change": 0.0,
+        "p95_angular_accel_change": 0.34827017964178164,
+        "intervened_median_time_change_s": 0.21600000000000819,
+        "intervened_median_angular_accel_change": 0.2952522254969167
+      },
+      "exit": {
+        "gains": 0,
+        "losses": 0,
+        "both_clean": 83,
+        "both_clean_intervened": 49,
+        "median_time_change_s": 0.0,
+        "p95_time_change_s": 0.5580000000000199,
+        "median_angular_accel_change": 0.02756581351544568,
+        "p95_angular_accel_change": 0.49949014032476413,
+        "intervened_median_time_change_s": 0.10800000000000409,
+        "intervened_median_angular_accel_change": 0.23054948385542545
+      }
+    }
+  },
+  "movements": [
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 9
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 15
+      },
+      "robust": {
+        "n": 18,
+        "clean": 12
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 11
+      }
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 9
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 13
+      },
+      "robust": {
+        "n": 18,
+        "clean": 11
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 10
+      }
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 9
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 13
+      },
+      "robust": {
+        "n": 18,
+        "clean": 11
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 10
+      }
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 9
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 15
+      },
+      "robust": {
+        "n": 18,
+        "clean": 12
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 11
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 12
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 16
+      },
+      "robust": {
+        "n": 18,
+        "clean": 14
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 12
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 9
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 13
+      },
+      "robust": {
+        "n": 18,
+        "clean": 16
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 12
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 13
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 16
+      },
+      "robust": {
+        "n": 18,
+        "clean": 17
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 17
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 12
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 17
+      },
+      "robust": {
+        "n": 18,
+        "clean": 16
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 12
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 12
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 15
+      },
+      "robust": {
+        "n": 18,
+        "clean": 12
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 12
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 12
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 15
+      },
+      "robust": {
+        "n": 18,
+        "clean": 15
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 12
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 12
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 17
+      },
+      "robust": {
+        "n": 18,
+        "clean": 17
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 17
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 16
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 16
+      },
+      "robust": {
+        "n": 18,
+        "clean": 17
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 16
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "baseline": {
+        "n": 18,
+        "clean": 18
+      },
+      "hold035": {
+        "n": 18,
+        "clean": 18
+      },
+      "robust": {
+        "n": 18,
+        "clean": 18
+      },
+      "guarded": {
+        "n": 18,
+        "clean": 18
+      }
+    }
+  ],
+  "startup_reverse_audit": [
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6601,
+      "preset": "field_estimate",
+      "first_s": 0.30533333333333335,
+      "last_s": 0.48533333333333323,
+      "minimum_velocity_cm_s": -0.28972777132253336,
+      "reverse_distance_cm": 0.027862732356981963
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6601,
+      "preset": "sluggish",
+      "first_s": 0.4133333333333333,
+      "last_s": 0.5213333333333332,
+      "minimum_velocity_cm_s": -0.06041750426292397,
+      "reverse_distance_cm": 0.006316834275875729
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6601,
+      "preset": "field_estimate",
+      "first_s": 0.30533333333333335,
+      "last_s": 0.48533333333333323,
+      "minimum_velocity_cm_s": -0.28972777132253336,
+      "reverse_distance_cm": 0.027862732356981963
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6601,
+      "preset": "sluggish",
+      "first_s": 0.4133333333333333,
+      "last_s": 0.5213333333333332,
+      "minimum_velocity_cm_s": -0.06041750426292397,
+      "reverse_distance_cm": 0.006316834275875729
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6601,
+      "preset": "field_estimate",
+      "first_s": 0.30533333333333335,
+      "last_s": 0.48533333333333323,
+      "minimum_velocity_cm_s": -0.28972777132253336,
+      "reverse_distance_cm": 0.027862732356981963
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6601,
+      "preset": "sluggish",
+      "first_s": 0.4133333333333333,
+      "last_s": 0.5213333333333332,
+      "minimum_velocity_cm_s": -0.06041750426292397,
+      "reverse_distance_cm": 0.006316834275875729
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6601,
+      "preset": "field_estimate",
+      "first_s": 0.30533333333333335,
+      "last_s": 0.48533333333333323,
+      "minimum_velocity_cm_s": -0.28114753248303415,
+      "reverse_distance_cm": 0.027037582260901576
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6601,
+      "preset": "sluggish",
+      "first_s": 0.4133333333333333,
+      "last_s": 0.5213333333333332,
+      "minimum_velocity_cm_s": -0.05862825011481104,
+      "reverse_distance_cm": 0.006129762299485139
+    }
+  ],
+  "paired_initial_conditions_equal": true,
+  "strict_forward_note": "clean_moving requires no velocity below-.01cm/s anywhere, including startup. Eight no-event baseline cases fail this extra diagnostic solely during0.305-0.521s with0.006-0.028cm backwards travel. Not a definitive failure of the turn-only smoothness goal."
+}

@@ -1,0 +1,189 @@
+{
+  "teacher_only": {
+    "all": {
+      "n": 72,
+      "clean": 38,
+      "stable": 59,
+      "outcomes": {
+        "stable_exit": 59,
+        "wrong_exit": 8,
+        "severe_departure": 5
+      }
+    },
+    "normal": {
+      "n": 24,
+      "clean": 14,
+      "stable": 20,
+      "outcomes": {
+        "stable_exit": 20,
+        "wrong_exit": 4
+      }
+    },
+    "mild": {
+      "n": 24,
+      "clean": 12,
+      "stable": 19,
+      "outcomes": {
+        "stable_exit": 19,
+        "severe_departure": 3,
+        "wrong_exit": 2
+      }
+    },
+    "mild_light": {
+      "n": 24,
+      "clean": 12,
+      "stable": 20,
+      "outcomes": {
+        "stable_exit": 20,
+        "severe_departure": 2,
+        "wrong_exit": 2
+      }
+    },
+    "paired_to_initial": {
+      "gained_clean": 10,
+      "lost_clean": 9
+    }
+  },
+  "full_dagger": {
+    "all": {
+      "n": 72,
+      "clean": 14,
+      "stable": 31,
+      "outcomes": {
+        "stable_exit": 31,
+        "wrong_exit": 27,
+        "unstable_exit": 5,
+        "severe_departure": 8,
+        "time_limit": 1
+      }
+    },
+    "normal": {
+      "n": 24,
+      "clean": 6,
+      "stable": 10,
+      "outcomes": {
+        "stable_exit": 10,
+        "wrong_exit": 11,
+        "time_limit": 1,
+        "severe_departure": 2
+      }
+    },
+    "mild": {
+      "n": 24,
+      "clean": 7,
+      "stable": 11,
+      "outcomes": {
+        "stable_exit": 11,
+        "wrong_exit": 7,
+        "severe_departure": 6
+      }
+    },
+    "mild_light": {
+      "n": 24,
+      "clean": 1,
+      "stable": 10,
+      "outcomes": {
+        "wrong_exit": 9,
+        "unstable_exit": 5,
+        "stable_exit": 10
+      }
+    },
+    "paired_to_initial": {
+      "gained_clean": 9,
+      "lost_clean": 32
+    }
+  },
+  "initial": {
+    "all": {
+      "n": 72,
+      "clean": 37,
+      "stable": 69,
+      "outcomes": {
+        "stable_exit": 69,
+        "severe_departure": 2,
+        "wrong_exit": 1
+      }
+    },
+    "normal": {
+      "n": 24,
+      "clean": 15,
+      "stable": 23,
+      "outcomes": {
+        "stable_exit": 23,
+        "severe_departure": 1
+      }
+    },
+    "mild": {
+      "n": 24,
+      "clean": 12,
+      "stable": 23,
+      "outcomes": {
+        "stable_exit": 23,
+        "severe_departure": 1
+      }
+    },
+    "mild_light": {
+      "n": 24,
+      "clean": 10,
+      "stable": 23,
+      "outcomes": {
+        "stable_exit": 23,
+        "wrong_exit": 1
+      }
+    }
+  },
+  "query_audit": {
+    "roots": 359,
+    "onroad_roots": 298,
+    "onroad_clean_continuations": 225.0,
+    "stable_continuations": 359,
+    "exact_physics_replays": 72,
+    "by_root": {
+      "3.0": {
+        "n": 72,
+        "onroad": 71,
+        "clean": 47.0
+      },
+      "5.0": {
+        "n": 72,
+        "onroad": 53,
+        "clean": 25.0
+      },
+      "8.0": {
+        "n": 72,
+        "onroad": 43,
+        "clean": 34.0
+      },
+      "12.0": {
+        "n": 72,
+        "onroad": 65,
+        "clean": 57.0
+      },
+      "16.0": {
+        "n": 71,
+        "onroad": 66,
+        "clean": 62.0
+      }
+    },
+    "by_condition": {
+      "normal": {
+        "onroad": 103,
+        "clean": 92
+      },
+      "mild": {
+        "onroad": 101,
+        "clean": 68
+      },
+      "mild_light": {
+        "onroad": 94,
+        "clean": 65
+      }
+    }
+  },
+  "limitations": [
+    "Four movements only; repeatedly used development seeds; one training initialization",
+    "Root audits within an episode are correlated; roots are not independent trials",
+    "Teacher success after takeover does not prove individual query optimality or visual observability",
+    "No acceptance threshold, actor inputs, harsh range or deployed model changed"
+  ]
+}

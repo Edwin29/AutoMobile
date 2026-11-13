@@ -1,0 +1,51 @@
+{
+  "goal_complete": false,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "requirements": [
+    {
+      "requirement": "full mission normal>=99%, weak>=95%, feasible harsh>=80%",
+      "status": "unproven",
+      "evidence": "No final full-mission student execution. Static32-route draft and10 episode-scoring gate tests are preparation only."
+    },
+    {
+      "requirement": "zero wrong exit/severe departure normal and weak",
+      "status": "partial_local_only",
+      "evidence": "Nominal-constrained student72/72 stable local exit but only38/72 clean; not full mission or held-out exam"
+    },
+    {
+      "requirement": "each required movement weak>=90%",
+      "status": "not_met",
+      "evidence": "Fresh repeated-clock local teacher561/672 mild successes,15of28movements below90%; no student strong-light/all-mission evidence. Not met."
+    },
+    {
+      "requirement": "smooth turns>=95%, safer/smoother and no time regression vs legacy",
+      "status": "unproven",
+      "evidence": "Two teacher pause cases among672mild repeated-clock episodes, both already clearance failures. New training excludes clean-but-paused demonstrations. No actual legacy matched full-route comparison."
+    },
+    {
+      "requirement": "three training initializations",
+      "status": "missing",
+      "evidence": "Only initialization seed17 in current controlled comparisons"
+    },
+    {
+      "requirement": "independent final samples>=100 per condition plus sufficient movement samples",
+      "status": "missing",
+      "evidence": "Final900000-999999 untouched. Teacher comparison uses8shared development seeds; collection6801/6802 and visual assessment6901/6902 are development only."
+    },
+    {
+      "requirement": "actor only video history, prior commands and direction",
+      "status": "preserved_in_current_student",
+      "evidence": "No student changes this phase; privileged predictor is offline teacher only"
+    },
+    {
+      "requirement": "no hardware deployment or motor trial",
+      "status": "preserved",
+      "evidence": "Local artifacts only"
+    }
+  ],
+  "latest_teacher_only_diagnostic": "goal_reactive_clock_validation_20261113/REPORT.md"
+}

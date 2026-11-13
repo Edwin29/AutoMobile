@@ -1,0 +1,1523 @@
+{
+  "source_sha256": "486a1dde43fbfca3bb065263b3a89872edd51294a9bdb825c25d4c2b1666dba9",
+  "summary": {
+    "failed_cases": 86,
+    "exact_replays": 86,
+    "before_push": 6,
+    "after_push": 80,
+    "before_possible_response": 0,
+    "latency_range_s": [
+      0.1070610361577522,
+      0.24667046688731098
+    ]
+  },
+  "results": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3684521675298384
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 15.9813333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.4608295789574512
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.0173333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3684290305658848
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1820311710826736
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.829333333333293,
+      "response_latency_s": 0.21506103615775096,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.2064492800515119
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.2137222773176468
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.793333333333293,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3247081261106946
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 7.7733333333332935,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.701333333333294,
+      "response_latency_s": 0.24667046688731098,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.2737933062221476
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.793333333333293,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3303646574614358
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3684521675298313
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 15.9813333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.4608295789574939
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.0173333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3684290305658067
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1820311710826577
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.829333333333293,
+      "response_latency_s": 0.21506103615775096,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.2064492800516309
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.2137222773177658
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.793333333333293,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3247081261106963
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 7.7733333333332935,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.701333333333294,
+      "response_latency_s": 0.24667046688731098,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.2737933062222666
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.793333333333293,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3303646574613488
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 15.893333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1252948110248155
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 15.893333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1680033226051094
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 15.909333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1192519748640493
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.053333333333203,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1155814143792355
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 16.0173333333332,
+      "response_latency_s": 0.2069152240368517,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0565310012002413
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.053333333333203,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0393190645229566
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.953333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.3870837060255443
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 7.917333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.829333333333293,
+      "response_latency_s": 0.21506103615775096,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1939673886341815
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.973333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.4353422887129188
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 0.6653333333333333,
+      "before_any_push": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 0.9173333333333336,
+      "before_any_push": true
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 0.6813333333333333,
+      "before_any_push": true
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 15.909333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1254114244422198
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 15.893333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0441513162247915
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 15.909333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1214359771520463
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0310807095557522
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 16.0173333333332,
+      "response_latency_s": 0.2069152240368517,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0576274216219304
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0481491761881898
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 16.23333333333321,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.2473809570115577
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 8.313333333333288,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.7668068446923133
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 8.313333333333288,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.7727417854998517
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 9.96933333333327,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.426363366302162
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 16.953333333333237,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.1053608112320674
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 9.609333333333273,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.3858282683599707
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 8.585333333333285,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.425928720580565
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 8.565333333333285,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.701333333333294,
+      "response_latency_s": 0.24667046688731098,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.538962887633799
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 8.549333333333285,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.443779400476263
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.989333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.634303354576069
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 7.989333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.829333333333293,
+      "response_latency_s": 0.21506103615775096,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.621692777956035
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.989333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6380933413948071
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.937333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.727698984298545
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.701333333333294,
+      "response_latency_s": 0.24667046688731098,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6607265366977018
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.917333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6973184409493864
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.865333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.043701515345374
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 7.845333333333293,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.829333333333293,
+      "response_latency_s": 0.21506103615775096,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.9244155488074561
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.881333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0932654938341368
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 0.6653333333333333,
+      "before_any_push": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 0.9333333333333336,
+      "before_any_push": true
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 0.6813333333333333,
+      "before_any_push": true
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.053333333333203,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.9646653510111385
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 16.073333333333203,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.1890328505120706
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.0173333333332,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.9203205944951467
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0529344795471243
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 16.073333333333203,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 16.0173333333332,
+      "response_latency_s": 0.2069152240368517,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.378282525152688
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.0173333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.9734486486305425
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 15.857333333333202,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.931047825374403
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 15.893333333333201,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.119498485135182
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 15.873333333333202,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.9391628858488943
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.053333333333203,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.92702440607993
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 16.0173333333332,
+      "response_latency_s": 0.2069152240368517,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.0014763473297563
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.0373333333332,
+      "before_any_push": false,
+      "push_start_s": 15.81041810929635,
+      "first_capture_s": 15.837333333333202,
+      "first_command_s": 15.873333333333202,
+      "earliest_actuation_step_start_s": 15.9293333333332,
+      "response_latency_s": 0.11891522403685073,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 0.9910762288217665
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.73733333333323,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.1717558643424297
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 16.953333333333237,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.0819339315436594
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.75733333333323,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.1426340851449126
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 8.585333333333285,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.4259287205804707
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 8.565333333333285,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.701333333333294,
+      "response_latency_s": 0.24667046688731098,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.5389628876339003
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 8.549333333333285,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.4437794004764655
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.989333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6358736872038548
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 7.989333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.829333333333293,
+      "response_latency_s": 0.21506103615775096,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6242257947099858
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.989333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.614272297175542,
+      "first_capture_s": 7.629333333333295,
+      "first_command_s": 7.665333333333295,
+      "earliest_actuation_step_start_s": 7.721333333333294,
+      "response_latency_s": 0.1070610361577522,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6429073663221985
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 7.937333333333291,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.7276989842984403
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "sluggish",
+      "first_incursion_s": 7.901333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.701333333333294,
+      "response_latency_s": 0.24667046688731098,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6607265366977604
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 7.917333333333292,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.6973184409493474
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "field_estimate",
+      "first_incursion_s": 16.845333333333233,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.1929933923742766
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "sluggish",
+      "first_incursion_s": 16.901333333333234,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.821333333333202,
+      "response_latency_s": 0.23342423129750145,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.1639569597573356
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "first_incursion_s": 16.881333333333234,
+      "before_any_push": false,
+      "push_start_s": 15.5879091020357,
+      "first_capture_s": 15.621333333333205,
+      "first_command_s": 15.657333333333204,
+      "earliest_actuation_step_start_s": 15.713333333333203,
+      "response_latency_s": 0.1254242312975027,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 2.2228910519133507
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "field_estimate",
+      "first_incursion_s": 8.313333333333288,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.766806844692379
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "first_incursion_s": 8.313333333333288,
+      "before_any_push": false,
+      "push_start_s": 7.454662866445983,
+      "first_capture_s": 7.485333333333297,
+      "first_command_s": 7.521333333333296,
+      "earliest_actuation_step_start_s": 7.5933333333332955,
+      "response_latency_s": 0.13867046688731222,
+      "incursion_before_possible_response": false,
+      "margin_at_push": 1.7727417854998322
+    }
+  ],
+  "interpretation": "Unavoidable from the realized onset state before new camera-driven actuation, not proof that a different earlier trajectory or the task is infeasible."
+}

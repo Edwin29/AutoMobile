@@ -1,0 +1,51 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "stage": "clearance_reference_validated_phase_entry_failure_localized",
+  "new_training": false,
+  "training_initializations": 1,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "actor_input_contract_changed": false,
+  "acceptance_changed": false,
+  "deployed_model_changed": false,
+  "incumbent_reference_checkpoint": "D:/autodrive_cnn/runs/goal_development_20261113/convergence_probe/best.pt",
+  "incumbent_reference_clean": 37,
+  "incumbent_reference_n": 72,
+  "new_models_adopted": false,
+  "latest_reports": [
+    "cnn_finetune/results/goal_clearance_validation_20261113/REPORT.md"
+  ],
+  "completed_current_comparison": {
+    "static_turn_paths": 20,
+    "selection_rollouts": 672,
+    "new_seed_paired_rollouts": 2688,
+    "phase_controlled_rollouts": 1920,
+    "phase_implementation_parity_checks": 24,
+    "exact_entry_failure_replays": 182,
+    "neural_training_runs": 0
+  },
+  "findings": [
+    "Frozen same_mode reference: new eight-seed all28 teacher normal663/672 to672/672; mild484/672 to544/672, turn-only292/480 to352/480",
+    "Mild per-movement90% unmet on13/28 movements; worst north_E_left0/24 and north_W_right1/24; no automatic reference or policy adoption",
+    "Both-clean turn paired median time increases .808s normal and1.008s mild; angular acceleration RMS also increases; no legacy full-mission comparison",
+    "Phase-controlled four-seed continuous-footprint entry151/240 to147/240, middle231/240 to234/240, exit143/240 to190/240; no-event240/240 both",
+    "Phase audit finds two sparse-footprint false-clean episodes; raw/frozen scores preserved, continuous-footprint corrected count reported",
+    "Exact entry-failure replay: baseline5/89 and reserve6/93 incur before earliest new command can influence wheels; conditional on realized approach state, not global infeasibility"
+  ],
+  "next": [
+    "Use phase-entry diagnosis to jointly plan approach pose/speed and body reserve; separate pre-response violations from later control failures",
+    "Constructively test causal recovery trajectories with the actual actuation delay and footprint before collecting new student labels; avoid merely widening curves or slowing every turn",
+    "Validate changed teacher across all28 movements and phase coverage, then a controlled image-policy learning comparison; preserve actor video/history/direction-only contract",
+    "Full mission integration and legacy comparison,three independent training initializations,predeclared feasible harsh envelope,and held-out final exam remain required"
+  ],
+  "user_decision_boundaries": [
+    "Acceptance thresholds",
+    "Actor input contract",
+    "Fundamental architecture or scope transition"
+  ],
+  "previous_goal_turn_classification": "progress"
+}

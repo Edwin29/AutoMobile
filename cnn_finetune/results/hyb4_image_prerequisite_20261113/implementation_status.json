@@ -1,0 +1,27 @@
+{
+  "stage": "prerequisite_image_gate_failed",
+  "implementation": "control/model/coordinator prototype; no bench or Pi registration",
+  "new_training": false,
+  "goal_resumed": false,
+  "test_count": 7,
+  "tests_passed": 7,
+  "oracle_clean": "24/24",
+  "image_clean": "21/24",
+  "source_sha256": {
+    "hyb4\\__init__.py": "6f0e90f799e94803d6c264b81758d774e4c897854634ebef0f3d99a05229a73d",
+    "hyb4\\control.py": "68b2161becd98fce15306b81ad1d5b0acd524b6403538fac105d22908d3b07c7",
+    "hyb4\\coordinator.py": "e0015c99d79612a6902c489b5b93541b1210853f0d5d2d7a2e515f62669ebbe2",
+    "hyb4\\image_pilot.py": "fa2a0412cba31f71f02131e27d506ede977c7ef9f725acaa7a6cf9145ed1eeaf",
+    "hyb4\\model.py": "fce7a95ab2e1fb8360f07b97f31de672141a116f0f61865a1b5c5aea066aa841",
+    "hyb4\\pilot.py": "c7d15c6ccdc1cacd68d507f0bcf1ca2ca2d336d30e4ba43f02bef5477533722f",
+    "hyb4\\report.py": "2233a7f2d6710808abe014328c2d77b14efdcb1ca4de8423dbb188a4ae75b6fa",
+    "hyb4\\test_control.py": "b0dd7200e2f80c20ecc71ee8fd80b4cdf1b619cf10254189142d4105716f0702",
+    "hyb4\\test_coordinator.py": "76398de9dee9046104ce35c06b7b45735195903f8d4b0315b5c3ba5ab37a1a31"
+  },
+  "next": "Report small-margin failure before expanding learning; inspect recovered laptop data separately",
+  "remaining_contract_checks": [
+    "Variable control interval pulse-density accuracy uses a previous-interval estimate in the coordinator; only known-interval allocation and fixed36ms simulations were validated",
+    "Handoff smoothing and actual bench/Pi adapters are not connected",
+    "CNN path geometry/loss and learned closed-loop performance have not been tested"
+  ]
+}

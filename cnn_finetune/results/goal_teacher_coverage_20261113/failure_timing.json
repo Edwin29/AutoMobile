@@ -1,0 +1,3910 @@
+{
+  "summary": {
+    "original_normal": {
+      "failures": 15,
+      "before_any_push": 15,
+      "within_1s_after_push": 0
+    },
+    "original_mild": {
+      "failures": 81,
+      "before_any_push": 15,
+      "within_1s_after_push": 60
+    },
+    "centered_normal": {
+      "failures": 6,
+      "before_any_push": 6,
+      "within_1s_after_push": 0
+    },
+    "centered_mild": {
+      "failures": 86,
+      "before_any_push": 6,
+      "within_1s_after_push": 65
+    }
+  },
+  "cases": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.3754001324882985,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.44942423129750075
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.9813333333332,
+      "min_margin_cm": -0.7348730840445725,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3934242312974998
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0173333333332,
+      "min_margin_cm": -0.390339990209867,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4294242312975012
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.08754696292339759,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -1.0017139641780375,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.8973333333333335,
+      "min_margin_cm": -0.07883127250248378,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.8613333333333335,
+      "min_margin_cm": -1.0543190396953719,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.10278196051841348,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -1.0219532552359922,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -1.3276693600032416,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -1.0215083265443248,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -1.200599873117099,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.9403463834063146,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -1.269422553864441,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.9896317988021011,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.7573333333332934,
+      "min_margin_cm": -1.5030812268120073,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.30267046688731014
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.793333333333293,
+      "min_margin_cm": -1.007176645136326,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.33867046688730973
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.737333333333294,
+      "min_margin_cm": -1.4370153817112303,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.28267046688731057
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.7733333333332935,
+      "min_margin_cm": -1.035001497132594,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.31867046688731016
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.7573333333332934,
+      "min_margin_cm": -1.5108745863785558,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.30267046688731014
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.793333333333293,
+      "min_margin_cm": -0.9909277888755383,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.33867046688730973
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.3754001324883376,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.44942423129750075
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.9813333333332,
+      "min_margin_cm": -0.7348730840445796,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3934242312974998
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0173333333332,
+      "min_margin_cm": -0.39033999020993093,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4294242312975012
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.08754696292338338,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -1.0017139641778883,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.8973333333333335,
+      "min_margin_cm": -0.078831272502498,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.8613333333333335,
+      "min_margin_cm": -1.0543190396953719,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.10278196051839927,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -1.0219532552359354,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -1.3276693600032061,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -1.0215083265443283,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -1.200599873117092,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.9403463834062151,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -1.2694225538644588,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.9896317988020158,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.7573333333332934,
+      "min_margin_cm": -1.5030812268119291,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.30267046688731014
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.793333333333293,
+      "min_margin_cm": -1.0071766451363402,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.33867046688730973
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.737333333333294,
+      "min_margin_cm": -1.4370153817112943,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.28267046688731057
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.7733333333332935,
+      "min_margin_cm": -1.0350014971324448,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.31867046688731016
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.7573333333332934,
+      "min_margin_cm": -1.5108745863785344,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.30267046688731014
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.793333333333293,
+      "min_margin_cm": -0.9909277888756236,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.33867046688730973
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.9813333333332,
+      "min_margin_cm": -1.5441458213859889,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3934242312974998
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.893333333333201,
+      "min_margin_cm": -1.279700584181235,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3054242312975006
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.9293333333332,
+      "min_margin_cm": -1.589143373494224,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3414242312975002
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.893333333333201,
+      "min_margin_cm": -1.2978710600877292,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3054242312975006
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.9453333333332,
+      "min_margin_cm": -1.548514713913633,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.35742423129750023
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.909333333333201,
+      "min_margin_cm": -1.2676375963377033,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.32142423129750064
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -0.43909638121190575,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.26291522403685263
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.053333333333203,
+      "min_margin_cm": -0.6433248770518389,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.24291522403685306
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -0.6989147494879262,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.26291522403685263
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.8343369327750878,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -0.4576439336962679,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.26291522403685263
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.053333333333203,
+      "min_margin_cm": -0.6981820868149189,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.24291522403685306
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.973333333333291,
+      "min_margin_cm": -0.28008835969079904,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3590610361577493
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.953333333333291,
+      "min_margin_cm": -0.34169966103373284,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.33906103615774974
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.937333333333291,
+      "min_margin_cm": -0.4527621545567211,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3230610361577497
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.518959619453284,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.30306103615775015
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.973333333333291,
+      "min_margin_cm": -0.2616340716856076,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3590610361577493
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.973333333333291,
+      "min_margin_cm": -0.2942739215640575,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3590610361577493
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5213333333333332,
+      "min_margin_cm": -0.3824952011122207,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7013333333333334,
+      "min_margin_cm": -0.1803142052845601,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5013333333333332,
+      "min_margin_cm": -0.3835364182529162,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -0.1935617748051328,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7373333333333334,
+      "min_margin_cm": -0.34858486574835723,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.9533333333333336,
+      "min_margin_cm": -0.13956804464243078,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7373333333333334,
+      "min_margin_cm": -0.36433831623541835,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.9173333333333336,
+      "min_margin_cm": -0.20594925512897255,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5213333333333332,
+      "min_margin_cm": -0.3706625779756223,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7173333333333334,
+      "min_margin_cm": -0.17627647810574842,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5013333333333332,
+      "min_margin_cm": -0.3979985307983611,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.19439767392883311,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 10.185333333333267,
+      "min_margin_cm": -1.4778113567920101,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 2.571061036157725
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.909333333333201,
+      "min_margin_cm": -1.274472752677518,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.32142423129750064
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 10.72533333333326,
+      "min_margin_cm": -1.466717343550254,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 3.111061036157719
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.893333333333201,
+      "min_margin_cm": -1.33680202692981,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3054242312975006
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 10.169333333333267,
+      "min_margin_cm": -1.4774965063962213,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 2.555061036157725
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 15.909333333333201,
+      "min_margin_cm": -1.2846105629687266,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.32142423129750064
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 9.701333333333272,
+      "min_margin_cm": -1.0382913838472874,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 2.2466704668872888
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.8505508870744336,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 10.205333333333266,
+      "min_margin_cm": -1.0999579343590824,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 2.750670466887283
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.8917849708179766,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 9.701333333333272,
+      "min_margin_cm": -1.0743907861373785,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 2.2466704668872888
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.8477661614140324,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.217333333333208,
+      "min_margin_cm": -0.049608022888332215,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.6294242312975076
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.23333333333321,
+      "min_margin_cm": -0.004016349439609712,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.6454242312975094
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.313333333333288,
+      "min_margin_cm": -0.03939330097606941,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.8586704668873049
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.313333333333288,
+      "min_margin_cm": -0.03705346853748814,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.8586704668873049
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0013333333332,
+      "min_margin_cm": -1.435231489746542,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4134242312974994
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 9.96933333333327,
+      "min_margin_cm": -0.17067264293782358,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 2.3550610361577275
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -1.3574444711185265,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4854242312975021
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.953333333333237,
+      "min_margin_cm": -0.14519873166501185,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.3654242312975367
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0013333333332,
+      "min_margin_cm": -1.464484066463669,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4134242312974994
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 9.609333333333273,
+      "min_margin_cm": -0.1895258318900659,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 1.9950610361577317
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.585333333333285,
+      "min_margin_cm": -0.17973925087712672,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 1.1306704668873016
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.217333333333208,
+      "min_margin_cm": -0.057465705152040414,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.4069152240368581
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.565333333333285,
+      "min_margin_cm": -0.2423927331266036,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 1.110670466887302
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.549333333333285,
+      "min_margin_cm": -0.17552942600219446,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 1.094670466887302
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.009333333333291,
+      "min_margin_cm": -0.1270715847001611,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3950610361577498
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.989333333333291,
+      "min_margin_cm": -0.2324622614737617,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.37506103615774933
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.009333333333291,
+      "min_margin_cm": -0.14476211068708622,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3950610361577498
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.989333333333291,
+      "min_margin_cm": -0.22397040248831424,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.37506103615774933
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.009333333333291,
+      "min_margin_cm": -0.15923623942090437,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3950610361577498
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.989333333333291,
+      "min_margin_cm": -0.2259040113610702,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.37506103615774933
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.14418696248805674,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4626704668873085
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.937333333333291,
+      "min_margin_cm": -0.04513385528728797,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4826704668873081
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.20325215318742984,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4466704668873085
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.13503583975506395,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4466704668873085
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.1301523749989162,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4626704668873085
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.07484097482202401,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4626704668873085
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.6250496932303822,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.865333333333292,
+      "min_margin_cm": -0.707776592099302,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.25106103615775055
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.865333333333292,
+      "min_margin_cm": -0.756764128849607,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.25106103615775055
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.845333333333293,
+      "min_margin_cm": -0.8293725049897596,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.23106103615775098
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.6461974611759427,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.28706103615775014
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.881333333333292,
+      "min_margin_cm": -0.6573511090707278,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.26706103615775056
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5213333333333332,
+      "min_margin_cm": -0.35785304300442533,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7173333333333334,
+      "min_margin_cm": -0.16634173689344323,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5213333333333332,
+      "min_margin_cm": -0.5296698516491709,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -0.4179828617775261,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7373333333333334,
+      "min_margin_cm": -0.341414653395276,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.9533333333333336,
+      "min_margin_cm": -0.13777597137891462,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7373333333333334,
+      "min_margin_cm": -0.6495341966409587,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.9333333333333336,
+      "min_margin_cm": -0.5635681516110349,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5213333333333332,
+      "min_margin_cm": -0.37191241377601614,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7173333333333334,
+      "min_margin_cm": -0.16252584228421085,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.5213333333333332,
+      "min_margin_cm": -0.5431114245874262,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.45316676107548126,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6813333333333333,
+      "min_margin_cm": -0.07577809420649828,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -0.11192635018095132,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.9173333333333336,
+      "min_margin_cm": -0.07672041255920448,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.8613333333333335,
+      "min_margin_cm": -0.09208686166049773,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.7013333333333334,
+      "min_margin_cm": -0.08779675053467173,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 0.6653333333333333,
+      "min_margin_cm": -0.10066392906098542,
+      "preceding_push": null,
+      "seconds_after_push": null
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.161333333333207,
+      "min_margin_cm": -0.1426090211636435,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.5734242312975066
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.053333333333203,
+      "min_margin_cm": -0.311903929597122,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.46542423129750254
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0173333333332,
+      "min_margin_cm": -0.5120190439503087,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4294242312975012
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -0.4185877187273448,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4854242312975021
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.181333333333207,
+      "min_margin_cm": -0.23695010170609265,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.5934242312975062
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0173333333332,
+      "min_margin_cm": -0.3602727169465876,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4294242312975012
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0013333333332,
+      "min_margin_cm": -0.8082274216743315,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.1909152240368499
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.848118988698003,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.089333333333204,
+      "min_margin_cm": -0.7003712271724893,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.2789152240368544
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -0.7848201053685973,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.26291522403685263
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0013333333332,
+      "min_margin_cm": -0.8254886983158123,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.1909152240368499
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0173333333332,
+      "min_margin_cm": -0.9174106407132836,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.2069152240368517
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.857333333333202,
+      "min_margin_cm": -0.8436901235273169,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.26942423129750104
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.857333333333202,
+      "min_margin_cm": -1.1240722934994025,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.26942423129750104
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.893333333333201,
+      "min_margin_cm": -1.2148344665711264,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3054242312975006
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.893333333333201,
+      "min_margin_cm": -1.3418069093049851,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.3054242312975006
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.873333333333202,
+      "min_margin_cm": -0.8702709783129112,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.28542423129750105
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 15.873333333333202,
+      "min_margin_cm": -1.098016000123632,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.28542423129750105
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.109333333333204,
+      "min_margin_cm": -0.4077020898013046,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.298915224036854
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.053333333333203,
+      "min_margin_cm": -0.7886292053868473,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.24291522403685306
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -0.6635533915574925,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.26291522403685263
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -1.005708147576243,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.089333333333204,
+      "min_margin_cm": -0.4116047146848132,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.2789152240368544
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0373333333332,
+      "min_margin_cm": -0.8656423329352592,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.22691522403685127
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0013333333332,
+      "min_margin_cm": -1.6238242584465183,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4134242312974994
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.73733333333323,
+      "min_margin_cm": -0.15347477392473863,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.1494242312975285
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.073333333333203,
+      "min_margin_cm": -1.544338372578867,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4854242312975021
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.953333333333237,
+      "min_margin_cm": -0.1480937205062034,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.3654242312975367
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.0173333333332,
+      "min_margin_cm": -1.652313009564402,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.4294242312975012
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.75733333333323,
+      "min_margin_cm": -0.1363872959212742,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.169424231297528
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.585333333333285,
+      "min_margin_cm": -0.17973925087715337,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 1.1306704668873016
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 16.217333333333208,
+      "min_margin_cm": -0.05746570515199778,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.81041810929635,
+        "duration": 0.4123876670258078,
+        "lateral_cm": 1.4387991075648197,
+        "yaw_deg": 2.0678351426411146
+      },
+      "seconds_after_push": 0.4069152240368581
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.565333333333285,
+      "min_margin_cm": -0.24239273312645082,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 1.110670466887302
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.549333333333285,
+      "min_margin_cm": -0.17552942600199728,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 1.094670466887302
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.009333333333291,
+      "min_margin_cm": -0.13858046969299131,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3950610361577498
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.989333333333291,
+      "min_margin_cm": -0.23519178678155406,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.37506103615774933
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.009333333333291,
+      "min_margin_cm": -0.1451381841831907,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3950610361577498
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.989333333333291,
+      "min_margin_cm": -0.231601902645016,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.37506103615774933
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.009333333333291,
+      "min_margin_cm": -0.15349722503509788,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.3950610361577498
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.989333333333291,
+      "min_margin_cm": -0.21936655542067562,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.614272297175542,
+        "duration": 0.42011916977419483,
+        "lateral_cm": -1.8975005835667687,
+        "yaw_deg": 1.6442441849750111
+      },
+      "seconds_after_push": 0.37506103615774933
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.14418696248803897,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4626704668873085
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.937333333333291,
+      "min_margin_cm": -0.04513385528738034,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4826704668873081
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.2032521531873428,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4466704668873085
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.901333333333292,
+      "min_margin_cm": -0.13503583975502131,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4466704668873085
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.1301523749989304,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4626704668873085
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 7.917333333333292,
+      "min_margin_cm": -0.07484097482205421,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.4626704668873085
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.577333333333222,
+      "min_margin_cm": -0.2887038861766058,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.9894242312975212
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.845333333333233,
+      "min_margin_cm": -0.06082717817692895,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.2574242312975326
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.109333333333204,
+      "min_margin_cm": -0.2758105669064115,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.5214242312975035
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "sluggish",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.901333333333234,
+      "min_margin_cm": -0.12263618556564637,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.3134242312975335
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "original",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.577333333333222,
+      "min_margin_cm": -0.29319829290025723,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 0.9894242312975212
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6201,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "unstable_exit",
+      "first_incursion_s": 16.881333333333234,
+      "min_margin_cm": -0.04415743378508097,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 15.5879091020357,
+        "duration": 0.6506308795225697,
+        "lateral_cm": -1.8576642173847162,
+        "yaw_deg": -2.759281212099013
+      },
+      "seconds_after_push": 1.293424231297534
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.313333333333288,
+      "min_margin_cm": -0.03939330097613336,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.8586704668873049
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "unequal_sides",
+      "variant": "centered",
+      "outcome": "stable_exit",
+      "first_incursion_s": 8.313333333333288,
+      "min_margin_cm": -0.03705346853749347,
+      "preceding_push": {
+        "kind": "push",
+        "t0": 7.454662866445983,
+        "duration": 0.47682352569238706,
+        "lateral_cm": -1.8242361372690141,
+        "yaw_deg": -2.2127674123865413
+      },
+      "seconds_after_push": 0.8586704668873049
+    }
+  ]
+}

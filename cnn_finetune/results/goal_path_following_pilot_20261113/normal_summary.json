@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "truth_now": {
+      "n": 24,
+      "clean": 20,
+      "stable": 24,
+      "wrong": 0,
+      "severe": 0,
+      "pauses": 0,
+      "position_error_p95_median": 0.0,
+      "median_time": 20.13133333333336
+    },
+    "truth_delayed": {
+      "n": 24,
+      "clean": 20,
+      "stable": 24,
+      "wrong": 0,
+      "severe": 0,
+      "pauses": 0,
+      "position_error_p95_median": 0.12875825557269105,
+      "median_time": 20.14933333333336
+    },
+    "vision": {
+      "n": 24,
+      "clean": 19,
+      "stable": 24,
+      "wrong": 0,
+      "severe": 0,
+      "pauses": 0,
+      "position_error_p95_median": 0.7701040296692883,
+      "median_time": 20.347333333333367
+    }
+  },
+  "expand_compound": false,
+  "paired_initials_events_exact": true,
+  "final_exam_used": false,
+  "new_training": false
+}

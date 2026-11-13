@@ -1,0 +1,21 @@
+{
+  "n": 8,
+  "before_clean": 4,
+  "after_clean": 7,
+  "gains": 3,
+  "losses": 0,
+  "stable": 8,
+  "pauses": 0,
+  "worst_clearance": -0.5302811937188121,
+  "failures": [
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22001,
+      "margin": -0.5302811937188121
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "7bbdb1899cbcfb0abdb774dfb88bbcf6cb5ac3c554cd9736244c50c86457659c",
+  "purpose": "Separate reference feasibility from fixed nominal motor compensation after the nominal controls failed",
+  "cases": "same24nominal cases as pilot, all retained",
+  "teacher": "unchanged ReserveTeacher,same_mode; true pose,velocity and actual preset; offline diagnostic only",
+  "selection": "No new controller tuning; known earlier teacher method",
+  "final_exam_used": false
+}

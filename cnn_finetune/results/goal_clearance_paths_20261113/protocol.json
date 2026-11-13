@@ -1,0 +1,181 @@
+{
+  "source_sha256": "8c4eefd08829a250eb9182e50ad3c7c574b55cbc557014d7e8663c9473ec43a3",
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "hypothesis": "A reference that reserves more body clearance can improve perturbation tolerance without reverting to a pivot controller",
+  "geometry": {
+    "seed": 20261113,
+    "target": "0.9 times achieved continuous clearance of old clearance-first path",
+    "search_buffer_cm": 0.02,
+    "segments": "three quintic Bezier segments with zero endpoint curvature",
+    "smooth_objective": "12 max curvature +60 curvature derivative energy +.6 curvature variation +.002 length",
+    "maxiter": 90,
+    "population": 42,
+    "postcheck": "continuous footprint at dense path samples must meet target; otherwise held"
+  },
+  "speed_arms": [
+    "same_mode",
+    "planned"
+  ],
+  "speed_mode": "same_mode retains current per-movement legacy/planned mode; planned applies spatial braking/acceleration to every turn",
+  "controller": "same corrected teacher gains heading1.3 lateral.08; no boundary guard, to isolate reference/speed change",
+  "evaluation": {
+    "seeds": [
+      6201,
+      6202
+    ],
+    "presets": [
+      "field_estimate",
+      "sluggish",
+      "unequal_sides"
+    ],
+    "conditions": [
+      "normal",
+      "mild"
+    ],
+    "movements": 28
+  },
+  "straight": "same original straight reference/controller in both arms; executed and retained",
+  "final_exam_used": false,
+  "selection": "report all movements, all candidates and failures; no automatic replacement"
+}

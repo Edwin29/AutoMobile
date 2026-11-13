@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "purpose": "development diagnosis, NOT final acceptance test",
+  "seeds": [
+    4101,
+    4102
+  ],
+  "keys": [
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ]
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "conditions": [
+    "normal",
+    "mild",
+    "mild_light"
+  ],
+  "policies": [
+    "teacher",
+    "bc",
+    "outcome"
+  ],
+  "design": "full cross of seed, vehicle, movement, condition; paired initial states and disturbances",
+  "local_metric": {
+    "first_exit_gate_cm": 55,
+    "stable_from_cm": 40,
+    "heading_deg": 10,
+    "hold_s": 1,
+    "margin_cm": 0,
+    "max_s": 40,
+    "lateral": "body inside road; 15cm arm assignment bound only",
+    "old_metric_retained": true,
+    "initial_invalid": "retain and report; cannot count as clean success"
+  },
+  "no_training_in_this_phase": true,
+  "checkpoint_sha256": {
+    "bc": "d43f149af426d284b925c1f50e74c6ca2d87a1c52e8ddfd7ac53277eee1df142",
+    "outcome": "d204d4de987e6d83e26cdbda3abfabf089c488d9174b0e3bdc39b59e11f07765"
+  },
+  "source_sha256": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3"
+}

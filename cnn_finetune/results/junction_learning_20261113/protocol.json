@@ -1,0 +1,126 @@
+{
+  "keys": [
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ]
+  ],
+  "train_seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+  ],
+  "development": [
+    1301,
+    1303
+  ],
+  "final_test": [
+    3001,
+    3007,
+    3011
+  ],
+  "initialization_seed": 17,
+  "training_replicates": 1,
+  "model": "frozen direct_v2 convolutional encoder -> LayerNorm/128 -> GRU64 -> signed LR head",
+  "student_inputs": [
+    "raw bottom-half YUV camera",
+    "previous applied signed PWM",
+    "left/right instruction"
+  ],
+  "forbidden_inputs": [
+    "truth pose",
+    "true velocity",
+    "junction identity",
+    "route progress",
+    "simulator parameters",
+    "time"
+  ],
+  "conditions": {
+    "normal": [
+      "fixed",
+      "typical"
+    ],
+    "mild": [
+      "mild",
+      "typical"
+    ],
+    "mild_light": [
+      "mild",
+      "harsh_light"
+    ],
+    "harsh": [
+      "harsh",
+      "harsh"
+    ]
+  },
+  "timing": {
+    "capture_period": 0.03333333333333333,
+    "latency": 0.036,
+    "physics_max_dt": 0.02
+  },
+  "allocator": {
+    "fixed_floor": 0.36,
+    "updates_per_command": 1
+  },
+  "train": {
+    "warm_epochs": 12,
+    "comparison_epochs": 8,
+    "lr": 0.0005,
+    "batch_episodes": 4,
+    "checkpoints": [
+      4,
+      8
+    ]
+  },
+  "comparison": "same warmstart, training data, order, optimizer and number of steps; BC vs BC+0.1 preference",
+  "preferences": {
+    "branch_times": [
+      6.0,
+      10.0
+    ],
+    "horizon_s": 8.0,
+    "intervention_steps": 20,
+    "actions": [
+      "student",
+      "teacher",
+      "left",
+      "right"
+    ],
+    "root_seeds": [
+      2001,
+      2002
+    ],
+    "conditions": [
+      "mild",
+      "mild_light"
+    ],
+    "sigma": [
+      0.15,
+      0.15
+    ],
+    "beta": 1.0,
+    "anchor": 0.1
+  },
+  "checkpoint_sha256": "e163bbdd809f99794f741ddc29af630cea6629e26611e9abbe47f401986eed11",
+  "teacher_registry_sha256": "a15db7a13181007d89ff52095435841d8319a5c3fbc0c232d1cc05f14f5a028b",
+  "source_sha256": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0"
+}

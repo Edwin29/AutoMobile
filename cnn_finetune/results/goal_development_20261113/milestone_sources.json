@@ -1,0 +1,14 @@
+{
+  "goal_bc_convergence.py": "23eac51fcaba590614ed6a293893d9357dad0ecfac7c2f08b2344fe0976ffd60",
+  "goal_candidate_evaluation.py": "f48386309ce6844701d76d6a208eb911426f8ccdaa2445ba823f4a43ea330d2f",
+  "goal_development.py": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3",
+  "goal_diagnostics.py": "0a58f4ee9890dd8f3415d0aa1efdfa7835f3d6127face7de086d1876b758def5",
+  "goal_direction_probe.py": "02564ed114ebb0a600719643a176e7a123994d6f78325ad089c62de5ddfcfa93",
+  "goal_exit_reference_probe.py": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b",
+  "goal_gradient_audit.py": "063f9868f39559512e1e3dee53f156f8ddaa1882e39b6408fe05e5fa44534dce",
+  "goal_optimization_audit.py": "870c63b3ae744a7dc8186a451f46cd5b0baedcab42f6d67d260beb9838f825aa",
+  "goal_recovery_feasibility.py": "1574d1c414019788cb3ccfce6d323bfd39d90840c986996ae4601818a8906ac0",
+  "goal_report.py": "bb1d4d3cce344c6021045cd1b8c52210095d29b9b2977168a5662c55fd592c55",
+  "goal_teacher_probe.py": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5",
+  "goal_teacher_validation.py": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd"
+}

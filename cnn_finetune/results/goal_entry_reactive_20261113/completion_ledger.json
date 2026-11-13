@@ -1,0 +1,51 @@
+{
+  "goal_complete": false,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "requirements": [
+    {
+      "requirement": "full mission normal>=99%, weak>=95%, feasible harsh>=80%",
+      "status": "unproven",
+      "evidence": "No final full-mission student execution. Static32-route draft and10 episode-scoring gate tests are preparation only."
+    },
+    {
+      "requirement": "zero wrong exit/severe departure normal and weak",
+      "status": "partial_local_only",
+      "evidence": "Nominal-constrained student72/72 stable local exit but only38/72 clean; not full mission or held-out exam"
+    },
+    {
+      "requirement": "each required movement weak>=90%",
+      "status": "not_met",
+      "evidence": "New offline causal teacher325/360 across20 turns and3 phase triggers; only2 shared seeds, per-movement failures remain. No all28 student or illumination evidence."
+    },
+    {
+      "requirement": "smooth turns>=95%, safer/smoother and no time regression vs legacy",
+      "status": "unproven",
+      "evidence": "Hold035 has0 translation pauses in360 event-exposed local teacher episodes; finer turn-only motion and actual legacy time/angular acceleration comparison remain unproven."
+    },
+    {
+      "requirement": "three training initializations",
+      "status": "missing",
+      "evidence": "Only initialization seed17 in current controlled comparisons"
+    },
+    {
+      "requirement": "independent final samples>=100 per condition plus sufficient movement samples",
+      "status": "missing",
+      "evidence": "Final9xxxxx seeds remain untouched; current168 normal teacher cases cross only two development seeds"
+    },
+    {
+      "requirement": "actor only video history, prior commands and direction",
+      "status": "preserved_in_current_student",
+      "evidence": "No student changes this phase; privileged predictor is offline teacher only"
+    },
+    {
+      "requirement": "no hardware deployment or motor trial",
+      "status": "preserved",
+      "evidence": "Local artifacts only"
+    }
+  ],
+  "latest_teacher_only_diagnostic": "goal_entry_reactive_20261113/REPORT.md"
+}

@@ -1,0 +1,61 @@
+{
+  "results": {
+    "warm": {
+      "losses": {
+        "teacher": 0.021609626537375273,
+        "branches": 0.13732873858118438,
+        "weighted_preference": 0.06931471824645996
+      },
+      "norms": {
+        "teacher": 0.16121046245098114,
+        "branches": 0.6364697813987732,
+        "weighted_preference": 0.7202413082122803
+      },
+      "cosine": {
+        "teacher__branches": 0.8483840823173523,
+        "teacher__weighted_preference": 0.3634900748729706,
+        "branches__weighted_preference": 0.5574297308921814
+      }
+    },
+    "bc4": {
+      "losses": {
+        "teacher": 0.02956207945109794,
+        "branches": 0.10521309470163132,
+        "weighted_preference": 0.08298290250522475
+      },
+      "norms": {
+        "teacher": 0.9285500645637512,
+        "branches": 0.37030553817749023,
+        "weighted_preference": 0.5628572702407837
+      },
+      "cosine": {
+        "teacher__branches": 0.7729122042655945,
+        "teacher__weighted_preference": -0.32585588097572327,
+        "branches__weighted_preference": -0.3985694348812103
+      }
+    },
+    "outcome8": {
+      "losses": {
+        "teacher": 0.02936545779826573,
+        "branches": 0.1448020617432767,
+        "weighted_preference": 0.032742401014172265
+      },
+      "norms": {
+        "teacher": 0.4373379349708557,
+        "branches": 0.7402530908584595,
+        "weighted_preference": 0.36794033646583557
+      },
+      "cosine": {
+        "teacher__branches": 0.5536410808563232,
+        "teacher__weighted_preference": 0.667396068572998,
+        "branches__weighted_preference": 0.05665632337331772
+      }
+    }
+  },
+  "teacher_episodes": 94,
+  "branch_sequences": 128,
+  "preference_pairs": 31,
+  "aggregation": "Frame/turn-weighted BC within each data source; equal pair preference mean with actual 0.1 mix. Pre-clipping gradients; not full minibatch trajectory.",
+  "no_updates": true,
+  "interpretation": "Negative cosine is local objective conflict at this checkpoint; not proof of causal generalization failure."
+}

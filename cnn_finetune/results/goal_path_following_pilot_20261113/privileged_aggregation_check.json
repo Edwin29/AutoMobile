@@ -1,0 +1,5 @@
+{
+  "n": 24,
+  "initials_keys_presets_seeds_exact": true,
+  "issue": "Post-run in-memory tuple vs JSON list comparison; loaded saved JSON for both arms. No rerun or physics changes."
+}

@@ -1,0 +1,575 @@
+{
+  "checkpoint": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\models\\outcome\\epoch_4.pt",
+  "sha256": "b14f2814fa934ba352e6cc9a28f2ac58d6666a1d3466c1d5eb8fa90ac39f83c6",
+  "split": "dev",
+  "results": [
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -2.840720370831188,
+      "final_lateral_cm": 3.012165015223232,
+      "final_heading_deg": 179.17424274149022,
+      "outside_s": 7.039999999999937,
+      "accel_rms_cm_s2": 5.276892645821561,
+      "angular_accel_rms_rad_s2": 0.454271203627346,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "wrong_exit",
+      "simulated_s": 22.481333333333446,
+      "frames": 623,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_left_normal_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -2.4660334149626095,
+      "final_lateral_cm": 4.919389885078374,
+      "final_heading_deg": 173.89099696693262,
+      "outside_s": 8.804000000000162,
+      "accel_rms_cm_s2": 5.007016031230475,
+      "angular_accel_rms_rad_s2": 0.45131545992486344,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.887521849343848,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 13.441811483989554
+        },
+        {
+          "event_end_s": 16.013541920074424,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 5.315791413258978
+        }
+      ],
+      "unrecovered": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "wrong_exit",
+      "simulated_s": 21.329333333333402,
+      "frames": 591,
+      "push_exposure_s": 1.2556628345716847,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_left_mild_light_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": 0.04479452670869932,
+      "final_lateral_cm": 58.11797837187433,
+      "final_heading_deg": 90.24808868588953,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 5.678453838975848,
+      "angular_accel_rms_rad_s2": 0.455951585921102,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "time_limit",
+      "simulated_s": 40.02933333333411,
+      "frames": 1111,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_right_normal_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": 0.03003311162487421,
+      "final_lateral_cm": 55.06664412219901,
+      "final_heading_deg": 87.43704182111767,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 5.320659024905302,
+      "angular_accel_rms_rad_s2": 0.4125658656370666,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.887521849343848,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 32.14181148399026
+        },
+        {
+          "event_end_s": 16.013541920074424,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 24.015791413259684
+        }
+      ],
+      "unrecovered": 2,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "time_limit",
+      "simulated_s": 40.02933333333411,
+      "frames": 1111,
+      "push_exposure_s": 1.2556628345716847,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_right_mild_light_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -1.2773749047217429,
+      "final_lateral_cm": 54.24632416999786,
+      "final_heading_deg": 93.9432005433053,
+      "outside_s": 3.7733333333333006,
+      "accel_rms_cm_s2": 5.1623582338895275,
+      "angular_accel_rms_rad_s2": 0.45651593197833795,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "time_limit",
+      "simulated_s": 40.02933333333411,
+      "frames": 1111,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\south_N_right_normal_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -1.1431686157233543,
+      "final_lateral_cm": 49.79773537272571,
+      "final_heading_deg": 89.11726264517645,
+      "outside_s": 8.009333333333378,
+      "accel_rms_cm_s2": 5.097310493669234,
+      "angular_accel_rms_rad_s2": 0.4181115299104299,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.887521849343848,
+          "recovered": true,
+          "recovery_s": 3.289811483989407,
+          "restricted_s": 3.289811483989407
+        },
+        {
+          "event_end_s": 16.013541920074424,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 24.015791413259684
+        }
+      ],
+      "unrecovered": 1,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "time_limit",
+      "simulated_s": 40.02933333333411,
+      "frames": 1111,
+      "push_exposure_s": 1.2556628345716847,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\south_N_right_mild_light_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -3.752459390998589,
+      "final_lateral_cm": 40.019493289517236,
+      "final_heading_deg": 87.94229066612898,
+      "outside_s": 15.921333333333308,
+      "accel_rms_cm_s2": 5.270286634728018,
+      "angular_accel_rms_rad_s2": 0.49556266741435606,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "wrong_exit",
+      "simulated_s": 18.6093333333333,
+      "frames": 515,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\center_N_right_normal_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -4.8844432747415105,
+      "final_lateral_cm": 40.01189248125211,
+      "final_heading_deg": 85.14108013804889,
+      "outside_s": 17.909333333333347,
+      "accel_rms_cm_s2": 4.929497934597104,
+      "angular_accel_rms_rad_s2": 0.4487386540655084,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.887521849343848,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 11.929811483989496
+        },
+        {
+          "event_end_s": 16.013541920074424,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 3.803791413258921
+        }
+      ],
+      "unrecovered": 2,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 1301,
+      "preset": "field_estimate",
+      "outcome": "wrong_exit",
+      "simulated_s": 19.817333333333345,
+      "frames": 549,
+      "push_exposure_s": 1.2556628345716847,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\center_N_right_mild_light_1301"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -3.668311153808215,
+      "final_lateral_cm": 66.25235959611608,
+      "final_heading_deg": 114.74728055023667,
+      "outside_s": 16.488000000000305,
+      "accel_rms_cm_s2": 1.9748241549033305,
+      "angular_accel_rms_rad_s2": 0.2348301275718093,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "time_limit",
+      "simulated_s": 40.02933333333411,
+      "frames": 1111,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_left_normal_1303"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -3.022824257145615,
+      "final_lateral_cm": 2.0397162770407675,
+      "final_heading_deg": 176.44177056489062,
+      "outside_s": 9.107999999999919,
+      "accel_rms_cm_s2": 2.4836660657149956,
+      "angular_accel_rms_rad_s2": 0.27145397748903594,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.815309432239429,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 15.330023901094043
+        },
+        {
+          "event_end_s": 15.764542337337353,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 7.380790995996119
+        }
+      ],
+      "unrecovered": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "wrong_exit",
+      "simulated_s": 23.145333333333472,
+      "frames": 641,
+      "push_exposure_s": 0.8895136902852192,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_left_mild_light_1303"
+    },
+    {
+      "stable_success": true,
+      "stable_exit_s": 21.633333333333415,
+      "clean_stable": true,
+      "min_margin_cm": 0.5308086661799329,
+      "final_lateral_cm": 0.558527950803807,
+      "final_heading_deg": 2.927677991608043,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 2.398039996508854,
+      "angular_accel_rms_rad_s2": 0.2193838323209537,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 21.633333333333415,
+      "frames": 599,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_right_normal_1303"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -0.5556110076041296,
+      "final_lateral_cm": 35.97132203318131,
+      "final_heading_deg": 86.60508053043688,
+      "outside_s": 4.607999999999947,
+      "accel_rms_cm_s2": 2.2155427126329426,
+      "angular_accel_rms_rad_s2": 0.22599286697016052,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.815309432239429,
+          "recovered": true,
+          "recovery_s": 13.13402390109396,
+          "restricted_s": 13.13402390109396
+        },
+        {
+          "event_end_s": 15.764542337337353,
+          "recovered": true,
+          "recovery_s": 5.184790995996035,
+          "restricted_s": 5.184790995996035
+        }
+      ],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "time_limit",
+      "simulated_s": 40.02933333333411,
+      "frames": 1111,
+      "push_exposure_s": 0.8895136902852192,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\east_W_right_mild_light_1303"
+    },
+    {
+      "stable_success": true,
+      "stable_exit_s": 21.597333333333413,
+      "clean_stable": false,
+      "min_margin_cm": -0.9256874811450526,
+      "final_lateral_cm": 0.449975526123481,
+      "final_heading_deg": 0.3140937126134105,
+      "outside_s": 1.475999999999984,
+      "accel_rms_cm_s2": 2.265845772973299,
+      "angular_accel_rms_rad_s2": 0.23205191346161266,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 21.597333333333413,
+      "frames": 598,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\south_N_right_normal_1303"
+    },
+    {
+      "stable_success": true,
+      "stable_exit_s": 21.48933333333341,
+      "clean_stable": false,
+      "min_margin_cm": -1.6140104103856103,
+      "final_lateral_cm": 0.2838025336422447,
+      "final_heading_deg": 3.303282349530134,
+      "outside_s": 5.059999999999942,
+      "accel_rms_cm_s2": 2.3616703247750483,
+      "angular_accel_rms_rad_s2": 0.24793965243233598,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.815309432239429,
+          "recovered": true,
+          "recovery_s": 6.350023901093792,
+          "restricted_s": 6.350023901093792
+        },
+        {
+          "event_end_s": 15.764542337337353,
+          "recovered": true,
+          "recovery_s": 3.620790995995975,
+          "restricted_s": 3.620790995995975
+        }
+      ],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 21.48933333333341,
+      "frames": 595,
+      "push_exposure_s": 0.8895136902852192,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\south_N_right_mild_light_1303"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -5.826877303572116,
+      "final_lateral_cm": 40.03878434172093,
+      "final_heading_deg": 86.60423693396147,
+      "outside_s": 14.9760000000001,
+      "accel_rms_cm_s2": 2.4234278286232502,
+      "angular_accel_rms_rad_s2": 0.28298221904309095,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "wrong_exit",
+      "simulated_s": 21.401333333333405,
+      "frames": 593,
+      "push_exposure_s": 0.0,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\center_N_right_normal_1303"
+    },
+    {
+      "stable_success": false,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -6.852086306268934,
+      "final_lateral_cm": 40.04326477025684,
+      "final_heading_deg": 89.02560217988906,
+      "outside_s": 10.347999999999939,
+      "accel_rms_cm_s2": 2.3608348398725876,
+      "angular_accel_rms_rad_s2": 0.2938084472505552,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.815309432239429,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 12.88202390109395
+        },
+        {
+          "event_end_s": 15.764542337337353,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 4.932790995996026
+        }
+      ],
+      "unrecovered": 2,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 1303,
+      "preset": "sluggish",
+      "outcome": "wrong_exit",
+      "simulated_s": 20.69733333333338,
+      "frames": 573,
+      "push_exposure_s": 0.8895136902852192,
+      "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\evaluations\\dev_outcome_4\\center_N_right_mild_light_1303"
+    }
+  ]
+}

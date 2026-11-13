@@ -1,0 +1,6497 @@
+{
+  "summary": {
+    "cases": 23,
+    "branches": 460,
+    "clean_branch_found": 3,
+    "clean_until_next_push_found": 3,
+    "incursion_before_first_new_command": 0
+  },
+  "results": [
+    {
+      "case": {
+        "episode": 3,
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "field_estimate",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.040841978046609384,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.010541210659654965,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 5.109333333333324,
+        "seconds_to_incursion": 0.10799999999999876,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": -0.25
+        },
+        "index": 0,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.0010435210185608668,
+        "first_incursion_s": 5.109333333333324,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0010435210185608668,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.006305522695800647,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.02322305378323719,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1430657249231686,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.35443293082911786,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0053459500161725515,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.006574995565204134,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.009910637138377254,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.12742331064229795,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.34848557041011397,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.003388145379222607,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.005410056388457818,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.010541210659654965,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1308383038348886,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3145908077741044,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.002595047236038539,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.00463168220016108,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.012505857738769777,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.14232097411075095,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.31434785507917695,
+          "first_incursion_s": 5.109333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 9,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "field_estimate",
+        "root_s": 12.021333333333246,
+        "root_margin_cm": 0.9910680413806219,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -8.53935922463991,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 12.237333333333243,
+        "seconds_to_incursion": 0.21599999999999753,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -8.100243174395988,
+        "first_incursion_s": 12.221333333333243,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.290144068223185,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.223019376191825,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.162690132904732,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.100243174395988,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.100243174395988,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.461944003098026,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.409266530887615,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.350825280148694,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.175949802077021,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.100243174395988,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.622959040415964,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.58538467980016,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.53935922463991,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.286827155409764,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.100243174395988,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.688452186094771,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.654446637153946,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.585277604180952,
+          "first_incursion_s": 12.237333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.331710427639905,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.100243174395988,
+          "first_incursion_s": 12.221333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 9,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "field_estimate",
+        "root_s": 16.0173333333332,
+        "root_margin_cm": 0.4021490914683241,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -9.926964704566863,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 16.181333333333207,
+        "seconds_to_incursion": 0.16400000000000503,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -9.794489366915165,
+        "first_incursion_s": 16.161333333333207,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.856220530386892,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.83462278167643,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.81169517153463,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.794489366915165,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.794489366915165,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.897620140977608,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.884998572127078,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.869415404492866,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.794542896480102,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.794489366915165,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.939706192826232,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.935521304376323,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.926964704566863,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.822915966085088,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.794489366915165,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.956299953729925,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.954968449373546,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.939301968704108,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.836394959403297,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.794489366915165,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 10,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6101,
+        "preset": "field_estimate",
+        "root_s": 12.021333333333246,
+        "root_margin_cm": 0.956491082248121,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -8.359889311666835,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 12.257333333333243,
+        "seconds_to_incursion": 0.2359999999999971,
+        "next_push_s": 15.08057413544239,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -7.9176974707051375,
+        "first_incursion_s": 12.257333333333243,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.093081104788634,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.037265415934389,
+          "first_incursion_s": 12.273333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.974617189874678,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.9176974707051375,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.9176974707051375,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.264876200844178,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.215596392353426,
+          "first_incursion_s": 12.273333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.163156241155406,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.98739289271562,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.9176974707051375,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.424986187289338,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.386025035504051,
+          "first_incursion_s": 12.273333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.359889311666835,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.103516130751855,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.9176974707051375,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.489254676293632,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.462431775598706,
+          "first_incursion_s": 12.273333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.399901541361046,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.140268371849647,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.91830742161268,
+          "first_incursion_s": 12.257333333333243,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 18,
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "sluggish",
+        "root_s": 8.025333333333291,
+        "root_margin_cm": 0.07699484337309137,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.015258320087450983,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 8.313333333333288,
+        "seconds_to_incursion": 0.2879999999999967,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.5,
+          "diff_offset": -0.25
+        },
+        "index": 5,
+        "outcome": "stable_exit",
+        "min_margin_cm": 0.018650850858872303,
+        "first_incursion_s": null,
+        "clean_to_next_push": true,
+        "clean_continuation": true
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.08531745123877243,
+          "first_incursion_s": 8.313333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.16271383505981163,
+          "first_incursion_s": 8.297333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.2017008557745097,
+          "first_incursion_s": 8.277333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.22888586478935835,
+          "first_incursion_s": 8.277333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.25228773150634787,
+          "first_incursion_s": 8.261333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.018650850858872303,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.018715285064125453,
+          "first_incursion_s": 8.313333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.07094710692379103,
+          "first_incursion_s": 8.297333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.10275930625449625,
+          "first_incursion_s": 8.277333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.13944932065018634,
+          "first_incursion_s": 8.277333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.018639877101835012,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.01082739898096996,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.015258320087450983,
+          "first_incursion_s": 8.313333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.044075967590817555,
+          "first_incursion_s": 8.297333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.06930399495946915,
+          "first_incursion_s": 8.277333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.018597503138961358,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.018397556530695525,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.0014316044997961797,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.029503663920168677,
+          "first_incursion_s": 8.297333333333288,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.04951043654254761,
+          "first_incursion_s": 8.277333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 21,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "sluggish",
+        "root_s": 12.021333333333246,
+        "root_margin_cm": 0.9724097090990682,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -6.761529746605597,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 12.401333333333241,
+        "seconds_to_incursion": 0.37999999999999545,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -6.295872635007479,
+        "first_incursion_s": 12.401333333333241,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.466045993319064,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.409950956858009,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.340995603792203,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.295872635007479,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.295872635007479,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.660633993225359,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.606756148086476,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.557056602038314,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.363048463935273,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.295872635007479,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.853131282493079,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.804292543553803,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.761529746605597,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.47905862606947,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.295872635007479,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.934464657904362,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.888456423879347,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.8103418707531596,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.529936501528596,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.295872635007479,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 21,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "sluggish",
+        "root_s": 16.0173333333332,
+        "root_margin_cm": 0.4012118937414826,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -10.086848949551577,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 16.325333333333212,
+        "seconds_to_incursion": 0.3080000000000105,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -9.95567515221105,
+        "first_incursion_s": 16.325333333333212,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.978220886171826,
+          "first_incursion_s": 16.361333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.97311653453512,
+          "first_incursion_s": 16.341333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.9634899851944,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.95567515221105,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.95567515221105,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.026209816192008,
+          "first_incursion_s": 16.361333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.028142482446057,
+          "first_incursion_s": 16.341333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.025224994460121,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.955808405814118,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.95567515221105,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.074351637774527,
+          "first_incursion_s": 16.361333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.083266122915877,
+          "first_incursion_s": 16.341333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.086848949551577,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.985304436679293,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.95567515221105,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.093198930601375,
+          "first_incursion_s": 16.361333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.10572749756101,
+          "first_incursion_s": 16.341333333333214,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.099281340990018,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.999298271632274,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.95567515221105,
+          "first_incursion_s": 16.325333333333212,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 22,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6101,
+        "preset": "sluggish",
+        "root_s": 12.021333333333246,
+        "root_margin_cm": 1.0766480652249673,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -6.982025775327184,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 12.417333333333241,
+        "seconds_to_incursion": 0.39599999999999547,
+        "next_push_s": 15.08057413544239,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -6.518009625238123,
+        "first_incursion_s": 12.401333333333241,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.662725950659585,
+          "first_incursion_s": 12.45333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.607974914018021,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.545996453238517,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.518009625238123,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.518009625238123,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.846803558868233,
+          "first_incursion_s": 12.45333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.808789680626754,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.767225703243418,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.5730940253010814,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.518009625238123,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.053007059752355,
+          "first_incursion_s": 12.45333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.004298102523455,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.982025775327184,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.7091029927597585,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.518009625238123,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.133486671199439,
+          "first_incursion_s": 12.45333333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.088256362513468,
+          "first_incursion_s": 12.43733333333324,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -7.016669966891621,
+          "first_incursion_s": 12.417333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.747447077620459,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.518009625238123,
+          "first_incursion_s": 12.401333333333241,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 30,
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.3821757046371097,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.3889409004001152,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 6.173333333333312,
+        "seconds_to_incursion": 1.1719999999999864,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": false,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": 0.016552301608015796,
+        "first_incursion_s": null,
+        "clean_to_next_push": true,
+        "clean_continuation": true
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4683855091685647,
+          "first_incursion_s": 6.513333333333308,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.2797999577383177,
+          "first_incursion_s": 6.5493333333333075,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0969140601100591,
+          "first_incursion_s": 7.377333333333298,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.016552301608015796,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.03713620610202639,
+          "first_incursion_s": 5.633333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6375984189514128,
+          "first_incursion_s": 6.31733333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4364093970785703,
+          "first_incursion_s": 6.33333333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.31771862616288615,
+          "first_incursion_s": 6.31733333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.10030930546103889,
+          "first_incursion_s": 6.405333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.07262919285705038,
+          "first_incursion_s": 5.561333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8370481159384013,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5935357703333306,
+          "first_incursion_s": 6.189333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3889409004001152,
+          "first_incursion_s": 6.173333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1783295264428446,
+          "first_incursion_s": 6.065333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.13387585337810748,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8947564023929022,
+          "first_incursion_s": 6.065333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6524892418667356,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4441926816525541,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.21974552606443254,
+          "first_incursion_s": 5.993333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.14854133747324738,
+          "first_incursion_s": 5.505333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 31,
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.32373071108555784,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.54010996982697,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 6.101333333333312,
+        "seconds_to_incursion": 1.0999999999999872,
+        "next_push_s": 7.114412139807693,
+        "before_next_push": true,
+        "within_1s": false,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.12
+        },
+        "index": 3,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.01462273461456931,
+        "first_incursion_s": 6.5493333333333075,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4058546539168404,
+          "first_incursion_s": 6.461333333333308,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.29718225458279335,
+          "first_incursion_s": 6.425333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1387411358663826,
+          "first_incursion_s": 6.425333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.01462273461456931,
+          "first_incursion_s": 6.5493333333333075,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.15918770950188588,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6947035973106228,
+          "first_incursion_s": 6.209333333333311,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.49247915084078997,
+          "first_incursion_s": 6.261333333333311,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3185218981146427,
+          "first_incursion_s": 6.189333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.20189864173639016,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.16679156661696481,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.9576628782703462,
+          "first_incursion_s": 6.045333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7052216403792588,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.54010996982697,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.36028549333162196,
+          "first_incursion_s": 5.957333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1565301405528885,
+          "first_incursion_s": 5.561333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.0470638837462687,
+          "first_incursion_s": 5.993333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.808988166827648,
+          "first_incursion_s": 6.045333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5994727922595064,
+          "first_incursion_s": 6.029333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.38411988005239195,
+          "first_incursion_s": 5.901333333333315,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.17538601723038738,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 32,
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.5746970662926909,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.20768958035355922,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 6.713333333333305,
+        "seconds_to_incursion": 1.7119999999999802,
+        "next_push_s": 7.114412139807693,
+        "before_next_push": true,
+        "within_1s": false,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.0
+        },
+        "index": 2,
+        "outcome": "stable_exit",
+        "min_margin_cm": 0.20011617166780837,
+        "first_incursion_s": null,
+        "clean_to_next_push": true,
+        "clean_continuation": true
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1701486520940776,
+          "first_incursion_s": 6.785333333333305,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.024574038076123017,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.20011617166780837,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.12749735929417483,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.1631150034463147,
+          "first_incursion_s": 5.46933333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4256140360869445,
+          "first_incursion_s": 6.5333333333333075,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.22503158897164788,
+          "first_incursion_s": 6.693333333333306,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.06452870633233765,
+          "first_incursion_s": 7.017333333333302,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": 0.15650526574123624,
+          "first_incursion_s": null,
+          "clean_to_next_push": true,
+          "clean_continuation": true
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.10993496706473138,
+          "first_incursion_s": 5.46933333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6205758281953049,
+          "first_incursion_s": 6.405333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3835744102122618,
+          "first_incursion_s": 6.441333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.20768958035355922,
+          "first_incursion_s": 6.713333333333305,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.021439933471178563,
+          "first_incursion_s": 7.073333333333301,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.09751582741090914,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6482977794380727,
+          "first_incursion_s": 6.33333333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.44101524995265784,
+          "first_incursion_s": 6.405333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.2554682618035695,
+          "first_incursion_s": 6.5493333333333075,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.046777721384012594,
+          "first_incursion_s": 6.909333333333303,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.14152488130270058,
+          "first_incursion_s": 5.46933333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 33,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 8.025333333333291,
+        "root_margin_cm": 0.5953208136382493,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -1.497872362401809,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 8.225333333333289,
+        "seconds_to_incursion": 0.1999999999999975,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 1.2,
+          "diff_offset": -0.25
+        },
+        "index": 15,
+        "outcome": "stable_exit",
+        "min_margin_cm": -1.1500470598598476,
+        "first_incursion_s": 8.261333333333289,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.8129161460662147,
+          "first_incursion_s": 8.261333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.952072679021514,
+          "first_incursion_s": 8.241333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -2.0836442618668762,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -2.179890027515148,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -2.2808988129793324,
+          "first_incursion_s": 8.20533333333329,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.5820225338569358,
+          "first_incursion_s": 8.261333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.6494843757233593,
+          "first_incursion_s": 8.241333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.7541941920868762,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.8736289451335324,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -2.002055179778722,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.2651824261648752,
+          "first_incursion_s": 8.261333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.3759691881431806,
+          "first_incursion_s": 8.241333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.497872362401809,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.6323719240913004,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.788626122205013,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.1500470598598476,
+          "first_incursion_s": 8.261333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.2526511718013733,
+          "first_incursion_s": 8.241333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.4058748844870887,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.545343479540799,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.717561617571402,
+          "first_incursion_s": 8.225333333333289,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 33,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 16.0173333333332,
+        "root_margin_cm": 0.19171080428169418,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -9.15899675088136,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 16.181333333333207,
+        "seconds_to_incursion": 0.16400000000000503,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.25
+        },
+        "index": 4,
+        "outcome": "stable_exit",
+        "min_margin_cm": -8.926199726352891,
+        "first_incursion_s": 16.181333333333207,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.051180941373861,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.014742771579144,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.974463615339431,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.927046136309528,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.926199726352891,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.11919370927182,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.095618581701153,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.066774001949383,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.991713353829038,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.926199726352891,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.188019806721194,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.176632702795402,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.15899675088136,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.051199355499033,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.92724721115112,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.21591647131654,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.209365294710604,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.17918285888819,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -9.074573545099291,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -8.946006651930688,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 34,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 8.025333333333291,
+        "root_margin_cm": 1.7239295021493,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.3982779274264061,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 8.441333333333287,
+        "seconds_to_incursion": 0.41599999999999504,
+        "next_push_s": 15.08057413544239,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 1.0,
+          "diff_offset": -0.25
+        },
+        "index": 10,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.349398262002369,
+        "first_incursion_s": 8.585333333333285,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6297875477433053,
+          "first_incursion_s": 8.513333333333286,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7369973620669086,
+          "first_incursion_s": 8.441333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8280844541825267,
+          "first_incursion_s": 8.405333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.9283547567115296,
+          "first_incursion_s": 8.385333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.0285675599788444,
+          "first_incursion_s": 8.369333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4413361670900269,
+          "first_incursion_s": 8.529333333333286,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5055231052554241,
+          "first_incursion_s": 8.477333333333286,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5806078523114344,
+          "first_incursion_s": 8.421333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6723896838870616,
+          "first_incursion_s": 8.385333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.81654097978282,
+          "first_incursion_s": 8.369333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.349398262002369,
+          "first_incursion_s": 8.585333333333285,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4498094888828419,
+          "first_incursion_s": 8.493333333333286,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3982779274264061,
+          "first_incursion_s": 8.441333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.48256145271295914,
+          "first_incursion_s": 8.405333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6160601021406009,
+          "first_incursion_s": 8.385333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.39685440574641184,
+          "first_incursion_s": 8.621333333333284,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.41806794325196783,
+          "first_incursion_s": 8.493333333333286,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.46588034262023825,
+          "first_incursion_s": 8.441333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.44350497297625324,
+          "first_incursion_s": 8.421333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5743085874529097,
+          "first_incursion_s": 8.405333333333287,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 34,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 12.021333333333246,
+        "root_margin_cm": 0.10574368007680413,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -4.23419699218169,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 12.309333333333242,
+        "seconds_to_incursion": 0.2879999999999967,
+        "next_push_s": 15.08057413544239,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.25
+        },
+        "index": 4,
+        "outcome": "stable_exit",
+        "min_margin_cm": -3.4669977311321745,
+        "first_incursion_s": 12.293333333333242,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.8060090962719597,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.68317834207114,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.598368984503783,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.4731011622274472,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.4669977311321745,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.083621550574697,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.0084772773727355,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.9007216724608673,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.7402194727909785,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.4669977311321745,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.390741190034556,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.310432594572431,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.23419699218169,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.9225775099626086,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.5701127754262725,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.512866492385827,
+          "first_incursion_s": 12.345333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.434600281156166,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.319128391158405,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -4.008096384896164,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -3.656609902442905,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 34,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 16.0173333333332,
+        "root_margin_cm": 0.15761666270001484,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -10.527456932825277,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 16.181333333333207,
+        "seconds_to_incursion": 0.16400000000000503,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.25
+        },
+        "index": 4,
+        "outcome": "stable_exit",
+        "min_margin_cm": -10.33581726311689,
+        "first_incursion_s": 16.161333333333207,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.468966015662314,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.42890513558807,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.385862688291951,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.336913792904127,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.33581726311689,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.514004788390054,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.487286092511127,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.45702778380194,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.39230713616567,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.33581726311689,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.55921930373211,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.545412337343613,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.527456932825277,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.441524187704214,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.337916710848972,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.577435119922207,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.569447577184121,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.543712400912462,
+          "first_incursion_s": 16.181333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.460334812777692,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -10.355419291786035,
+          "first_incursion_s": 16.161333333333207,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 35,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 6101,
+        "preset": "unequal_sides",
+        "root_s": 12.021333333333246,
+        "root_margin_cm": 0.28358299377586604,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -6.700305953333341,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 12.309333333333242,
+        "seconds_to_incursion": 0.2879999999999967,
+        "next_push_s": 15.08057413544239,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": 0.25
+        },
+        "index": 4,
+        "outcome": "stable_exit",
+        "min_margin_cm": -6.042450029644484,
+        "first_incursion_s": 12.293333333333242,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.3355807956786006,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.247436573902403,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.153868914553996,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.057779574041286,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.042450029644484,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.578273407990678,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.506190245501353,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.430309736730502,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.262276316300298,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.042450029644484,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.821904623599392,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.762905666688202,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.700305953333341,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.428548518774015,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.122372459581464,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.9154198686672395,
+          "first_incursion_s": 12.365333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.86170071237162,
+          "first_incursion_s": 12.329333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.762044018625857,
+          "first_incursion_s": 12.309333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.496542337961893,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -6.193199012871884,
+          "first_incursion_s": 12.293333333333242,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 41,
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 6102,
+        "preset": "field_estimate",
+        "root_s": 3.0213333333333354,
+        "root_margin_cm": 0.07529797303499919,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.0487420769267235,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 3.0773333333333355,
+        "seconds_to_incursion": 0.05600000000000005,
+        "next_push_s": 7.4558475573306895,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": -0.25
+        },
+        "index": 0,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.04208100376218482,
+        "first_incursion_s": 3.0773333333333355,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.04208100376218482,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.05011836270537806,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.05011836270537806,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.09024266481752186,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.28107126148715267,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.04208100376218482,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0490765208519619,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0743514102775702,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.08478695845270856,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.36573276274080513,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.044759124168548325,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.04683174709199811,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0487420769267235,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.07601629695828827,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3496915037388728,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.0439508589739539,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.04593277544116425,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.04784439642143212,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.07040676210734809,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3730379493929181,
+          "first_incursion_s": 3.0773333333333355,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 42,
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6102,
+        "preset": "field_estimate",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.4046084074313754,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.48456404979190637,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 5.705333333333317,
+        "seconds_to_incursion": 0.7039999999999917,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": -0.12
+        },
+        "index": 1,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.34801048994000183,
+        "first_incursion_s": 5.633333333333318,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4045693408631976,
+          "first_incursion_s": 5.43333333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.34801048994000183,
+          "first_incursion_s": 5.633333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.38842846620497085,
+          "first_incursion_s": 5.9213333333333145,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.44957679144916085,
+          "first_incursion_s": 6.045333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5215455442585366,
+          "first_incursion_s": 6.065333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.547499215583052,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4276197031139546,
+          "first_incursion_s": 5.597333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.451840836565772,
+          "first_incursion_s": 5.813333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.49725226587160165,
+          "first_incursion_s": 5.901333333333315,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.551325744594303,
+          "first_incursion_s": 5.957333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.514249759177531,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.48190838210010156,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.48456404979190637,
+          "first_incursion_s": 5.705333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5064442086492118,
+          "first_incursion_s": 5.813333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5750800415816482,
+          "first_incursion_s": 5.885333333333315,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5359316781713694,
+          "first_incursion_s": 5.397333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.46594425850749843,
+          "first_incursion_s": 5.489333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4707853388119929,
+          "first_incursion_s": 5.669333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4797404840167445,
+          "first_incursion_s": 5.813333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5647671051755925,
+          "first_incursion_s": 5.849333333333315,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 43,
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6102,
+        "preset": "field_estimate",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.13939654463156792,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.8455643018544912,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 5.45333333333332,
+        "seconds_to_incursion": 0.45199999999999463,
+        "next_push_s": 7.4558475573306895,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": -0.12
+        },
+        "index": 1,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.668003863033583,
+        "first_incursion_s": 5.41733333333332,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6710286935278909,
+          "first_incursion_s": 5.345333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.668003863033583,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7008916585397174,
+          "first_incursion_s": 5.561333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7962679730714797,
+          "first_incursion_s": 5.721333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8825855632910162,
+          "first_incursion_s": 5.813333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7442144775478283,
+          "first_incursion_s": 5.345333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7480572679871642,
+          "first_incursion_s": 5.397333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8217857124634023,
+          "first_incursion_s": 5.525333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8723630867873915,
+          "first_incursion_s": 5.669333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.9415891442296989,
+          "first_incursion_s": 5.7573333333333165,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8139741663303397,
+          "first_incursion_s": 5.3253333333333215,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.82593677637308,
+          "first_incursion_s": 5.361333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8455643018544912,
+          "first_incursion_s": 5.45333333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.9070327071538316,
+          "first_incursion_s": 5.597333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -1.0024987364024174,
+          "first_incursion_s": 5.685333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8481725880835072,
+          "first_incursion_s": 5.3093333333333215,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8293203752459348,
+          "first_incursion_s": 5.361333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.8395986692472732,
+          "first_incursion_s": 5.45333333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.9047656041529528,
+          "first_incursion_s": 5.597333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.9871737652257266,
+          "first_incursion_s": 5.685333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 45,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 6102,
+        "preset": "field_estimate",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.20209665453720227,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.5494288568972365,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 5.577333333333319,
+        "seconds_to_incursion": 0.5759999999999934,
+        "next_push_s": null,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": -0.12
+        },
+        "index": 1,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.38049379771050695,
+        "first_incursion_s": 5.489333333333319,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5397515448675492,
+          "first_incursion_s": 5.381333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.38049379771050695,
+          "first_incursion_s": 5.489333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.44577472281608976,
+          "first_incursion_s": 5.777333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5315858141789178,
+          "first_incursion_s": 5.9213333333333145,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6428296549826982,
+          "first_incursion_s": 5.973333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6503307217850036,
+          "first_incursion_s": 5.381333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4518882149473029,
+          "first_incursion_s": 5.46933333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5159876982760849,
+          "first_incursion_s": 5.685333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6004342711645023,
+          "first_incursion_s": 5.829333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7234903429972963,
+          "first_incursion_s": 5.885333333333315,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6853024978737068,
+          "first_incursion_s": 5.361333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4866696196686888,
+          "first_incursion_s": 5.43333333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5494288568972365,
+          "first_incursion_s": 5.577333333333319,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6552909574056613,
+          "first_incursion_s": 5.7573333333333165,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7990519077681313,
+          "first_incursion_s": 5.829333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.592900110609687,
+          "first_incursion_s": 5.361333333333321,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5240534053530688,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.5833053206777095,
+          "first_incursion_s": 5.597333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.672839459596247,
+          "first_incursion_s": 5.721333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.7986735482243095,
+          "first_incursion_s": 5.793333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 47,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 6102,
+        "preset": "field_estimate",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.3724292228632322,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.22758926922545442,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 6.045333333333313,
+        "seconds_to_incursion": 1.043999999999988,
+        "next_push_s": 7.4558475573306895,
+        "before_next_push": true,
+        "within_1s": false,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 1.2,
+          "diff_offset": 0.0
+        },
+        "index": 17,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.22226297986473753,
+        "first_incursion_s": 6.029333333333313,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.41909273072496944,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3592066483854559,
+          "first_incursion_s": 6.225333333333311,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3528427733552455,
+          "first_incursion_s": 6.3693333333333095,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3912178891683453,
+          "first_incursion_s": 6.3693333333333095,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3469558203106544,
+          "first_incursion_s": 6.389333333333309,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.31174698402119105,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3478920895252564,
+          "first_incursion_s": 6.009333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.33427264724923234,
+          "first_incursion_s": 6.31733333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3412709132290246,
+          "first_incursion_s": 6.261333333333311,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3443315302013019,
+          "first_incursion_s": 6.261333333333311,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3709673349195768,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.2762724794279947,
+          "first_incursion_s": 5.669333333333317,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.22758926922545442,
+          "first_incursion_s": 6.045333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.26651444486252274,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4114220986585124,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.34122753442417064,
+          "first_incursion_s": 5.41733333333332,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.26262492325471243,
+          "first_incursion_s": 5.597333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.22226297986473753,
+          "first_incursion_s": 6.029333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.2873563992854713,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4249645030147775,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    },
+    {
+      "case": {
+        "episode": 58,
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 6102,
+        "preset": "sluggish",
+        "root_s": 5.001333333333325,
+        "root_margin_cm": 0.14619330259496444,
+        "onroad_root": true,
+        "teacher_outcome": "stable_exit",
+        "future_min_margin_cm": -0.3767672081759841,
+        "clean_teacher_continuation": false,
+        "stable_teacher_continuation": true,
+        "first_incursion_s": 5.993333333333314,
+        "seconds_to_incursion": 0.9919999999999884,
+        "next_push_s": 7.4558475573306895,
+        "before_next_push": true,
+        "within_1s": true,
+        "within_2s": true,
+        "active_push_at_root": false
+      },
+      "best": {
+        "action": {
+          "speed_scale": 0.0,
+          "diff_offset": -0.12
+        },
+        "index": 1,
+        "outcome": "stable_exit",
+        "min_margin_cm": -0.27479720189341705,
+        "first_incursion_s": 6.101333333333312,
+        "clean_to_next_push": false,
+        "clean_continuation": false
+      },
+      "branches": [
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.25
+          },
+          "index": 0,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3614083958683736,
+          "first_incursion_s": 5.649333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": -0.12
+          },
+          "index": 1,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.27479720189341705,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.0
+          },
+          "index": 2,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.27732199019690995,
+          "first_incursion_s": 6.31733333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.12
+          },
+          "index": 3,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3812046109326701,
+          "first_incursion_s": 6.29733333333331,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.0,
+            "diff_offset": 0.25
+          },
+          "index": 4,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4895664546777283,
+          "first_incursion_s": 6.245333333333311,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.25
+          },
+          "index": 5,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.38154613506452506,
+          "first_incursion_s": 5.633333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": -0.12
+          },
+          "index": 6,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.2857675151991579,
+          "first_incursion_s": 5.9213333333333145,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.0
+          },
+          "index": 7,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3297300350616901,
+          "first_incursion_s": 6.101333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.12
+          },
+          "index": 8,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.42988607275917445,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 0.5,
+            "diff_offset": 0.25
+          },
+          "index": 9,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.58647288167111,
+          "first_incursion_s": 6.137333333333312,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.25
+          },
+          "index": 10,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3317617054302886,
+          "first_incursion_s": 5.649333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": -0.12
+          },
+          "index": 11,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4385536890069872,
+          "first_incursion_s": 5.829333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.0
+          },
+          "index": 12,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3767672081759841,
+          "first_incursion_s": 5.993333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.12
+          },
+          "index": 13,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4967349642759018,
+          "first_incursion_s": 6.045333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.0,
+            "diff_offset": 0.25
+          },
+          "index": 14,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6460542612579872,
+          "first_incursion_s": 6.065333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.25
+          },
+          "index": 15,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.364414214240373,
+          "first_incursion_s": 5.633333333333318,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": -0.12
+          },
+          "index": 16,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.3786871902791802,
+          "first_incursion_s": 5.793333333333316,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.0
+          },
+          "index": 17,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.4178406529306038,
+          "first_incursion_s": 5.9373333333333145,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.12
+          },
+          "index": 18,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.502033796764735,
+          "first_incursion_s": 6.009333333333314,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        },
+        {
+          "action": {
+            "speed_scale": 1.2,
+            "diff_offset": 0.25
+          },
+          "index": 19,
+          "outcome": "stable_exit",
+          "min_margin_cm": -0.6562501926552322,
+          "first_incursion_s": 6.029333333333313,
+          "clean_to_next_push": false,
+          "clean_continuation": false
+        }
+      ],
+      "incursion_before_new_camera_action_possible": false
+    }
+  ]
+}

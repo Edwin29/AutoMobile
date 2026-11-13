@@ -1,0 +1,66 @@
+{
+  "hypothesis": "Frozen visual representation may limit fitting recoveries; change only trainable CNN scope",
+  "source_protocol_sha256": "b77ff93f382671e7778ea284def34a8c746538c35f3b12f9f3f6a8cfbf84c136",
+  "source_sha256": "56fd2b932a4d4a5fd695c90131f9ebe8a266e713814a0fc0dec29c24b36902cb",
+  "initial_sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+  "arms": [
+    "teacher_only",
+    "full_dagger"
+  ],
+  "same_as_source": [
+    "episode pools",
+    "initial CNN and recurrent weights",
+    "common and second RNG streams",
+    "objective and masks",
+    "1200 updates",
+    "head lr and scheduler",
+    "development matrix"
+  ],
+  "change": "last two convolution layers trainable at 0.1 times recurrent learning rate; first three fixed",
+  "head_lr": 0.0001,
+  "cnn_lr": 1e-05,
+  "updates": 1200,
+  "seed": 17,
+  "checkpoint": "fixed final update; no driving-based selection",
+  "input_contract": "camera history + prior sent PWM + left/right command; no privileged actor inputs",
+  "evaluation": {
+    "seeds": [
+      4101,
+      4102
+    ],
+    "presets": [
+      "field_estimate",
+      "sluggish",
+      "unequal_sides"
+    ],
+    "keys": [
+      [
+        "east",
+        "W",
+        "left"
+      ],
+      [
+        "east",
+        "W",
+        "right"
+      ],
+      [
+        "south",
+        "N",
+        "right"
+      ],
+      [
+        "center",
+        "N",
+        "right"
+      ]
+    ],
+    "conditions": [
+      "normal",
+      "mild",
+      "mild_light"
+    ]
+  },
+  "final_exam_used": false,
+  "scope": "four-movement development diagnostic only"
+}

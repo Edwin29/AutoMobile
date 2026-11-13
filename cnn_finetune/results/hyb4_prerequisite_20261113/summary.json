@@ -1,0 +1,11 @@
+{
+  "n": 24,
+  "clean": 24,
+  "stable": 24,
+  "wrong": 0,
+  "severe": 0,
+  "pauses": 0,
+  "new_training": false,
+  "final_exam_used": false,
+  "gate_pass": true
+}

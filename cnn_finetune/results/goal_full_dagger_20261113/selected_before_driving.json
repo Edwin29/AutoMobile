@@ -1,0 +1,202 @@
+{
+  "teacher_only": {
+    "history": [
+      {
+        "update": 100,
+        "common_loss": 0.00757209109608084,
+        "second_loss": 0.007286255122162402,
+        "max_grad": 1.0338640213012695,
+        "wall_s": 1.2153326999978162
+      },
+      {
+        "update": 200,
+        "common_loss": 0.005774258801247925,
+        "second_loss": 0.005783710179384798,
+        "max_grad": 0.4832916259765625,
+        "wall_s": 2.262826499994844
+      },
+      {
+        "update": 300,
+        "common_loss": 0.005135096134617925,
+        "second_loss": 0.0051013998361304404,
+        "max_grad": 0.5973982214927673,
+        "wall_s": 3.2751723999972455
+      },
+      {
+        "update": 400,
+        "common_loss": 0.004484992793295533,
+        "second_loss": 0.004604297534096986,
+        "max_grad": 0.550348162651062,
+        "wall_s": 4.327399299989338
+      },
+      {
+        "update": 500,
+        "common_loss": 0.004254928124137223,
+        "second_loss": 0.004209379043895751,
+        "max_grad": 0.5769811868667603,
+        "wall_s": 5.412379399989732
+      },
+      {
+        "update": 600,
+        "common_loss": 0.004061346440576017,
+        "second_loss": 0.003981244743335992,
+        "max_grad": 0.4048769474029541,
+        "wall_s": 6.49801359999401
+      },
+      {
+        "update": 700,
+        "common_loss": 0.003851931078825146,
+        "second_loss": 0.003932165182195604,
+        "max_grad": 0.4955299198627472,
+        "wall_s": 7.599407499990775
+      },
+      {
+        "update": 800,
+        "common_loss": 0.0037590788933448494,
+        "second_loss": 0.003730445441324264,
+        "max_grad": 0.5033996105194092,
+        "wall_s": 8.498997399990913
+      },
+      {
+        "update": 900,
+        "common_loss": 0.0036462593264877797,
+        "second_loss": 0.003599822425749153,
+        "max_grad": 0.4091755151748657,
+        "wall_s": 9.389980499996454
+      },
+      {
+        "update": 1000,
+        "common_loss": 0.00356988383224234,
+        "second_loss": 0.003557973736897111,
+        "max_grad": 0.3589171767234802,
+        "wall_s": 10.278822799999034
+      },
+      {
+        "update": 1100,
+        "common_loss": 0.0034080286766402425,
+        "second_loss": 0.003442942074034363,
+        "max_grad": 0.43741992115974426,
+        "wall_s": 11.183201199994073
+      },
+      {
+        "update": 1200,
+        "common_loss": 0.0033548696688376367,
+        "second_loss": 0.00332742226542905,
+        "max_grad": 0.32879745960235596,
+        "wall_s": 12.060822599989478
+      }
+    ],
+    "updates": 1200,
+    "trainable_parameters": 190050,
+    "source_sha256": "63807d35c82e1218089299897cbbc1a5219696e2e52dbf303a9d0dffb990e26c",
+    "initial_sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+    "common_sample_order_sha256": "a7c0b2e37c4d9fa9ff4a650143b57017d2719e12d11de4c97f0d8befa547afd9",
+    "final_checkpoint": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\models\\teacher_only\\update_1200.pt",
+    "final_sha256": "b19b8f91bcc1ab4b023d4fd1d2234d7a2ce69cbe5643ded35086d91a582fa17e",
+    "encoder_frozen": true,
+    "training_initializations": 1,
+    "common_episodes": 118,
+    "second_episodes": 118,
+    "no_final_exam": true
+  },
+  "full_dagger": {
+    "history": [
+      {
+        "update": 100,
+        "common_loss": 0.014684587428346276,
+        "second_loss": 0.09711303647607565,
+        "max_grad": 1.1388310194015503,
+        "wall_s": 1.0667306999966968
+      },
+      {
+        "update": 200,
+        "common_loss": 0.015433020722121,
+        "second_loss": 0.07839323099702597,
+        "max_grad": 1.3337733745574951,
+        "wall_s": 2.071337500005029
+      },
+      {
+        "update": 300,
+        "common_loss": 0.017230677818879485,
+        "second_loss": 0.0688155379332602,
+        "max_grad": 1.2673894166946411,
+        "wall_s": 3.1067672000062885
+      },
+      {
+        "update": 400,
+        "common_loss": 0.016821348294615745,
+        "second_loss": 0.05825639564543963,
+        "max_grad": 1.1089105606079102,
+        "wall_s": 4.118224100006046
+      },
+      {
+        "update": 500,
+        "common_loss": 0.016210446301847696,
+        "second_loss": 0.05006388496607542,
+        "max_grad": 0.8809590935707092,
+        "wall_s": 5.107982600005926
+      },
+      {
+        "update": 600,
+        "common_loss": 0.01793950912542641,
+        "second_loss": 0.05035438450984657,
+        "max_grad": 1.2377657890319824,
+        "wall_s": 6.089102099998854
+      },
+      {
+        "update": 700,
+        "common_loss": 0.01805837793275714,
+        "second_loss": 0.04627313120290637,
+        "max_grad": 1.3370099067687988,
+        "wall_s": 7.061745900005917
+      },
+      {
+        "update": 800,
+        "common_loss": 0.01801067783497274,
+        "second_loss": 0.04297260547056794,
+        "max_grad": 0.9943745136260986,
+        "wall_s": 8.052901300005033
+      },
+      {
+        "update": 900,
+        "common_loss": 0.017336095329374076,
+        "second_loss": 0.040809688679873946,
+        "max_grad": 0.9333127737045288,
+        "wall_s": 8.946387300005881
+      },
+      {
+        "update": 1000,
+        "common_loss": 0.016545247212052347,
+        "second_loss": 0.03991475282236934,
+        "max_grad": 0.9460847973823547,
+        "wall_s": 9.844867199994042
+      },
+      {
+        "update": 1100,
+        "common_loss": 0.017101532611995936,
+        "second_loss": 0.03645931264385581,
+        "max_grad": 0.9433587193489075,
+        "wall_s": 10.749677300002077
+      },
+      {
+        "update": 1200,
+        "common_loss": 0.016933814603835345,
+        "second_loss": 0.03588125035166741,
+        "max_grad": 1.1417109966278076,
+        "wall_s": 11.640046600005007
+      }
+    ],
+    "updates": 1200,
+    "trainable_parameters": 190050,
+    "source_sha256": "63807d35c82e1218089299897cbbc1a5219696e2e52dbf303a9d0dffb990e26c",
+    "initial_sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+    "common_sample_order_sha256": "a7c0b2e37c4d9fa9ff4a650143b57017d2719e12d11de4c97f0d8befa547afd9",
+    "final_checkpoint": "D:\\autodrive_cnn\\runs\\goal_full_dagger_20261113\\models\\full_dagger\\update_1200.pt",
+    "final_sha256": "858e3eb58258d1a763157c09f48ef274f525cea7e12b5a92c7f94bb411c50df0",
+    "encoder_frozen": true,
+    "training_initializations": 1,
+    "common_episodes": 118,
+    "second_episodes": 72,
+    "no_final_exam": true
+  }
+}

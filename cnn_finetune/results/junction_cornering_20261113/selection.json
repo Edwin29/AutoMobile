@@ -1,0 +1,290 @@
+[
+  {
+    "key": [
+      "center",
+      "N",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 2.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "left"
+    ],
+    "candidate": "reserve",
+    "mode": "planned",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "planned",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 2.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "left"
+    ],
+    "candidate": "reserve",
+    "mode": "planned",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "planned",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 2.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 2.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "planned",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "candidate": "reserve",
+    "mode": "planned",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 2.0
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "candidate": "wide",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 4.0
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "candidate": "reserve",
+    "mode": "legacy",
+    "selection_stable": 4,
+    "selection_clean": 4.0,
+    "baseline_clean": 2.0
+  }
+]

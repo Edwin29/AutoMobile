@@ -1,0 +1,71 @@
+{
+  "hypothesis": "Outgoing teacher offset reduces body clearance before the second push; earlier centering may preserve margin.",
+  "candidates": [
+    {
+      "end_cm": null,
+      "lateral_gain": 0.16
+    },
+    {
+      "end_cm": 25.0,
+      "lateral_gain": 0.08
+    },
+    {
+      "end_cm": 25.0,
+      "lateral_gain": 0.16
+    },
+    {
+      "end_cm": 30.0,
+      "lateral_gain": 0.08
+    },
+    {
+      "end_cm": 30.0,
+      "lateral_gain": 0.16
+    },
+    {
+      "end_cm": 35.0,
+      "lateral_gain": 0.08
+    },
+    {
+      "end_cm": 35.0,
+      "lateral_gain": 0.16
+    }
+  ],
+  "source_sha256": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b",
+  "seeds": [
+    4101,
+    4102
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "keys": [
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "N",
+      "right"
+    ]
+  ],
+  "conditions": [
+    "normal",
+    "mild"
+  ],
+  "rule": "All predeclared candidates reported; not a final test. Reject negative static clearance. No change to disturbance envelope.",
+  "gain_probe_best_mild_clean": "18/24; none of 12 original gain/speed candidates improved it"
+}

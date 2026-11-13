@@ -1,0 +1,198 @@
+[
+  {
+    "name": "probe_00",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_00",
+    "visual_frame_fraction": 0.7944444444444444,
+    "usable_intervals": 39,
+    "seconds": 6.967561500001466
+  },
+  {
+    "name": "probe_01",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_01",
+    "visual_frame_fraction": 0.5555555555555556,
+    "usable_intervals": 28,
+    "seconds": 7.3777721999940695
+  },
+  {
+    "name": "probe_02",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_02",
+    "visual_frame_fraction": 0.9166666666666666,
+    "usable_intervals": 45,
+    "seconds": 7.321171999996295
+  },
+  {
+    "name": "probe_03",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_03",
+    "visual_frame_fraction": 0.75,
+    "usable_intervals": 31,
+    "seconds": 7.278884800005471
+  },
+  {
+    "name": "probe_04",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_04",
+    "visual_frame_fraction": 0.8277777777777777,
+    "usable_intervals": 38,
+    "seconds": 7.465971799989347
+  },
+  {
+    "name": "probe_05",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_05",
+    "visual_frame_fraction": 0.55,
+    "usable_intervals": 25,
+    "seconds": 7.382860700003221
+  },
+  {
+    "name": "probe_06",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_06",
+    "visual_frame_fraction": 0.8388888888888889,
+    "usable_intervals": 42,
+    "seconds": 7.4509033000067575
+  },
+  {
+    "name": "probe_07",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_07",
+    "visual_frame_fraction": 0.5833333333333334,
+    "usable_intervals": 27,
+    "seconds": 7.100700399998459
+  },
+  {
+    "name": "probe_08",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_08",
+    "visual_frame_fraction": 0.8388888888888889,
+    "usable_intervals": 39,
+    "seconds": 7.490189999996801
+  },
+  {
+    "name": "probe_09",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_09",
+    "visual_frame_fraction": 0.7055555555555556,
+    "usable_intervals": 35,
+    "seconds": 7.498103799996898
+  },
+  {
+    "name": "probe_10",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_10",
+    "visual_frame_fraction": 0.7388888888888889,
+    "usable_intervals": 40,
+    "seconds": 7.595096199991531
+  },
+  {
+    "name": "probe_11",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_11",
+    "visual_frame_fraction": 0.5944444444444444,
+    "usable_intervals": 27,
+    "seconds": 7.836714599994593
+  },
+  {
+    "name": "probe_12",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_12",
+    "visual_frame_fraction": 0.7166666666666667,
+    "usable_intervals": 29,
+    "seconds": 8.657709100007196
+  },
+  {
+    "name": "probe_13",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_13",
+    "visual_frame_fraction": 0.75,
+    "usable_intervals": 38,
+    "seconds": 7.255661399991368
+  },
+  {
+    "name": "probe_14",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_14",
+    "visual_frame_fraction": 0.9111111111111111,
+    "usable_intervals": 42,
+    "seconds": 7.328770499996608
+  },
+  {
+    "name": "probe_15",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_15",
+    "visual_frame_fraction": 0.8944444444444445,
+    "usable_intervals": 49,
+    "seconds": 7.0564872000104515
+  },
+  {
+    "name": "probe_16",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_16",
+    "visual_frame_fraction": 0.7055555555555556,
+    "usable_intervals": 27,
+    "seconds": 8.002745899997535
+  },
+  {
+    "name": "probe_17",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_17",
+    "visual_frame_fraction": 0.7722222222222223,
+    "usable_intervals": 36,
+    "seconds": 7.838830000007874
+  },
+  {
+    "name": "probe_18",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_18",
+    "visual_frame_fraction": 0.7444444444444445,
+    "usable_intervals": 28,
+    "seconds": 7.730320300004678
+  },
+  {
+    "name": "probe_19",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_19",
+    "visual_frame_fraction": 0.7611111111111111,
+    "usable_intervals": 36,
+    "seconds": 7.484111999991001
+  },
+  {
+    "name": "probe_20",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_20",
+    "visual_frame_fraction": 0.8333333333333334,
+    "usable_intervals": 38,
+    "seconds": 8.069946500007063
+  },
+  {
+    "name": "probe_21",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_21",
+    "visual_frame_fraction": 0.8333333333333334,
+    "usable_intervals": 42,
+    "seconds": 7.517517800006317
+  },
+  {
+    "name": "probe_22",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_22",
+    "visual_frame_fraction": 0.6888888888888889,
+    "usable_intervals": 30,
+    "seconds": 8.110080099999323
+  },
+  {
+    "name": "probe_23",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_23",
+    "visual_frame_fraction": 0.7055555555555556,
+    "usable_intervals": 34,
+    "seconds": 7.329048900006455
+  },
+  {
+    "name": "probe_24",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_24",
+    "visual_frame_fraction": 0.7222222222222222,
+    "usable_intervals": 37,
+    "seconds": 7.896459700001287
+  },
+  {
+    "name": "probe_25",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_25",
+    "visual_frame_fraction": 0.8055555555555556,
+    "usable_intervals": 38,
+    "seconds": 6.7831875999982
+  },
+  {
+    "name": "probe_26",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_26",
+    "visual_frame_fraction": 0.7,
+    "usable_intervals": 26,
+    "seconds": 7.944207700013067
+  },
+  {
+    "name": "probe_27",
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_hidden_response_20261113\\probe_27",
+    "visual_frame_fraction": 0.7833333333333333,
+    "usable_intervals": 33,
+    "seconds": 8.261898400000064
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "scope": "24 turning movements; center left experimental, center right mission allowed",
+  "development_seeds": [
+    1301,
+    1303,
+    1307
+  ],
+  "geometry_seed": 314159,
+  "final_test_used": false,
+  "clearance_targets_cm": [
+    0.5,
+    1.0
+  ],
+  "selection": "field/sluggish x fixed/mild x seed1303, then freeze; no final test",
+  "speed_plan": {
+    "max_yaw_rate_rad_s": 0.45,
+    "lateral_acceleration_cm_s2": 1.5,
+    "accel_cm_s2": 1.0,
+    "decel_cm_s2": 1.0
+  },
+  "previous_protocol_sha256": "ae782fa1a740cc365acc022a575ac2b22f840ed2e0e8e99ca898ade899c2630a",
+  "source_sha256": "e16708478c527de2b7fdf49628f529c26f14465da45dd0835f859acacfc8ce84",
+  "release_gate": "No reduction of fixed/mild stable or clean counts; nominal clean+moving; lower paired angular acceleration; lower max reference curvature",
+  "lighting": "No light robustness claim for privileged-state teacher; image-only student remains untrained"
+}

@@ -1,0 +1,6500 @@
+{
+  "summary": {
+    "roots": 359,
+    "onroad_roots": 298,
+    "onroad_clean_continuations": 225.0,
+    "stable_continuations": 359,
+    "exact_physics_replays": 72,
+    "by_root": {
+      "3.0": {
+        "n": 72,
+        "onroad": 71,
+        "clean": 47.0
+      },
+      "5.0": {
+        "n": 72,
+        "onroad": 53,
+        "clean": 25.0
+      },
+      "8.0": {
+        "n": 72,
+        "onroad": 43,
+        "clean": 34.0
+      },
+      "12.0": {
+        "n": 72,
+        "onroad": 65,
+        "clean": 57.0
+      },
+      "16.0": {
+        "n": 71,
+        "onroad": 66,
+        "clean": 62.0
+      }
+    }
+  },
+  "results": [
+    {
+      "episode": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.493735142254387,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4250299166471123,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.18580567134159764,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.287999560428446,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.2460959118192427,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.2460959118192427,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.6832386679450906,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.6832386679450906,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.794933347044079,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.771897143254364,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.4004393177870185,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3628989435174788,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.4813579877282539,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.6093037065979949,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.18951439970684092,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.18951439970684092,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.0880730879761984,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.0880730879761984,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.414896893920101,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.339831273554907,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.4121580585614169,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3635203403117515,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.020792363498959077,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.14702244371766682,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.8790498736523116,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8790498736523116,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.93991459960921,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.93991459960921,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 2,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.2830515570827856,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.072504509008965,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 3,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.0696997548933105,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.0220820579609207,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 3,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.040841978046609384,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.010541210659654965,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 3,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.20791062677306726,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.20791062677306726,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 3,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.4253829719650337,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.4253829719650337,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 3,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.2369105872564035,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.206565566021894,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 4,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.2038471073293753,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.036209595090397784,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 4,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.28284111735928974,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.772225000534899,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 4,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.8807525078763074,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.8807525078763074,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 4,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.4389222321508868,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.4389222321508868,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 4,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.6261134457957667,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.4305569287187296,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 5,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7624635606891843,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1515707544000353,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 5,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.7063533959571107,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.5302680007645684,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 5,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -2.919488809539634,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -3.2002405812676686,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 5,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -0.1852016765085871,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1852016765085871,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 5,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.5491666901825738,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.23230118255696652,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 6,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6354536103753432,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6277447584725309,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 6,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7082631862939195,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.29687406661561155,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 6,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.5101027114081802,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5101027114081802,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 6,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.7051520038431676,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.7051520038431676,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 6,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.2384377923657492,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.206962533612284,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 7,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.549704063427086,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5361519889276565,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 7,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7389028466967318,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.02453584927398822,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 7,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.4196197722820347,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8740033320977716,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 7,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.1401436914112395,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.629828225270586,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 7,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.9759649320145485,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9759649320145485,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 8,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.735028279053779,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.735028279053779,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 8,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.0652160296225048,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7863696637542841,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 8,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 3.2405115126952957,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.6283795915361168,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 8,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.939728143279325,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.9900043604727529,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 8,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.7564750964292841,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.7564750964292841,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7456241661818339,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6968966994817762,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.4661504198989661,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.43302176716707663,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.4452698702014732,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.039046763740405,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.9910680413806219,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -8.53935922463991,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 9,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.4021490914683241,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -9.926964704566863,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 10,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7476605571792518,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.09993106810691188,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 10,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.4113732590887835,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.17582139632884264,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 10,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.614796220317741,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3774976427976373,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 10,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.956491082248121,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -8.359889311666835,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 10,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": -1.3694051063371795,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -11.223969159030062,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 11,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7615323356298607,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.01884880881613782,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 11,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.657544871772302,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.17695410894451413,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 11,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 2.1445460392028917,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.18898371644746348,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 11,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.5137078490421292,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6705308506731456,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 11,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": -0.5564698600096101,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5706463841060803,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 12,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.8766764330409273,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4675262686574655,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 12,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.585077061837378,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.3983648645922475,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 12,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.7015999556079269,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.7473228620332382,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 12,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.204569144399585,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.204569144399585,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 12,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.298511458657714,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.190251601843357,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 13,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.8371249629121849,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4339917968400222,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 13,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.3350086642086829,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.11631379879001535,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 13,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.38956074793359896,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.37252443419554915,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 13,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.6171924413483794,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.6171924413483794,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 13,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.322475278426026,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.322475278426026,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 14,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.7170103746182264,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3912218297419656,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 14,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.5318299849007531,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2948833586970352,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 14,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.6265617168664015,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6265617168664015,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 14,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.728856037377895,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.728856037377895,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 14,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.8699748595951746,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.5930390429320767,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 15,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.6124723958314515,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.2890940012825105,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 15,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7256927093241607,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5546526939453429,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 15,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.7904260733603063,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7904260733603063,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 15,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.5572392499468037,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.5572392499468037,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 15,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.033068962165331,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.033068962165331,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 16,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.7035269768670673,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.054008826415380184,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 16,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9341207790694934,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.519597010577808,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 16,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.16336742126433634,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.16336742126433634,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 16,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.5756451997314684,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.5756451997314684,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 16,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.9764204568113684,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.6179961425269624,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 17,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.4793214464690667,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.10418912547597081,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 17,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.3180502058627166,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.0172644040866992,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 17,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.6547095682628488,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.6547095682628488,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 17,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.6695253603369729,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6695253603369729,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 17,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.8233559573556306,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8233559573556306,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 18,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6540166002544652,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6540166002544652,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 18,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7500373372567779,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2587082263667071,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 18,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.07699484337309137,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.015258320087450983,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 18,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.8304904401670967,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.8304904401670967,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 18,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.6837782322771098,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.591493214128736,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 19,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6080532078785055,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6080532078785055,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 19,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7144988873171698,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2759883937288947,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 19,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.0502871853771705,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7743449763769377,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 19,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.104419897887695,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4426015994764967,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 19,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.752173318524088,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5753203097564175,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 20,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6173253295918499,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6173253295918499,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 20,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.0580172745253122,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.656168674204471,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 20,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.9887471345797998,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.2018527166988946,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 20,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.3111713506601035,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3380687684016053,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 20,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.6454645580001426,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6454645580001426,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8721893437873334,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.854695107602268,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.8851596637208132,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7813248642592896,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.2459895733513555,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2308353327025774,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.9724097090990682,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -6.761529746605597,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 21,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.4012118937414826,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -10.086848949551577,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 22,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.826137544678474,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.31236860548004586,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 22,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.8199712144199793,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.37557655750926955,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 22,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.3317201900240878,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.4450563939751646,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 22,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.0766480652249673,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -6.982025775327184,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 22,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": -0.7844476185622966,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -11.420563126369377,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 23,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8544033291984476,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.2998078475087489,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 23,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9248229728980988,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.31563491237324115,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 23,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.7155104229386158,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.03539249527458921,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 23,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.0157384230678392,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.35473796067146424,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 23,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": -1.0561474585118944,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.058635824174317,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 24,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.3989130671351226,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.2864470412012246,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 24,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.9207017722187416,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.0434212114325891,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 24,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -2.182486923128046,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.1861548829801247,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 24,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.547552786425726,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.547552786425726,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 24,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.1988190966960985,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.1988190966960985,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 25,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.2912559384338849,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.15611707867658,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 25,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -1.274116139686555,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.3748340926814606,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 25,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.7671566499323568,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.7671566499323568,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 25,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.7142460100724577,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.7142460100724577,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 25,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.4030224088333227,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.4030224088333227,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 26,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.328178793605133,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.2395202682352657,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 26,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -1.0733770541856842,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.2130226231689907,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 26,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.2886844833792761,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.2886844833792761,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 26,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.9093834876532156,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.9093834876532156,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 26,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.6707191412805003,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.4966210804186773,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 27,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.6321545148170742,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3773905240394786,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 27,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9897701805511314,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8658922673123861,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 27,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.424123892145074,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.424123892145074,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 27,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.42062471498771,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.42062471498771,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 27,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.039387122959482,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.9787535547504405,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 28,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.7439761768654591,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.06600573293188283,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 28,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.2460216035224327,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.14009440289841812,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 28,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.5489214109359004,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5489214109359004,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 28,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.5144176563732827,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.5144176563732827,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 28,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.8598988628117326,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.7608139142196393,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 29,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.356624869594226,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.00553855133307124,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 29,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.42119603023933827,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.7970237433250098,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 29,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.2864457630876789,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.2879850104310187,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 29,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.191209283310327,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.191209283310327,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 29,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.8787466703377902,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.8787466703377902,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 30,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.673062004214998,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6658762604647066,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 30,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.3821757046371097,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3889409004001152,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 30,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.1765037169141603,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.1765037169141603,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 30,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.5548678789142372,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.5548678789142372,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 30,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.5442584156556194,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.5387984033090305,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 31,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6637835559841037,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6637835559841037,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 31,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.32373071108555784,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.54010996982697,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 31,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.022894084252589764,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.022894084252589764,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 31,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.750958794386662,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.750958794386662,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 31,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.8039077303070492,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4985385371772093,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 32,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7226311321864003,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7226311321864003,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 32,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.5746970662926909,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.20768958035355922,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 32,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.019225073313434,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.019225073313434,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 32,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.1344256367824954,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.525906782136781,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 32,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.3346014923745901,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3312926206819853,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8464064656720893,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8464064656720893,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.5468755436242674,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.1377709699084395,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.5953208136382493,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.497872362401809,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -0.25025060028153234,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -4.154319772382678,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 33,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.19171080428169418,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -9.15899675088136,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.804586660131065,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.20906734930641235,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.44421916930132,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5268005839889955,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.7239295021493,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3982779274264061,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.10574368007680413,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -4.23419699218169,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 34,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.15761666270001484,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -10.527456932825277,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 35,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7930153981531944,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1870077316849077,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 35,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.6375435595520003,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5044626058631145,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 35,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.628276728957168,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5716064701589563,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 35,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.28358299377586604,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -6.700305953333341,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 35,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6101,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": -0.7065404351419566,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -10.91051592647193,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 36,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.7515060009369705,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4072725467255474,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 36,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.6787910300564821,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5899354536182386,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 36,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.8098045522593136,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8098045522593136,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 36,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.2625257126923515,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.2625257126923515,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 36,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.831450632012164,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.817743654867257,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 37,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.9042978235542307,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.005593271848146841,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 37,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.29965643370263,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.2710258243707244,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 37,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.1669162825842001,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1669162825842001,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 37,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.5409653572125848,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.5409653572125848,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 37,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.006623049241554,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.006623049241554,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 38,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.8347202509499496,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.05483071190786859,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 38,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.996755805337644,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5040864206746001,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 38,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.5248328687200896,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5248328687200896,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 38,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.9457963736129074,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.9457963736129074,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 38,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.989205770824853,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.989205770824853,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 39,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.2965068275513669,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.1782368398822829,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 39,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -1.619834306487796,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.7115152324992007,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 39,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -3.1444952293918425,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -3.601536188735156,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 39,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -1.9879440154451231,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.9879440154451231,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 39,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.9971692818639895,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6709513887431342,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 40,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": -0.008990726797708959,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1487056106038871,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 40,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -2.1680153840333105,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.2626492383765555,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 40,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -2.2752726619409067,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.610551560473585,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 40,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -1.2532689592196675,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.2532689592196675,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 40,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.260986153258159,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.260986153258159,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 41,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.07529797303499919,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.0487420769267235,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 41,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -2.175200040055973,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.256144711719683,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 41,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -2.219216759737119,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.550036602718235,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 41,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -1.4943773833701925,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.4943773833701925,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 41,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.9976787414478423,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.9976787414478423,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 42,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6960418950072267,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.654775242361481,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 42,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.4046084074313754,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.48456404979190637,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 42,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 2.1644773500245815,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.0175742720903624,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 42,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.3816693387030288,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.9878598258907871,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 42,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.1475893924668696,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.1475893924668696,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 43,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.5392573850781144,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.495904850233746,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 43,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.13939654463156792,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.8455643018544912,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 43,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 2.178082617196239,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.9148186962560771,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 43,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.8538894552680887,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.175799888468987,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 43,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.2493092692994026,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.2493092692994026,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 44,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8660816764664645,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.74481625550753,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 44,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7634988872729629,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.3405535776986852,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 44,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.6166542202517036,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9805159423640077,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 44,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.625052213335053,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.1914173699934736,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 44,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.13789927873961,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.13789927873961,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 45,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.5194201474031992,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.47408573384396036,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 45,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.20209665453720227,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5494288568972365,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 45,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 2.014626800503857,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2969704003799052,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 45,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.6814345334826388,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3406621272777102,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 45,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.7528277850703304,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.7528277850703304,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 46,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.26473148152073733,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.35699950035277084,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 46,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.14116366633366262,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.0508327986122339,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 46,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 3.1740839605494973,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6570193707552381,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 46,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.698437791057012,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7410468642285579,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 46,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.5836189058901979,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5836189058901979,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 47,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6108874067220889,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3552252160074971,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 47,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.3724292228632322,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.22758926922545442,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 47,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 4.050216276798979,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5639498574236939,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 47,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.6415866435365203,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.4372037208619606,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 47,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "field_estimate",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.491055222698897,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.491055222698897,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 48,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.9825093056203418,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4405999232622708,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 48,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9573536573529804,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7548225967677631,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 48,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.6527354750495409,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6527354750495409,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 48,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.4889524832970835,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.4889524832970835,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 48,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.604596407490945,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.593765983847305,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 49,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 2.0765544850936664,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.08189215853653842,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 49,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.3631527550924787,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.43764111894363467,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 49,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.46054249543239756,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.46054249543239756,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 49,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.460583261735877,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.460583261735877,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 49,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.8331943274576474,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.8331943274576474,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 50,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.935829653124081,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1325669501715705,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 50,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.052135401604943,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.6866566649369421,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 50,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.9282999141250716,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.9282999141250716,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 50,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.0500159697611906,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.0500159697611906,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 50,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.3416590332417684,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.3416590332417684,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 51,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.0480038047578422,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8563887261323533,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 51,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.4937759707923224,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.6648446440442708,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 51,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.5861761402310268,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.7012222187150758,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 51,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.050508624035245475,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.050508624035245475,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 51,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.367613764810102,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.232607409351857,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 52,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.7910999387590643,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5528654734816651,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 52,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.9694503607569658,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.1409401858758965,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 52,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.6558889741498302,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.7201828629146156,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 52,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.0892530309430182,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.0892530309430182,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 52,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.9374253206150343,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.9374253206150343,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 53,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8158099012975839,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.5665579391817701,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 53,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -1.0718410970271233,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.263576016625354,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 53,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.781387269293667,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.8388301662601876,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 53,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.4426704379159485,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2393612635800455,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 53,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.3998058591944584,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.3998058591944584,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 54,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.0215992139038033,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9515747212893526,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 54,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.8423131457956643,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.4999837646712706,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 54,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 3.1120474001209804,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.586581705805628,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 54,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.335575882138036,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.3133130663345067,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 54,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.1849852421197085,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.1849852421197085,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 55,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8549086781936435,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.01169023968073013,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 55,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.589348522062414,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.12850381413097267,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 55,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 3.0163903554324936,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.6109284451501082,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 55,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.9369935437800656,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.0059933949451363,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 55,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.755546739620769,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.755546739620769,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 56,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.042015027770617,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.1978622348145187,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 56,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9811627022334584,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.19640951652844763,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 56,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.4790992769872009,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.4790992769872009,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 56,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.345499332507643,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.251742554228315,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 56,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.900173951792681,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.900173951792681,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 57,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8652080126586341,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.74610282616357,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 57,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.4701995399947698,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.03967445330494712,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 57,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 2.313541411870407,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6473863085940774,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 57,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.2296905603528145,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.0466873651103228,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 57,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.0792645326822452,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.0792645326822452,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 58,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.6305765110252928,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3217902339242258,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 58,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.14619330259496444,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3767672081759841,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 58,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.8513932902137,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2493668818694843,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 58,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 0.8693269672893589,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.08737145136508673,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 58,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.978111101731244,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9442041510700676,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 59,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.0252372625361303,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.4336912770619108,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 59,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.7027521146564144,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.36123746945314394,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 59,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.501095491300056,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.37011137956880447,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 59,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -0.2728720556653883,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.2796270298968615,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 59,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "sluggish",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.8023435736491606,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.8023435736491606,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 60,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.175429980991165,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.1181749084089745,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 60,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.5881786906639235,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.6804564777873043,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 60,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.132605173824734,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.132605173824734,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 60,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.1930884355183196,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.1930884355183196,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 60,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 4.273118280889577,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 4.269952366535264,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 61,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.471802756291428,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.17537655246604977,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 61,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.08973159276415466,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.2125340620531855,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 61,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -2.379915432303708,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.379915432303708,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 61,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.785730042991929,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.785730042991929,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 61,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.6117491292260837,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.6117491292260837,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 62,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.3632249806641212,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.20256226635893704,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 62,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.20847233210260718,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.4045246544429428,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 62,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -2.7865965828051857,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -2.802967019104659,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 62,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.357214429313757,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.357214429313757,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 62,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.360584416058984,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.360584416058984,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 63,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.0344704116672805,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9812739876995202,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 63,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.28769624704960606,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3502227563309095,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 63,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -1.025286312476771,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -1.0652441318520012,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 63,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.323971084548372,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.323971084548372,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 63,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.9724883979415893,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.9724883979415893,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 64,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8936692210927575,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8008932506343207,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 64,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.5888824019624117,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.6536626931444776,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 64,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.10915302634440849,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.10915302634440849,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 64,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.567181747577102,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.567181747577102,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 64,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.732739268554596,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.7290803176548195,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 65,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.8514299001569583,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.7626759223204207,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 65,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": -0.8253974091043812,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.9116006207450251,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 65,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.18825101069858619,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.2020898075506281,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 65,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.620135005823915,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.620135005823915,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 65,
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.5791506170292138,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.5661599255169705,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 66,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.1338748669214311,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.8779657661862021,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 66,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9838517518515246,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9037407898589684,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 66,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 3.076339323913203,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.5291429256396327,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 66,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.0510036481824585,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.0510036481824585,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 66,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 3.1294810782921303,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 3.111002502120499,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 67,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.0562204187308453,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6262743557591559,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 67,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.9740318064956455,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.6598049554267078,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 67,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 3.072382954043377,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3735881259018186,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 67,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 2.802987487347707,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.0326396900295833,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 67,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.642108541058434,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.6395015012788718,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 68,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.1272018651721893,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2838830794214573,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 68,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.179944604460701,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.07823599326443187,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 68,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.2644900072060725,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.2644900072060725,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 68,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 3.123237009867836,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.839402020212816,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 68,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 2.697181485931594,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 2.6814029589411774,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 69,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.1104425530462692,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9536901842063177,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 69,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.1478285979161313,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.872537249575414,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 69,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 1.6856266255726968,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.993867847469236,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 69,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.9461520869203195,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.3070611393690896,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 69,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 1.5012549474905228,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 1.4648485350198897,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 70,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 0.9839270502017996,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3081290111707986,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 70,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 0.8956973270540871,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.36327879813798347,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 70,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": 0.6233050874695873,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3424546009088161,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 70,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": 1.669513901314195,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.3435114868342666,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 70,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 16.0173333333332,
+      "root_margin_cm": 0.9633813883325146,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": 0.9561047974143833,
+      "clean_teacher_continuation": true,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 71,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 3.0213333333333354,
+      "root_margin_cm": 1.1316053681054328,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.37381338554106947,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 71,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 5.001333333333325,
+      "root_margin_cm": 1.1893643794593558,
+      "onroad_root": true,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.5697843419007693,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 71,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 8.025333333333291,
+      "root_margin_cm": -0.2167500293966551,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -0.2167500293966551,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    },
+    {
+      "episode": 71,
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 6102,
+      "preset": "unequal_sides",
+      "root_s": 12.021333333333246,
+      "root_margin_cm": -6.970871042635803,
+      "onroad_root": false,
+      "teacher_outcome": "stable_exit",
+      "future_min_margin_cm": -10.620122826269359,
+      "clean_teacher_continuation": false,
+      "stable_teacher_continuation": true
+    }
+  ]
+}

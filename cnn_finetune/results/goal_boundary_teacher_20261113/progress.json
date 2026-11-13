@@ -1,0 +1,1762 @@
+[
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.007364317138295107,
+    "final_lateral_cm": 29.745282196570628,
+    "final_heading_deg": 91.52537839397877,
+    "outside_s": 4.856000000000179,
+    "accel_rms_cm_s2": 5.8475916219647,
+    "angular_accel_rms_rad_s2": 0.4759745091747546,
+    "unnecessary_stops": 30,
+    "unnecessary_stop_s": 23.000000000000007,
+    "translation_pause_s": 27.500000000000007,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 40.02933333333411,
+    "frames": 1111,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": false,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        0.8879197406645931,
+        42.84487512166103,
+        0.015571363651772436
+      ]
+    },
+    "static_candidate_margin_cm": 0.5006044882599898,
+    "guard_calls": 1111,
+    "guard_interventions": 1108,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\north_S_left_field_estimate_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 17.56533333333326,
+      "clean_stable": false,
+      "min_margin_cm": -0.1803142052845601,
+      "final_lateral_cm": 0.0032838784243125474,
+      "final_heading_deg": 0.2130271907868416,
+      "outside_s": 1.064000000000001,
+      "accel_rms_cm_s2": 4.814731192903536,
+      "angular_accel_rms_rad_s2": 0.4502483165232669,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 19.601333333333336,
+      "frames": 543,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": false,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          0.8879197406645931,
+          42.84487512166103,
+          0.015571363651772436
+        ]
+      },
+      "static_candidate_margin_cm": 0.5006044882599898,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\north_S_left_6202_field_estimate_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 21.74133333333342,
+    "clean_stable": true,
+    "min_margin_cm": 0.023404230741965293,
+    "final_lateral_cm": 0.031296815412318324,
+    "final_heading_deg": 1.0129429450702143,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 7.265338288178325,
+    "angular_accel_rms_rad_s2": 0.544083410802884,
+    "unnecessary_stops": 3,
+    "unnecessary_stop_s": 2.1,
+    "translation_pause_s": 2.1,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 1.0138469411949105,
+        "restricted_s": 1.0138469411949105
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 2.838527557011158,
+        "restricted_s": 2.838527557011158
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 23.793333333333496,
+    "frames": 659,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        0.8879197406645931,
+        42.84487512166103,
+        0.015571363651772436
+      ]
+    },
+    "static_candidate_margin_cm": 0.5006044882599898,
+    "guard_calls": 660,
+    "guard_interventions": 246,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\north_S_left_field_estimate_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -0.1935617748051328,
+      "final_lateral_cm": 0.9894434801786502,
+      "final_heading_deg": 4.0652934505431935,
+      "outside_s": 1.1360000000000006,
+      "accel_rms_cm_s2": 5.252048784804342,
+      "angular_accel_rms_rad_s2": 0.5446430868607827,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 3.945846941194877,
+          "restricted_s": 3.945846941194877
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 2.0825275570111295
+        }
+      ],
+      "unrecovered": 1,
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 18.305333333333287,
+      "frames": 507,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": false,
+      "old_strict_clean": false,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          0.8879197406645931,
+          42.84487512166103,
+          0.015571363651772436
+        ]
+      },
+      "static_candidate_margin_cm": 0.5006044882599898,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\north_S_left_6202_field_estimate_mild_centered"
+    }
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.10153988350670318,
+    "final_lateral_cm": 41.35783565942628,
+    "final_heading_deg": 89.8480358532208,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.311001316720965,
+    "angular_accel_rms_rad_s2": 0.2561459388016455,
+    "unnecessary_stops": 29,
+    "unnecessary_stop_s": 30.40000000000001,
+    "translation_pause_s": 33.900000000000006,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 40.02933333333411,
+    "frames": 1111,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": false,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        0.8879197406645931,
+        42.84487512166103,
+        0.015571363651772436
+      ]
+    },
+    "static_candidate_margin_cm": 0.5006044882599898,
+    "guard_calls": 1111,
+    "guard_interventions": 1110,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\north_S_left_sluggish_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 17.81733333333327,
+      "clean_stable": false,
+      "min_margin_cm": -0.13956804464243078,
+      "final_lateral_cm": 0.010628325211527567,
+      "final_heading_deg": 0.09332316852810602,
+      "outside_s": 1.044000000000001,
+      "accel_rms_cm_s2": 2.3584737022224638,
+      "angular_accel_rms_rad_s2": 0.17922079776980446,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 19.853333333333346,
+      "frames": 550,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": false,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          0.8879197406645931,
+          42.84487512166103,
+          0.015571363651772436
+        ]
+      },
+      "static_candidate_margin_cm": 0.5006044882599898,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\north_S_left_6202_sluggish_normal_centered"
+    }
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.46181624889736383,
+    "final_lateral_cm": 19.403381030658565,
+    "final_heading_deg": 78.97031062386883,
+    "outside_s": 0.46799999999999553,
+    "accel_rms_cm_s2": 4.345905652823165,
+    "angular_accel_rms_rad_s2": 0.4488689188073392,
+    "unnecessary_stops": 23,
+    "unnecessary_stop_s": 11.400000000000002,
+    "translation_pause_s": 20.900000000000002,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 1.425846941194906,
+        "restricted_s": 1.425846941194906
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 1.0185275570110903,
+        "restricted_s": 1.0185275570110903
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 40.02933333333411,
+    "frames": 1111,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": false,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        0.8879197406645931,
+        42.84487512166103,
+        0.015571363651772436
+      ]
+    },
+    "static_candidate_margin_cm": 0.5006044882599898,
+    "guard_calls": 1111,
+    "guard_interventions": 1023,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\north_S_left_sluggish_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -0.20594925512897255,
+      "final_lateral_cm": 1.0515602178765562,
+      "final_heading_deg": 3.6737340637882197,
+      "outside_s": 1.6719999999999944,
+      "accel_rms_cm_s2": 2.588238976093023,
+      "angular_accel_rms_rad_s2": 0.22479945666925202,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 4.305846941194873,
+          "restricted_s": 4.305846941194873
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 2.2985275570111376
+        }
+      ],
+      "unrecovered": 1,
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 18.521333333333295,
+      "frames": 513,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": false,
+      "old_strict_clean": false,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          0.8879197406645931,
+          42.84487512166103,
+          0.015571363651772436
+        ]
+      },
+      "static_candidate_margin_cm": 0.5006044882599898,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\north_S_left_6202_sluggish_mild_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.29733333333325,
+    "clean_stable": true,
+    "min_margin_cm": 0.9062771462471915,
+    "final_lateral_cm": 0.0031614268562094594,
+    "final_heading_deg": 0.028573072120201392,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.227039213985111,
+    "angular_accel_rms_rad_s2": 0.5683044924199455,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.293333333333326,
+    "frames": 534,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.84487512166103,
+        -0.8879197406645931,
+        1.586367690446669
+      ]
+    },
+    "static_candidate_margin_cm": 1.2118339716594164,
+    "guard_calls": 535,
+    "guard_interventions": 0,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\east_W_left_field_estimate_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 17.29733333333325,
+      "clean_stable": true,
+      "min_margin_cm": 0.9062771462471915,
+      "final_lateral_cm": 0.0031614268562094594,
+      "final_heading_deg": 0.028573072120201392,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 4.227039213985111,
+      "angular_accel_rms_rad_s2": 0.5683044924199455,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 19.293333333333326,
+      "frames": 534,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.84487512166103,
+          -0.8879197406645931,
+          1.586367690446669
+        ]
+      },
+      "static_candidate_margin_cm": 1.2118339716594164,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\east_W_left_6202_field_estimate_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 15.9293333333332,
+    "clean_stable": false,
+    "min_margin_cm": -0.0491695157978107,
+    "final_lateral_cm": 1.1882340837739918,
+    "final_heading_deg": 4.027335203633843,
+    "outside_s": 0.251999999999998,
+    "accel_rms_cm_s2": 5.775914806016342,
+    "angular_accel_rms_rad_s2": 0.7133415661549164,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 3.3538469411948837,
+        "restricted_s": 3.3538469411948837
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 1.5945275570111122
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 17.81733333333327,
+    "frames": 493,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.84487512166103,
+        -0.8879197406645931,
+        1.586367690446669
+      ]
+    },
+    "static_candidate_margin_cm": 1.2118339716594164,
+    "guard_calls": 494,
+    "guard_interventions": 36,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\east_W_left_field_estimate_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -0.04513385528728797,
+      "final_lateral_cm": 1.1232877419061111,
+      "final_heading_deg": 3.94518200509758,
+      "outside_s": 0.4519999999999955,
+      "accel_rms_cm_s2": 5.363995803085036,
+      "angular_accel_rms_rad_s2": 0.547748610652331,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 3.8938469411948775,
+          "restricted_s": 3.8938469411948775
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 1.8105275570111203
+        }
+      ],
+      "unrecovered": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 18.033333333333278,
+      "frames": 499,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": false,
+      "old_strict_clean": false,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.84487512166103,
+          -0.8879197406645931,
+          1.586367690446669
+        ]
+      },
+      "static_candidate_margin_cm": 1.2118339716594164,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\east_W_left_6202_field_estimate_mild_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.493333333333258,
+    "clean_stable": true,
+    "min_margin_cm": 0.9281088816553833,
+    "final_lateral_cm": 0.015041983730327502,
+    "final_heading_deg": 0.0853144749637973,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.431624303245061,
+    "angular_accel_rms_rad_s2": 0.18593223970598605,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 19.493333333333332,
+    "frames": 540,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.84487512166103,
+        -0.8879197406645931,
+        1.586367690446669
+      ]
+    },
+    "static_candidate_margin_cm": 1.2118339716594164,
+    "guard_calls": 541,
+    "guard_interventions": 0,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\east_W_left_sluggish_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 17.493333333333258,
+      "clean_stable": true,
+      "min_margin_cm": 0.9281088816553833,
+      "final_lateral_cm": 0.015041983730327502,
+      "final_heading_deg": 0.0853144749637973,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 2.431624303245061,
+      "angular_accel_rms_rad_s2": 0.18593223970598605,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 19.493333333333332,
+      "frames": 540,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.84487512166103,
+          -0.8879197406645931,
+          1.586367690446669
+        ]
+      },
+      "static_candidate_margin_cm": 1.2118339716594164,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\east_W_left_6202_sluggish_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 25.00133333333354,
+    "clean_stable": false,
+    "min_margin_cm": -0.13503583975506395,
+    "final_lateral_cm": 0.08138471762926258,
+    "final_heading_deg": 0.14509916222174962,
+    "outside_s": 7.91999999999991,
+    "accel_rms_cm_s2": 3.36046678919094,
+    "angular_accel_rms_rad_s2": 0.32159211326031667,
+    "unnecessary_stops": 4,
+    "unnecessary_stop_s": 1.3000000000000003,
+    "translation_pause_s": 4.0,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 9.165846941194872,
+        "restricted_s": 9.165846941194872
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 1.0185275570110903,
+        "restricted_s": 1.0185275570110903
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 27.05333333333362,
+    "frames": 750,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.84487512166103,
+        -0.8879197406645931,
+        1.586367690446669
+      ]
+    },
+    "static_candidate_margin_cm": 1.2118339716594164,
+    "guard_calls": 751,
+    "guard_interventions": 225,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\east_W_left_sluggish_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": null,
+      "clean_stable": false,
+      "min_margin_cm": -0.13503583975506395,
+      "final_lateral_cm": 1.140319170032413,
+      "final_heading_deg": 3.7022461555875945,
+      "outside_s": 0.8839999999999906,
+      "accel_rms_cm_s2": 2.521633950613611,
+      "angular_accel_rms_rad_s2": 0.22036560961490737,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 4.305846941194873,
+          "restricted_s": 4.305846941194873
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": false,
+          "recovery_s": null,
+          "restricted_s": 2.0105275570111267
+        }
+      ],
+      "unrecovered": 1,
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 18.233333333333285,
+      "frames": 505,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": false,
+      "old_strict_clean": false,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.84487512166103,
+          -0.8879197406645931,
+          1.586367690446669
+        ]
+      },
+      "static_candidate_margin_cm": 1.2118339716594164,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\east_W_left_6202_sluggish_mild_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 26.189333333333586,
+    "clean_stable": true,
+    "min_margin_cm": 0.9527298131175215,
+    "final_lateral_cm": 0.001663428460257093,
+    "final_heading_deg": 0.007594090234883022,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 3.5492877110695242,
+    "angular_accel_rms_rad_s2": 0.35713444300045455,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 28.94133333333369,
+    "frames": 802,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.40512487833897,
+        0.8879197406645931,
+        -1.555224963143124
+      ]
+    },
+    "static_candidate_margin_cm": 1.0139412830041419,
+    "guard_calls": 803,
+    "guard_interventions": 0,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\center_E_right_field_estimate_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 26.189333333333586,
+      "clean_stable": true,
+      "min_margin_cm": 0.9527298131175215,
+      "final_lateral_cm": 0.001663428460257093,
+      "final_heading_deg": 0.007594090234883022,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 3.5492877110695242,
+      "angular_accel_rms_rad_s2": 0.35713444300045455,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 28.94133333333369,
+      "frames": 802,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.40512487833897,
+          0.8879197406645931,
+          -1.555224963143124
+        ]
+      },
+      "static_candidate_margin_cm": 1.0139412830041419,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\center_E_right_6202_field_estimate_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 34.14533333333389,
+    "clean_stable": false,
+    "min_margin_cm": -0.5175625281242251,
+    "final_lateral_cm": 0.028932631511742243,
+    "final_heading_deg": 0.06018991356110817,
+    "outside_s": 8.155999999999906,
+    "accel_rms_cm_s2": 4.691424076141278,
+    "angular_accel_rms_rad_s2": 0.46501693276756684,
+    "unnecessary_stops": 4,
+    "unnecessary_stop_s": 4.2,
+    "translation_pause_s": 5.500000000000001,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 9.113846941194868,
+        "restricted_s": 9.113846941194868
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 1.0185275570110903,
+        "restricted_s": 1.0185275570110903
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 36.89733333333399,
+    "frames": 1023,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.40512487833897,
+        0.8879197406645931,
+        -1.555224963143124
+      ]
+    },
+    "static_candidate_margin_cm": 1.0139412830041419,
+    "guard_calls": 1024,
+    "guard_interventions": 230,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\center_E_right_field_estimate_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 25.305333333333554,
+      "clean_stable": false,
+      "min_margin_cm": -1.007176645136326,
+      "final_lateral_cm": 0.03772908638505037,
+      "final_heading_deg": 0.08437340709256112,
+      "outside_s": 3.943999999999998,
+      "accel_rms_cm_s2": 4.536011317848166,
+      "angular_accel_rms_rad_s2": 0.4305641561716109,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 3.945846941194877,
+          "restricted_s": 3.945846941194877
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": true,
+          "recovery_s": 2.838527557011158,
+          "restricted_s": 2.838527557011158
+        }
+      ],
+      "unrecovered": 0,
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 28.14933333333366,
+      "frames": 780,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": true,
+      "old_strict_clean": false,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.40512487833897,
+          0.8879197406645931,
+          -1.555224963143124
+        ]
+      },
+      "static_candidate_margin_cm": 1.0139412830041419,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\center_E_right_6202_field_estimate_mild_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 26.369333333333593,
+    "clean_stable": true,
+    "min_margin_cm": 0.9455463767434455,
+    "final_lateral_cm": 0.002266883403288689,
+    "final_heading_deg": 0.039677660509192844,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 1.6450288775053303,
+    "angular_accel_rms_rad_s2": 0.17027532727119585,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 29.105333333333697,
+    "frames": 807,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.40512487833897,
+        0.8879197406645931,
+        -1.555224963143124
+      ]
+    },
+    "static_candidate_margin_cm": 1.0139412830041419,
+    "guard_calls": 808,
+    "guard_interventions": 0,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\center_E_right_sluggish_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 26.369333333333593,
+      "clean_stable": true,
+      "min_margin_cm": 0.9455463767434455,
+      "final_lateral_cm": 0.002266883403288689,
+      "final_heading_deg": 0.039677660509192844,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 1.6450288775053303,
+      "angular_accel_rms_rad_s2": 0.17027532727119585,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 29.105333333333697,
+      "frames": 807,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.40512487833897,
+          0.8879197406645931,
+          -1.555224963143124
+        ]
+      },
+      "static_candidate_margin_cm": 1.0139412830041419,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\center_E_right_6202_sluggish_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 34.4493333333339,
+    "clean_stable": false,
+    "min_margin_cm": -0.6761941516495469,
+    "final_lateral_cm": 0.07024828341460927,
+    "final_heading_deg": 0.19341305187341962,
+    "outside_s": 8.171999999999908,
+    "accel_rms_cm_s2": 2.746122283392918,
+    "angular_accel_rms_rad_s2": 0.24814217612087958,
+    "unnecessary_stops": 6,
+    "unnecessary_stop_s": 4.9,
+    "translation_pause_s": 5.699999999999999,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 9.113846941194868,
+        "restricted_s": 9.113846941194868
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 1.0185275570110903,
+        "restricted_s": 1.0185275570110903
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 37.169333333334,
+    "frames": 1031,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 1.3872744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "held",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 1.3872744603812066,
+      "initial_margin_cm": 1.3872744603812066,
+      "pose": [
+        43.40512487833897,
+        0.8879197406645931,
+        -1.555224963143124
+      ]
+    },
+    "static_candidate_margin_cm": 1.0139412830041419,
+    "guard_calls": 1032,
+    "guard_interventions": 232,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\center_E_right_sluggish_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 25.521333333333562,
+      "clean_stable": false,
+      "min_margin_cm": -1.035001497132594,
+      "final_lateral_cm": 0.0480555479380843,
+      "final_heading_deg": 0.11677231464258243,
+      "outside_s": 4.175999999999992,
+      "accel_rms_cm_s2": 2.0069554155950105,
+      "angular_accel_rms_rad_s2": 0.2020859690669706,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 6.681846941194846,
+          "restricted_s": 6.681846941194846
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": true,
+          "recovery_s": 2.85452755701116,
+          "restricted_s": 2.85452755701116
+        }
+      ],
+      "unrecovered": 0,
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 28.349333333333668,
+      "frames": 786,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": true,
+      "old_strict_clean": false,
+      "initial_margin_cm": 1.3872744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "held",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 1.3872744603812066,
+        "initial_margin_cm": 1.3872744603812066,
+        "pose": [
+          43.40512487833897,
+          0.8879197406645931,
+          -1.555224963143124
+        ]
+      },
+      "static_candidate_margin_cm": 1.0139412830041419,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\center_E_right_6202_sluggish_mild_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 18.269333333333286,
+    "clean_stable": true,
+    "min_margin_cm": 0.05142556894486461,
+    "final_lateral_cm": 0.0007995128718647493,
+    "final_heading_deg": 0.047449069723164504,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.571461993385776,
+    "angular_accel_rms_rad_s2": 0.659734193035051,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 20.285333333333362,
+    "frames": 562,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        -0.8879197406645931,
+        -41.84487512166103,
+        -3.126021289938021
+      ]
+    },
+    "static_candidate_margin_cm": 0.9971283356408378,
+    "guard_calls": 563,
+    "guard_interventions": 67,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\south_N_right_field_estimate_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 18.305333333333287,
+      "clean_stable": true,
+      "min_margin_cm": 0.12864057693928288,
+      "final_lateral_cm": 0.00042589952914795504,
+      "final_heading_deg": 0.015933269572185403,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 4.695819639900058,
+      "angular_accel_rms_rad_s2": 0.6171914722790867,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 20.337333333333365,
+      "frames": 563,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          -0.8879197406645931,
+          -41.84487512166103,
+          -3.126021289938021
+        ]
+      },
+      "static_candidate_margin_cm": 0.9971283356408378,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\south_N_right_6202_field_estimate_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 19.529333333333334,
+    "clean_stable": true,
+    "min_margin_cm": 0.10675262241529282,
+    "final_lateral_cm": 0.5926899120834008,
+    "final_heading_deg": 2.958117437624634,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 6.698169980234342,
+    "angular_accel_rms_rad_s2": 0.5352930516512117,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 3.67784694119488,
+        "restricted_s": 3.67784694119488
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 3.3225275570111776,
+        "restricted_s": 3.3225275570111776
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "field_estimate",
+    "outcome": "stable_exit",
+    "simulated_s": 19.761333333333344,
+    "frames": 547,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        -0.8879197406645931,
+        -41.84487512166103,
+        -3.126021289938021
+      ]
+    },
+    "static_candidate_margin_cm": 0.9971283356408378,
+    "guard_calls": 548,
+    "guard_interventions": 66,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\south_N_right_field_estimate_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 19.42133333333333,
+      "clean_stable": true,
+      "min_margin_cm": 0.12372549991135173,
+      "final_lateral_cm": 0.5457946257436106,
+      "final_heading_deg": 2.6862715542363076,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 5.678579921825959,
+      "angular_accel_rms_rad_s2": 0.5922473380611601,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 3.569846941194881,
+          "restricted_s": 3.569846941194881
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": true,
+          "recovery_s": 3.2145275570111735,
+          "restricted_s": 3.2145275570111735
+        }
+      ],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "outcome": "stable_exit",
+      "simulated_s": 19.833333333333346,
+      "frames": 549,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          -0.8879197406645931,
+          -41.84487512166103,
+          -3.126021289938021
+        ]
+      },
+      "static_candidate_margin_cm": 0.9971283356408378,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\south_N_right_6202_field_estimate_mild_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 34.98933333333392,
+    "clean_stable": true,
+    "min_margin_cm": 0.038194683855238054,
+    "final_lateral_cm": 0.008842825599955972,
+    "final_heading_deg": 0.009767070457244398,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 3.318663286380446,
+    "angular_accel_rms_rad_s2": 0.31451846529592126,
+    "unnecessary_stops": 8,
+    "unnecessary_stop_s": 3.9000000000000004,
+    "translation_pause_s": 7.800000000000001,
+    "recovery": [],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "normal",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 37.00533333333399,
+    "frames": 1026,
+    "push_exposure_s": 0.0,
+    "old_strict_stable": true,
+    "old_strict_clean": true,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        -0.8879197406645931,
+        -41.84487512166103,
+        -3.126021289938021
+      ]
+    },
+    "static_candidate_margin_cm": 0.9971283356408378,
+    "guard_calls": 1027,
+    "guard_interventions": 498,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\south_N_right_sluggish_normal",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 18.5733333333333,
+      "clean_stable": true,
+      "min_margin_cm": 0.1372744603812066,
+      "final_lateral_cm": 0.008097250435213255,
+      "final_heading_deg": 0.004041949577015721,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 2.6677459828991044,
+      "angular_accel_rms_rad_s2": 0.2283640462754018,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 20.589333333333375,
+      "frames": 570,
+      "push_exposure_s": 0.0,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          -0.8879197406645931,
+          -41.84487512166103,
+          -3.126021289938021
+        ]
+      },
+      "static_candidate_margin_cm": 0.9971283356408378,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\south_N_right_6202_sluggish_normal_centered"
+    }
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 32.05733333333381,
+    "clean_stable": false,
+    "min_margin_cm": -0.4472475907553104,
+    "final_lateral_cm": 0.1241503787126561,
+    "final_heading_deg": 0.056397403535214975,
+    "outside_s": 1.043999999999989,
+    "accel_rms_cm_s2": 3.735165899357072,
+    "angular_accel_rms_rad_s2": 0.29652677485142365,
+    "unnecessary_stops": 7,
+    "unnecessary_stop_s": 3.4000000000000004,
+    "translation_pause_s": 5.9,
+    "recovery": [
+      {
+        "event_end_s": 7.93148639213837,
+        "recovered": true,
+        "recovery_s": 8.949846941194863,
+        "restricted_s": 8.949846941194863
+      },
+      {
+        "event_end_s": 16.222805776322158,
+        "recovered": true,
+        "recovery_s": 1.0185275570110903,
+        "restricted_s": 1.0185275570110903
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 6202,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 34.08933333333388,
+    "frames": 945,
+    "push_exposure_s": 0.8892111927181947,
+    "old_strict_stable": true,
+    "old_strict_clean": false,
+    "initial_margin_cm": 0.1372744603812066,
+    "initial_valid": true,
+    "local_gate_cm": 55,
+    "reference_status": "accepted_dev",
+    "variant": "centered",
+    "initial_sampling": {
+      "projected": false,
+      "original_margin_cm": 0.1372744603812066,
+      "initial_margin_cm": 0.1372744603812066,
+      "pose": [
+        -0.8879197406645931,
+        -41.84487512166103,
+        -3.126021289938021
+      ]
+    },
+    "static_candidate_margin_cm": 0.9971283356408378,
+    "guard_calls": 946,
+    "guard_interventions": 432,
+    "artifact": "D:\\autodrive_cnn\\runs\\goal_boundary_teacher_20261113\\south_N_right_sluggish_mild",
+    "baseline": {
+      "stable_success": true,
+      "stable_exit_s": 19.68933333333334,
+      "clean_stable": true,
+      "min_margin_cm": 0.12809591093800776,
+      "final_lateral_cm": 0.5670135345627614,
+      "final_heading_deg": 2.9976483272706083,
+      "outside_s": 0.0,
+      "accel_rms_cm_s2": 2.744824630984326,
+      "angular_accel_rms_rad_s2": 0.24465483392757184,
+      "unnecessary_stops": 0,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0,
+      "recovery": [
+        {
+          "event_end_s": 7.93148639213837,
+          "recovered": true,
+          "recovery_s": 3.497846941194882,
+          "restricted_s": 3.497846941194882
+        },
+        {
+          "event_end_s": 16.222805776322158,
+          "recovered": true,
+          "recovery_s": 3.466527557011183,
+          "restricted_s": 3.466527557011183
+        }
+      ],
+      "unrecovered": 0,
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "outcome": "stable_exit",
+      "simulated_s": 20.033333333333353,
+      "frames": 555,
+      "push_exposure_s": 0.8892111927181947,
+      "old_strict_stable": true,
+      "old_strict_clean": true,
+      "initial_margin_cm": 0.1372744603812066,
+      "initial_valid": true,
+      "local_gate_cm": 55,
+      "reference_status": "accepted_dev",
+      "variant": "centered",
+      "initial_sampling": {
+        "projected": false,
+        "original_margin_cm": 0.1372744603812066,
+        "initial_margin_cm": 0.1372744603812066,
+        "pose": [
+          -0.8879197406645931,
+          -41.84487512166103,
+          -3.126021289938021
+        ]
+      },
+      "static_candidate_margin_cm": 0.9971283356408378,
+      "static_rejected": false,
+      "artifact": "D:\\autodrive_cnn\\runs\\goal_teacher_coverage_20261113\\south_N_right_6202_sluggish_mild_centered"
+    }
+  }
+]

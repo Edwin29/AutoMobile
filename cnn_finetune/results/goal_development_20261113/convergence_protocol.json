@@ -1,0 +1,18 @@
+{
+  "hypothesis": "Insufficient supervised optimization contributes to poor control; original warm loss had not plateaued",
+  "initial_checkpoint_sha256": "ec2a5e436dc6e0f0686afb4acfaf12ed8217560f0793a1283f798a3674c59a9d",
+  "teacher_sequences": 94,
+  "new_training_data": false,
+  "epochs": 60,
+  "lr": 0.0001,
+  "min_lr": 1e-05,
+  "batch_size": 4,
+  "seed": 17,
+  "optimizer": "AdamW reset; original optimizer state unavailable",
+  "encoder_frozen": true,
+  "architecture_changed": false,
+  "check_every": 10,
+  "selection": "lowest mean per-episode on-road wheel MAE on development teacher replay; freeze before closed-loop comparison",
+  "final_exam_used": false,
+  "source_sha256": "23eac51fcaba590614ed6a293893d9357dad0ecfac7c2f08b2344fe0976ffd60"
+}

@@ -1,0 +1,39 @@
+{
+  "source_sha256": "bdd7a839a1563f1b5206f0f83340db376777536b95b0ee8a93f2f89c24258f57",
+  "keys": [
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ]
+  ],
+  "seed": 6202,
+  "presets": [
+    "field_estimate",
+    "sluggish"
+  ],
+  "condition": "mild",
+  "horizon_s": 0.036,
+  "modes": [
+    "no_residual",
+    "decay_0.2",
+    "hold_current"
+  ],
+  "information": "current pose, wheel speed, nominal params, old PWM queue, residual from latest past pose increment",
+  "outcome": "same unchanged corrected-teacher trajectories; forecast never controls vehicle; events used for retrospective grouping only"
+}

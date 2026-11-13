@@ -1,0 +1,290 @@
+[
+  {
+    "movement": "center_N_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_N_left",
+    "video_frames": 247,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_N_right",
+    "video_frames": 244,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_E_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_E_left",
+    "video_frames": 309,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_E_right",
+    "video_frames": 306,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_S_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_S_left",
+    "video_frames": 247,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_S_right",
+    "video_frames": 244,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_W_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_W_left",
+    "video_frames": 309,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "center_W_right",
+    "video_frames": 306,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "north_E_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "north_E_left",
+    "video_frames": 202,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "north_S_left",
+    "video_frames": 233,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "north_S_right",
+    "video_frames": 231,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "north_W_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "north_W_right",
+    "video_frames": 203,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "east_N_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "east_N_right",
+    "video_frames": 206,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "east_S_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "east_S_left",
+    "video_frames": 240,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "east_W_left",
+    "video_frames": 230,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "east_W_right",
+    "video_frames": 228,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "south_N_left",
+    "video_frames": 232,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "south_N_right",
+    "video_frames": 231,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "south_E_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "south_E_right",
+    "video_frames": 297,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "south_W_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "south_W_left",
+    "video_frames": 203,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "west_N_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "west_N_left",
+    "video_frames": 240,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "west_E_left",
+    "video_frames": 230,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "west_E_right",
+    "video_frames": 228,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "west_S_straight",
+    "video_frames": 189,
+    "dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "movement": "west_S_right",
+    "video_frames": 206,
+    "dimensions": [
+      640,
+      640
+    ]
+  }
+]

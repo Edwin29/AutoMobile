@@ -1,0 +1,24 @@
+{
+  "paired_initial_pose_and_events": true,
+  "paired_count": 864,
+  "accepted": 16,
+  "held": 8,
+  "source_hashes": {
+    "junction_cornering_report.py": "815b3735191dd2dd546d05e7dc109d57352d0bcffc43beac4e702fea2ee4978b",
+    "junction_cornering.py": "09ebf8dd902064fb6113b8b1912f6e25146a3bb9e700b95a565f0155cb4d9e9a",
+    "test_junction_cornering.py": "38103e8750d40d6780125775c325dba5f186e37cdc4228e2237fd67c4dacc0db"
+  },
+  "direct_model_sha256": "73bcc52551ff7c8f97a4b8a08db72364292eca59c16c0bbe0dc2959cbf7333f4",
+  "final_test_used": false,
+  "training_started": false,
+  "base_sources_unchanged": 516,
+  "models_unchanged": true,
+  "baseline_regression": {
+    "runs": 864,
+    "exact_physics": true,
+    "exact_commands": true
+  },
+  "raw_files": 6939,
+  "raw_bytes": 172436247,
+  "unit_tests_passed": 3
+}

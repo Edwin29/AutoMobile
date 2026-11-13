@@ -1,0 +1,363 @@
+{
+  "teacher": {
+    "overall": {
+      "n": 72,
+      "stable": 72,
+      "clean": 60,
+      "initial_invalid": 0,
+      "outcomes": {
+        "stable_exit": 72
+      }
+    },
+    "conditions": {
+      "normal": {
+        "n": 24,
+        "stable": 24,
+        "clean": 24,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 24
+        }
+      },
+      "mild": {
+        "n": 24,
+        "stable": 24,
+        "clean": 18,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 24
+        }
+      },
+      "mild_light": {
+        "n": 24,
+        "stable": 24,
+        "clean": 18,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 24
+        }
+      }
+    },
+    "movements": {
+      "east_W_left": {
+        "n": 18,
+        "stable": 18,
+        "clean": 18,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18
+        }
+      },
+      "east_W_right": {
+        "n": 18,
+        "stable": 18,
+        "clean": 18,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18
+        }
+      },
+      "south_N_right": {
+        "n": 18,
+        "stable": 18,
+        "clean": 18,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18
+        }
+      },
+      "center_N_right": {
+        "n": 18,
+        "stable": 18,
+        "clean": 6,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18
+        }
+      }
+    },
+    "presets": {
+      "field_estimate": {
+        "n": 24,
+        "stable": 24,
+        "clean": 20,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 24
+        }
+      },
+      "sluggish": {
+        "n": 24,
+        "stable": 24,
+        "clean": 20,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 24
+        }
+      },
+      "unequal_sides": {
+        "n": 24,
+        "stable": 24,
+        "clean": 20,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 24
+        }
+      }
+    }
+  },
+  "bc": {
+    "overall": {
+      "n": 72,
+      "stable": 47,
+      "clean": 3,
+      "initial_invalid": 0,
+      "outcomes": {
+        "wrong_exit": 13,
+        "stable_exit": 47,
+        "unstable_exit": 10,
+        "severe_departure": 2
+      }
+    },
+    "conditions": {
+      "normal": {
+        "n": 24,
+        "stable": 19,
+        "clean": 1,
+        "initial_invalid": 0,
+        "outcomes": {
+          "wrong_exit": 4,
+          "stable_exit": 19,
+          "severe_departure": 1
+        }
+      },
+      "mild": {
+        "n": 24,
+        "stable": 14,
+        "clean": 1,
+        "initial_invalid": 0,
+        "outcomes": {
+          "wrong_exit": 4,
+          "unstable_exit": 5,
+          "severe_departure": 1,
+          "stable_exit": 14
+        }
+      },
+      "mild_light": {
+        "n": 24,
+        "stable": 14,
+        "clean": 1,
+        "initial_invalid": 0,
+        "outcomes": {
+          "wrong_exit": 5,
+          "unstable_exit": 5,
+          "stable_exit": 14
+        }
+      }
+    },
+    "movements": {
+      "east_W_left": {
+        "n": 18,
+        "stable": 3,
+        "clean": 3,
+        "initial_invalid": 0,
+        "outcomes": {
+          "wrong_exit": 13,
+          "severe_departure": 2,
+          "stable_exit": 3
+        }
+      },
+      "east_W_right": {
+        "n": 18,
+        "stable": 16,
+        "clean": 0,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 16,
+          "unstable_exit": 2
+        }
+      },
+      "south_N_right": {
+        "n": 18,
+        "stable": 16,
+        "clean": 0,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 16,
+          "unstable_exit": 2
+        }
+      },
+      "center_N_right": {
+        "n": 18,
+        "stable": 12,
+        "clean": 0,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 12,
+          "unstable_exit": 6
+        }
+      }
+    },
+    "presets": {
+      "field_estimate": {
+        "n": 24,
+        "stable": 12,
+        "clean": 0,
+        "initial_invalid": 0,
+        "outcomes": {
+          "wrong_exit": 6,
+          "stable_exit": 12,
+          "unstable_exit": 6
+        }
+      },
+      "sluggish": {
+        "n": 24,
+        "stable": 16,
+        "clean": 0,
+        "initial_invalid": 0,
+        "outcomes": {
+          "severe_departure": 2,
+          "wrong_exit": 4,
+          "stable_exit": 16,
+          "unstable_exit": 2
+        }
+      },
+      "unequal_sides": {
+        "n": 24,
+        "stable": 19,
+        "clean": 3,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 19,
+          "wrong_exit": 3,
+          "unstable_exit": 2
+        }
+      }
+    }
+  },
+  "outcome": {
+    "overall": {
+      "n": 72,
+      "stable": 59,
+      "clean": 27,
+      "initial_invalid": 0,
+      "outcomes": {
+        "stable_exit": 59,
+        "unstable_exit": 7,
+        "wrong_exit": 1,
+        "severe_departure": 5
+      }
+    },
+    "conditions": {
+      "normal": {
+        "n": 24,
+        "stable": 22,
+        "clean": 13,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 22,
+          "wrong_exit": 1,
+          "severe_departure": 1
+        }
+      },
+      "mild": {
+        "n": 24,
+        "stable": 18,
+        "clean": 6,
+        "initial_invalid": 0,
+        "outcomes": {
+          "unstable_exit": 4,
+          "stable_exit": 18,
+          "severe_departure": 2
+        }
+      },
+      "mild_light": {
+        "n": 24,
+        "stable": 19,
+        "clean": 8,
+        "initial_invalid": 0,
+        "outcomes": {
+          "unstable_exit": 3,
+          "stable_exit": 19,
+          "severe_departure": 2
+        }
+      }
+    },
+    "movements": {
+      "east_W_left": {
+        "n": 18,
+        "stable": 6,
+        "clean": 6,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 6,
+          "unstable_exit": 6,
+          "wrong_exit": 1,
+          "severe_departure": 5
+        }
+      },
+      "east_W_right": {
+        "n": 18,
+        "stable": 17,
+        "clean": 5,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 17,
+          "unstable_exit": 1
+        }
+      },
+      "south_N_right": {
+        "n": 18,
+        "stable": 18,
+        "clean": 12,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18
+        }
+      },
+      "center_N_right": {
+        "n": 18,
+        "stable": 18,
+        "clean": 4,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18
+        }
+      }
+    },
+    "presets": {
+      "field_estimate": {
+        "n": 24,
+        "stable": 18,
+        "clean": 10,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 18,
+          "unstable_exit": 3,
+          "wrong_exit": 1,
+          "severe_departure": 2
+        }
+      },
+      "sluggish": {
+        "n": 24,
+        "stable": 21,
+        "clean": 11,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 21,
+          "severe_departure": 3
+        }
+      },
+      "unequal_sides": {
+        "n": 24,
+        "stable": 20,
+        "clean": 6,
+        "initial_invalid": 0,
+        "outcomes": {
+          "stable_exit": 20,
+          "unstable_exit": 4
+        }
+      }
+    }
+  }
+}

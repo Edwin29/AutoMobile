@@ -1,0 +1,1703 @@
+{
+  "manifest_sha256": "4d352d87f80a75ec97aefe18f0e49692756bd748c88456625a07aabf4ba5a449",
+  "source_sha256": "43190b030e06ae05b61c75269454c1d9d535e1ccdd2722c67b7790ce1ea25c3e",
+  "training_updates": 0,
+  "simulator_rollouts": 0,
+  "totals": {
+    "episodes": 442,
+    "frames": 242003,
+    "wheel_targets": 484006,
+    "below_allocator_floor": 335572,
+    "turn_frames": 42154,
+    "change_frames": 9738,
+    "changes_outside_turn_weight": 1524
+  },
+  "first_frame_groups": 56,
+  "exact_input_groups": 56,
+  "conflicting_exact_input_groups": 56,
+  "max_conflict": 0.039335280656814575,
+  "exact_groups": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.031439751386642456,
+      "labels": {
+        "field_estimate": [
+          0.29867756366729736,
+          0.29607537388801575
+        ],
+        "sluggish": [
+          0.3136114478111267,
+          0.3108791708946228
+        ],
+        "unequal_sides": [
+          0.3301173150539398,
+          0.29607537388801575
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_N_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_N_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_N_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.0007766350172460079,
+      "labels": {
+        "field_estimate": [
+          0.00737803103402257,
+          -0.003092316910624504
+        ],
+        "sluggish": [
+          0.007746932562440634,
+          -0.0032469327561557293
+        ],
+        "unequal_sides": [
+          0.008154666051268578,
+          -0.003092316910624504
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_E_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_E_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_E_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.031439751386642456,
+      "labels": {
+        "field_estimate": [
+          0.29867756366729736,
+          0.29607537388801575
+        ],
+        "sluggish": [
+          0.3136114478111267,
+          0.3108791708946228
+        ],
+        "unequal_sides": [
+          0.3301173150539398,
+          0.29607537388801575
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_S_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_S_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_S_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.0007766350172460079,
+      "labels": {
+        "field_estimate": [
+          0.00737803103402257,
+          -0.003092316910624504
+        ],
+        "sluggish": [
+          0.007746932562440634,
+          -0.0032469327561557293
+        ],
+        "unequal_sides": [
+          0.008154666051268578,
+          -0.003092316910624504
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_W_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_W_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_W_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.039335280656814575,
+      "labels": {
+        "field_estimate": [
+          0.373685359954834,
+          0.3202703297138214
+        ],
+        "sluggish": [
+          0.3923696279525757,
+          0.3362838327884674
+        ],
+        "unequal_sides": [
+          0.41302064061164856,
+          0.3202703297138214
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03125521540641785,
+      "labels": {
+        "field_estimate": [
+          0.2969246208667755,
+          0.29756367206573486
+        ],
+        "sluggish": [
+          0.31177082657814026,
+          0.3124418556690216
+        ],
+        "unequal_sides": [
+          0.32817983627319336,
+          0.29756367206573486
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.0314602255821228,
+      "labels": {
+        "field_estimate": [
+          0.2988722026348114,
+          0.29564169049263
+        ],
+        "sluggish": [
+          0.31381580233573914,
+          0.3104237914085388
+        ],
+        "unequal_sides": [
+          0.3303324282169342,
+          0.29564169049263
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03425663709640503,
+      "labels": {
+        "field_estimate": [
+          0.32543811202049255,
+          0.37068161368370056
+        ],
+        "sluggish": [
+          0.34171003103256226,
+          0.38921570777893066
+        ],
+        "unequal_sides": [
+          0.3596947491168976,
+          0.37068161368370056
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03436782956123352,
+      "labels": {
+        "field_estimate": [
+          0.3264945149421692,
+          0.37023138999938965
+        ],
+        "sluggish": [
+          0.3428192138671875,
+          0.38874298334121704
+        ],
+        "unequal_sides": [
+          0.3608623445034027,
+          0.37023138999938965
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03205913305282593,
+      "labels": {
+        "field_estimate": [
+          0.3045615255832672,
+          0.28303512930870056
+        ],
+        "sluggish": [
+          0.3197896182537079,
+          0.29718688130378723
+        ],
+        "unequal_sides": [
+          0.33662065863609314,
+          0.28303512930870056
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.031061261892318726,
+      "labels": {
+        "field_estimate": [
+          0.29508209228515625,
+          0.29839015007019043
+        ],
+        "sluggish": [
+          0.30983617901802063,
+          0.3133096694946289
+        ],
+        "unequal_sides": [
+          0.326143354177475,
+          0.29839015007019043
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03154781460762024,
+      "labels": {
+        "field_estimate": [
+          0.29970449209213257,
+          0.2937866449356079
+        ],
+        "sluggish": [
+          0.3146896958351135,
+          0.30847597122192383
+        ],
+        "unequal_sides": [
+          0.3312523066997528,
+          0.2937866449356079
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.031274616718292236,
+      "labels": {
+        "field_estimate": [
+          0.2971087396144867,
+          0.2974807024002075
+        ],
+        "sluggish": [
+          0.3119641840457916,
+          0.3123547434806824
+        ],
+        "unequal_sides": [
+          0.32838335633277893,
+          0.2974807024002075
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03144899010658264,
+      "labels": {
+        "field_estimate": [
+          0.29876548051834106,
+          0.2958797216415405
+        ],
+        "sluggish": [
+          0.3137037456035614,
+          0.31067371368408203
+        ],
+        "unequal_sides": [
+          0.3302144706249237,
+          0.2958797216415405
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.0008536232635378838,
+      "labels": {
+        "field_estimate": [
+          0.008109413087368011,
+          -0.0038236991968005896
+        ],
+        "sluggish": [
+          0.008514883928000927,
+          -0.0040148841217160225
+        ],
+        "unequal_sides": [
+          0.008963036350905895,
+          -0.0038236991968005896
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.00041052792221307755,
+      "labels": {
+        "field_estimate": [
+          0.0039000161923468113,
+          0.00038569801836274564
+        ],
+        "sluggish": [
+          0.0040950169786810875,
+          0.00040498291491530836
+        ],
+        "unequal_sides": [
+          0.004310544114559889,
+          0.00038569801836274564
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03205913305282593,
+      "labels": {
+        "field_estimate": [
+          0.3045615255832672,
+          0.28303512930870056
+        ],
+        "sluggish": [
+          0.3197896182537079,
+          0.29718688130378723
+        ],
+        "unequal_sides": [
+          0.33662065863609314,
+          0.28303512930870056
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.031061261892318726,
+      "labels": {
+        "field_estimate": [
+          0.29508209228515625,
+          0.29839015007019043
+        ],
+        "sluggish": [
+          0.30983617901802063,
+          0.3133096694946289
+        ],
+        "unequal_sides": [
+          0.326143354177475,
+          0.29839015007019043
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_left_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_left_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_left_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03154781460762024,
+      "labels": {
+        "field_estimate": [
+          0.29970449209213257,
+          0.2937866449356079
+        ],
+        "sluggish": [
+          0.3146896958351135,
+          0.30847597122192383
+        ],
+        "unequal_sides": [
+          0.3312523066997528,
+          0.2937866449356079
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03766396641731262,
+      "labels": {
+        "field_estimate": [
+          0.3578077256679535,
+          0.3564780056476593
+        ],
+        "sluggish": [
+          0.37569811940193176,
+          0.37430188059806824
+        ],
+        "unequal_sides": [
+          0.3954716920852661,
+          0.3564780056476593
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_straight_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_straight_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_straight_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6801,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03436782956123352,
+      "labels": {
+        "field_estimate": [
+          0.3264945149421692,
+          0.37023138999938965
+        ],
+        "sluggish": [
+          0.3428192138671875,
+          0.38874298334121704
+        ],
+        "unequal_sides": [
+          0.3608623445034027,
+          0.37023138999938965
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_right_6801_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_right_6801_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_right_6801_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.02563948929309845,
+      "labels": {
+        "field_estimate": [
+          0.2435750812292099,
+          0.3514857888221741
+        ],
+        "sluggish": [
+          0.25575384497642517,
+          0.36906006932258606
+        ],
+        "unequal_sides": [
+          0.26921457052230835,
+          0.3514857888221741
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_N_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_N_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_N_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.005411472171545029,
+      "labels": {
+        "field_estimate": [
+          -0.05140899866819382,
+          0.055694714188575745
+        ],
+        "sluggish": [
+          -0.05397944897413254,
+          0.05847944691777229
+        ],
+        "unequal_sides": [
+          -0.056820470839738846,
+          0.055694714188575745
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_E_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_E_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_E_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.02563948929309845,
+      "labels": {
+        "field_estimate": [
+          0.2435750812292099,
+          0.3514857888221741
+        ],
+        "sluggish": [
+          0.25575384497642517,
+          0.36906006932258606
+        ],
+        "unequal_sides": [
+          0.26921457052230835,
+          0.3514857888221741
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_S_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_S_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_S_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.005411472171545029,
+      "labels": {
+        "field_estimate": [
+          -0.05140899866819382,
+          0.055694714188575745
+        ],
+        "sluggish": [
+          -0.05397944897413254,
+          0.05847944691777229
+        ],
+        "unequal_sides": [
+          -0.056820470839738846,
+          0.055694714188575745
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_W_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_W_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\center_W_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03241702914237976,
+      "labels": {
+        "field_estimate": [
+          0.3079617917537689,
+          0.3986004889011383
+        ],
+        "sluggish": [
+          0.323359876871109,
+          0.41853049397468567
+        ],
+        "unequal_sides": [
+          0.3403788208961487,
+          0.3986004889011383
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_E_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025579020380973816,
+      "labels": {
+        "field_estimate": [
+          0.24300061166286469,
+          0.35196080803871155
+        ],
+        "sluggish": [
+          0.2551506459712982,
+          0.36955884099006653
+        ],
+        "unequal_sides": [
+          0.2685796320438385,
+          0.35196080803871155
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025645658373832703,
+      "labels": {
+        "field_estimate": [
+          0.24363382160663605,
+          0.3513375222682953
+        ],
+        "sluggish": [
+          0.2558155059814453,
+          0.3689044117927551
+        ],
+        "unequal_sides": [
+          0.26927947998046875,
+          0.3513375222682953
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_S_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.030686646699905396,
+      "labels": {
+        "field_estimate": [
+          0.2915230989456177,
+          0.41579577326774597
+        ],
+        "sluggish": [
+          0.3060992658138275,
+          0.43658554553985596
+        ],
+        "unequal_sides": [
+          0.32220974564552307,
+          0.41579577326774597
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\north_W_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.030709445476531982,
+      "labels": {
+        "field_estimate": [
+          0.2917398512363434,
+          0.4157109260559082
+        ],
+        "sluggish": [
+          0.30632683634757996,
+          0.43649646639823914
+        ],
+        "unequal_sides": [
+          0.32244929671287537,
+          0.4157109260559082
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_N_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025833234190940857,
+      "labels": {
+        "field_estimate": [
+          0.24541576206684113,
+          0.3468438684940338
+        ],
+        "sluggish": [
+          0.2576865553855896,
+          0.36418604850769043
+        ],
+        "unequal_sides": [
+          0.271248996257782,
+          0.3468438684940338
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_S_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025513336062431335,
+      "labels": {
+        "field_estimate": [
+          0.24237675964832306,
+          0.3522079288959503
+        ],
+        "sluggish": [
+          0.2544955909252167,
+          0.3698183298110962
+        ],
+        "unequal_sides": [
+          0.2678900957107544,
+          0.3522079288959503
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025671884417533875,
+      "labels": {
+        "field_estimate": [
+          0.24388284981250763,
+          0.350708931684494
+        ],
+        "sluggish": [
+          0.25607699155807495,
+          0.36824437975883484
+        ],
+        "unequal_sides": [
+          0.2695547342300415,
+          0.350708931684494
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\east_W_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.02558581531047821,
+      "labels": {
+        "field_estimate": [
+          0.24306519329547882,
+          0.3519352376461029
+        ],
+        "sluggish": [
+          0.2552184462547302,
+          0.3695319890975952
+        ],
+        "unequal_sides": [
+          0.26865100860595703,
+          0.3519352376461029
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025642260909080505,
+      "labels": {
+        "field_estimate": [
+          0.2436014860868454,
+          0.35141921043395996
+        ],
+        "sluggish": [
+          0.2557815611362457,
+          0.3689901828765869
+        ],
+        "unequal_sides": [
+          0.2692437469959259,
+          0.35141921043395996
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_N_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.005402565002441406,
+      "labels": {
+        "field_estimate": [
+          -0.05132433772087097,
+          0.0556100532412529
+        ],
+        "sluggish": [
+          -0.05389055609703064,
+          0.05839055776596069
+        ],
+        "unequal_sides": [
+          -0.05672690272331238,
+          0.0556100532412529
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_E_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.005460847169160843,
+      "labels": {
+        "field_estimate": [
+          -0.05187806487083435,
+          0.05616377666592598
+        ],
+        "sluggish": [
+          -0.05447196587920189,
+          0.05897196754813194
+        ],
+        "unequal_sides": [
+          -0.057338912039995193,
+          0.05616377666592598
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\south_W_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025833234190940857,
+      "labels": {
+        "field_estimate": [
+          0.24541576206684113,
+          0.3468438684940338
+        ],
+        "sluggish": [
+          0.2576865553855896,
+          0.36418604850769043
+        ],
+        "unequal_sides": [
+          0.271248996257782,
+          0.3468438684940338
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_N_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025513336062431335,
+      "labels": {
+        "field_estimate": [
+          0.24237675964832306,
+          0.3522079288959503
+        ],
+        "sluggish": [
+          0.2544955909252167,
+          0.3698183298110962
+        ],
+        "unequal_sides": [
+          0.2678900957107544,
+          0.3522079288959503
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_left_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_left_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_left_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.025671884417533875,
+      "labels": {
+        "field_estimate": [
+          0.24388284981250763,
+          0.350708931684494
+        ],
+        "sluggish": [
+          0.25607699155807495,
+          0.36824437975883484
+        ],
+        "unequal_sides": [
+          0.2695547342300415,
+          0.350708931684494
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_E_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.03189292550086975,
+      "labels": {
+        "field_estimate": [
+          0.3029826283454895,
+          0.4113030731678009
+        ],
+        "sluggish": [
+          0.31813177466392517,
+          0.43186822533607483
+        ],
+        "unequal_sides": [
+          0.33487555384635925,
+          0.4113030731678009
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_straight_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_straight_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_straight_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "seed": 6802,
+      "identical_first_actor_input": true,
+      "identical_first_image": true,
+      "max_target_range": 0.030709445476531982,
+      "labels": {
+        "field_estimate": [
+          0.2917398512363434,
+          0.4157109260559082
+        ],
+        "sluggish": [
+          0.30632683634757996,
+          0.43649646639823914
+        ],
+        "unequal_sides": [
+          0.32244929671287537,
+          0.4157109260559082
+        ]
+      },
+      "artifacts": [
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_right_6802_field_estimate_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_right_6802_sluggish_normal\\sequence.npz",
+        "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\data\\west_S_right_6802_unequal_sides_normal\\sequence.npz"
+      ]
+    }
+  ],
+  "nonexact_groups": [],
+  "scope": "First-frame target identifiability only; does not establish failure cause or impossibility of safe control."
+}

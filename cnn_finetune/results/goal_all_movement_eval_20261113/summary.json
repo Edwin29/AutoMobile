@@ -1,0 +1,60 @@
+{
+  "models": {
+    "reference": {
+      "n": 84,
+      "all504_complete": false,
+      "groups": {
+        "normal_all28": {
+          "n": 84,
+          "clean": 23,
+          "stable": 50,
+          "pauses": 0,
+          "outcomes": {
+            "stable_exit": 50,
+            "unstable_exit": 9,
+            "wrong_exit": 25
+          }
+        },
+        "normal_old_four": {
+          "n": 12,
+          "clean": 5,
+          "stable": 12,
+          "pauses": 0,
+          "outcomes": {
+            "stable_exit": 12
+          }
+        }
+      }
+    },
+    "seed_17": {
+      "n": 84,
+      "all504_complete": false,
+      "groups": {
+        "normal_all28": {
+          "n": 84,
+          "clean": 27,
+          "stable": 42,
+          "pauses": 0,
+          "outcomes": {
+            "severe_departure": 21,
+            "stable_exit": 42,
+            "unstable_exit": 3,
+            "wrong_exit": 18
+          }
+        },
+        "normal_old_four": {
+          "n": 12,
+          "clean": 6,
+          "stable": 8,
+          "pauses": 0,
+          "outcomes": {
+            "severe_departure": 4,
+            "stable_exit": 8
+          }
+        }
+      }
+    }
+  },
+  "final_exam_used": false,
+  "full_mission": false
+}

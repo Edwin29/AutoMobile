@@ -1,0 +1,496 @@
+{
+  "by_movement": {
+    "privileged_teacher": {
+      "north_E_left": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.9110425759964063
+      },
+      "north_W_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.9849944690813501
+      },
+      "center_N_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.5185406873876364
+      },
+      "east_W_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 1.1654139064969247
+      }
+    },
+    "truth_now": {
+      "north_E_left": {
+        "n": 6,
+        "clean": 4,
+        "stable": 6,
+        "worst_clearance_cm": -0.740700364348811
+      },
+      "north_W_right": {
+        "n": 6,
+        "clean": 4,
+        "stable": 6,
+        "worst_clearance_cm": -0.7142484276775267
+      },
+      "center_N_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.5190409519321424
+      },
+      "east_W_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 1.1654139064969247
+      }
+    },
+    "truth_delayed": {
+      "north_E_left": {
+        "n": 6,
+        "clean": 4,
+        "stable": 6,
+        "worst_clearance_cm": -1.0028277673936437
+      },
+      "north_W_right": {
+        "n": 6,
+        "clean": 4,
+        "stable": 6,
+        "worst_clearance_cm": -1.0275065808055057
+      },
+      "center_N_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.522722924667768
+      },
+      "east_W_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 1.1654139064969247
+      }
+    },
+    "vision": {
+      "north_E_left": {
+        "n": 6,
+        "clean": 3,
+        "stable": 6,
+        "worst_clearance_cm": -1.0701386591374558
+      },
+      "north_W_right": {
+        "n": 6,
+        "clean": 4,
+        "stable": 6,
+        "worst_clearance_cm": -0.9454318435798683
+      },
+      "center_N_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.5257095120739592
+      },
+      "east_W_right": {
+        "n": 6,
+        "clean": 6,
+        "stable": 6,
+        "worst_clearance_cm": 0.5411938734921478
+      }
+    }
+  },
+  "vision_before_incursion": [
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22001,
+      "preset": "field_estimate",
+      "clean": false,
+      "outcome": "stable_exit",
+      "first_incursion_s": 9.93333333333327,
+      "pre_incursion_abs_lateral_max_cm": 1.2718457353158505,
+      "pre_incursion_abs_longitudinal_max_cm": 1.7033689037001354,
+      "pre_incursion_heading_max_deg": 3.7290936876923055,
+      "matched_frame_fraction": 0.8138195777351248
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22001,
+      "preset": "sluggish",
+      "clean": false,
+      "outcome": "stable_exit",
+      "first_incursion_s": 10.545333333333263,
+      "pre_incursion_abs_lateral_max_cm": 1.3006576652959214,
+      "pre_incursion_abs_longitudinal_max_cm": 1.5625973902536316,
+      "pre_incursion_heading_max_deg": 3.0666725228829437,
+      "matched_frame_fraction": 0.7703435804701627
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22001,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8909844933152161,
+      "pre_incursion_abs_longitudinal_max_cm": 1.428735884693469,
+      "pre_incursion_heading_max_deg": 3.411257289341268,
+      "matched_frame_fraction": 0.839622641509434
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 1.052826266204973,
+      "pre_incursion_abs_longitudinal_max_cm": 1.4287358846934688,
+      "pre_incursion_heading_max_deg": 6.215057535351718,
+      "matched_frame_fraction": 0.9632495164410058
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "sluggish",
+      "clean": false,
+      "outcome": "stable_exit",
+      "first_incursion_s": 11.393333333333253,
+      "pre_incursion_abs_lateral_max_cm": 0.7187377165290032,
+      "pre_incursion_abs_longitudinal_max_cm": 1.4287358846934688,
+      "pre_incursion_heading_max_deg": 4.921713560092655,
+      "matched_frame_fraction": 0.9327272727272727
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.5228826618997239,
+      "pre_incursion_abs_longitudinal_max_cm": 1.4287358846934688,
+      "pre_incursion_heading_max_deg": 2.406401071958493,
+      "matched_frame_fraction": 0.9816849816849816
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.5228826618997279,
+      "pre_incursion_abs_longitudinal_max_cm": 1.428735884693469,
+      "pre_incursion_heading_max_deg": 1.573248602052638,
+      "matched_frame_fraction": 0.8057432432432432
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "sluggish",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.5228826618997279,
+      "pre_incursion_abs_longitudinal_max_cm": 1.428735884693469,
+      "pre_incursion_heading_max_deg": 2.0253750227163696,
+      "matched_frame_fraction": 0.8164556962025317
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.5228826618997279,
+      "pre_incursion_abs_longitudinal_max_cm": 1.428735884693469,
+      "pre_incursion_heading_max_deg": 3.9060383084634944,
+      "matched_frame_fraction": 0.8341232227488151
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.5228826618997281,
+      "pre_incursion_abs_longitudinal_max_cm": 1.4287358846934688,
+      "pre_incursion_heading_max_deg": 2.6798200473646037,
+      "matched_frame_fraction": 0.8436426116838488
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "sluggish",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.7672368162470538,
+      "pre_incursion_abs_longitudinal_max_cm": 1.4287358846934688,
+      "pre_incursion_heading_max_deg": 7.839467148066602,
+      "matched_frame_fraction": 0.844551282051282
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 22001,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.5228826618997281,
+      "pre_incursion_abs_longitudinal_max_cm": 1.4287358846934688,
+      "pre_incursion_heading_max_deg": 5.939024607857225,
+      "matched_frame_fraction": 0.8301282051282052
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22002,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863456,
+      "pre_incursion_abs_longitudinal_max_cm": 0.8342216930972837,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9980237154150198
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22002,
+      "preset": "sluggish",
+      "clean": false,
+      "outcome": "stable_exit",
+      "first_incursion_s": 11.049333333333257,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863456,
+      "pre_incursion_abs_longitudinal_max_cm": 0.860447404628236,
+      "pre_incursion_heading_max_deg": 4.764692982057719,
+      "matched_frame_fraction": 0.9981549815498155
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 22002,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863456,
+      "pre_incursion_abs_longitudinal_max_cm": 0.5890545873604163,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9961612284069098
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863456,
+      "pre_incursion_abs_longitudinal_max_cm": 0.9170497664445744,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9920792079207921
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "sluggish",
+      "clean": false,
+      "outcome": "stable_exit",
+      "first_incursion_s": 10.961333333333258,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863456,
+      "pre_incursion_abs_longitudinal_max_cm": 1.1338576393577096,
+      "pre_incursion_heading_max_deg": 4.711859551378653,
+      "matched_frame_fraction": 0.9758364312267658
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863456,
+      "pre_incursion_abs_longitudinal_max_cm": 0.7590331312286329,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9869888475836431
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.26359311107064465,
+      "pre_incursion_abs_longitudinal_max_cm": 0.8350181234596842,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9621993127147767
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "sluggish",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.23733070439118387,
+      "pre_incursion_abs_longitudinal_max_cm": 0.7907859557613893,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9598070739549839
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.16785892891739937,
+      "pre_incursion_abs_longitudinal_max_cm": 0.6090642455786327,
+      "pre_incursion_heading_max_deg": 2.836101917419196,
+      "matched_frame_fraction": 0.9407051282051282
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "field_estimate",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863468,
+      "pre_incursion_abs_longitudinal_max_cm": 0.9190053085927513,
+      "pre_incursion_heading_max_deg": 4.028683547433624,
+      "matched_frame_fraction": 0.8885017421602788
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "sluggish",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 0.8507653817863468,
+      "pre_incursion_abs_longitudinal_max_cm": 0.7790551461882468,
+      "pre_incursion_heading_max_deg": 11.626866155675902,
+      "matched_frame_fraction": 0.8863636363636364
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 22002,
+      "preset": "unequal_sides",
+      "clean": true,
+      "outcome": "stable_exit",
+      "first_incursion_s": null,
+      "pre_incursion_abs_lateral_max_cm": 1.2091640127872512,
+      "pre_incursion_abs_longitudinal_max_cm": 0.48944545679585855,
+      "pre_incursion_heading_max_deg": 8.81409733353658,
+      "matched_frame_fraction": 0.9250814332247557
+    }
+  ],
+  "new_training": false,
+  "final_exam_used": false
+}

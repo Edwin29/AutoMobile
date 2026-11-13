@@ -1,0 +1,29 @@
+{
+  "source_sha256": "b98f157e27caad62297f1ea10897f918399edae43880a01a3c23390b131e70d0",
+  "data_manifest_sha256": "4d352d87f80a75ec97aefe18f0e49692756bd748c88456625a07aabf4ba5a449",
+  "encoder_sha256": "e163bbdd809f99794f741ddc29af630cea6629e26611e9abbe47f401986eed11",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "updates": 2400,
+  "model": "unchanged frozen CNN -> LayerNorm/128 projection -> GRU64 -> signedPWM2 head",
+  "initial": "independently randomized recurrent/project/output weights; common pretrained frozen CNN",
+  "optimizer": "AdamW lr5e-4 weight_decay1e-4, cosine to5e-5, gradient clip1",
+  "batch": "7 entire episodes, all28 movements visited once per4 updates; movement order and condition/episode samples use common sampler seed221",
+  "objective": "equal-episode turn-weighted SmoothL1 beta.05; only whole-episode continuous-footprint-clean demonstrations",
+  "selection": "fixed final update2400, no driving-based checkpoint selection; save600/1200/1800 for diagnosis only",
+  "evaluation": "new6901/6902 local visual development; first nominal all28 screen before broader evaluation; no final9xxxxx use",
+  "stages": "first seed17 prototype; remaining independent seeds29/43 remain required for goal completion and can follow after diagnosis of prototype",
+  "eligible_episodes": 442,
+  "failed_episodes_retained": 62,
+  "checks": {
+    "padding_loss_invariant": true,
+    "padding_gradient_invariant": true
+  },
+  "training_eligibility": "collector clean stable episode and zero translation_pause_s (no >=.3s interval with abs(v)<.5cm/s after first1s); collector flags remain unchanged",
+  "clean_but_pause_excluded": 0,
+  "no_outcome_loss_claim": true,
+  "final_exam_used": false
+}

@@ -1,0 +1,110 @@
+{
+  "source_sha256": "148ba2b69bccfcb905c86d19716cd09f64df21295f3c6056aba609de3162d5dc",
+  "teacher_source_sha256": "6b17a60f6c010592ae9cace751f8cdd12a6cff29f1b80d192134813a76184367",
+  "encoder_checkpoint": "D:\\autodrive_cnn\\checkpoints\\dagger_i1_v2\\best.pt",
+  "encoder_sha256": "e163bbdd809f99794f741ddc29af630cea6629e26611e9abbe47f401986eed11",
+  "device": "NVIDIA GeForce RTX 4060",
+  "rows": [
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "frames": 807,
+      "physics_exact": true,
+      "commands_exact": true,
+      "direction": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild_light",
+      "frames": 799,
+      "physics_exact": true,
+      "commands_exact": true,
+      "direction": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "frames": 496,
+      "physics_exact": true,
+      "commands_exact": true,
+      "direction": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "mild_light",
+      "frames": 476,
+      "physics_exact": true,
+      "commands_exact": true,
+      "direction": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "frames": 464,
+      "physics_exact": true,
+      "commands_exact": true,
+      "direction": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "mild_light",
+      "frames": 469,
+      "physics_exact": true,
+      "commands_exact": true,
+      "direction": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "actor_calls_expert": false,
+  "actor_feature_shape": [
+    1152
+  ],
+  "actor_aux_shape": [
+    4
+  ],
+  "actor_placeholder_labels_masked": true,
+  "no_training": true,
+  "no_final_exam": true,
+  "scope": "rendering/preprocessing/feature bridge parity and actor input separation, not learned-policy performance"
+}

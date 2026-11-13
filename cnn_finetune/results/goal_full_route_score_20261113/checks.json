@@ -1,0 +1,11 @@
+{
+  "source_sha256": "6dd678fbfc8141a9cf8c6488e6acf525fd857a79f378ab0af7bd6d10076c579e",
+  "legacy_source_sha256": "b47e736a6e32481f03549f4ec32a17dc4eb489997a9d66b13d4838d629be7e02",
+  "cases": 12,
+  "premature_legacy_completion_rejected": true,
+  "no_extra_lap_required": true,
+  "wrong_extra_missing_routes_rejected": true,
+  "finite_continuous_clearance_required": true,
+  "start_departure_and_heading_required": true,
+  "scope": "Scorer state/termination tests with synthetic observations, not actual full-route driving or goal completion"
+}

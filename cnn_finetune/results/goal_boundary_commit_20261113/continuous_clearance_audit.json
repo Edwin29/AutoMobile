@@ -1,0 +1,6706 @@
+{
+  "source_sha256": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2",
+  "summary": {
+    "all_normal_baseline": {
+      "n": 168,
+      "frozen_clean": 168,
+      "continuous_clean": 168,
+      "false_clean": 0
+    },
+    "all_normal_committed": {
+      "n": 168,
+      "frozen_clean": 168,
+      "continuous_clean": 168,
+      "false_clean": 0
+    },
+    "goal_boundary_commit_20261113/pilot.json": {
+      "n": 16,
+      "frozen_clean": 10,
+      "continuous_clean": 10,
+      "false_clean": 0
+    },
+    "goal_boundary_hold_20261113/pilot.json": {
+      "n": 16,
+      "frozen_clean": 10,
+      "continuous_clean": 10,
+      "false_clean": 0
+    },
+    "goal_boundary_teacher_20261113/pilot.json": {
+      "n": 16,
+      "frozen_clean": 8,
+      "continuous_clean": 8,
+      "false_clean": 0
+    },
+    "goal_boundary_teacher_v2_20261113/observed_push.json": {
+      "n": 16,
+      "frozen_clean": 8,
+      "continuous_clean": 8,
+      "false_clean": 0
+    },
+    "goal_boundary_teacher_v2_20261113/plan.json": {
+      "n": 16,
+      "frozen_clean": 8,
+      "continuous_clean": 8,
+      "false_clean": 0
+    }
+  },
+  "rows": [
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.007364317138295107,
+      "continuous_min_clearance_cm": -0.007405178974812188,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.023404230741965293,
+      "continuous_min_clearance_cm": 0.020765450461432522,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": 0.10153988350670318,
+      "continuous_min_clearance_cm": 0.10153988350670318,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.46181624889736383,
+      "continuous_min_clearance_cm": -0.46181624889736383,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9062771462471915,
+      "continuous_min_clearance_cm": 0.9062771462471915,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.0491695157978107,
+      "continuous_min_clearance_cm": -0.05481349363718202,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9281088816553833,
+      "continuous_min_clearance_cm": 0.9281088816553833,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.13503583975506395,
+      "continuous_min_clearance_cm": -0.13519468888979702,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9527298131175215,
+      "continuous_min_clearance_cm": 0.9527298131175197,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.5175625281242251,
+      "continuous_min_clearance_cm": -0.519295194710736,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9455463767434455,
+      "continuous_min_clearance_cm": 0.9455463767434491,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.6761941516495469,
+      "continuous_min_clearance_cm": -0.6768773591119217,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.05142556894486461,
+      "continuous_min_clearance_cm": 0.05142556894486283,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.10675262241529282,
+      "continuous_min_clearance_cm": 0.1067526224152946,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.038194683855238054,
+      "continuous_min_clearance_cm": 0.03819468385523983,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.4472475907553104,
+      "continuous_min_clearance_cm": -0.4472475907553104,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.21303840826057474,
+      "continuous_min_clearance_cm": -0.21496766334986717,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.022565766062630388,
+      "continuous_min_clearance_cm": -0.029238412390908408,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.3532170679621629,
+      "continuous_min_clearance_cm": -0.35321706796216645,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.04472464067567472,
+      "continuous_min_clearance_cm": -0.0447246406756765,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9062771462471915,
+      "continuous_min_clearance_cm": 0.9062771462471915,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.04513385528728797,
+      "continuous_min_clearance_cm": -0.04611993002623116,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9281088816553833,
+      "continuous_min_clearance_cm": 0.9281088816553833,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.13503583975506395,
+      "continuous_min_clearance_cm": -0.13519468888979702,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9527298131175215,
+      "continuous_min_clearance_cm": 0.9527298131175197,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.5354584577902131,
+      "continuous_min_clearance_cm": -0.5385114326527276,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9455463767434455,
+      "continuous_min_clearance_cm": 0.9455463767434491,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.6761470219656918,
+      "continuous_min_clearance_cm": -0.6769550552037451,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12864057693928288,
+      "continuous_min_clearance_cm": 0.12864057693928288,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12372549991135173,
+      "continuous_min_clearance_cm": 0.12372549991134818,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.1372744603812066,
+      "continuous_min_clearance_cm": 0.13727446038120839,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/plan.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12809591093800776,
+      "continuous_min_clearance_cm": 0.12809591093800599,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.21303840826057474,
+      "continuous_min_clearance_cm": -0.21496766334986717,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.022565766062630388,
+      "continuous_min_clearance_cm": -0.029238412390908408,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.3532170679621629,
+      "continuous_min_clearance_cm": -0.35321706796216645,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.04472464067567472,
+      "continuous_min_clearance_cm": -0.0447246406756765,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9062771462471915,
+      "continuous_min_clearance_cm": 0.9062771462471915,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.03676091448578944,
+      "continuous_min_clearance_cm": -0.044126467720534635,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9281088816553833,
+      "continuous_min_clearance_cm": 0.9281088816553833,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.13503583975506395,
+      "continuous_min_clearance_cm": -0.13519468888979702,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9527298131175215,
+      "continuous_min_clearance_cm": 0.9527298131175197,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.414951814894124,
+      "continuous_min_clearance_cm": -0.4149518148941276,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9455463767434455,
+      "continuous_min_clearance_cm": 0.9455463767434491,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.6258304557837118,
+      "continuous_min_clearance_cm": -0.6301571167905973,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12864057693928288,
+      "continuous_min_clearance_cm": 0.12864057693928288,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12372549991135173,
+      "continuous_min_clearance_cm": 0.12372549991134818,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.1372744603812066,
+      "continuous_min_clearance_cm": 0.13727446038120839,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_teacher_v2_20261113/observed_push.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12809591093800776,
+      "continuous_min_clearance_cm": 0.12809591093800599,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.013198520831965155,
+      "continuous_min_clearance_cm": 0.013198520831966931,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.0027875220366020415,
+      "continuous_min_clearance_cm": -0.002787522036603818,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.024189361772691598,
+      "continuous_min_clearance_cm": 0.024189361772693374,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.13002507993990342,
+      "continuous_min_clearance_cm": -0.1407702206863064,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9062771462471915,
+      "continuous_min_clearance_cm": 0.9062771462471915,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.03307753263268154,
+      "continuous_min_clearance_cm": -0.04235233297671748,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9281088816553833,
+      "continuous_min_clearance_cm": 0.9281088816553833,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.13503583975506395,
+      "continuous_min_clearance_cm": -0.13519468888979702,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9527298131175215,
+      "continuous_min_clearance_cm": 0.9527298131175197,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.41296213216770283,
+      "continuous_min_clearance_cm": -0.41350068569211906,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9455463767434455,
+      "continuous_min_clearance_cm": 0.9455463767434491,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.6258304557837118,
+      "continuous_min_clearance_cm": -0.6301571167905973,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12864057693928288,
+      "continuous_min_clearance_cm": 0.12864057693928288,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12372549991135173,
+      "continuous_min_clearance_cm": 0.12372549991134818,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.1372744603812066,
+      "continuous_min_clearance_cm": 0.13727446038120839,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_commit_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12809591093800776,
+      "continuous_min_clearance_cm": 0.12809591093800599,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.013198520831965155,
+      "continuous_min_clearance_cm": 0.013198520831966931,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.0027875220366020415,
+      "continuous_min_clearance_cm": -0.002787522036603818,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.024189361772691598,
+      "continuous_min_clearance_cm": 0.024189361772693374,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.10522078937639812,
+      "continuous_min_clearance_cm": -0.10750440963844632,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9062771462471915,
+      "continuous_min_clearance_cm": 0.9062771462471915,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.03910451971401763,
+      "continuous_min_clearance_cm": -0.04168442780526327,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9281088816553833,
+      "continuous_min_clearance_cm": 0.9281088816553833,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.1358292379119721,
+      "continuous_min_clearance_cm": -0.13588292497122367,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9527298131175215,
+      "continuous_min_clearance_cm": 0.9527298131175197,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.3937016641403961,
+      "continuous_min_clearance_cm": -0.394267968601703,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9455463767434455,
+      "continuous_min_clearance_cm": 0.9455463767434491,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": false,
+      "sampled_min_margin_cm": -0.5816718385924489,
+      "continuous_min_clearance_cm": -0.5875394533241565,
+      "continuous_clean": false,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12864057693928288,
+      "continuous_min_clearance_cm": 0.12864057693928288,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12372549991135173,
+      "continuous_min_clearance_cm": 0.12372549991134818,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.1372744603812066,
+      "continuous_min_clearance_cm": 0.13727446038120839,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "goal_boundary_hold_20261113/pilot.json",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 6202,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.12809591093800776,
+      "continuous_min_clearance_cm": 0.12809591093800599,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6151752315750656,
+      "continuous_min_clearance_cm": 0.6151752315750638,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6151752315750656,
+      "continuous_min_clearance_cm": 0.6151752315750638,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6146079357104242,
+      "continuous_min_clearance_cm": 0.6146079357104277,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6146079357104242,
+      "continuous_min_clearance_cm": 0.6146079357104277,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.612943623962245,
+      "continuous_min_clearance_cm": 0.6129436239622468,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.612943623962245,
+      "continuous_min_clearance_cm": 0.6129436239622468,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5500146064187845,
+      "continuous_min_clearance_cm": 0.5500146064187827,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5500146064187845,
+      "continuous_min_clearance_cm": 0.5500146064187827,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5514634439980739,
+      "continuous_min_clearance_cm": 0.5514634439980775,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5514634439980739,
+      "continuous_min_clearance_cm": 0.5514634439980775,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5481769103033329,
+      "continuous_min_clearance_cm": 0.5481769103033312,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5481769103033329,
+      "continuous_min_clearance_cm": 0.5481769103033312,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0205073049570217,
+      "continuous_min_clearance_cm": 1.02048336011228,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0205073049570217,
+      "continuous_min_clearance_cm": 1.02048336011228,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9217543543773044,
+      "continuous_min_clearance_cm": 0.9217543543773061,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9217543543773044,
+      "continuous_min_clearance_cm": 0.9217543543773061,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.987583337986564,
+      "continuous_min_clearance_cm": 0.9875833379865622,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.987583337986564,
+      "continuous_min_clearance_cm": 0.9875833379865622,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9234373655199679,
+      "continuous_min_clearance_cm": 0.9234373655199697,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9234373655199679,
+      "continuous_min_clearance_cm": 0.9234373655199697,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9436335032540732,
+      "continuous_min_clearance_cm": 0.9436335032540732,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9436335032540732,
+      "continuous_min_clearance_cm": 0.9436335032540732,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9111467846095049,
+      "continuous_min_clearance_cm": 0.9111467846095049,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9111467846095049,
+      "continuous_min_clearance_cm": 0.9111467846095049,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6151752315750727,
+      "continuous_min_clearance_cm": 0.6151752315750727,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6151752315750727,
+      "continuous_min_clearance_cm": 0.6151752315750727,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6146079357104384,
+      "continuous_min_clearance_cm": 0.6146079357104366,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6146079357104384,
+      "continuous_min_clearance_cm": 0.6146079357104366,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6129436239622521,
+      "continuous_min_clearance_cm": 0.6129436239622539,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6129436239622521,
+      "continuous_min_clearance_cm": 0.6129436239622539,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5500146064187916,
+      "continuous_min_clearance_cm": 0.5500146064187916,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5500146064187916,
+      "continuous_min_clearance_cm": 0.5500146064187916,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5514634439980881,
+      "continuous_min_clearance_cm": 0.5514634439980863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5514634439980881,
+      "continuous_min_clearance_cm": 0.5514634439980863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5481769103033329,
+      "continuous_min_clearance_cm": 0.5481769103033329,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5481769103033329,
+      "continuous_min_clearance_cm": 0.5481769103033329,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0205073049570643,
+      "continuous_min_clearance_cm": 1.0204833601123262,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0205073049570643,
+      "continuous_min_clearance_cm": 1.0204833601123262,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9217543543774234,
+      "continuous_min_clearance_cm": 0.921754354377418,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9217543543774234,
+      "continuous_min_clearance_cm": 0.921754354377418,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9875833379864076,
+      "continuous_min_clearance_cm": 0.987583337986413,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9875833379864076,
+      "continuous_min_clearance_cm": 0.987583337986413,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9234373655199892,
+      "continuous_min_clearance_cm": 0.9234373655199892,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9234373655199892,
+      "continuous_min_clearance_cm": 0.9234373655199892,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9436335032539365,
+      "continuous_min_clearance_cm": 0.9436335032539347,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9436335032539365,
+      "continuous_min_clearance_cm": 0.9436335032539347,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9111467846094783,
+      "continuous_min_clearance_cm": 0.9111467846094783,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9111467846094783,
+      "continuous_min_clearance_cm": 0.9111467846094783,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.34208410561345914,
+      "continuous_min_clearance_cm": 0.34208410561345737,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.34208410561345914,
+      "continuous_min_clearance_cm": 0.34208410561345737,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4617800878556704,
+      "continuous_min_clearance_cm": 0.4617800878556686,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4617800878556704,
+      "continuous_min_clearance_cm": 0.4617800878556686,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4795287837608466,
+      "continuous_min_clearance_cm": 0.47952878376084485,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4795287837608466,
+      "continuous_min_clearance_cm": 0.47952878376084485,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4881382196983566,
+      "continuous_min_clearance_cm": 0.488138219698353,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4881382196983566,
+      "continuous_min_clearance_cm": 0.488138219698353,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.41835665182168214,
+      "continuous_min_clearance_cm": 0.41835665182168214,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.41835665182168214,
+      "continuous_min_clearance_cm": 0.41835665182168214,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.39641880526050954,
+      "continuous_min_clearance_cm": 0.39641880526050244,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.39641880526050954,
+      "continuous_min_clearance_cm": 0.39641880526050244,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3380193343932749,
+      "continuous_min_clearance_cm": 0.33801933439327314,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3380193343932749,
+      "continuous_min_clearance_cm": 0.33801933439327314,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.37865649509992494,
+      "continuous_min_clearance_cm": 0.3786564950999267,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.37865649509992494,
+      "continuous_min_clearance_cm": 0.3786564950999267,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3245278732217418,
+      "continuous_min_clearance_cm": 0.32452787322173826,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3245278732217418,
+      "continuous_min_clearance_cm": 0.32452787322173826,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.31088684481029816,
+      "continuous_min_clearance_cm": 0.3108868448103017,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.31088684481029816,
+      "continuous_min_clearance_cm": 0.3108868448103017,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3644311931386284,
+      "continuous_min_clearance_cm": 0.3644311931386284,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3644311931386284,
+      "continuous_min_clearance_cm": 0.3644311931386284,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.31781741851145284,
+      "continuous_min_clearance_cm": 0.31781741851145284,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.31781741851145284,
+      "continuous_min_clearance_cm": 0.31781741851145284,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3669777231257427,
+      "continuous_min_clearance_cm": 0.3669777231257392,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3669777231257427,
+      "continuous_min_clearance_cm": 0.3669777231257392,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4003719598050992,
+      "continuous_min_clearance_cm": 0.4003719598050992,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4003719598050992,
+      "continuous_min_clearance_cm": 0.4003719598050992,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.37847603222012793,
+      "continuous_min_clearance_cm": 0.37847603222012793,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.37847603222012793,
+      "continuous_min_clearance_cm": 0.37847603222012793,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4221817474456273,
+      "continuous_min_clearance_cm": 0.42218174744563086,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4221817474456273,
+      "continuous_min_clearance_cm": 0.42218174744563086,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4296981005828826,
+      "continuous_min_clearance_cm": 0.4296981005828844,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4296981005828826,
+      "continuous_min_clearance_cm": 0.4296981005828844,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4281963681436949,
+      "continuous_min_clearance_cm": 0.42819636814369666,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4281963681436949,
+      "continuous_min_clearance_cm": 0.42819636814369666,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4587762297368343,
+      "continuous_min_clearance_cm": 0.4587762297368325,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4587762297368343,
+      "continuous_min_clearance_cm": 0.4587762297368325,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4439640077310383,
+      "continuous_min_clearance_cm": 0.4439640077310454,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4439640077310383,
+      "continuous_min_clearance_cm": 0.4439640077310454,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4678331676622989,
+      "continuous_min_clearance_cm": 0.4678331676622971,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4678331676622989,
+      "continuous_min_clearance_cm": 0.4678331676622971,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.468580744405358,
+      "continuous_min_clearance_cm": 0.46858074440535447,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.468580744405358,
+      "continuous_min_clearance_cm": 0.46858074440535447,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4346542127232418,
+      "continuous_min_clearance_cm": 0.43465421272324534,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.4346542127232418,
+      "continuous_min_clearance_cm": 0.43465421272324534,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5134056556395308,
+      "continuous_min_clearance_cm": 0.5134056556395272,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5134056556395308,
+      "continuous_min_clearance_cm": 0.5134056556395272,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5967300813625585,
+      "continuous_min_clearance_cm": 0.5967300813625585,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5967300813625585,
+      "continuous_min_clearance_cm": 0.5967300813625585,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5364183728961329,
+      "continuous_min_clearance_cm": 0.5364183728961329,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5364183728961329,
+      "continuous_min_clearance_cm": 0.5364183728961329,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6007326570277485,
+      "continuous_min_clearance_cm": 0.6007326570277485,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6007326570277485,
+      "continuous_min_clearance_cm": 0.6007326570277485,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5951626641130758,
+      "continuous_min_clearance_cm": 0.5951626641130758,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5951626641130758,
+      "continuous_min_clearance_cm": 0.5951626641130758,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5425543264050745,
+      "continuous_min_clearance_cm": 0.542554326405071,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5425543264050745,
+      "continuous_min_clearance_cm": 0.542554326405071,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5963788041516906,
+      "continuous_min_clearance_cm": 0.5963788041516906,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5963788041516906,
+      "continuous_min_clearance_cm": 0.5963788041516906,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5611436308479902,
+      "continuous_min_clearance_cm": 0.5611436308479902,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5611436308479902,
+      "continuous_min_clearance_cm": 0.5611436308479902,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5604486469108849,
+      "continuous_min_clearance_cm": 0.5604486469108849,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5604486469108849,
+      "continuous_min_clearance_cm": 0.5604486469108849,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5894425325709634,
+      "continuous_min_clearance_cm": 0.5894425325709634,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5894425325709634,
+      "continuous_min_clearance_cm": 0.5894425325709634,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5841034846150741,
+      "continuous_min_clearance_cm": 0.5841034846150741,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5841034846150741,
+      "continuous_min_clearance_cm": 0.5841034846150741,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5622592837209481,
+      "continuous_min_clearance_cm": 0.5622592837209499,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5622592837209481,
+      "continuous_min_clearance_cm": 0.5622592837209499,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5888577174831866,
+      "continuous_min_clearance_cm": 0.5888577174831902,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5888577174831866,
+      "continuous_min_clearance_cm": 0.5888577174831902,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3171772770182102,
+      "continuous_min_clearance_cm": 1.3171772770182102,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3171772770182102,
+      "continuous_min_clearance_cm": 1.3171772770182102,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3611477258401976,
+      "continuous_min_clearance_cm": 1.3611477258401976,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3611477258401976,
+      "continuous_min_clearance_cm": 1.3611477258401976,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3104484130570455,
+      "continuous_min_clearance_cm": 1.3104484130570455,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3104484130570455,
+      "continuous_min_clearance_cm": 1.3104484130570455,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974173,
+      "continuous_min_clearance_cm": 0.9470490901974173,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974173,
+      "continuous_min_clearance_cm": 0.9470490901974173,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9475206386650754,
+      "continuous_min_clearance_cm": 0.9475206386650736,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9475206386650754,
+      "continuous_min_clearance_cm": 0.9475206386650736,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974173,
+      "continuous_min_clearance_cm": 0.9470490901974173,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974173,
+      "continuous_min_clearance_cm": 0.9470490901974173,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0884133052323932,
+      "continuous_min_clearance_cm": 1.0884133052323897,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0884133052323932,
+      "continuous_min_clearance_cm": 1.0884133052323897,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.1334207475469142,
+      "continuous_min_clearance_cm": 1.1334207475469178,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.1334207475469142,
+      "continuous_min_clearance_cm": 1.1334207475469178,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0912985387352734,
+      "continuous_min_clearance_cm": 1.0912985387352698,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0912985387352734,
+      "continuous_min_clearance_cm": 1.0912985387352698,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8552764348149324,
+      "continuous_min_clearance_cm": 0.8552764348149324,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8552764348149324,
+      "continuous_min_clearance_cm": 0.8552764348149324,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8734746760338936,
+      "continuous_min_clearance_cm": 0.8734746760338936,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8734746760338936,
+      "continuous_min_clearance_cm": 0.8734746760338936,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8497939207822327,
+      "continuous_min_clearance_cm": 0.8497939207822327,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8497939207822327,
+      "continuous_min_clearance_cm": 0.8497939207822327,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3756192517749639,
+      "continuous_min_clearance_cm": 0.3756192517749639,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3756192517749639,
+      "continuous_min_clearance_cm": 0.3756192517749639,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3999851107419232,
+      "continuous_min_clearance_cm": 0.3999851107419232,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3999851107419232,
+      "continuous_min_clearance_cm": 0.3999851107419232,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3579126879608907,
+      "continuous_min_clearance_cm": 0.35791268796089426,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3579126879608907,
+      "continuous_min_clearance_cm": 0.35791268796089426,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3526366290700764,
+      "continuous_min_clearance_cm": 0.3526366290700764,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.3526366290700764,
+      "continuous_min_clearance_cm": 0.3526366290700764,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.38557947123445047,
+      "continuous_min_clearance_cm": 0.3855794712344487,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.38557947123445047,
+      "continuous_min_clearance_cm": 0.3855794712344487,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.34124668250886714,
+      "continuous_min_clearance_cm": 0.3412466825088689,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.34124668250886714,
+      "continuous_min_clearance_cm": 0.3412466825088689,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6151752315750656,
+      "continuous_min_clearance_cm": 0.6151752315750638,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6151752315750656,
+      "continuous_min_clearance_cm": 0.6151752315750638,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6146079357104242,
+      "continuous_min_clearance_cm": 0.6146079357104277,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6146079357104242,
+      "continuous_min_clearance_cm": 0.6146079357104277,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6129809671197748,
+      "continuous_min_clearance_cm": 0.6129809671197748,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6129809671197748,
+      "continuous_min_clearance_cm": 0.6129809671197748,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5500146064187845,
+      "continuous_min_clearance_cm": 0.5500146064187827,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5500146064187845,
+      "continuous_min_clearance_cm": 0.5500146064187827,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5514634439980739,
+      "continuous_min_clearance_cm": 0.5514634439980775,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5514634439980739,
+      "continuous_min_clearance_cm": 0.5514634439980775,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5481937386921913,
+      "continuous_min_clearance_cm": 0.5481937386921878,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5481937386921913,
+      "continuous_min_clearance_cm": 0.5481937386921878,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650825,
+      "continuous_min_clearance_cm": 2.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650825,
+      "continuous_min_clearance_cm": 2.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650825,
+      "continuous_min_clearance_cm": 2.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650825,
+      "continuous_min_clearance_cm": 2.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650825,
+      "continuous_min_clearance_cm": 2.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650825,
+      "continuous_min_clearance_cm": 2.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9131525047704621,
+      "continuous_min_clearance_cm": 0.9131525047704585,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9131525047704621,
+      "continuous_min_clearance_cm": 0.9131525047704585,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9437542725704979,
+      "continuous_min_clearance_cm": 0.9437542725704979,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9437542725704979,
+      "continuous_min_clearance_cm": 0.9437542725704979,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9497375899263574,
+      "continuous_min_clearance_cm": 0.9497375899263591,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9497375899263574,
+      "continuous_min_clearance_cm": 0.9497375899263591,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8874013301605252,
+      "continuous_min_clearance_cm": 0.8874013301605252,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8874013301605252,
+      "continuous_min_clearance_cm": 0.8874013301605252,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9315323797057413,
+      "continuous_min_clearance_cm": 0.9315323797057413,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9315323797057413,
+      "continuous_min_clearance_cm": 0.9315323797057413,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8924603467568293,
+      "continuous_min_clearance_cm": 0.8924603467568257,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8924603467568293,
+      "continuous_min_clearance_cm": 0.8924603467568257,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896583863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896583863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896583863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896583863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896583863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.3669328896583863,
+      "continuous_min_clearance_cm": 3.3669328896583863,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650683,
+      "continuous_min_clearance_cm": 2.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650683,
+      "continuous_min_clearance_cm": 2.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650683,
+      "continuous_min_clearance_cm": 2.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650683,
+      "continuous_min_clearance_cm": 2.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650683,
+      "continuous_min_clearance_cm": 2.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 2.4475206386650683,
+      "continuous_min_clearance_cm": 2.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9639440659458458,
+      "continuous_min_clearance_cm": 0.9639440659458423,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9639440659458458,
+      "continuous_min_clearance_cm": 0.9639440659458423,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.926075288553001,
+      "continuous_min_clearance_cm": 0.9260752885530081,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.926075288553001,
+      "continuous_min_clearance_cm": 0.9260752885530081,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9387427741659309,
+      "continuous_min_clearance_cm": 0.9387427741659309,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9387427741659309,
+      "continuous_min_clearance_cm": 0.9387427741659309,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9369957180628905,
+      "continuous_min_clearance_cm": 0.9369957180628887,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9369957180628905,
+      "continuous_min_clearance_cm": 0.9369957180628887,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9313346605971589,
+      "continuous_min_clearance_cm": 0.9313346605971589,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9313346605971589,
+      "continuous_min_clearance_cm": 0.9313346605971589,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9313146762439359,
+      "continuous_min_clearance_cm": 0.9313146762439288,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9313146762439359,
+      "continuous_min_clearance_cm": 0.9313146762439288,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.366932889658386,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650683,
+      "continuous_min_clearance_cm": 3.4475206386650683,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5611436308477877,
+      "continuous_min_clearance_cm": 0.5611436308477842,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5611436308477877,
+      "continuous_min_clearance_cm": 0.5611436308477842,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5604486469108707,
+      "continuous_min_clearance_cm": 0.5604486469108725,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5604486469108707,
+      "continuous_min_clearance_cm": 0.5604486469108725,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5894425325711161,
+      "continuous_min_clearance_cm": 0.5894425325711179,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5894425325711161,
+      "continuous_min_clearance_cm": 0.5894425325711179,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5841034846150421,
+      "continuous_min_clearance_cm": 0.5841034846150439,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5841034846150421,
+      "continuous_min_clearance_cm": 0.5841034846150439,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5622592837209126,
+      "continuous_min_clearance_cm": 0.5622592837209144,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5622592837209126,
+      "continuous_min_clearance_cm": 0.5622592837209144,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.588857717483215,
+      "continuous_min_clearance_cm": 0.588857717483215,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.588857717483215,
+      "continuous_min_clearance_cm": 0.588857717483215,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3171772770181889,
+      "continuous_min_clearance_cm": 1.3171772770181889,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3171772770181889,
+      "continuous_min_clearance_cm": 1.3171772770181889,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3611477258401408,
+      "continuous_min_clearance_cm": 1.3611477258401443,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.3611477258401408,
+      "continuous_min_clearance_cm": 1.3611477258401443,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.31044841305701,
+      "continuous_min_clearance_cm": 1.31044841305701,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.31044841305701,
+      "continuous_min_clearance_cm": 1.31044841305701,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974244,
+      "continuous_min_clearance_cm": 0.9470490901974209,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974244,
+      "continuous_min_clearance_cm": 0.9470490901974209,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9475206386650825,
+      "continuous_min_clearance_cm": 0.947520638665079,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9475206386650825,
+      "continuous_min_clearance_cm": 0.947520638665079,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974244,
+      "continuous_min_clearance_cm": 0.9470490901974209,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.9470490901974244,
+      "continuous_min_clearance_cm": 0.9470490901974209,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.088413305232443,
+      "continuous_min_clearance_cm": 1.0884133052324447,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.088413305232443,
+      "continuous_min_clearance_cm": 1.0884133052324447,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.1334207475469782,
+      "continuous_min_clearance_cm": 1.1334207475469746,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.1334207475469782,
+      "continuous_min_clearance_cm": 1.1334207475469746,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0912985387352592,
+      "continuous_min_clearance_cm": 1.0912985387352556,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 1.0912985387352592,
+      "continuous_min_clearance_cm": 1.0912985387352556,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8552764348149395,
+      "continuous_min_clearance_cm": 0.8552764348149395,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8552764348149395,
+      "continuous_min_clearance_cm": 0.8552764348149395,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.873474676033986,
+      "continuous_min_clearance_cm": 0.8734746760339878,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.873474676033986,
+      "continuous_min_clearance_cm": 0.8734746760339878,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8497939207822753,
+      "continuous_min_clearance_cm": 0.8497939207822736,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.8497939207822753,
+      "continuous_min_clearance_cm": 0.8497939207822736,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 4.366932889658386,
+      "continuous_min_clearance_cm": 4.3669328896584005,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 3.4475206386650825,
+      "continuous_min_clearance_cm": 3.4475206386650825,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5967300813624803,
+      "continuous_min_clearance_cm": 0.5967300813624803,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5967300813624803,
+      "continuous_min_clearance_cm": 0.5967300813624803,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5364183728961294,
+      "continuous_min_clearance_cm": 0.5364183728961258,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5364183728961294,
+      "continuous_min_clearance_cm": 0.5364183728961258,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6007326570277343,
+      "continuous_min_clearance_cm": 0.6007326570277343,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6301,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.6007326570277343,
+      "continuous_min_clearance_cm": 0.6007326570277343,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5951626641131256,
+      "continuous_min_clearance_cm": 0.5951626641131256,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "field_estimate",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5951626641131256,
+      "continuous_min_clearance_cm": 0.5951626641131256,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5425543264051313,
+      "continuous_min_clearance_cm": 0.5425543264051313,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "sluggish",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5425543264051313,
+      "continuous_min_clearance_cm": 0.5425543264051313,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_baseline",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5963788041517049,
+      "continuous_min_clearance_cm": 0.5963788041517049,
+      "continuous_clean": true,
+      "false_clean": false
+    },
+    {
+      "source": "all_normal_committed",
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 6302,
+      "preset": "unequal_sides",
+      "frozen_clean": true,
+      "sampled_min_margin_cm": 0.5963788041517049,
+      "continuous_min_clearance_cm": 0.5963788041517049,
+      "continuous_clean": true,
+      "false_clean": false
+    }
+  ],
+  "limitations": "Continuous in vehicle footprint, sampled at unchanged physics times; not a continuous-time collision proof. Deep penetration values saturated; severe magnitude unchanged."
+}

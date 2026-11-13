@@ -1,0 +1,304 @@
+{
+  "track": {
+    "schema": 1,
+    "provenance": "drive_v3 map with road boxes rotated 90deg cw to match photo-measured widths (left 26, bottom 24, inner vertical 18, inner horizontal 21); landmarks kept in the verified frame and moved with their outer road. Right road 26 confirmed by the user (2026-11-10); top (26) unmeasured.",
+    "outer": [
+      -100.25,
+      100.25,
+      -97.25,
+      99.25
+    ],
+    "outer_radius_cm": 32.5,
+    "blocks": [
+      [
+        9.25,
+        74.25,
+        10.5,
+        73.25
+      ],
+      [
+        9.25,
+        74.25,
+        -73.25,
+        -10.5
+      ],
+      [
+        -74.25,
+        -9.25,
+        10.5,
+        73.25
+      ],
+      [
+        -74.25,
+        -9.25,
+        -73.25,
+        -10.5
+      ]
+    ],
+    "block_radius_cm": 10.5,
+    "crosswalks": [
+      [
+        0,
+        25.75,
+        "ns"
+      ],
+      [
+        0,
+        -25.75,
+        "ns"
+      ],
+      [
+        -27,
+        0,
+        "ew"
+      ],
+      [
+        27,
+        0,
+        "ew"
+      ],
+      [
+        -21.5,
+        86.25,
+        "ew"
+      ],
+      [
+        87.25,
+        20.25,
+        "ns"
+      ],
+      [
+        21.5,
+        -85.25,
+        "ew"
+      ],
+      [
+        -87.25,
+        -20.25,
+        "ns"
+      ]
+    ],
+    "pink_lines": [
+      [
+        [
+          -66.25,
+          96.25
+        ],
+        [
+          -66.25,
+          76.25
+        ]
+      ],
+      [
+        [
+          -66.25,
+          -75.25
+        ],
+        [
+          -66.25,
+          -95.25
+        ]
+      ],
+      [
+        [
+          66.25,
+          -75.25
+        ],
+        [
+          66.25,
+          -95.25
+        ]
+      ],
+      [
+        [
+          -97.25,
+          65.0
+        ],
+        [
+          -77.25,
+          65.0
+        ]
+      ],
+      [
+        [
+          -97.25,
+          -65.0
+        ],
+        [
+          -77.25,
+          -65.0
+        ]
+      ],
+      [
+        [
+          77.25,
+          65.0
+        ],
+        [
+          97.25,
+          65.0
+        ]
+      ],
+      [
+        [
+          66.25,
+          96.25
+        ],
+        [
+          66.25,
+          76.25
+        ]
+      ]
+    ],
+    "survey_updates": [
+      {
+        "date": "2026-11-10",
+        "source": "User track observation and orientation diagram",
+        "change": "Removed lower pink line on east vertical road; kept east-side line on south horizontal road; added east-side line on north horizontal road using mirrored legacy coordinates (not newly surveyed). Red lines are 98.5 and 128cm south of east upper pink line. Red line length retains the unmeasured legacy 16cm assumption."
+      }
+    ],
+    "red_lines": [
+      [
+        [
+          79.25,
+          -33.5
+        ],
+        [
+          95.25,
+          -33.5
+        ]
+      ],
+      [
+        [
+          79.25,
+          -63.0
+        ],
+        [
+          95.25,
+          -63.0
+        ]
+      ]
+    ],
+    "start_regions": {
+      "right_red": {
+        "red_indices": [
+          0,
+          1
+        ],
+        "road_x_cm": [
+          74.25,
+          100.25
+        ],
+        "heading_by_direction": {
+          "ccw": 0.0,
+          "cw": 3.141592653589793
+        },
+        "placement": "Whole body between the two red lines; approximate heading, not a fixed pose."
+      }
+    },
+    "blue_x": [
+      -64.25,
+      -19.25,
+      19.25,
+      64.25
+    ],
+    "blue_y": [
+      -63.25,
+      -20.5,
+      20.5,
+      63.25
+    ],
+    "blue_extra": [
+      [
+        20.5,
+        106.1
+      ],
+      [
+        107.5,
+        -19.25
+      ],
+      [
+        -20.5,
+        -104.1
+      ],
+      [
+        -106.5,
+        19.25
+      ]
+    ],
+    "blue_radius_cm": 5.25,
+    "junctions": {
+      "center": {
+        "xy": [
+          0,
+          0
+        ],
+        "arms": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      "north": {
+        "xy": [
+          0,
+          86.25
+        ],
+        "arms": [
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      "east": {
+        "xy": [
+          87.25,
+          0
+        ],
+        "arms": [
+          "N",
+          "S",
+          "W"
+        ]
+      },
+      "south": {
+        "xy": [
+          0,
+          -85.25
+        ],
+        "arms": [
+          "N",
+          "E",
+          "W"
+        ]
+      },
+      "west": {
+        "xy": [
+          -87.25,
+          0
+        ],
+        "arms": [
+          "N",
+          "E",
+          "S"
+        ]
+      }
+    },
+    "position_uncertainty_cm": 1.0,
+    "v4_fix": {
+      "date": "2026-11-10",
+      "source": "drive_v4/build_map.py",
+      "road_widths_cm": {
+        "left": 26.0,
+        "right": 26.0,
+        "bottom": 24.0,
+        "top": 26.0,
+        "inner_vertical": 18.5,
+        "inner_horizontal": 21.0
+      }
+    }
+  },
+  "canonical_json_sha256": "e7dee647cbab35e8fef15d6f2fefb4c7037e481a4190f180dacc6ce20e73d5f9",
+  "purpose": "Static mission draft input snapshot; not a runtime validation"
+}

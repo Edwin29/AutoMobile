@@ -1,0 +1,245 @@
+{
+  "rule": "last capture strictly before first incursion",
+  "rows": [
+    {
+      "source": "goal_boundary_commit_20261113",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "first_incursion_s": 6.497333333333308,
+      "before_first_push": true,
+      "guard_t": 6.477333333333308,
+      "forecast_claimed_nonnegative": true,
+      "forecast_min_margin_cm": 0.0015298332779192236,
+      "observed_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safe_level": 0.0
+    },
+    {
+      "source": "goal_boundary_commit_20261113",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "sluggish",
+      "first_incursion_s": 0.9533333333333336,
+      "before_first_push": true,
+      "guard_t": 0.9333333333333336,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.0009342969461982875,
+      "observed_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_commit_20261113",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "first_incursion_s": 7.937333333333291,
+      "before_first_push": false,
+      "guard_t": 7.917333333333292,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.6595323271018607,
+      "observed_residual": [
+        -2.629418438566231,
+        2.7790249402456197,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_commit_20261113",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "first_incursion_s": 7.901333333333292,
+      "before_first_push": false,
+      "guard_t": 7.881333333333292,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.6128602049964567,
+      "observed_residual": [
+        -2.516585466044494,
+        2.881599995779413,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_commit_20261113",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "first_incursion_s": 7.809333333333293,
+      "before_first_push": false,
+      "guard_t": 7.7733333333332935,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.5085086003103143,
+      "observed_residual": [
+        0.3759267960243836,
+        -3.807295626505971,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_commit_20261113",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "first_incursion_s": 7.7733333333332935,
+      "before_first_push": false,
+      "guard_t": 7.737333333333294,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.41778654740256016,
+      "observed_residual": [
+        0.45820515203454054,
+        -3.798271841539216,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_hold_20261113",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "first_incursion_s": 6.497333333333308,
+      "before_first_push": true,
+      "guard_t": 6.477333333333308,
+      "forecast_claimed_nonnegative": true,
+      "forecast_min_margin_cm": 0.0015298332779192236,
+      "observed_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safe_level": 0.0
+    },
+    {
+      "source": "goal_boundary_hold_20261113",
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "sluggish",
+      "first_incursion_s": 0.9533333333333336,
+      "before_first_push": true,
+      "guard_t": 0.9333333333333336,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.0009342969461982875,
+      "observed_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_hold_20261113",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "first_incursion_s": 7.937333333333291,
+      "before_first_push": false,
+      "guard_t": 7.917333333333292,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.9481836119734286,
+      "observed_residual": [
+        -2.6134322410404898,
+        2.794063862024185,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_hold_20261113",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "first_incursion_s": 7.901333333333292,
+      "before_first_push": false,
+      "guard_t": 7.881333333333292,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -1.302570021231487,
+      "observed_residual": [
+        -2.528828817119686,
+        2.870861500888719,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_hold_20261113",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "first_incursion_s": 7.829333333333293,
+      "before_first_push": false,
+      "guard_t": 7.809333333333293,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -0.9534822603476591,
+      "observed_residual": [
+        0.24257058527510345,
+        -3.8181121584809317,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    },
+    {
+      "source": "goal_boundary_hold_20261113",
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "first_incursion_s": 7.7733333333332935,
+      "before_first_push": false,
+      "guard_t": 7.737333333333294,
+      "forecast_claimed_nonnegative": false,
+      "forecast_min_margin_cm": -1.0923046952475026,
+      "observed_residual": [
+        0.45607082620513456,
+        -3.7985287079427383,
+        -0.08099448715517814
+      ],
+      "safe_level": null
+    }
+  ]
+}

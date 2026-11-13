@@ -1,0 +1,31 @@
+{
+  "all_52_complete": true,
+  "identical_probe_pwm": true,
+  "normal_light_physics_exact_pairs": 12,
+  "blinded_input_schema": true,
+  "future_input_mutation_invariant": true,
+  "saved_fit_reproduced": true,
+  "new_source_hashes_unchanged": 8,
+  "prior_experiment_hashes_unchanged": 84,
+  "six_second_fallbacks": [
+    "natural_00",
+    "natural_01",
+    "natural_02",
+    "natural_03",
+    "natural_04",
+    "natural_05",
+    "natural_12",
+    "natural_13",
+    "natural_14",
+    "natural_15",
+    "natural_16",
+    "natural_17",
+    "natural_21",
+    "natural_22",
+    "natural_23"
+  ],
+  "scorer_hash": "021536fa5da1f5120e135b75c967eb11aebe17f624ab46271a1930f613cfe7af",
+  "verifier_hash": "35110d65e08b7eaeb814e903e5808a16f5597ef0baf23238c827d526850b2e12",
+  "final_exam_used": false,
+  "new_training": false
+}

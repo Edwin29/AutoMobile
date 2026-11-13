@@ -1,0 +1,5 @@
+{
+  "training_source_matches_frozen_protocol": true,
+  "initial_encoder_matches_original_pilot": true,
+  "initial_head_matches_frozen_protocol": true
+}

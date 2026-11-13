@@ -1,0 +1,11 @@
+{
+  "base_sources_checked": 516,
+  "base_sources_unchanged": true,
+  "models_unchanged": true,
+  "paired_video_first_middle_last_decoded": 36,
+  "path_images_decoded": 36,
+  "raw_files": 4927,
+  "raw_bytes": 167271021,
+  "final_test_used": false,
+  "training_started": false
+}

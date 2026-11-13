@@ -1,0 +1,746 @@
+{
+  "arms": {
+    "bc": {
+      "n": 48,
+      "stable": 16,
+      "clean": 2,
+      "severe": 7,
+      "wrong": 4,
+      "time_limit": 21,
+      "median_margin_cm": -1.9688483530550833
+    },
+    "outcome": {
+      "n": 48,
+      "stable": 16,
+      "clean": 10,
+      "severe": 5,
+      "wrong": 3,
+      "time_limit": 24,
+      "median_margin_cm": -0.7711984504263096
+    }
+  },
+  "pairs": [
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 3001,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": true,
+      "outcome_clean": false,
+      "bc_margin": 1.0984749375074117,
+      "outcome_margin": -12.057112252910876
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -0.07319745983433634,
+      "outcome_margin": -12.003468227819404
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.039377306905664,
+      "outcome_margin": -6.672193128180588
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "harsh",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -3.9611033439111125,
+      "outcome_margin": -12.01524771497182
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -1.8181684710244053,
+      "outcome_margin": 0.5752882789405618
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -1.5253715462610806,
+      "outcome_margin": 0.5045981855636512
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.8107450517557027,
+      "outcome_margin": 0.7455178091130676
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -0.9907961337771525,
+      "outcome_margin": -2.0822582802539333
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.274146566464017,
+      "outcome_margin": -0.028034625275154212
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.136230590792575,
+      "outcome_margin": -0.028034625275154212
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3001,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.9396001015545057,
+      "outcome_margin": -0.5269123256296293
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -4.41982499880806,
+      "outcome_margin": -1.790636929284732
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.3255588817996067,
+      "outcome_margin": -0.5352468332890759
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3001,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.4015799712578279,
+      "outcome_margin": -1.0071500675635434
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3001,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.298785806222817,
+      "outcome_margin": -0.03290846220237498
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3001,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -5.820671326535972,
+      "outcome_margin": -4.966862407773223
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": 1.1990289960547784,
+      "outcome_margin": -3.1380601167146462
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.054783525827673,
+      "outcome_margin": -4.986528101704826
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.2234239464983432,
+      "outcome_margin": -5.443556517042695
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "harsh",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.414865742930459,
+      "outcome_margin": -3.2349727966864776
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.0934243407794284,
+      "outcome_margin": 0.5241045141549705
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.6808245903880117,
+      "outcome_margin": 0.0667107479102711
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.7000306015249738,
+      "outcome_margin": 0.4507412457181772
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.025336153939286,
+      "outcome_margin": -3.523810956246347
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -1.43131614394877,
+      "outcome_margin": 0.1259575667065178
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.998096604555661,
+      "outcome_margin": -0.09019453945166767
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.0355744358571037,
+      "outcome_margin": 0.3657662872046128
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.04296723951401,
+      "outcome_margin": -4.091582641216206
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.4623697308822514,
+      "outcome_margin": -0.3253735890756211
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -1.0826355088001627,
+      "outcome_margin": 0.4481143704234736
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3007,
+      "bc_success": true,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -1.0173763889874792,
+      "outcome_margin": 0.14451166546466254
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3007,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.003885033436806,
+      "outcome_margin": -12.00413600721657
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 3011,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": true,
+      "outcome_clean": false,
+      "bc_margin": 1.2916630006392609,
+      "outcome_margin": -4.33324709950204
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": 0.8666146966742847,
+      "outcome_margin": -1.0160382784353548
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": 0.5842713640086998,
+      "outcome_margin": -4.88634560614148
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "harsh",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.026589864023506,
+      "outcome_margin": -5.5574743723426465
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -0.16370965192000853,
+      "outcome_margin": 0.344795244354259
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -2.024823041789583,
+      "outcome_margin": 0.6826789932918551
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.7885003447664491,
+      "outcome_margin": -0.3847193856129998
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -11.045861526073963,
+      "outcome_margin": -12.000346596593836
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -0.8300406960886875,
+      "outcome_margin": 0.05269036646060954
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -2.634093804958125,
+      "outcome_margin": 0.13236227183419658
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": true,
+      "bc_margin": -2.5367154832421734,
+      "outcome_margin": 0.1291922390160849
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -12.012765141814405,
+      "outcome_margin": -5.076154169274543
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 3011,
+      "bc_success": true,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -1.1046678085991495,
+      "outcome_margin": -1.3710230971369857
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 3011,
+      "bc_success": true,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.599015891830561,
+      "outcome_margin": -1.2069756028153051
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 3011,
+      "bc_success": true,
+      "outcome_success": true,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -2.432372507153289,
+      "outcome_margin": -0.12839385699097505
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "harsh",
+      "seed": 3011,
+      "bc_success": false,
+      "outcome_success": false,
+      "bc_clean": false,
+      "outcome_clean": false,
+      "bc_margin": -11.753222779518339,
+      "outcome_margin": -8.516639551719644
+    }
+  ],
+  "stable_improved": 11,
+  "stable_regressed": 11
+}

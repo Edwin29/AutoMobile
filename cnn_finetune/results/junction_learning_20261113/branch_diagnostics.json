@@ -1,0 +1,6 @@
+{
+  "branches": 128,
+  "wrong_exit_cost_active": 2,
+  "failure_cost_active": 5,
+  "stable_end": 50
+}

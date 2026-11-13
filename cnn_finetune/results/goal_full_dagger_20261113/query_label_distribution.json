@@ -1,0 +1,16 @@
+{
+  "teacher": {
+    "frames": 32528,
+    "valid": 32528,
+    "opposing_or_reverse": 1300,
+    "saturated": 0,
+    "outside_frames": 0
+  },
+  "student": {
+    "frames": 39071,
+    "valid": 37476,
+    "opposing_or_reverse": 2925,
+    "saturated": 659,
+    "outside_frames": 4413
+  }
+}

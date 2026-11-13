@@ -1,0 +1,6 @@
+{
+  "real_image_features_match": true,
+  "first_three_layers_unchanged": true,
+  "cnn_tail_updated": true,
+  "full_bundle_predictions_exact": true
+}

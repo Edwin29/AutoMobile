@@ -1,0 +1,16 @@
+{
+  "source_sha256": "3539f744e2b694a9c52b6caa33fa91c020dd8acd8e8d592d71db3a4b4e63f7ce",
+  "holdout_results_sha256": "a2f96e62431ccdd19455ba396dabe594d3a005a6ddb422b72bc875f3d644e6ed",
+  "checkpoints": {
+    "reference": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+    "seed_17": "766bcf816829a8721c35633b84b3f7bd2411b5452ec81e36fd0699976cbfb631"
+  },
+  "conditions": [
+    "factual",
+    "frozen_first_image",
+    "zero_previous_pwm"
+  ],
+  "scope": "Replay the same held-development expert trajectories, retaining factual direction and resetting hidden state per episode. No new driving or training.",
+  "interpretation": "These interventions can be off-distribution and inconsistent with image history. They measure prediction sensitivity, not causal attribution of driving reward or proof that visual input is ignored.",
+  "final_exam_used": false
+}

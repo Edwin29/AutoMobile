@@ -1,0 +1,5258 @@
+{
+  "aggregate": {
+    "bc": {
+      "normal": {
+        "wheel_mae": 0.041019415793319546,
+        "diff_mae": 0.0708338082768023,
+        "mean_mae": 0.027063078169400494,
+        "phase_wheel_mae": {
+          "approach": 0.04443633478755752,
+          "corner": 0.03932417199636499,
+          "exit": 0.03828227845951915
+        }
+      },
+      "mild": {
+        "wheel_mae": 0.04374742259581884,
+        "diff_mae": 0.07655539627497394,
+        "mean_mae": 0.02675566092754404,
+        "phase_wheel_mae": {
+          "approach": 0.04443775427838167,
+          "corner": 0.03883973423702022,
+          "exit": 0.0440856198935459
+        }
+      },
+      "mild_light": {
+        "wheel_mae": 0.04541090324831506,
+        "diff_mae": 0.077506089117378,
+        "mean_mae": 0.0292907088684539,
+        "phase_wheel_mae": {
+          "approach": 0.04448724864050746,
+          "corner": 0.04105800592030088,
+          "exit": 0.04670186573639512
+        }
+      }
+    },
+    "outcome": {
+      "normal": {
+        "wheel_mae": 0.03223728225566447,
+        "diff_mae": 0.06075573588411013,
+        "mean_mae": 0.012044081347994506,
+        "phase_wheel_mae": {
+          "approach": 0.0340295717275391,
+          "corner": 0.038735140658294163,
+          "exit": 0.02659298638657977
+        }
+      },
+      "mild": {
+        "wheel_mae": 0.035263999675711,
+        "diff_mae": 0.0675652539357543,
+        "mean_mae": 0.011840758030302823,
+        "phase_wheel_mae": {
+          "approach": 0.03429096316297849,
+          "corner": 0.04284552554599941,
+          "exit": 0.0301809748634696
+        }
+      },
+      "mild_light": {
+        "wheel_mae": 0.03677194759560128,
+        "diff_mae": 0.0699655911885202,
+        "mean_mae": 0.013182283068696657,
+        "phase_wheel_mae": {
+          "approach": 0.036399695789441466,
+          "corner": 0.041707671635473766,
+          "exit": 0.0327386730350554
+        }
+      }
+    }
+  },
+  "episodes": [
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.02973480522632599,
+      "diff_mae": 0.051880449056625366,
+      "mean_mae": 0.013689931482076645,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.03511083498597145,
+          "diff_mae": 0.0633707121014595
+        },
+        "corner": {
+          "frames": 118,
+          "wheel_mae": 0.023376241326332092,
+          "diff_mae": 0.04567334055900574
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.028699824586510658,
+          "diff_mae": 0.04597681760787964
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.048898376524448395,
+      "diff_mae": 0.09749440848827362,
+      "mean_mae": 0.010254155844449997,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.049550630152225494,
+          "diff_mae": 0.09826692193746567
+        },
+        "corner": {
+          "frames": 118,
+          "wheel_mae": 0.06406628340482712,
+          "diff_mae": 0.1280595362186432
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.04080313444137573,
+          "diff_mae": 0.08160626888275146
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.03238966688513756,
+      "diff_mae": 0.058518052101135254,
+      "mean_mae": 0.013241247273981571,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.03654813393950462,
+          "diff_mae": 0.06581181287765503
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.022368595004081726,
+          "diff_mae": 0.0420476533472538
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.03414199873805046,
+          "diff_mae": 0.06101598963141441
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.05047696828842163,
+      "diff_mae": 0.10060013830661774,
+      "mean_mae": 0.009520466439425945,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.0513150691986084,
+          "diff_mae": 0.10183093696832657
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.06587526202201843,
+          "diff_mae": 0.13175050914287567
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.04176649451255798,
+          "diff_mae": 0.08336594700813293
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.03597727790474892,
+      "diff_mae": 0.06394542008638382,
+      "mean_mae": 0.015696074813604355,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.03706730902194977,
+          "diff_mae": 0.0653190016746521
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.026946203783154488,
+          "diff_mae": 0.052084434777498245
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.03976916894316673,
+          "diff_mae": 0.06897380203008652
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04981381818652153,
+      "diff_mae": 0.09895673394203186,
+      "mean_mae": 0.012012063525617123,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.054458845406770706,
+          "diff_mae": 0.1079324409365654
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.07289285957813263,
+          "diff_mae": 0.14578571915626526
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.033937007188797,
+          "diff_mae": 0.06711570918560028
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.043796636164188385,
+      "diff_mae": 0.08736726641654968,
+      "mean_mae": 0.01678902469575405,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.049442775547504425,
+          "diff_mae": 0.09872423112392426
+        },
+        "corner": {
+          "frames": 118,
+          "wheel_mae": 0.03360390290617943,
+          "diff_mae": 0.06706374883651733
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.044467002153396606,
+          "diff_mae": 0.08861634135246277
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.024182546883821487,
+      "diff_mae": 0.0359933115541935,
+      "mean_mae": 0.016416175290942192,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.02252524346113205,
+          "diff_mae": 0.044677626341581345
+        },
+        "corner": {
+          "frames": 118,
+          "wheel_mae": 0.027353789657354355,
+          "diff_mae": 0.029714174568653107
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.02389608323574066,
+          "diff_mae": 0.03232526034116745
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04728572070598602,
+      "diff_mae": 0.09412341564893723,
+      "mean_mae": 0.017160069197416306,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.045497532933950424,
+          "diff_mae": 0.09082190692424774
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.03734450414776802,
+          "diff_mae": 0.0742628201842308
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.053421128541231155,
+          "diff_mae": 0.10616112500429153
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.02641219086945057,
+      "diff_mae": 0.043632861226797104,
+      "mean_mae": 0.015544186346232891,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.02064851112663746,
+          "diff_mae": 0.04038725793361664
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.0386284738779068,
+          "diff_mae": 0.05875737965106964
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.025325732305645943,
+          "diff_mae": 0.03913447633385658
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04920642077922821,
+      "diff_mae": 0.09753362834453583,
+      "mean_mae": 0.02041521482169628,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.04886654019355774,
+          "diff_mae": 0.09759898483753204
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.03822120651602745,
+          "diff_mae": 0.07615676522254944
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.054659973829984665,
+          "diff_mae": 0.10755694657564163
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.03185888007283211,
+      "diff_mae": 0.05447844788432121,
+      "mean_mae": 0.015074954368174076,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.0305488221347332,
+          "diff_mae": 0.06015239655971527
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.03956211730837822,
+          "diff_mae": 0.05858787149190903
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.029289739206433296,
+          "diff_mae": 0.047942254692316055
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04159196466207504,
+      "diff_mae": 0.08006598800420761,
+      "mean_mae": 0.02071152813732624,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.049128275364637375,
+          "diff_mae": 0.09784071892499924
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.04339239001274109,
+          "diff_mae": 0.07751672714948654
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.0345115065574646,
+          "diff_mae": 0.0685684010386467
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.025601187720894814,
+      "diff_mae": 0.04468890279531479,
+      "mean_mae": 0.013375001028180122,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.030910372734069824,
+          "diff_mae": 0.05717150866985321
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.02937275916337967,
+          "diff_mae": 0.05729994922876358
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.018696974962949753,
+          "diff_mae": 0.02559051476418972
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.0505102314054966,
+      "diff_mae": 0.09890156984329224,
+      "mean_mae": 0.021671753376722336,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.049882013350725174,
+          "diff_mae": 0.09934472292661667
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.05191986262798309,
+          "diff_mae": 0.09735631197690964
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.04996491223573685,
+          "diff_mae": 0.09969808161258698
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.028517834842205048,
+      "diff_mae": 0.05267857387661934,
+      "mean_mae": 0.012225828133523464,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.03189267963171005,
+          "diff_mae": 0.05904224142432213
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.035506878048181534,
+          "diff_mae": 0.07080019265413284
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.020560672506690025,
+          "diff_mae": 0.03397897258400917
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.0479796938598156,
+      "diff_mae": 0.09447336941957474,
+      "mean_mae": 0.021465808153152466,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.04674943909049034,
+          "diff_mae": 0.0931626632809639
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.05220578610897064,
+          "diff_mae": 0.10040237754583359
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.04581610485911369,
+          "diff_mae": 0.09110178053379059
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.026618655771017075,
+      "diff_mae": 0.04963621497154236,
+      "mean_mae": 0.011492139659821987,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.031606703996658325,
+          "diff_mae": 0.058241721242666245
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.03149762749671936,
+          "diff_mae": 0.062019240111112595
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.01893310248851776,
+          "diff_mae": 0.033412083983421326
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04207713529467583,
+      "diff_mae": 0.08373294770717621,
+      "mean_mae": 0.017407706007361412,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.04301006719470024,
+          "diff_mae": 0.08563727885484695
+        },
+        "corner": {
+          "frames": 180,
+          "wheel_mae": 0.050242383033037186,
+          "diff_mae": 0.10041345655918121
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.03486794978380203,
+          "diff_mae": 0.06900671869516373
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.025337226688861847,
+      "diff_mae": 0.04526212438941002,
+      "mean_mae": 0.013932603411376476,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.020590446889400482,
+          "diff_mae": 0.038125406950712204
+        },
+        "corner": {
+          "frames": 180,
+          "wheel_mae": 0.037410538643598557,
+          "diff_mae": 0.06988891214132309
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.019312899559736252,
+          "diff_mae": 0.031047774478793144
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.049682144075632095,
+      "diff_mae": 0.09836998581886292,
+      "mean_mae": 0.0189321581274271,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.04385600984096527,
+          "diff_mae": 0.08726911246776581
+        },
+        "corner": {
+          "frames": 164,
+          "wheel_mae": 0.05062446370720863,
+          "diff_mae": 0.09866758435964584
+        },
+        "exit": {
+          "frames": 153,
+          "wheel_mae": 0.04412729665637016,
+          "diff_mae": 0.08798487484455109
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.033197131007909775,
+      "diff_mae": 0.06202850863337517,
+      "mean_mae": 0.01372384000569582,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.021322324872016907,
+          "diff_mae": 0.039073701947927475
+        },
+        "corner": {
+          "frames": 164,
+          "wheel_mae": 0.043144311755895615,
+          "diff_mae": 0.07901795208454132
+        },
+        "exit": {
+          "frames": 153,
+          "wheel_mae": 0.023653240874409676,
+          "diff_mae": 0.043573424220085144
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.05180170759558678,
+      "diff_mae": 0.10284850746393204,
+      "mean_mae": 0.019718412309885025,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.04329598695039749,
+          "diff_mae": 0.08625748008489609
+        },
+        "corner": {
+          "frames": 164,
+          "wheel_mae": 0.055372536182403564,
+          "diff_mae": 0.10922569036483765
+        },
+        "exit": {
+          "frames": 153,
+          "wheel_mae": 0.04753400757908821,
+          "diff_mae": 0.09438913315534592
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.03303304314613342,
+      "diff_mae": 0.062376897782087326,
+      "mean_mae": 0.011877385899424553,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.022546259686350822,
+          "diff_mae": 0.041551508009433746
+        },
+        "corner": {
+          "frames": 164,
+          "wheel_mae": 0.04188479483127594,
+          "diff_mae": 0.07669182866811752
+        },
+        "exit": {
+          "frames": 153,
+          "wheel_mae": 0.021193716675043106,
+          "diff_mae": 0.040815506130456924
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.03706647455692291,
+      "diff_mae": 0.05687190219759941,
+      "mean_mae": 0.025019392371177673,
+      "phases": {
+        "approach": {
+          "frames": 192,
+          "wheel_mae": 0.042923763394355774,
+          "diff_mae": 0.07381033152341843
+        },
+        "corner": {
+          "frames": 118,
+          "wheel_mae": 0.029961617663502693,
+          "diff_mae": 0.05381083860993385
+        },
+        "exit": {
+          "frames": 235,
+          "wheel_mae": 0.03584849461913109,
+          "diff_mae": 0.044569890946149826
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.049998342990875244,
+      "diff_mae": 0.09829685091972351,
+      "mean_mae": 0.012854216620326042,
+      "phases": {
+        "approach": {
+          "frames": 192,
+          "wheel_mae": 0.051495421677827835,
+          "diff_mae": 0.09923392534255981
+        },
+        "corner": {
+          "frames": 118,
+          "wheel_mae": 0.05982232093811035,
+          "diff_mae": 0.11955766379833221
+        },
+        "exit": {
+          "frames": 235,
+          "wheel_mae": 0.04384230077266693,
+          "diff_mae": 0.08685558289289474
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.038374342024326324,
+      "diff_mae": 0.06097092106938362,
+      "mean_mae": 0.02374105714261532,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.04264258220791817,
+          "diff_mae": 0.07232905924320221
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.031531404703855515,
+          "diff_mae": 0.054503608494997025
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.03824630752205849,
+          "diff_mae": 0.054519955068826675
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.05143313482403755,
+      "diff_mae": 0.10017488896846771,
+      "mean_mae": 0.012292415834963322,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.05073099583387375,
+          "diff_mae": 0.09753172099590302
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.06467141211032867,
+          "diff_mae": 0.12934282422065735
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.04515127092599869,
+          "diff_mae": 0.08728138357400894
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04128438979387283,
+      "diff_mae": 0.06428105384111404,
+      "mean_mae": 0.027909796684980392,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.04320601373910904,
+          "diff_mae": 0.07079539448022842
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.03377407416701317,
+          "diff_mae": 0.0580904558300972
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.04353170841932297,
+          "diff_mae": 0.06187235191464424
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.05124255269765854,
+      "diff_mae": 0.09704907238483429,
+      "mean_mae": 0.0164191871881485,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.05399114638566971,
+          "diff_mae": 0.10180289298295975
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.07116667181253433,
+          "diff_mae": 0.14233334362506866
+        },
+        "exit": {
+          "frames": 221,
+          "wheel_mae": 0.038499318063259125,
+          "diff_mae": 0.06937635689973831
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04610307514667511,
+      "diff_mae": 0.09012366086244583,
+      "mean_mae": 0.026514017954468727,
+      "phases": {
+        "approach": {
+          "frames": 192,
+          "wheel_mae": 0.05216619372367859,
+          "diff_mae": 0.10324975848197937
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.03348860517144203,
+          "diff_mae": 0.06301536411046982
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.047424156218767166,
+          "diff_mae": 0.09288407117128372
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.01874031312763691,
+      "diff_mae": 0.034745652228593826,
+      "mean_mae": 0.008369935676455498,
+      "phases": {
+        "approach": {
+          "frames": 192,
+          "wheel_mae": 0.022727573290467262,
+          "diff_mae": 0.044131066650152206
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.018733885139226913,
+          "diff_mae": 0.031357213854789734
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.015499628148972988,
+          "diff_mae": 0.02878992073237896
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04813132807612419,
+      "diff_mae": 0.09429790824651718,
+      "mean_mae": 0.02667202241718769,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.04664120450615883,
+          "diff_mae": 0.09223400056362152
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.03215089067816734,
+          "diff_mae": 0.06222609058022499
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.056917767971754074,
+          "diff_mae": 0.11115207523107529
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.022275086492300034,
+      "diff_mae": 0.04162336140871048,
+      "mean_mae": 0.008071199990808964,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.02075306698679924,
+          "diff_mae": 0.04017175734043121
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.031701136380434036,
+          "diff_mae": 0.05595201253890991
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.019112613052129745,
+          "diff_mae": 0.03609071671962738
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.05057912319898605,
+      "diff_mae": 0.09733815491199493,
+      "mean_mae": 0.030897904187440872,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.049829673022031784,
+          "diff_mae": 0.0982285737991333
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.033703722059726715,
+          "diff_mae": 0.06303562968969345
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.05916420742869377,
+          "diff_mae": 0.11275797337293625
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.028838936239480972,
+      "diff_mae": 0.0540522038936615,
+      "mean_mae": 0.010235394351184368,
+      "phases": {
+        "approach": {
+          "frames": 191,
+          "wheel_mae": 0.030855413526296616,
+          "diff_mae": 0.05911357328295708
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.031931351870298386,
+          "diff_mae": 0.05533919483423233
+        },
+        "exit": {
+          "frames": 227,
+          "wheel_mae": 0.025684596970677376,
+          "diff_mae": 0.04918687045574188
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04477057233452797,
+      "diff_mae": 0.08266305923461914,
+      "mean_mae": 0.03410474583506584,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.050044044852256775,
+          "diff_mae": 0.0966346263885498
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.046423256397247314,
+          "diff_mae": 0.0825752541422844
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.03932792693376541,
+          "diff_mae": 0.07167752087116241
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.02329469472169876,
+      "diff_mae": 0.04507686570286751,
+      "mean_mae": 0.010386260226368904,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.027218658477067947,
+          "diff_mae": 0.05217565968632698
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.03340504318475723,
+          "diff_mae": 0.06541506946086884
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.012416663579642773,
+          "diff_mae": 0.02382311411201954
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.05241859704256058,
+      "diff_mae": 0.10022982954978943,
+      "mean_mae": 0.036029718816280365,
+      "phases": {
+        "approach": {
+          "frames": 177,
+          "wheel_mae": 0.04957735911011696,
+          "diff_mae": 0.09562738984823227
+        },
+        "corner": {
+          "frames": 160,
+          "wheel_mae": 0.05624948814511299,
+          "diff_mae": 0.10732629150152206
+        },
+        "exit": {
+          "frames": 209,
+          "wheel_mae": 0.051892075687646866,
+          "diff_mae": 0.09869490563869476
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.025970861315727234,
+      "diff_mae": 0.04987630620598793,
+      "mean_mae": 0.011995261535048485,
+      "phases": {
+        "approach": {
+          "frames": 177,
+          "wheel_mae": 0.027830714359879494,
+          "diff_mae": 0.05339754372835159
+        },
+        "corner": {
+          "frames": 160,
+          "wheel_mae": 0.03659768030047417,
+          "diff_mae": 0.07022088766098022
+        },
+        "exit": {
+          "frames": 209,
+          "wheel_mae": 0.016260400414466858,
+          "diff_mae": 0.03131940960884094
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.050957486033439636,
+      "diff_mae": 0.0962713435292244,
+      "mean_mae": 0.035588931292295456,
+      "phases": {
+        "approach": {
+          "frames": 177,
+          "wheel_mae": 0.04670914635062218,
+          "diff_mae": 0.0894656553864479
+        },
+        "corner": {
+          "frames": 160,
+          "wheel_mae": 0.05746468901634216,
+          "diff_mae": 0.11215511709451675
+        },
+        "exit": {
+          "frames": 209,
+          "wheel_mae": 0.049573760479688644,
+          "diff_mae": 0.08987519890069962
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.02467174455523491,
+      "diff_mae": 0.046369586139917374,
+      "mean_mae": 0.012798362411558628,
+      "phases": {
+        "approach": {
+          "frames": 177,
+          "wheel_mae": 0.027997948229312897,
+          "diff_mae": 0.05276421457529068
+        },
+        "corner": {
+          "frames": 160,
+          "wheel_mae": 0.03258046507835388,
+          "diff_mae": 0.061829112470149994
+        },
+        "exit": {
+          "frames": 209,
+          "wheel_mae": 0.015800289809703827,
+          "diff_mae": 0.02911900356411934
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04747285321354866,
+      "diff_mae": 0.08970140665769577,
+      "mean_mae": 0.031610406935214996,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.04529471695423126,
+          "diff_mae": 0.0864967331290245
+        },
+        "corner": {
+          "frames": 179,
+          "wheel_mae": 0.060998622328042984,
+          "diff_mae": 0.12026630342006683
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.03847547620534897,
+          "diff_mae": 0.06801696121692657
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.024241885170340538,
+      "diff_mae": 0.04611946642398834,
+      "mean_mae": 0.009339546784758568,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.021648840978741646,
+          "diff_mae": 0.03978981450200081
+        },
+        "corner": {
+          "frames": 179,
+          "wheel_mae": 0.03985441103577614,
+          "diff_mae": 0.07759975641965866
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.01391852367669344,
+          "diff_mae": 0.02617126889526844
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.05371057614684105,
+      "diff_mae": 0.10400529205799103,
+      "mean_mae": 0.032427236437797546,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.04622610658407211,
+          "diff_mae": 0.08851490914821625
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.06162143871188164,
+          "diff_mae": 0.12085287272930145
+        },
+        "exit": {
+          "frames": 148,
+          "wheel_mae": 0.048761624842882156,
+          "diff_mae": 0.09339537471532822
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.030630527064204216,
+      "diff_mae": 0.05969873443245888,
+      "mean_mae": 0.008772683329880238,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.021675389260053635,
+          "diff_mae": 0.04017447307705879
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.04220565780997276,
+          "diff_mae": 0.08331889659166336
+        },
+        "exit": {
+          "frames": 148,
+          "wheel_mae": 0.022281544283032417,
+          "diff_mae": 0.04378046095371246
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.0559297613799572,
+      "diff_mae": 0.10815396159887314,
+      "mean_mae": 0.03262091055512428,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.04595893621444702,
+          "diff_mae": 0.08828388899564743
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.06564889848232269,
+          "diff_mae": 0.12947377562522888
+        },
+        "exit": {
+          "frames": 148,
+          "wheel_mae": 0.052905380725860596,
+          "diff_mae": 0.10002931207418442
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.030711891129612923,
+      "diff_mae": 0.05942472815513611,
+      "mean_mae": 0.008834314532577991,
+      "phases": {
+        "approach": {
+          "frames": 178,
+          "wheel_mae": 0.022844422608613968,
+          "diff_mae": 0.04221952706575394
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.0399676188826561,
+          "diff_mae": 0.07918015867471695
+        },
+        "exit": {
+          "frames": 148,
+          "wheel_mae": 0.02262895181775093,
+          "diff_mae": 0.04283314198255539
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.032363999634981155,
+      "diff_mae": 0.04675349220633507,
+      "mean_mae": 0.02336714416742325,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.03608615696430206,
+          "diff_mae": 0.048865385353565216
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.02191835269331932,
+          "diff_mae": 0.03858383372426033
+        },
+        "exit": {
+          "frames": 237,
+          "wheel_mae": 0.034615229815244675,
+          "diff_mae": 0.049138087779283524
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.057205818593502045,
+      "diff_mae": 0.11335273832082748,
+      "mean_mae": 0.014125588349997997,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.05352020636200905,
+          "diff_mae": 0.10395530611276627
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.07126668840646744,
+          "diff_mae": 0.14253337681293488
+        },
+        "exit": {
+          "frames": 237,
+          "wheel_mae": 0.05314132571220398,
+          "diff_mae": 0.10628265142440796
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.03320287540555,
+      "diff_mae": 0.04846290126442909,
+      "mean_mae": 0.022051040083169937,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.03785078972578049,
+          "diff_mae": 0.052678562700748444
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.020852869376540184,
+          "diff_mae": 0.03668572008609772
+        },
+        "exit": {
+          "frames": 222,
+          "wheel_mae": 0.03574807196855545,
+          "diff_mae": 0.051069628447294235
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.058178722858428955,
+      "diff_mae": 0.1148361787199974,
+      "mean_mae": 0.013570940122008324,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.055400971323251724,
+          "diff_mae": 0.1082298681139946
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.07300464063882828,
+          "diff_mae": 0.14600928127765656
+        },
+        "exit": {
+          "frames": 222,
+          "wheel_mae": 0.05280090868473053,
+          "diff_mae": 0.10416346788406372
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.03686853498220444,
+      "diff_mae": 0.05204210430383682,
+      "mean_mae": 0.02594287320971489,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.03959847614169121,
+          "diff_mae": 0.05396417900919914
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.02577218785881996,
+          "diff_mae": 0.04580993577837944
+        },
+        "exit": {
+          "frames": 222,
+          "wheel_mae": 0.04035399854183197,
+          "diff_mae": 0.053677402436733246
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.058158449828624725,
+      "diff_mae": 0.11418537050485611,
+      "mean_mae": 0.01713867299258709,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.0612582229077816,
+          "diff_mae": 0.11958569288253784
+        },
+        "corner": {
+          "frames": 115,
+          "wheel_mae": 0.0799807608127594,
+          "diff_mae": 0.1599615216255188
+        },
+        "exit": {
+          "frames": 222,
+          "wheel_mae": 0.04428493231534958,
+          "diff_mae": 0.08599657565355301
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04114111512899399,
+      "diff_mae": 0.07096361368894577,
+      "mean_mae": 0.028491467237472534,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.0508304201066494,
+          "diff_mae": 0.09869646281003952
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.03264613449573517,
+          "diff_mae": 0.05270501598715782
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.03775718808174133,
+          "diff_mae": 0.05827581137418747
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.021287843585014343,
+      "diff_mae": 0.03861314803361893,
+      "mean_mae": 0.009356007911264896,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.0226860661059618,
+          "diff_mae": 0.03861541301012039
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.022462034597992897,
+          "diff_mae": 0.041499387472867966
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.019609658047556877,
+          "diff_mae": 0.03718048706650734
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.044043563306331635,
+      "diff_mae": 0.07807812094688416,
+      "mean_mae": 0.02853148803114891,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.047340381890535355,
+          "diff_mae": 0.09171541780233383
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.03136805444955826,
+          "diff_mae": 0.05549393594264984
+        },
+        "exit": {
+          "frames": 228,
+          "wheel_mae": 0.04733157530426979,
+          "diff_mae": 0.07767129689455032
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.023071013391017914,
+      "diff_mae": 0.04265668988227844,
+      "mean_mae": 0.009363854303956032,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.02040889486670494,
+          "diff_mae": 0.035244107246398926
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.030804893001914024,
+          "diff_mae": 0.05871004983782768
+        },
+        "exit": {
+          "frames": 228,
+          "wheel_mae": 0.021589895710349083,
+          "diff_mae": 0.041104961186647415
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04802124574780464,
+      "diff_mae": 0.08048444986343384,
+      "mean_mae": 0.03459661081433296,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.050535742193460464,
+          "diff_mae": 0.09817575663328171
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.03407435864210129,
+          "diff_mae": 0.052001383155584335
+        },
+        "exit": {
+          "frames": 228,
+          "wheel_mae": 0.052537258714437485,
+          "diff_mae": 0.07957431674003601
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.028373967856168747,
+      "diff_mae": 0.05240633338689804,
+      "mean_mae": 0.010934507474303246,
+      "phases": {
+        "approach": {
+          "frames": 184,
+          "wheel_mae": 0.03460611030459404,
+          "diff_mae": 0.061507515609264374
+        },
+        "corner": {
+          "frames": 107,
+          "wheel_mae": 0.030753105878829956,
+          "diff_mae": 0.05795875936746597
+        },
+        "exit": {
+          "frames": 228,
+          "wheel_mae": 0.022227995097637177,
+          "diff_mae": 0.042455773800611496
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.03957030177116394,
+      "diff_mae": 0.05230386182665825,
+      "mean_mae": 0.03752858191728592,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.04143346846103668,
+          "diff_mae": 0.06984671950340271
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.04508998617529869,
+          "diff_mae": 0.050600647926330566
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.03393533080816269,
+          "diff_mae": 0.040334075689315796
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.026196712628006935,
+      "diff_mae": 0.04909330606460571,
+      "mean_mae": 0.01147958729416132,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.027833325788378716,
+          "diff_mae": 0.051506344228982925
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.03226201981306076,
+          "diff_mae": 0.05888019874691963
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.02031548134982586,
+          "diff_mae": 0.039775773882865906
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04559105634689331,
+      "diff_mae": 0.07121602445840836,
+      "mean_mae": 0.03848506882786751,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.0416208952665329,
+          "diff_mae": 0.07186348736286163
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.05058494955301285,
+          "diff_mae": 0.06983289867639542
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.04507146403193474,
+          "diff_mae": 0.07172594964504242
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.02669362537562847,
+      "diff_mae": 0.04953930526971817,
+      "mean_mae": 0.012732435949146748,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.029285859316587448,
+          "diff_mae": 0.05507887527346611
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.03460342437028885,
+          "diff_mae": 0.06278107315301895
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.01868162862956524,
+          "diff_mae": 0.035155102610588074
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.044086746871471405,
+      "diff_mae": 0.06527329236268997,
+      "mean_mae": 0.03827003762125969,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.040005892515182495,
+          "diff_mae": 0.06555574387311935
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.04723377525806427,
+          "diff_mae": 0.06817719340324402
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.04503751918673515,
+          "diff_mae": 0.06287363916635513
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.02660577930510044,
+      "diff_mae": 0.049733735620975494,
+      "mean_mae": 0.013288850896060467,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.030704360455274582,
+          "diff_mae": 0.057527318596839905
+        },
+        "corner": {
+          "frames": 157,
+          "wheel_mae": 0.030522635206580162,
+          "diff_mae": 0.0547214075922966
+        },
+        "exit": {
+          "frames": 210,
+          "wheel_mae": 0.020359572023153305,
+          "diff_mae": 0.03969575837254524
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.0380721278488636,
+      "diff_mae": 0.055238641798496246,
+      "mean_mae": 0.03367631882429123,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.03677661344408989,
+          "diff_mae": 0.05665263161063194
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.04347623512148857,
+          "diff_mae": 0.0715663731098175
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.03470940515398979,
+          "diff_mae": 0.041029252111911774
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.024914806708693504,
+      "diff_mae": 0.04661652445793152,
+      "mean_mae": 0.010315217077732086,
+      "phases": {
+        "approach": {
+          "frames": 171,
+          "wheel_mae": 0.021335631608963013,
+          "diff_mae": 0.03680085018277168
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.03349227085709572,
+          "diff_mae": 0.06291406601667404
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.020734883844852448,
+          "diff_mae": 0.0409659817814827
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.04261031746864319,
+      "diff_mae": 0.0699925348162651,
+      "mean_mae": 0.03351254761219025,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.03659765422344208,
+          "diff_mae": 0.05865119397640228
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.04041719809174538,
+          "diff_mae": 0.07179327309131622
+        },
+        "exit": {
+          "frames": 154,
+          "wheel_mae": 0.040749382227659225,
+          "diff_mae": 0.058850400149822235
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.029069289565086365,
+      "diff_mae": 0.05577770248055458,
+      "mean_mae": 0.00983926560729742,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.02154581993818283,
+          "diff_mae": 0.03782074525952339
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.03650440648198128,
+          "diff_mae": 0.07144875079393387
+        },
+        "exit": {
+          "frames": 154,
+          "wheel_mae": 0.021654054522514343,
+          "diff_mae": 0.04245348274707794
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.04428606852889061,
+      "diff_mae": 0.07338874787092209,
+      "mean_mae": 0.034315843135118484,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.03704506903886795,
+          "diff_mae": 0.05739746242761612
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.042878203094005585,
+          "diff_mae": 0.07925505191087723
+        },
+        "exit": {
+          "frames": 154,
+          "wheel_mae": 0.04375065490603447,
+          "diff_mae": 0.06510962545871735
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.029107913374900818,
+      "diff_mae": 0.05455595999956131,
+      "mean_mae": 0.011111496947705746,
+      "phases": {
+        "approach": {
+          "frames": 170,
+          "wheel_mae": 0.023635704070329666,
+          "diff_mae": 0.04187130182981491
+        },
+        "corner": {
+          "frames": 163,
+          "wheel_mae": 0.034411050379276276,
+          "diff_mae": 0.0649089589715004
+        },
+        "exit": {
+          "frames": 154,
+          "wheel_mae": 0.019765198230743408,
+          "diff_mae": 0.036728788167238235
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.029810506850481033,
+      "diff_mae": 0.04917013645172119,
+      "mean_mae": 0.015257051214575768,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.03828681632876396,
+          "diff_mae": 0.06787111610174179
+        },
+        "corner": {
+          "frames": 119,
+          "wheel_mae": 0.0210641510784626,
+          "diff_mae": 0.041151780635118484
+        },
+        "exit": {
+          "frames": 235,
+          "wheel_mae": 0.02756666950881481,
+          "diff_mae": 0.038508445024490356
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.05646640807390213,
+      "diff_mae": 0.11268175393342972,
+      "mean_mae": 0.011671436950564384,
+      "phases": {
+        "approach": {
+          "frames": 185,
+          "wheel_mae": 0.05758700892329216,
+          "diff_mae": 0.11453477293252945
+        },
+        "corner": {
+          "frames": 119,
+          "wheel_mae": 0.06496264040470123,
+          "diff_mae": 0.12978187203407288
+        },
+        "exit": {
+          "frames": 235,
+          "wheel_mae": 0.0512818843126297,
+          "diff_mae": 0.1025637686252594
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.03288901224732399,
+      "diff_mae": 0.058850787580013275,
+      "mean_mae": 0.014407248236238956,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.040324848145246506,
+          "diff_mae": 0.07192222028970718
+        },
+        "corner": {
+          "frames": 130,
+          "wheel_mae": 0.03142086789011955,
+          "diff_mae": 0.061981845647096634
+        },
+        "exit": {
+          "frames": 242,
+          "wheel_mae": 0.02793181501328945,
+          "diff_mae": 0.047068171203136444
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.052118558436632156,
+      "diff_mae": 0.1039004698395729,
+      "mean_mae": 0.010697486810386181,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.05926525220274925,
+          "diff_mae": 0.11788544803857803
+        },
+        "corner": {
+          "frames": 130,
+          "wheel_mae": 0.05011480674147606,
+          "diff_mae": 0.10022961348295212
+        },
+        "exit": {
+          "frames": 242,
+          "wheel_mae": 0.04767250642180443,
+          "diff_mae": 0.09506584703922272
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.02981451340019703,
+      "diff_mae": 0.049501318484544754,
+      "mean_mae": 0.017304377630352974,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.03594210743904114,
+          "diff_mae": 0.0596153549849987
+        },
+        "corner": {
+          "frames": 130,
+          "wheel_mae": 0.027427390217781067,
+          "diff_mae": 0.05375567078590393
+        },
+        "exit": {
+          "frames": 242,
+          "wheel_mae": 0.02636188641190529,
+          "diff_mae": 0.03940052166581154
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.0550050288438797,
+      "diff_mae": 0.10912059992551804,
+      "mean_mae": 0.01300321239978075,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.057669419795274734,
+          "diff_mae": 0.11350690573453903
+        },
+        "corner": {
+          "frames": 130,
+          "wheel_mae": 0.04378219321370125,
+          "diff_mae": 0.08690905570983887
+        },
+        "exit": {
+          "frames": 242,
+          "wheel_mae": 0.05897495895624161,
+          "diff_mae": 0.11766300350427628
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04042806848883629,
+      "diff_mae": 0.08010164648294449,
+      "mean_mae": 0.02031964436173439,
+      "phases": {
+        "approach": {
+          "frames": 186,
+          "wheel_mae": 0.04237839952111244,
+          "diff_mae": 0.08376006782054901
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.032987065613269806,
+          "diff_mae": 0.06542462855577469
+        },
+        "exit": {
+          "frames": 237,
+          "wheel_mae": 0.04257082939147949,
+          "diff_mae": 0.08447610586881638
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.023871704936027527,
+      "diff_mae": 0.0364019051194191,
+      "mean_mae": 0.01479348074644804,
+      "phases": {
+        "approach": {
+          "frames": 186,
+          "wheel_mae": 0.024041153490543365,
+          "diff_mae": 0.04280710592865944
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.028034985065460205,
+          "diff_mae": 0.0407743826508522
+        },
+        "exit": {
+          "frames": 237,
+          "wheel_mae": 0.021683428436517715,
+          "diff_mae": 0.029216473922133446
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04042622447013855,
+      "diff_mae": 0.07524897158145905,
+      "mean_mae": 0.021322324872016907,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.044312942773103714,
+          "diff_mae": 0.08786148577928543
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.028541700914502144,
+          "diff_mae": 0.05404263734817505
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.04334191977977753,
+          "diff_mae": 0.07617087662220001
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.02877921238541603,
+      "diff_mae": 0.052761245518922806,
+      "mean_mae": 0.013439263217151165,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.023284578695893288,
+          "diff_mae": 0.043058279901742935
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.038901038467884064,
+          "diff_mae": 0.0647195354104042
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.027943069115281105,
+          "diff_mae": 0.054194897413253784
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04569049924612045,
+      "diff_mae": 0.08372386544942856,
+      "mean_mae": 0.02534680813550949,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.049651894718408585,
+          "diff_mae": 0.09902254492044449
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.03310944885015488,
+          "diff_mae": 0.059619974344968796
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.048892538994550705,
+          "diff_mae": 0.08404572308063507
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.02843727357685566,
+      "diff_mae": 0.05285162106156349,
+      "mean_mae": 0.011188824661076069,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.02350359596312046,
+          "diff_mae": 0.04595177620649338
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.03235775604844093,
+          "diff_mae": 0.050558872520923615
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.03022879920899868,
+          "diff_mae": 0.05918220430612564
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04410262033343315,
+      "diff_mae": 0.08677123486995697,
+      "mean_mae": 0.02370493859052658,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.047531016170978546,
+          "diff_mae": 0.09366092830896378
+        },
+        "corner": {
+          "frames": 174,
+          "wheel_mae": 0.04259077087044716,
+          "diff_mae": 0.08263276517391205
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.04265739768743515,
+          "diff_mae": 0.08471401780843735
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.026896536350250244,
+      "diff_mae": 0.048755139112472534,
+      "mean_mae": 0.011459955945611,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.04341443255543709,
+          "diff_mae": 0.08614759892225266
+        },
+        "corner": {
+          "frames": 174,
+          "wheel_mae": 0.02617315948009491,
+          "diff_mae": 0.04867493361234665
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.014882337301969528,
+          "diff_mae": 0.02035890705883503
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04639209061861038,
+      "diff_mae": 0.09077351540327072,
+      "mean_mae": 0.022633817046880722,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.046439871191978455,
+          "diff_mae": 0.09118296205997467
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.043413013219833374,
+          "diff_mae": 0.08311063051223755
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.04862270876765251,
+          "diff_mae": 0.09629808366298676
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.0300664734095335,
+      "diff_mae": 0.057537321001291275,
+      "mean_mae": 0.01172560639679432,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.04348078370094299,
+          "diff_mae": 0.08644336462020874
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.02981872297823429,
+          "diff_mae": 0.056966979056596756
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.02028019167482853,
+          "diff_mae": 0.03647693246603012
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04371008649468422,
+      "diff_mae": 0.08329601585865021,
+      "mean_mae": 0.023302193731069565,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.042396727949380875,
+          "diff_mae": 0.08309891819953918
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.04363761469721794,
+          "diff_mae": 0.08352722972631454
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.04474181681871414,
+          "diff_mae": 0.08326669782400131
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.02816407009959221,
+      "diff_mae": 0.05533071234822273,
+      "mean_mae": 0.0092924190685153,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.04004230350255966,
+          "diff_mae": 0.07998152822256088
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.026707665994763374,
+          "diff_mae": 0.05267927795648575
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.020439395681023598,
+          "diff_mae": 0.03901751711964607
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.04510032758116722,
+      "diff_mae": 0.08818263560533524,
+      "mean_mae": 0.01957087218761444,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.047808513045310974,
+          "diff_mae": 0.09451532363891602
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.05733754485845566,
+          "diff_mae": 0.11443553119897842
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.03318590298295021,
+          "diff_mae": 0.06222265213727951
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "wheel_mae": 0.028387365862727165,
+      "diff_mae": 0.051627714186906815,
+      "mean_mae": 0.012162241153419018,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.025496242567896843,
+          "diff_mae": 0.047798871994018555
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.038233935832977295,
+          "diff_mae": 0.07217852771282196
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.022676458582282066,
+          "diff_mae": 0.038022663444280624
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.04172763228416443,
+      "diff_mae": 0.08045626431703568,
+      "mean_mae": 0.0198244359344244,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.04663430154323578,
+          "diff_mae": 0.09202326089143753
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.03504863753914833,
+          "diff_mae": 0.06654912233352661
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.03485285863280296,
+          "diff_mae": 0.06467010080814362
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.03490497171878815,
+      "diff_mae": 0.06419926881790161,
+      "mean_mae": 0.015775468200445175,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.024896522983908653,
+          "diff_mae": 0.046494461596012115
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.046285733580589294,
+          "diff_mae": 0.07815619558095932
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.03091922402381897,
+          "diff_mae": 0.0612608976662159
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.04629310220479965,
+      "diff_mae": 0.08866659551858902,
+      "mean_mae": 0.022866638377308846,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.04616507887840271,
+          "diff_mae": 0.09135964512825012
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.04049547761678696,
+          "diff_mae": 0.0780576765537262
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.04266270622611046,
+          "diff_mae": 0.07637635618448257
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "wheel_mae": 0.038291096687316895,
+      "diff_mae": 0.07165371626615524,
+      "mean_mae": 0.013662287965416908,
+      "phases": {
+        "approach": {
+          "frames": 174,
+          "wheel_mae": 0.026828348636627197,
+          "diff_mae": 0.051944393664598465
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.045749224722385406,
+          "diff_mae": 0.07731544226408005
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.04001663625240326,
+          "diff_mae": 0.0799260288476944
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.038778096437454224,
+      "diff_mae": 0.05461739003658295,
+      "mean_mae": 0.026911793276667595,
+      "phases": {
+        "approach": {
+          "frames": 193,
+          "wheel_mae": 0.0478348508477211,
+          "diff_mae": 0.07857359945774078
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.026724843308329582,
+          "diff_mae": 0.04667607322335243
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.03734706714749336,
+          "diff_mae": 0.03896308317780495
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.057561080902814865,
+      "diff_mae": 0.11304429173469543,
+      "mean_mae": 0.014624212868511677,
+      "phases": {
+        "approach": {
+          "frames": 193,
+          "wheel_mae": 0.060194939374923706,
+          "diff_mae": 0.11475063115358353
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.06113925576210022,
+          "diff_mae": 0.12196189165115356
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.0536331981420517,
+          "diff_mae": 0.10722783952951431
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04090793803334236,
+      "diff_mae": 0.06283794343471527,
+      "mean_mae": 0.025827575474977493,
+      "phases": {
+        "approach": {
+          "frames": 194,
+          "wheel_mae": 0.05120055377483368,
+          "diff_mae": 0.08405649662017822
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.035464998334646225,
+          "diff_mae": 0.06654635816812515
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.035602085292339325,
+          "diff_mae": 0.044006846845149994
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.05506284162402153,
+      "diff_mae": 0.10710152238607407,
+      "mean_mae": 0.013754469342529774,
+      "phases": {
+        "approach": {
+          "frames": 194,
+          "wheel_mae": 0.06325136870145798,
+          "diff_mae": 0.1207033321261406
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.04953679442405701,
+          "diff_mae": 0.09877509623765945
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.051473844796419144,
+          "diff_mae": 0.10068903118371964
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.040011271834373474,
+      "diff_mae": 0.05373990163207054,
+      "mean_mae": 0.030355826020240784,
+      "phases": {
+        "approach": {
+          "frames": 194,
+          "wheel_mae": 0.04711843281984329,
+          "diff_mae": 0.07177253812551498
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.03377377614378929,
+          "diff_mae": 0.05892571434378624
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.0376581996679306,
+          "diff_mae": 0.036660801619291306
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.05844610184431076,
+      "diff_mae": 0.11260472238063812,
+      "mean_mae": 0.01628381572663784,
+      "phases": {
+        "approach": {
+          "frames": 194,
+          "wheel_mae": 0.06246885284781456,
+          "diff_mae": 0.11622263491153717
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.044076260179281235,
+          "diff_mae": 0.08509377390146255
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.06284485012292862,
+          "diff_mae": 0.12427292764186859
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04309992119669914,
+      "diff_mae": 0.08140701800584793,
+      "mean_mae": 0.030159268528223038,
+      "phases": {
+        "approach": {
+          "frames": 193,
+          "wheel_mae": 0.04368685185909271,
+          "diff_mae": 0.08561033755540848
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.033881962299346924,
+          "diff_mae": 0.06113942340016365
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.047189850360155106,
+          "diff_mae": 0.08801747113466263
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.018803831189870834,
+      "diff_mae": 0.035907454788684845,
+      "mean_mae": 0.00893394835293293,
+      "phases": {
+        "approach": {
+          "frames": 193,
+          "wheel_mae": 0.02064553275704384,
+          "diff_mae": 0.040704395622015
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.02193060889840126,
+          "diff_mae": 0.04134571924805641
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.0157475546002388,
+          "diff_mae": 0.02928845025599003
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04486040771007538,
+      "diff_mae": 0.07398995012044907,
+      "mean_mae": 0.03125515207648277,
+      "phases": {
+        "approach": {
+          "frames": 195,
+          "wheel_mae": 0.04575299844145775,
+          "diff_mae": 0.08968272060155869
+        },
+        "corner": {
+          "frames": 121,
+          "wheel_mae": 0.030055318027734756,
+          "diff_mae": 0.033020585775375366
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.05138202756643295,
+          "diff_mae": 0.08163996785879135
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.026924757286906242,
+      "diff_mae": 0.05243055894970894,
+      "mean_mae": 0.008780070580542088,
+      "phases": {
+        "approach": {
+          "frames": 195,
+          "wheel_mae": 0.020533470436930656,
+          "diff_mae": 0.04032208025455475
+        },
+        "corner": {
+          "frames": 121,
+          "wheel_mae": 0.03639288619160652,
+          "diff_mae": 0.07078589498996735
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.027330629527568817,
+          "diff_mae": 0.0529957190155983
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.051515571773052216,
+      "diff_mae": 0.08325448632240295,
+      "mean_mae": 0.035980548709630966,
+      "phases": {
+        "approach": {
+          "frames": 195,
+          "wheel_mae": 0.052886296063661575,
+          "diff_mae": 0.10299541056156158
+        },
+        "corner": {
+          "frames": 121,
+          "wheel_mae": 0.037130795419216156,
+          "diff_mae": 0.03856581076979637
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.057456158101558685,
+          "diff_mae": 0.08953613042831421
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.02746332809329033,
+      "diff_mae": 0.051279135048389435,
+      "mean_mae": 0.012170445173978806,
+      "phases": {
+        "approach": {
+          "frames": 195,
+          "wheel_mae": 0.021301748231053352,
+          "diff_mae": 0.04077532887458801
+        },
+        "corner": {
+          "frames": 121,
+          "wheel_mae": 0.029462488368153572,
+          "diff_mae": 0.056617558002471924
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.03133271634578705,
+          "diff_mae": 0.05693354457616806
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04773437976837158,
+      "diff_mae": 0.08901266008615494,
+      "mean_mae": 0.03696056082844734,
+      "phases": {
+        "approach": {
+          "frames": 179,
+          "wheel_mae": 0.04866873845458031,
+          "diff_mae": 0.09044037759304047
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.047240857034921646,
+          "diff_mae": 0.08972808718681335
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.04737050458788872,
+          "diff_mae": 0.0873267650604248
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.026235416531562805,
+      "diff_mae": 0.050066228955984116,
+      "mean_mae": 0.013431951403617859,
+      "phases": {
+        "approach": {
+          "frames": 179,
+          "wheel_mae": 0.04067133739590645,
+          "diff_mae": 0.08043315261602402
+        },
+        "corner": {
+          "frames": 173,
+          "wheel_mae": 0.029398750513792038,
+          "diff_mae": 0.05744626373052597
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.012318592518568039,
+          "diff_mae": 0.020233241841197014
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04916532337665558,
+      "diff_mae": 0.09030075371265411,
+      "mean_mae": 0.03501081466674805,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.04683920368552208,
+          "diff_mae": 0.08675846457481384
+        },
+        "corner": {
+          "frames": 177,
+          "wheel_mae": 0.044836584478616714,
+          "diff_mae": 0.08325468748807907
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.05423888936638832,
+          "diff_mae": 0.09837044775485992
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.02643144503235817,
+      "diff_mae": 0.05017901211977005,
+      "mean_mae": 0.013249271549284458,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.040205392986536026,
+          "diff_mae": 0.07907794415950775
+        },
+        "corner": {
+          "frames": 177,
+          "wheel_mae": 0.0248004999011755,
+          "diff_mae": 0.04559021815657616
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.017010897397994995,
+          "diff_mae": 0.031296566128730774
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.04736240580677986,
+      "diff_mae": 0.08295714855194092,
+      "mean_mae": 0.03538934513926506,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.043133340775966644,
+          "diff_mae": 0.07850876450538635
+        },
+        "corner": {
+          "frames": 177,
+          "wheel_mae": 0.04587569832801819,
+          "diff_mae": 0.08480840176343918
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.05175817012786865,
+          "diff_mae": 0.08499769121408463
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.0268390029668808,
+      "diff_mae": 0.049560610204935074,
+      "mean_mae": 0.01583114266395569,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.03796415030956268,
+          "diff_mae": 0.0732317566871643
+        },
+        "corner": {
+          "frames": 177,
+          "wheel_mae": 0.027430620044469833,
+          "diff_mae": 0.04757442697882652
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.017786147072911263,
+          "diff_mae": 0.03275325521826744
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.052088286727666855,
+      "diff_mae": 0.09607234597206116,
+      "mean_mae": 0.03399433568120003,
+      "phases": {
+        "approach": {
+          "frames": 179,
+          "wheel_mae": 0.050266653299331665,
+          "diff_mae": 0.09486911445856094
+        },
+        "corner": {
+          "frames": 180,
+          "wheel_mae": 0.06960645318031311,
+          "diff_mae": 0.13807599246501923
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.039522960782051086,
+          "diff_mae": 0.06342668831348419
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "wheel_mae": 0.026108212769031525,
+      "diff_mae": 0.049104318022727966,
+      "mean_mae": 0.010370542295277119,
+      "phases": {
+        "approach": {
+          "frames": 179,
+          "wheel_mae": 0.02597607485949993,
+          "diff_mae": 0.04980621114373207
+        },
+        "corner": {
+          "frames": 180,
+          "wheel_mae": 0.03508841246366501,
+          "diff_mae": 0.06665082275867462
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.019029175862669945,
+          "diff_mae": 0.03450872004032135
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.047351986169815063,
+      "diff_mae": 0.08689429610967636,
+      "mean_mae": 0.030599402263760567,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.0496261827647686,
+          "diff_mae": 0.09343024343252182
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.04578819125890732,
+          "diff_mae": 0.08804184198379517
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.04432358592748642,
+          "diff_mae": 0.07220521569252014
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.029093101620674133,
+      "diff_mae": 0.05654824525117874,
+      "mean_mae": 0.009294705465435982,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.025273172184824944,
+          "diff_mae": 0.04803481698036194
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.035819098353385925,
+          "diff_mae": 0.06896595656871796
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.028054457157850266,
+          "diff_mae": 0.056058578193187714
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.05192576348781586,
+      "diff_mae": 0.09585001319646835,
+      "mean_mae": 0.03298211470246315,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.04922197759151459,
+          "diff_mae": 0.09289447218179703
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.05174948647618294,
+          "diff_mae": 0.10084114968776703
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.05187150090932846,
+          "diff_mae": 0.08550203591585159
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "wheel_mae": 0.03466718643903732,
+      "diff_mae": 0.06749191880226135,
+      "mean_mae": 0.012212252244353294,
+      "phases": {
+        "approach": {
+          "frames": 181,
+          "wheel_mae": 0.028340162709355354,
+          "diff_mae": 0.05381300300359726
+        },
+        "corner": {
+          "frames": 181,
+          "wheel_mae": 0.04239710792899132,
+          "diff_mae": 0.08210287243127823
+        },
+        "exit": {
+          "frames": 180,
+          "wheel_mae": 0.037017904222011566,
+          "diff_mae": 0.07355311512947083
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.03396148607134819,
+      "diff_mae": 0.044854793697595596,
+      "mean_mae": 0.02515869028866291,
+      "phases": {
+        "approach": {
+          "frames": 186,
+          "wheel_mae": 0.04136408492922783,
+          "diff_mae": 0.05310608819127083
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.018699511885643005,
+          "diff_mae": 0.033041518181562424
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.03569354861974716,
+          "diff_mae": 0.04420822858810425
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.06517980247735977,
+      "diff_mae": 0.1298641860485077,
+      "mean_mae": 0.015374104492366314,
+      "phases": {
+        "approach": {
+          "frames": 186,
+          "wheel_mae": 0.062407515943050385,
+          "diff_mae": 0.12337938696146011
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.07253163307905197,
+          "diff_mae": 0.14506326615810394
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.0637199655175209,
+          "diff_mae": 0.1274399310350418
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.035511527210474014,
+      "diff_mae": 0.05036141350865364,
+      "mean_mae": 0.0237351693212986,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.0435575395822525,
+          "diff_mae": 0.05829526111483574
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.02746996469795704,
+          "diff_mae": 0.0515764094889164
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.03359660133719444,
+          "diff_mae": 0.04363861307501793
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.06114060431718826,
+      "diff_mae": 0.12119641900062561,
+      "mean_mae": 0.014482266269624233,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.06441870331764221,
+          "diff_mae": 0.12744545936584473
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.056879922747612,
+          "diff_mae": 0.113759845495224
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.0608808808028698,
+          "diff_mae": 0.1203388124704361
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.035279981791973114,
+      "diff_mae": 0.045944537967443466,
+      "mean_mae": 0.02793472446501255,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.040887027978897095,
+          "diff_mae": 0.05404756963253021
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.02658727578818798,
+          "diff_mae": 0.044864919036626816
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.03557850793004036,
+          "diff_mae": 0.04030520096421242
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.06419229507446289,
+      "diff_mae": 0.1269393116235733,
+      "mean_mae": 0.017217407003045082,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.06330486387014389,
+          "diff_mae": 0.12365854531526566
+        },
+        "corner": {
+          "frames": 129,
+          "wheel_mae": 0.050227489322423935,
+          "diff_mae": 0.0992588922381401
+        },
+        "exit": {
+          "frames": 244,
+          "wheel_mae": 0.072255440056324,
+          "diff_mae": 0.1440880000591278
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.041459184139966965,
+      "diff_mae": 0.06385227292776108,
+      "mean_mae": 0.031853776425123215,
+      "phases": {
+        "approach": {
+          "frames": 186,
+          "wheel_mae": 0.043361857533454895,
+          "diff_mae": 0.08273100852966309
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.037493783980607986,
+          "diff_mae": 0.052779823541641235
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.04192551597952843,
+          "diff_mae": 0.054462578147649765
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.019369039684534073,
+      "diff_mae": 0.03520285710692406,
+      "mean_mae": 0.00919155590236187,
+      "phases": {
+        "approach": {
+          "frames": 186,
+          "wheel_mae": 0.021341076120734215,
+          "diff_mae": 0.03653060644865036
+        },
+        "corner": {
+          "frames": 117,
+          "wheel_mae": 0.023265937343239784,
+          "diff_mae": 0.045080091804265976
+        },
+        "exit": {
+          "frames": 236,
+          "wheel_mae": 0.01588287390768528,
+          "diff_mae": 0.029259653761982918
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04543938487768173,
+      "diff_mae": 0.0655321329832077,
+      "mean_mae": 0.03367379307746887,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.04548172652721405,
+          "diff_mae": 0.08633633702993393
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.03886641561985016,
+          "diff_mae": 0.04163806512951851
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.048640940338373184,
+          "diff_mae": 0.06159941107034683
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.029360655695199966,
+      "diff_mae": 0.05554535612463951,
+      "mean_mae": 0.00911913625895977,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.022830739617347717,
+          "diff_mae": 0.038515448570251465
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.03698254004120827,
+          "diff_mae": 0.07257802039384842
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.03053494729101658,
+          "diff_mae": 0.060007479041814804
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.05191761627793312,
+      "diff_mae": 0.07351214438676834,
+      "mean_mae": 0.0400945246219635,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.05163752660155296,
+          "diff_mae": 0.09815141558647156
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.0463709756731987,
+          "diff_mae": 0.04672688618302345
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.05485739931464195,
+          "diff_mae": 0.06810995936393738
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.03147245943546295,
+      "diff_mae": 0.05670095607638359,
+      "mean_mae": 0.013231519609689713,
+      "phases": {
+        "approach": {
+          "frames": 187,
+          "wheel_mae": 0.024510551244020462,
+          "diff_mae": 0.03888055309653282
+        },
+        "corner": {
+          "frames": 122,
+          "wheel_mae": 0.0346732921898365,
+          "diff_mae": 0.06797213107347488
+        },
+        "exit": {
+          "frames": 248,
+          "wheel_mae": 0.03514735773205757,
+          "diff_mae": 0.06459341198205948
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04262818768620491,
+      "diff_mae": 0.05732843279838562,
+      "mean_mae": 0.04055546596646309,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.042161133140325546,
+          "diff_mae": 0.06707704067230225
+        },
+        "corner": {
+          "frames": 174,
+          "wheel_mae": 0.04301019757986069,
+          "diff_mae": 0.04985100030899048
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.042689792811870575,
+          "diff_mae": 0.05565870553255081
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.02774239331483841,
+      "diff_mae": 0.05170285329222679,
+      "mean_mae": 0.013844155706465244,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.04326622560620308,
+          "diff_mae": 0.08383140712976456
+        },
+        "corner": {
+          "frames": 174,
+          "wheel_mae": 0.02572541870176792,
+          "diff_mae": 0.04377263784408569
+        },
+        "exit": {
+          "frames": 225,
+          "wheel_mae": 0.01743507571518421,
+          "diff_mae": 0.0332750603556633
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04634999856352806,
+      "diff_mae": 0.06260205060243607,
+      "mean_mae": 0.039397869259119034,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.04168151691555977,
+          "diff_mae": 0.06452896445989609
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.045587603002786636,
+          "diff_mae": 0.055123716592788696
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.05038141831755638,
+          "diff_mae": 0.06686609238386154
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.030017634853720665,
+      "diff_mae": 0.057091645896434784,
+      "mean_mae": 0.014466642402112484,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.04297642037272453,
+          "diff_mae": 0.08245083689689636
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.03279275447130203,
+          "diff_mae": 0.06094391271471977
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.018326004967093468,
+          "diff_mae": 0.03541282191872597
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04554225131869316,
+      "diff_mae": 0.055404044687747955,
+      "mean_mae": 0.03978831693530083,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.03915061801671982,
+          "diff_mae": 0.056631021201610565
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.04614134505391121,
+          "diff_mae": 0.05499618873000145
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.049811966717243195,
+          "diff_mae": 0.05480717867612839
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.030487067997455597,
+      "diff_mae": 0.05571795254945755,
+      "mean_mae": 0.01653813011944294,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.04161835089325905,
+          "diff_mae": 0.07559516280889511
+        },
+        "corner": {
+          "frames": 178,
+          "wheel_mae": 0.030494410544633865,
+          "diff_mae": 0.05406663194298744
+        },
+        "exit": {
+          "frames": 234,
+          "wheel_mae": 0.02225193940103054,
+          "diff_mae": 0.042278554290533066
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.04151385277509689,
+      "diff_mae": 0.060974542051553726,
+      "mean_mae": 0.036157213151454926,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.040875788778066635,
+          "diff_mae": 0.06645979732275009
+        },
+        "corner": {
+          "frames": 180,
+          "wheel_mae": 0.048525258898735046,
+          "diff_mae": 0.0836755558848381
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.03641515225172043,
+          "diff_mae": 0.03871946409344673
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "normal",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "wheel_mae": 0.027173226699233055,
+      "diff_mae": 0.04842565953731537,
+      "mean_mae": 0.012996071018278599,
+      "phases": {
+        "approach": {
+          "frames": 172,
+          "wheel_mae": 0.019625764340162277,
+          "diff_mae": 0.03382734954357147
+        },
+        "corner": {
+          "frames": 180,
+          "wheel_mae": 0.03365659341216087,
+          "diff_mae": 0.05507277324795723
+        },
+        "exit": {
+          "frames": 226,
+          "wheel_mae": 0.027753571048378944,
+          "diff_mae": 0.05424170196056366
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.04096619784832001,
+      "diff_mae": 0.062314875423908234,
+      "mean_mae": 0.03199285268783569,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.040373753756284714,
+          "diff_mae": 0.06430581957101822
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.03862660750746727,
+          "diff_mae": 0.06521029025316238
+        },
+        "exit": {
+          "frames": 179,
+          "wheel_mae": 0.038766421377658844,
+          "diff_mae": 0.042169250547885895
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.036509349942207336,
+      "diff_mae": 0.06995178014039993,
+      "mean_mae": 0.011741428636014462,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.019756413996219635,
+          "diff_mae": 0.033635325729846954
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.05671963840723038,
+          "diff_mae": 0.10923261940479279
+        },
+        "exit": {
+          "frames": 179,
+          "wheel_mae": 0.03507828712463379,
+          "diff_mae": 0.07006313651800156
+        }
+      }
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.043820157647132874,
+      "diff_mae": 0.06826203316450119,
+      "mean_mae": 0.03419317677617073,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.04063471406698227,
+          "diff_mae": 0.06363339722156525
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.03979721665382385,
+          "diff_mae": 0.0670054480433464
+        },
+        "exit": {
+          "frames": 179,
+          "wheel_mae": 0.044560182839632034,
+          "diff_mae": 0.05620488524436951
+        }
+      }
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "condition": "mild_light",
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "wheel_mae": 0.04002619907259941,
+      "diff_mae": 0.07669764757156372,
+      "mean_mae": 0.014526006765663624,
+      "phases": {
+        "approach": {
+          "frames": 173,
+          "wheel_mae": 0.020986391231417656,
+          "diff_mae": 0.035028450191020966
+        },
+        "corner": {
+          "frames": 183,
+          "wheel_mae": 0.05647455155849457,
+          "diff_mae": 0.10952239483594894
+        },
+        "exit": {
+          "frames": 179,
+          "wheel_mae": 0.04482758790254593,
+          "diff_mae": 0.08884996920824051
+        }
+      }
+    }
+  ],
+  "paired_camera_changes": [
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.0035876110196113586,
+      "diff_mae_change": 0.005427367985248566
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.0006631501019001007,
+      "diff_mae_change": -0.0016434043645858765
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.0019207000732421875,
+      "diff_mae_change": 0.0034102126955986023
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.005446689203381538,
+      "diff_mae_change": 0.010845586657524109
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.0025305375456809998,
+      "diff_mae_change": -0.004428200423717499
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.001899179071187973,
+      "diff_mae_change": -0.0030423589050769806
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.0021195635199546814,
+      "diff_mae_change": 0.004478521645069122
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.00016408786177635193,
+      "diff_mae_change": 0.0003483891487121582
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.002910047769546509,
+      "diff_mae_change": 0.003310132771730423
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": -0.00019058212637901306,
+      "diff_mae_change": -0.003125816583633423
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.002447795122861862,
+      "diff_mae_change": 0.0030402466654777527
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.006563849747180939,
+      "diff_mae_change": 0.01242884248495102
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": -0.0014611110091209412,
+      "diff_mae_change": -0.003958486020565033
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": -0.0012991167604923248,
+      "diff_mae_change": -0.0035067200660705566
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.00221918523311615,
+      "diff_mae_change": 0.004148669540882111
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "sluggish",
+      "wheel_mae_change": 8.136406540870667e-05,
+      "diff_mae_change": -0.00027400627732276917
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.003665659576654434,
+      "diff_mae_change": 0.00357920303940773
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": -2.0273029804229736e-05,
+      "diff_mae_change": -0.0006508082151412964
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.003977682441473007,
+      "diff_mae_change": 0.0024063289165496826
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.005302954465150833,
+      "diff_mae_change": 0.009749643504619598
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": -0.0015043094754219055,
+      "diff_mae_change": -0.005942732095718384
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": -8.78460705280304e-05,
+      "diff_mae_change": 0.00019443035125732422
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.0016757510602474213,
+      "diff_mae_change": 0.0033962130546569824
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4101,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 3.8623809814453125e-05,
+      "diff_mae_change": -0.0012217424809932709
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.0030744988471269608,
+      "diff_mae_change": -0.009349469095468521
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.0028864704072475433,
+      "diff_mae_change": 0.005220130085945129
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.005264274775981903,
+      "diff_mae_change": 0.008474893867969513
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.0003419388085603714,
+      "diff_mae_change": 9.037554264068604e-05
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.0026820041239261627,
+      "diff_mae_change": -0.007477499544620514
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": -0.0019024033099412918,
+      "diff_mae_change": -0.0022066086530685425
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.004565469920635223,
+      "diff_mae_change": 0.008210331201553345
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "field_estimate",
+      "wheel_mae_change": 0.0033861249685287476,
+      "diff_mae_change": 0.007454447448253632
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": -0.0008966661989688873,
+      "diff_mae_change": -0.00909804180264473
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.0033832602202892303,
+      "diff_mae_change": 0.005503199994564056
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.006655164062976837,
+      "diff_mae_change": 0.009264536201953888
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.0005385708063840866,
+      "diff_mae_change": -0.0011514239013195038
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": -0.0018029175698757172,
+      "diff_mae_change": -0.007343605160713196
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.0004075579345226288,
+      "diff_mae_change": -0.0006184019148349762
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.0045737773180007935,
+      "diff_mae_change": 0.008955717086791992
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "sluggish",
+      "wheel_mae_change": 0.00557408481836319,
+      "diff_mae_change": 0.010943673551082611
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": -0.00023154541850090027,
+      "diff_mae_change": -0.0044168755412101746
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.0030516907572746277,
+      "diff_mae_change": 0.005742892622947693
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.0064782314002513885,
+      "diff_mae_change": 0.007980011403560638
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.0021118037402629852,
+      "diff_mae_change": 0.0011555999517440796
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": -0.0008077472448348999,
+      "diff_mae_change": -0.00719800591468811
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.00046943314373493195,
+      "diff_mae_change": -0.0013736933469772339
+    },
+    {
+      "arm": "bc",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.002853959798812866,
+      "diff_mae_change": 0.0059471577405929565
+    },
+    {
+      "arm": "outcome",
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "seed": 4102,
+      "preset": "unequal_sides",
+      "wheel_mae_change": 0.0035168491303920746,
+      "diff_mae_change": 0.006745867431163788
+    }
+  ],
+  "caveat": "Teacher observations, teacher previous commands, recurrent full prefix. Not student closed-loop distribution or causal isolation of just light amplitude.",
+  "matched_camera_profile_physics": true
+}

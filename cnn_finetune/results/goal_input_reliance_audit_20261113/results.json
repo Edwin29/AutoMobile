@@ -1,0 +1,3313 @@
+{
+  "summary": {
+    "reference": {
+      "factual": {
+        "episode_macro_mae": 0.06170516800401466,
+        "prediction_change_mae": 0.0
+      },
+      "frozen_first_image": {
+        "episode_macro_mae": 0.07882029217268739,
+        "prediction_change_mae": 0.05551095242567715
+      },
+      "zero_previous_pwm": {
+        "episode_macro_mae": 0.06742077540340168,
+        "prediction_change_mae": 0.012779872756384845
+      }
+    },
+    "seed_17": {
+      "factual": {
+        "episode_macro_mae": 0.023396073474681804,
+        "prediction_change_mae": 0.0
+      },
+      "frozen_first_image": {
+        "episode_macro_mae": 0.06964529755835731,
+        "prediction_change_mae": 0.06369570928758808
+      },
+      "zero_previous_pwm": {
+        "episode_macro_mae": 0.04127170360602793,
+        "prediction_change_mae": 0.03504217455961874
+      }
+    }
+  },
+  "rows": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.016835572198033333,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.055860571563243866,
+            "prediction_change_mae": 0.06317949295043945
+          },
+          "zero_previous_pwm": {
+            "mae": 0.021261973306536674,
+            "prediction_change_mae": 0.012859084643423557
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02490314468741417,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09099385887384415,
+            "prediction_change_mae": 0.09053326398134232
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03542866185307503,
+            "prediction_change_mae": 0.032823238521814346
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.016808681190013885,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06605643779039383,
+            "prediction_change_mae": 0.06305842846632004
+          },
+          "zero_previous_pwm": {
+            "mae": 0.023140234872698784,
+            "prediction_change_mae": 0.013287529349327087
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.028133543208241463,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10187342017889023,
+            "prediction_change_mae": 0.09311741590499878
+          },
+          "zero_previous_pwm": {
+            "mae": 0.045598357915878296,
+            "prediction_change_mae": 0.03449159860610962
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.01678263209760189,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06840230524539948,
+            "prediction_change_mae": 0.06285463273525238
+          },
+          "zero_previous_pwm": {
+            "mae": 0.027693593874573708,
+            "prediction_change_mae": 0.014178849756717682
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02755119279026985,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10408677160739899,
+            "prediction_change_mae": 0.0887102484703064
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05094681307673454,
+            "prediction_change_mae": 0.03490762040019035
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08221320807933807,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10248085111379623,
+            "prediction_change_mae": 0.05784507095813751
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08418949693441391,
+            "prediction_change_mae": 0.012281101197004318
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03397974744439125,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07434213906526566,
+            "prediction_change_mae": 0.05699368193745613
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03582025319337845,
+            "prediction_change_mae": 0.025602765381336212
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07631020992994308,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.095702163875103,
+            "prediction_change_mae": 0.058355942368507385
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07797792553901672,
+            "prediction_change_mae": 0.012609736062586308
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03396596759557724,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07447756081819534,
+            "prediction_change_mae": 0.05651911720633507
+          },
+          "zero_previous_pwm": {
+            "mae": 0.044705044478178024,
+            "prediction_change_mae": 0.026936136186122894
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "E",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0713827833533287,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09372257441282272,
+            "prediction_change_mae": 0.05810311809182167
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07405170798301697,
+            "prediction_change_mae": 0.013128487393260002
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.030326148495078087,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0691748633980751,
+            "prediction_change_mae": 0.056965578347444534
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04229515418410301,
+            "prediction_change_mae": 0.027233630418777466
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.01727420836687088,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05828661471605301,
+            "prediction_change_mae": 0.06355265527963638
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02173575386404991,
+            "prediction_change_mae": 0.013127709738910198
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.023473644629120827,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08711686730384827,
+            "prediction_change_mae": 0.08929912000894547
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03252717852592468,
+            "prediction_change_mae": 0.032462432980537415
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.019864477217197418,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06652194261550903,
+            "prediction_change_mae": 0.06368967890739441
+          },
+          "zero_previous_pwm": {
+            "mae": 0.025258254259824753,
+            "prediction_change_mae": 0.013551964424550533
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.026182180270552635,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09787321835756302,
+            "prediction_change_mae": 0.0921739935874939
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04209832474589348,
+            "prediction_change_mae": 0.03400944545865059
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "S",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.01854381524026394,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06806846708059311,
+            "prediction_change_mae": 0.06299064308404922
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02943299524486065,
+            "prediction_change_mae": 0.01445410493761301
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.024431632831692696,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10020137578248978,
+            "prediction_change_mae": 0.08738590031862259
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04752327874302864,
+            "prediction_change_mae": 0.03452744707465172
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07928787916898727,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10152553766965866,
+            "prediction_change_mae": 0.05787012726068497
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08108213543891907,
+            "prediction_change_mae": 0.012102935463190079
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03438684344291687,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07592462003231049,
+            "prediction_change_mae": 0.05798698961734772
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03732375428080559,
+            "prediction_change_mae": 0.02524695359170437
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07361245900392532,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09485673904418945,
+            "prediction_change_mae": 0.058300964534282684
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07561410218477249,
+            "prediction_change_mae": 0.012432068586349487
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.0351763479411602,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0760176032781601,
+            "prediction_change_mae": 0.05781187862157822
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04623371362686157,
+            "prediction_change_mae": 0.026579922065138817
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "center",
+        "W",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06921964883804321,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09292043745517731,
+            "prediction_change_mae": 0.058132484555244446
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07196745276451111,
+            "prediction_change_mae": 0.012974094599485397
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03177725896239281,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07072875648736954,
+            "prediction_change_mae": 0.05801350250840187
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0440366268157959,
+            "prediction_change_mae": 0.02686365135014057
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06651993840932846,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05647441744804382,
+            "prediction_change_mae": 0.025727078318595886
+          },
+          "zero_previous_pwm": {
+            "mae": 0.06981732696294785,
+            "prediction_change_mae": 0.007349800318479538
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.0232175812125206,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0274540763348341,
+            "prediction_change_mae": 0.03501540422439575
+          },
+          "zero_previous_pwm": {
+            "mae": 0.024279803037643433,
+            "prediction_change_mae": 0.03615901246666908
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0824873149394989,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07413012534379959,
+            "prediction_change_mae": 0.025734979659318924
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08594270795583725,
+            "prediction_change_mae": 0.007207151968032122
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.017002763226628304,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.03804076090455055,
+            "prediction_change_mae": 0.03345591947436333
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0424882173538208,
+            "prediction_change_mae": 0.03829406946897507
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0828428864479065,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07506047934293747,
+            "prediction_change_mae": 0.02541653998196125
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08587111532688141,
+            "prediction_change_mae": 0.003896885784342885
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.016504408791661263,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.03911074995994568,
+            "prediction_change_mae": 0.03485998138785362
+          },
+          "zero_previous_pwm": {
+            "mae": 0.042320236563682556,
+            "prediction_change_mae": 0.03862497955560684
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08705811202526093,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08190882205963135,
+            "prediction_change_mae": 0.060344308614730835
+          },
+          "zero_previous_pwm": {
+            "mae": 0.09972673654556274,
+            "prediction_change_mae": 0.019883478060364723
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02604006975889206,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10935071855783463,
+            "prediction_change_mae": 0.10834067314863205
+          },
+          "zero_previous_pwm": {
+            "mae": 0.042241863906383514,
+            "prediction_change_mae": 0.03847132623195648
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.10453923046588898,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09684143960475922,
+            "prediction_change_mae": 0.06045809015631676
+          },
+          "zero_previous_pwm": {
+            "mae": 0.11767379939556122,
+            "prediction_change_mae": 0.020113570615649223
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03353118151426315,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.12310381978750229,
+            "prediction_change_mae": 0.10800564289093018
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05976356193423271,
+            "prediction_change_mae": 0.04180048778653145
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.10125385224819183,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0959516242146492,
+            "prediction_change_mae": 0.05996929854154587
+          },
+          "zero_previous_pwm": {
+            "mae": 0.11506951600313187,
+            "prediction_change_mae": 0.0191486943513155
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02357187308371067,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.12191448360681534,
+            "prediction_change_mae": 0.10760084539651871
+          },
+          "zero_previous_pwm": {
+            "mae": 0.053903449326753616,
+            "prediction_change_mae": 0.04009786993265152
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.05231325328350067,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07290007919073105,
+            "prediction_change_mae": 0.10359708219766617
+          },
+          "zero_previous_pwm": {
+            "mae": 0.048358406871557236,
+            "prediction_change_mae": 0.016783861443400383
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02108958177268505,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05261433497071266,
+            "prediction_change_mae": 0.05501015484333038
+          },
+          "zero_previous_pwm": {
+            "mae": 0.023247944191098213,
+            "prediction_change_mae": 0.03161779046058655
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0522138774394989,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0757959857583046,
+            "prediction_change_mae": 0.10429386049509048
+          },
+          "zero_previous_pwm": {
+            "mae": 0.049005214124917984,
+            "prediction_change_mae": 0.017384499311447144
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.018465138971805573,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05601269006729126,
+            "prediction_change_mae": 0.055573511868715286
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03468912094831467,
+            "prediction_change_mae": 0.033728647977113724
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.05791875720024109,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06535397469997406,
+            "prediction_change_mae": 0.10252758860588074
+          },
+          "zero_previous_pwm": {
+            "mae": 0.056080419570207596,
+            "prediction_change_mae": 0.015811670571565628
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01688401959836483,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04971533268690109,
+            "prediction_change_mae": 0.05518457293510437
+          },
+          "zero_previous_pwm": {
+            "mae": 0.030142847448587418,
+            "prediction_change_mae": 0.03271375969052315
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.018951481208205223,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.057422131299972534,
+            "prediction_change_mae": 0.0503448024392128
+          },
+          "zero_previous_pwm": {
+            "mae": 0.024883214384317398,
+            "prediction_change_mae": 0.013469059020280838
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02268015779554844,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.046834833920001984,
+            "prediction_change_mae": 0.051976121962070465
+          },
+          "zero_previous_pwm": {
+            "mae": 0.024009427055716515,
+            "prediction_change_mae": 0.03311251103878021
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.018775366246700287,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05751526355743408,
+            "prediction_change_mae": 0.05116909369826317
+          },
+          "zero_previous_pwm": {
+            "mae": 0.026239151135087013,
+            "prediction_change_mae": 0.013711858540773392
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.022545425221323967,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05214453488588333,
+            "prediction_change_mae": 0.051858216524124146
+          },
+          "zero_previous_pwm": {
+            "mae": 0.035717785358428955,
+            "prediction_change_mae": 0.03495415672659874
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "S",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.021410824730992317,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.053329914808273315,
+            "prediction_change_mae": 0.0494774766266346
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03206383436918259,
+            "prediction_change_mae": 0.013977807946503162
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.015210461802780628,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05448709800839424,
+            "prediction_change_mae": 0.052793968468904495
+          },
+          "zero_previous_pwm": {
+            "mae": 0.037004828453063965,
+            "prediction_change_mae": 0.035622257739305496
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0685148686170578,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0781739205121994,
+            "prediction_change_mae": 0.017138641327619553
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07176229357719421,
+            "prediction_change_mae": 0.006205308251082897
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.014738690108060837,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.018684593960642815,
+            "prediction_change_mae": 0.021878758445382118
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02693740464746952,
+            "prediction_change_mae": 0.03351060301065445
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08557114750146866,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09586430341005325,
+            "prediction_change_mae": 0.017136501148343086
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08902838081121445,
+            "prediction_change_mae": 0.0060246791690588
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.013571228832006454,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.030615856871008873,
+            "prediction_change_mae": 0.024040095508098602
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04137088358402252,
+            "prediction_change_mae": 0.03486231341958046
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08593234419822693,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09684567153453827,
+            "prediction_change_mae": 0.01693674363195896
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08921480923891068,
+            "prediction_change_mae": 0.004241700749844313
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.014014706015586853,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.03135122358798981,
+            "prediction_change_mae": 0.022428588941693306
+          },
+          "zero_previous_pwm": {
+            "mae": 0.045095641165971756,
+            "prediction_change_mae": 0.03581791743636131
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06387394666671753,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09300671517848969,
+            "prediction_change_mae": 0.05298319458961487
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07877388596534729,
+            "prediction_change_mae": 0.01651991531252861
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02625628560781479,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08030334115028381,
+            "prediction_change_mae": 0.08266140520572662
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03503325954079628,
+            "prediction_change_mae": 0.036090970039367676
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07973818480968475,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10664162784814835,
+            "prediction_change_mae": 0.052282243967056274
+          },
+          "zero_previous_pwm": {
+            "mae": 0.09483650326728821,
+            "prediction_change_mae": 0.017179371789097786
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.030120857059955597,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09343749284744263,
+            "prediction_change_mae": 0.08447558432817459
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05086029693484306,
+            "prediction_change_mae": 0.03701718524098396
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07697027176618576,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.1078372448682785,
+            "prediction_change_mae": 0.054206740111112595
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0928894504904747,
+            "prediction_change_mae": 0.018117232248187065
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.022120840847492218,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09640009701251984,
+            "prediction_change_mae": 0.08239182829856873
+          },
+          "zero_previous_pwm": {
+            "mae": 0.053041089326143265,
+            "prediction_change_mae": 0.038694657385349274
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06525008380413055,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0972135066986084,
+            "prediction_change_mae": 0.04287128522992134
+          },
+          "zero_previous_pwm": {
+            "mae": 0.068441241979599,
+            "prediction_change_mae": 0.006370290648192167
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.022453969344496727,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07742057740688324,
+            "prediction_change_mae": 0.08334353566169739
+          },
+          "zero_previous_pwm": {
+            "mae": 0.029736407101154327,
+            "prediction_change_mae": 0.03436513990163803
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08221431076526642,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11463671922683716,
+            "prediction_change_mae": 0.04254705831408501
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08582707494497299,
+            "prediction_change_mae": 0.006454136688262224
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.023697685450315475,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09350129216909409,
+            "prediction_change_mae": 0.08532336354255676
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04395410045981407,
+            "prediction_change_mae": 0.035720646381378174
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08234333992004395,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11573648452758789,
+            "prediction_change_mae": 0.04207826405763626
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08560536801815033,
+            "prediction_change_mae": 0.00411636009812355
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01646413654088974,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09377091377973557,
+            "prediction_change_mae": 0.08391512930393219
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04659728705883026,
+            "prediction_change_mae": 0.036741506308317184
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06175651773810387,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10023456066846848,
+            "prediction_change_mae": 0.06718830019235611
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0753801241517067,
+            "prediction_change_mae": 0.01617525704205036
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.026072582229971886,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11259318888187408,
+            "prediction_change_mae": 0.11400716751813889
+          },
+          "zero_previous_pwm": {
+            "mae": 0.040757711976766586,
+            "prediction_change_mae": 0.037863198667764664
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07494203001260757,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11210888624191284,
+            "prediction_change_mae": 0.06503646075725555
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0889936164021492,
+            "prediction_change_mae": 0.017073288559913635
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03211073577404022,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.12633028626441956,
+            "prediction_change_mae": 0.11045295745134354
+          },
+          "zero_previous_pwm": {
+            "mae": 0.06056114658713341,
+            "prediction_change_mae": 0.0399809405207634
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07365957647562027,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11401449143886566,
+            "prediction_change_mae": 0.06849724054336548
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08827707171440125,
+            "prediction_change_mae": 0.01768636703491211
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.025449635460972786,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.1293317824602127,
+            "prediction_change_mae": 0.11272422224283218
+          },
+          "zero_previous_pwm": {
+            "mae": 0.06010900065302849,
+            "prediction_change_mae": 0.04053790867328644
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07046353071928024,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05362143740057945,
+            "prediction_change_mae": 0.027101408690214157
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07369669526815414,
+            "prediction_change_mae": 0.00771674606949091
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.022932730615139008,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0339498296380043,
+            "prediction_change_mae": 0.044332146644592285
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02766926772892475,
+            "prediction_change_mae": 0.03615632280707359
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08628342300653458,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07122955471277237,
+            "prediction_change_mae": 0.027417482808232307
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08976878225803375,
+            "prediction_change_mae": 0.007626168895512819
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.019475990906357765,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04872903972864151,
+            "prediction_change_mae": 0.04149165377020836
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0456126369535923,
+            "prediction_change_mae": 0.03838455677032471
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0868784487247467,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0722009539604187,
+            "prediction_change_mae": 0.026762155815958977
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08983941376209259,
+            "prediction_change_mae": 0.003967856522649527
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01707070879638195,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.049676910042762756,
+            "prediction_change_mae": 0.044100627303123474
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04398667812347412,
+            "prediction_change_mae": 0.03850448504090309
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06770500540733337,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04724343121051788,
+            "prediction_change_mae": 0.057455386966466904
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07503180205821991,
+            "prediction_change_mae": 0.01772703044116497
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.026308637112379074,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07050050795078278,
+            "prediction_change_mae": 0.07708729803562164
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03419261425733566,
+            "prediction_change_mae": 0.035565368831157684
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06578361243009567,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.050019003450870514,
+            "prediction_change_mae": 0.05674395710229874
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0735865980386734,
+            "prediction_change_mae": 0.0183985847979784
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.027887631207704544,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08069196343421936,
+            "prediction_change_mae": 0.07459788769483566
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04863327741622925,
+            "prediction_change_mae": 0.03798134997487068
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "S",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.066756971180439,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.052712585777044296,
+            "prediction_change_mae": 0.05682533606886864
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0752139613032341,
+            "prediction_change_mae": 0.017111660912632942
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02379121631383896,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07999148964881897,
+            "prediction_change_mae": 0.07672358304262161
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04191487282514572,
+            "prediction_change_mae": 0.03693763539195061
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.041138309985399246,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0681743323802948,
+            "prediction_change_mae": 0.08458149433135986
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0439419187605381,
+            "prediction_change_mae": 0.018116313964128494
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01914471574127674,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06245880573987961,
+            "prediction_change_mae": 0.054717499762773514
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03211035579442978,
+            "prediction_change_mae": 0.032780811190605164
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.03915541619062424,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07045599818229675,
+            "prediction_change_mae": 0.085051029920578
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04207170009613037,
+            "prediction_change_mae": 0.01910340040922165
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.021540382876992226,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06471165269613266,
+            "prediction_change_mae": 0.05456002056598663
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04484264925122261,
+            "prediction_change_mae": 0.03520878776907921
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.04546983912587166,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0588529109954834,
+            "prediction_change_mae": 0.08328918367624283
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04990670457482338,
+            "prediction_change_mae": 0.01710960641503334
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01764843985438347,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05557846650481224,
+            "prediction_change_mae": 0.054171863943338394
+          },
+          "zero_previous_pwm": {
+            "mae": 0.039895519614219666,
+            "prediction_change_mae": 0.034072645008563995
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.026333296671509743,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.058117303997278214,
+            "prediction_change_mae": 0.052176978439092636
+          },
+          "zero_previous_pwm": {
+            "mae": 0.034040432423353195,
+            "prediction_change_mae": 0.0125552574172616
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.019878700375556946,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.050498321652412415,
+            "prediction_change_mae": 0.046191904693841934
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0252074021846056,
+            "prediction_change_mae": 0.03317266330122948
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.025178629904985428,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05725664645433426,
+            "prediction_change_mae": 0.052090246230363846
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03302489221096039,
+            "prediction_change_mae": 0.013167095370590687
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.019109241664409637,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05138838291168213,
+            "prediction_change_mae": 0.046281617134809494
+          },
+          "zero_previous_pwm": {
+            "mae": 0.037200018763542175,
+            "prediction_change_mae": 0.03521165996789932
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0301643218845129,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.051238901913166046,
+            "prediction_change_mae": 0.05168575048446655
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04034465551376343,
+            "prediction_change_mae": 0.013272462412714958
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.013860877603292465,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04699763283133507,
+            "prediction_change_mae": 0.04629843309521675
+          },
+          "zero_previous_pwm": {
+            "mae": 0.039283789694309235,
+            "prediction_change_mae": 0.03561718389391899
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.05826778709888458,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07781130075454712,
+            "prediction_change_mae": 0.0976913645863533
+          },
+          "zero_previous_pwm": {
+            "mae": 0.058802731335163116,
+            "prediction_change_mae": 0.01698177680373192
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.018226202577352524,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04823556914925575,
+            "prediction_change_mae": 0.052718713879585266
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02942732721567154,
+            "prediction_change_mae": 0.03351478651165962
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.05782502144575119,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08018100261688232,
+            "prediction_change_mae": 0.0998855009675026
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05700043961405754,
+            "prediction_change_mae": 0.01735806092619896
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.018164262175559998,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0549091175198555,
+            "prediction_change_mae": 0.05348651856184006
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04074084386229515,
+            "prediction_change_mae": 0.03558458760380745
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06337591260671616,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06983310729265213,
+            "prediction_change_mae": 0.09764672070741653
+          },
+          "zero_previous_pwm": {
+            "mae": 0.06530219316482544,
+            "prediction_change_mae": 0.016110530123114586
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.017726294696331024,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.052167557179927826,
+            "prediction_change_mae": 0.053351592272520065
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0387757271528244,
+            "prediction_change_mae": 0.034721434116363525
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.02497090958058834,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06251642853021622,
+            "prediction_change_mae": 0.061448659747838974
+          },
+          "zero_previous_pwm": {
+            "mae": 0.026581324636936188,
+            "prediction_change_mae": 0.014063593000173569
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02084028162062168,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05039351433515549,
+            "prediction_change_mae": 0.05450800061225891
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03192269802093506,
+            "prediction_change_mae": 0.03491368517279625
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.01726246252655983,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06256368011236191,
+            "prediction_change_mae": 0.059727031737565994
+          },
+          "zero_previous_pwm": {
+            "mae": 0.021637482568621635,
+            "prediction_change_mae": 0.014382957480847836
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.020572783425450325,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05736563727259636,
+            "prediction_change_mae": 0.055570103228092194
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04193523898720741,
+            "prediction_change_mae": 0.03659287467598915
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": false,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.021532146260142326,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05681666359305382,
+            "prediction_change_mae": 0.06068619340658188
+          },
+          "zero_previous_pwm": {
+            "mae": 0.026730405166745186,
+            "prediction_change_mae": 0.015029777772724628
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.017060061916708946,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06060570478439331,
+            "prediction_change_mae": 0.05512174591422081
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04650712013244629,
+            "prediction_change_mae": 0.03743485361337662
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.05402514338493347,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07613685727119446,
+            "prediction_change_mae": 0.042499229311943054
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05730501934885979,
+            "prediction_change_mae": 0.00503006624057889
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01639232598245144,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.023080382496118546,
+            "prediction_change_mae": 0.02548045851290226
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0344306118786335,
+            "prediction_change_mae": 0.03623829036951065
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06995444744825363,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09378928691148758,
+            "prediction_change_mae": 0.04310815408825874
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07347903400659561,
+            "prediction_change_mae": 0.004696881398558617
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.018312735483050346,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.03864428773522377,
+            "prediction_change_mae": 0.028747249394655228
+          },
+          "zero_previous_pwm": {
+            "mae": 0.047719236463308334,
+            "prediction_change_mae": 0.03753702715039253
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07029116898775101,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09482710808515549,
+            "prediction_change_mae": 0.04208779335021973
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07379666715860367,
+            "prediction_change_mae": 0.004304147325456142
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.021125609055161476,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.03932104632258415,
+            "prediction_change_mae": 0.026139430701732635
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05216345191001892,
+            "prediction_change_mae": 0.038615137338638306
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.09745779633522034,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10473959892988205,
+            "prediction_change_mae": 0.06084667146205902
+          },
+          "zero_previous_pwm": {
+            "mae": 0.10048411786556244,
+            "prediction_change_mae": 0.012627088464796543
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.03484901040792465,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08811041712760925,
+            "prediction_change_mae": 0.06460422277450562
+          },
+          "zero_previous_pwm": {
+            "mae": 0.036357294768095016,
+            "prediction_change_mae": 0.02656538598239422
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0890946313738823,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10223072022199631,
+            "prediction_change_mae": 0.05998646467924118
+          },
+          "zero_previous_pwm": {
+            "mae": 0.09323296695947647,
+            "prediction_change_mae": 0.013079597614705563
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.034163471311330795,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08009996265172958,
+            "prediction_change_mae": 0.06607986986637115
+          },
+          "zero_previous_pwm": {
+            "mae": 0.045216672122478485,
+            "prediction_change_mae": 0.027858605608344078
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "E",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08660731464624405,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09424537420272827,
+            "prediction_change_mae": 0.060975708067417145
+          },
+          "zero_previous_pwm": {
+            "mae": 0.09019138664007187,
+            "prediction_change_mae": 0.013444775715470314
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.030194178223609924,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07944589108228683,
+            "prediction_change_mae": 0.06502950191497803
+          },
+          "zero_previous_pwm": {
+            "mae": 0.044900111854076385,
+            "prediction_change_mae": 0.028240110725164413
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.053904060274362564,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04915792495012283,
+            "prediction_change_mae": 0.033314578235149384
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05735291913151741,
+            "prediction_change_mae": 0.0063236854039132595
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.019939037039875984,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.03649255260825157,
+            "prediction_change_mae": 0.04093768820166588
+          },
+          "zero_previous_pwm": {
+            "mae": 0.026385214179754257,
+            "prediction_change_mae": 0.037160977721214294
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06929896771907806,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06670650839805603,
+            "prediction_change_mae": 0.033889397978782654
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0729319378733635,
+            "prediction_change_mae": 0.006115976721048355
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.016573486849665642,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.041610125452280045,
+            "prediction_change_mae": 0.03921730816364288
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04452032968401909,
+            "prediction_change_mae": 0.03922310471534729
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0701744481921196,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06765402853488922,
+            "prediction_change_mae": 0.032680317759513855
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07363025844097137,
+            "prediction_change_mae": 0.0041313678957521915
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.018480435013771057,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.041976165026426315,
+            "prediction_change_mae": 0.04098810255527496
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04470618814229965,
+            "prediction_change_mae": 0.03962414339184761
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.11089711636304855,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09850616753101349,
+            "prediction_change_mae": 0.05891023948788643
+          },
+          "zero_previous_pwm": {
+            "mae": 0.11560612916946411,
+            "prediction_change_mae": 0.01443484891206026
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.039513856172561646,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09637805819511414,
+            "prediction_change_mae": 0.06675456464290619
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05385516211390495,
+            "prediction_change_mae": 0.029283229261636734
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.11378341913223267,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.1030561625957489,
+            "prediction_change_mae": 0.058893997222185135
+          },
+          "zero_previous_pwm": {
+            "mae": 0.1196572408080101,
+            "prediction_change_mae": 0.014689833857119083
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.04298662394285202,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10352244228124619,
+            "prediction_change_mae": 0.06671559065580368
+          },
+          "zero_previous_pwm": {
+            "mae": 0.06441143155097961,
+            "prediction_change_mae": 0.03145703300833702
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "south",
+        "W",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.11705996841192245,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10388705879449844,
+            "prediction_change_mae": 0.05805928260087967
+          },
+          "zero_previous_pwm": {
+            "mae": 0.12309587001800537,
+            "prediction_change_mae": 0.013742721639573574
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.04221059009432793,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.10190054029226303,
+            "prediction_change_mae": 0.06661301106214523
+          },
+          "zero_previous_pwm": {
+            "mae": 0.06259020417928696,
+            "prediction_change_mae": 0.030486958101391792
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06698812544345856,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05053931102156639,
+            "prediction_change_mae": 0.025385158136487007
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07030020654201508,
+            "prediction_change_mae": 0.0072983503341674805
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.0210536178201437,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.031138978898525238,
+            "prediction_change_mae": 0.040830109268426895
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02523638866841793,
+            "prediction_change_mae": 0.035932183265686035
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08301723748445511,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06817622482776642,
+            "prediction_change_mae": 0.025866219773888588
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08655663579702377,
+            "prediction_change_mae": 0.007185555994510651
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.017370719462633133,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.044813238084316254,
+            "prediction_change_mae": 0.0385977178812027
+          },
+          "zero_previous_pwm": {
+            "mae": 0.044582340866327286,
+            "prediction_change_mae": 0.03818292170763016
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08362175524234772,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0691022202372551,
+            "prediction_change_mae": 0.025632277131080627
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08671674877405167,
+            "prediction_change_mae": 0.003965802490711212
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.015350615605711937,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.045754507184028625,
+            "prediction_change_mae": 0.04076560586690903
+          },
+          "zero_previous_pwm": {
+            "mae": 0.043790511786937714,
+            "prediction_change_mae": 0.038349367678165436
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06747318804264069,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.049093298614025116,
+            "prediction_change_mae": 0.05542692542076111
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07495373487472534,
+            "prediction_change_mae": 0.01819644868373871
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.026640648022294044,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06895007193088531,
+            "prediction_change_mae": 0.07818259298801422
+          },
+          "zero_previous_pwm": {
+            "mae": 0.02999984472990036,
+            "prediction_change_mae": 0.03583787381649017
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06436745822429657,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05004764720797539,
+            "prediction_change_mae": 0.054563865065574646
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0717557892203331,
+            "prediction_change_mae": 0.018824728205800056
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.027057169005274773,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07896487414836884,
+            "prediction_change_mae": 0.07590048015117645
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04375867545604706,
+            "prediction_change_mae": 0.038283973932266235
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "N",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06765783578157425,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05520176514983177,
+            "prediction_change_mae": 0.054868776351213455
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0764133483171463,
+            "prediction_change_mae": 0.01745188795030117
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.0215647891163826,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07820752263069153,
+            "prediction_change_mae": 0.0777745172381401
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03962206840515137,
+            "prediction_change_mae": 0.037243615835905075
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.03782106935977936,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07403503358364105,
+            "prediction_change_mae": 0.08432841300964355
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04157532379031181,
+            "prediction_change_mae": 0.018447425216436386
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.021000999957323074,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.054234907031059265,
+            "prediction_change_mae": 0.0527331605553627
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03190595656633377,
+            "prediction_change_mae": 0.033324770629405975
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.03633325546979904,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07640673220157623,
+            "prediction_change_mae": 0.08469843119382858
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04003525897860527,
+            "prediction_change_mae": 0.019386667758226395
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.021884290501475334,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06195419281721115,
+            "prediction_change_mae": 0.05259351804852486
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04630425199866295,
+            "prediction_change_mae": 0.03582044318318367
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.04230140522122383,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06470589339733124,
+            "prediction_change_mae": 0.08313623815774918
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0473133884370327,
+            "prediction_change_mae": 0.017413334921002388
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.01755794696509838,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05875848978757858,
+            "prediction_change_mae": 0.05278604477643967
+          },
+          "zero_previous_pwm": {
+            "mae": 0.041029416024684906,
+            "prediction_change_mae": 0.03462076559662819
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.029441431164741516,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06291467696428299,
+            "prediction_change_mae": 0.04785718396306038
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03586198389530182,
+            "prediction_change_mae": 0.013409020379185677
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.02103695645928383,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.04592941701412201,
+            "prediction_change_mae": 0.04533173516392708
+          },
+          "zero_previous_pwm": {
+            "mae": 0.029421797022223473,
+            "prediction_change_mae": 0.03410009294748306
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.025309422984719276,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.06156883016228676,
+            "prediction_change_mae": 0.04783483222126961
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03345528617501259,
+            "prediction_change_mae": 0.013971848413348198
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.022246086969971657,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05077321454882622,
+            "prediction_change_mae": 0.04547334089875221
+          },
+          "zero_previous_pwm": {
+            "mae": 0.041960861533880234,
+            "prediction_change_mae": 0.03614681214094162
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "E",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.026817919686436653,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05459846556186676,
+            "prediction_change_mae": 0.047309163957834244
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03712724894285202,
+            "prediction_change_mae": 0.014084819704294205
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.014790492132306099,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.05277406796813011,
+            "prediction_change_mae": 0.045663584023714066
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04398873820900917,
+            "prediction_change_mae": 0.03655852749943733
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06729291379451752,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.0961085855960846,
+            "prediction_change_mae": 0.037084173411130905
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0707208663225174,
+            "prediction_change_mae": 0.006764649413526058
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.019711019471287727,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.07087667286396027,
+            "prediction_change_mae": 0.0752757266163826
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03099481388926506,
+            "prediction_change_mae": 0.034844305366277695
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.08320944756269455,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11372245103120804,
+            "prediction_change_mae": 0.03688438609242439
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0868343934416771,
+            "prediction_change_mae": 0.006814632564783096
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.022538205608725548,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08693186938762665,
+            "prediction_change_mae": 0.07751891762018204
+          },
+          "zero_previous_pwm": {
+            "mae": 0.04567067697644234,
+            "prediction_change_mae": 0.03623604029417038
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0831361711025238,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11483865976333618,
+            "prediction_change_mae": 0.03679872304201126
+          },
+          "zero_previous_pwm": {
+            "mae": 0.08608225733041763,
+            "prediction_change_mae": 0.003972701262682676
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.015644758939743042,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.08707240223884583,
+            "prediction_change_mae": 0.07577108591794968
+          },
+          "zero_previous_pwm": {
+            "mae": 0.048541437834501266,
+            "prediction_change_mae": 0.03724011033773422
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.06359013170003891,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.09885281324386597,
+            "prediction_change_mae": 0.06866788864135742
+          },
+          "zero_previous_pwm": {
+            "mae": 0.07723768800497055,
+            "prediction_change_mae": 0.016487298533320427
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.030564233660697937,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11205509305000305,
+            "prediction_change_mae": 0.11805874109268188
+          },
+          "zero_previous_pwm": {
+            "mae": 0.03582487255334854,
+            "prediction_change_mae": 0.03780696913599968
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "preset": "sluggish",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.0777726024389267,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11181793361902237,
+            "prediction_change_mae": 0.06716106086969376
+          },
+          "zero_previous_pwm": {
+            "mae": 0.09092415124177933,
+            "prediction_change_mae": 0.01746407151222229
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.029285641387104988,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.125559002161026,
+            "prediction_change_mae": 0.11488134413957596
+          },
+          "zero_previous_pwm": {
+            "mae": 0.05420312657952309,
+            "prediction_change_mae": 0.03983752802014351
+          }
+        }
+      }
+    },
+    {
+      "key": [
+        "west",
+        "S",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "teacher_clean": true,
+      "arms": {
+        "reference": {
+          "factual": {
+            "mae": 0.07480212301015854,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.11398892849683762,
+            "prediction_change_mae": 0.07000245898962021
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0890282541513443,
+            "prediction_change_mae": 0.018060285598039627
+          }
+        },
+        "seed_17": {
+          "factual": {
+            "mae": 0.025889793410897255,
+            "prediction_change_mae": 0.0
+          },
+          "frozen_first_image": {
+            "mae": 0.12868936359882355,
+            "prediction_change_mae": 0.11685480922460556
+          },
+          "zero_previous_pwm": {
+            "mae": 0.0544729009270668,
+            "prediction_change_mae": 0.0404459685087204
+          }
+        }
+      }
+    }
+  ],
+  "no_training": true,
+  "no_physical_counterfactual": true,
+  "final_exam_used": false
+}

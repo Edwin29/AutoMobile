@@ -1,0 +1,14 @@
+{
+  "source_hashes": {
+    "cnn_finetune\\junction_feasibility.py": "ec4a0db679d6c5355f0e2ced161c9df703a3ce64c358654f82f00c0cad5239c9",
+    "cnn_finetune\\junction_stage02.py": "f0f00d5bd9b7caae9cd5b236cecce709e3a8a0cad4ca72f19dcb9d4c447d4892",
+    "cnn_finetune\\junction_stage02_baselines.py": "461181b04d9a51105e0f5025eccd1a9b0a37b267e4bf28e48973fb932baa5fcf",
+    "cnn_finetune\\junction_stage02_checks.py": "5d56b21867a6ad535559d177bb62beeb4812c7043366b41ecc19aa3ec10d1f32",
+    "cnn_finetune\\junction_stage02_report.py": "1a61ad541d030bb14c570dc78f23aae694ddef17424b227c35c029d4986ead22"
+  },
+  "final_models": {
+    "cnn_finetune\\models\\direct_v2\\policy.onnx": "73bcc52551ff7c8f97a4b8a08db72364292eca59c16c0bbe0dc2959cbf7333f4",
+    "bench\\_vendor\\tdt_models_2026-11-01\\models\\lane-v5b\\policy.onnx": "1fcc3274b8875b78d9e730923d14217417e8204c906ede3d0c056e0e75f3990e"
+  },
+  "note": "Initial contract predates additive feasibility scripts. This manifest describes final harness. Collection/parity only gained diagnostic tolerances; archived pilot rows retain original metrics, audited table recomputes the final metric from raw physics. Stable-exit observer reset logic was tightened during baseline execution; independently recomputed physical metrics must agree for every accepted run."
+}

@@ -1,0 +1,85 @@
+{
+  "source_sha256": "4cb2c67b2fb99f0d09b316ee29d5a94ac23d7ea90033e055bfbd479f0c0cb0e9",
+  "mismatch": {
+    "decay": {
+      "branches": 8556,
+      "actual_short_safe": 1306,
+      "predicted_short_safe": 3090,
+      "false_safe": 1797,
+      "false_unsafe": 13,
+      "mean_abs_min_margin_error_cm": 0.3877907526004482,
+      "oracle_clean_case_with_predicted_safe_alternative": 53,
+      "scope": "93 failed development roots x92 actions. Robust uses minimum across hypothetical durations, not expected realized margin."
+    },
+    "hold035": {
+      "branches": 8556,
+      "actual_short_safe": 1306,
+      "predicted_short_safe": 2413,
+      "false_safe": 1153,
+      "false_unsafe": 46,
+      "mean_abs_min_margin_error_cm": 0.3370302435251234,
+      "oracle_clean_case_with_predicted_safe_alternative": 52,
+      "scope": "93 failed development roots x92 actions. Robust uses minimum across hypothetical durations, not expected realized margin."
+    },
+    "duration_uncertainty": {
+      "branches": 8556,
+      "actual_short_safe": 1306,
+      "predicted_short_safe": 557,
+      "false_safe": 3,
+      "false_unsafe": 752,
+      "mean_abs_min_margin_error_cm": 1.0066648299845944,
+      "oracle_clean_case_with_predicted_safe_alternative": 25,
+      "scope": "93 failed development roots x92 actions. Robust uses minimum across hypothetical durations, not expected realized margin."
+    }
+  },
+  "performance": {
+    "decay": {
+      "n": 240,
+      "baseline_clean": 147,
+      "clean": 147,
+      "clean_moving": 146,
+      "gains": 1,
+      "losses": 1,
+      "interventions": 42,
+      "outcomes": {
+        "stable_exit": 240
+      },
+      "pause_cases": 0,
+      "both_clean_n": 146,
+      "paired_both_clean_median_time_change_s": 0.0,
+      "paired_both_clean_median_angular_accel_change": 0.0
+    },
+    "hold035": {
+      "n": 240,
+      "baseline_clean": 147,
+      "clean": 154,
+      "clean_moving": 152,
+      "gains": 7,
+      "losses": 0,
+      "interventions": 69,
+      "outcomes": {
+        "stable_exit": 240
+      },
+      "pause_cases": 0,
+      "both_clean_n": 147,
+      "paired_both_clean_median_time_change_s": 0.0,
+      "paired_both_clean_median_angular_accel_change": 0.0
+    },
+    "duration_uncertainty": {
+      "n": 240,
+      "baseline_clean": 147,
+      "clean": 179,
+      "clean_moving": 168,
+      "gains": 40,
+      "losses": 8,
+      "interventions": 145,
+      "outcomes": {
+        "stable_exit": 240
+      },
+      "pause_cases": 8,
+      "both_clean_n": 139,
+      "paired_both_clean_median_time_change_s": 0.0,
+      "paired_both_clean_median_angular_accel_change": 0.0
+    }
+  }
+}

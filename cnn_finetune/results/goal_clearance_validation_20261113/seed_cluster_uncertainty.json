@@ -1,0 +1,52 @@
+{
+  "seeds": [
+    6401,
+    6402,
+    6403,
+    6404,
+    6405,
+    6406,
+    6407,
+    6408
+  ],
+  "resamples": 20000,
+  "rng_seed": 735219,
+  "unit": "seed block containing all28 movements and3 vehicles; paired arms resampled together",
+  "results": {
+    "normal": {
+      "seed_rates": [
+        0.1071428571428571,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_gain": 0.013392857142857137,
+      "percentile_95_interval": [
+        0.0,
+        0.04017857142857141
+      ]
+    },
+    "mild": {
+      "seed_rates": [
+        0.19047619047619047,
+        0.059523809523809534,
+        0.08333333333333337,
+        -0.023809523809523836,
+        0.08333333333333337,
+        0.1071428571428572,
+        0.1071428571428572,
+        0.1071428571428571
+      ],
+      "paired_gain": 0.0892857142857143,
+      "percentile_95_interval": [
+        0.04910714285714288,
+        0.12648809523809526
+      ]
+    }
+  },
+  "caveat": "Only eight development seed blocks. Exploratory percentile bootstrap, not final certification."
+}

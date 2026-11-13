@@ -1,0 +1,326 @@
+[
+  {
+    "key": [
+      "center",
+      "N",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "left"
+    ],
+    "speed": 4.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "E",
+      "right"
+    ],
+    "speed": 4.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "S",
+      "right"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "left"
+    ],
+    "speed": 4.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "center",
+      "W",
+      "right"
+    ],
+    "speed": 4.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "north",
+      "E",
+      "left"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "north",
+      "S",
+      "right"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "north",
+      "W",
+      "right"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "east",
+      "N",
+      "right"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "east",
+      "S",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "south",
+      "E",
+      "right"
+    ],
+    "speed": 4.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "south",
+      "W",
+      "left"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "west",
+      "N",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "left"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "west",
+      "E",
+      "right"
+    ],
+    "speed": 5.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "straight"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  },
+  {
+    "key": [
+      "west",
+      "S",
+      "right"
+    ],
+    "speed": 6.0,
+    "lookahead": 0.0
+  }
+]

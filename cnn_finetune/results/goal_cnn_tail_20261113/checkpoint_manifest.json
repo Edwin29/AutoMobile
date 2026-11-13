@@ -1,0 +1,37 @@
+[
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\models\\full_dagger\\update_1200.pt",
+    "bytes": 1292537,
+    "sha256": "61a5291e2a294ef3c487ccca496981fac237e8fe9b0b9d079909a405293fe191"
+  },
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\models\\full_dagger\\update_400.pt",
+    "bytes": 1292514,
+    "sha256": "a3360b2f4aaa141dc43953d33c9410c51c4acff69b9992cdb866a08c88ec086c"
+  },
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\models\\full_dagger\\update_800.pt",
+    "bytes": 1292514,
+    "sha256": "47b8f620555b0bdfe583df81fd12d39fc95b55e5a76145a7fcd3f4d6ac9471e4"
+  },
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\models\\teacher_only\\update_1200.pt",
+    "bytes": 1292537,
+    "sha256": "9b84d6253b81e6b0ad5e1f197879078cb34720fa288dcbfd95415841f782d89f"
+  },
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\models\\teacher_only\\update_400.pt",
+    "bytes": 1292514,
+    "sha256": "7e0c22f2ed3da2129f5d3b0a260e368c182b47effb153638cacbdbf18afe2a31"
+  },
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\models\\teacher_only\\update_800.pt",
+    "bytes": 1292514,
+    "sha256": "f8a891a2dc40d5de0eb1e3be89b6cc3aa464bbe7f29bf0761b9dfe10d23e7c85"
+  },
+  {
+    "path": "D:\\autodrive_cnn\\runs\\goal_cnn_tail_20261113\\serialization_check.pt",
+    "bytes": 1292721,
+    "sha256": "184c78989b774917d7e61823ebc56454e247a50949d15ef9c7458d8cd3f56787"
+  }
+]

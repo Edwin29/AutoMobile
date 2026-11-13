@@ -1,0 +1,46 @@
+[
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_boundary_teacher.py",
+    "sha256": "b84130444846232e2fed01a0b3be4aa3f7065f405f38b5d5f866176ce07d4fbb"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_boundary_teacher_v2.py",
+    "sha256": "447581b32bce9e0cdf8bc61f80b470b7ff994f88729c1cbb57e2750f1ae22efa"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_boundary_commit.py",
+    "sha256": "07468a936d197e66c89d0a390981a68cb99ed041750028b23e044b232a051b48"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_boundary_hold.py",
+    "sha256": "3cedc60254b4f7c696d8d7738cdd5fe94b2344468cea9b7fb96534d132a50a36"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_boundary_validation.py",
+    "sha256": "2db21061ad5c69bafdebf7c0672f7d8e5c7890bb4a17004f02af10e0017dea07"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_motion_prediction_audit.py",
+    "sha256": "bdd7a839a1563f1b5206f0f83340db376777536b95b0ee8a93f2f89c24258f57"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_response_window_audit.py",
+    "sha256": "486a1dde43fbfca3bb065263b3a89872edd51294a9bdb825c25d4c2b1666dba9"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_continuous_clearance.py",
+    "sha256": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_teacher_coverage.py",
+    "sha256": "df9dcc5d9cf3869279d39539388e59a5c44935ad829fbe25b28715b414e872fa"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_teacher_probe.py",
+    "sha256": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5"
+  },
+  {
+    "file": "D:\\autodrive_cnn\\runs\\goal_boundary_commit_20261113\\source_snapshot\\goal_development.py",
+    "sha256": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "stable_success": true,
+  "stable_exit_s": 16.557333333333222,
+  "clean_stable": true,
+  "min_margin_cm": 0.4924547926663081,
+  "final_lateral_cm": 0.011843738734969479,
+  "final_heading_deg": 0.17548392333524293,
+  "outside_s": 0.0,
+  "accel_rms_cm_s2": 4.318727736118048,
+  "angular_accel_rms_rad_s2": 0.3624296615299879,
+  "unnecessary_stops": 0,
+  "unnecessary_stop_s": 0.0,
+  "translation_pause_s": 0.0,
+  "recovery": [],
+  "unrecovered": 0,
+  "key": [
+    "north",
+    "W",
+    "right"
+  ],
+  "condition": "normal",
+  "seed": 25001,
+  "preset": "field_estimate",
+  "outcome": "stable_exit",
+  "simulated_s": 18.06933333333328,
+  "frames": 500,
+  "push_exposure_s": 0.0,
+  "old_strict_stable": true,
+  "old_strict_clean": true,
+  "initial_margin_cm": 3.678667038021132,
+  "initial_valid": true,
+  "local_gate_cm": 55,
+  "reference_status": "accepted_dev",
+  "variant": "centered",
+  "initial_sampling": {
+    "projected": false,
+    "original_margin_cm": 3.678667038021132,
+    "initial_margin_cm": 3.678667038021132,
+    "pose": [
+      -44.8876277557365,
+      85.30125021966222,
+      1.596679407553538
+    ]
+  },
+  "static_candidate_margin_cm": 1.1429101865137792,
+  "speed_arm": "same_mode",
+  "continuous_min_clearance_cm": 0.4924547926663063,
+  "continuous_clean": true,
+  "signed_inner_frames": 21.0,
+  "oracle_path": true,
+  "controller_true_preset": false,
+  "artifact": "D:\\autodrive_cnn\\runs\\hyb4_prerequisite_20261113\\north_W_right_25001_field_estimate"
+}

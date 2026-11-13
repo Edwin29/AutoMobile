@@ -1,0 +1,168 @@
+{
+  "source_sha256": "71af4f3b884e49e1a29469f822b2fe0c07932bc0af63c0d1ef7616883ef4e59c",
+  "data_protocol_sha256": "6c3551e42444e94bee449791653540804122d216939eed8c1856c93027efe948",
+  "models": {
+    "reference": {
+      "path": "D:\\autodrive_cnn\\runs\\goal_development_20261113\\convergence_probe\\best.pt",
+      "sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3"
+    },
+    "seed_17": {
+      "path": "D:\\autodrive_cnn\\runs\\goal_all_movement_data_20261113\\models\\seed_17\\update_2400.pt",
+      "sha256": "766bcf816829a8721c35633b84b3f7bd2411b5452ec81e36fd0699976cbfb631"
+    }
+  },
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "seed": 6901,
+  "condition": "normal",
+  "expected": 84,
+  "purpose": "Diagnose poor nominal student rollouts despite low training-demonstration error; same images, expert previousPWM, full recurrent history for both fixed models",
+  "no_training_use": true,
+  "final_exam_used": false,
+  "caveat": "Teacher labels are actual teacher commands, not universally safe targets. Report all84 and separately the70continuous-clean teacher trajectories. Teacher-forced error is not closed-loop success."
+}

@@ -1,0 +1,5116 @@
+[
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.18290932813786753,
+    "final_lateral_cm": 0.18438137672482924,
+    "final_heading_deg": 0.571749656559165,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.088896485042721,
+    "angular_accel_rms_rad_s2": 0.3285995128854257,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 3.431627074129068,
+        "restricted_s": 3.431627074129068
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.11678895862683625,
+    "final_lateral_cm": 0.2502744988200192,
+    "final_heading_deg": 2.782272277905959,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.0917138185431465,
+    "angular_accel_rms_rad_s2": 0.3575074281063929,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 3.7716270741290643,
+        "restricted_s": 3.7716270741290643
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.26322126644772403,
+    "final_lateral_cm": 0.14572269494406953,
+    "final_heading_deg": 2.7847387733683964,
+    "outside_s": 1.1359999999999877,
+    "accel_rms_cm_s2": 5.009762882808081,
+    "angular_accel_rms_rad_s2": 0.4267934334930438,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 5.283627074129047,
+        "restricted_s": 5.283627074129047
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -12.018745986150705,
+    "final_lateral_cm": 9.293159574507328,
+    "final_heading_deg": 79.38441265040052,
+    "outside_s": 4.283999999999952,
+    "accel_rms_cm_s2": 5.406950625930353,
+    "angular_accel_rms_rad_s2": 0.41717379900577983,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 4.815627074129052
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "severe_departure",
+    "simulated_s": 12.885333333333236,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.18290932813786753,
+    "final_lateral_cm": 2.187257132913885,
+    "final_heading_deg": 0.6143323183878155,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.3223674734435615,
+    "angular_accel_rms_rad_s2": 0.38975830753933605,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 3.431627074129068,
+        "restricted_s": 3.431627074129068
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.18290932813786753,
+    "final_lateral_cm": 1.948088576657895,
+    "final_heading_deg": 1.6292500033598227,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.292911968889254,
+    "angular_accel_rms_rad_s2": 0.38617373182584275,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 3.3036270741290696,
+        "restricted_s": 3.3036270741290696
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.18290932813786753,
+    "final_lateral_cm": 2.228323127151299,
+    "final_heading_deg": 0.9147619291718405,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.533381720797525,
+    "angular_accel_rms_rad_s2": 0.408687826802195,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 3.2316270741290705,
+        "restricted_s": 3.2316270741290705
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.18290932813786753,
+    "final_lateral_cm": 2.1274427581240616,
+    "final_heading_deg": 0.961915075037535,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.1462665086307515,
+    "angular_accel_rms_rad_s2": 0.4486312499089155,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 4.439627074129056,
+        "restricted_s": 4.439627074129056
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1159631102527392,
+    "final_lateral_cm": 0.1473706132853323,
+    "final_heading_deg": 0.8268376302554193,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.501496994993002,
+    "angular_accel_rms_rad_s2": 0.39895142461915595,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.09542936908042243,
+    "final_lateral_cm": 0.10519422558373037,
+    "final_heading_deg": 0.003622860355584069,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.434154029680385,
+    "angular_accel_rms_rad_s2": 0.381133486360897,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 3.7356270741290647,
+        "restricted_s": 3.7356270741290647
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.09731771357706442,
+    "final_lateral_cm": 0.14664582616715904,
+    "final_heading_deg": 0.0985012133374562,
+    "outside_s": 0.43199999999999505,
+    "accel_rms_cm_s2": 5.408533540889188,
+    "angular_accel_rms_rad_s2": 0.4251194525513928,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 4.2596270741290585,
+        "restricted_s": 4.2596270741290585
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -12.077771526291798,
+    "final_lateral_cm": 9.44592930995617,
+    "final_heading_deg": 80.39214538294733,
+    "outside_s": 4.1559999999999535,
+    "accel_rms_cm_s2": 5.702240655446472,
+    "angular_accel_rms_rad_s2": 0.40708245123985826,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 4.655627074129054
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "severe_departure",
+    "simulated_s": 12.725333333333237,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1159631102527392,
+    "final_lateral_cm": 1.8935102965005797,
+    "final_heading_deg": 0.4821859903685559,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.7601471045784525,
+    "angular_accel_rms_rad_s2": 0.39215484928733807,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 6.023627074129038,
+        "restricted_s": 6.023627074129038
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1159631102527392,
+    "final_lateral_cm": 2.0563599198257663,
+    "final_heading_deg": 0.9900729203617841,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.4242494412754105,
+    "angular_accel_rms_rad_s2": 0.4445129546079852,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 6.347627074129035,
+        "restricted_s": 6.347627074129035
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1159631102527392,
+    "final_lateral_cm": 2.2474568819874463,
+    "final_heading_deg": 1.4655925561230498,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.44648010123701,
+    "angular_accel_rms_rad_s2": 0.4835391477206888,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 6.255627074129036,
+        "restricted_s": 6.255627074129036
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.26047152137647345,
+    "final_lateral_cm": 1.722310429450573,
+    "final_heading_deg": 0.12875754229056594,
+    "outside_s": 0.7559999999999913,
+    "accel_rms_cm_s2": 5.503977370686315,
+    "angular_accel_rms_rad_s2": 0.41886585766744927,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 7.119627074129026,
+        "restricted_s": 7.119627074129026
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2001_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6993398579871801,
+    "final_lateral_cm": 0.4190246150958217,
+    "final_heading_deg": 2.726777212137386,
+    "outside_s": 5.219999999999941,
+    "accel_rms_cm_s2": 2.437934571374761,
+    "angular_accel_rms_rad_s2": 0.20309390993820528,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.769720429027304,
+        "restricted_s": 4.769720429027304
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.4441392774290485,
+    "final_lateral_cm": 0.39510911414507177,
+    "final_heading_deg": 2.4779519292698247,
+    "outside_s": 4.5559999999999485,
+    "accel_rms_cm_s2": 2.3900334006852977,
+    "angular_accel_rms_rad_s2": 0.2194974377182791,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.589720429027306,
+        "restricted_s": 4.589720429027306
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -2.243851611542919,
+    "final_lateral_cm": 0.46629738751765615,
+    "final_heading_deg": 3.8902311848540516,
+    "outside_s": 5.743999999999935,
+    "accel_rms_cm_s2": 2.4259460302519895,
+    "angular_accel_rms_rad_s2": 0.23941200859532655,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.0937204290273,
+        "restricted_s": 5.0937204290273
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.4761302233888411,
+    "final_lateral_cm": 0.43750468024460076,
+    "final_heading_deg": 2.4882565484548467,
+    "outside_s": 4.391999999999951,
+    "accel_rms_cm_s2": 2.428306736393758,
+    "angular_accel_rms_rad_s2": 0.21818142844018296,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.141720429027311,
+        "restricted_s": 4.141720429027311
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6993398579871801,
+    "final_lateral_cm": 1.343388184333449,
+    "final_heading_deg": 4.553093299649637,
+    "outside_s": 5.219999999999941,
+    "accel_rms_cm_s2": 2.3145603653518982,
+    "angular_accel_rms_rad_s2": 0.21597556100898854,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.769720429027304,
+        "restricted_s": 4.769720429027304
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6993398579871801,
+    "final_lateral_cm": 1.2984577363275491,
+    "final_heading_deg": 4.445311785622666,
+    "outside_s": 5.147999999999942,
+    "accel_rms_cm_s2": 2.5584627653833385,
+    "angular_accel_rms_rad_s2": 0.20093252963542874,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.753720429027304,
+        "restricted_s": 4.753720429027304
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6993398579871801,
+    "final_lateral_cm": 1.5283440842282374,
+    "final_heading_deg": 4.339396140663784,
+    "outside_s": 5.131999999999942,
+    "accel_rms_cm_s2": 2.2751701358582785,
+    "angular_accel_rms_rad_s2": 0.24758385377714748,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.0137204290273125,
+        "restricted_s": 4.0137204290273125
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6993398579871801,
+    "final_lateral_cm": 1.200477079665447,
+    "final_heading_deg": 4.540657242978067,
+    "outside_s": 6.19199999999993,
+    "accel_rms_cm_s2": 2.4817675027199386,
+    "angular_accel_rms_rad_s2": 0.22180695548250767,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.329720429027297,
+        "restricted_s": 5.329720429027297
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6774426978485888,
+    "final_lateral_cm": 0.055350105503734426,
+    "final_heading_deg": 1.460250135521381,
+    "outside_s": 5.111999999999942,
+    "accel_rms_cm_s2": 2.4904708654435965,
+    "angular_accel_rms_rad_s2": 0.19774836010294392,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.949720429027302,
+        "restricted_s": 4.949720429027302
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.4504052084106185,
+    "final_lateral_cm": 0.04661811794962034,
+    "final_heading_deg": 1.0905259843098423,
+    "outside_s": 4.359999999999951,
+    "accel_rms_cm_s2": 2.4383846834529583,
+    "angular_accel_rms_rad_s2": 0.2076836816505733,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.6257204290273055,
+        "restricted_s": 4.6257204290273055
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -2.125354868076265,
+    "final_lateral_cm": 0.1843744262610727,
+    "final_heading_deg": 2.351661212642888,
+    "outside_s": 5.651999999999936,
+    "accel_rms_cm_s2": 2.5031723501981746,
+    "angular_accel_rms_rad_s2": 0.23706269917601638,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.2217204290272985,
+        "restricted_s": 5.2217204290272985
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.4861322694714616,
+    "final_lateral_cm": 0.32083207479422526,
+    "final_heading_deg": 2.790878357183558,
+    "outside_s": 4.283999999999952,
+    "accel_rms_cm_s2": 2.411799305390971,
+    "angular_accel_rms_rad_s2": 0.21929804271631478,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.1937204290273105,
+        "restricted_s": 4.1937204290273105
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6774426978485888,
+    "final_lateral_cm": 0.7907094080485564,
+    "final_heading_deg": 5.700654008383578,
+    "outside_s": 5.111999999999942,
+    "accel_rms_cm_s2": 2.551877783264853,
+    "angular_accel_rms_rad_s2": 0.19147576302334474,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.949720429027302,
+        "restricted_s": 4.949720429027302
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6774426978485888,
+    "final_lateral_cm": 0.8671758910404037,
+    "final_heading_deg": 5.303709094826035,
+    "outside_s": 5.075999999999943,
+    "accel_rms_cm_s2": 2.5179668605155987,
+    "angular_accel_rms_rad_s2": 0.1957332096208403,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.825720429027303,
+        "restricted_s": 4.825720429027303
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6774426978485888,
+    "final_lateral_cm": 1.1394282380283585,
+    "final_heading_deg": 4.198111527911448,
+    "outside_s": 5.039999999999943,
+    "accel_rms_cm_s2": 2.4661279468503756,
+    "angular_accel_rms_rad_s2": 0.22905223757099538,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.1777204290273104,
+        "restricted_s": 4.1777204290273104
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.6774426978485888,
+    "final_lateral_cm": 0.7759209833255056,
+    "final_heading_deg": 5.348251722769147,
+    "outside_s": 5.9599999999999325,
+    "accel_rms_cm_s2": 2.576487495307667,
+    "angular_accel_rms_rad_s2": 0.2220545081183054,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.453720429027296,
+        "restricted_s": 5.453720429027296
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "left"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_left_2002_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.14665543571588557,
+    "final_lateral_cm": 2.1651281855440203,
+    "final_heading_deg": 3.632687533219017,
+    "outside_s": 1.0239999999999885,
+    "accel_rms_cm_s2": 4.956029892963623,
+    "angular_accel_rms_rad_s2": 0.32682214042322966,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.1057225500778145,
+    "final_lateral_cm": 2.1457653138650556,
+    "final_heading_deg": 4.22501705636015,
+    "outside_s": 1.059999999999988,
+    "accel_rms_cm_s2": 4.703017470838274,
+    "angular_accel_rms_rad_s2": 0.316042032345232,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.2906335527468684,
+    "final_lateral_cm": 2.317551613330039,
+    "final_heading_deg": 1.221023723821805,
+    "outside_s": 1.5119999999999827,
+    "accel_rms_cm_s2": 4.687397463257828,
+    "angular_accel_rms_rad_s2": 0.3419814068007172,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.3865872273456432,
+    "final_lateral_cm": 1.6222350726924901,
+    "final_heading_deg": 5.8701994259023165,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.558274326860125,
+    "angular_accel_rms_rad_s2": 0.3249735097276289,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.0196270741290956,
+        "restricted_s": 1.0196270741290956
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.14665543571588557,
+    "final_lateral_cm": 2.0061694847075273,
+    "final_heading_deg": 7.126618974398269,
+    "outside_s": 1.0239999999999885,
+    "accel_rms_cm_s2": 5.004252892631779,
+    "angular_accel_rms_rad_s2": 0.3260657621214756,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.539833735577167,
+    "final_lateral_cm": 1.7979061413189896,
+    "final_heading_deg": 6.250765116108301,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.852117854198052,
+    "angular_accel_rms_rad_s2": 0.3356414708417704,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.5783420678383067,
+    "final_lateral_cm": 1.9765785414537618,
+    "final_heading_deg": 7.353109553973116,
+    "outside_s": 1.7439999999999802,
+    "accel_rms_cm_s2": 4.91030204345068,
+    "angular_accel_rms_rad_s2": 0.33931837522060726,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.539833735577167,
+    "final_lateral_cm": 1.6637470936366157,
+    "final_heading_deg": 6.3738397328573795,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.748554288323052,
+    "angular_accel_rms_rad_s2": 0.3255206132491119,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.12421158921584663,
+    "final_lateral_cm": 2.2158724750775463,
+    "final_heading_deg": 1.5089824658076045,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.97631333263773,
+    "angular_accel_rms_rad_s2": 0.2898376075217054,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.19002374859793747,
+    "final_lateral_cm": 2.1418729596582438,
+    "final_heading_deg": 3.554271022994495,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.172887963453202,
+    "angular_accel_rms_rad_s2": 0.3024795580711414,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.014309071548879615,
+    "final_lateral_cm": 1.9248271051484949,
+    "final_heading_deg": 0.05755760833240978,
+    "outside_s": 0.14399999999999835,
+    "accel_rms_cm_s2": 4.901912627440334,
+    "angular_accel_rms_rad_s2": 0.32983665884911356,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.25394515742294743,
+    "final_lateral_cm": 2.037025879508789,
+    "final_heading_deg": 3.415020184788847,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.037534035881203,
+    "angular_accel_rms_rad_s2": 0.2956046942922098,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.12421158921584663,
+    "final_lateral_cm": 0.5176168437748316,
+    "final_heading_deg": 16.999299256745914,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.769672696552743,
+    "angular_accel_rms_rad_s2": 0.2955319732502157,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.20539643732443835,
+    "final_lateral_cm": 0.2878310843080385,
+    "final_heading_deg": 13.530237916677759,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.804235516926088,
+    "angular_accel_rms_rad_s2": 0.3252388385276586,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.30165584937027745,
+    "final_lateral_cm": 0.40208292020089687,
+    "final_heading_deg": 18.090126692400172,
+    "outside_s": 1.1159999999999872,
+    "accel_rms_cm_s2": 4.8331278392535175,
+    "angular_accel_rms_rad_s2": 0.2977378376786692,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1860204701991961,
+    "final_lateral_cm": 0.4248411488894561,
+    "final_heading_deg": 12.86794677703369,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.9946378999971,
+    "angular_accel_rms_rad_s2": 0.3194089050731523,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2001_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.6972136681439807,
+    "final_lateral_cm": 0.31949318913240177,
+    "final_heading_deg": 2.6550024645014068,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3574459166472908,
+    "angular_accel_rms_rad_s2": 0.15436481878352235,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.141720429027311,
+        "restricted_s": 4.141720429027311
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.6972136681439807,
+    "final_lateral_cm": 0.2516815712804572,
+    "final_heading_deg": 2.972829388449778,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.30237538129373,
+    "angular_accel_rms_rad_s2": 0.151177205683886,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.733720429027304,
+        "restricted_s": 4.733720429027304
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.6150764484951647,
+    "final_lateral_cm": 1.2545089964138327,
+    "final_heading_deg": 1.0569912446429435,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.4115440502474312,
+    "angular_accel_rms_rad_s2": 0.1928334623749765,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 6.029720429027289
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.6972136681439807,
+    "final_lateral_cm": 1.0926009762629718,
+    "final_heading_deg": 3.764647307684772,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3677394751411076,
+    "angular_accel_rms_rad_s2": 0.185257983613753,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 6.029720429027289
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.85333333333327,
+    "clean_stable": true,
+    "min_margin_cm": 0.6972136681439807,
+    "final_lateral_cm": 0.6747070466417568,
+    "final_heading_deg": 0.5686732407697551,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2802448066022225,
+    "angular_accel_rms_rad_s2": 0.17470124516433513,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.141720429027311,
+        "restricted_s": 4.141720429027311
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 17.85333333333327,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": true,
+    "stable_exit_s": 17.83733333333327,
+    "clean_stable": true,
+    "min_margin_cm": 0.6972136681439807,
+    "final_lateral_cm": 0.8473890866148679,
+    "final_heading_deg": 1.296609662173085,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.487638484158321,
+    "angular_accel_rms_rad_s2": 0.16960011176198242,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.597720429027294,
+        "restricted_s": 5.597720429027294
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.030470181640757
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "stable_exit",
+    "simulated_s": 17.83733333333327,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.28655567201089127,
+    "final_lateral_cm": 0.09465041272402175,
+    "final_heading_deg": 1.5381880723241252,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.304899966045051,
+    "angular_accel_rms_rad_s2": 0.18637874126930545,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 8.513720429027288,
+        "restricted_s": 8.513720429027288
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.6972136681439807,
+    "final_lateral_cm": 1.1032995565127663,
+    "final_heading_deg": 2.0601700797839695,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.538337332185249,
+    "angular_accel_rms_rad_s2": 0.19782732717879822,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 6.029720429027289,
+        "restricted_s": 6.029720429027289
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.7191869500929116,
+    "final_lateral_cm": 0.05973438354699567,
+    "final_heading_deg": 2.8909288529529906,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2886193737698,
+    "angular_accel_rms_rad_s2": 0.1647513420545112,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.537720429027306,
+        "restricted_s": 4.537720429027306
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.7191869500929116,
+    "final_lateral_cm": 0.40732150963359004,
+    "final_heading_deg": 2.955379753940759,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.28169387533099,
+    "angular_accel_rms_rad_s2": 0.1640398441818891,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.769720429027304,
+        "restricted_s": 4.769720429027304
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.6403922278205165,
+    "final_lateral_cm": 1.046868485892773,
+    "final_heading_deg": 1.2471986237239103,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3148444201614904,
+    "angular_accel_rms_rad_s2": 0.20798848603977682,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 6.029720429027289
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.7191869500929116,
+    "final_lateral_cm": 1.2111582140215233,
+    "final_heading_deg": 3.8246953849701977,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2650040964523543,
+    "angular_accel_rms_rad_s2": 0.18251338784416088,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 6.029720429027289
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.7191869500929116,
+    "final_lateral_cm": 0.9725501385019442,
+    "final_heading_deg": 0.09689436811167615,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3108483822900916,
+    "angular_accel_rms_rad_s2": 0.17313936281636,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.537720429027306,
+        "restricted_s": 4.537720429027306
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.7191869500929116,
+    "final_lateral_cm": 1.0764643507437057,
+    "final_heading_deg": 0.14634562660358802,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.4143020856607986,
+    "angular_accel_rms_rad_s2": 0.17517677800148446,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.22972042902731,
+        "restricted_s": 4.22972042902731
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.571348304175956,
+    "final_lateral_cm": 0.16338963918194338,
+    "final_heading_deg": 2.0135575016760354,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2849388037219196,
+    "angular_accel_rms_rad_s2": 0.19446566581988353,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 3.3297204290273203,
+        "restricted_s": 3.3297204290273203
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.7191869500929116,
+    "final_lateral_cm": 1.5072584448415824,
+    "final_heading_deg": 1.8945316659233309,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.373073917199413,
+    "angular_accel_rms_rad_s2": 0.2024173541314192,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 10.025720429027345
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "east",
+      "W",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\east_W_right_2002_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.44451545652853497,
+    "final_lateral_cm": 1.382500575772056,
+    "final_heading_deg": 1.024436273994248,
+    "outside_s": 1.6919999999999806,
+    "accel_rms_cm_s2": 4.719269595631489,
+    "angular_accel_rms_rad_s2": 0.3053644198487736,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.9708512527486768,
+    "final_lateral_cm": 1.0644916075097512,
+    "final_heading_deg": 1.359609902058001,
+    "outside_s": 2.731999999999969,
+    "accel_rms_cm_s2": 4.716145611483639,
+    "angular_accel_rms_rad_s2": 0.5195352450755742,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.5087850484450058,
+    "final_lateral_cm": 1.3914447761493278,
+    "final_heading_deg": 1.3372270450152506,
+    "outside_s": 1.6919999999999806,
+    "accel_rms_cm_s2": 4.652757731365082,
+    "angular_accel_rms_rad_s2": 0.33958041785795523,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.044978658816233974,
+    "final_lateral_cm": 1.3233125253981513,
+    "final_heading_deg": 2.553584098437066,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 4.467067533237809,
+    "angular_accel_rms_rad_s2": 0.30681730141530833,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.44451545652853497,
+    "final_lateral_cm": 0.988863404723034,
+    "final_heading_deg": 4.152177145482315,
+    "outside_s": 1.6919999999999806,
+    "accel_rms_cm_s2": 5.204519407702932,
+    "angular_accel_rms_rad_s2": 0.3658174469482961,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.20782813371100417,
+    "final_lateral_cm": 1.0363688936542843,
+    "final_heading_deg": 4.265582713426125,
+    "outside_s": 1.011999999999988,
+    "accel_rms_cm_s2": 5.145551043566651,
+    "angular_accel_rms_rad_s2": 0.379032485818959,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.394684113039446,
+    "final_lateral_cm": 1.1018842383499248,
+    "final_heading_deg": 4.508192020960008,
+    "outside_s": 2.1079999999999757,
+    "accel_rms_cm_s2": 4.8188167803464115,
+    "angular_accel_rms_rad_s2": 0.3913752099233186,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.17425370720022215,
+    "final_lateral_cm": 0.9140972723846232,
+    "final_heading_deg": 3.501954871048895,
+    "outside_s": 0.5239999999999938,
+    "accel_rms_cm_s2": 5.150786968200331,
+    "angular_accel_rms_rad_s2": 0.38815856574763763,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.09944467958770531,
+    "final_lateral_cm": 0.8791877166043065,
+    "final_heading_deg": 3.5703419904418077,
+    "outside_s": 0.6839999999999922,
+    "accel_rms_cm_s2": 5.251919244551103,
+    "angular_accel_rms_rad_s2": 0.34714258078531063,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.6316270741290886,
+        "restricted_s": 1.6316270741290886
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.12764065395606394,
+    "final_lateral_cm": 0.8697652006228225,
+    "final_heading_deg": 2.7675121043905015,
+    "outside_s": 0.611999999999993,
+    "accel_rms_cm_s2": 5.305957530995372,
+    "angular_accel_rms_rad_s2": 0.361940371659308,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.0196270741290956,
+        "restricted_s": 1.0196270741290956
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.01581659156173032,
+    "final_lateral_cm": 0.6752242924292204,
+    "final_heading_deg": 4.213674385265541,
+    "outside_s": 0.14399999999999835,
+    "accel_rms_cm_s2": 5.093795552524052,
+    "angular_accel_rms_rad_s2": 0.35589780640190793,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.0556270741290952,
+        "restricted_s": 1.0556270741290952
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.35975196854837677,
+    "final_lateral_cm": 1.29796896954349,
+    "final_heading_deg": 2.423225825916319,
+    "outside_s": 1.6199999999999815,
+    "accel_rms_cm_s2": 5.330769962790939,
+    "angular_accel_rms_rad_s2": 0.36237836101689924,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.09944467958770531,
+    "final_lateral_cm": 1.3530759895340623,
+    "final_heading_deg": 3.5723384507673077,
+    "outside_s": 0.6839999999999922,
+    "accel_rms_cm_s2": 5.354484415077941,
+    "angular_accel_rms_rad_s2": 0.40472692008275213,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.6316270741290886,
+        "restricted_s": 1.6316270741290886
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.16793505534454312,
+    "final_lateral_cm": 1.3841582111359827,
+    "final_heading_deg": 3.740851643085488,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.159024014519477,
+    "angular_accel_rms_rad_s2": 0.40541257041673107,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.6316270741290886,
+        "restricted_s": 1.6316270741290886
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.7600452234105859,
+    "final_lateral_cm": 1.3900985980125142,
+    "final_heading_deg": 4.2552059250342396,
+    "outside_s": 1.459999999999983,
+    "accel_rms_cm_s2": 5.498514326860422,
+    "angular_accel_rms_rad_s2": 0.38590296017721737,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.6316270741290886,
+        "restricted_s": 1.6316270741290886
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.19493729677691363,
+    "final_lateral_cm": 1.3503171587054226,
+    "final_heading_deg": 3.4034237331448915,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.227339120075513,
+    "angular_accel_rms_rad_s2": 0.4100261237756422,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.6316270741290886,
+        "restricted_s": 1.6316270741290886
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2001_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.002383163845109948,
+    "final_lateral_cm": 0.19387033251740604,
+    "final_heading_deg": 0.7510312450735795,
+    "outside_s": 0.052000000000000046,
+    "accel_rms_cm_s2": 2.3585422252981076,
+    "angular_accel_rms_rad_s2": 0.15966979908228113,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.0417204290273006,
+        "restricted_s": 5.0417204290273006
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.1268325554188099,
+    "final_lateral_cm": 0.437122969867346,
+    "final_heading_deg": 0.08670869816895772,
+    "outside_s": 0.37599999999999634,
+    "accel_rms_cm_s2": 2.4940580694100047,
+    "angular_accel_rms_rad_s2": 0.31374672319787,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 1.0097204290273467,
+        "restricted_s": 1.0097204290273467
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.002383163845109948,
+    "final_lateral_cm": 0.05910410671884847,
+    "final_heading_deg": 1.0604784855474392,
+    "outside_s": 0.052000000000000046,
+    "accel_rms_cm_s2": 2.3873491113382244,
+    "angular_accel_rms_rad_s2": 0.20099727141325888,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 3.977720429027313,
+        "restricted_s": 3.977720429027313
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.002383163845109948,
+    "final_lateral_cm": 0.9607107031781794,
+    "final_heading_deg": 2.817797958493327,
+    "outside_s": 0.052000000000000046,
+    "accel_rms_cm_s2": 2.3923864204391427,
+    "angular_accel_rms_rad_s2": 0.20194228610612905,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.597720429027294,
+        "restricted_s": 5.597720429027294
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.002383163845109948,
+    "final_lateral_cm": 0.4516734139428138,
+    "final_heading_deg": 3.726030949393434,
+    "outside_s": 0.052000000000000046,
+    "accel_rms_cm_s2": 2.362139150200383,
+    "angular_accel_rms_rad_s2": 0.1814146434735587,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.0417204290273006,
+        "restricted_s": 5.0417204290273006
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.002383163845109948,
+    "final_lateral_cm": 0.6239797455031777,
+    "final_heading_deg": 4.543561971899377,
+    "outside_s": 0.052000000000000046,
+    "accel_rms_cm_s2": 2.5449543255133347,
+    "angular_accel_rms_rad_s2": 0.1800922575123965,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.645720429027305,
+        "restricted_s": 4.645720429027305
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.1464701816407246,
+        "restricted_s": 1.1464701816407246
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.3577996316045926,
+    "final_lateral_cm": 0.2847073555678321,
+    "final_heading_deg": 2.247952801502534,
+    "outside_s": 1.0439999999999885,
+    "accel_rms_cm_s2": 2.4243537469523884,
+    "angular_accel_rms_rad_s2": 0.2004642497068795,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 8.35372042902728,
+        "restricted_s": 8.35372042902728
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.002383163845109948,
+    "final_lateral_cm": 0.7304281868872522,
+    "final_heading_deg": 5.844507583153406,
+    "outside_s": 0.052000000000000046,
+    "accel_rms_cm_s2": 2.396544497984021,
+    "angular_accel_rms_rad_s2": 0.21351033264072675,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 3.8897204290273137,
+        "restricted_s": 3.8897204290273137
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.0006432396121240913,
+    "final_lateral_cm": 0.2800612944895562,
+    "final_heading_deg": 0.5604912307234143,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.2914393039597454,
+    "angular_accel_rms_rad_s2": 0.16462120934546876,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.473720429027296,
+        "restricted_s": 5.473720429027296
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.03320723836728057,
+    "final_lateral_cm": 0.3178628511900854,
+    "final_heading_deg": 0.4819053996354199,
+    "outside_s": 0.15999999999999837,
+    "accel_rms_cm_s2": 2.4361712827974062,
+    "angular_accel_rms_rad_s2": 0.31899975647596307,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 1.529720429027341,
+        "restricted_s": 1.529720429027341
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.0006432396121240913,
+    "final_lateral_cm": 0.0032257983606456264,
+    "final_heading_deg": 0.9580228986307716,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.4240459116387054,
+    "angular_accel_rms_rad_s2": 0.20421681499666663,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.1937204290273105,
+        "restricted_s": 4.1937204290273105
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.0006432396121240913,
+    "final_lateral_cm": 0.3625446999474633,
+    "final_heading_deg": 3.1854346676983902,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.334513890121781,
+    "angular_accel_rms_rad_s2": 0.20120013393393035,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 6.029720429027289
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.0006432396121240913,
+    "final_lateral_cm": 0.6709724831905106,
+    "final_heading_deg": 2.027376806268303,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3099732322991113,
+    "angular_accel_rms_rad_s2": 0.18392777470006724,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.473720429027296,
+        "restricted_s": 5.473720429027296
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.0006432396121240913,
+    "final_lateral_cm": 0.7854419528497942,
+    "final_heading_deg": 3.217331062649812,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.3175401468078918,
+    "angular_accel_rms_rad_s2": 0.19804094834768157,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.789720429027303,
+        "restricted_s": 4.789720429027303
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.2744701816407282,
+        "restricted_s": 1.2744701816407282
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.35438207266102495,
+    "final_lateral_cm": 0.4990598535650861,
+    "final_heading_deg": 0.40476555295206434,
+    "outside_s": 1.0079999999999885,
+    "accel_rms_cm_s2": 2.4082959156068466,
+    "angular_accel_rms_rad_s2": 0.19422315842488186,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 8.29772042902728,
+        "restricted_s": 8.29772042902728
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.0006432396121240913,
+    "final_lateral_cm": 0.9544803036278751,
+    "final_heading_deg": 3.973749042347378,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.404043023985524,
+    "angular_accel_rms_rad_s2": 0.19856927999095364,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 3.961720429027313,
+        "restricted_s": 3.961720429027313
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.2264701816407655
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "south",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\south_N_right_2002_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.7643301554704518,
+    "final_lateral_cm": 0.5740660286043916,
+    "final_heading_deg": 1.1225131865010545,
+    "outside_s": 1.7279999999999802,
+    "accel_rms_cm_s2": 5.260309702898065,
+    "angular_accel_rms_rad_s2": 0.3512466697185811,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.1935761389832766,
+    "final_lateral_cm": 0.9258256819615566,
+    "final_heading_deg": 2.4134808028249743,
+    "outside_s": 1.5319999999999823,
+    "accel_rms_cm_s2": 5.166595695175762,
+    "angular_accel_rms_rad_s2": 0.38143711126076657,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.8466840604290695,
+    "final_lateral_cm": 0.6480286503405492,
+    "final_heading_deg": 0.41066485303677996,
+    "outside_s": 1.239999999999986,
+    "accel_rms_cm_s2": 5.105647144319986,
+    "angular_accel_rms_rad_s2": 0.35475676818514856,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": true,
+        "recovery_s": 1.0196270741290956,
+        "restricted_s": 1.0196270741290956
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.7684936088578542,
+    "final_lateral_cm": 0.3552508141782712,
+    "final_heading_deg": 0.05883228746599621,
+    "outside_s": 1.5119999999999827,
+    "accel_rms_cm_s2": 5.137063826362519,
+    "angular_accel_rms_rad_s2": 0.34544139649586003,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.7643301554704518,
+    "final_lateral_cm": 1.202437917819897,
+    "final_heading_deg": 2.081754606292409,
+    "outside_s": 1.7279999999999802,
+    "accel_rms_cm_s2": 5.575359105856853,
+    "angular_accel_rms_rad_s2": 0.4036596539399957,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.28381623121084054,
+    "final_lateral_cm": 1.1985243304624627,
+    "final_heading_deg": 1.9630640361103473,
+    "outside_s": 0.6839999999999922,
+    "accel_rms_cm_s2": 5.546287448454353,
+    "angular_accel_rms_rad_s2": 0.38645869442201264,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.3946886006971386,
+    "final_lateral_cm": 1.2198816484550707,
+    "final_heading_deg": 2.132907851345879,
+    "outside_s": 1.851999999999979,
+    "accel_rms_cm_s2": 5.647045043444388,
+    "angular_accel_rms_rad_s2": 0.42170481187250863,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.041229253396581456,
+    "final_lateral_cm": 1.1792014407546227,
+    "final_heading_deg": 1.7323764201015295,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 5.589689384017064,
+    "angular_accel_rms_rad_s2": 0.39623486242310596,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.6343382563190048,
+    "final_lateral_cm": 18.378600482821888,
+    "final_heading_deg": 85.02021023980524,
+    "outside_s": 1.1159999999999881,
+    "accel_rms_cm_s2": 5.736476120767819,
+    "angular_accel_rms_rad_s2": 0.3769787413699363,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -11.638217619723115,
+    "final_lateral_cm": 12.49633897502734,
+    "final_heading_deg": 28.125107769766263,
+    "outside_s": 4.823999999999946,
+    "accel_rms_cm_s2": 5.386734454310838,
+    "angular_accel_rms_rad_s2": 0.4328632629384855,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.8768044907968076,
+    "final_lateral_cm": 15.593747978673878,
+    "final_heading_deg": 77.38952676284086,
+    "outside_s": 3.0399999999999663,
+    "accel_rms_cm_s2": 5.1947011179691,
+    "angular_accel_rms_rad_s2": 0.43016631540850325,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.6638099784536688,
+    "final_lateral_cm": 19.20562650964654,
+    "final_heading_deg": 86.85643586284483,
+    "outside_s": 1.3319999999999856,
+    "accel_rms_cm_s2": 5.398375962762626,
+    "angular_accel_rms_rad_s2": 0.4062258005573218,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 5.967627074129039
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.6604966875939233,
+    "final_lateral_cm": 40.0185132115955,
+    "final_heading_deg": 85.28669605598392,
+    "outside_s": 3.3120000000000642,
+    "accel_rms_cm_s2": 5.739357623652515,
+    "angular_accel_rms_rad_s2": 0.38658564593079253,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "wrong_exit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -12.082107554434607,
+    "final_lateral_cm": 10.385035225198775,
+    "final_heading_deg": 21.18219263548411,
+    "outside_s": 3.491999999999961,
+    "accel_rms_cm_s2": 5.458075482113904,
+    "angular_accel_rms_rad_s2": 0.7233665064791079,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 6.147627074129037
+      }
+    ],
+    "unrecovered": 1,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "severe_departure",
+    "simulated_s": 14.21733333333322,
+    "frames": 297,
+    "push_exposure_s": 0.461629186039894,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.7376357572929813,
+    "final_lateral_cm": 39.96769132524868,
+    "final_heading_deg": 85.1495705819967,
+    "outside_s": 3.6040000000000605,
+    "accel_rms_cm_s2": 5.705598766950143,
+    "angular_accel_rms_rad_s2": 0.37747945599852345,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.963627074129095
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.065109837665384
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.6343382563190048,
+    "final_lateral_cm": 40.07192035322525,
+    "final_heading_deg": 85.7868801770098,
+    "outside_s": 3.260000000000063,
+    "accel_rms_cm_s2": 5.758310507668641,
+    "angular_accel_rms_rad_s2": 0.4286070493097307,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.069706259204183,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 9.947627074129093
+      },
+      {
+        "event_end_s": 15.968223495667894,
+        "recovered": false,
+        "recovery_s": null,
+        "restricted_s": 2.049109837665382
+      }
+    ],
+    "unrecovered": 2,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2001,
+    "preset": "field_estimate",
+    "outcome": "wrong_exit",
+    "simulated_s": 18.017333333333276,
+    "frames": 297,
+    "push_exposure_s": 0.9535643530831441,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2001_mild_light_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.19155010071275314,
+    "final_lateral_cm": 0.8642312727668287,
+    "final_heading_deg": 1.219541248253277,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.5433700408595494,
+    "angular_accel_rms_rad_s2": 0.19631198076854284,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.4137204290273306,
+        "restricted_s": 2.4137204290273306
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.19155010071275314,
+    "final_lateral_cm": 1.0506299699353858,
+    "final_heading_deg": 1.0644094966548487,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.5969482641362083,
+    "angular_accel_rms_rad_s2": 0.25167799914938244,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 3.853720429027314,
+        "restricted_s": 3.853720429027314
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.19155010071275314,
+    "final_lateral_cm": 0.9443110554519418,
+    "final_heading_deg": 0.40001793370339406,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.6238004341949446,
+    "angular_accel_rms_rad_s2": 0.21669624522814343,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 3.3137204290273203,
+        "restricted_s": 3.3137204290273203
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.19155010071275314,
+    "final_lateral_cm": 0.5849085605405896,
+    "final_heading_deg": 0.6241236962596575,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.5614638193204047,
+    "angular_accel_rms_rad_s2": 0.20186989912534797,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.185720429027299,
+        "restricted_s": 5.185720429027299
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.3228557110631982,
+    "final_lateral_cm": 0.34713685996420596,
+    "final_heading_deg": 4.690917632580878,
+    "outside_s": 0.7760000000000122,
+    "accel_rms_cm_s2": 2.456689040307861,
+    "angular_accel_rms_rad_s2": 0.2129164361274136,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.4137204290273306,
+        "restricted_s": 2.4137204290273306
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.6504701816407437,
+        "restricted_s": 1.6504701816407437
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.5641898650505901,
+    "final_lateral_cm": 0.3523754117148012,
+    "final_heading_deg": 4.668278339004408,
+    "outside_s": 1.116000000000021,
+    "accel_rms_cm_s2": 2.652952961252811,
+    "angular_accel_rms_rad_s2": 0.20796019605580435,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.4137204290273306,
+        "restricted_s": 2.4137204290273306
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.8864701816407514,
+        "restricted_s": 1.8864701816407514
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.36253584325308985,
+    "final_lateral_cm": 0.3104550427438541,
+    "final_heading_deg": 6.098974920606659,
+    "outside_s": 0.7559999999999913,
+    "accel_rms_cm_s2": 2.527636403345259,
+    "angular_accel_rms_rad_s2": 0.22749714350096037,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 5.813720429027292,
+        "restricted_s": 5.813720429027292
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -1.1532679143682465,
+    "final_lateral_cm": 0.6203297791162962,
+    "final_heading_deg": 3.475677153617552,
+    "outside_s": 1.564000000000025,
+    "accel_rms_cm_s2": 2.4596995460957056,
+    "angular_accel_rms_rad_s2": 0.22660123282448216,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.4137204290273306,
+        "restricted_s": 2.4137204290273306
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 2.0664701816407582,
+        "restricted_s": 2.0664701816407582
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_10.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1924440030425103,
+    "final_lateral_cm": 0.9496995536753009,
+    "final_heading_deg": 0.3139262580159423,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.640751501066507,
+    "angular_accel_rms_rad_s2": 0.20036025568590216,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.50172042902733,
+        "restricted_s": 2.50172042902733
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1924440030425103,
+    "final_lateral_cm": 0.9453079342303854,
+    "final_heading_deg": 0.4549312276145934,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.6335763826238323,
+    "angular_accel_rms_rad_s2": 0.24599142601963894,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.033720429027312,
+        "restricted_s": 4.033720429027312
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.1924440030425103,
+    "final_lateral_cm": 0.9944271092095579,
+    "final_heading_deg": 0.03134272440655577,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.762624565371639,
+    "angular_accel_rms_rad_s2": 0.2299404625389985,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.121720429027311,
+        "restricted_s": 4.121720429027311
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": 0.08054006227235533,
+    "final_lateral_cm": 0.6725443197882691,
+    "final_heading_deg": 0.8345359248651932,
+    "outside_s": 0.0,
+    "accel_rms_cm_s2": 2.532252880410328,
+    "angular_accel_rms_rad_s2": 0.22240315864416954,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 4.897720429027302,
+        "restricted_s": 4.897720429027302
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 14.037333333333223,
+    "frames": 186,
+    "push_exposure_s": 0.5383857347335734,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_6.0\\right",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.4470557444802452,
+    "final_lateral_cm": 0.4794559758455081,
+    "final_heading_deg": 4.4165379561445075,
+    "outside_s": 0.8840000000000146,
+    "accel_rms_cm_s2": 2.657711336691826,
+    "angular_accel_rms_rad_s2": 0.20240989862807093,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.50172042902733,
+        "restricted_s": 2.50172042902733
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.7224701816407464,
+        "restricted_s": 1.7224701816407464
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\student",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.5589795737868286,
+    "final_lateral_cm": 0.44106650295185096,
+    "final_heading_deg": 4.0903222407429025,
+    "outside_s": 1.0240000000000187,
+    "accel_rms_cm_s2": 2.5160648791511973,
+    "angular_accel_rms_rad_s2": 0.2230119673474819,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.50172042902733,
+        "restricted_s": 2.50172042902733
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.8144701816407487,
+        "restricted_s": 1.8144701816407487
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\teacher",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.6356680500936491,
+    "final_lateral_cm": 0.21081724279036368,
+    "final_heading_deg": 4.97370155392581,
+    "outside_s": 1.0079999999999885,
+    "accel_rms_cm_s2": 2.5900347073692727,
+    "angular_accel_rms_rad_s2": 0.2297109127847804,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 8.245720429027276,
+        "restricted_s": 8.245720429027276
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.0224701816407187,
+        "restricted_s": 1.0224701816407187
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\left",
+    "branch": true
+  },
+  {
+    "stable_success": false,
+    "stable_exit_s": null,
+    "clean_stable": false,
+    "min_margin_cm": -0.8083729640344188,
+    "final_lateral_cm": 0.6133585829844457,
+    "final_heading_deg": 3.798818689316808,
+    "outside_s": 1.2600000000000193,
+    "accel_rms_cm_s2": 2.592837124449963,
+    "angular_accel_rms_rad_s2": 0.22480051273683901,
+    "unnecessary_stops": 0,
+    "unnecessary_stop_s": 0.0,
+    "translation_pause_s": 0.0,
+    "recovery": [
+      {
+        "event_end_s": 8.007612904305933,
+        "recovered": true,
+        "recovery_s": 2.50172042902733,
+        "restricted_s": 2.50172042902733
+      },
+      {
+        "event_end_s": 15.806863151692513,
+        "recovered": true,
+        "recovery_s": 1.9024701816407532,
+        "restricted_s": 1.9024701816407532
+      }
+    ],
+    "unrecovered": 0,
+    "key": [
+      "center",
+      "N",
+      "right"
+    ],
+    "condition": "mild_light",
+    "seed": 2002,
+    "preset": "sluggish",
+    "outcome": "time_limit",
+    "simulated_s": 18.033333333333278,
+    "frames": 297,
+    "push_exposure_s": 1.1701639798522478,
+    "artifact": "D:\\autodrive_cnn\\runs\\junction_learning_20261113\\branches\\center_N_right_2002_mild_light_10.0\\right",
+    "branch": true
+  }
+]

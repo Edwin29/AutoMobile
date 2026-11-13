@@ -1,0 +1,351 @@
+{
+  "source_sha256": "6dca3c2ed1171085871f3ed3aacc8ffb9f2d7c16b4b4e025762e468368cc36e9",
+  "scope": "Offline single-decision input substitution on identical actual PWM histories; not a rollout or guaranteed recovery",
+  "rows": [
+    {
+      "key": [
+        "north",
+        "E",
+        "left"
+      ],
+      "seed": 25001,
+      "last": {
+        "t": 11.157333333333256,
+        "image_target_w": 0.09841079847283235,
+        "exact_current_pose_target_w": 0.11745121809387811,
+        "image_k": 0.00013480896381984353,
+        "exact_current_pose_k": 0.00011138850761974184
+      },
+      "window": [
+        {
+          "t": 10.689333333333261,
+          "image_target_w": 0.023330682737475152,
+          "exact_current_pose_target_w": 0.06417858443506352,
+          "image_k": 4.5035964610572535e-05,
+          "exact_current_pose_k": -0.001512430126827377
+        },
+        {
+          "t": 10.72533333333326,
+          "image_target_w": 0.012422276447136903,
+          "exact_current_pose_target_w": 0.07257567021927847,
+          "image_k": 5.5692288090434736e-05,
+          "exact_current_pose_k": -0.000404363561407467
+        },
+        {
+          "t": 10.76133333333326,
+          "image_target_w": 0.0040011368967468215,
+          "exact_current_pose_target_w": 0.07690334112586514,
+          "image_k": 5.5692288090478104e-05,
+          "exact_current_pose_k": -0.0004043635614077584
+        },
+        {
+          "t": 10.79733333333326,
+          "image_target_w": 0.03331059364059062,
+          "exact_current_pose_target_w": 0.08454777453829321,
+          "image_k": 6.573281143978926e-05,
+          "exact_current_pose_k": -1.847152390170581e-05
+        },
+        {
+          "t": 10.83333333333326,
+          "image_target_w": 0.02955346910435236,
+          "exact_current_pose_target_w": 0.09133494067293303,
+          "image_k": 7.577731918612801e-05,
+          "exact_current_pose_k": 4.50359646105708e-05
+        },
+        {
+          "t": 10.869333333333259,
+          "image_target_w": 0.0261667374371361,
+          "exact_current_pose_target_w": 0.09704561388332023,
+          "image_k": 8.51293440294193e-05,
+          "exact_current_pose_k": 5.569228809045035e-05
+        },
+        {
+          "t": 10.905333333333258,
+          "image_target_w": 0.05738944382359481,
+          "exact_current_pose_target_w": 0.10226671645237558,
+          "image_k": 9.427215739550576e-05,
+          "exact_current_pose_k": 5.569228809050586e-05
+        },
+        {
+          "t": 10.941333333333258,
+          "image_target_w": 0.055282377451014456,
+          "exact_current_pose_target_w": 0.10778432272481966,
+          "image_k": 0.00010326352998451388,
+          "exact_current_pose_k": 6.573281143974763e-05
+        },
+        {
+          "t": 10.977333333333258,
+          "image_target_w": 0.05283186213880807,
+          "exact_current_pose_target_w": 0.1121575247750707,
+          "image_k": 0.00011983867574148765,
+          "exact_current_pose_k": 7.577731918606556e-05
+        },
+        {
+          "t": 11.013333333333257,
+          "image_target_w": 0.06792425736142163,
+          "exact_current_pose_target_w": 0.11596690719660462,
+          "image_k": 0.00011138850761967245,
+          "exact_current_pose_k": 8.512934402955807e-05
+        },
+        {
+          "t": 11.049333333333257,
+          "image_target_w": 0.04556289813418158,
+          "exact_current_pose_target_w": 0.09873728411143592,
+          "image_k": 0.00011980578928501989,
+          "exact_current_pose_k": 8.512934402955807e-05
+        },
+        {
+          "t": 11.085333333333256,
+          "image_target_w": 0.038209671415146605,
+          "exact_current_pose_target_w": 0.09595520372219682,
+          "image_k": 0.00012743107380568108,
+          "exact_current_pose_k": 9.427215739556127e-05
+        },
+        {
+          "t": 11.121333333333256,
+          "image_target_w": 0.0930046062823105,
+          "exact_current_pose_target_w": 0.10793694436818753,
+          "image_k": 0.00012743107380565333,
+          "exact_current_pose_k": 0.00010326352998443755
+        },
+        {
+          "t": 11.157333333333256,
+          "image_target_w": 0.09841079847283235,
+          "exact_current_pose_target_w": 0.11745121809387811,
+          "image_k": 0.00013480896381984353,
+          "exact_current_pose_k": 0.00011138850761974184
+        }
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 25001,
+      "last": {
+        "t": 11.121333333333256,
+        "image_target_w": -0.09807130595481978,
+        "exact_current_pose_target_w": -0.11073180096050882,
+        "image_k": -0.00014236154884200714,
+        "exact_current_pose_k": -0.00011371255402937985
+      },
+      "window": [
+        {
+          "t": 10.653333333333261,
+          "image_target_w": 0.031441575501594925,
+          "exact_current_pose_target_w": -0.05216486877440646,
+          "image_k": -4.996636328444661e-05,
+          "exact_current_pose_k": 0.0016887778616297353
+        },
+        {
+          "t": 10.689333333333261,
+          "image_target_w": -0.0030121325873729496,
+          "exact_current_pose_target_w": -0.0675006511965555,
+          "image_k": -6.00186007930735e-05,
+          "exact_current_pose_k": 0.00033299677033546415
+        },
+        {
+          "t": 10.72533333333326,
+          "image_target_w": 0.0003554182969245506,
+          "exact_current_pose_target_w": -0.07560063838081428,
+          "image_k": -6.997499211845032e-05,
+          "exact_current_pose_k": 0.0003329967703355752
+        },
+        {
+          "t": 10.76133333333326,
+          "image_target_w": 0.0033743874924585804,
+          "exact_current_pose_target_w": -0.08494867204611337,
+          "image_k": -7.910655104723802e-05,
+          "exact_current_pose_k": -2.7064643144836253e-05
+        },
+        {
+          "t": 10.79733333333326,
+          "image_target_w": -0.03462037257613732,
+          "exact_current_pose_target_w": -0.09159026165268722,
+          "image_k": -9.704308847360149e-05,
+          "exact_current_pose_k": -4.996636328435944e-05
+        },
+        {
+          "t": 10.83333333333326,
+          "image_target_w": -0.03238236711121509,
+          "exact_current_pose_target_w": -0.09820130549404199,
+          "image_k": -8.835750484956217e-05,
+          "exact_current_pose_k": -6.998067069900749e-05
+        },
+        {
+          "t": 10.869333333333259,
+          "image_target_w": -0.029950794338874386,
+          "exact_current_pose_target_w": -0.10339152159574745,
+          "image_k": -9.703794131106502e-05,
+          "exact_current_pose_k": -6.001860079320187e-05
+        },
+        {
+          "t": 10.905333333333258,
+          "image_target_w": -0.05749761648647016,
+          "exact_current_pose_target_w": -0.10819464318192284,
+          "image_k": -0.00010531445634354153,
+          "exact_current_pose_k": -6.99749921185544e-05
+        },
+        {
+          "t": 10.941333333333258,
+          "image_target_w": -0.055705174091898235,
+          "exact_current_pose_target_w": -0.11313319067270154,
+          "image_k": -0.00011371255402937985,
+          "exact_current_pose_k": -7.910655104728659e-05
+        },
+        {
+          "t": 10.977333333333258,
+          "image_target_w": -0.0534799799161835,
+          "exact_current_pose_target_w": -0.1170443853382771,
+          "image_k": -0.0001210436845650309,
+          "exact_current_pose_k": -8.835750484940952e-05
+        },
+        {
+          "t": 11.013333333333257,
+          "image_target_w": -0.07429710017831632,
+          "exact_current_pose_target_w": -0.12052914965844379,
+          "image_k": -0.00012104368456497538,
+          "exact_current_pose_k": -0.00010531968061734676
+        },
+        {
+          "t": 11.049333333333257,
+          "image_target_w": -0.05197734328920281,
+          "exact_current_pose_target_w": -0.10280127911362687,
+          "image_k": -0.00012872508955716344,
+          "exact_current_pose_k": -9.703794131087073e-05
+        },
+        {
+          "t": 11.085333333333256,
+          "image_target_w": -0.044464599925660785,
+          "exact_current_pose_target_w": -0.09940725371701875,
+          "image_k": -0.00013572489583650593,
+          "exact_current_pose_k": -0.00010531445634356928
+        },
+        {
+          "t": 11.121333333333256,
+          "image_target_w": -0.09807130595481978,
+          "exact_current_pose_target_w": -0.11073180096050882,
+          "image_k": -0.00014236154884200714,
+          "exact_current_pose_k": -0.00011371255402937985
+        }
+      ]
+    },
+    {
+      "key": [
+        "north",
+        "W",
+        "right"
+      ],
+      "seed": 25002,
+      "last": {
+        "t": 11.301333333333254,
+        "image_target_w": -0.06378477518736694,
+        "exact_current_pose_target_w": -0.1178710550344598,
+        "image_k": -0.00012872508955716344,
+        "exact_current_pose_k": -9.703794131089849e-05
+      },
+      "window": [
+        {
+          "t": 10.83333333333326,
+          "image_target_w": 0.006047543089307071,
+          "exact_current_pose_target_w": -0.040414590537644714,
+          "image_k": -2.706464314469574e-05,
+          "exact_current_pose_k": 0.004698719320481902
+        },
+        {
+          "t": 10.869333333333259,
+          "image_target_w": 0.01714713151141546,
+          "exact_current_pose_target_w": -0.06267887611752798,
+          "image_k": -4.9966363284337754e-05,
+          "exact_current_pose_k": 0.0016887778616297283
+        },
+        {
+          "t": 10.905333333333258,
+          "image_target_w": -0.013081713650803021,
+          "exact_current_pose_target_w": -0.06855605857918198,
+          "image_k": -6.0018600793181054e-05,
+          "exact_current_pose_k": 0.0016887778616299365
+        },
+        {
+          "t": 10.941333333333258,
+          "image_target_w": -0.007935171915025612,
+          "exact_current_pose_target_w": -0.08399209851412097,
+          "image_k": -6.001860079332677e-05,
+          "exact_current_pose_k": 0.000332996770335367
+        },
+        {
+          "t": 10.977333333333258,
+          "image_target_w": -0.0040695922310952926,
+          "exact_current_pose_target_w": -0.09319266483458884,
+          "image_k": -6.997499211864461e-05,
+          "exact_current_pose_k": -2.7064643144933398e-05
+        },
+        {
+          "t": 11.013333333333257,
+          "image_target_w": -0.04181543448233595,
+          "exact_current_pose_target_w": -0.09996971319339923,
+          "image_k": -7.910655104723108e-05,
+          "exact_current_pose_k": -2.706464314479462e-05
+        },
+        {
+          "t": 11.049333333333257,
+          "image_target_w": -0.039675258180516676,
+          "exact_current_pose_target_w": -0.10702724722041822,
+          "image_k": -8.835750484938176e-05,
+          "exact_current_pose_k": -4.996636328440107e-05
+        },
+        {
+          "t": 11.085333333333256,
+          "image_target_w": -0.03696098183332293,
+          "exact_current_pose_target_w": -0.11255877273601474,
+          "image_k": -9.703794131099563e-05,
+          "exact_current_pose_k": -6.0018600793299015e-05
+        },
+        {
+          "t": 11.121333333333256,
+          "image_target_w": -0.07068051067908801,
+          "exact_current_pose_target_w": -0.11739127238045054,
+          "image_k": -0.00010531445634359704,
+          "exact_current_pose_k": -6.997499211862379e-05
+        },
+        {
+          "t": 11.157333333333256,
+          "image_target_w": -0.06863768273920383,
+          "exact_current_pose_target_w": -0.12249334391540126,
+          "image_k": -0.00012104846280495268,
+          "exact_current_pose_k": -8.836290361079191e-05
+        },
+        {
+          "t": 11.193333333333255,
+          "image_target_w": -0.05077210279862356,
+          "exact_current_pose_target_w": -0.12615409405630956,
+          "image_k": -0.0001137125540293521,
+          "exact_current_pose_k": -7.910655104710618e-05
+        },
+        {
+          "t": 11.229333333333255,
+          "image_target_w": -0.06360857716903182,
+          "exact_current_pose_target_w": -0.10821630868734741,
+          "image_k": -0.00012104368456500314,
+          "exact_current_pose_k": -8.835750484960381e-05
+        },
+        {
+          "t": 11.265333333333254,
+          "image_target_w": -0.056533674168888076,
+          "exact_current_pose_target_w": -0.10599641379695293,
+          "image_k": -0.00012872508955717732,
+          "exact_current_pose_k": -9.703794131102339e-05
+        },
+        {
+          "t": 11.301333333333254,
+          "image_target_w": -0.06378477518736694,
+          "exact_current_pose_target_w": -0.1178710550344598,
+          "image_k": -0.00012872508955716344,
+          "exact_current_pose_k": -9.703794131089849e-05
+        }
+      ]
+    }
+  ]
+}

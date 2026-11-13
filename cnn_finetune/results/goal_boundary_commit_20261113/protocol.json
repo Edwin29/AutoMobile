@@ -1,0 +1,40 @@
+{
+  "source_sha256": "07468a936d197e66c89d0a390981a68cb99ed041750028b23e044b232a051b48",
+  "parent_sha256": "447581b32bce9e0cdf8bc61f80b470b7ff994f88729c1cbb57e2750f1ae22efa",
+  "hypothesis": "When nominal forecast is unsafe, prioritize the still-safe remaining previous plan instead of perpetually postponing correction",
+  "change": "retained plan has priority; no zero append; replan when remaining plan has <=6 frames or is unsafe",
+  "unchanged": "same causal observed-push predictor, action grid, horizon, projection objective, physics, scoring, cases",
+  "keys": [
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ]
+  ],
+  "seed": 6202,
+  "presets": [
+    "field_estimate",
+    "sluggish"
+  ],
+  "conditions": [
+    "normal",
+    "mild"
+  ],
+  "interpretation": "No formal recursive-feasibility guarantee; finite forecast and nominal plant remain approximations",
+  "final_exam_used": false
+}

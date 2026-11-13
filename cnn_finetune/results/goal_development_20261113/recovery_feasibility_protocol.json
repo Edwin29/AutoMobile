@@ -1,0 +1,76 @@
+{
+  "source_sha256": "1574d1c414019788cb3ccfce6d323bfd39d90840c986996ae4601818a8906ac0",
+  "cases": 15,
+  "actions": [
+    {
+      "speed_scale": 0.0,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 0.0,
+      "diff_offset": 0.25
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 0.5,
+      "diff_offset": 0.25
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": -0.25
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": -0.12
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.0
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.12
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.25
+    },
+    {
+      "speed_scale": 1.0,
+      "diff_offset": 0.0
+    }
+  ],
+  "root_rule": "72ms after the push immediately preceding the first boundary overlap; failure-selected DEVELOPMENT cases",
+  "intervention_steps": 10,
+  "intervention_s": 0.36,
+  "continuation": "same centered teacher to local endpoint, max 40s",
+  "known_future_used": "offline branch scoring and diagnostic case selection only",
+  "interpretation": "Constructive lower bound on recoverable cases; no online performance claim, no impossibility claim for unsuccessful grid"
+}

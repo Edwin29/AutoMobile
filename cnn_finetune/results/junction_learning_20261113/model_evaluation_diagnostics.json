@@ -1,0 +1,2540 @@
+{
+  "bc": {
+    "by_movement": {
+      "east_W_left": {
+        "n": 12,
+        "stable": 3,
+        "clean": 2,
+        "outcomes": {
+          "stable_exit": 3,
+          "time_limit": 2,
+          "severe_departure": 3,
+          "wrong_exit": 4
+        }
+      },
+      "east_W_right": {
+        "n": 12,
+        "stable": 2,
+        "clean": 0,
+        "outcomes": {
+          "time_limit": 9,
+          "stable_exit": 2,
+          "severe_departure": 1
+        }
+      },
+      "south_N_right": {
+        "n": 12,
+        "stable": 3,
+        "clean": 0,
+        "outcomes": {
+          "time_limit": 7,
+          "stable_exit": 3,
+          "severe_departure": 2
+        }
+      },
+      "center_N_right": {
+        "n": 12,
+        "stable": 8,
+        "clean": 0,
+        "outcomes": {
+          "time_limit": 3,
+          "stable_exit": 8,
+          "severe_departure": 1
+        }
+      }
+    },
+    "by_seed": {
+      "3001": {
+        "n": 16,
+        "stable": 4,
+        "clean": 1,
+        "outcomes": {
+          "stable_exit": 4,
+          "time_limit": 11,
+          "severe_departure": 1
+        }
+      },
+      "3007": {
+        "n": 16,
+        "stable": 8,
+        "clean": 0,
+        "outcomes": {
+          "wrong_exit": 2,
+          "severe_departure": 4,
+          "stable_exit": 8,
+          "time_limit": 2
+        }
+      },
+      "3011": {
+        "n": 16,
+        "stable": 4,
+        "clean": 1,
+        "outcomes": {
+          "stable_exit": 4,
+          "wrong_exit": 2,
+          "severe_departure": 2,
+          "time_limit": 8
+        }
+      }
+    },
+    "timeouts": [
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "mild",
+        "seed": 3001,
+        "forward_cm": 86.18208499813832,
+        "lateral_cm": 66.77320672406051,
+        "heading_deg": 93.1649361804043,
+        "final_margin_cm": 4.5280123944287,
+        "last5_abs_speed_cm_s": 4.477009126106696,
+        "outside_s": 0.4840000000000195
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 83.71863301181062,
+        "lateral_cm": 55.48730809573288,
+        "heading_deg": 91.09182546342092,
+        "final_margin_cm": 2.236589380845686,
+        "last5_abs_speed_cm_s": 4.396437429486348,
+        "outside_s": 16.63600000000039
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3001,
+        "forward_cm": 77.59855138706028,
+        "lateral_cm": 78.17125194776168,
+        "heading_deg": 122.11772867465916,
+        "final_margin_cm": -0.2503594688573312,
+        "last5_abs_speed_cm_s": 4.437337347557876,
+        "outside_s": 11.628000000000059
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 3001,
+        "forward_cm": 78.03185170414959,
+        "lateral_cm": 76.99545828977452,
+        "heading_deg": 116.11750126632903,
+        "final_margin_cm": -0.5919093215910394,
+        "last5_abs_speed_cm_s": 4.546088425033746,
+        "outside_s": 11.072000000000155
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3001,
+        "forward_cm": 77.23890471853692,
+        "lateral_cm": 80.34777452456238,
+        "heading_deg": 139.71124759718134,
+        "final_margin_cm": 0.6693286738008819,
+        "last5_abs_speed_cm_s": 4.240067061078914,
+        "outside_s": 13.572000000000186
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 85.25224879994312,
+        "lateral_cm": 55.41708825819221,
+        "heading_deg": 90.23866002591788,
+        "final_margin_cm": 3.9541662799097566,
+        "last5_abs_speed_cm_s": 4.328558668375291,
+        "outside_s": 10.528000000000208
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3001,
+        "forward_cm": 78.79396666324645,
+        "lateral_cm": 72.74653187887922,
+        "heading_deg": 115.85050007003363,
+        "final_margin_cm": -1.2562449388818013,
+        "last5_abs_speed_cm_s": 4.494996273901578,
+        "outside_s": 13.673333333333607
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 3001,
+        "forward_cm": 79.37895170551057,
+        "lateral_cm": 69.6026142256498,
+        "heading_deg": 117.03674471563843,
+        "final_margin_cm": -2.136230590792575,
+        "last5_abs_speed_cm_s": 4.481963612443943,
+        "outside_s": 14.761333333333647
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 83.39337652482595,
+        "lateral_cm": 60.1380575657701,
+        "heading_deg": 96.03172037142086,
+        "final_margin_cm": 0.6126324946206978,
+        "last5_abs_speed_cm_s": 3.9958805221165776,
+        "outside_s": 21.153333333333848
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3001,
+        "forward_cm": 82.41266363022463,
+        "lateral_cm": 63.35798047806076,
+        "heading_deg": 111.71522646571806,
+        "final_margin_cm": -0.9314522665869553,
+        "last5_abs_speed_cm_s": 4.48601375969194,
+        "outside_s": 12.84933333333332
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 81.78944949792728,
+        "lateral_cm": 59.693556367482294,
+        "heading_deg": 102.77487349845946,
+        "final_margin_cm": -1.57755891427278,
+        "last5_abs_speed_cm_s": 2.8635615247305615,
+        "outside_s": 35.653333333334075
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3007,
+        "forward_cm": 81.40281913123697,
+        "lateral_cm": 70.08694982398126,
+        "heading_deg": 101.27093672004216,
+        "final_margin_cm": 0.303694247061161,
+        "last5_abs_speed_cm_s": 4.410062898360298,
+        "outside_s": 7.91999999999992
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3007,
+        "forward_cm": 82.44129386496236,
+        "lateral_cm": 64.17178970109295,
+        "heading_deg": 103.23359673181552,
+        "final_margin_cm": -0.3171136907177825,
+        "last5_abs_speed_cm_s": 4.341777775681025,
+        "outside_s": 7.859999999999995
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3011,
+        "forward_cm": 83.06214629808329,
+        "lateral_cm": 60.42756650344856,
+        "heading_deg": 94.3962390127186,
+        "final_margin_cm": 1.210261798198891,
+        "last5_abs_speed_cm_s": 4.395887879903041,
+        "outside_s": 2.62799999999997
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 3011,
+        "forward_cm": 82.64972683980984,
+        "lateral_cm": 65.04149747185954,
+        "heading_deg": 95.91118501874998,
+        "final_margin_cm": 1.0425450164716494,
+        "last5_abs_speed_cm_s": 4.445259606774312,
+        "outside_s": 5.199999999999942
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3011,
+        "forward_cm": 82.87070325584925,
+        "lateral_cm": 63.4870514733721,
+        "heading_deg": 98.25499079482232,
+        "final_margin_cm": 0.8378249101946142,
+        "last5_abs_speed_cm_s": 4.471326121951703,
+        "outside_s": 4.087999999999954
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3011,
+        "forward_cm": 84.17127504348416,
+        "lateral_cm": 82.08148361694462,
+        "heading_deg": 88.94100574143029,
+        "final_margin_cm": 3.5578359437762757,
+        "last5_abs_speed_cm_s": 4.207543022795068,
+        "outside_s": 18.84400000000036
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3011,
+        "forward_cm": 84.90706052835033,
+        "lateral_cm": 58.594407763032784,
+        "heading_deg": 97.4098394529695,
+        "final_margin_cm": 1.754270530098987,
+        "last5_abs_speed_cm_s": 4.393235431908292,
+        "outside_s": 5.2399999999999505
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 3011,
+        "forward_cm": 84.65200990413493,
+        "lateral_cm": 61.15921915034261,
+        "heading_deg": 99.01169102462323,
+        "final_margin_cm": 1.6644450426623756,
+        "last5_abs_speed_cm_s": 4.458199322944707,
+        "outside_s": 9.35600000000002
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3011,
+        "forward_cm": 83.62844851808501,
+        "lateral_cm": 64.1750048169475,
+        "heading_deg": 103.93564783355647,
+        "final_margin_cm": 0.7764388820571977,
+        "last5_abs_speed_cm_s": 4.353454314711191,
+        "outside_s": 13.892000000000206
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3011,
+        "forward_cm": 77.88458094626,
+        "lateral_cm": 79.2002254777099,
+        "heading_deg": 139.72755912433868,
+        "final_margin_cm": 3.1925876471502352,
+        "last5_abs_speed_cm_s": 3.9892741948851174,
+        "outside_s": 26.800000000000328
+      }
+    ],
+    "timeout_forward40": 21,
+    "timeout_final_in_road": 14,
+    "timeout_last5_abs_speed_under_1": 0,
+    "exit_diagnostics": [
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.513333333333257,
+        "lateral_cm": 0.35782176723384396,
+        "heading_deg": 0.06542886910321631,
+        "margin_cm": 4.63076395952227,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.097333333333243,
+        "lateral_cm": 1.603119263214424,
+        "heading_deg": 1.9549776396423861,
+        "margin_cm": 3.0603954373945044,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 18.285333333333288,
+        "lateral_cm": 5.2260015860672695,
+        "heading_deg": 13.786033539871394,
+        "margin_cm": -2.3785080162972747,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.677333333333204,
+        "lateral_cm": 3.0449070513585212,
+        "heading_deg": 2.007835192512045,
+        "margin_cm": 1.6096429574858746,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.605333333333204,
+        "lateral_cm": 2.181130882114843,
+        "heading_deg": 1.0892492986371292,
+        "margin_cm": 2.6302163297358163,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 14.921333333333212,
+        "lateral_cm": 2.650627198012316,
+        "heading_deg": 1.8951999369146253,
+        "margin_cm": 2.0230344071432427,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.62133333333326,
+        "lateral_cm": 3.019679176491806,
+        "heading_deg": 12.06913318734016,
+        "margin_cm": 0.06623490849003133,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.50533333333322,
+        "lateral_cm": 2.2440627436461824,
+        "heading_deg": 1.799784914417894,
+        "margin_cm": 1.4458137603818102,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.937333333333235,
+        "lateral_cm": 0.9733701653274238,
+        "heading_deg": 0.9981090598280833,
+        "margin_cm": 2.7752622492307637,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.073333333333203,
+        "lateral_cm": 0.41217823852853996,
+        "heading_deg": 0.22836203513217537,
+        "margin_cm": 3.548028715157727,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.117333333333242,
+        "lateral_cm": 2.521473921817986,
+        "heading_deg": 10.007897143825591,
+        "margin_cm": -0.13758353017398406,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.54133333333322,
+        "lateral_cm": 2.1676163084267452,
+        "heading_deg": 3.4726908252895026,
+        "margin_cm": -0.2586544379765918,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.649333333333225,
+        "lateral_cm": 0.8043837256428298,
+        "heading_deg": 0.861164530802638,
+        "margin_cm": 1.546223974050875,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.649333333333225,
+        "lateral_cm": 0.6085550352827312,
+        "heading_deg": 1.4636858809761435,
+        "margin_cm": 1.6386216500053052,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.10133333333321,
+        "lateral_cm": 1.9202368511942107,
+        "heading_deg": 3.9462773924684584,
+        "margin_cm": -0.08947990346219115,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 20.22933333333336,
+        "lateral_cm": 2.725299241702885,
+        "heading_deg": 16.865759211335053,
+        "margin_cm": -0.2824997304624759,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.685333333333226,
+        "lateral_cm": 2.8424285748764646,
+        "heading_deg": 0.8916845433218288,
+        "margin_cm": 2.0029181828894025,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.27733333333325,
+        "lateral_cm": 0.5290434900014986,
+        "heading_deg": 1.254671623410213,
+        "margin_cm": 4.155376738248435,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.81733333333327,
+        "lateral_cm": 0.07738907278343277,
+        "heading_deg": 2.323238666547687,
+        "margin_cm": 4.341399361684594,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.349333333333252,
+        "lateral_cm": 2.06992693095431,
+        "heading_deg": 3.637226263461553,
+        "margin_cm": 1.3117978470940557,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.909333333333272,
+        "lateral_cm": 0.037440977369755046,
+        "heading_deg": 0.3634300040907565,
+        "margin_cm": 3.87074634849138,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.58533333333326,
+        "lateral_cm": 0.1144643255607889,
+        "heading_deg": 0.630499659849019,
+        "margin_cm": 3.775979318533473,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.233333333333285,
+        "lateral_cm": 1.6600806305520042,
+        "heading_deg": 2.2862202532833704,
+        "margin_cm": 0.44737239378163807,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.6453333333333,
+        "lateral_cm": 0.13288718875121108,
+        "heading_deg": 4.358404732189827,
+        "margin_cm": 1.2883173152879763,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.393333333333292,
+        "lateral_cm": 0.3574664698440883,
+        "heading_deg": 4.413482682520122,
+        "margin_cm": 1.0504282395055853,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.233333333333285,
+        "lateral_cm": 0.5884965993707993,
+        "heading_deg": 0.15565618332278425,
+        "margin_cm": 4.372140634131981,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 18.10533333333328,
+        "lateral_cm": 1.6647063458102878,
+        "heading_deg": 0.5683046507011852,
+        "margin_cm": 3.191867122600428,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.349333333333252,
+        "lateral_cm": 3.631380766378143,
+        "heading_deg": 3.6616066512275434,
+        "margin_cm": 0.7463141380767269,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.83733333333327,
+        "lateral_cm": 3.5476535658082184,
+        "heading_deg": 4.7315349174821115,
+        "margin_cm": 0.6547389952431928,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.333333333333208,
+        "lateral_cm": 1.8275464010583562,
+        "heading_deg": 3.8287318618738686,
+        "margin_cm": 2.2220820292508705,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 18.053333333333278,
+        "lateral_cm": 1.6300415266860568,
+        "heading_deg": 1.9364218674807196,
+        "margin_cm": 2.0366219336480214,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.369333333333252,
+        "lateral_cm": 3.477990375301715,
+        "heading_deg": 6.907877644953367,
+        "margin_cm": -0.6226502213625054,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.31333333333325,
+        "lateral_cm": 3.3261049227458273,
+        "heading_deg": 6.613060579317816,
+        "margin_cm": -0.42451311096586153,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": true,
+        "t": 16.0173333333332,
+        "lateral_cm": 7.587150459491539,
+        "heading_deg": 3.9820789063807887,
+        "margin_cm": -4.574781547248435,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.449333333333293,
+        "lateral_cm": 1.6742731591657183,
+        "heading_deg": 3.5062311546053055,
+        "margin_cm": 0.22913071005151764,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.997333333333277,
+        "lateral_cm": 2.8573074543319277,
+        "heading_deg": 8.365096892165269,
+        "margin_cm": -1.7270001931926302,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.981333333333275,
+        "lateral_cm": 2.7290697019966563,
+        "heading_deg": 8.306899943678685,
+        "margin_cm": -1.5898905355206239,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.333333333333208,
+        "lateral_cm": 2.7284762676218195,
+        "heading_deg": 4.962436435310418,
+        "margin_cm": -1.0635153691847954,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      }
+    ],
+    "local_crossing_summary": {
+      "first_cross_correct_direction": 38,
+      "first_cross_whole_prefix_clean": 3,
+      "timeout_max_good_spans_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3040000000000127,
+        0.0,
+        0.0,
+        0.2719999999999967,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exit_diagnostic_definition": "Post-hoc first crossing of target-axis 40cm; abs lateral <15cm, abs heading <30deg (symmetric with existing wrong-exit detector). No sustained alignment requirement. Not replacement of primary success metric."
+  },
+  "outcome": {
+    "by_movement": {
+      "east_W_left": {
+        "n": 12,
+        "stable": 1,
+        "clean": 0,
+        "outcomes": {
+          "severe_departure": 3,
+          "time_limit": 8,
+          "stable_exit": 1
+        }
+      },
+      "east_W_right": {
+        "n": 12,
+        "stable": 4,
+        "clean": 4,
+        "outcomes": {
+          "stable_exit": 4,
+          "time_limit": 7,
+          "severe_departure": 1
+        }
+      },
+      "south_N_right": {
+        "n": 12,
+        "stable": 6,
+        "clean": 4,
+        "outcomes": {
+          "stable_exit": 6,
+          "time_limit": 6
+        }
+      },
+      "center_N_right": {
+        "n": 12,
+        "stable": 5,
+        "clean": 2,
+        "outcomes": {
+          "wrong_exit": 3,
+          "time_limit": 3,
+          "stable_exit": 5,
+          "severe_departure": 1
+        }
+      }
+    },
+    "by_seed": {
+      "3001": {
+        "n": 16,
+        "stable": 4,
+        "clean": 2,
+        "outcomes": {
+          "severe_departure": 3,
+          "time_limit": 7,
+          "stable_exit": 4,
+          "wrong_exit": 2
+        }
+      },
+      "3007": {
+        "n": 16,
+        "stable": 4,
+        "clean": 3,
+        "outcomes": {
+          "time_limit": 11,
+          "stable_exit": 4,
+          "severe_departure": 1
+        }
+      },
+      "3011": {
+        "n": 16,
+        "stable": 8,
+        "clean": 5,
+        "outcomes": {
+          "time_limit": 6,
+          "stable_exit": 8,
+          "severe_departure": 1,
+          "wrong_exit": 1
+        }
+      }
+    },
+    "timeouts": [
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "mild_light",
+        "seed": 3001,
+        "forward_cm": 81.30815493581083,
+        "lateral_cm": 94.50292519606919,
+        "heading_deg": 76.20475026190553,
+        "final_margin_cm": 2.502987328025176,
+        "last5_abs_speed_cm_s": 4.404664137134097,
+        "outside_s": 16.632000000000428
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3001,
+        "forward_cm": 83.28352047967857,
+        "lateral_cm": 87.78916886803252,
+        "heading_deg": 96.84465222458894,
+        "final_margin_cm": 1.7987065514076015,
+        "last5_abs_speed_cm_s": 4.911979678334435,
+        "outside_s": 0.0
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 86.61478119783344,
+        "lateral_cm": 55.89496594407123,
+        "heading_deg": 89.37877316924046,
+        "final_margin_cm": 2.478476535909678,
+        "last5_abs_speed_cm_s": 4.541583497447007,
+        "outside_s": 10.332000000000308
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3001,
+        "forward_cm": 85.81391117983647,
+        "lateral_cm": 84.49309151312423,
+        "heading_deg": 97.43271897077695,
+        "final_margin_cm": 4.3655236097600625,
+        "last5_abs_speed_cm_s": 4.967011538839782,
+        "outside_s": 4.461333333333289
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 90.20729078101213,
+        "lateral_cm": 62.68042153547164,
+        "heading_deg": 90.51936071377365,
+        "final_margin_cm": 1.9523935780465962,
+        "last5_abs_speed_cm_s": 4.66638335820068,
+        "outside_s": 12.513333333333565
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3001,
+        "forward_cm": 84.90832611609461,
+        "lateral_cm": 63.576280023674165,
+        "heading_deg": 107.5602103976307,
+        "final_margin_cm": 1.9219372016004783,
+        "last5_abs_speed_cm_s": 4.505708356118474,
+        "outside_s": 0.3573333333333313
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3001,
+        "forward_cm": 89.44927775881666,
+        "lateral_cm": 44.68880921195783,
+        "heading_deg": 90.1743591857911,
+        "final_margin_cm": 2.770327912242493,
+        "last5_abs_speed_cm_s": 4.40626445982705,
+        "outside_s": 15.137333333333656
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "normal",
+        "seed": 3007,
+        "forward_cm": 79.29514798060414,
+        "lateral_cm": 69.05199281385453,
+        "heading_deg": 117.83450714494073,
+        "final_margin_cm": -3.1380601167146462,
+        "last5_abs_speed_cm_s": 4.4998535090942156,
+        "outside_s": 8.100000000000307
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "mild",
+        "seed": 3007,
+        "forward_cm": 74.76115238753253,
+        "lateral_cm": 74.15478815019635,
+        "heading_deg": 129.05797382242648,
+        "final_margin_cm": -4.969598004338984,
+        "last5_abs_speed_cm_s": 4.629182270738425,
+        "outside_s": 11.62400000000044
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "mild_light",
+        "seed": 3007,
+        "forward_cm": 76.18294044912939,
+        "lateral_cm": 72.21841625071437,
+        "heading_deg": 132.8565097905468,
+        "final_margin_cm": -5.443556517042695,
+        "last5_abs_speed_cm_s": 4.6495261283974845,
+        "outside_s": 11.736000000000445
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "harsh",
+        "seed": 3007,
+        "forward_cm": 83.69627618567107,
+        "lateral_cm": 55.884513542882004,
+        "heading_deg": 97.50148328175916,
+        "final_margin_cm": 0.7533466152864428,
+        "last5_abs_speed_cm_s": 4.154407095612757,
+        "outside_s": 8.224000000000096
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "normal",
+        "seed": 3007,
+        "forward_cm": 85.21459486626523,
+        "lateral_cm": 80.05826260270061,
+        "heading_deg": 96.51025687829389,
+        "final_margin_cm": 2.9531817623691836,
+        "last5_abs_speed_cm_s": 4.799205076193471,
+        "outside_s": 0.0
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 3007,
+        "forward_cm": 86.8087839943771,
+        "lateral_cm": 70.21784372359507,
+        "heading_deg": 94.41846263591736,
+        "final_margin_cm": 1.694589091413576,
+        "last5_abs_speed_cm_s": 4.781697911872186,
+        "outside_s": 0.0
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3007,
+        "forward_cm": 85.95170399431514,
+        "lateral_cm": 64.4689403238411,
+        "heading_deg": 91.572303796078,
+        "final_margin_cm": 3.02692370336959,
+        "last5_abs_speed_cm_s": 4.722297753213186,
+        "outside_s": 0.0
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3007,
+        "forward_cm": 80.61058169641773,
+        "lateral_cm": 70.41031193951241,
+        "heading_deg": 100.78734308406806,
+        "final_margin_cm": -0.4059913822247889,
+        "last5_abs_speed_cm_s": 3.9593316686478492,
+        "outside_s": 14.884000000000446
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild",
+        "seed": 3007,
+        "forward_cm": 88.43031310853229,
+        "lateral_cm": 67.11381264570778,
+        "heading_deg": 94.30260109272403,
+        "final_margin_cm": 3.091993096411045,
+        "last5_abs_speed_cm_s": 4.808266997813645,
+        "outside_s": 0.1999999999999975
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3007,
+        "forward_cm": 87.50249209219542,
+        "lateral_cm": 63.72710428416045,
+        "heading_deg": 96.0747740038684,
+        "final_margin_cm": 3.7341680686596987,
+        "last5_abs_speed_cm_s": 4.783550713279228,
+        "outside_s": 0.0
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3007,
+        "forward_cm": 82.28935645083008,
+        "lateral_cm": 59.57981145471013,
+        "heading_deg": 98.84804658835607,
+        "final_margin_cm": -0.8980368102229672,
+        "last5_abs_speed_cm_s": 4.156105001261256,
+        "outside_s": 18.896000000000374
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "normal",
+        "seed": 3011,
+        "forward_cm": 74.8670286574602,
+        "lateral_cm": 76.40821503579905,
+        "heading_deg": 116.40571205376229,
+        "final_margin_cm": -3.6719140261372525,
+        "last5_abs_speed_cm_s": 4.344090210372342,
+        "outside_s": 17.67600000000042
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "mild_light",
+        "seed": 3011,
+        "forward_cm": 76.16043875909789,
+        "lateral_cm": 74.89210151043235,
+        "heading_deg": 125.08810395778174,
+        "final_margin_cm": -3.276719806579444,
+        "last5_abs_speed_cm_s": 4.679392147612228,
+        "outside_s": 12.992000000000491
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "condition": "harsh",
+        "seed": 3011,
+        "forward_cm": 73.4565223400499,
+        "lateral_cm": 75.37540121655461,
+        "heading_deg": 139.6951141597819,
+        "final_margin_cm": -5.5574743723426465,
+        "last5_abs_speed_cm_s": 4.000498738442651,
+        "outside_s": 23.616000000000643
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "condition": "mild_light",
+        "seed": 3011,
+        "forward_cm": 86.60241235095197,
+        "lateral_cm": 72.0220313163169,
+        "heading_deg": 92.3164243505119,
+        "final_margin_cm": 2.2499426602760764,
+        "last5_abs_speed_cm_s": 4.770195760169633,
+        "outside_s": 0.7919999999999918
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3011,
+        "forward_cm": 88.98111753799589,
+        "lateral_cm": 74.49582209390086,
+        "heading_deg": 89.38633261598382,
+        "final_margin_cm": 3.114041800235782,
+        "last5_abs_speed_cm_s": 5.016353801352997,
+        "outside_s": 10.800000000000203
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "condition": "harsh",
+        "seed": 3011,
+        "forward_cm": 87.63161610505799,
+        "lateral_cm": 65.69535227920896,
+        "heading_deg": 103.87217474235977,
+        "final_margin_cm": 2.454153707580673,
+        "last5_abs_speed_cm_s": 4.952949125115283,
+        "outside_s": 19.780000000000168
+      }
+    ],
+    "timeout_forward40": 24,
+    "timeout_final_in_road": 16,
+    "timeout_last5_abs_speed_under_1": 0,
+    "exit_diagnostics": [
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "severe_departure",
+        "crossed40": true,
+        "t": 15.693333333333204,
+        "lateral_cm": 1.5524325725717176,
+        "heading_deg": 3.8022810804052156,
+        "margin_cm": 2.503629230439671,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "severe_departure",
+        "crossed40": true,
+        "t": 15.281333333333208,
+        "lateral_cm": 1.4610492751815087,
+        "heading_deg": 4.20500923415137,
+        "margin_cm": 2.4972680113791057,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 14.705333333333215,
+        "lateral_cm": 2.6625781197933662,
+        "heading_deg": 2.3116886186677736,
+        "margin_cm": 1.7590657149534366,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": true,
+        "t": 15.513333333333206,
+        "lateral_cm": 3.585141503393558,
+        "heading_deg": 3.9506071487021948,
+        "margin_cm": 0.7449031814411597,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.629333333333225,
+        "lateral_cm": 0.34441393067956483,
+        "heading_deg": 4.960225897360218,
+        "margin_cm": 3.820904640848056,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.52133333333322,
+        "lateral_cm": 1.1094580510394394,
+        "heading_deg": 5.09252576214759,
+        "margin_cm": 3.034477098402519,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.281333333333208,
+        "lateral_cm": 0.4547281398988048,
+        "heading_deg": 0.9248204989819768,
+        "margin_cm": 4.384909367898459,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 20.177333333333358,
+        "lateral_cm": 1.0611581025206789,
+        "heading_deg": 14.165578648425718,
+        "margin_cm": 1.7348522002202174,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.377333333333215,
+        "lateral_cm": 0.1949452901679365,
+        "heading_deg": 1.1051310980774582,
+        "margin_cm": 3.6136729949358113,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.26933333333321,
+        "lateral_cm": 1.1033753723156678,
+        "heading_deg": 0.1670254842108323,
+        "margin_cm": 2.8675072148795238,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.333333333333208,
+        "lateral_cm": 0.4478003780864839,
+        "heading_deg": 1.4367259905309469,
+        "margin_cm": 3.191156550332664,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.413333333333217,
+        "lateral_cm": 4.0126461524079815,
+        "heading_deg": 6.707287362632113,
+        "margin_cm": -1.1258631311922613,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "normal",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.325333333333212,
+        "lateral_cm": 1.383816148631426,
+        "heading_deg": 0.7432067682957658,
+        "margin_cm": 0.9287767713663087,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3001,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 14.777333333333214,
+        "lateral_cm": 0.34390462565633,
+        "heading_deg": 4.011517156301336,
+        "margin_cm": 1.4761253590114762,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.369333333333252,
+        "lateral_cm": 1.8645828068382713,
+        "heading_deg": 0.0535859895340956,
+        "margin_cm": 3.126068173806658,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.649333333333225,
+        "lateral_cm": 4.270408159989302,
+        "heading_deg": 1.2372830895526328,
+        "margin_cm": 0.5155272319277486,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.08133333333324,
+        "lateral_cm": 4.364246275449247,
+        "heading_deg": 0.29975009235998534,
+        "margin_cm": 0.5835471821451961,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 18.10533333333328,
+        "lateral_cm": 5.174966345283664,
+        "heading_deg": 9.184957755774162,
+        "margin_cm": -1.6686122181150154,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.181333333333207,
+        "lateral_cm": 0.96975376892226,
+        "heading_deg": 0.9755632534170325,
+        "margin_cm": 3.784529311531415,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.98933333333324,
+        "lateral_cm": 1.7701759706903033,
+        "heading_deg": 3.0580809621648672,
+        "margin_cm": 2.707733841746858,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.693333333333264,
+        "lateral_cm": 2.6488876471482428,
+        "heading_deg": 4.671767315031528,
+        "margin_cm": 1.5632171991902482,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 18.285333333333288,
+        "lateral_cm": 2.2669321219781295,
+        "heading_deg": 4.569459971752398,
+        "margin_cm": 1.9618199410461017,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.613333333333223,
+        "lateral_cm": 0.1144552577600848,
+        "heading_deg": 2.447620342560603,
+        "margin_cm": 3.4657828766523124,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.08133333333324,
+        "lateral_cm": 2.10292970477488,
+        "heading_deg": 1.7711421833741967,
+        "margin_cm": 1.5918188655061698,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.441333333333255,
+        "lateral_cm": 2.2072958523545623,
+        "heading_deg": 1.379228198263964,
+        "margin_cm": 1.5543244101136224,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 19.36533333333333,
+        "lateral_cm": 3.929687150391999,
+        "heading_deg": 15.455586776588868,
+        "margin_cm": -2.3052989833115163,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.141333333333282,
+        "lateral_cm": 0.02846708531417896,
+        "heading_deg": 2.461022251758633,
+        "margin_cm": 1.8562854466519738,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.285333333333288,
+        "lateral_cm": 1.138499075475867,
+        "heading_deg": 2.0677196656657313,
+        "margin_cm": 1.0059030513028233,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.213333333333285,
+        "lateral_cm": 1.1272806535754805,
+        "heading_deg": 3.1684313399856583,
+        "margin_cm": 0.832234608507548,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3007,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.181333333333207,
+        "lateral_cm": 1.9360288557117684,
+        "heading_deg": 5.139500144962857,
+        "margin_cm": 1.7972109574814823,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 16.25333333333321,
+        "lateral_cm": 0.6073853464084635,
+        "heading_deg": 1.5737081685662018,
+        "margin_cm": 4.121002717138239,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.449333333333218,
+        "lateral_cm": 1.2029464262392224,
+        "heading_deg": 0.06471571773685837,
+        "margin_cm": 3.7806808962365466,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "left"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 16.649333333333225,
+        "lateral_cm": 2.618575656144401,
+        "heading_deg": 5.201477421101059,
+        "margin_cm": 1.507785254830992,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.141333333333282,
+        "lateral_cm": 1.4019017303016597,
+        "heading_deg": 3.683422560850737,
+        "margin_cm": 2.972188510778267,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.405333333333253,
+        "lateral_cm": 0.8599644459828539,
+        "heading_deg": 2.4494303852267074,
+        "margin_cm": 3.5276496427302533,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 17.153333333333244,
+        "lateral_cm": 0.9993998395671895,
+        "heading_deg": 2.243689494943869,
+        "margin_cm": 3.439061787184926,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "east",
+          "W",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "severe_departure",
+        "crossed40": true,
+        "t": 17.009333333333238,
+        "lateral_cm": 7.035697693704847,
+        "heading_deg": 16.55468253713157,
+        "margin_cm": -5.8355729881612035,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.34133333333329,
+        "lateral_cm": 0.8032442051220698,
+        "heading_deg": 1.4149189457723557,
+        "margin_cm": 2.95227019868949,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.62133333333326,
+        "lateral_cm": 1.4695227449455786,
+        "heading_deg": 3.5654927645190058,
+        "margin_cm": 1.9240680261290777,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 17.513333333333257,
+        "lateral_cm": 1.087534717802555,
+        "heading_deg": 3.6489816386762883,
+        "margin_cm": 2.292246800471659,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "south",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 15.389333333333207,
+        "lateral_cm": 0.2969697081919662,
+        "heading_deg": 2.988011315042099,
+        "margin_cm": 3.1926365832870403,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "normal",
+        "outcome": "wrong_exit",
+        "crossed40": false,
+        "ever_correct_exit_corridor": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.753333333333305,
+        "lateral_cm": 1.4807001773985273,
+        "heading_deg": 6.749264118838859,
+        "margin_cm": -0.10050633840734946,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": false
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "mild_light",
+        "outcome": "stable_exit",
+        "crossed40": true,
+        "t": 18.6453333333333,
+        "lateral_cm": 0.7728793402256033,
+        "heading_deg": 5.790345697069561,
+        "margin_cm": 0.7590522890159548,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      },
+      {
+        "key": [
+          "center",
+          "N",
+          "right"
+        ],
+        "seed": 3011,
+        "condition": "harsh",
+        "outcome": "time_limit",
+        "crossed40": true,
+        "t": 14.921333333333212,
+        "lateral_cm": 1.2946466976274085,
+        "heading_deg": 6.3113343923270655,
+        "margin_cm": 0.15453011012727558,
+        "ever_correct_exit_corridor": true,
+        "first_cross_in_road": true
+      }
+    ],
+    "local_crossing_summary": {
+      "first_cross_correct_direction": 44,
+      "first_cross_whole_prefix_clean": 18,
+      "timeout_max_good_spans_s": [
+        0.0,
+        0.3599999999999959,
+        0.0,
+        0.2879999999999967,
+        0.0,
+        0.0,
+        0.7199999999999918,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.34000000000001407,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.19599999999999795,
+        0.6640000000000263
+      ]
+    },
+    "exit_diagnostic_definition": "Post-hoc first crossing of target-axis 40cm; abs lateral <15cm, abs heading <30deg (symmetric with existing wrong-exit detector). No sustained alignment requirement. Not replacement of primary success metric."
+  },
+  "both_success_count": 5,
+  "both_success_medians": {
+    "bc": {
+      "stable_exit_s": 22.56933333333345,
+      "outside_s": 5.363999999999971,
+      "angular_accel_rms_rad_s2": 0.2216940424672635,
+      "accel_rms_cm_s2": 2.4845027201656005,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0
+    },
+    "outcome": {
+      "stable_exit_s": 19.96133333333335,
+      "outside_s": 0.8080000000000318,
+      "angular_accel_rms_rad_s2": 0.21957217102752805,
+      "accel_rms_cm_s2": 2.6497182386168237,
+      "unnecessary_stop_s": 0.0,
+      "translation_pause_s": 0.0
+    }
+  },
+  "teacher_train_summary": {
+    "n": 96,
+    "stable": 94,
+    "clean": 60,
+    "outcomes": {
+      "stable_exit": 94,
+      "severe_departure": 2
+    }
+  },
+  "dev": {
+    "dev_bc_4": {
+      "n": 16,
+      "stable": 5,
+      "clean": 1,
+      "outcomes": {
+        "wrong_exit": 3,
+        "time_limit": 8,
+        "stable_exit": 5
+      }
+    },
+    "dev_bc_8": {
+      "n": 16,
+      "stable": 4,
+      "clean": 1,
+      "outcomes": {
+        "wrong_exit": 3,
+        "time_limit": 9,
+        "stable_exit": 4
+      }
+    },
+    "dev_outcome_4": {
+      "n": 16,
+      "stable": 3,
+      "clean": 1,
+      "outcomes": {
+        "wrong_exit": 7,
+        "time_limit": 6,
+        "stable_exit": 3
+      }
+    },
+    "dev_outcome_8": {
+      "n": 16,
+      "stable": 5,
+      "clean": 4,
+      "outcomes": {
+        "wrong_exit": 6,
+        "stable_exit": 5,
+        "time_limit": 3,
+        "severe_departure": 2
+      }
+    }
+  }
+}

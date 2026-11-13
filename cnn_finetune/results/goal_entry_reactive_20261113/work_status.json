@@ -1,0 +1,61 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "stage": "constructive_entry_recovery_and_causal_teacher_validated_mission_contract_drafted",
+  "new_training": false,
+  "training_initializations": 1,
+  "final_exam_used": false,
+  "reserved_final_seeds": [
+    900000,
+    999999
+  ],
+  "actor_input_contract_changed": false,
+  "acceptance_changed": false,
+  "deployed_model_changed": false,
+  "incumbent_reference_checkpoint": "D:/autodrive_cnn/runs/goal_development_20261113/convergence_probe/best.pt",
+  "incumbent_reference_clean": 37,
+  "incumbent_reference_n": 72,
+  "new_models_adopted": false,
+  "latest_reports": [
+    "cnn_finetune/results/goal_entry_reactive_20261113/REPORT.md",
+    "cnn_finetune/results/goal_entry_robust_20261113/REPORT.md",
+    "cnn_finetune/results/goal_mission_contract_20261113/README.md"
+  ],
+  "completed_current_comparison": {
+    "counterfactual_roots": 99,
+    "short_branches": 9108,
+    "full_branch_continuations": 426,
+    "causal_input_root_choices": 720,
+    "prospective_causal_teacher_rollouts": 1920,
+    "nominal_constant_motion_parity_cases": 36,
+    "cutoff_forecast_parity_cases": 18,
+    "future_event_invariance_checks": 8,
+    "static_policy_verified_routes": 32,
+    "compact_route_suite": 8,
+    "episode_gate_checks": 10,
+    "neural_training_runs": 0
+  },
+  "findings": [
+    "Constructive post-observation recovery found53/93 failed entry roots without stop/reverse;1/6 latency-limited cases recoverable from an earlier root. Future-selected branches are not an online policy or approved labels",
+    "Short-duration predictors produced1797/1153 false-safe predictions among8556 development branches; duration-ensemble minimum reduced this to3, at the cost of752 false-unsafe predictions",
+    "Single offline event-aligned decision: duration-uncertainty179/240 clean versus147 baseline, but8 prior successes lost; not adopted",
+    "Causal observed-motion trigger on new6601/6602 seeds: hold035 entry108/120 vs78 baseline, middle117/120 vs117, exit100/120 vs83;47 gains and0 losses over360 event-exposed local episodes",
+    "All four prospective teachers480each reachedstableexit; no-event120each exactly match baseline physics; no imagery or lighting validation",
+    "Robust fallback loses4 previous successes and causes7 low-translation pauses; refusing unsafe fallback avoids regressions but yields fewer recoveries thanhold035",
+    "Strict clean_moving extra diagnostic flags8 baseline startup reverse motions of.006-.028cm before.522s; distinguish from turn-only smoothness objective",
+    "Full-mission static draft covers28 required movements using8 routes selected from32 policy-verified CW/CCW routes; new route+continuous-clearance gate rejects wrong,missing,extra passages. No full-mission driving performed"
+  ],
+  "next": [
+    "Freeze hold035 as next development candidate, validate repeated clock disturbances and fixed normal across all28 movements on fresh6701-6708 seeds; include straight transitions",
+    "If confirmed, collect matched visual data including strong lighting, then controlled student training comparison without changing actor inputs; no claim teacher rates transfer automatically",
+    "Maintain motion-quality and latency audits; investigate remaining entry failures and actual legacy paired time/curvature behavior",
+    "Implement full-mission actor integration without truth-based junction triggering; use static route draft and fail-closed episode gate, then freeze final mission and feasible harsh manifests",
+    "Three independent neural initializations and held-out final examination remain required; do not use900000-999999 for development"
+  ],
+  "user_decision_boundaries": [
+    "Acceptance thresholds",
+    "Actor input contract",
+    "Fundamental architecture or scope transition"
+  ],
+  "previous_goal_turn_classification": "progress"
+}

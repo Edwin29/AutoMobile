@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "direction": "ccw",
+  "motor": {
+    "cm_s_per_duty": 16.0,
+    "track_cm": 13.0,
+    "start_duty": 0.28,
+    "pwm_floor": 0.3,
+    "pwm_max": 0.6,
+    "cruise_duty": 0.36,
+    "slew_per_s": 1.5,
+    "corner_pwm_max": 0.6,
+    "yaw_gain_left": 0.63,
+    "yaw_gain_right": 0.62
+  },
+  "steer": {
+    "local_lookahead_cm": 14.0,
+    "heading_lookahead_cm": 12.0,
+    "corner_window_cm": 35.0,
+    "corner_k_full": 0.03,
+    "k_max": 0.16,
+    "preview_start_cm": 2.0,
+    "preview_len_cm": 12.0,
+    "lat_lookahead_cm": 25.0,
+    "bias_learn_max_corner": 0.1,
+    "bias_learn_max_heading_rad": 0.08,
+    "bias_learn_max_k": 0.012,
+    "bias_max_cm": 5.0,
+    "k_smooth_tau_s": 0.075,
+    "bias_tau_s": 1.3,
+    "bias_use_after_s": 0.3,
+    "bias_learn_max_inferred": 0.2,
+    "default_lane_width_cm": 26.0,
+    "bias_probe_cm": 25.0,
+    "bias_lane_width_cm": [
+      23.0,
+      27.0
+    ]
+  },
+  "map": {
+    "prior_weight": 0.3,
+    "fade_cm": 40.0,
+    "fade_s": 3.0,
+    "sigma_full_cm": 3.0,
+    "sigma_zero_cm": 8.0,
+    "max_route_offset_cm": 10.0,
+    "reloc_after_s": 0.5,
+    "reloc_period_s": 0.6,
+    "reloc_arcs_cm": [
+      0,
+      -8,
+      8,
+      -16,
+      16,
+      -24,
+      24,
+      -32,
+      32
+    ],
+    "reloc_max_rms_cm": 1.2,
+    "sigma_per_cm": [
+      0.12,
+      0.12,
+      0.006
+    ],
+    "sigma_per_rad": [
+      0.5,
+      0.5,
+      0.15
+    ],
+    "sigma_idle_per_s": [
+      0.02,
+      0.02,
+      0.001
+    ],
+    "map_only_min_w": 0.4,
+    "map_only_after_lane_s": 1.5,
+    "disagree_min_k": 0.02,
+    "disagree_k": 0.04,
+    "disagree_decay": 0.6,
+    "trust_recover": 0.03
+  },
+  "lost": {
+    "coast_s": 0.6,
+    "coast_turn_s": 1.5,
+    "turning_k": 0.02,
+    "max_frame_age_s": 1.0,
+    "lane_confirm_s": 0.12
+  },
+  "notes": {
+    "principle": "로컬 선 추종이 항상 운전하고, 지도는 신뢰도(w)만큼 조향에 섞인다. 지도/계획 실패는 정지 사유가 아니다.",
+    "stops": "프로그램 종료는 stop 인터럽트(Ctrl+C, SIGTERM, 차량 버튼)뿐. 도로가 coast_s 이상 안 보이면 출력만 0으로 두고 계속 관측한다.",
+    "motor": "start_duty 미만은 바퀴가 안 돈다고 예측한다(11/10 실측: 0.30에서 네 바퀴 출발). 비율을 유지하며 두 바퀴를 floor 이상으로 올린다. floor~max로 못 만드는 급코너(R<~19cm)는 안쪽 바퀴를 floor/0 사이에서 시간 평균(디더링)한다.",
+    "uncertainty": "정지 중에는 공분산이 거의 늘지 않는다(이동거리·회전량 비례). 값은 임시 공학값이다.",
+    "fusion": "지도는 가로 위치를 쓰지 않는다(실주행 재생에서 지도 자세가 4~5cm 옆으로 치우침). 지도는 '트랙의 어디쯤인가'만 제공: 차축 위치의 경로 곡률(k_ff)+진행방향 정렬(k_head). 직선은 카메라 추종, 코너는 w*corner 비율로 지도 타이밍이 우선.",
+    "clutter": "11/10 dry 시험: 트랙 밖(사람·책상)에서 경로 재정합이 잡동사니 3조각에 맞았다. 재정합은 카메라가 차선을 볼 때만, 지도 단독 주행은 차선을 본 지 1.5초 이내일 때만 허용.",
+    "trust": "11/10 이어서 주행(200105): 출발 가정 위치가 틀려 비슷한 코너·직선에 잘못 정합. 카메라와 지도가 반대 방향 회전을 주장하면 지도 신뢰도를 0.6배씩 깎는다. 코너 안에서 카메라를 놓치면 회전을 1.5초까지 유지.",
+    "corner_v2": "11/10 실주행 195808: 실제 회전량은 명령의 약 0.6(스키드 미끄러짐) -> yaw_gain 0.6. 코너 진입은 차축 앞 2~14cm 곡률 평균으로 미리 시작, 코너에서 바깥 바퀴 상한 0.5. 직선에서 지도-카메라 가로 차이(bias)를 학습해 코너에서 보정된 지도 가로 위치로 피드백. 0.4초 앞 차체가 선 1cm 안으로 오면 반대쪽으로 곡률 추가(정지하지 않음).",
+    "turn_gain": "v2 출력 보상(feedback_driver.Feedback) 이식: 좌우 분리 회전 효율. 시작값은 v2 실주행 11/06 학습값(좌 평균 약 0.63, 우 0.62). 11/10 v4 실주행 측정(좌 0.58~0.60)과 일치. 주행 중 신뢰도 높은 연속 지도 정합의 회전량/이상 회전량 비율로 갱신, 1회 ±0.04, 범위 0.5~1.0. v2 0.65deg 적합오차 기준은 v4 지도 잡음을 감안해 1.5deg로 완화.",
+    "bench_fixes_20261111": "공통 시뮬레이터 230회 분석 후 수정: 치우침은 양쪽 선이 보일 때만 학습, 한쪽 선 추정에 지도 도로 폭(26/24cm) 사용, 코너 출력 상한 0.6, 안쪽 바퀴 번갈아 주기를 평균 회전량/평균 속도 기준으로, 코너 방향 보정 강화(20->12cm), 출발 최소 출력 자동 상향(최대 +0.10), 학습·보정 기준을 프레임 수 대신 시간 기준으로.",
+    "bias_probe": "치우침 비교 위치: 차축이 아니라 25cm 앞. 카메라가 보는 첫 줄(~19cm)에서 차축까지 거꾸로 늘리면 기울기 오차가 3~4cm로 커졌음. 도로 폭이 23~27cm가 아닌 곳(삼거리 입구 등)에서는 학습하지 않음.",
+    "guard_without_bias": "벤치 회귀(무작위 차 111): 쏠리는 차는 직선에서도 조향하므로 치우침을 못 배웠고, 가드도 배움을 기다리다 꺼져 있었음. 직선 판단은 지도 곡률로만 하고, 가드는 배우기 전(치우침 0)에도 동작."
+  },
+  "guard": {
+    "horizon_s": 0.4,
+    "step_s": 0.1,
+    "clearance_cm": 2.0,
+    "gain": 0.02,
+    "approach_cm": 0.2,
+    "max_push": 0.03,
+    "min_bias_s": 0.0
+  },
+  "yaw_learn": {
+    "enabled": true,
+    "min_step_deg": 0.12,
+    "min_raw_deg": 10.0,
+    "max_elapsed_s": 2.0,
+    "max_fit_err_deg": 1.5,
+    "ratio_range": [
+      0.45,
+      1.05
+    ],
+    "rate": 0.5,
+    "max_step": 0.04,
+    "bounds": [
+      0.5,
+      1.0
+    ],
+    "max_gap_s": 1.2,
+    "min_elapsed_s": 0.3
+  },
+  "floor_learn": {
+    "enabled": true,
+    "window_s": 1.0,
+    "max_gap_s": 1.2,
+    "min_pred_cm": 2.0,
+    "stall_ratio": 0.3,
+    "near_floor": 0.06,
+    "yaw_err_deg": 6.0,
+    "step": 0.02,
+    "max_raise": 0.1,
+    "cooldown_s": 2.0,
+    "straight_dpwm": 0.1
+  },
+  "exposure": {
+    "enabled": true,
+    "hi_min": 170,
+    "lo_max": 75,
+    "max_gain": 3.0,
+    "note": "v4가 보는 바닥 영역의 밝기 범위. 11/10 v4 실주행 1,068프레임에서 상위 3% 밝기는 99%가 172 이상, 하위 3%는 99%가 71 이하였다. 그 범위 안이면 손대지 않고, 어둡거나 뿌연 화면만 범위 안으로 늘린다. bench realcam_exposure 0/4 출발 문제 대응(2026-11-11)."
+  }
+}

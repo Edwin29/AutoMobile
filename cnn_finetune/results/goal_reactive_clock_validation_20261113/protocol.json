@@ -1,0 +1,355 @@
+{
+  "source_sha256": "6b17a60f6c010592ae9cace751f8cdd12a6cff29f1b80d192134813a76184367",
+  "hashes": {
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_E_right\\reference.npz": "b3879da1e2ac23a970147e6abc8969a3d8956a56814b1e1530aa6518610d4f35",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_N_right\\reference.npz": "f5bd8acdc5b35e082454b9ef177a94917b5d99d14246a9052ec21b003f50c65d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_S_right\\reference.npz": "cecd307dc607d34fab51405d461c1d9ed0b387e37ce069a90de6ec9b8e8670c5",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\center_W_right\\reference.npz": "9d7a3c23974ab518e3a4dab7f54adbad2e3b4adec067f288d8900907feb466ad",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_N_right\\reference.npz": "ffd8adf10588fbf68a2a7c4dac70586a46158c1813310a5ea444425e3135f6af",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_S_left\\reference.npz": "d5ccf54aab32aa1cad947528f4300d9fadd01b6a4c8df391b16580273d28eac9",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_left\\reference.npz": "8ec961dbe6ebd0dca9bd047b88bf9bf615375a47fc9fc93605118a5a7171f300",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\east_W_right\\reference.npz": "e446846159350e3cef20680d7af89aa4b3fa906f42f2e1066f9a835b3d0ad379",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_E_left\\reference.npz": "35598e4bc4bb55726de9c0d76d439a63c889fc902ff8e60de918920d366a718d",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_S_left\\reference.npz": "3b321f3efa03115ed8da06e177c7e6eb7ec4a460ea1ee62e591adc2a24444a4c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_S_right\\reference.npz": "cf6b08707f5e56fb3cba489e05f6686b5de9c2bffb9a4fe8fa174025dde25c9c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\north_W_right\\reference.npz": "f29b49abec3b67fd7b68fd5579739c6dcb5466294201006336dd98d4436f785c",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_E_right\\reference.npz": "38719d42796cc6f63a3ac3576cc93099e3741e4173735c41d12ae4af4efd8e33",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_N_left\\reference.npz": "1c61359b890d08de1704ef3ad7aebe26a0f629e376310eb885e0f0eee09579b7",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_N_right\\reference.npz": "3f5cdf7b31961bf836ea559ba804027fbb5ecf4e7b2a5957a9f5fe6d9a929c73",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\south_W_left\\reference.npz": "3c07ec90b0908d222f2f97908653480ab88032de0a44c8d78c144ce442ec7c67",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_E_left\\reference.npz": "ef8b89455cc9f5170033c06937379802c3a7139368c7f356082eb54ad9b1c597",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_E_right\\reference.npz": "79f040adca9f67394b8d7fa39841b24ea252d15b74973126608ef421744383bd",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_N_left\\reference.npz": "6815af25cd4eb0bc36cb34e2362d192b7d1a3464f5a4ba25648478f260677757",
+    "D:\\autodrive_cnn\\runs\\goal_clearance_paths_20261113\\paths\\west_S_right\\reference.npz": "b1eda74e6840ea5a1110a988792b9ec8520fe7717f24db882e75d47d6238844d",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_E_left.npz": "3476252b708de56910fa6d6dc49263542c21299024c43b0c6af981d4260f18c8",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_E_right.npz": "fd5ed571d4a4b898acb6dc1792ea290734bdf801d584b6825ab6943135c2bbac",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_N_left.npz": "a877ea0c0639aef3efef29353d1389a5128068991282c40c663ea8e8b6a20280",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_N_right.npz": "ca580a011244cb90a2c710aeb605baf8d7c18814e2f83b84133592faf28995d3",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_S_left.npz": "76b725253bc08ee4e25e5a6300abdc96f4c9aa322216c59c07bb317c88ba4ba7",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_S_right.npz": "4e6e10afcba6eb82e5adbd7907ba5c957c777927837315d742d6095a37db802c",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_W_left.npz": "2ac8b8f43e74913a3858927f11e8d96c7b3107981c9e365f944d868bd09e0e76",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\center_W_right.npz": "f6073b41d19e98c3aa82e6064fd2cb8fc89fcb21d87b1e72837e4bb024e7802b",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\east_N_right.npz": "aec50a9d40a4d7a1b7073da3a99f4c8d23f15236a807f3e9fd6403d40d856f67",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\east_S_left.npz": "117b459cc540a047e14434984a172e19f69ec606a39aca6d04f591af0856111c",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\east_W_left.npz": "600bc680e2ec08c237f1a5b65889626626b83068590be14252592a0b3ae0b9c4",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\east_W_right.npz": "218734605d7deb02cdb83afd6cb4066aeb59e8ab58a0d12101d9f85de233c2e0",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\north_E_left.npz": "2dac52bc18acc7a2db6b6b3941c4fb75e286a19c2ce0715ad9583fffe063f6c2",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\north_S_left.npz": "76146621a6acbbbcb25c559ed40aa580f0221cde40f81f4b8f0487bdb165f17f",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\north_S_right.npz": "be08611c058f9422f50534f60f093ed56244bcf989b5ad5f8880e86c9e462fca",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\north_W_right.npz": "088c3d0f949d44217bb52e313b8222b357a54ee1181e440426d0bdf7004eea84",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\south_E_right.npz": "500aafe31368d31ae3fda9a4124a31cd17a417f35603e42006e510bbfb92eb0a",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\south_N_left.npz": "4eed3cd6da41a8d33d28453500562737865ef59c50009bf777c8adc509d5f44e",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\south_N_right.npz": "5c183623a6e6bb1b731411ba40cb8078c04b3f5fa87bffb1e02c255910b16461",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\south_W_left.npz": "7870ea767140962361be94a81120e58ad349118cddce30431003495600d96cc2",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\west_E_left.npz": "b6d9459bed43fce72500ade6825e4cf2064d5229953ac382970671fb1bd142b7",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\west_E_right.npz": "0bf86321ecbf2ac4d012de14ef43582d618b9e15efac60959bbcc368aa268722",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\west_N_left.npz": "119bffd8d1f6090f13dc0c78db7adedae44343ff07211c54913c63a256bc7172",
+    "D:\\autodrive_cnn\\runs\\junction_cornering_20261113\\teacher_candidates\\west_S_right.npz": "a34ff746ee0496a877b843406ee3ca73acf97e22c921703d7cbf82a61437fd34",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\east_N_straight\\path.npz": "240b9730b0dcb49a210e3da37dee79b0cacd5055d519be8c6471df906c5c2fd2",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\east_S_straight\\path.npz": "78c88e6dcd71719db27f46cb5b90373f9c168c37ea5236a1b8f259fde5d28dd1",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\north_E_straight\\path.npz": "2034cad16b6877ffdefc9f25383e9962f8f53d065dfd7a053b736097353aafb1",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\north_W_straight\\path.npz": "9809722c359f0ee3a4db28dc1951c7a6b2f8b12bc4f59dea51d0528738b22699",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\south_E_straight\\path.npz": "121c4c58a3a53aa6aae965532087a82d24c2fee744753fee172cd64a3d8f572d",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\south_W_straight\\path.npz": "7ea56ddcdc51e89b8123347093b7ec2ce6138926756f0db1cd7a62317dd0939e",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\west_N_straight\\path.npz": "b316df4029775c48a26ecf0fe3b51a750edb64402a16c2496a5d8a549a1c2814",
+    "D:\\autodrive_cnn\\runs\\junction_stages02_20261113\\paths\\west_S_straight\\path.npz": "fe99370e3ffbf7f9105b0f94e5b069b481968fc9b71636a06a60053e2d5c427c",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\disturb.py": "c5e2e90c03226df1c5e91d226da759356d56206d5d23a0f60b06e0cfc0ebd7ad",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\junction.py": "3e7bf344cf1054f0034e8a2d3ac054ccc9c7384bf1c9c5ffc7f0ae3d410f8604",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\realcam.py": "adbaa6a97b1c8627b9af481aad7bec12c9a5efbd48b94f92dbf2c2a70af990de",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\run.py": "6457ef9da143c89c9871ef5b660533a841819a6f91c329328015886dec33a18c",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\score.py": "716e72c2c8bfa050f81c34357db2dffab4bede6dd8c18d6d23ad9c85fb2c1aa7",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\vehicle.py": "03c071317a9c0a7f23b844cb6bf7458aa40723fbaeb8f2f574afa2a1ead99fd5",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world\\track.json": "7063f64a93146548e1e0e1bc0621978bc8f869ee27bb8a3e594205e0d9309d7c",
+    "D:\\Projects\\AutoMobile\\repo\\bench\\world.py": "c367e1abdcb5f6cdb45588223ae28b119ad16b17ebec6997ccffe09d0d416cd9",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_boundary_teacher.py": "b84130444846232e2fed01a0b3be4aa3f7065f405f38b5d5f866176ce07d4fbb",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_boundary_teacher_v2.py": "447581b32bce9e0cdf8bc61f80b470b7ff994f88729c1cbb57e2750f1ae22efa",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_clearance_paths.py": "8c4eefd08829a250eb9182e50ad3c7c574b55cbc557014d7e8663c9473ec43a3",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_clearance_validation.py": "a1d73c5c2f5fba09e75a2841ca01baee468fab983f130ac3dd1318474a167b88",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_continuous_clearance.py": "5d615f4fd38bf551b61ceba8103b065fcfd8514bffb3c683c551986b873a30c2",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_development.py": "1c25af75a2769abb584583a0aba12bf2284edf52d5d543c0a0db34db0f6c76d3",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_entry_forecast.py": "95e42edb5abafb66235dc72bb0aef9392b20c085f4eaacd7ac545581b0758cc2",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_entry_reactive.py": "2114fd8110a3653e45b2746f751061f3d255ecaf5a062a23b5a68a2c76f0f692",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_entry_recovery_search.py": "f65b936c22320663173ea9f26c2d690449d34bfaebc1fa6296959de91a0a1ced",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_entry_robust.py": "4310d88ebf5354579a22703fe65db0f4b444e73bcafdfe3bde9adb99364eae70",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_exit_reference_probe.py": "478757fd080d7d6a7927e40c8cc2ee699377a8f348e7e56a9f1a73b7f6e0e28b",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_phase_disturbance.py": "d16bd2756afc951e4ca4ff2a50475870ee39c7888bc1b1d4b78361d6bc431f11",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_reactive_clock_validation.py": "6b17a60f6c010592ae9cace751f8cdd12a6cff29f1b80d192134813a76184367",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_coverage.py": "df9dcc5d9cf3869279d39539388e59a5c44935ad829fbe25b28715b414e872fa",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_probe.py": "ff8458948458b253aac3d701a30d03e817d51aaf5024946b6c2c5a2ed3511be5",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\goal_teacher_validation.py": "b0f1a596897beeddb6efb3bda7569d76cf899c884f655137e2deb5ef416a2fdd",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_cornering.py": "09ebf8dd902064fb6113b8b1912f6e25146a3bb9e700b95a565f0155cb4d9e9a",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_feasibility.py": "ec4a0db679d6c5355f0e2ced161c9df703a3ce64c358654f82f00c0cad5239c9",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_learning.py": "ce9c5c8c79756a8cd7687422b158e47cd760e54e3d9a7ba83a50c8eb4d3c76f0",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\junction_stage02.py": "f0f00d5bd9b7caae9cd5b236cecce709e3a8a0cad4ca72f19dcb9d4c447d4892",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\model.py": "29f2357cf6082a4b139dc96cba65b91bd3a2de23e3d0683e8f1f305ae379b163",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\results\\goal_clearance_paths_20261113\\geometry.json": "220a6c6c9e5f172f8df7a138439cf0d753b5736971634712701c404d3b8146cc",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\results\\junction_cornering_20261113\\teacher_registry.json": "a15db7a13181007d89ff52095435841d8319a5c3fbc0c232d1cc05f14f5a028b",
+    "D:\\Projects\\AutoMobile\\repo\\cnn_finetune\\results\\junction_stages02_20261113\\selection.json": "4c12e2226e6423f56d70d62ac3ab8cb1bbce3d990105018c39560d02993307df"
+  },
+  "keys": [
+    [
+      "center",
+      "N",
+      "right"
+    ],
+    [
+      "center",
+      "E",
+      "right"
+    ],
+    [
+      "center",
+      "S",
+      "right"
+    ],
+    [
+      "center",
+      "W",
+      "right"
+    ],
+    [
+      "north",
+      "E",
+      "straight"
+    ],
+    [
+      "north",
+      "E",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "left"
+    ],
+    [
+      "north",
+      "S",
+      "right"
+    ],
+    [
+      "north",
+      "W",
+      "straight"
+    ],
+    [
+      "north",
+      "W",
+      "right"
+    ],
+    [
+      "east",
+      "N",
+      "straight"
+    ],
+    [
+      "east",
+      "N",
+      "right"
+    ],
+    [
+      "east",
+      "S",
+      "straight"
+    ],
+    [
+      "east",
+      "S",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "left"
+    ],
+    [
+      "east",
+      "W",
+      "right"
+    ],
+    [
+      "south",
+      "N",
+      "left"
+    ],
+    [
+      "south",
+      "N",
+      "right"
+    ],
+    [
+      "south",
+      "E",
+      "straight"
+    ],
+    [
+      "south",
+      "E",
+      "right"
+    ],
+    [
+      "south",
+      "W",
+      "straight"
+    ],
+    [
+      "south",
+      "W",
+      "left"
+    ],
+    [
+      "west",
+      "N",
+      "straight"
+    ],
+    [
+      "west",
+      "N",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "left"
+    ],
+    [
+      "west",
+      "E",
+      "right"
+    ],
+    [
+      "west",
+      "S",
+      "straight"
+    ],
+    [
+      "west",
+      "S",
+      "right"
+    ]
+  ],
+  "seeds": [
+    6701,
+    6702,
+    6703,
+    6704,
+    6705,
+    6706,
+    6707,
+    6708
+  ],
+  "presets": [
+    "field_estimate",
+    "sluggish",
+    "unequal_sides"
+  ],
+  "conditions": [
+    "normal",
+    "mild"
+  ],
+  "arms": [
+    "baseline",
+    "hold035"
+  ],
+  "candidate": "exact frozen hold035 teacher method, same clearance references and speed modes; no phase/onset fields in clock adapter",
+  "selection_evidence": "goal_entry_reactive_20261113: prospective phase validation selected hold035 before6701-6708 outcomes",
+  "disturbances": "unchanged events_for: two compound shove/power events at7-8s and15-16s; mild continuous vehicle variations",
+  "primary": "stable55cm exit with continuous full-body clearance>=0; retain sparse legacy metrics separately",
+  "checks": [
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "field_estimate",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "sluggish",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "center",
+        "N",
+        "right"
+      ],
+      "preset": "unequal_sides",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "field_estimate",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "sluggish",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "east",
+        "W",
+        "left"
+      ],
+      "preset": "unequal_sides",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "field_estimate",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "sluggish",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    },
+    {
+      "key": [
+        "north",
+        "E",
+        "straight"
+      ],
+      "preset": "unequal_sides",
+      "phase_adapter_physics_exact": true,
+      "commands_exact": true
+    }
+  ],
+  "expected_rollouts": 2688,
+  "limits": "local privileged teacher, eight shared seeds; no vision/strong-lighting/student/full-mission evidence",
+  "no_automatic_adoption": true,
+  "final_exam_used": false,
+  "new_training": false
+}

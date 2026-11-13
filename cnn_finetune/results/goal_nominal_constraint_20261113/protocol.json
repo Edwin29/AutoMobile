@@ -1,0 +1,28 @@
+{
+  "source_sha256": "4900ab1b3186e13fab03e3706c2cf5c6a326da3c5c9d6db90b31366cf6ea7792",
+  "initial_sha256": "2270fff98559e22d8dd2dd94d5ecb7f7c8a73b275d539ab5929f9c588822b9a3",
+  "hypothesis": "Reducing recovery dominance and constraining nominal action drift can avoid entry collapse",
+  "arms": [
+    "low_mix",
+    "constrained"
+  ],
+  "source_protocol_sha256": "b77ff93f382671e7778ea284def34a8c746538c35f3b12f9f3f6a8cfbf84c136",
+  "data": "identical 118 teacher and 72 student full episodes; same masks and sample RNG streams",
+  "base_loss": ".9 teacher weighted SmoothL1 + .1 student weighted SmoothL1",
+  "constraint": "mean over episodes of max(all supervised mean wheel squared drift, 3-6s supervised mean wheel squared drift) / .01^2 <= 1",
+  "reference": "fixed initial actor on exactly the teacher observation and previous-command histories",
+  "constrained_loss": "base + lambda*(normalized_drift-1)",
+  "dual_update": "lambda=max(0,lambda+1e-4*(normalized_drift.detach()-1)); initial lambda=0",
+  "constraint_limit": "stochastic training proxy; no per-episode or closed-loop guarantee",
+  "epsilon": 0.01,
+  "dual_lr": 0.0001,
+  "updates": 1200,
+  "lr": 0.0001,
+  "min_lr": 1e-05,
+  "seed": 17,
+  "encoder_frozen": true,
+  "actor_inputs_unchanged": true,
+  "final_exam_used": false,
+  "selection": "fixed final update 1200 before any driving; no outcome checkpoint selection",
+  "evaluation": "same development matrix 4101/4102 x3 vehicles x4 movements x3 conditions"
+}

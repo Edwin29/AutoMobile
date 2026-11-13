@@ -1,0 +1,13 @@
+{
+  "source_sha256": "0a10f6d0ea9f8fcaa793931b49a0d1abe57daa998c4cbc5901b57bd65ffe3317",
+  "core_path": "D:\\Projects\\AutoMobile\\repo\\bench\\_vendor\\v4_65c68a6613a0\\drive_v4\\core.py",
+  "core_sha256": "e18e0023849e6a67be29c5b8b6aaf924a89b3c538ba080a8bfee4435fa000c05",
+  "delayed_publication": true,
+  "prediction_includes_actual_commands": true,
+  "signed_pivot_reverse_and_stop": true,
+  "no_map_proposals_applied": true,
+  "route_copies_equal": true,
+  "actor_inputs_unchanged": true,
+  "scope": "Actual pinned map core, two synthetic camera observations and commanded-motion checks; not localization accuracy or full-mission driving",
+  "limits": "Fixed70ms modeled map latency, every3camera frames. Covariance remains that of latest published estimate; no hardware latency claim."
+}
