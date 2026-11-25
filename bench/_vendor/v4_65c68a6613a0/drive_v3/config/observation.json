@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "status": "provisional_not_statistically_calibrated",
+  "values": {
+    "colored_low": [20, 100, 135], "colored_high": [87, 255, 255],
+    "road_v_max": 130,
+    "blue_low": [88, 70, 55], "blue_high": [130, 255, 255],
+    "pink_low": [135, 30, 70], "pink_high": [174, 255, 255],
+    "red_s_min": 90, "red_v_min": 65, "red_h_low_max": 10, "red_h_high_min": 175,
+    "white_s_max": 60, "white_v_min": 170,
+    "glare_s_max": 35, "glare_v_min": 235,
+    "forward_min_cm": 6.0, "forward_max_cm": 35.0,
+    "min_fragment_cm": 1.2, "side_probe_cm": 0.8,
+    "side_support_min": 0.55, "side_support_delta": 0.25, "side_probe_valid_min": 0.5,
+    "connection_max_gap_cm": 4.0, "connection_max_angle_deg": 30.0,
+    "max_connection_candidates": 64,
+    "min_patch_area_cm2": 0.15,
+    "circle_radius_min_cm": 0.7, "circle_radius_max_cm": 7.0,
+    "circle_residual_max_cm": 0.45, "circle_arc_min_deg": 210.0,
+    "circle_min_fill": 0.65
+  },
+  "rationale": {
+    "colored_low / colored_high / road_v_max": "기존 V135 외곽 추출의 HSV 범위를 비교 출발점으로 유지. 실차 보정 확률이나 안전 기준이 아님.",
+    "blue / pink / red / white": "OpenCV H=0..179의 초기 후보. 핑크 S 최솟값은 실차 정지 버퍼의 옅은 점선에서 45→30으로 조정: 동일 프레임 BEV 지지 픽셀 44→90. 한 프레임의 진단에 근거한 임시값이며 정확도 최적값은 아님. 다른 색은 유지. 표식 의미 판정은 별도.",
+    "glare": "밝은 저채도 영역은 반사 의심으로만 표시; 흰 횡단보도와 혼동하므로 삭제 마스크로 사용하지 않음.",
+    "forward": "기존 렌즈 전방 6..35cm ROI를 비교 출발점으로 사용. 차체 좌표 변환에서 렌즈 오프셋을 한 번 더함.",
+    "fragment / side": "짧은 픽셀 잡음과 노면 방향 단서를 위한 임시 기하 설정. 판단 근거를 원값으로 출력하며 확률로 해석하지 않음.",
+    "connection": "공백 4cm / 방향 30도는 연결 가능성을 표시하는 초기값. 실제 관측점 생성이나 이동 허용에 사용하지 않음. 상한 초과는 diagnostics에 기록.",
+    "circle": "원 크기는 미실측 넓은 후보 범위. arc/fill/잔차 검사를 통과해도 blue_circle_candidate일 뿐 지도 대응·정답 검증은 아님. 가림/잘림은 patch로 보존."
+  }
+}

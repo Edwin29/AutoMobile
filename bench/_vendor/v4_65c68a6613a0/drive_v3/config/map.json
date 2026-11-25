@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "provenance": "Historical sim_drive.py layout, not a new surveyed map. Blue disk positions are legacy layout assumptions, not measured ground truth.",
+  "outer": [-99.25, 97.25, -100.25, 100.25], "outer_radius_cm": 32.5,
+  "blocks": [[-73.25,-10.5,9.25,74.25],[10.5,73.25,9.25,74.25],[-73.25,-10.5,-74.25,-9.25],[10.5,73.25,-74.25,-9.25]],
+  "block_radius_cm": 10.5,
+  "crosswalks": [[0,25.75,"ns"],[0,-25.75,"ns"],[-27,0,"ew"],[27,0,"ew"],[-21.5,87.25,"ew"],[85.25,20.25,"ns"],[21.5,-87.25,"ew"],[-86.25,-20.25,"ns"]],
+  "pink_lines": [[[-66.25,97.25],[-66.25,77.25]],[[-66.25,-77.25],[-66.25,-97.25]],[[66.25,-77.25],[66.25,-97.25]],[[-96.25,65],[-76.25,65]],[[-96.25,-65],[-76.25,-65]],[[75.25,65],[95.25,65]],[[66.25,97.25],[66.25,77.25]]],
+  "survey_updates": [{"date":"2026-11-10","source":"User track observation and orientation diagram","change":"Removed lower pink line on east vertical road; kept east-side line on south horizontal road; added east-side line on north horizontal road using mirrored legacy coordinates (not newly surveyed). Red lines are 98.5 and 128cm south of east upper pink line. Red line length retains the unmeasured legacy 16cm assumption."}],
+  "red_lines": [[[77.25,-33.5],[93.25,-33.5]],[[77.25,-63.0],[93.25,-63.0]]],
+  "start_regions": {"right_red":{"red_indices":[0,1],"road_x_cm":[73.25,97.25],"heading_by_direction":{"ccw":0.0,"cw":3.141592653589793},"placement":"Whole body between the two red lines; approximate heading, not a fixed pose."}},
+  "blue_x": [-63.25,-20.5,20.5,63.25], "blue_y": [-64.25,-19.25,19.25,64.25],
+  "blue_extra": [[20.5,107.1],[104.5,-19.25],[-20.5,-107.1],[-105.5,19.25]], "blue_radius_cm": 5.25,
+  "junctions": {"center":{"xy":[0,0],"arms":["N","E","S","W"]},"north":{"xy":[0,87.25],"arms":["E","S","W"]},"east":{"xy":[85.25,0],"arms":["N","S","W"]},"south":{"xy":[0,-87.25],"arms":["N","E","W"]},"west":{"xy":[-86.25,0],"arms":["N","E","S"]}},
+  "position_uncertainty_cm": 1.0
+}

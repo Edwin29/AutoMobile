@@ -1,0 +1,378 @@
+{
+  "preprocess": "rgb_bottom_half_yuv_blur3_200x66_chw_div255",
+  "action_space": "normalized_linear_angular_v1",
+  "output": "[linear/max_speed_m_s, angular/max_yaw_rad_s] in [-1, 1]",
+  "max_speed_m_s": 0.18,
+  "max_yaw_rad_s": 2.0,
+  "experiment": "A-synthetic-v5-harsh-synsel",
+  "seed": 42,
+  "frame_stride": 2,
+  "recovery_within_m": 0.08,
+  "exclude_junctions_m": 0.35,
+  "synthetic_roots": [
+    "outputs/train-v5",
+    "outputs/train-v5-dart"
+  ],
+  "splits": {
+    "test": [
+      "13009",
+      "13023",
+      "11023",
+      "13010",
+      "12000",
+      "13015",
+      "11008",
+      "13006",
+      "13017",
+      "12009",
+      "11015",
+      "14002",
+      "13019",
+      "12008",
+      "13002",
+      "13022"
+    ],
+    "validation": [
+      "11025",
+      "13016",
+      "14006",
+      "11001",
+      "14000",
+      "13013",
+      "11018",
+      "13027",
+      "11019",
+      "11020",
+      "13003",
+      "13007",
+      "12003",
+      "13021",
+      "12002",
+      "11007"
+    ],
+    "train": [
+      "13025",
+      "11002",
+      "11016",
+      "12006",
+      "11022",
+      "13000",
+      "11024",
+      "11005",
+      "11006",
+      "13020",
+      "14003",
+      "11009",
+      "13012",
+      "11021",
+      "13026",
+      "13018",
+      "11010",
+      "13008",
+      "11000",
+      "13011",
+      "14004",
+      "12007",
+      "14005",
+      "14009",
+      "11026",
+      "12004",
+      "13004",
+      "13001",
+      "13005",
+      "11012",
+      "14007",
+      "13028",
+      "13024",
+      "11029",
+      "11027",
+      "14001",
+      "14008",
+      "11004",
+      "13014",
+      "11011",
+      "13029",
+      "11013",
+      "11017",
+      "11028",
+      "12001",
+      "12005",
+      "11003",
+      "11014"
+    ]
+  },
+  "synthetic_seed_history": [
+    "11000",
+    "11001",
+    "11002",
+    "11003",
+    "11004",
+    "11005",
+    "11006",
+    "11007",
+    "11008",
+    "11009",
+    "11010",
+    "11011",
+    "11012",
+    "11013",
+    "11014",
+    "11015",
+    "11016",
+    "11017",
+    "11018",
+    "11019",
+    "11020",
+    "11021",
+    "11022",
+    "11023",
+    "11024",
+    "11025",
+    "11026",
+    "11027",
+    "11028",
+    "11029",
+    "12000",
+    "12001",
+    "12002",
+    "12003",
+    "12004",
+    "12005",
+    "12006",
+    "12007",
+    "12008",
+    "12009",
+    "13000",
+    "13001",
+    "13002",
+    "13003",
+    "13004",
+    "13005",
+    "13006",
+    "13007",
+    "13008",
+    "13009",
+    "13010",
+    "13011",
+    "13012",
+    "13013",
+    "13014",
+    "13015",
+    "13016",
+    "13017",
+    "13018",
+    "13019",
+    "13020",
+    "13021",
+    "13022",
+    "13023",
+    "13024",
+    "13025",
+    "13026",
+    "13027",
+    "13028",
+    "13029",
+    "14000",
+    "14001",
+    "14002",
+    "14003",
+    "14004",
+    "14005",
+    "14006",
+    "14007",
+    "14008",
+    "14009"
+  ],
+  "train_on": "synthetic",
+  "select_on": "synthetic",
+  "select_metric": "mae",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001
+  },
+  "epochs": 12,
+  "best_epoch": 11,
+  "optimizer_steps": 4728,
+  "wall_time_s": 3505.5,
+  "init_checkpoint": null,
+  "real_data": {
+    "manifest": "outputs/real/manifest-1031.json",
+    "manifest_id": "101143f90aeaf366",
+    "sessions": {
+      "train": 3,
+      "validation": 1,
+      "test": 1
+    },
+    "frames": {
+      "train": 6393,
+      "validation": 2966
+    },
+    "used_for_training": false
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_normalized_mae": [
+        0.013236984983860717,
+        0.0962057628771417
+      ],
+      "validation_turning_angular_mae": 0.12207407675548243,
+      "real_validation_normalized_mae": [
+        0.3821163785192344,
+        0.2043972547522125
+      ],
+      "real_validation_turning_angular_mae": 0.3313254127198776
+    },
+    {
+      "epoch": 2,
+      "validation_normalized_mae": [
+        0.01094531732876068,
+        0.09395359917233101
+      ],
+      "validation_turning_angular_mae": 0.11269837050950864,
+      "real_validation_normalized_mae": [
+        0.37947019562878803,
+        0.18807478029022165
+      ],
+      "real_validation_turning_angular_mae": 0.3706343703343823
+    },
+    {
+      "epoch": 3,
+      "validation_normalized_mae": [
+        0.013124857953708956,
+        0.09345569418748843
+      ],
+      "validation_turning_angular_mae": 0.10384512048642025,
+      "real_validation_normalized_mae": [
+        0.3817699674167749,
+        0.17854085450066318
+      ],
+      "real_validation_turning_angular_mae": 0.3813090960458306
+    },
+    {
+      "epoch": 4,
+      "validation_normalized_mae": [
+        0.009943467546172683,
+        0.09042897588577482
+      ],
+      "validation_turning_angular_mae": 0.10574021626101263,
+      "real_validation_normalized_mae": [
+        0.3790053041577741,
+        0.19919280256681643
+      ],
+      "real_validation_turning_angular_mae": 0.3717535908579211
+    },
+    {
+      "epoch": 5,
+      "validation_normalized_mae": [
+        0.010408867356119903,
+        0.09025948638317079
+      ],
+      "validation_turning_angular_mae": 0.11012270775551315,
+      "real_validation_normalized_mae": [
+        0.3788633311188711,
+        0.2200794667708898
+      ],
+      "real_validation_turning_angular_mae": 0.35547450343836196
+    },
+    {
+      "epoch": 6,
+      "validation_normalized_mae": [
+        0.018415341604887215,
+        0.08881490172345653
+      ],
+      "validation_turning_angular_mae": 0.10198278723708355,
+      "real_validation_normalized_mae": [
+        0.37686326097011247,
+        0.19627105480340068
+      ],
+      "real_validation_turning_angular_mae": 0.36842757884073174
+    },
+    {
+      "epoch": 7,
+      "validation_normalized_mae": [
+        0.010271826208917683,
+        0.09146018202765603
+      ],
+      "validation_turning_angular_mae": 0.11174928983720217,
+      "real_validation_normalized_mae": [
+        0.3792091271239041,
+        0.188289166260473
+      ],
+      "real_validation_turning_angular_mae": 0.4153169465352254
+    },
+    {
+      "epoch": 8,
+      "validation_normalized_mae": [
+        0.01044666376958348,
+        0.09391622591778358
+      ],
+      "validation_turning_angular_mae": 0.09840853185370974,
+      "real_validation_normalized_mae": [
+        0.3790619178792551,
+        0.20786282132786027
+      ],
+      "real_validation_turning_angular_mae": 0.363553573670773
+    },
+    {
+      "epoch": 9,
+      "validation_normalized_mae": [
+        0.011766848825494568,
+        0.09022826257739598
+      ],
+      "validation_turning_angular_mae": 0.10599494682299027,
+      "real_validation_normalized_mae": [
+        0.3777693978693545,
+        0.19090700852895057
+      ],
+      "real_validation_turning_angular_mae": 0.4066213504787977
+    },
+    {
+      "epoch": 10,
+      "validation_normalized_mae": [
+        0.013623543080227172,
+        0.09460499927425627
+      ],
+      "validation_turning_angular_mae": 0.10021691788354865,
+      "real_validation_normalized_mae": [
+        0.37646152068052596,
+        0.202581827353563
+      ],
+      "real_validation_turning_angular_mae": 0.364848165832165
+    },
+    {
+      "epoch": 11,
+      "validation_normalized_mae": [
+        0.01120992842137029,
+        0.08713636448410306
+      ],
+      "validation_turning_angular_mae": 0.10471438211610115,
+      "real_validation_normalized_mae": [
+        0.3785259056477151,
+        0.20437543117268536
+      ],
+      "real_validation_turning_angular_mae": 0.38402693324983633
+    },
+    {
+      "epoch": 12,
+      "validation_normalized_mae": [
+        0.018810606909745065,
+        0.09009653789511016
+      ],
+      "validation_turning_angular_mae": 0.11645067527216804,
+      "real_validation_normalized_mae": [
+        0.3768984752174012,
+        0.20118996386421908
+      ],
+      "real_validation_turning_angular_mae": 0.3987596482294972
+    }
+  ],
+  "frames": {
+    "train": 50397,
+    "validation": 17324,
+    "real_validation": 2966
+  },
+  "test_evaluated": false,
+  "warning": "Selection used validation only; run evaluate_lane_offline.py --split test once after fixing settings. Offline MAE is not closed-loop driving performance."
+}

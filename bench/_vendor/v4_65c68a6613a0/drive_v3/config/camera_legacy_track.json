@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "npz": "../../map_localization/outer_driver/track.npz",
+  "npz_sha256": "b569cb986d57a9be955f2035244323721b6a0d17d807bdfc6047be7145f7668a",
+  "pixels_per_cm": 5.0,
+  "lateral_min_cm": -40.0,
+  "forward_max_cm": 50.0,
+  "lens_ahead_body_cm": 12.36,
+  "notes": "기존 build_assets.py/Driver 보정. 이미 180도 회전한 raw 저장 영상이 기본 입력. 세션 간 외부 파라미터 일치는 미검증."
+}

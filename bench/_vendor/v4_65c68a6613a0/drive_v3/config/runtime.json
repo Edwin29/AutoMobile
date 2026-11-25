@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "status": "provisional_engineering_values_not_calibrated_probabilities",
+  "vehicle": {"front_cm": 14.5, "rear_cm": 10.0, "half_width_cm": 8.0, "track_effective_cm": 13.0, "rim_step_cm": 1.0},
+  "estimator": {
+    "use_visual_odometry": false,
+    "initial_sigma": [1.0, 1.0, 0.04], "motion_sigma_per_s": [0.8, 1.5, 0.07],
+    "measurement_sigma_cm": 1.0, "huber_scale": 1.5, "max_points_per_fragment": 8,
+    "length_weighted_boundaries": true,
+    "evidence_length_cm": 6.0, "reliable_support_cm": 4.0,
+    "support_join_gap_cm": 2.0, "support_join_normal_cm": 0.6, "support_join_angle_deg": 20.0,
+    "evidence_cell_cm": 0.5,
+    "max_fragments": 12, "fit_iterations": 12, "fit_bound_cm": 6.0,
+    "fit_bound_yaw_rad": 0.16, "postfit_rms_cm": 2.0, "inlier_cm": 3.0,
+    "min_inlier_fraction": 0.6, "innovation_limit": 16.3,
+    "max_hypotheses": 3, "ambiguity_score_gap": 0.4, "merge_cm": 1.0,
+    "merge_rad": 0.035, "search_after_s": 0.35, "search_period_s": 0.8,
+    "search_longitudinal_cm": 8.0, "search_lateral_cm": 3.0,
+    "max_history_s": 1.0, "max_observation_age_s": 0.7,
+    "landmark_sigma_cm": 1.5, "landmark_search_cm": 12.0,
+    "vo_min_inliers": 8, "vo_max_rms_cm": 0.8, "vo_max_dt_s": 0.4
+  },
+  "planner": {
+    "distance_mode": "exact", "acceptance_mode": "legacy_full",
+    "replan_period_s": 0.2, "speed_bound_factor": 1.5, "commitment_extra_cm": 0.5,
+    "clearance_tolerance_cm": 0.05, "allowed_penetration_cm": 0.5, "recovery_progress_cm": 0.05,
+    "horizon_cm": 28.0, "join_cm": 20.0, "spacing_cm": 1.0,
+    "offsets_cm": [0.0, -0.5, 0.5, -1.0, 1.0], "clearance_cm": 0.25,
+    "sigma_multiplier": 1.0, "max_yaw_sigma_rad": 0.18, "max_xy_sigma_cm": 8.0,
+    "prediction_only_s": 0.7, "prediction_only_cm": 4.0,
+    "normal_speed_cm_s": 5.0, "degraded_speed_cm_s": 3.5,
+    "max_curvature_cm_inv": 0.14, "switch_improvement": 0.15,
+    "switch_hold_s": 0.3, "path_valid_s": 0.25,
+    "recovery_penetration_cm": 0.5, "settle_heading_rad": 0.12,
+    "stop_latency_s": 0.15, "brake_cm_s2": 12.0
+  },
+  "controller": {
+    "mode": "pure_pursuit",
+    "wheel_cm_s_per_duty": 16.0, "forward_gain": 1.0, "left_yaw_gain": 1.0,
+    "right_yaw_gain": 1.0, "pwm_min": 0.12, "pwm_max": 0.6,
+    "slew_per_s": 1.0, "accel_cm_s2": 8.0, "decel_cm_s2": 12.0,
+    "lateral_gain": 0.045, "heading_gain": 0.8, "preview_s": 0.08,
+    "max_omega_rad_s": 0.9, "curvature_slowdown_cm": 8.0,
+    "trim_ki": 0.004, "trim_max_rad_s": 0.08, "trim_rate_rad_s2": 0.015,
+    "trim_straight_curvature": 0.015, "adapt_alpha": 0.01,
+    "adapt_gain_bounds": [0.5, 1.5], "min_observable_turn_rad_s": 0.08,
+    "adaptive": false, "trim_enabled": true, "watchdog_s": 0.35
+  },
+  "marks": {
+    "pink_center_band_cm": 0.5, "pink_min_span_cm": 4.0,
+    "parallel_angle_deg": 18.0, "group_gap_cm": 5.0,
+    "stripe_min_aspect": 2.5, "cross_min_count": 3, "dash_min_count": 3,
+    "red_min_length_cm": 5.0, "red_min_aspect": 4.0
+  },
+  "mission": {
+    "confirm_s": 0.2, "minimum_hits": 3, "track_expire_s": 0.8,
+    "association_iou_min": 0.15, "conflict_timeout_s": 2.0,
+    "latency_s": 0.15, "brake_cm_s2": 12.0, "margin_cm": 1.0,
+    "stop_hold_s": null, "horn_duration_s": null, "slow_speed_cm_s": null,
+    "slow_release": null, "signal_release": null, "signal_stop_hold_s": null,
+    "rule_values_verified": false
+  },
+  "rationale": {
+    "boundary_weighting": "정지 영상의 1.5cm 조각과 10.4cm 경계에 동일한 영향이 부여되던 문제를 관측 길이 가중치로 비교한다. 6cm를 단위 지지 길이로, 4cm 미만의 고립 지지는 연속적으로 감쇠한다. 인접 정렬 조각의 틈은 지지 길이에 더하지 않는다. 2cm/0.6cm/20도 연결 및 0.5cm 중복 셀은 임시 기하값이며 다른 장면에서도 검증 필요. Huber는 가중 전 cm 잔차에 적용한다.",
+    "units": "cm, s, rad; body x right/y forward, yaw clockwise from world north",
+    "thresholds": "초기 비교값. nominal 5cm/s는 기존 PWM .3 *16에 가까움. sigma와 게이트는 보정된 실차 확률이 아님. 여유 .25cm는 이전 사용자 설정과 비교용.",
+    "motor": "최소 duty .12·최대 .6·변화율은 임시 작동범위이며 실측 모터별 데드밴드가 아님. 킥/자동 후진 비활성.",
+    "rules": "평가 규칙의 미확정 시간을 null로 유지. 해당 미션은 rules_required로 보류하며 임의 시간으로 성공 처리하지 않음.",
+    "adaptation": "코드는 제공하지만 기본 false. 유효 VO와 정보 충분한 운동 구간에서만 갱신; 실차 구동 전 검증 필요. 반복 노면 무늬에서 VO 이동량 편향이 관측되어 상태 예측 VO도 기본 false. 추종은 합류 경로에서 비교 결과가 더 나은 Pure Pursuit를 초기 기본으로 선택.",
+    "uncertainty": "유한 sigma 표본의 검사로 전역 안전을 보증하지 않는다. 큰 분산이나 오래된 관측이면 정지한다."
+  }
+}

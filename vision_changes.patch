@@ -1,0 +1,169 @@
+--- a/bench/pi_run.py	2026-11-14 16:01:09.419439860 +0900
++++ b/bench/pi_run.py	2026-11-14 17:12:58.110566751 +0900
+@@ -12,6 +12,8 @@
+     {"cmd": "resume", "reason": "stop_sign"} or   resume    (releases only that reason's hold;
+                                                              the car moves when no hold is left)
+     {"cmd": "resume_all"}                    or   resume_all
++    {"cmd": "speed", "scale": 0.8}           or   slow / normal   (lane-following duty factor;
++                                                             junction manoeuvres are not scaled)
+     optional "command_id": a repeated id is ignored (UDP re-sends)
+     plain words use reason "orchestrator"
+     {"cmd": "quit"}                          or   quit      (ends the run, motors zero)
+@@ -42,7 +44,21 @@
+ 
+ WORDS = {"left": ("direction", "left"), "right": ("direction", "right"), "straight": ("direction", "straight"),
+          "stop": ("stop", None), "resume": ("resume", None), "resume_all": ("resume_all", None),
+-         "quit": ("quit", None)}
++         "quit": ("quit", None), "slow": ("speed", 0.8), "normal": ("speed", 1.0)}
++SLOW_MIN_DUTY = 0.31        # a wheel that was driving keeps at least this while slowed (start duty 0.30)
++
++
++def slow_pwm(pwm, scale):
++    """Scale both wheels by ONE factor, so their ratio (= the curvature the CNN asked for)
++    is kept. The factor stops where the slower wheel would fall below the start duty; a
++    command whose slower wheel is already at or below it (tight corner) is left as it is.
++    Field 2026-11-14: clamping only the inner wheel turned [0.30, 0.49] into [0.31, 0.39]
++    in a corner, i.e. less turning, and the map lost the car there."""
++    p = np.asarray(pwm, float)
++    low = float(p.min())
++    if low < SLOW_MIN_DUTY:
++        return p
++    return p * max(scale, SLOW_MIN_DUTY / low)
+ 
+ 
+ def parse_command(raw):
+@@ -60,6 +76,11 @@
+             return dict(kind="direction", arg=cmd, reason=reason, command_id=cid)
+         if cmd in ("stop", "resume", "resume_all", "quit"):
+             return dict(kind=cmd, arg=None, reason=reason, command_id=cid)
++        if cmd == "speed":
++            try:
++                return dict(kind="speed", arg=float(m.get("scale", 1.0)), reason=reason, command_id=cid)
++            except (TypeError, ValueError):
++                return None
+         return None
+     w = WORDS.get(text.lower())
+     return None if w is None else dict(kind=w[0], arg=w[1], reason="orchestrator", command_id=None)
+@@ -333,6 +354,15 @@
+     ap.add_argument("--script", help="scripted signs / lights from the car's map pose: a preset name "
+                                      "(see --list-scripts) or tokens, e.g. \"dir:south:E:right, red:S:4\"")
+     ap.add_argument("--list-scripts", action="store_true", help="show script presets and pink line indices")
++    ap.add_argument("--vision", action="store_true",
++                    help="run sign / light detection (bench.vision) in its own process; it sends the commands")
++    ap.add_argument("--vision-model", default=str(Path(__file__).resolve().parent.parent / "models" / "signs"),
++                    help="folder with model.ncnn.param / .bin ('none' = pipeline test, detects nothing)")
++    ap.add_argument("--vision-fps", type=float, default=8.0, help="max detector frames per second")
++    ap.add_argument("--vision-threads", type=int, default=2)
++    ap.add_argument("--horn-pin", type=int, help="GPIO (BCM) of a buzzer for the horn sign (default: log only)")
++    ap.add_argument("--vision-view", type=int, nargs="?", const=5000,
++                    help="live detection view in a browser: http://<Pi address>:PORT (default port 5000)")
+     ap.add_argument("--max-seconds", type=float, default=600.0)
+     ap.add_argument("--save-every", type=int, default=3, help="save every Nth upright frame (0 = none)")
+     ap.add_argument("--cmd-port", type=int, default=8765)
+@@ -400,7 +430,10 @@
+         creep_duty=getattr(ctrl, "CREEP_DUTY", None),
+         stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
+ 
+-    camera = motors = channel = saver = None
++    if args.vision and args.script:
++        print("WARNING: --vision and --script both send sign commands; signs may act twice", flush=True)
++    camera = motors = channel = saver = vision = None
++    speed_scale = 1.0
+     last_est = last_sxy = None
+     script = None
+     if args.script is not None:
+@@ -428,6 +461,11 @@
+             if motors is not None:
+                 motors.clock = clock
+         channel = CommandChannel(args.cmd_port, motors, clock)
++        if args.vision:
++            from .vision import VisionLink
++            print("starting the vision process...", flush=True)
++            vision = VisionLink(args.cmd_port, out, args.vision_model, args.vision_fps, args.horn_pin,
++                                args.vision_threads, args.vision_view)
+         print(f"{mode.upper()} - commands on udp 127.0.0.1:{args.cmd_port}, stop with Ctrl+C / board button", flush=True)
+         saver = FrameSaver()
+         with (out / "steps.jsonl").open("w", buffering=1) as log:
+@@ -452,6 +490,8 @@
+                     stop.set("max_seconds")
+                     break
+                 upright = cv2.rotate(image, cv2.ROTATE_180)
++                if vision is not None:
++                    vision.offer(upright, capture, count)          # only when it is idle; never waits
+                 if rig is not None and args.sim_alias_at is not None and capture >= args.sim_alias_at \
+                         and hasattr(ctrl, "_rotate_map"):
+                     ctrl._rotate_map(-1 if args.direction == "ccw" else 1)       # one road behind
+@@ -474,6 +514,9 @@
+                                source=c.get("source", "udp"))
+                     if kind == "quit":
+                         stop.set("quit_command")
++                    elif kind == "speed":                       # handled here, not by the controller
++                        speed_scale = float(np.clip(arg, 0.5, 1.0))
++                        events.send(t=now, type="ack", scale=speed_scale, **ack)
+                     elif not has_api:
+                         events.send(t=now, type="ignored", why="controller has no orchestrator API", **ack)
+                     elif kind == "direction":
+@@ -501,6 +544,9 @@
+                 except Exception as exc:                       # one bad frame is not a stop condition
+                     pwm, info = np.zeros(2), {"reason": "frame_error", "error": f"{type(exc).__name__}: {exc}"}
+                 step_ms = (time.perf_counter() - tic) * 1e3
++                if speed_scale < 1.0 and str(info.get("reason", "")).startswith("cnn"):
++                    pwm = slow_pwm(pwm, speed_scale)            # lane following only, not junction moves
++                    info["slow"] = speed_scale
+                 if rig is not None:
+                     applied = rig.write(pwm, done_est)
+                     write_at = done_est
+@@ -531,13 +577,16 @@
+                                       "phase": info.get("phase"), "pwm": [round(v, 2) for v in np.asarray(pwm)],
+                                       "w": round(float(info.get("w_map") or 0), 2), "sxy": round(float(info.get("sxy") or 0), 2),
+                                       "last": m.get("last"), "queue": m.get("queue"), "held": m.get("held"),
+-                                      "ms": round(step_ms)}), flush=True)
++                                      "ms": round(step_ms), "slow": speed_scale if speed_scale < 1 else None}),
++                          flush=True)
+                 count += 1
+     except Exception as exc:
+         stop.set(f"error:{type(exc).__name__}:{exc}")
+         import traceback
+         traceback.print_exc()
+     finally:
++        if vision is not None:
++            vision.close()
+         if motors:
+             motors.close()
+         if getattr(ctrl, "worker", None) is not None:
+@@ -556,6 +605,7 @@
+                                                                           for e in script.events if not e["done"]]),
+                        direction_changes=getattr(ctrl, "direction_changes", None),
+                        corners=getattr(ctrl, "corners", None), side_fixes=getattr(ctrl, "side_fixes", None),
++                       vision=None if vision is None else dict(model=args.vision_model, frames_offered=vision.offered),
+                        frames_saved=getattr(saver, "saved", 0), frames_dropped=getattr(saver, "dropped", 0),
+                        decisions=getattr(ctrl, "decisions", None),
+                        policy_log=getattr(getattr(ctrl, "policy", None), "log", None),
+--- a/bench/pi_cmd.py	2026-11-14 16:01:09.421092362 +0900
++++ b/bench/pi_cmd.py	2026-11-14 17:12:58.110858490 +0900
+@@ -4,6 +4,7 @@
+     python -m bench.pi_cmd resume
+     python -m bench.pi_cmd right            # queue a direction for the next junction
+     python -m bench.pi_cmd stop3            # manual test: stop, resume 3 s after sending
++    python -m bench.pi_cmd slow / normal    # lane-following duty x0.8 / back to x1.0
+     python -m bench.pi_cmd stop --reason red_light     # holds are per reason
+     python -m bench.pi_cmd resume --reason red_light   # releases only that one
+     python -m bench.pi_cmd -i               # interactive: s=stop r=resume L/R/S=direction 3=stop3 q=quit run
+@@ -28,6 +29,8 @@
+         send(port, {"cmd": "direction", "move": word})
+     elif word in ("stop", "resume", "resume_all", "quit"):
+         send(port, {"cmd": word, "reason": reason})
++    elif word in ("slow", "normal"):
++        send(port, {"cmd": "speed", "scale": 0.8 if word == "slow" else 1.0, "reason": reason})
+     elif word == "stop3":
+         # manual test helper only: resumes 3 s after SENDING, not 3 s after the car stopped
+         send(port, {"cmd": "stop", "reason": reason})
+@@ -64,7 +67,7 @@
+                 break
+         return
+     if not a.word or not command(a.cmd_port, a.word, a.reason):
+-        ap.error("word: left / right / straight / stop / resume / resume_all / stop3 / quit")
++        ap.error("word: left / right / straight / stop / resume / resume_all / stop3 / slow / normal / quit")
+ 
+ 
+ if __name__ == "__main__":

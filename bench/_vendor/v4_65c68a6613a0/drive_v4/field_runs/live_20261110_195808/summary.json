@@ -1,0 +1,10 @@
+{
+  "output": "/home/pi/drive_v4_trial/drive_v4/runs/live_20261110_195808",
+  "stop_reason": "ctrl_c",
+  "frames": 543,
+  "drive": true,
+  "final_output": [
+    0,
+    0
+  ]
+}
