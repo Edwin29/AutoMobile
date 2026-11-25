@@ -283,7 +283,7 @@ class VisionLink:
         self.shm = shared_memory.SharedMemory(create=True, size=int(np.prod(FRAME_SHAPE)))
         self.view = np.ndarray(FRAME_SHAPE, np.uint8, buffer=self.shm.buf)
         self.want, self.ready, self.quit = ctx.Event(), ctx.Event(), ctx.Event()
-        self.meta = ctx.Array("d", 2, lock=False)
+        self.meta = ctx.Array("d", 3, lock=False)
         self.offered = 0
         self.proc = ctx.Process(target=worker_main, daemon=True, name="vision",
                                 args=(self.shm.name, self.want, self.ready, self.quit, self.meta,
@@ -291,12 +291,13 @@ class VisionLink:
                                       horn_pin, int(threads), view_port))
         self.proc.start()
 
-    def offer(self, image, capture, index):
+    def offer(self, image, capture, index, signal_eligible=None):
         if not self.want.is_set() or image.shape != FRAME_SHAPE:
             return False
         self.want.clear()
         self.view[:] = image
         self.meta[0], self.meta[1] = float(capture), float(index)
+        self.meta[2] = -1 if signal_eligible is None else int(signal_eligible)
         self.ready.set()
         self.offered += 1
         return True
@@ -347,14 +348,15 @@ def worker_main(shm_name, want, ready, quit, meta, cmd_port, out_dir, model_dir,
             ready.clear()
             frame = view.copy()
             capture, index = meta[0], int(meta[1])
+            signal_eligible = None if meta[2] < 0 else bool(meta[2])
             next_at = time.monotonic() + period
             tic = time.perf_counter()
             dets = detect(frame)
             ms = (time.perf_counter() - tic) * 1e3
             now = time.monotonic()
-            cmds = rules.update(now, dets, frame=index)
+            cmds = rules.update(now, dets, frame=index, signal_eligible=signal_eligible)
             log.write(json.dumps(dict(t=round(now, 3), capture=round(capture, 3), frame=index,
-                                      infer_ms=round(ms, 1), dets=dets)) + "\n")
+                                      infer_ms=round(ms, 1), dets=dets, signal_eligible=signal_eligible)) + "\n")
             carry_out(cmds, sender, horn, log, now)
             if t_prev is not None and now > t_prev:
                 fps_now = 0.8 * fps_now + 0.2 / (now - t_prev)

@@ -478,7 +478,10 @@ def main():
         print("WARNING: --vision and --script both send sign commands; signs may act twice", flush=True)
     camera = motors = channel = saver = vision = None
     speed_scale = 1.0
-    last_est = last_sxy = None
+    last_est = last_sxy = last_obs_age = last_capture = None
+    if args.vision:
+        from .vision_rules import SignalMap
+        signal_map = SignalMap((rig.track if rig is not None else track).data)
     script = None
     if args.script is not None:
         from .pi_script import ScriptOrchestrator, parse
@@ -534,8 +537,10 @@ def main():
                     stop.set("max_seconds")
                     break
                 upright = cv2.rotate(image, cv2.ROTATE_180)
-                if vision is not None and vision.offer(upright, capture, count):
-                    if hasattr(ctrl, "remember_arrow_frame"):
+                if vision is not None:
+                    age = None if last_obs_age is None else last_obs_age + max(0, capture - last_capture)
+                    eligible = signal_map.eligible(last_est, last_sxy, age)
+                    if vision.offer(upright, capture, count, eligible) and hasattr(ctrl, "remember_arrow_frame"):
                         ctrl.remember_arrow_frame(count, capture, last_est, last_sxy)
                 if rig is not None and args.sim_alias_at is not None and capture >= args.sim_alias_at \
                         and hasattr(ctrl, "_rotate_map"):
@@ -613,6 +618,7 @@ def main():
                         events.send(t=write_at, type="junction_decision", decision=dec)
                     decisions_sent = len(ctrl.decisions)
                 last_est, last_sxy = info.get("est"), info.get("sxy")
+                last_obs_age, last_capture = info.get("obs_age"), capture
                 rec = dict(index=count, capture=capture, write=write_at, step_ms=step_ms,
                            sensor_to_write_ms=(write_at - capture) * 1e3, pwm=np.asarray(pwm).tolist(),
                            applied=applied, **info)

@@ -147,6 +147,13 @@ class HybridMission(HybridJunction):
             return None
         move, n = votes.most_common(1)[0]
         total = sum(votes.values())
+        options = self.policy.options(*hit)
+        turns = [m for m in options if m in ("left", "right")]
+        turn_votes = votes["left"] + votes["right"]
+        if ("straight" in options and len(turns) == 1 and turn_votes >= ARROW_MIN_VOTES
+                and turn_votes / total >= ARROW_MAJORITY):
+            return dict(t=now, move=turns[0], source="vision_approach", junction=hit[0], arm=hit[1],
+                        votes=dict(votes), interpretation="turn_on_only_branch")
         if total < ARROW_MIN_VOTES or n / total < ARROW_MAJORITY:
             return None
         return dict(t=now, move=move, source="vision_approach", junction=hit[0], arm=hit[1], votes=dict(votes))

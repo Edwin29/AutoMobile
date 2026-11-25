@@ -39,16 +39,25 @@ class ApproachArrowTests(unittest.TestCase):
         self.assertIsNone(self.ctrl.accept_arrow_vote(1.4, 8, "left"))
         self.assertEqual(self.decide(("south", "W")).move, "straight")
 
-    def test_wrong_target_illegal_exit_and_ambiguous_votes(self):
+    def test_only_branch_resolves_turn_votes_but_not_turn_vs_straight(self):
         for i in range(4):
             self.vote(i)
         self.assertEqual(self.decide(("north", "E")).move, "straight")
         for i in range(4):
             self.vote(i, "right")
-        self.assertEqual(self.decide(("west", "N")).move, "straight")
+        self.assertEqual(self.decide(("west", "N")).move, "left")
         for i, move in enumerate(["right", "right", "left", "left"]):
             self.vote(i, move)
+        self.assertEqual(self.decide(("west", "N")).move, "left")
+        for i, move in enumerate(["right", "straight", "left", "straight"]):
+            self.vote(i, move)
         self.assertEqual(self.decide(("west", "N")).move, "straight")
+
+    def test_both_directions_and_two_turn_merge(self):
+        for hit, expected in [(("north", "W"), "right"), (("north", "S"), None)]:
+            self.ctrl.arrow_votes.extend((1, hit, m) for m in ["left", "right", "left", "right"])
+            arrow = self.ctrl.take_arrow(2, hit)
+            self.assertEqual(arrow["move"] if arrow else None, expected)
 
     def test_late_frame_and_frame_after_commit(self):
         self.ctrl.remember_arrow_frame(1, 1, [-87, 48, pi], 0.5)

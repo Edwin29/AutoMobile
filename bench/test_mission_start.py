@@ -5,7 +5,7 @@ from types import SimpleNamespace
 
 from .pi_run import describe_start, start_pose
 from .vehicle import PRESETS
-from .vision_rules import Rules
+from .vision_rules import Rules, SignalMap
 from .world import Track
 
 
@@ -42,7 +42,8 @@ class MissionStartTests(unittest.TestCase):
         for color in ("green", "red"):
             rules = Rules()
             commands = rules.update(0, [detection(color), detection("cross")])
-            for time in (4, 5, 8, 9, 30):
+            commands.extend(rules.update(.125, [detection(color), detection("cross")]))
+            for time in (4.125, 5.125, 8, 9, 30):
                 commands.extend(rules.tick(time))
             expected = ["stop", "resume"] if color == "red" else []
             self.assertEqual([cmd["cmd"] for cmd in commands], expected)
@@ -51,3 +52,19 @@ class MissionStartTests(unittest.TestCase):
             for time in (0, 0.2, 0.4):
                 self.assertEqual(rules.update(time, [detection(move)]), [])
             self.assertEqual(rules.update(2, []), [dict(cmd="direction", move=move)])
+
+    def test_signal_zone_and_visual_fallback(self):
+        from math import pi
+        zones = SignalMap(Track().data)
+        for pose in ([0, -71, 0], [0, 71, pi], [-65, 0, pi/2], [65, 0, -pi/2]):
+            self.assertIs(zones.eligible(pose, 1, .1), True)
+        for pose in ([7.6, 80.4, -1.62], [0, -71, pi], [0, -15, 0]):
+            self.assertIs(zones.eligible(pose, 1, .1), False)
+        self.assertIsNone(zones.eligible([7.6, 80.4, -1.62], 1, 1))
+        red_cross = [dict(name=n, box=[20, 20, 30, 50]) for n in ("red","cross")]
+        for zones_seen, expected in [([False, False], []), ([True, False, True], []),
+                                     ([True, True], ["stop","resume"]), ([None, None], ["stop","resume"])]:
+            rules = Rules()
+            for i, zone in enumerate(zones_seen):
+                rules.update(i / 8, red_cross, signal_eligible=zone)
+            self.assertEqual([c["cmd"] for c in rules.tick(8)], expected)

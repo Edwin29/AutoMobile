@@ -30,8 +30,38 @@ A class must be detected in CONFIRM_FRAMES consecutive detector frames to count
 (one false box must not stop the car).
 """
 from collections import defaultdict
+import math
 
 FRAME_H = 480
+
+
+class SignalMap:
+    """Incoming roads to the four signal crosswalks at the central crossroads."""
+
+    def __init__(self, track):
+        cx, cy = track["junctions"]["center"]["xy"]
+        self.approaches = []
+        for outer, ax, ay, axis in (("north", 0, 1, "ns"), ("south", 0, -1, "ns"),
+                                    ("east", 1, 0, "ew"), ("west", -1, 0, "ew")):
+            crossings = [(x, y) for x, y, orientation in track["crosswalks"]
+                         if orientation == axis and abs((x-cx)*ay - (y-cy)*ax) < 1
+                         and (x-cx)*ax + (y-cy)*ay > 0]
+            x, y = min(crossings, key=lambda xy: math.hypot(xy[0]-cx, xy[1]-cy))
+            ox, oy = track["junctions"][outer]["xy"]
+            self.approaches.append((x, y, ax, ay, (ox-x)*ax + (oy-y)*ay))
+
+    def eligible(self, pose, sxy, observation_age):
+        if pose is None or sxy is None or observation_age is None:
+            return None
+        if not all(math.isfinite(v) for v in (*pose, sxy, observation_age)) or sxy > 2 or observation_age > 0.5:
+            return None
+        px, py, yaw = pose
+        for x, y, ax, ay, length in self.approaches:
+            dx, dy = px-x, py-y
+            if (-2 <= dx*ax + dy*ay <= length and abs(dx*ay - dy*ax) <= 10.5
+                    and -math.sin(yaw)*ax - math.cos(yaw)*ay >= math.cos(math.radians(35))):
+                return True
+        return False
 
 CONFIRM_FRAMES = 2
 SIGN_DELAY_S = 2.0          # seen -> action starts
@@ -110,7 +140,7 @@ class Rules:
         return bool(bottoms) and max(bottoms) >= LINE_MID_RATIO * self.frame_h
 
     # ---- per detector frame ----------------------------------------------------------
-    def update(self, t, dets, frame=None):
+    def update(self, t, dets, frame=None, signal_eligible=None):
         if t < self.blind_until:
             return self.tick(t)
         out = []
@@ -122,6 +152,8 @@ class Rules:
                 self.armed[n] = True
         if self._line_at_mid(dets):
             names.add("_line_mid")
+        if signal_eligible is not False and {"red", "cross"} <= names:
+            names.add("_red_cross")
         for n in set(self.streak) | names:
             self.streak[n] = self.streak[n] + 1 if n in names else 0
         seen = {n for n in names if self.streak[n] >= CONFIRM_FRAMES}
@@ -143,13 +175,13 @@ class Rules:
             self.red_seen_at = t
         red_now = self.red_seen_at is not None and t - self.red_seen_at <= RED_MEMORY_S
 
-        if "green" in names and "cross" in names and t >= self.line_free_at:
+        if signal_eligible is not False and "green" in names and "red" not in names and "cross" in names and t >= self.line_free_at:
             self.red_seen_at = None
             self.line_free_at = t + LINE_COOLDOWN_S
             self._fire("traffic_light", t)
             self._note(t, "green + cross: continue")
 
-        if "red" in names and "cross" in names and t >= self.line_free_at:
+        if "_red_cross" in seen and t >= self.line_free_at:
             self.red_seen_at = None
             self.blind_until = t + 5.0
             self.line_free_at = t + LINE_COOLDOWN_S
