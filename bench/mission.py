@@ -108,15 +108,14 @@ class Orchestrator:
 
 
 class MissionScorer:
-    def __init__(self, track, rim, direction, start_pose, front_cm):
+    def __init__(self, track, rim, direction, start_pose, front_cm, finish_on_return=True):
         self.track, self.rim, self.dir, self.front = track, rim, direction, front_cm
         self.min_margin, self.outside_s, self.t, self.end, self.travel = np.inf, 0.0, 0.0, None, 0.0
         self.episode, self.episodes, self.inside_since = None, [], None
         self.last_xy, self.zero_run = np.asarray(start_pose[:2], float), 0.0
         self.passages, self.inside_j = [], None
-        r = track.data["start_regions"]["right_red"]
-        ys = sorted(float(np.mean(track.data["red_lines"][i], axis=0)[1]) for i in r["red_indices"])
-        self.zone = (r["road_x_cm"], ys, r["heading_by_direction"][direction])
+        self.zone = track.start_zone(direction)
+        self.finish_on_return = finish_on_return
         self.line_checks = []        # (kind, xy point of the line, normal toward the car's side)
 
     def watch_line(self, kind, xy, travel_dir):
@@ -161,7 +160,7 @@ class MissionScorer:
         d = self.track.clearance(to_world(self.rim, pose))
         if d.max() < 0 or m < -12:
             self.end = "severe_departure"
-        elif in_zone and self.travel > 300 and self.episode is None:
+        elif self.finish_on_return and in_zone and self.travel > 300 and self.episode is None:
             self.end = "mission_complete"
         elif self.zero_run >= 5.0:
             self.end = "held"

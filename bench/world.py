@@ -60,12 +60,16 @@ class Track:
         d += [box_sdf(points, b, self.data["block_radius_cm"]) for b in self.data["blocks"]]
         return np.min(np.stack(d, axis=-1), axis=-1)
 
-    def start_pose(self, direction, vehicle_front_cm=14.5, vehicle_rear_cm=10.0):
-        """Centre of the right red-line start zone, axle-midpoint pose."""
+    def start_zone(self, direction):
         region = self.data["start_regions"]["right_red"]
         yaw = region["heading_by_direction"][direction]
         ys = sorted(float(np.mean(self.data["red_lines"][i], axis=0)[1]) for i in region["red_indices"])
-        x = float(np.mean(region["road_x_cm"]))
+        return region["road_x_cm"], ys, yaw
+
+    def start_pose(self, direction, vehicle_front_cm=14.5, vehicle_rear_cm=10.0):
+        """Centre of the right red-line start zone, axle-midpoint pose."""
+        xs, ys, yaw = self.start_zone(direction)
+        x = float(np.mean(xs))
         y = float(np.mean(ys))
         shift = (vehicle_front_cm - vehicle_rear_cm) / 2   # body midpoint is ahead of the axle
         return np.array([x - shift * math.sin(yaw), y - shift * math.cos(yaw), yaw])

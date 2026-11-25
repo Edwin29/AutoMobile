@@ -265,7 +265,8 @@ class SimRig:
         self.hint = start_pose(args, self.track, self.params)
         self.car = Vehicle(self.params, self.hint.copy())
         self.orch = Orchestrator(SCENARIOS[args.scenario], self.track, self.params.front_cm)
-        self.scorer = MissionScorer(self.track, self.car.footprint(), args.direction, self.hint, self.params.front_cm)
+        self.scorer = MissionScorer(self.track, self.car.footprint(), args.direction, self.hint,
+                                    self.params.front_cm, finish_on_return=not args.stop_on_return)
         effects = [e for e in args.effects.split(",") if e]
         self.dist = Disturbances(combine(effects), args.direction, args.seed)
         self.dist.arm(self.renderer)
@@ -372,6 +373,8 @@ def main():
     placement.add_argument("--pose", nargs=3, type=float, help="start x y yaw_deg (yaw 0 = +y / north, + = clockwise)")
     placement.add_argument("--start", help="junction:arm:cm, e.g. center:S:60 (60 cm south of the crossroad, facing it)")
     ap.add_argument("--stop-after-junctions", type=int, help="end the run once this many junctions are passed")
+    ap.add_argument("--stop-on-return", action="store_true",
+                    help="stop on returning to the right red start zone facing the starting direction (hyb2m)")
     ap.add_argument("--drive", action="store_true", help="enable motor output (Pi only)")
     ap.add_argument("--sim", action="store_true", help="software stand-in for camera and motors")
     ap.add_argument("--scenario", default="lap_defaults", help="--sim: scripted orchestrator (bench.mission SCENARIOS)")
@@ -445,6 +448,12 @@ def main():
         hint = rig.hint
     print("preparing controller (motors untouched)...", flush=True)
     ctrl = CONTROLLERS[args.controller](args.direction, hint, timing_profile("cnn_pi"))
+    return_stop, previous_speed = None, 0.0
+    if args.stop_on_return:
+        from .return_stop import ReturnStop
+        return_stop = ReturnStop((rig.track if rig else track).start_zone(args.direction))
+        if not hasattr(ctrl, "_signed_velocity") or not return_stop.in_zone(hint):
+            ap.error("--stop-on-return requires a junction controller starting in the right red zone facing the lap direction")
     # The controller's motion model must integrate the PWM really written (dry run: zero;
     # stop / watchdog: zero; clipping), not its proposal (GPT review 2026-11-11).
     defer = hasattr(ctrl, "on_applied")
@@ -472,7 +481,8 @@ def main():
         turn_duty=getattr(ctrl, "TURN_DUTY", None), stop_lead_s=getattr(ctrl, "STOP_LEAD_S", None),
         cnn_mixer=getattr(ctrl, "CNN_MIXER", None),
         creep_duty=getattr(ctrl, "CREEP_DUTY", None),
-        stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"), indent=2, default=float))
+        stop_policy="ctrl_c / sigterm / ssh_hangup / board_button / quit command / max_seconds"
+                    + (" / returned_to_start" if return_stop else "")), indent=2, default=float))
 
     if args.vision and args.script:
         print("WARNING: --vision and --script both send sign commands; signs may act twice", flush=True)
@@ -599,6 +609,10 @@ def main():
                 except Exception as exc:                       # one bad frame is not a stop condition
                     pwm, info = np.zeros(2), {"reason": "frame_error", "error": f"{type(exc).__name__}: {exc}"}
                 step_ms = (time.perf_counter() - tic) * 1e3
+                if return_stop and return_stop.sample(capture, info, previous_speed):
+                    stop.set("returned_to_start")
+                    pwm = np.zeros(2)
+                    info.update(reason="returned_to_start", return_travel_cm=return_stop.travel_cm)
                 if speed_scale < 1.0 and str(info.get("reason", "")).startswith("cnn"):
                     pwm = slow_pwm(pwm, speed_scale)            # lane following only, not junction moves
                     info["slow"] = speed_scale
@@ -611,6 +625,8 @@ def main():
                     lat_est = 0.8 * lat_est + 0.2 * (write_at - now)
                 if defer:                                      # the motion model gets the real output
                     ctrl.on_applied(write_at, applied)
+                if return_stop:
+                    previous_speed = ctrl._signed_velocity(applied)[0]
                 if has_api and args.stop_after_junctions and len(ctrl.decisions) >= args.stop_after_junctions                         and not ctrl.active and ctrl.visit is None:
                     stop.set("junctions_done")
                 if has_api:

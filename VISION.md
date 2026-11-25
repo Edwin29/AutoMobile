@@ -58,9 +58,13 @@ cp ~/yolo_real/new_model/model.ncnn.param ~/yolo_real/new_model/model.ncnn.bin m
 # 4) 오른쪽 빨간 출발 구역에서 남쪽을 보는 시계 방향 출발. 북쪽을 보면 --direction ccw 사용.
 ./run_mission.sh --drive --direction cw --vision
 ./run_mission.sh --drive --direction cw --vision --horn-pin 18     # 부저가 GPIO18(BCM)에 있을 때
+
+# 5) 빨간 출발 구역으로 돌아오면 정지 (반시계 방향)
+./run_mission.sh --drive --direction ccw --vision --horn-pin 12 --stop-on-return
 ```
 
 - `--script`와 함께 쓰지 않는다(같은 표지판이 두 번 동작한다).
 - 탐지 기록: `pi_runs/<실행>/vision.jsonl` (프레임마다 검출 결과, 보낸 명령)
+- `--stop-on-return`은 출발 구역을 벗어난 뒤 적용 PWM 기반 추정 이동거리가 300 cm를 넘고, 출발 방향으로 구역 안에서 신뢰 가능한 위치 추정이 0.3초 지속되면 모터 출력을 0으로 쓰고 종료한다. 종료 사유는 `returned_to_start`로 기록한다.
 - 손으로 시험: `./send.sh slow`, `./send.sh normal`, `./send.sh resume --reason red_light`
 - `--vision-model none`: 모델 없이 프레임 전달만 시험한다.
