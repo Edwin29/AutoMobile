@@ -7,10 +7,10 @@ commands to pi_run over the same UDP port as ./send.sh (127.0.0.1:8765). The hor
 driven here (gpiozero), because it is not a driving command.
 
 On the car (started by pi_run):
-    ./run_mission.sh --drive --vision                       # model in ~/hybrid_mission/models/signs
-    ./run_mission.sh --drive --vision --horn-pin 18         # with a buzzer on GPIO18
+    ./run_mission.sh --drive --direction cw --vision                       # model in ~/hybrid_mission/models/signs
+    ./run_mission.sh --drive --direction cw --vision --horn-pin 18         # with a buzzer on GPIO18
     ./run_mission.sh --vision                               # dry: detections + commands, motors off
-    ./run_mission.sh --drive --vision --vision-view         # + live view: http://<Pi address>:5000
+    ./run_mission.sh --drive --direction cw --vision --vision-view         # + live view: http://<Pi address>:5000
 
 Replay saved frames (laptop or Pi, no camera, no motors; prints what would be sent):
     python -m bench.vision --replay pi_runs/drive_hyb2m_20261111_175226 --fps 10

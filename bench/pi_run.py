@@ -2,7 +2,7 @@
 stand-in (--sim) that uses the bench renderer and vehicle model instead of camera/motors.
 
     python -m bench.pi_run                       # DRY on the Pi: camera + decisions, motors untouched
-    python -m bench.pi_run --drive               # real motors
+    python -m bench.pi_run --drive --direction cw  # match the physical starting direction
     python -m bench.pi_run --sim --scenario inner_loop   # laptop: same loop, fake camera / motors
     python -m bench.pi_run --pose 0 -60 0 ...    # start somewhere else (x y yaw; yaw 0 = +y, + = clockwise)
 
@@ -323,18 +323,52 @@ def start_pose(args, track, params):
         return np.array([args.pose[0], args.pose[1], np.radians(args.pose[2])])
     if args.start:
         j, arm, cm = args.start.split(":")
-        c, a = np.asarray(track.data["junctions"][j]["xy"], float), np.asarray(ARMS[arm.upper()])
-        xy = c + float(cm) * a
+        arm, cm = arm.upper(), float(cm)
+        junction = track.data["junctions"].get(j)
+        if not junction or arm not in junction["arms"] or not np.isfinite(cm) or cm <= 0:
+            raise ValueError("--start needs an existing junction arm and a positive distance in cm")
+        c, a = np.asarray(junction["xy"], float), np.asarray(ARMS[arm])
+        xy = c + cm * a
         return np.array([xy[0], xy[1], float(np.arctan2(-a[0], -a[1]))])
     return track.start_pose(args.direction, params.front_cm, params.rear_cm)
+
+
+def describe_start(args, track, hint):
+    from .controllers import HybridMission
+    from .controllers_mission import _load_policy
+
+    x, y, yaw = hint
+    if not np.isfinite(hint).all():
+        raise ValueError("start coordinates and heading must be finite")
+    heading = np.array([np.sin(yaw), np.cos(yaw)])
+    side = HybridMission._side_of(hint[:2])
+    if side:
+        # Only compare lap direction on an outer straight with a tangential heading.
+        tangent = heading[1] if side in ("E", "W") else heading[0]
+        if abs(tangent) >= np.cos(np.radians(HybridMission.ARRIVE_HEAD_DEG)):
+            expected = HybridMission._lap_dir_of(hint[:2], heading)
+            if expected != args.direction:
+                raise ValueError(f"outer-road starting heading implies {expected}, got --direction {args.direction}")
+    description = f"direction={args.direction} start=({x:.1f}, {y:.1f}) cm heading={np.degrees(yaw):.0f} deg (0=north)"
+    if args.start:
+        junction, arm, _ = args.start.split(":")
+        arm = arm.upper()
+    elif args.pose is None:
+        # From the right red start zone, CW rounds the SE corner before the first T.
+        junction, arm = ("south", "E") if args.direction == "cw" else ("east", "S")
+    else:
+        return description
+    policy = _load_policy().JunctionPolicy(track.data["junctions"], args.direction)
+    return f"{description} expected approach={junction}/{arm} exits={','.join(policy.options(junction, arm))}"
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--controller", default="hyb2m")
-    ap.add_argument("--direction", choices=["cw", "ccw"], default="cw")
-    ap.add_argument("--pose", nargs=3, type=float, help="start x y yaw_deg (yaw 0 = +y / north, + = clockwise)")
-    ap.add_argument("--start", help="junction:arm:cm, e.g. center:S:60 (60 cm south of the crossroad, facing it)")
+    ap.add_argument("--direction", choices=["cw", "ccw"], help="required for real driving; dry/sim default: cw")
+    placement = ap.add_mutually_exclusive_group()
+    placement.add_argument("--pose", nargs=3, type=float, help="start x y yaw_deg (yaw 0 = +y / north, + = clockwise)")
+    placement.add_argument("--start", help="junction:arm:cm, e.g. center:S:60 (60 cm south of the crossroad, facing it)")
     ap.add_argument("--stop-after-junctions", type=int, help="end the run once this many junctions are passed")
     ap.add_argument("--drive", action="store_true", help="enable motor output (Pi only)")
     ap.add_argument("--sim", action="store_true", help="software stand-in for camera and motors")
@@ -377,6 +411,9 @@ def main():
         return
     if args.drive and args.sim:
         ap.error("--drive and --sim are exclusive")
+    if args.drive and args.direction is None:
+        ap.error("--drive requires --direction cw or --direction ccw to match vehicle placement")
+    args.direction = args.direction or "cw"
     os.environ.setdefault("BENCH_CNN_SPEED", "1.0")
 
     stop = StopFlag()
@@ -396,7 +433,12 @@ def main():
     if rig is None:
         from .world import Track
         from .vehicle import PRESETS
-        hint = start_pose(args, Track(), PRESETS["field_estimate"])
+        track = Track()
+        try:
+            hint = start_pose(args, track, PRESETS["field_estimate"])
+            print(describe_start(args, track, hint), flush=True)
+        except ValueError as exc:
+            ap.error(str(exc))
     else:
         hint = rig.hint
     print("preparing controller (motors untouched)...", flush=True)

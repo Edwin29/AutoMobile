@@ -16,12 +16,8 @@ Rules (user, 2026-11-14):
       stop : {"cmd": "stop", "reason": "stop_sign"}  ...  {"cmd": "resume", "reason": "stop_sign"}
   * a sign that fired is ignored for COOLDOWN_S (10 s), counted from the moment it fired,
     and after that until it has left the view for REARM_ABSENT_S (one sign = one action).
-  * stop line: the car stops when the BOTTOM edge of a pink line / crosswalk box
-    (LINE_CLASSES) reaches the middle of the frame (LINE_MID_RATIO).
-    Assumption (not stated by the user, see LINE_NEEDS_RED): this stop is for the red
-    light, so it fires only while a red light was seen within RED_MEMORY_S, holds with
-    reason red_light, and resumes when a green light is seen. Without that condition the
-    car would stop at every pink line with nothing to release it.
+  * red + cross schedules stop and resume at +4 and +5 seconds. Green + cross
+    allows passage. Only a confirmed arrow supplies a direction command.
   * left / right / straight sign: the model flips between arrow classes on ONE sign
     (field 2026-11-14: straight/right alternating on the start sign; the left sign read as
     "right" for its first two frames). So the arrow classes vote together while a sign is
@@ -151,8 +147,7 @@ class Rules:
             self.red_seen_at = None
             self.line_free_at = t + LINE_COOLDOWN_S
             self._fire("traffic_light", t)
-            self.timers.append((t + 8.0, {"cmd": "direction", "move": "right"}))
-            self._note(t, "green + cross: no stop, right queued at 8.0s")
+            self._note(t, "green + cross: continue")
 
         if "red" in names and "cross" in names and t >= self.line_free_at:
             self.red_seen_at = None
@@ -161,8 +156,7 @@ class Rules:
             self._fire("traffic_light", t)
             self.timers.append((t + 4.0, {"cmd": "stop", "reason": "red_light"}))
             self.timers.append((t + 5.0, {"cmd": "resume", "reason": "red_light"}))
-            self.timers.append((t + 9.0, {"cmd": "direction", "move": "right"}))
-            self._note(t, "red + cross: ignore 4.0s, stop 4.0s-5.0s, right at 9.0s")
+            self._note(t, "red + cross: stop at +4.0s, resume at +5.0s")
 
         return out + self.tick(t)
 

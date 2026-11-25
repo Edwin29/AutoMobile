@@ -31,13 +31,13 @@ pi_run (기존 주행 프로세스)                 vision (새 프로세스)
 | horn | 확정 후 2초 뒤 경적 켬, 3초 뒤 끔 (`--horn-pin`이 없으면 기록만) |
 | left / right / straight | 표지판이 보이는 동안 프레임마다 화살표 종류를 투표하고(화면 좌우 끝에 걸려 잘린 박스는 투표 제외), 화면에서 1초 이상 사라지면 65% 이상 표를 받은 방향을 1번 보냄. 애매하면 안 보냄(교차로 기본값). 주행 코드는 그 명령을 다음에 인식하는 교차로에서 사용 |
 | 쿨다운 | stop·slow·horn은 발동 시각부터 10초 동안 무시하고, 그 뒤에도 화면에서 2초 이상 사라졌다가 다시 보여야 다시 발동 (표지판 하나 = 동작 한 번). 방향은 같은 방향을 10초 안에 두 번 보내지 않음 |
-| 정지선 | `line`·`cross` 박스 밑변이 화면 높이의 절반에 닿고, 1.5초 안에 빨간불을 봤으면 정지(사유 red_light). 초록불을 보면 재개. 재개 후 10초 동안 정지선 무시 |
+| 신호등과 횡단보도 | 같은 프레임에서 빨강과 횡단보도를 검출하면 4초 뒤 정지하고 5초 뒤 재개한다. 초록과 횡단보도를 검출하면 통과한다. 두 경우 모두 방향 명령은 생성하지 않는다. |
 | 확정 | 같은 클래스가 연속 2프레임 검출돼야 인정 |
 
 ## 설치 (Pi)
 
 ```bash
-cd ~/hybrid_mission
+cd ~/my_env/hybrid_mission
 .venv/bin/pip install ncnn
 mkdir -p models/signs
 cp ~/yolo_real/new_model/model.ncnn.param ~/yolo_real/new_model/model.ncnn.bin models/signs/
@@ -55,9 +55,9 @@ cp ~/yolo_real/new_model/model.ncnn.param ~/yolo_real/new_model/model.ncnn.bin m
 # 3) 탐지 화면 보기: 노트북 브라우저에서 http://<Pi 주소>:5000 (주소는 시작할 때 출력됨)
 ./run_mission.sh --vision --vision-view
 
-# 4) 실제 주행
-./run_mission.sh --drive --vision
-./run_mission.sh --drive --vision --horn-pin 18     # 부저가 GPIO18(BCM)에 있을 때
+# 4) 오른쪽 빨간 출발 구역에서 남쪽을 보는 시계 방향 출발. 북쪽을 보면 --direction ccw 사용.
+./run_mission.sh --drive --direction cw --vision
+./run_mission.sh --drive --direction cw --vision --horn-pin 18     # 부저가 GPIO18(BCM)에 있을 때
 ```
 
 - `--script`와 함께 쓰지 않는다(같은 표지판이 두 번 동작한다).
