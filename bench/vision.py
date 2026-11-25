@@ -352,7 +352,7 @@ def worker_main(shm_name, want, ready, quit, meta, cmd_port, out_dir, model_dir,
             dets = detect(frame)
             ms = (time.perf_counter() - tic) * 1e3
             now = time.monotonic()
-            cmds = rules.update(now, dets)
+            cmds = rules.update(now, dets, frame=index)
             log.write(json.dumps(dict(t=round(now, 3), capture=round(capture, 3), frame=index,
                                       infer_ms=round(ms, 1), dets=dets)) + "\n")
             carry_out(cmds, sender, horn, log, now)
@@ -401,7 +401,7 @@ def replay(folder, fps, model_dir, threads):
             for d in dets:
                 counts[d["name"]] = counts.get(d["name"], 0) + 1
             log.write(json.dumps(dict(t=round(t, 2), file=f.name, dets=dets)) + "\n")
-            cmds = rules.update(t, dets)
+            cmds = rules.update(t, dets, frame=int(f.stem) if f.stem.isdecimal() else i)
             for c in cmds:
                 print(f"{t:7.2f}s {f.name}  ->", json.dumps(c), flush=True)
             carry_out(cmds, sender, horn, log, t, verbose=False)

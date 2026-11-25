@@ -88,15 +88,15 @@ class JunctionPolicy:
         return ("right" if self.lap_direction == "cw" else "left"), "default"
 
     # --- the decision, taken once per junction visit -----------------------------
-    def decide(self, t, junction, came_from):
+    def decide(self, t, junction, came_from, arrow=None):
         opts = self.options(junction, came_from)
         move, source = self.default(junction, came_from)
         note, used = "", None
         for c in [c for c in self.queue if t - c["t"] > self.max_command_age_s]:
             self.log.append(dict(t=float(t), event="command_expired", move=c["move"], queued_t=c["t"]))
         self.queue = [c for c in self.queue if t - c["t"] <= self.max_command_age_s]
-        if self.kind(junction, came_from) != "crossroad" and self.queue:
-            c = self.queue.pop(0)
+        if self.kind(junction, came_from) != "crossroad" and (self.queue or arrow):
+            c = self.queue.pop(0) if self.queue else arrow
             if c["move"] in opts:
                 move, source, used = c["move"], "command", c
             else:

@@ -110,7 +110,7 @@ class Rules:
         return bool(bottoms) and max(bottoms) >= LINE_MID_RATIO * self.frame_h
 
     # ---- per detector frame ----------------------------------------------------------
-    def update(self, t, dets):
+    def update(self, t, dets, frame=None):
         if t < self.blind_until:
             return self.tick(t)
         out = []
@@ -137,7 +137,7 @@ class Rules:
                 self.timers.append((t + SIGN_DELAY_S + duration, off))
                 self._note(t, f"{n} seen: action {t + SIGN_DELAY_S:.1f}-{t + SIGN_DELAY_S + duration:.1f}")
 
-        out += self._arrows(t, dets)
+        out += self._arrows(t, dets, frame)
 
         if "red" in seen:
             self.red_seen_at = t
@@ -161,10 +161,16 @@ class Rules:
         return out + self.tick(t)
 
     # ---- arrow signs: one vote per frame, one command per sign -------------------------
-    def _arrows(self, t, dets):
+    def _arrows(self, t, dets, frame):
         arrows = [d for d in dets if d["name"] in DIRECTION_SIGNS]
         whole = [d for d in arrows if d["box"][0] > ARROW_EDGE_PX
                  and d["box"][0] + d["box"][2] < FRAME_W - ARROW_EDGE_PX]
+        if frame is not None:
+            # Live mission votes belong to the approach where this frame was captured.
+            if not whole:
+                return []
+            best = max(whole, key=lambda d: d["score"])
+            return [dict(cmd="arrow_vote", frame=frame, move=best["name"])]
         if arrows and not whole:              # still in view, but only a cut-off part: no vote
             self.arrow_last = t
             return []

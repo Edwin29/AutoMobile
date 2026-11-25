@@ -13,6 +13,7 @@ the real one):
 import importlib.util
 import json
 import math
+from collections import Counter, deque
 
 import numpy as np
 
@@ -61,6 +62,8 @@ class HybridMission(HybridJunction):
         self.outer_routes = {direction: d.route, other: with_lane_offsets(d.track, d.track.outer_route(other))}
         self.lap_dir = direction
         self.visit, self.decision, self.decisions, self.plan_cache = None, None, [], {}
+        self.arrow_frames = {}
+        self.arrow_votes = deque(maxlen=128)
         self.direction_changes = []
         self.side = self._side_of(np.asarray(start_hint, float)[:2])     # None: not on the outer loop
         self.turn_hist, self.corner_block, self.side_bad_since = [], -1e9, None
@@ -100,7 +103,8 @@ class HybridMission(HybridJunction):
             self.plan_cache[key] = (route, turn_plans(j, arm, move, self.rim))
         return self.plan_cache[key]
 
-    def _arrival(self, pose, sxy):
+    def _arrival(self, pose, sxy, max_distance=None):
+        distance = self.ENTER_CM if max_distance is None else max_distance
         if sxy > self.ARRIVE_SXY:
             return None
         for j, jd in self.junctions.items():
@@ -110,9 +114,42 @@ class HybridMission(HybridJunction):
                 along, lat = float(rel @ a), abs(float(rel @ np.array([a[1], -a[0]])))
                 head = math.atan2(-a[0], -a[1])                         # travelling toward the centre
                 dh = abs((pose[2] - head + math.pi) % (2 * math.pi) - math.pi)
-                if 0 < along <= self.ENTER_CM and lat < self.ARRIVE_LAT_CM and dh < math.radians(self.ARRIVE_HEAD_DEG):
+                if 0 < along <= distance and lat < self.ARRIVE_LAT_CM and dh < math.radians(self.ARRIVE_HEAD_DEG):
                     return j, arm
         return None
+
+    def remember_arrow_frame(self, frame, capture, pose, sxy):
+        # Only frames handed to the vision worker can produce a vote. Keep a short
+        # history for the asynchronous result, with the approach at image acquisition.
+        self.arrow_frames = {i: v for i, v in self.arrow_frames.items() if capture - v[0] <= 1.0}
+        if pose is None or sxy is None or self.active:
+            return
+        target = self._arrival(np.asarray(pose), sxy, max_distance=70.0)
+        if target and target != self.visit and target[0] != "center":
+            self.arrow_frames[frame] = (capture, target)
+
+    def accept_arrow_vote(self, now, frame, move):
+        item = self.arrow_frames.pop(frame, None)
+        if item is None:
+            return None
+        capture, target = item
+        if now - capture > 1.0 or self.active or target == self.visit:
+            return None
+        self.arrow_votes.append((capture, target, move))
+        return target
+
+    def take_arrow(self, now, hit):
+        from .vision_rules import ARROW_MIN_VOTES, ARROW_MAJORITY
+        votes = Counter(move for t, target, move in self.arrow_votes if target == hit and now - t <= 8.0)
+        self.arrow_votes.clear()
+        self.arrow_frames.clear()  # in-flight results cannot cross this decision
+        if not votes:
+            return None
+        move, n = votes.most_common(1)[0]
+        total = sum(votes.values())
+        if total < ARROW_MIN_VOTES or n / total < ARROW_MAJORITY:
+            return None
+        return dict(t=now, move=move, source="vision_approach", junction=hit[0], arm=hit[1], votes=dict(votes))
 
     @staticmethod
     def _inner_start_route(pose):
@@ -241,7 +278,7 @@ class HybridMission(HybridJunction):
             hit = self._arrival(pose, sxy)
             if hit is not None:
                 self.visit = hit
-                dec = self.policy.decide(done_s, *hit)
+                dec = self.policy.decide(done_s, *hit, arrow=self.take_arrow(done_s, hit))
                 self.decision = dec
                 self.decisions.append(dict(t=done_s, junction=dec.junction, came_from=dec.came_from, move=dec.move,
                                            exit_arm=dec.exit_arm, source=dec.source, options=dec.options, note=dec.note))

@@ -70,6 +70,8 @@ def parse_command(raw):
         m = None
     if isinstance(m, dict):
         cmd, reason, cid = m.get("cmd"), str(m.get("reason") or "orchestrator"), m.get("command_id")
+        if cmd == "arrow_vote" and m.get("move") in ("left", "right", "straight") and type(m.get("frame")) is int:
+            return dict(kind=cmd, arg=(m["frame"], m["move"]), reason=reason, command_id=cid)
         if cmd == "direction" and m.get("move") in ("left", "right", "straight"):
             return dict(kind="direction", arg=m["move"], reason=reason, command_id=cid)
         if cmd in ("left", "right", "straight"):
@@ -532,8 +534,9 @@ def main():
                     stop.set("max_seconds")
                     break
                 upright = cv2.rotate(image, cv2.ROTATE_180)
-                if vision is not None:
-                    vision.offer(upright, capture, count)          # only when it is idle; never waits
+                if vision is not None and vision.offer(upright, capture, count):
+                    if hasattr(ctrl, "remember_arrow_frame"):
+                        ctrl.remember_arrow_frame(count, capture, last_est, last_sxy)
                 if rig is not None and args.sim_alias_at is not None and capture >= args.sim_alias_at \
                         and hasattr(ctrl, "_rotate_map"):
                     ctrl._rotate_map(-1 if args.direction == "ccw" else 1)       # one road behind
@@ -561,6 +564,11 @@ def main():
                         events.send(t=now, type="ack", scale=speed_scale, **ack)
                     elif not has_api:
                         events.send(t=now, type="ignored", why="controller has no orchestrator API", **ack)
+                    elif kind == "arrow_vote":
+                        frame, move = arg
+                        target = ctrl.accept_arrow_vote(now, frame, move) if hasattr(ctrl, "accept_arrow_vote") else None
+                        events.send(t=now, type="ack" if target else "ignored", frame=frame,
+                                    move=move, approach=target, **ack)
                     elif kind == "direction":
                         ctrl.push_direction(now, arg)
                         events.send(t=now, type="ack", move=arg, **ack)
