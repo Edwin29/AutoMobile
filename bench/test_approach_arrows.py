@@ -55,3 +55,10 @@ class ApproachArrowTests(unittest.TestCase):
         self.assertIsNone(self.ctrl.accept_arrow_vote(3, 1, "left"))
         self.ctrl.visit = ("west", "N")
         self.assertIsNone(self.vote(2))
+
+    def test_policy_rejects_vote_from_another_arm_or_junction(self):
+        arrow = dict(move="left", source="vision_approach", junction="north", arm="E")
+        for junction, arm in (("west", "N"), ("north", "W")):
+            decision = self.ctrl.policy.decide(5, junction, arm, arrow=arrow)
+            self.assertEqual((decision.move, decision.source), ("straight", "default"))
+        self.assertEqual(self.ctrl.policy.decide(5, "north", "E", arrow=arrow).move, "left")

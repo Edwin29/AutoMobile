@@ -95,6 +95,8 @@ class JunctionPolicy:
         for c in [c for c in self.queue if t - c["t"] > self.max_command_age_s]:
             self.log.append(dict(t=float(t), event="command_expired", move=c["move"], queued_t=c["t"]))
         self.queue = [c for c in self.queue if t - c["t"] <= self.max_command_age_s]
+        if arrow and (arrow["junction"], arrow["arm"]) != (junction, came_from):
+            arrow = None
         if self.kind(junction, came_from) != "crossroad" and (self.queue or arrow):
             c = self.queue.pop(0) if self.queue else arrow
             if c["move"] in opts:

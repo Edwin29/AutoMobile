@@ -281,7 +281,8 @@ class HybridMission(HybridJunction):
                 dec = self.policy.decide(done_s, *hit, arrow=self.take_arrow(done_s, hit))
                 self.decision = dec
                 self.decisions.append(dict(t=done_s, junction=dec.junction, came_from=dec.came_from, move=dec.move,
-                                           exit_arm=dec.exit_arm, source=dec.source, options=dec.options, note=dec.note))
+                                           exit_arm=dec.exit_arm, source=dec.source, options=dec.options,
+                                           note=dec.note, command=dec.command))
                 if dec.move != "straight":
                     route, plans = self._plans(dec.junction, dec.came_from, dec.move)
                     self.begin(route, plans)
